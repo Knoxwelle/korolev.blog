@@ -1,0 +1,59 @@
+baseURL = 'https://tinydev.blog/'
+languageCode = 'en-us'
+title = 'Tiny Dev Blog'
+# theme = 'triple-hyde'
+theme ="hyde-hyde"
+# copyright="© Stan Korolev"
+# googleAnalytics = ""
+# enableEmoji=true
+# enableRobotsTXT=true
+# pygmentsUseClasses=true
+# pygmentsCodeFences=true
+
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+
+
+[params]
+# author = "Author"
+# title = "Title"
+  description = "101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC"
+    # sub = "I'm a Web Developer and Entrepreneur"
+  mainSections = ["posts"]
+
+
+
+[params.social]
+linkedin = "korolevst"
+instagram= "knoxwelle"
+gravatar = "korolevst@gmail.com"
+# twitter = "htr3n"
+# keybase = "htr3n"
+# github = "htr3n"
+
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Resume"
+    identifier = "resume"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"
