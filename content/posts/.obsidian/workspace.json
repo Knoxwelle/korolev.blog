@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ce46b07bf1a3b64d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
         ]
       }
@@ -146,7 +156,7 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "258758c605b1cc4b",
+  "active": "89df4a2ec17c302d",
   "lastOpenFiles": [
     "Без названия.canvas",
     "info.md"

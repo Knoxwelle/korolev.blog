@@ -5,4 +5,4 @@ draft = false
 +++
 ![image](/images/Bangkok.png)
 
-Text for test 1
+Text for test 1#2
