@@ -1,0 +1,258 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9335,        250]
+NotebookOptionsPosition[      8408,        225]
+NotebookOutlinePosition[      8813,        241]
+CellTagsIndexPosition[      8770,        238]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"fileList", "=", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"\"\<*.md\>\"", ",", 
+    RowBox[{"File", "[", 
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+       "\"\<content\\\\posts\>\""}], "]"}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.930071308470366*^9, 3.9300713250538263`*^9}, 
+   3.9300713659462986`*^9},
+ CellLabel->
+  "In[158]:=",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\info 1.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\info 2.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\info.md\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.9300713698977394`*^9, 3.9300714142771993`*^9, {3.9300719625990295`*^9, 
+   3.9300719817056694`*^9}, 3.9301494944575987`*^9, 3.930151263013115*^9, {
+   3.9301514083235703`*^9, 3.93015143023969*^9}, 3.930151461313922*^9},
+ CellLabel->
+  "Out[158]=",ExpressionUUID->"daeb7295-47a9-41e9-a84d-ad872bc790c5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"i", "=", "1"}], ",", 
+    RowBox[{"i", "<=", 
+     RowBox[{"Length", "[", "fileList", "]"}]}], ",", 
+    RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"file", "=", 
+      RowBox[{"fileList", "[", 
+       RowBox[{"[", "i", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"i", ",", "\"\<. \>\"", ",", "file"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"txtFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{
+           RowBox[{"FileBaseName", "[", "file", "]"}], ",", "\"\<.txt\>\""}], 
+          "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"file", ",", "txtFile"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"content", "=", 
+      RowBox[{"Import", "[", "txtFile", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"header", "=", 
+      RowBox[{"First", "[", 
+       RowBox[{"StringCases", "[", 
+        RowBox[{"content", ",", 
+         RowBox[{"\"\<+++\>\"", "~~", "x___", "~~", "\"\<+++\>\""}]}], " ", 
+        "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"text", "=", 
+      RowBox[{"StringTrim", "[", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"content", ",", " ", 
+         RowBox[{"header", "->", "\"\<\>\""}]}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"words0", "=", 
+      RowBox[{"WordCounts", "[", 
+       RowBox[{"text", ",", "1", ",", 
+        RowBox[{"IgnoreCase", "\[Rule]", "True"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"keys0", "=", 
+      RowBox[{"Keys", "[", "words0", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"keys1", "=", 
+      RowBox[{"DeleteStopwords", "[", "keys0", "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"nouns", "=", 
+      RowBox[{"Flatten", "[", 
+       RowBox[{"TextCases", "[", 
+        RowBox[{"keys1", ",", "\"\<Noun\>\""}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"addTags", "=", 
+      RowBox[{"Take", "[", 
+       RowBox[{"nouns", ",", 
+        RowBox[{"Min", "[", 
+         RowBox[{
+          RowBox[{"Length", "[", "nouns", "]"}], ",", "5"}], "]"}]}], "]"}]}],
+      ";", "\[IndentingNewLine]", 
+     RowBox[{"oldTags", "=", 
+      RowBox[{"StringTrim", "[", 
+       RowBox[{"StringSplit", "[", 
+        RowBox[{
+         RowBox[{"StringReplace", "[", 
+          RowBox[{
+           RowBox[{"First", "[", 
+            RowBox[{"StringCases", "[", 
+             RowBox[{"content", ",", 
+              RowBox[{
+               RowBox[{"\"\<tags = [\>\"", "~~", "x___", "~~", "\"\<]\>\""}], 
+               "->", "x"}]}], " ", "]"}], "]"}], ",", 
+           RowBox[{"\"\<\\\"\>\"", "->", "\"\<\>\""}]}], "]"}], ",", 
+         "\"\<, \>\""}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"newTags", "=", 
+      RowBox[{"DeleteDuplicates", "[", 
+       RowBox[{"Join", "[", 
+        RowBox[{"oldTags", ",", "properNouns", ",", " ", "addTags"}], "]"}], 
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"newTags", "=", 
+      RowBox[{"Map", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringJoin", "[", 
+          RowBox[{"\"\<\\\"\>\"", ",", "#", ",", "\"\<\\\"\>\""}], "]"}], 
+         "&"}], ",", "newTags"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"newHeader", "=", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{"header", ",", " ", 
+        RowBox[{
+         RowBox[{"\"\<tags = [\>\"", "~~", "x___", "~~", "\"\<]\>\""}], "->", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{"\"\<tags = [\>\"", ",", 
+           RowBox[{"StringRiffle", "[", 
+            RowBox[{"newTags", ",", "\"\<, \>\""}], "]"}], ",", "\"\<]\>\""}],
+           "]"}]}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"newContent", "=", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"newHeader", ",", "\"\<\\n\>\"", ",", " ", "text"}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{"txtFile", ",", "newContent"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"txtFile", ",", "file"}], "]"}], ";"}]}], "\[IndentingNewLine]",
+    "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.930150772384257*^9, 3.930150875575214*^9}, {
+  3.9301509291749845`*^9, 3.9301509312001143`*^9}, {3.930150962609373*^9, 
+  3.9301510104168696`*^9}, {3.9301510417497807`*^9, 3.9301510626688724`*^9}, {
+  3.930151136148261*^9, 3.930151251775182*^9}, {3.9301513747159805`*^9, 
+  3.930151403185192*^9}},
+ CellLabel->
+  "In[159]:=",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "1", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info 1.md\"\>"}],
+  SequenceForm[
+  1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info 1.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9},
+ CellLabel->
+  "During evaluation of \
+In[159]:=",ExpressionUUID->"a3adfb7a-de34-4814-85e3-e68138077b5d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "2", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info 2.md\"\>"}],
+  SequenceForm[
+  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info 2.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514619333277`*^9},
+ CellLabel->
+  "During evaluation of \
+In[159]:=",ExpressionUUID->"64f03be3-3fd1-492a-b5d1-20e19bbffb60"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "3", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info.md\"\>"}],
+  SequenceForm[
+  3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.930151462948598*^9},
+ CellLabel->
+  "During evaluation of \
+In[159]:=",ExpressionUUID->"2b65f74f-9b77-4ee7-bdcc-54724dad08e1"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{752.25, 624.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"bc3582ce-1cd5-4583-ac8d-93f0de389e9e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 481, 12, 32, "Input",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
+Cell[1064, 36, 734, 13, 53, "Output",ExpressionUUID->"daeb7295-47a9-41e9-a84d-ad872bc790c5"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1835, 54, 4810, 114, 556, "Input",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+Cell[CellGroupData[{
+Cell[6670, 172, 570, 15, 18, "Print",ExpressionUUID->"a3adfb7a-de34-4814-85e3-e68138077b5d"],
+Cell[7243, 189, 570, 15, 18, "Print",ExpressionUUID->"64f03be3-3fd1-492a-b5d1-20e19bbffb60"],
+Cell[7816, 206, 564, 15, 18, "Print",ExpressionUUID->"2b65f74f-9b77-4ee7-bdcc-54724dad08e1"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

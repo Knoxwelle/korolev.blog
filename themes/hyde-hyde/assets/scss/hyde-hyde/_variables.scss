@@ -23,7 +23,7 @@ $root-font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont
 
 // poole's variables
 $root-font-size: 17px;
-$root-font-weight: 400;
+$root-font-weight: 300;
 // golden ratio https://grtcalculator.com
 // 18px @ 33 px, 20px @ 33 px ~ 1.667em
 $root-line-height: 1.667em;
@@ -95,7 +95,7 @@ $site__title-font-size: 2.5rem;
 $copyright-font-size: $font-scale-dot7;
 
 // content
-$content-max-width: 38rem; // @ ~70 CPL
+$content-max-width: 44rem; // @ ~70 CPL //were 38rem
 $content-margin-left: $sidebar-width + 2rem;
 $content-margin-right: 2rem;
 

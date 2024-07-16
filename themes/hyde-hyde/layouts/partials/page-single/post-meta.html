@@ -30,5 +30,11 @@
     {{ end }}
     <br/>
     <i class="fas fa-clock"></i> {{ .ReadingTime }} min read
+    <br/>
+    <div class="my-12">
+      <img src="{{ .Params.cover_image}}">
+        {{ $path := .Params.cover_image }}
+        {{ $image := resources.Get $path }}
+    </div>
 </div>
 {{ end }}

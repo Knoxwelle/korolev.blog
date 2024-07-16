@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "ae8145c683cea7a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ebfc5094ccaac8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22474f0c19d9710f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/info 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "22eb2b880e1d6f39",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e5b3ce70bfd06ba2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e45bae584dc0d28f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dcc17fc0c549f82d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6fd958bef2e00319",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7c9657b93ea64d47",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 547.5
+  },
+  "right": {
+    "id": "8bfb607b5ab592b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e994b389c643dca7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b35d41f7b4cb2a81",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/info 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "355074dab792f188",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/info 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "784b874bf7228201",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ddcf78839ec0df81",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/info 2.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "22474f0c19d9710f",
+  "lastOpenFiles": [
+    "posts/info 1.md",
+    "posts/info.md",
+    "posts/info 2.md",
+    "posts/info 1.txt",
+    "posts/info.txt",
+    "posts/info 2.txt",
+    "resume/resume.md",
+    "resume.md"
+  ]
+}

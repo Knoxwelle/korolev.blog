@@ -30,7 +30,8 @@ summarylength = 30
     # sub = "I'm a Web Developer and Entrepreneur"
   mainSections = ["posts"]
 
-
+    # Hyde theme specific setting
+#  themeColor = "theme-base-0d"
 
 [params.social]
 linkedin = "korolevst"
@@ -40,6 +41,10 @@ gravatar = "korolevst@gmail.com"
 # keybase = "htr3n"
 # github = "htr3n"
 
+[taxonomies]
+   tag = "tags"
+   category = "categories"
+
 
 ## Main Menu
 [[menu.main]]
@@ -48,12 +53,22 @@ gravatar = "korolevst@gmail.com"
     identifier = "posts"
     url = "/posts/"
 [[menu.main]]
+    name = "Categories"
+    weight = 200
+    identifier = "categories"
+    url = "/categories/"
+[[menu.main]]
+    name = "Tags"
+    weight = 300
+    identifier = "tags"
+    url = "/tags/"
+[[menu.main]]
     name = "Resume"
     identifier = "resume"
-    weight = 200
-    url = "/portfolio/"
+    weight = 400
+    url = "/resume/resume"
 [[menu.main]]
     name = "About"
     identifier = "about"
-    weight = 300
+    weight = 500
     url = "/about/"

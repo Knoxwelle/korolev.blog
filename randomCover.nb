@@ -1,0 +1,310 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     12052,        302]
+NotebookOptionsPosition[     10749,        273]
+NotebookOutlinePosition[     11156,        289]
+CellTagsIndexPosition[     11113,        286]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"fileList", "=", 
+   RowBox[{"FileNames", "[", 
+    RowBox[{"\"\<*.md\>\"", ",", 
+     RowBox[{"File", "[", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{
+        RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+        "\"\<content\\\\posts\>\""}], "]"}], "]"}]}], "]"}]}], 
+  "\n"}]], "Input",
+ CellChangeTimes->{{3.929377511216282*^9, 3.9293775228627305`*^9}, 
+   3.929377588982523*^9, 3.929378331246873*^9},
+ CellLabel->
+  "In[208]:=",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\info 1.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\info 2.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\info.md\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.929378334193079*^9, 3.9293786562634754`*^9, 3.929378904457405*^9, 
+   3.929378946482177*^9, {3.929379565494397*^9, 3.929379604346242*^9}, 
+   3.9293796731980124`*^9, 3.929380818687726*^9, 3.9293809856567774`*^9, 
+   3.9293811382594013`*^9, 3.929640668083852*^9, 3.929644250333177*^9, 
+   3.9296444050874825`*^9, 3.9296448183223104`*^9, 3.9301539546071696`*^9, 
+   3.930154033297897*^9, 3.9301540955063114`*^9, 3.9301542528701262`*^9, 
+   3.930158368252249*^9, {3.9301585023515453`*^9, 3.9301585104394445`*^9}, {
+   3.9301585821809363`*^9, 3.930158608790345*^9}, 3.930158726305622*^9, 
+   3.9301589938477936`*^9, {3.930159049372521*^9, 3.9301590765016212`*^9}},
+ CellLabel->
+  "Out[208]=",ExpressionUUID->"3903539b-e287-46c5-8cde-dab8b0060143"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"imageList", "=", 
+   RowBox[{"FileNames", "[", 
+    RowBox[{"\"\<*.jpg\>\"", ",", 
+     RowBox[{"File", "[", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{
+        RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+        "\"\<assets\\\\images\\\\cover\>\""}], "]"}], "]"}]}], "]"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.9293776005863695`*^9, 3.929377613911529*^9}, {
+  3.929377644974377*^9, 3.929377672388686*^9}, {3.92937806473219*^9, 
+  3.9293780688008766`*^9}, {3.9293782231378717`*^9, 3.9293782239618206`*^9}, {
+  3.929640622573132*^9, 3.929640627361034*^9}, {3.930158393134735*^9, 
+  3.9301583942020164`*^9}},
+ CellLabel->
+  "In[209]:=",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"\n", 
+  RowBox[{
+   RowBox[{"For", "[", 
+    RowBox[{
+     RowBox[{"i", "=", "1"}], ",", 
+     RowBox[{"i", "<=", 
+      RowBox[{"Length", "[", "fileList", "]"}]}], ",", 
+     RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"file", "=", 
+       RowBox[{"fileList", "[", 
+        RowBox[{"[", "i", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Print", "[", 
+       RowBox[{"i", ",", "\"\<. \>\"", ",", "file"}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"txtFile", "=", 
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+          RowBox[{"StringJoin", "[", 
+           RowBox[{
+            RowBox[{"FileBaseName", "[", "file", "]"}], ",", "\"\<.txt\>\""}],
+            "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"RenameFile", "[", 
+       RowBox[{"file", ",", "txtFile"}], "]"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"content", "=", 
+       RowBox[{"Import", "[", "txtFile", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"header", "=", 
+       RowBox[{"First", "[", 
+        RowBox[{"StringCases", "[", 
+         RowBox[{"content", ",", 
+          RowBox[{"\"\<+++\>\"", "~~", "x___", "~~", "\"\<+++\>\""}]}], " ", 
+         "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{"!", 
+         RowBox[{"StringContainsQ", "[", 
+          RowBox[{
+           RowBox[{"StringTrim", "[", 
+            RowBox[{"First", "[", 
+             RowBox[{"StringCases", "[", 
+              RowBox[{"content", ",", 
+               RowBox[{
+                RowBox[{
+                "\"\<cover_image='/images\>\"", "~~", "x___", "~~", 
+                 "\"\<'\>\""}], " ", "->", "x"}]}], "]"}], "]"}], "]"}], ",", 
+           "\"\</cover/\>\""}], "]"}]}], ",", 
+        RowBox[{
+         RowBox[{"RenameFile", "[", 
+          RowBox[{"txtFile", ",", "file"}], "]"}], ";", 
+         RowBox[{"Continue", "[", "]"}], ";"}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"oldImage", "=", 
+       RowBox[{"StringTrim", "[", 
+        RowBox[{"First", "[", 
+         RowBox[{"StringCases", "[", 
+          RowBox[{"content", ",", 
+           RowBox[{
+            RowBox[{
+            "\"\<cover_image='/images/cover/\>\"", "~~", "x___", "~~", 
+             "\"\<'\>\""}], " ", "->", "x"}]}], "]"}], "]"}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<oldImage = \>\"", ",", " ", "oldImage"}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"newImage", "=", 
+       RowBox[{"FileNameTake", "[", 
+        RowBox[{"RandomChoice", "[", "imageList", "]"}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Print", "[", 
+       RowBox[{"\"\<newImage = \>\"", ",", "newImage"}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"newContent", "=", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"content", ",", 
+         RowBox[{"oldImage", "->", "newImage"}]}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"Export", "[", 
+       RowBox[{"txtFile", ",", "newContent"}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"RenameFile", "[", 
+       RowBox[{"txtFile", ",", "file"}], "]"}], ";"}]}], 
+    "\[IndentingNewLine]", "]"}], ";"}]}]], "Input",
+ CellChangeTimes->{{3.929377511216282*^9, 3.9293775228627305`*^9}, 
+   3.929377588982523*^9, {3.929377683881672*^9, 3.9293776850002003`*^9}, {
+   3.9293778556915264`*^9, 3.929377876090268*^9}, {3.929378777353448*^9, 
+   3.9293788444966807`*^9}, {3.9293789393296213`*^9, 3.929378940940494*^9}, {
+   3.929379214624132*^9, 3.9293792240799265`*^9}, {3.9293794694537277`*^9, 
+   3.9293795589252295`*^9}, {3.929379659675088*^9, 3.9293796681032567`*^9}, {
+   3.929643642735235*^9, 3.929643694374076*^9}, {3.9296437774331036`*^9, 
+   3.9296438249989753`*^9}, {3.9296439122368956`*^9, 
+   3.9296439348679047`*^9}, {3.929644139474827*^9, 3.929644154210293*^9}, {
+   3.9296442289198885`*^9, 3.929644235145958*^9}, {3.9296443482368026`*^9, 
+   3.9296443940710073`*^9}, {3.929644755607081*^9, 3.9296448078714094`*^9}, {
+   3.92964485316043*^9, 3.929644856250193*^9}, 3.9296450090244255`*^9, {
+   3.9296452440163617`*^9, 3.929645247200281*^9}, {3.9301538068029904`*^9, 
+   3.9301539473875127`*^9}, {3.9301539998510747`*^9, 3.930154028223132*^9}, {
+   3.930154075195853*^9, 3.930154090837496*^9}, 3.9301579515104103`*^9, {
+   3.9301579924895425`*^9, 3.930157997490374*^9}, {3.9301580624455137`*^9, 
+   3.930158096005273*^9}, {3.930158152649557*^9, 3.9301581565018206`*^9}, {
+   3.9301582437562428`*^9, 3.930158358454812*^9}, {3.930158578889846*^9, 
+   3.930158602716262*^9}, {3.9301586331905985`*^9, 3.930158637980011*^9}, {
+   3.9301587780743427`*^9, 3.9301587844855614`*^9}, {3.930159032510434*^9, 
+   3.930159071271784*^9}, {3.930159133992364*^9, 3.9301591347471724`*^9}, {
+   3.930159308722345*^9, 
+   3.9301593096839943`*^9}},ExpressionUUID->"1cb92565-49b8-449d-92b1-\
+a7ca5d8cb900"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "1", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info 1.md\"\>"}],
+  SequenceForm[
+  1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info 1.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.9301590767596607`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[210]:=",ExpressionUUID->"1f22bd64-6afa-4172-b553-0a7c20eeac71"],
+
+Cell[BoxData["False"], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.930159076867741*^9}},
+ CellLabel->
+  "During evaluation of \
+In[210]:=",ExpressionUUID->"96c15c4c-4bb7-41cb-af5c-ae210241cf18"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "2", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info 2.md\"\>"}],
+  SequenceForm[
+  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info 2.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.9301590769142942`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[210]:=",ExpressionUUID->"1b4f8966-cb83-4490-b25b-ec61b7611d88"],
+
+Cell[BoxData["False"], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.9301590769448786`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[210]:=",ExpressionUUID->"be53c40b-7aed-4318-b9ea-5b7f036ce5ed"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "3", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info.md\"\>"}],
+  SequenceForm[
+  3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.9301590769709225`*^9}},
+ CellLabel->
+  "During evaluation of \
+In[210]:=",ExpressionUUID->"890c3f4a-1363-439e-80d1-9ef75cad0d4c"],
+
+Cell[BoxData["False"], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.930159076995747*^9}},
+ CellLabel->
+  "During evaluation of \
+In[210]:=",ExpressionUUID->"7df9d84d-10a6-41b1-94e6-87b6e8430380"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{466.5, 696.},
+WindowMargins->{{Automatic, 298.5}, {Automatic, 42}},
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"45bbeab9-7a51-44f3-bf5f-98f36fe76e0b"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 530, 14, 89, "Input",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
+Cell[1113, 38, 1175, 19, 96, "Output",ExpressionUUID->"3903539b-e287-46c5-8cde-dab8b0060143"]
+}, Open  ]],
+Cell[2303, 60, 741, 17, 59, "Input",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
+Cell[CellGroupData[{
+Cell[3069, 81, 5070, 108, 639, "Input",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
+Cell[CellGroupData[{
+Cell[8164, 193, 594, 16, 18, "Print",ExpressionUUID->"1f22bd64-6afa-4172-b553-0a7c20eeac71"],
+Cell[8761, 211, 254, 6, 18, "Print",ExpressionUUID->"96c15c4c-4bb7-41cb-af5c-ae210241cf18"],
+Cell[9018, 219, 594, 16, 18, "Print",ExpressionUUID->"1b4f8966-cb83-4490-b25b-ec61b7611d88"],
+Cell[9615, 237, 256, 6, 18, "Print",ExpressionUUID->"be53c40b-7aed-4318-b9ea-5b7f036ce5ed"],
+Cell[9874, 245, 590, 16, 18, "Print",ExpressionUUID->"890c3f4a-1363-439e-80d1-9ef75cad0d4c"],
+Cell[10467, 263, 254, 6, 18, "Print",ExpressionUUID->"7df9d84d-10a6-41b1-94e6-87b6e8430380"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

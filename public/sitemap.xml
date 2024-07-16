@@ -2,17 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/info/</loc>
-    <lastmod>2024-06-15T17:28:23-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-15T17:28:23-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-15T17:28:23-07:00</lastmod>
+    <loc>http://localhost:1313/categories/automobiles/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/customer/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/info/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/planes/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/project/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/solution/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/technology/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/trains/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/work/</loc>
+    <lastmod>2024-07-15T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/info-2/</loc>
+    <lastmod>2024-07-13T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/john-candy/</loc>
+    <lastmod>2024-07-13T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/steve-martin/</loc>
+    <lastmod>2024-07-13T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/info-1/</loc>
+    <lastmod>2024-07-10T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cv/</loc>
+    <lastmod>2024-07-05T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/resume/</loc>
+    <lastmod>2024-07-05T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/resume/</loc>
+    <lastmod>2024-07-05T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resume/resume/</loc>
+    <lastmod>2024-07-05T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resume/</loc>
+    <lastmod>2024-07-05T00:00:00-07:00</lastmod>
   </url>
 </urlset>

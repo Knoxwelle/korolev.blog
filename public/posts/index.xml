@@ -6,14 +6,28 @@
     <description>Recent content in Posts on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Jun 2024 17:28:23 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Info</title>
+      <title>Do not put your resume above the interests of the client</title>
       <link>http://localhost:1313/posts/info/</link>
-      <pubDate>Sat, 15 Jun 2024 17:28:23 -0700</pubDate>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/info/</guid>
-      <description>Text for test</description>
+      <description>re still forced to participate in such a project?It will be better for you and everyone else if you choose technology for the benefit of the customer rather than your resume.</description>
+    </item>
+    <item>
+      <title>Info 2</title>
+      <link>http://localhost:1313/posts/info-2/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/info-2/</guid>
+      <description>image re still forced to participate in such a project?It will be better for you and everyone else if you choose technology for the benefit of the customer rather than your resume.</description>
+    </item>
+    <item>
+      <title>Info 1</title>
+      <link>http://localhost:1313/posts/info-1/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/info-1/</guid>
+      <description>re still forced to participate in such a project?It will be better for you and everyone else if you choose technology for the benefit of the customer rather than your resume.</description>
     </item>
   </channel>
 </rss>
