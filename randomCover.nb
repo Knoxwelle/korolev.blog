@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     12052,        302]
-NotebookOptionsPosition[     10749,        273]
-NotebookOutlinePosition[     11156,        289]
-CellTagsIndexPosition[     11113,        286]
+NotebookDataLength[     17091,        431]
+NotebookOptionsPosition[     15043,        391]
+NotebookOutlinePosition[     15451,        407]
+CellTagsIndexPosition[     15408,        404]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,8 +33,7 @@ Cell[BoxData[
   "\n"}]], "Input",
  CellChangeTimes->{{3.929377511216282*^9, 3.9293775228627305`*^9}, 
    3.929377588982523*^9, 3.929378331246873*^9},
- CellLabel->
-  "In[208]:=",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
+ CellLabel->"In[4]:=",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -53,9 +52,9 @@ tinydev\\\\content\\\\posts\\\\info 1.md\"\>",
    3.930154033297897*^9, 3.9301540955063114`*^9, 3.9301542528701262`*^9, 
    3.930158368252249*^9, {3.9301585023515453`*^9, 3.9301585104394445`*^9}, {
    3.9301585821809363`*^9, 3.930158608790345*^9}, 3.930158726305622*^9, 
-   3.9301589938477936`*^9, {3.930159049372521*^9, 3.9301590765016212`*^9}},
- CellLabel->
-  "Out[208]=",ExpressionUUID->"3903539b-e287-46c5-8cde-dab8b0060143"]
+   3.9301589938477936`*^9, {3.930159049372521*^9, 3.9301590765016212`*^9}, 
+   3.9301655060460663`*^9, 3.930165630060402*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"faef13aa-483b-4a41-9d28-ffa3cd3e65d5"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -67,15 +66,15 @@ Cell[BoxData[
       RowBox[{"StringJoin", "[", 
        RowBox[{
         RowBox[{"NotebookDirectory", "[", "]"}], ",", 
-        "\"\<assets\\\\images\\\\cover\>\""}], "]"}], "]"}]}], "]"}]}], 
+        "\"\<content\\\\images\\\\cover\>\""}], "]"}], "]"}]}], "]"}]}], 
   ";"}]], "Input",
  CellChangeTimes->{{3.9293776005863695`*^9, 3.929377613911529*^9}, {
   3.929377644974377*^9, 3.929377672388686*^9}, {3.92937806473219*^9, 
   3.9293780688008766`*^9}, {3.9293782231378717`*^9, 3.9293782239618206`*^9}, {
   3.929640622573132*^9, 3.929640627361034*^9}, {3.930158393134735*^9, 
-  3.9301583942020164`*^9}},
- CellLabel->
-  "In[209]:=",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
+  3.9301583942020164`*^9}, {3.9301656634949026`*^9, 
+  3.9301656651222734`*^9}},ExpressionUUID->"6df45464-0afb-4d19-81ce-\
+421adcd33e53"],
 
 Cell[CellGroupData[{
 
@@ -185,9 +184,8 @@ Cell[BoxData[
    3.930158602716262*^9}, {3.9301586331905985`*^9, 3.930158637980011*^9}, {
    3.9301587780743427`*^9, 3.9301587844855614`*^9}, {3.930159032510434*^9, 
    3.930159071271784*^9}, {3.930159133992364*^9, 3.9301591347471724`*^9}, {
-   3.930159308722345*^9, 
-   3.9301593096839943`*^9}},ExpressionUUID->"1cb92565-49b8-449d-92b1-\
-a7ca5d8cb900"],
+   3.930159308722345*^9, 3.9301593096839943`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
 
 Cell[CellGroupData[{
 
@@ -204,18 +202,55 @@ posts\\info 1.md"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
-   3.9301590767596607`*^9}},
+   3.9301590767596607`*^9}, 3.9301655074428487`*^9},
  CellLabel->
   "During evaluation of \
-In[210]:=",ExpressionUUID->"1f22bd64-6afa-4172-b553-0a7c20eeac71"],
+In[3]:=",ExpressionUUID->"b887e048-8a74-43f8-bea2-1db58df44684"],
 
-Cell[BoxData["False"], "Print",
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldImage = \"\>", 
+   "\[InvisibleSpace]", "\<\"knoxwelle__2016-11-19T135513.000Z.jpg\"\>"}],
+  SequenceForm["oldImage = ", "knoxwelle__2016-11-19T135513.000Z.jpg"],
+  Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
-   3.930159076867741*^9}},
+   3.9301590767596607`*^9}, 3.930165507882779*^9},
  CellLabel->
   "During evaluation of \
-In[210]:=",ExpressionUUID->"96c15c4c-4bb7-41cb-af5c-ae210241cf18"],
+In[3]:=",ExpressionUUID->"e60234c9-4f9a-4a3a-871d-cb06f5bee777"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "RandomChoice", "lrwl", 
+   "\"The items for choice \\!\\(\\*RowBox[{\\\"{\\\", \\\"}\\\"}]\\) should \
+be a non-empty list or a rule weights -> choices.\"", 2, 3, 1, 
+   17525939571989360371, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.930165508542981*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"d59276fa-3ace-42ad-86c9-4517a9419278"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newImage = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"FileNameTake", "[", 
+    RowBox[{"RandomChoice", "[", 
+     RowBox[{"{", "}"}], "]"}], "]"}]}],
+  SequenceForm["newImage = ", 
+   FileNameTake[
+    RandomChoice[{}]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.9301590767596607`*^9}, 3.9301655091143503`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"03c6ec82-9e11-465b-b801-2d6ca296c20f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -230,18 +265,55 @@ posts\\info 2.md"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
-   3.9301590769142942`*^9}},
+   3.9301590767596607`*^9}, 3.930165509175253*^9},
  CellLabel->
   "During evaluation of \
-In[210]:=",ExpressionUUID->"1b4f8966-cb83-4490-b25b-ec61b7611d88"],
+In[3]:=",ExpressionUUID->"d7871471-6923-446e-a180-e470ca3f4586"],
 
-Cell[BoxData["False"], "Print",
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldImage = \"\>", 
+   "\[InvisibleSpace]", "\<\"knoxwelle__2016-11-19T135513.000Z.jpg\"\>"}],
+  SequenceForm["oldImage = ", "knoxwelle__2016-11-19T135513.000Z.jpg"],
+  Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
-   3.9301590769448786`*^9}},
+   3.9301590767596607`*^9}, 3.9301655092600307`*^9},
  CellLabel->
   "During evaluation of \
-In[210]:=",ExpressionUUID->"be53c40b-7aed-4318-b9ea-5b7f036ce5ed"],
+In[3]:=",ExpressionUUID->"8aa8d626-679a-465b-b933-5c6271fcc3c4"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "RandomChoice", "lrwl", 
+   "\"The items for choice \\!\\(\\*RowBox[{\\\"{\\\", \\\"}\\\"}]\\) should \
+be a non-empty list or a rule weights -> choices.\"", 2, 3, 2, 
+   17525939571989360371, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9301655093061566`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"24c81889-a45b-4de4-9c3d-917b67769729"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newImage = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"FileNameTake", "[", 
+    RowBox[{"RandomChoice", "[", 
+     RowBox[{"{", "}"}], "]"}], "]"}]}],
+  SequenceForm["newImage = ", 
+   FileNameTake[
+    RandomChoice[{}]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.9301590767596607`*^9}, 3.9301655097190332`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"160900f9-18a1-4877-9c12-23123b29bccb"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -256,23 +328,69 @@ posts\\info.md"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
-   3.9301590769709225`*^9}},
+   3.9301590767596607`*^9}, 3.930165509756025*^9},
  CellLabel->
   "During evaluation of \
-In[210]:=",ExpressionUUID->"890c3f4a-1363-439e-80d1-9ef75cad0d4c"],
+In[3]:=",ExpressionUUID->"5808d57c-d800-42df-a862-0ea4a1331d40"],
 
-Cell[BoxData["False"], "Print",
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldImage = \"\>", 
+   "\[InvisibleSpace]", "\<\"knoxwelle__2016-11-19T135513.000Z.jpg\"\>"}],
+  SequenceForm["oldImage = ", "knoxwelle__2016-11-19T135513.000Z.jpg"],
+  Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
-   3.930159076995747*^9}},
+   3.9301590767596607`*^9}, 3.9301655098666534`*^9},
  CellLabel->
   "During evaluation of \
-In[210]:=",ExpressionUUID->"7df9d84d-10a6-41b1-94e6-87b6e8430380"]
-}, Open  ]]
+In[3]:=",ExpressionUUID->"0d63f35f-19f2-400c-9416-a49229ad6c60"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "RandomChoice", "lrwl", 
+   "\"The items for choice \\!\\(\\*RowBox[{\\\"{\\\", \\\"}\\\"}]\\) should \
+be a non-empty list or a rule weights -> choices.\"", 2, 3, 3, 
+   17525939571989360371, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9301655099086895`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"c371ce09-eab5-43e0-a41a-59be838cf80e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"RandomChoice\\\", \
+\\\"::\\\", \\\"lrwl\\\"}], \\\"MessageName\\\"]\\) will be suppressed during \
+this calculation.\"", 2, 3, 4, 17525939571989360371, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.930165510185566*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"5022f5ce-891b-4554-9edc-3ccd84a38854"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newImage = \"\>", "\[InvisibleSpace]", 
+   RowBox[{"FileNameTake", "[", 
+    RowBox[{"RandomChoice", "[", 
+     RowBox[{"{", "}"}], "]"}], "]"}]}],
+  SequenceForm["newImage = ", 
+   FileNameTake[
+    RandomChoice[{}]]],
+  Editable->False]], "Print",
+ CellChangeTimes->{
+  3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
+   3.9301590767596607`*^9}, 3.930165510317828*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"6e46001f-06f0-4a3f-b5c3-98d5e2fabc08"]
 }, Open  ]]
 },
-WindowSize->{466.5, 696.},
-WindowMargins->{{Automatic, 298.5}, {Automatic, 42}},
+WindowSize->{466.5, 687.75},
+WindowMargins->{{Automatic, 298.5}, {Automatic, 0}},
 FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"45bbeab9-7a51-44f3-bf5f-98f36fe76e0b"
@@ -289,20 +407,31 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 530, 14, 89, "Input",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
-Cell[1113, 38, 1175, 19, 96, "Output",ExpressionUUID->"3903539b-e287-46c5-8cde-dab8b0060143"]
+Cell[580, 22, 525, 13, 89, "Input",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
+Cell[1108, 37, 1220, 19, 122, "Output",ExpressionUUID->"faef13aa-483b-4a41-9d28-ffa3cd3e65d5"]
 }, Open  ]],
-Cell[2303, 60, 741, 17, 59, "Input",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
+Cell[2343, 59, 769, 17, 59, "Input",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
 Cell[CellGroupData[{
-Cell[3069, 81, 5070, 108, 639, "Input",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
+Cell[3137, 80, 5087, 107, 639, "Input",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
 Cell[CellGroupData[{
-Cell[8164, 193, 594, 16, 18, "Print",ExpressionUUID->"1f22bd64-6afa-4172-b553-0a7c20eeac71"],
-Cell[8761, 211, 254, 6, 18, "Print",ExpressionUUID->"96c15c4c-4bb7-41cb-af5c-ae210241cf18"],
-Cell[9018, 219, 594, 16, 18, "Print",ExpressionUUID->"1b4f8966-cb83-4490-b25b-ec61b7611d88"],
-Cell[9615, 237, 256, 6, 18, "Print",ExpressionUUID->"be53c40b-7aed-4318-b9ea-5b7f036ce5ed"],
-Cell[9874, 245, 590, 16, 18, "Print",ExpressionUUID->"890c3f4a-1363-439e-80d1-9ef75cad0d4c"],
-Cell[10467, 263, 254, 6, 18, "Print",ExpressionUUID->"7df9d84d-10a6-41b1-94e6-87b6e8430380"]
-}, Open  ]]
+Cell[8249, 191, 616, 16, 18, "Print",ExpressionUUID->"b887e048-8a74-43f8-bea2-1db58df44684"],
+Cell[8868, 209, 489, 11, 18, "Print",ExpressionUUID->"e60234c9-4f9a-4a3a-871d-cb06f5bee777"]
+}, Open  ]],
+Cell[9372, 223, 420, 10, 22, "Message",ExpressionUUID->"d59276fa-3ace-42ad-86c9-4517a9419278"],
+Cell[CellGroupData[{
+Cell[9817, 237, 545, 15, 18, "Print",ExpressionUUID->"03c6ec82-9e11-465b-b801-2d6ca296c20f"],
+Cell[10365, 254, 614, 16, 18, "Print",ExpressionUUID->"d7871471-6923-446e-a180-e470ca3f4586"],
+Cell[10982, 272, 491, 11, 18, "Print",ExpressionUUID->"8aa8d626-679a-465b-b933-5c6271fcc3c4"]
+}, Open  ]],
+Cell[11488, 286, 422, 10, 22, "Message",ExpressionUUID->"24c81889-a45b-4de4-9c3d-917b67769729"],
+Cell[CellGroupData[{
+Cell[11935, 300, 545, 15, 18, "Print",ExpressionUUID->"160900f9-18a1-4877-9c12-23123b29bccb"],
+Cell[12483, 317, 610, 16, 18, "Print",ExpressionUUID->"5808d57c-d800-42df-a862-0ea4a1331d40"],
+Cell[13096, 335, 491, 11, 18, "Print",ExpressionUUID->"0d63f35f-19f2-400c-9416-a49229ad6c60"]
+}, Open  ]],
+Cell[13602, 349, 422, 10, 22, "Message",ExpressionUUID->"c371ce09-eab5-43e0-a41a-59be838cf80e"],
+Cell[14027, 361, 454, 10, 22, "Message",ExpressionUUID->"5022f5ce-891b-4554-9edc-3ccd84a38854"],
+Cell[14484, 373, 543, 15, 18, "Print",ExpressionUUID->"6e46001f-06f0-4a3f-b5c3-98d5e2fabc08"]
 }, Open  ]]
 }
 ]

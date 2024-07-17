@@ -1,39 +1,62 @@
 {
   "main": {
-    "id": "2c77e5235496f1a0",
+    "id": "226bbabc75c2fb96",
     "type": "split",
     "children": [
       {
-        "id": "4affcbaa6c649271",
+        "id": "db66d4fee76454ba",
         "type": "tabs",
         "children": [
           {
-            "id": "b620a05de35c143b",
+            "id": "89df4a2ec17c302d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/info 2.md",
+                "file": "info.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "f0c00338d2cdf973",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "info 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce46b07bf1a3b64d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a5f0daee8b5249e6",
+    "id": "2fa8f19bd048f311",
     "type": "split",
     "children": [
       {
-        "id": "ea22e5b3c325f09c",
+        "id": "64beb762bcff4a8f",
         "type": "tabs",
         "children": [
           {
-            "id": "154ff832aca75efb",
+            "id": "258758c605b1cc4b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +66,7 @@
             }
           },
           {
-            "id": "f8fac548194ac68f",
+            "id": "8d7738dd124fabb4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +81,7 @@
             }
           },
           {
-            "id": "81ed4e426435bc4d",
+            "id": "598182968194cc49",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -72,20 +95,20 @@
     "width": 300
   },
   "right": {
-    "id": "45775cd4cc832aed",
+    "id": "ca18eca83c9cd840",
     "type": "split",
     "children": [
       {
-        "id": "cc25f5abf132c807",
+        "id": "2ee419bd6b733f61",
         "type": "tabs",
         "children": [
           {
-            "id": "d93a169373db6edc",
+            "id": "b664b03c0a59c03d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/info 2.md",
+                "file": "info 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +120,19 @@
             }
           },
           {
-            "id": "f8401c9771697d3c",
+            "id": "2afa8ca1422bcb61",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/info 2.md",
+                "file": "info 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "cb2d644712a987ba",
+            "id": "e4afd053fbd4a8b0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,12 +143,12 @@
             }
           },
           {
-            "id": "4e36d1721f5e1c80",
+            "id": "8ddd8525480d23a0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/info 2.md"
+                "file": "info 1.md"
               }
             }
           }
@@ -146,12 +169,11 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "b620a05de35c143b",
+  "active": "f0c00338d2cdf973",
   "lastOpenFiles": [
-    "posts/info 1.md",
-    "posts/info.md",
-    "posts/info 2.txt",
-    "posts/info 1.txt",
-    "posts/info 2.md"
+    "info.md",
+    "info 1.md",
+    "Без названия.md",
+    "Без названия.canvas"
   ]
 }
