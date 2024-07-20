@@ -16,7 +16,7 @@ theme ="hyde-hyde"
 # googleAnalytics = "your-google-analytics-id"
 # enableRobotsTXT = true
 
-summarylength = 30
+summarylength = 123
 
 #paginate = 5
 

@@ -1,0 +1,1328 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     74387,       1320]
+NotebookOptionsPosition[     70821,       1250]
+NotebookOutlinePosition[     71254,       1267]
+CellTagsIndexPosition[     71211,       1264]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"command", "=", 
+  RowBox[{"StringJoin", "[", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", 
+    "\"\<quillbot-api\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.930249548578822*^9, {3.930251077035088*^9, 3.9302510774660482`*^9}},
+ CellLabel->"In[86]:=",ExpressionUUID->"4b0c17e3-517f-45c1-bee9-617f82811df8"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\quillbot-api\"\>"], "Output",
+ CellChangeTimes->{3.930251083366322*^9, 3.930482937184561*^9},
+ CellLabel->"Out[86]=",ExpressionUUID->"8026ea41-8e47-4b75-9c3b-e997da60b90c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RunProcess", "[", 
+   RowBox[{"$SystemShell", ",", "\"\<StandardOutput\>\"", ",", "\"\<ls\>\""}],
+    "]"}], "\[IndentingNewLine]", "\n"}]], "Input",
+ CellChangeTimes->{{3.9302483923131027`*^9, 3.9302483940923033`*^9}, {
+   3.930248425826434*^9, 3.9302484349477196`*^9}, {3.9302484902702165`*^9, 
+   3.930248504480218*^9}, 3.9302485741991615`*^9, {3.930249476609665*^9, 
+   3.9302494779717693`*^9}, {3.930249514748198*^9, 3.9302495161642504`*^9}, {
+   3.9302495813070507`*^9, 3.930249583314172*^9}, {3.9302496420109053`*^9, 
+   3.930249741663951*^9}},
+ CellLabel->"In[88]:=",ExpressionUUID->"4e94de09-9e61-4dcc-a47a-9728d4122a1c"],
+
+Cell[BoxData["\<\"Microsoft Windows [Version 10.0.22621.3880]\\r\\n(c) \.8a\
+\[RegisteredTrademark]\[AGrave]\.af\[RegisteredTrademark]\[AGrave]\
+\[NonBreakingSpace]\[AE]\[DoubleDot]\[IDoubleDot] \.8c\[NonBreakingSpace]\
+\[Copyright]\.aa\[AGrave]\[RegisteredTrademark]\[AAcute]\[RegisteredTrademark]\
+\[ADoubleDot]\[AHat] (Microsoft Corporation). \.82\[AAcute]\[Yen] \.af\
+\[AGrave]\[NonBreakingSpace]\[Cent]\[NonBreakingSpace] \[Section]\
+\[NonBreakingSpace]\[EAcute]\[DoubleDot]\[EAcute]\[Yen]\[DiscretionaryHyphen]\
+\[EDoubleDot].\\r\\n\\r\\nC:\\\\Users\\\\korol\\\\OneDrive\\\\Documents>\.8f\
+\[AGrave]\[RegisteredTrademark]\[Currency]\[RegisteredTrademark]\
+\[LeftGuillemet]\.a6\[DoubleDot]\[AHat]\[IGrave]? \"\>"], "Output",
+ CellChangeTimes->{3.9304829487840366`*^9},
+ CellLabel->"Out[88]=",ExpressionUUID->"c4ed713b-91eb-4ed3-ab03-2669e90d4ac8"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.930248760307329*^9, 3.9302488963432703`*^9}, {
+   3.9302489722814546`*^9, 3.9302489894895306`*^9}, {3.9302490394945707`*^9, 
+   3.93024904018766*^9}, 
+   3.930249534520338*^9},ExpressionUUID->"18cdec70-f953-4163-b6cf-\
+324d3b915745"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\quillbot-api\\\\node example\"\>"], "Output",
+ CellChangeTimes->{{3.9302488717614484`*^9, 3.930248903640356*^9}, 
+   3.930248996306036*^9, 3.930249046156664*^9, 3.9302494821336355`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"93b7f148-0f0f-4b60-845f-69e5e57a1e8f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RunProcess", "[", 
+  RowBox[{"$SystemShell", ",", "\"\<StandardOutput\>\"", ",", "command"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9302489121508756`*^9, 3.9302489657905283`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"c3145547-1364-456f-995b-f39134ecf746"],
+
+Cell[BoxData["\<\"Microsoft Windows [Version 10.0.22621.3880]\\r\\n(c) \.8a\
+\[RegisteredTrademark]\[AGrave]\.af\[RegisteredTrademark]\[AGrave]\
+\[NonBreakingSpace]\[AE]\[DoubleDot]\[IDoubleDot] \.8c\[NonBreakingSpace]\
+\[Copyright]\.aa\[AGrave]\[RegisteredTrademark]\[AAcute]\[RegisteredTrademark]\
+\[ADoubleDot]\[AHat] (Microsoft Corporation). \.82\[AAcute]\[Yen] \.af\
+\[AGrave]\[NonBreakingSpace]\[Cent]\[NonBreakingSpace] \[Section]\
+\[NonBreakingSpace]\[EAcute]\[DoubleDot]\[EAcute]\[Yen]\[DiscretionaryHyphen]\
+\[EDoubleDot].\\r\\n\\r\\nC:\\\\Users\\\\korol\\\\OneDrive\\\\Documents>\.8f\
+\[AGrave]\[RegisteredTrademark]\[Currency]\[RegisteredTrademark]\
+\[LeftGuillemet]\.a6\[DoubleDot]\[AHat]\[IGrave]? \"\>"], "Output",
+ CellChangeTimes->{3.9302490045142226`*^9, 3.930249053087179*^9, 
+  3.9302494822000837`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"36430cfb-c3d3-4b1d-bde8-f89df7a0907e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RunProcess", "[", 
+  RowBox[{"{", 
+   RowBox[{"\"\<cmd\>\"", ",", "\"\<date\>\""}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9302490850970063`*^9, 3.930249154277792*^9}, {
+  3.930249269159052*^9, 3.9302492759306135`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"c985080a-21a0-4e3e-acf0-85962db6e0c9"],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{{3.9302491141490808`*^9, 3.9302491602930126`*^9}, 
+   3.9302493446147037`*^9, 3.930249524640314*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"b77c27a1-80e5-4163-95da-5e0ea8ad2c0e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"process", "=", 
+  RowBox[{"StartProcess", "[", "$SystemShell", "]"}]}]], "Input",
+ CellChangeTimes->{3.9302498271360793`*^9},
+ CellLabel->"In[90]:=",ExpressionUUID->"ff8678ea-ba23-4981-ab0b-d6bf04e48475"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["ProcessObject",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Program: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"cmd.exe\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"PID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["20128", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Program: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"cmd.exe\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"PID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["20128", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Parent PID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["20992", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"User: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["\"korol\"", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Path: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                 "\"C:\\\\Windows\\\\System32\\\\cmd.exe\"", 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Memory:\"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{
+                   "2.27328`", "\"MB\"", "megabytes", "\"Megabytes\""}, 
+                   "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Threads: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["1", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Start Time: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  TemplateBox[{
+                    RowBox[{"\"Sat 20 Jul 2024 09:49:31\"", 
+                    StyleBox[
+                    RowBox[{"\"GMT\"", "\[InvisibleSpace]", 
+                    StyleBox[
+                    RowBox[{"-", "7"}], NumberMarks -> False, StripOnInput -> 
+                    False]}], FontColor -> GrayLevel[0.5]]}], 
+                    RowBox[{"DateObject", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    
+                    RowBox[{
+                    "2024", ",", "7", ",", "20", ",", "9", ",", "49", ",", 
+                    "31.`"}], "}"}], ",", "\"Instant\"", ",", "\"Gregorian\"",
+                     ",", 
+                    RowBox[{"-", "7.`"}]}], "]"}]}, "DateObject", Editable -> 
+                   False], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"System Time: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{"0", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"User Time: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{"0", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Real Time: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  
+                  TemplateBox[{"0", "\"s\"", "seconds", "\"Seconds\""}, 
+                   "Quantity", SyntaxForm -> Mod], "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  ProcessObject[<|
+   "ManagedProcess" -> True, "UID" -> 6, "PID" -> 20128, "PPID" -> 20992, 
+    "Program" -> "cmd.exe", "Path" -> "C:\\Windows\\System32\\cmd.exe", 
+    "User" -> "korol", "StartTime" -> 
+    DateObject[{2024, 7, 20, 9, 49, 31.}, "Instant", "Gregorian", -7.]|>],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.9302498461074*^9, 3.930250234344524*^9, 
+  3.9302506141358747`*^9, 3.9304829715492134`*^9},
+ CellLabel->"Out[90]=",ExpressionUUID->"0d93f598-f22e-41d5-a142-f7751998b8e3"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WriteLine", "[", 
+   RowBox[{"process", ",", 
+    RowBox[{"StringJoin", "[", 
+     RowBox[{"\"\<cd \>\"", ",", "command"}], "]"}]}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{
+  3.9302499333829355`*^9, {3.930250241014984*^9, 3.930250284012512*^9}, {
+   3.9302503287173223`*^9, 3.9302503496193457`*^9}, {3.930251139846857*^9, 
+   3.9302511631275244`*^9}, 3.9304829891083665`*^9},
+ CellLabel->"In[91]:=",ExpressionUUID->"4ec2ba5a-6660-453a-86e9-52fd65c95470"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WriteLine", "[", 
+   RowBox[{"process", ",", "\"\<node example\>\""}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{3.930250569526918*^9},
+ CellLabel->"In[92]:=",ExpressionUUID->"42aa4f00-b90b-4183-b3bf-0be6aba502b7"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"output", "=", 
+  RowBox[{"ReadString", "[", 
+   RowBox[{"process", ",", "EndOfBuffer"}], "]"}]}]], "Input",
+ CellChangeTimes->{
+  3.9302499536765575`*^9, {3.9302505131885805`*^9, 3.9302505211493034`*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"3096b6c2-8bdc-48bb-a0a7-bcb47f938058"],
+
+Cell[BoxData["\<\"Microsoft Windows [Version 10.0.22621.3880]\\r\\n(c) \.8a\
+\[RegisteredTrademark]\[AGrave]\.af\[RegisteredTrademark]\[AGrave]\
+\[NonBreakingSpace]\[AE]\[DoubleDot]\[IDoubleDot] \.8c\[NonBreakingSpace]\
+\[Copyright]\.aa\[AGrave]\[RegisteredTrademark]\[AAcute]\[RegisteredTrademark]\
+\[ADoubleDot]\[AHat] (Microsoft Corporation). \.82\[AAcute]\[Yen] \.af\
+\[AGrave]\[NonBreakingSpace]\[Cent]\[NonBreakingSpace] \[Section]\
+\[NonBreakingSpace]\[EAcute]\[DoubleDot]\[EAcute]\[Yen]\[DiscretionaryHyphen]\
+\[EDoubleDot].\\r\\n\\r\\nC:\\\\Users\\\\korol\\\\OneDrive\\\\Documents>cd C:\
+\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\quillbot-\
+api\\n\\r\\nC:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\
+\\quillbot-api>node example\\nLanguage set to \\\"English (US)\\\".\\nMode \
+set to \\\"Fluency\\\".\\nSlider not found\\nOutput selector is not \
+exist\\nOutput selector found\\nInput selector is not exist\\nInput \
+found\\nParaphrasing part 1 of 1\\nInput text is Ok\\nPressed Ctrl + Enter to \
+Rephrase\\nsubmitForm is Ok\\nParaphrasing complete 1 of 1\\nParaphrasing \
+complete\\nBefore:\\nTCP is a connection-oriented protocol, which means that \
+the end-to-end communications is set up using handshaking. Once the \
+connection is set up, user data may be sent bi-directionally over the \
+connection. Compared to TCP, UDP is a simpler message based connectionless \
+protocol, which means that the end-to-end connection is not dedicated and \
+information is transmitted in one direction from the source to its \
+destination without verifying the readiness or state of the receiver. TCP \
+controls message acknowledgment, retransmission and timeout. TCP makes \
+multiple attempts to deliver messages that get lost along the way, In TCP \
+therefore, there is no missing data, and if ever there are multiple timeouts, \
+the connection is dropped.\\nParaphrased:\\nSince TCP is a \
+connection-oriented protocol, handshaking is used to establish end-to-end \
+conversations. User data can be sent over the connection in both directions \
+once it has been established. In contrast to TCP, UDP is a more \
+straightforward message-based connectionless protocol. This implies that data \
+is sent from the source to the destination in a single direction without \
+confirming the receiver's readiness or state. Message acknowledgment, \
+retransmission, and timeout are all managed by TCP. There is never any \
+missing data with TCP because it repeatedly tries to send messages that are \
+lost en route. If a timeout occurs more than once, the connection is \
+terminated.\\n\\r\\nC:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\quillbot-api>\"\>"], "Output",
+ CellChangeTimes->{
+  3.9302499609111595`*^9, {3.930250060840971*^9, 3.9302501004043093`*^9}, 
+   3.930250258705604*^9, 3.930250298120387*^9, 3.930250361637245*^9, 
+   3.93025045947318*^9, {3.9302505277448316`*^9, 3.9302505374820347`*^9}, 
+   3.9302506862279167`*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"27b138e0-46c1-4e02-b57c-53414d24ca7c"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WriteLine", "[", 
+   RowBox[{"process", ",", "\"\<node example\>\""}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.930250385417945*^9, 3.9302503971380587`*^9}},
+ CellLabel->"In[31]:=",ExpressionUUID->"c6d0063a-6ee4-4867-99d9-f347a3044c04"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WriteLine", "[", 
+  RowBox[{"process", ",", "command"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9302500359705896`*^9, 3.9302500432633533`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"496103c9-f444-4bfd-b9c6-b7738e60a9d0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+   TagBox["OutputStream",
+    "SummaryHead"], "[", 
+   DynamicModuleBox[{Typeset`open$$ = False, Typeset`embedState$$ = "Ready"}, 
+    TemplateBox[{
+      PaneSelectorBox[{False -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxOpener"]], 
+              ButtonFunction :> (Typeset`open$$ = True), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              Thickness[0.0016806722689075631`], {
+               FaceForm[{
+                 GrayLevel[0.93], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{
+                25.499999999999996`, 2.5}, {25.499999999999996`, 
+                1.3953100000000003`}, {24.604699999999998`, 
+                0.49999999999999994`}, {23.5, 0.49999999999999994`}, {2.5, 
+                0.49999999999999994`}, {1.3953100000000003`, 
+                0.49999999999999994`}, {0.49999999999999994`, 
+                1.3953100000000003`}, {0.49999999999999994`, 2.5}, {
+                0.49999999999999994`, 23.5}, {0.49999999999999994`, 
+                24.604699999999998`}, {1.3953100000000003`, 
+                25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+                25.499999999999996`}, {24.604699999999998`, 
+                25.499999999999996`}, {25.499999999999996`, 
+                24.604699999999998`}, {25.499999999999996`, 23.5}, {
+                25.499999999999996`, 2.5}}}]}, {
+               RGBColor[0.699951, 0.699951, 0.699951], 
+               Opacity[1.], 
+               JoinForm[{ElisionsDump`Miter, 10.}], 
+               
+               JoinedCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{
+                25.499999999999996`, 2.5}, {25.499999999999996`, 
+                1.3953100000000003`}, {24.604699999999998`, 
+                0.49999999999999994`}, {23.5, 0.49999999999999994`}, {2.5, 
+                0.49999999999999994`}, {1.3953100000000003`, 
+                0.49999999999999994`}, {0.49999999999999994`, 
+                1.3953100000000003`}, {0.49999999999999994`, 2.5}, {
+                0.49999999999999994`, 23.5}, {0.49999999999999994`, 
+                24.604699999999998`}, {1.3953100000000003`, 
+                25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+                25.499999999999996`}, {24.604699999999998`, 
+                25.499999999999996`}, {25.499999999999996`, 
+                24.604699999999998`}, {25.499999999999996`, 23.5}, {
+                25.499999999999996`, 2.5}}}]}, {
+               FaceForm[{
+                 RGBColor[0.5, 0.5, 0.5], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {
+                0, 1, 0}, {1, 3, 3}, {1, 3, 3}}}, {{{3.52539, 
+                1.0035199999999997`}, {2.5250000000000004`, 
+                1.0035199999999997`}, {1.6828099999999997`, 
+                1.0035199999999997`}, {0.9999999999999999, 
+                1.6863299999999997`}, {0.9999999999999999, 
+                2.5285199999999994`}, {0.9999999999999999, 
+                23.474999999999998`}, {0.9999999999999999, 
+                24.317199999999996`}, {1.6828099999999997`, 
+                24.999999999999996`}, {2.5250000000000004`, 
+                24.999999999999996`}, {3.52539, 24.999999999999996`}, {
+                3.52539, 24.999999999999993`}, {5.523440000000001, 
+                22.421099999999996`}, {5.523440000000001, 13.0039}, {
+                5.523440000000001, 3.5867199999999992`}, {3.52539, 
+                1.0035199999999997`}, {3.52539, 1.0035199999999997`}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{22.4977, 12.9016}, {
+                17.740599999999997`, 16.8398}, {17.740599999999997`, 
+                14.856599999999998`}, {19.980900000000002`, 
+                12.947299999999997`}, {17.740599999999997`, 
+                10.946100000000001`}, {17.740599999999997`, 8.96289}, {
+                22.4977, 12.9016}}}]}, {
+               FaceForm[{
+                 RGBColor[
+                 0.46093800000000007`, 0.46093800000000007`, 
+                  0.46093800000000007`], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                3}}}, {{{9.202339999999998, 12.8969}, {9.202339999999998, 
+                12.335499999999998`}, {8.747660000000002, 
+                11.880899999999999`}, {8.186329999999998, 
+                11.880899999999999`}, {7.624999999999999, 
+                11.880899999999999`}, {7.169920000000001, 
+                12.335499999999998`}, {7.169920000000001, 12.8969}, {
+                7.169920000000001, 13.458200000000003`}, {7.624999999999999, 
+                13.9133}, {8.186329999999998, 13.9133}, {8.747660000000002, 
+                13.9133}, {9.202339999999998, 13.458200000000003`}, {
+                9.202339999999998, 12.8969}}}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                3}}}, {{{12.6227, 12.8969}, {12.6227, 12.335499999999998`}, {
+                12.167599999999998`, 11.880899999999999`}, {
+                11.606200000000001`, 11.880899999999999`}, {11.0449, 
+                11.880899999999999`}, {10.589799999999999`, 
+                12.335499999999998`}, {10.589799999999999`, 12.8969}, {
+                10.589799999999999`, 13.458200000000003`}, {11.0449, 
+                13.9133}, {11.606200000000001`, 13.9133}, {
+                12.167599999999998`, 13.9133}, {12.6227, 
+                13.458200000000003`}, {12.6227, 12.8969}}}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                3}}}, {{{16.042600000000004`, 12.8969}, {16.042600000000004`, 
+                12.335499999999998`}, {15.587499999999999`, 
+                11.880899999999999`}, {15.026199999999998`, 
+                11.880899999999999`}, {14.464799999999997`, 
+                11.880899999999999`}, {14.010199999999998`, 
+                12.335499999999998`}, {14.010199999999998`, 12.8969}, {
+                14.010199999999998`, 13.458200000000003`}, {
+                14.464799999999997`, 13.9133}, {15.026199999999998`, 
+                13.9133}, {15.587499999999999`, 13.9133}, {
+                16.042600000000004`, 13.458200000000003`}, {
+                16.042600000000004`, 12.8969}}}]}}, AspectRatio -> 1, Axes -> 
+             False, Background -> GrayLevel[0.5], Frame -> True, FrameStyle -> 
+             Directive[
+               Thickness[Tiny], 
+               GrayLevel[0.7]], FrameTicks -> None, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  StyleBox[
+                   PaneBox[
+                   "\"in:9\"", ContentPadding -> False, FrameMargins -> 0, 
+                    StripOnInput -> True, BaselinePosition -> Baseline, 
+                    ImageSize -> {{1, 300}, Automatic}], LineBreakWithin -> 
+                   False], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Unique ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["3", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}], True -> GridBox[{{
+            PaneBox[
+             ButtonBox[
+              DynamicBox[
+               FEPrivate`FrontEndResource["FEBitmaps", "SummaryBoxCloser"]], 
+              ButtonFunction :> (Typeset`open$$ = False), Appearance -> None, 
+              BaseStyle -> {}, Evaluator -> Automatic, Method -> 
+              "Preemptive"], Alignment -> {Center, Center}, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GraphicsBox[{
+              Thickness[0.0016806722689075631`], {
+               FaceForm[{
+                 GrayLevel[0.93], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{
+                25.499999999999996`, 2.5}, {25.499999999999996`, 
+                1.3953100000000003`}, {24.604699999999998`, 
+                0.49999999999999994`}, {23.5, 0.49999999999999994`}, {2.5, 
+                0.49999999999999994`}, {1.3953100000000003`, 
+                0.49999999999999994`}, {0.49999999999999994`, 
+                1.3953100000000003`}, {0.49999999999999994`, 2.5}, {
+                0.49999999999999994`, 23.5}, {0.49999999999999994`, 
+                24.604699999999998`}, {1.3953100000000003`, 
+                25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+                25.499999999999996`}, {24.604699999999998`, 
+                25.499999999999996`}, {25.499999999999996`, 
+                24.604699999999998`}, {25.499999999999996`, 23.5}, {
+                25.499999999999996`, 2.5}}}]}, {
+               RGBColor[0.699951, 0.699951, 0.699951], 
+               Opacity[1.], 
+               JoinForm[{ElisionsDump`Miter, 10.}], 
+               
+               JoinedCurveBox[{{{1, 4, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}, {
+                1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {0, 1, 0}}}, {{{
+                25.499999999999996`, 2.5}, {25.499999999999996`, 
+                1.3953100000000003`}, {24.604699999999998`, 
+                0.49999999999999994`}, {23.5, 0.49999999999999994`}, {2.5, 
+                0.49999999999999994`}, {1.3953100000000003`, 
+                0.49999999999999994`}, {0.49999999999999994`, 
+                1.3953100000000003`}, {0.49999999999999994`, 2.5}, {
+                0.49999999999999994`, 23.5}, {0.49999999999999994`, 
+                24.604699999999998`}, {1.3953100000000003`, 
+                25.499999999999996`}, {2.5, 25.499999999999996`}, {23.5, 
+                25.499999999999996`}, {24.604699999999998`, 
+                25.499999999999996`}, {25.499999999999996`, 
+                24.604699999999998`}, {25.499999999999996`, 23.5}, {
+                25.499999999999996`, 2.5}}}]}, {
+               FaceForm[{
+                 RGBColor[0.5, 0.5, 0.5], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {1, 3, 3}, {0, 1, 0}, {1, 3, 3}, {
+                0, 1, 0}, {1, 3, 3}, {1, 3, 3}}}, {{{3.52539, 
+                1.0035199999999997`}, {2.5250000000000004`, 
+                1.0035199999999997`}, {1.6828099999999997`, 
+                1.0035199999999997`}, {0.9999999999999999, 
+                1.6863299999999997`}, {0.9999999999999999, 
+                2.5285199999999994`}, {0.9999999999999999, 
+                23.474999999999998`}, {0.9999999999999999, 
+                24.317199999999996`}, {1.6828099999999997`, 
+                24.999999999999996`}, {2.5250000000000004`, 
+                24.999999999999996`}, {3.52539, 24.999999999999996`}, {
+                3.52539, 24.999999999999993`}, {5.523440000000001, 
+                22.421099999999996`}, {5.523440000000001, 13.0039}, {
+                5.523440000000001, 3.5867199999999992`}, {3.52539, 
+                1.0035199999999997`}, {3.52539, 1.0035199999999997`}}}], 
+               
+               FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {
+                0, 1, 0}, {0, 1, 0}}}, {{{22.4977, 12.9016}, {
+                17.740599999999997`, 16.8398}, {17.740599999999997`, 
+                14.856599999999998`}, {19.980900000000002`, 
+                12.947299999999997`}, {17.740599999999997`, 
+                10.946100000000001`}, {17.740599999999997`, 8.96289}, {
+                22.4977, 12.9016}}}]}, {
+               FaceForm[{
+                 RGBColor[
+                 0.46093800000000007`, 0.46093800000000007`, 
+                  0.46093800000000007`], 
+                 Opacity[1.]}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                3}}}, {{{9.202339999999998, 12.8969}, {9.202339999999998, 
+                12.335499999999998`}, {8.747660000000002, 
+                11.880899999999999`}, {8.186329999999998, 
+                11.880899999999999`}, {7.624999999999999, 
+                11.880899999999999`}, {7.169920000000001, 
+                12.335499999999998`}, {7.169920000000001, 12.8969}, {
+                7.169920000000001, 13.458200000000003`}, {7.624999999999999, 
+                13.9133}, {8.186329999999998, 13.9133}, {8.747660000000002, 
+                13.9133}, {9.202339999999998, 13.458200000000003`}, {
+                9.202339999999998, 12.8969}}}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                3}}}, {{{12.6227, 12.8969}, {12.6227, 12.335499999999998`}, {
+                12.167599999999998`, 11.880899999999999`}, {
+                11.606200000000001`, 11.880899999999999`}, {11.0449, 
+                11.880899999999999`}, {10.589799999999999`, 
+                12.335499999999998`}, {10.589799999999999`, 12.8969}, {
+                10.589799999999999`, 13.458200000000003`}, {11.0449, 
+                13.9133}, {11.606200000000001`, 13.9133}, {
+                12.167599999999998`, 13.9133}, {12.6227, 
+                13.458200000000003`}, {12.6227, 12.8969}}}], 
+               
+               FilledCurveBox[{{{1, 4, 3}, {1, 3, 3}, {1, 3, 3}, {1, 3, 
+                3}}}, {{{16.042600000000004`, 12.8969}, {16.042600000000004`, 
+                12.335499999999998`}, {15.587499999999999`, 
+                11.880899999999999`}, {15.026199999999998`, 
+                11.880899999999999`}, {14.464799999999997`, 
+                11.880899999999999`}, {14.010199999999998`, 
+                12.335499999999998`}, {14.010199999999998`, 12.8969}, {
+                14.010199999999998`, 13.458200000000003`}, {
+                14.464799999999997`, 13.9133}, {15.026199999999998`, 
+                13.9133}, {15.587499999999999`, 13.9133}, {
+                16.042600000000004`, 13.458200000000003`}, {
+                16.042600000000004`, 12.8969}}}]}}, AspectRatio -> 1, Axes -> 
+             False, Background -> GrayLevel[0.5], Frame -> True, FrameStyle -> 
+             Directive[
+               Thickness[Tiny], 
+               GrayLevel[0.7]], FrameTicks -> None, ImageSize -> 
+             Dynamic[{
+               Automatic, 
+                3.5 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
+                 Magnification])}]], 
+            GridBox[{{
+               RowBox[{
+                 TagBox["\"Name: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  PaneBox[
+                  "\"in:9\"", ImageSize -> {{1, 500}, Automatic}, 
+                   BaselinePosition -> Baseline, ContentPadding -> False, 
+                   FrameMargins -> 0, StripOnInput -> True], 
+                  "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Unique ID: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["3", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Binary: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["True", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Open: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox[
+                  DynamicBox[
+                   ToBoxes[Options[
+                    OutputStream["in:9", 3]] =!= {}, StandardForm], 
+                   UpdateInterval -> 1], "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Encoding: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["Automatic", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Format: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["InputForm", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Page width: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["78", "SummaryItem"]}]}, {
+               RowBox[{
+                 TagBox["\"Number marks: \"", "SummaryItemAnnotation"], 
+                 "\[InvisibleSpace]", 
+                 TagBox["Automatic", "SummaryItem"]}]}}, 
+             GridBoxAlignment -> {
+              "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, AutoDelete -> 
+             False, GridBoxItemSize -> {
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+             GridBoxSpacings -> {"Columns" -> {{2}}, "Rows" -> {{Automatic}}},
+              BaseStyle -> {
+              ShowStringCharacters -> False, NumberMarks -> False, 
+               PrintPrecision -> 3, ShowSyntaxStyles -> False}]}}, 
+          GridBoxAlignment -> {"Columns" -> {{Left}}, "Rows" -> {{Top}}}, 
+          AutoDelete -> False, 
+          GridBoxItemSize -> {
+           "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+          BaselinePosition -> {1, 1}]}, 
+       Dynamic[Typeset`open$$], ImageSize -> Automatic]},
+     "SummaryPanel"],
+    DynamicModuleValues:>{}], "]"}],
+  OutputStream["in:9", 3],
+  Editable->False,
+  SelectWithContents->True,
+  Selectable->False]], "Output",
+ CellChangeTimes->{3.930250049685232*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"b3f9403b-42f4-406c-9a16-ce647fcc0aea"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ProcessStatus", "[", "process", "]"}]], "Input",
+ CellChangeTimes->{3.9302501295957775`*^9},
+ CellLabel->"In[43]:=",ExpressionUUID->"96ec2e81-4817-40c7-b027-7d6eb7320015"],
+
+Cell[BoxData["\<\"Finished\"\>"], "Output",
+ CellChangeTimes->{{3.9302501364669065`*^9, 3.930250154304801*^9}, 
+   3.9302502010003*^9, 3.930250492643853*^9, {3.930250713630333*^9, 
+   3.930250731954767*^9}},
+ CellLabel->"Out[43]=",ExpressionUUID->"f69bce37-8788-4663-a311-b8bc7b423633"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"WriteLine", "[", 
+   RowBox[{"process", ",", "\"\<exit\>\""}], "]"}], ";"}]], "Input",
+ CellChangeTimes->{3.930250186644313*^9},
+ CellLabel->"In[89]:=",ExpressionUUID->"69c94efe-a640-4404-8e2a-beacfa5b7a29"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"paraphrased", "=", 
+  RowBox[{"StringTrim", "[", 
+   RowBox[{"First", "[", 
+    RowBox[{"StringCases", "[", 
+     RowBox[{"output", ",", 
+      RowBox[{
+       RowBox[{"\"\<Paraphrased:\>\"", "~~", "x___", "~~", "command"}], "->", 
+       "x"}]}], "]"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.9302507396830378`*^9, 3.9302508436205378`*^9}, {
+  3.930250927673667*^9, 3.930251004641075*^9}, {3.930251092579827*^9, 
+  3.930251093994749*^9}, {3.930251822438919*^9, 
+  3.930251828077135*^9}},ExpressionUUID->"b1b03a94-1a71-41aa-90a5-\
+ecdbad059855"],
+
+Cell[BoxData["\<\"Since TCP is a connection-oriented protocol, handshaking is \
+used to establish end-to-end conversations. User data can be sent over the \
+connection in both directions once it has been established. In contrast to \
+TCP, UDP is a more straightforward message-based connectionless protocol. \
+This implies that data is sent from the source to the destination in a single \
+direction without confirming the receiver's readiness or state. Message \
+acknowledgment, retransmission, and timeout are all managed by TCP. There is \
+never any missing data with TCP because it repeatedly tries to send messages \
+that are lost en route. If a timeout occurs more than once, the connection is \
+terminated.\"\>"], "Output",
+ CellChangeTimes->{{3.93025083678931*^9, 3.9302508494649277`*^9}, {
+   3.930250935183447*^9, 3.930250959673539*^9}, {3.930250997611087*^9, 
+   3.9302510106536636`*^9}, 3.9302510997488766`*^9},
+ CellLabel->"Out[53]=",ExpressionUUID->"a27e6ef5-ec11-4644-bad9-785041561698"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ph", "=", 
+  RowBox[{"TextCases", "[", 
+   RowBox[{
+    RowBox[{"WikipediaData", "[", "\"\<Rice\>\"", "]"}], ",", 
+    "\"\<Paragraph\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.930251842305863*^9, 3.930251849042323*^9}, {
+  3.9302518963698397`*^9, 3.9302519139946933`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"58164e02-6cd0-4031-a658-8e485dbae4a0"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"Rice is a cereal grain and in its domesticated form is the \
+staple food of over half of the world's population, particularly in Asia and \
+Africa. Rice is the seed of the grass species Oryza sativa (Asian rice)\
+\[LongDash]or, much less commonly, Oryza glaberrima (African rice). Asian \
+rice was domesticated in China some 13,500 to 8,200 years ago; African rice \
+was domesticated in Africa about 3,000 years ago. Rice has become commonplace \
+in many cultures worldwide; in 2021, 787 million tons were produced, placing \
+it fourth after sugarcane, maize, and wheat. Only some 8% of rice is traded \
+internationally. China, India, and Indonesia are the largest consumers of \
+rice. A substantial amount of the rice produced in developing nations is lost \
+after harvest through factors such as poor transport and storage. Rice yields \
+can be reduced by pests including insects, rodents, and birds, as well as by \
+weeds, and by diseases such as rice blast. Traditional rice polycultures such \
+as rice-duck farming, and modern integrated pest management seek to control \
+damage from pests in a sustainable way. \\nMany varieties of rice have been \
+bred to improve crop quality and productivity. Biotechnology has created \
+Green Revolution rice able to produce high yields when supplied with nitrogen \
+fertiliser and managed intensively. Other products are rice able to express \
+human proteins for medicinal use; flood-tolerant or deepwater rice; and \
+drought-tolerant and salt-tolerant varieties. Rice is used as a model \
+organism in biology.\\nDry rice grain is milled to remove the outer layers; \
+depending on how much is removed, products range from brown rice to rice with \
+germ and white rice. Some is parboiled to make it easy to cook. Rice contains \
+no gluten; it provides protein but not all the essential amino acids needed \
+for good health. Rice of different types is eaten around the world. \
+Long-grain rice tends to stay intact on cooking; medium-grain rice is \
+stickier, and is used for sweet dishes, and in Italy for risotto; and sticky \
+short-grain rice is used in Japanese sushi as it keeps its shape when cooked. \
+White rice when cooked contains 29% carbohydrate and 2% protein, with some \
+manganese. Golden rice is a variety produced by genetic engineering to \
+contain vitamin A.\\nProduction of rice is estimated to have caused over 1% \
+of global greenhouse gas emissions in 2022. Predictions of how rice yields \
+will be affected by climate change vary across geographies and socioeconomic \
+contexts. In human culture, rice plays a role in certain religions and \
+traditions, such as in weddings.\"\>", 
+   ",", "\<\"== Description ==\\nThe rice plant can grow to over 1 m (3 ft) \
+tall; if in deep water, it can reach a length of  5 m (16 ft). A single plant \
+may have several leafy stems or tillers. The upright stem is jointed with \
+nodes along its length; a long slender leaf arises from each node. The \
+self-fertile flowers are produced in a panicle, a branched inflorescence \
+which arises from the last internode on the stem. There can be up to 350 \
+spikelets in a panicle, each containing male and female flower parts (anthers \
+and ovule). A fertilised ovule develops into the edible grain or \
+caryopsis.\\nRice is a cereal belonging to the family Poaceae. As a tropical \
+crop, it can be grown during the two distinct seasons (dry and wet) of the \
+year provided that sufficient water is made available. It is normally an \
+annual, but in the tropics it can survive as a perennial, producing a ratoon \
+crop.\"\>", ",", "\<\"== Agronomy ==\"\>", 
+   ",", "\<\"=== Growing ===\\nLike all crops, rice depends for its growth on \
+both biotic and abiotic environmental factors. The principal biotic factors \
+are crop variety, pests, and plant diseases. Abiotic factors include the soil \
+type, whether lowland or upland, amount of rain or irrigation water, \
+temperature, day length, and intensity of sunlight.\\nRice grains can be \
+planted directly into the field where they will grow, or seedlings can be \
+grown in a seedbed and transplanted into the field. Direct seeding needs some \
+60 to 80 kg of grain per hectare, while transplanting needs less, around 40 \
+kg per hectare, but requires far more labour.  Most rice in Asia is \
+transplanted by hand. Mechanical transplanting takes less time but requires a \
+carefully-prepared field and seedlings raised on mats or in trays to fit the \
+machine. Rice does not thrive if continuously submerged. Rice can be grown in \
+different environments, depending upon water availability. The usual \
+arrangement is for lowland fields to be surrounded by bunds and flooded to a \
+depth of a few centimetres until around a week before harvest time; this \
+requires a large amount of water. The \\\"alternate wetting and drying\\\" \
+technique uses less water. One form of this is to flood the field to a depth \
+of 5 cm (2 in), then to let the water level drop to 15 cm (6 in) below \
+surface level, as measured by looking into a perforated field water tube sunk \
+into the soil, and then repeating the cycle. Deepwater rice varieties \
+tolerate flooding to a depth of over 50 centimetres for at least a month. \
+Upland rice is grown without flooding, in hilly or mountainous regions; it is \
+rainfed like wheat or maize.\"\>", 
+   ",", "\<\"=== Harvesting ===\\nAcross Asia, unmilled rice or \\\"paddy\\\" \
+(Indonesian and Malay padi), was traditionally the product of smallholder \
+agriculture, with manual harvesting. Larger farms make use of machines such \
+as combine harvesters to reduce the input of labour. The grain is ready to \
+harvest when the moisture content is 20\[Dash]25%. Harvesting involves \
+reaping, stacking the cut stalks, threshing to separate the grain, and \
+cleaning by winnowing or screening. The rice grain is dried as soon as \
+possible to bring the moisture content down to a level that is safe from \
+mould fungi. Traditional drying relies on the heat of the sun, with the grain \
+spread out on mats or on pavements.\"\>", ",", "\<\"== Evolution ==\"\>", 
+   ",", "\<\"=== Phylogeny ===\"\>", 
+   ",", "\<\"The edible rice species are members of the BOP clade within the \
+grass family, the Poaceae. The rice subfamily, Oryzoideae, is sister to the \
+bamboos, Bambusoideae, and the cereal subfamily Pooideae. The rice genus \
+Oryza is one of eleven in the Oryzeae; it is sister to the Phyllorachideae. \
+The edible rice species O. sativa and O. glaberrima are among some 300 \
+species or subspecies in the genus.\"\>", ",", "\<\"=== History ===\"\>", 
+   ",", "\<\"Oryza sativa rice was first domesticated in China 9,000 years \
+ago, by people of Neolithic cultures in the Upper and Lower Yangtze, \
+associated with Hmong-Mien-speakers and pre-Austronesians, respectively. The \
+functional allele for nonshattering, the critical indicator of domestication \
+in grains, as well as five other single-nucleotide polymorphisms, is \
+identical in both indica and japonica. This implies a single domestication \
+event for O. sativa. Both indica and japonica forms of Asian rice sprang from \
+a single domestication event in China from the wild rice Oryza rufipogon. \
+Despite this evidence, it appears that indica rice arose when japonica \
+arrived in India about 4,500 years ago and hybridised with another rice, \
+whether an undomesticated proto-indica or wild O. nivara. \\nRice was \
+introduced early into Sino-Tibetan cultures in northern China by around 6000 \
+to 5600 years ago, and to the Korean peninsula and Japan by around 5500 to \
+3200 years ago. It was also carried into Taiwan by the Dapenkeng culture by \
+5500 to 4000 years ago, before spreading southwards via the Austronesian \
+migrations to Island Southeast Asia, Madagascar, and Guam, but did not \
+survive the voyage to the rest of the Pacific. It reached Austroasiatic and \
+Kra-Dai-speakers in Mainland Southeast Asia and southern China by 5000 years \
+ago. \\nRice spread around the rest of the world through cultivation, \
+migration and trade, eventually to the Americas as part of the Columbian \
+exchange after 1492. The now less common Oryza glaberrima (African rice) was \
+independently domesticated in Africa around 3,000 years ago, and introduced \
+to the Americas by the Spanish.\"\>", ",", "\<\"== Commerce ==\"\>", 
+   ",", "\<\"=== Production ===\"\>", 
+   ",", "\<\"In 2021, world production of rice was 787 million tonnes, led by \
+China and India with a combined 52% of the total. This placed rice fourth in \
+the list of crops by production, after sugarcane,  maize, and wheat. Other \
+major producers were Bangladesh, Indonesia and Vietnam. 90% of world \
+production is from Asia.\"\>", 
+   ",", "\<\"=== Yield records ===\\nThe average world yield for rice was 4.7 \
+metric tons per hectare (2.1 short tons per acre), in 2022. Yuan Longping of \
+China's National Hybrid Rice Research and Development Center set a world \
+record for rice yield in 1999 at 17.1 metric tons per hectare (7.6 short tons \
+per acre) on a demonstration plot. This employed specially developed hybrid \
+rice and the System of Rice Intensification (SRI), an innovation in rice \
+farming.\"\>", 
+   ",", "\<\"=== Food security ===\\nRice is a major food staple in Asia, \
+Latin America, and some parts of Africa, feeding over half the world's \
+population. However, a substantial part of the crop can be lost post-harvest \
+through inefficient transportation, storage, and milling. A quarter of the \
+crop in Nigeria is lost after harvest. Storage losses include damage by mould \
+fungi if the rice is not dried sufficiently. In China, losses in modern metal \
+silos were just 0.2%, compared to 7\[Dash]13% when rice was stored by rural \
+households.\"\>", 
+   ",", "\<\"=== Processing ===\\nThe dry grain is milled to remove the outer \
+layers, namely the husk and bran. These can be removed in a single step, in \
+two steps, or as in commercial milling in a multi-step process of cleaning, \
+dehusking, separation, polishing, grading, and weighing. Brown rice only has \
+the inedible husk removed. Further milling removes bran and the germ to \
+create successively whiter products. Parboiled rice is subjected to a \
+steaming process before it is milled. This makes the grain harder, and moves \
+some of the grain's vitamins and minerals into the white part of the rice so \
+these are retained after milling. Rice does not contain gluten, so is \
+suitable for people on a gluten-free diet. Rice is a good source of protein \
+and a staple food in many parts of the world, but it is not a complete \
+protein as it does not contain all of the essential amino acids in sufficient \
+amounts for good health.\"\>", 
+   ",", "\<\"=== Trade ===\\nWorld trade figures are much smaller than those \
+for production, as less than 8% of rice produced is traded internationally. \
+\\nChina, an exporter of rice in the early 2000s, had become the world's \
+largest importer of rice by 2013. Developing countries are the main players \
+in the world rice trade; by 2012, India was the largest exporter of rice, \
+with Thailand and Vietnam the other largest exporters.\"\>", 
+   ",", "\<\"=== Worldwide consumption ===\\nAs of 2016, the countries that \
+consumed the most rice were China (29% of total), India, and Indonesia. By \
+2020, Bangladesh had taken third place from Indonesia. On an annual average \
+from 2020-23, China consumed 154 million tonnes of rice, India consumed 109 \
+million tonnes, and Bangladesh and Indonesia consumed about 36 million tonnes \
+each. Across the world, rice consumption per capita fell in the 21st century \
+as people in Asia and elsewhere ate less grain and more meat. An exception is \
+Sub-Saharan Africa, where both per capita consumption of rice and population \
+are increasing.\"\>", ",", "\<\"== Food ==\"\>", 
+   ",", "\<\"=== Eating qualities ===\\nRice is a commonly-eaten food around \
+the world. The varieties of rice are typically classified as short-, medium-, \
+and long-grained. Oryza sativa indica varieties are usually long-grained; \
+Oryza sativa japonica varieties are usually short- or medium-grained. \
+Short-grain rice, with the exception of Spanish Bomba, is usually sticky when \
+cooked, and is suitable for puddings. Thai Jasmine rice is aromatic, and \
+unusually for a long-grain rice has some stickiness, with a soft texture. \
+Indian Basmati rice is very long-grained and aromatic. Italian Arborio rice, \
+used for risotto, is of medium length, oval, and quite sticky. Japanese sushi \
+rice is a sticky short-grain variety.\"\>", 
+   ",", "\<\"=== Nutrition ===\\nCooked white rice is 69% water, 29% \
+carbohydrates, 2% protein, and contains negligible fat (table). In a \
+reference serving of 100 grams (3.5 oz), cooked white rice provides 130 \
+calories of food energy, and contains moderate levels of manganese (18% DV), \
+with no other micronutrients in significant content (all less than 10% of the \
+Daily Value).\\nIn 2018, the World Health Organization strongly recommended \
+fortifying rice with iron, and conditionally recommended fortifying it with \
+vitamin A and with folic acid.\"\>", ",", "\<\"=== Golden rice ===\"\>", 
+   ",", "\<\"Golden rice is a variety produced through genetic engineering to \
+synthesize beta-carotene, a precursor of vitamin A, in the endosperm of the \
+rice grain. It is intended to be grown and eaten in parts of the world where \
+Vitamin A deficiency is prevalent. Golden rice has been opposed by activists, \
+such as in the Philippines. In 2016 more than 100 Nobel laureates encouraged \
+the use of genetically modified organisms, such as golden rice, for the \
+benefits these could bring.\"\>", 
+   ",", "\<\"== Rice and climate change ==\"\>", 
+   ",", "\<\"=== Greenhouse gases from rice production ===\"\>", 
+   ",", "\<\"In 2022, greenhouse gas emissions from rice cultivation were \
+estimated at 5.7 billion tonnes CO2eq, representing 1.2% of total emissions. \
+Within the agriculture sector, rice produces almost half the greenhouse gas \
+emissions from croplands, some 30% of agricultural methane emissions, and 11% \
+of agricultural nitrous oxide emissions. Methane is released from rice fields \
+subject to long-term flooding, as this inhibits the soil from absorbing \
+atmospheric oxygen, resulting in anaerobic fermentation of organic matter in \
+the soil. Emissions can be limited by planting new varieties, not flooding \
+continuously, and removing straw.\\nIt is possible to cut methane emissions \
+in rice cultivation by improved water management, combining dry seeding and \
+one drawdown, or executing a sequence of wetting and drying. This results in \
+emission reductions of up to 90% compared to full flooding and even increased \
+yields.\"\>", 
+   ",", "\<\"=== Effects of climate change on rice production \
+===\\nPredictions of climate change's effects on rice cultivation vary. \
+Global rice yield has been projected to decrease by around 3.2% with each 1\
+\[Degree]C increase in global average temperature while another study \
+predicts global rice cultivation will increase initially, plateauing at about \
+3\[Degree]C warming (2091\[Dash]2100 relative to 1850\[Dash]1900).\\nThe \
+impacts of climate change on rice cultivation will vary across geographic \
+location and socioeconomic contexts. For example, rising temperatures and \
+decreasing solar radiation during the later years of the 20th century \
+decreased rice yield by between 10% and 20% across 200 farms in seven Asian \
+countries. This may have been caused by increased night-time respiration. \
+IRRI has predicted that Asian rice yields will fall by some 20% per \
+1\[Degree]C rise in global mean temperature. Further, rice is unable to yield \
+grain if the flowers experience a temperature of 35 \[Degree]C or more for \
+over one hour, so the crop would be lost under these conditions. \\nIn the Po \
+Valley in Italy, the arborio and carnaroli risotto rice varieties have \
+suffered poor harvests through drought in the 21st century. The Ente \
+Nazionale Risi  is developing drought-resistant varieties; its nuovo prometeo \
+variety has deep roots that enable it to tolerate drought, but is not \
+suitable for risotto.\"\>", ",", "\<\"== Pests, weeds, and diseases ==\"\>", 
+   ",", "\<\"=== Pests and weeds ===\"\>", 
+   ",", "\<\"Rice yield can be reduced by weed growth, and a wide variety of \
+pests including insects, nematodes, rodents such as rats, snails, and birds. \
+Major rice insect pests include armyworms, rice bugs, black bugs, cutworms, \
+field crickets, grasshoppers, leafhoppers, mealybugs, and planthoppers. High \
+rates of nitrogen fertiliser application may worsen aphid outbreaks. \
+\\nWeather conditions can contribute to pest outbreaks: rice gall midge \
+outbreaks are worsened by high rainfall in the wet season, while thrips \
+outbreaks are associated with drought.\"\>", ",", "\<\"=== Diseases ===\"\>", 
+   ",", "\<\"Rice blast, caused by the fungus Magnaporthe grisea, is the most \
+serious disease of growing rice. \\nIt and bacterial leaf streak (caused by \
+Xanthomonas oryzae pv. oryzae) are perennially the two worst rice diseases \
+worldwide; they are both among the ten most important diseases of all crop \
+plants. Other major rice diseases include sheath blight (caused by \
+Rhizoctonia solani), false smut (Ustilaginoidea virens), and bacterial \
+panicle blight (Burkholderia glumae). Viral diseases include rice bunchy \
+stunt, rice dwarf, rice tungro, and rice yellow mottle.\"\>", 
+   ",", "\<\"=== Pest management ===\"\>", 
+   ",", "\<\"Crop protection scientists are developing sustainable techniques \
+for managing rice pests. Sustainable pest management is based on four \
+principles: biodiversity, host plant resistance, landscape ecology, and \
+hierarchies in a landscape\[LongDash]from biological to social. Farmers' \
+pesticide applications are often unnecessary. Pesticides may  actually induce \
+resurgence of populations of rice pests such as the brown planthopper, both \
+by destroying beneficial insects and by enhancing the pest's reproduction. \
+The International Rice Research Institute (IRRI) demonstrated in 1993 that an \
+87.5% reduction in pesticide use can lead to an overall drop in pest numbers. \
+\"\>", ",", "\<\"Farmers in China, Indonesia and the Philippines have \
+traditionally managed weeds and pests by the polycultural practice of raising \
+ducks and sometimes fish in their rice paddies. These produce valuable \
+additional crops, eat small pest animals, manure the rice, and in the case of \
+ducks also control weeds.\\nRice plants produce their own chemical defences \
+to protect themselves from pest attacks. Some synthetic chemicals, such as \
+the herbicide 2,4-D, cause the plant to increase the production of certain \
+defensive chemicals and thereby increase the plant's resistance to some types \
+of pests. Conversely, other chemicals, such as the insecticide imidacloprid, \
+appear to induce changes in the gene expression of the rice that make the \
+plant more susceptible to certain pests.\\nPlant breeders have created rice \
+cultivars incorporating resistance to various insect pests. Conventional \
+plant breeding of resistant varieties has been limited by challenges such as \
+rearing insect pests for testing, and the great diversity and continuous \
+evolution of pests. Resistance genes are being sought from wild species of \
+rice, and genetic engineering techniques are being applied.\"\>", 
+   ",", "\<\"== Ecotypes and cultivars ==\"\>", 
+   ",", "\<\"The International Rice Research Institute maintains the \
+International Rice Genebank, which holds over 100,000 rice varieties. Much of \
+southeast Asia grows sticky or glutinous rice varieties. High-yield cultivars \
+of rice suitable for cultivation in Africa, called the New Rice for Africa \
+(NERICA), have been developed to improve food security and alleviate poverty \
+in Sub-Saharan Africa.\\nThe complete genome of rice was sequenced in 2005, \
+making it the first crop plant to reach this status. \\nSince then, the \
+genomes of hundreds of types of rice, both wild and cultivated, and including \
+both Asian and African rice species, have been sequenced.\"\>", 
+   ",", "\<\"== Biotechnology ==\"\>", 
+   ",", "\<\"=== High-yielding varieties ===\"\>", 
+   ",", "\<\"The high-yielding varieties are a group of crops created during \
+the Green Revolution to increase global food production radically. The first \
+Green Revolution rice variety, IR8, was produced in 1966 at the International \
+Rice Research Institute through a cross between an Indonesian variety named \
+\\\"Peta\\\" and a Chinese variety named \\\"Dee Geo Woo Gen\\\". Green \
+Revolution varieties were bred to have short strong stems so that the rice \
+would not lodge or fall over. This enabled them to stay upright and \
+productive even with heavy applications of fertiliser.\"\>", 
+   ",", "\<\"=== Expression of human proteins ===\\nVentria Bioscience has \
+genetically modified rice to express lactoferrin and lysozyme which are \
+proteins usually found in breast milk, and human serum albumin. These \
+proteins have antiviral, antibacterial, and antifungal effects. Rice \
+containing these added proteins can be used as a component in oral \
+rehydration solutions to treat diarrheal diseases, thereby shortening their \
+duration and reducing recurrence. Such supplements may also help reverse \
+anemia.\"\>", ",", "\<\"=== Flood-tolerance ===\"\>", 
+   ",", "\<\"In areas subject to flooding, farmers have long planted flood \
+tolerant varieties known as deepwater rice. In South and South East Asia, \
+flooding affects some 20 million hectares (49 million acres) each year. \
+\\nFlooding has historically led to massive losses in yields, such as in the \
+Philippines, where in 2006, rice crops worth $65 million were lost to \
+flooding. \\nStandard rice varieties cannot withstand stagnant flooding for \
+more than about a week, since it disallows the plant access to necessary \
+requirements such as sunlight and gas exchange. The Swarna Sub1 cultivar can \
+tolerate week-long submergence, consuming carbohydrates efficiently and \
+continuing to grow. So-called \\\"scuba rice\\\" with the Sub1A transgene is \
+robustly tolerant of submergence for as long as two weeks, offering much \
+improved flood survival for farmers' crops. IRRI has created Sub1A varieties \
+and distributed them to Bangladesh, India, Indonesia, Nepal, and the \
+Philippines.\"\>", 
+   ",", "\<\"=== Drought-tolerance ===\\nDrought represents a significant \
+environmental stress for rice production, with 19\[Dash]23 million hectares \
+(47\[Dash]57 million acres) of rainfed rice production in South and South \
+East Asia often at risk. Under drought conditions, without sufficient water \
+to afford them the ability to obtain the required levels of nutrients from \
+the soil, conventional commercial rice varieties can be severely affected\
+\[LongDash]as happened for example in India early in the 21st century.\\nThe \
+International Rice Research Institute conducts research into developing \
+drought-tolerant rice varieties, including the varieties Sahbhagi Dhan, Sahod \
+Ulan, and Sookha dhan, currently being employed by farmers in India, the \
+Philippines, and Nepal respectively. In addition, in 2013 the Japanese \
+National Institute for Agrobiological Sciences led a team which successfully \
+inserted the DEEPER ROOTING 1 (DRO1) gene, from the Philippine upland rice \
+variety Kinandang Patong, into the popular commercial rice variety IR64, \
+giving rise to a far deeper root system in the resulting plants. This \
+facilitates an improved ability for the rice plant to derive its required \
+nutrients in times of drought via accessing deeper layers of soil, a feature \
+demonstrated by trials which saw the IR64 + DRO1 rice yields drop by 10% \
+under moderate drought conditions, compared to 60% for the unmodified IR64 \
+variety.\"\>", ",", "\<\"=== Salt-tolerance ===\"\>", 
+   ",", "\<\"Soil salinity poses a major threat to rice crop productivity, \
+particularly along low-lying coastal areas during the dry season. For \
+example, roughly 1 million hectares (2.5 million acres) of the coastal areas \
+of Bangladesh are affected by saline soils. These high concentrations of salt \
+can severely affect rice plants' physiology, especially during early stages \
+of growth, and as such farmers are often forced to abandon these \
+areas.\\nProgress has been made in developing rice varieties capable of \
+tolerating such conditions; the hybrid created from the cross between the \
+commercial rice variety IR56 and the wild rice species Oryza coarctata is one \
+example. O. coarctata can grow in soils with double the limit of salinity of \
+normal varieties, but does not produce edible rice. Developed by the \
+International Rice Research Institute, the hybrid variety utilises \
+specialised leaf glands that remove salt into the atmosphere. It was produced \
+from one successful embryo out of 34,000 crosses between the two species; \
+this was then backcrossed to IR56 with the aim of preserving the genes \
+responsible for salt tolerance that were inherited from O. coarctata.\"\>", 
+   ",", "\<\"=== Cold tolerance ===\\nRice is sensitive to temperatures below \
+12C. Sowing takes place once the daily average temperature is reliably above \
+this limit. Average temperatures below that reduce growth; if sustained for \
+over four days, germination and seedling growth are harmed and seedlings may \
+die. In larger plants subjected to cold, rice blast is encouraged, seriously \
+reducing yield. As of 2022, researchers continue to study the mechanisms of \
+chilling tolerance in rice and its genetic basis. \"\>", 
+   ",", "\<\"=== Reducing methane emissions ===\\nProducing rice in paddies \
+is harmful for the environment due to the release of methane by methanogenic \
+bacteria. These bacteria live in the anaerobic waterlogged soil, consuming \
+nutrients released by rice roots. Putting the barley gene SUSIBA2 into rice \
+creates a shift in biomass production from root to shoot, decreasing the \
+methanogen population, and resulting in a reduction of methane emissions of \
+up to 97%. Further, the modification increases the amount of rice \
+grains.\"\>", 
+   ",", "\<\"=== Model organism ===\\nRice is used as a model organism for \
+investigating the mechanisms of meiosis and DNA repair in higher plants. For \
+example, study using rice has shown that the gene OsRAD51C is necessary for \
+the accurate repair of DNA double-strand breaks during meiosis.\"\>", 
+   ",", "\<\"== In human culture ==\"\>", 
+   ",", "\<\"Rice plays an important role in certain religions and popular \
+beliefs. In Hindu wedding ceremonies, rice, denoting fertility, prosperity, \
+and purity, is thrown into the sacred fire, a custom modified in Western \
+weddings, where people throw rice. In Malay weddings, rice features in \
+multiple special wedding foods such as sweet glutinous rice. In Japan and the \
+Philippines, rice wine is used for weddings and other celebrations. Dewi Sri \
+is a goddess of the Indo-Malaysian archipelago, who in myth is transformed \
+into rice or other crops. The start of the rice planting season is marked in \
+Asian countries including Nepal and Cambodia with a Royal Ploughing Ceremony.\
+\"\>", ",", "\<\"== See also ==\\nArtificial rice\\nDirect seeded rice\\nList \
+of rice dishes\\nRice Belt\"\>", ",", "\<\"== References ==\"\>", 
+   ",", "\<\"== Further reading ==\\nLiu, Wende; Liu, Jinling; Triplett, \
+Lindsay; Leach, Jan E.; Wang, Guo-Liang (August 4, 2014). \\\"Novel insights \
+into rice innate immunity against bacterial and fungal pathogens\\\". Annual \
+Review of Phytopathology. 52 (1). Annual Reviews: 213\[Dash]241. \
+doi:10.1146/annurev-phyto-102313-045926. PMID 24906128. S2CID 9244874.\\nDeb, \
+D. (October 2019). \\\"Restoring Rice Biodiversity\\\". Scientific American. \
+321 (4): 54\[Dash]61. doi:10.1038/scientificamerican1019-54. India originally \
+possessed some 110,000 landraces of rice with diverse and valuable \
+properties. These include enrichment in vital nutrients and the ability to \
+withstand flood, drought, salinity or pest infestations. The Green Revolution \
+covered fields with a few high-yielding varieties, so that roughly 90 percent \
+of the landraces vanished from farmers' collections. High-yielding varieties \
+require expensive inputs. They perform abysmally on marginal farms or in \
+adverse environmental conditions, forcing poor farmers into debt.\\nSingh, B. \
+N. (2018). Global Rice Cultivation & Cultivars. New Delhi: Studium Press. \
+ISBN 978-1-62699-107-1. Archived from the original on March 14, 2018. \
+Retrieved March 14, 2018.\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{3.9302519436570363`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"77f33d5d-7a92-4974-b8af-7d10472fff10"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WordCount", "[", 
+  RowBox[{"ph", "[", 
+   RowBox[{"[", "1", "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.930251953452896*^9, 3.9302519723894396`*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"7eb3256c-6d12-40f2-b1ae-2ab30d2f3544"],
+
+Cell[BoxData["422"], "Output",
+ CellChangeTimes->{3.930251979361988*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"26c84dbe-84b1-453d-83d1-2e9881ff65c9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"textToProceed", "=", 
+  RowBox[{"StringRiffle", "[", 
+   RowBox[{"Drop", "[", 
+    RowBox[{
+     RowBox[{"TextSentences", "[", 
+      RowBox[{
+       RowBox[{"ResourceFunction", "[", "\"\<TextTake\>\"", "]"}], "[", 
+       RowBox[{
+        RowBox[{"ph", "[", 
+         RowBox[{"[", "1", "]"}], "]"}], ",", "125", ",", "\"\<Word\>\""}], 
+       "]"}], "]"}], ",", 
+     RowBox[{"-", "1"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.930252193658552*^9, 3.9302522121199226`*^9}, {
+  3.9302522840629473`*^9, 3.930252286907606*^9}, {3.930252464016219*^9, 
+  3.930252511604786*^9}, {3.9302525590621157`*^9, 3.9302525997962065`*^9}, {
+  3.9302526596631165`*^9, 3.9302527169074736`*^9}, {3.9302527520476103`*^9, 
+  3.930252778641431*^9}, {3.9302528373050113`*^9, 3.9302528479726686`*^9}, {
+  3.930252940852139*^9, 3.93025294235857*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"b319a410-3d5a-4c10-9296-ea74c50b7b00"],
+
+Cell[BoxData["\<\"Rice is a cereal grain and in its domesticated form is the \
+staple food of over half of the world's population, particularly in Asia and \
+Africa. Rice is the seed of the grass species Oryza sativa (Asian rice)\
+\[LongDash]or, much less commonly, Oryza glaberrima (African rice). Asian \
+rice was domesticated in China some 13,500 to 8,200 years ago; African rice \
+was domesticated in Africa about 3,000 years ago. Rice has become commonplace \
+in many cultures worldwide; in 2021, 787 million tons were produced, placing \
+it fourth after sugarcane, maize, and wheat. Only some 8% of rice is traded \
+internationally. China, India, and Indonesia are the largest consumers of \
+rice.\"\>"], "Output",
+ CellChangeTimes->{
+  3.930252218275777*^9, 3.9302522922656536`*^9, 3.930252524590836*^9, {
+   3.9302525830644245`*^9, 3.930252608435877*^9}, {3.9302526758914213`*^9, 
+   3.930252693865136*^9}, {3.9302527594188867`*^9, 3.9302527851060233`*^9}, 
+   3.9302528536572857`*^9, 3.9302529486519017`*^9},
+ CellLabel->"Out[13]=",ExpressionUUID->"f3bd74b3-61d2-4538-b3b7-e676eb33d0bc"]
+}, Open  ]]
+},
+Evaluator->"Local",
+WindowSize->{466.5, 687.75},
+WindowMargins->{{Automatic, 279.75}, {Automatic, 23.25}},
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"6fb48aa9-34f7-427a-af84-1e30d1710fdc"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 358, 8, 32, "Input",ExpressionUUID->"4b0c17e3-517f-45c1-bee9-617f82811df8"],
+Cell[941, 32, 260, 3, 24, "Output",ExpressionUUID->"8026ea41-8e47-4b75-9c3b-e997da60b90c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1238, 40, 665, 11, 64, "Input",ExpressionUUID->"4e94de09-9e61-4dcc-a47a-9728d4122a1c"],
+Cell[1906, 53, 852, 11, 151, "Output",ExpressionUUID->"c4ed713b-91eb-4ed3-ab03-2669e90d4ac8"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2795, 69, 282, 5, 21, "Input",ExpressionUUID->"18cdec70-f953-4163-b6cf-324d3b915745"],
+Cell[3080, 76, 351, 4, 39, "Output",ExpressionUUID->"93b7f148-0f0f-4b60-845f-69e5e57a1e8f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3468, 85, 285, 5, 34, "Input",ExpressionUUID->"c3145547-1364-456f-995b-f39134ecf746"],
+Cell[3756, 92, 900, 12, 125, "Output",ExpressionUUID->"36430cfb-c3d3-4b1d-bde8-f89df7a0907e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4693, 109, 328, 6, 32, "Input",ExpressionUUID->"c985080a-21a0-4e3e-acf0-85962db6e0c9"],
+Cell[5024, 117, 233, 3, 24, "Output",ExpressionUUID->"b77c27a1-80e5-4163-95da-5e0ea8ad2c0e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5294, 125, 228, 4, 34, "Input",ExpressionUUID->"ff8678ea-ba23-4981-ab0b-d6bf04e48475"],
+Cell[5525, 131, 7307, 155, 50, "Output",ExpressionUUID->"0d93f598-f22e-41d5-a142-f7751998b8e3"]
+}, Open  ]],
+Cell[12847, 289, 493, 10, 32, "Input",ExpressionUUID->"4ec2ba5a-6660-453a-86e9-52fd65c95470"],
+Cell[13343, 301, 250, 5, 32, "Input",ExpressionUUID->"42aa4f00-b90b-4183-b3bf-0be6aba502b7"],
+Cell[CellGroupData[{
+Cell[13618, 310, 307, 6, 32, "Input",ExpressionUUID->"3096b6c2-8bdc-48bb-a0a7-bcb47f938058"],
+Cell[13928, 318, 3072, 42, 781, "Output",ExpressionUUID->"27b138e0-46c1-4e02-b57c-53414d24ca7c"]
+}, Open  ]],
+Cell[17015, 363, 276, 5, 32, "Input",ExpressionUUID->"c6d0063a-6ee4-4867-99d9-f347a3044c04"],
+Cell[CellGroupData[{
+Cell[17316, 372, 246, 4, 32, "Input",ExpressionUUID->"496103c9-f444-4bfd-b9c6-b7738e60a9d0"],
+Cell[17565, 378, 19007, 353, 50, "Output",ExpressionUUID->"b3f9403b-42f4-406c-9a16-ce647fcc0aea"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[36609, 736, 195, 3, 32, "Input",ExpressionUUID->"96ec2e81-4817-40c7-b027-7d6eb7320015"],
+Cell[36807, 741, 286, 4, 24, "Output",ExpressionUUID->"f69bce37-8788-4663-a311-b8bc7b423633"]
+}, Open  ]],
+Cell[37108, 748, 242, 5, 32, "Input",ExpressionUUID->"69c94efe-a640-4404-8e2a-beacfa5b7a29"],
+Cell[CellGroupData[{
+Cell[37375, 757, 578, 13, 74, "Input",ExpressionUUID->"b1b03a94-1a71-41aa-90a5-ecdbad059855"],
+Cell[37956, 772, 1002, 13, 167, "Output",ExpressionUUID->"a27e6ef5-ec11-4644-bad9-785041561698"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38995, 790, 381, 8, 32, "Input",ExpressionUUID->"58164e02-6cd0-4031-a658-8e485dbae4a0"],
+Cell[39379, 800, 28900, 392, 6660, "Output",ExpressionUUID->"77f33d5d-7a92-4974-b8af-7d10472fff10"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68316, 1197, 261, 5, 32, "Input",ExpressionUUID->"7eb3256c-6d12-40f2-b1ae-2ab30d2f3544"],
+Cell[68580, 1204, 150, 2, 24, "Output",ExpressionUUID->"26c84dbe-84b1-453d-83d1-2e9881ff65c9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[68767, 1211, 939, 19, 89, "Input",ExpressionUUID->"b319a410-3d5a-4c10-9296-ea74c50b7b00"],
+Cell[69709, 1232, 1096, 15, 167, "Output",ExpressionUUID->"f3bd74b3-61d2-4538-b3b7-e676eb33d0bc"]
+}, Open  ]]
+}
+]
+*)
+

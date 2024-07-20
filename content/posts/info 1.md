@@ -1,11 +1,14 @@
 +++
-title = 'Info 1'
+title = 'Cut down on inherent complexity and get rid of incidental complexity'
 date = 2024-07-10T00:00:00-07:00
 draft = false
-categories = ["planes", "trains", "automobiles"]
-tags = ["project", "customer", "solution", "work", "technology"]
-cover_image='/images/cover/knoxwelle__2017-05-14T194939.000Z.jpg'
+categories = []
+tags = ["Modern", "Flight", "complexity", "complex", "solutions", "infrastructures", "task"]
+cover_image='/images/cover/knoxwelle__2017-05-29T194235.000Z.jpg'
 +++
-re still forced to participate in such a project?It will be better for you and everyone else if you choose technology for the benefit of the customer rather than your resume.Sometimes it is difficult to resist the temptation to apply a new fashionable solution, even if it does not fit the current situation.
-With the right solution you get a satisfied team and satisfied customer, and the overall stress of work on the project is significantly reduced.Often this allows you to study a already familiar technology in depth or engage in the development of novelty in your spare time.Or maybe you even have free time to attend the painting courses you have always dreamed of.Your loved ones will appreciate it too – they will notice the difference in your condition when you come home after work.
-Always put a customer’s long-term needs above your own short-term requirements – and you will not be mistaken.
+Essential complexity is a problem inherent in any task. For example, the task of coordinating air traffic at the national level is complex in itself. The control system must monitor in real time the precise location of each aircraft (including altitude), its speed, direction and destination, in order to prevent collisions in the air and on the runways. It is also necessary to manage flight schedules promptly to avoid congestion at airports in constantly changing conditions – when the weather changes sharply the entire schedule has to be revised.  
+On the other hand, accidental complexity is caused by challenges that we think need to be solved in order to reduce the inherent complexity.An example of a minor complexity is the outdated flight management system still in use.The system was designed to solve the complex problem of managing the movement of thousands of aircraft, but this solution creates its own problems.Modern flight control systems are so complex that upgrading them is difficult, if not impossible.Flight management is carried out around the world with more than 30 years of technology.  
+“Secondary complexity syndrome” is manifested in many infrastructures (framework) and firm “solutions”.Infrastructures to address narrow, specific challenges are of real benefit; excessively complex infrastructures create more difficulties than they eliminate.
+Complex solutions attract developers just as flames attract moths, and often with the same result.Solving complex tasks is interesting, and the work of a programmer is essentially consisting of solving puzzles.Who hasn't experienced the charm of solving an incredibly difficult task?However, in large-scale projects, it is very difficult to avoid secondary complexity by focusing on work with intrinsic complexity.  
+How do we that?Prefer working-code infrastructures to ivory towers.Relate the amount of code intended to solve the immediate task to the amount that simply serves the user's interaction with the application.Be careful with the solutions promoted by the developers: such solutions are not always bad at first, but they often have a secondary complexity.Check the compliance of the solution with the task.  
+The duty of the architect is to solve problems that lie in the plane of intrinsic complexity, without introducing secondary complexity.

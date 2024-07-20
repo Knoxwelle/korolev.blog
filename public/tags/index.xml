@@ -44,17 +44,143 @@
       <description></description>
     </item>
     <item>
-      <title>John Candy</title>
-      <link>http://localhost:1313/tags/john-candy/</link>
+      <title>Communication</title>
+      <link>http://localhost:1313/tags/communication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/john-candy/</guid>
+      <guid>http://localhost:1313/tags/communication/</guid>
       <description></description>
     </item>
     <item>
-      <title>Steve Martin</title>
-      <link>http://localhost:1313/tags/steve-martin/</link>
+      <title>Java</title>
+      <link>http://localhost:1313/tags/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/steve-martin/</guid>
+      <guid>http://localhost:1313/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opportunity</title>
+      <link>http://localhost:1313/tags/opportunity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/opportunity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle</title>
+      <link>http://localhost:1313/tags/oracle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/oracle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>People</title>
+      <link>http://localhost:1313/tags/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/people/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Postgres</title>
+      <link>http://localhost:1313/tags/postgres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/postgres/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problems</title>
+      <link>http://localhost:1313/tags/problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/problems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>http://localhost:1313/tags/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smalltalk</title>
+      <link>http://localhost:1313/tags/smalltalk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/smalltalk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Start</title>
+      <link>http://localhost:1313/tags/start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/start/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>http://localhost:1313/tags/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complex</title>
+      <link>http://localhost:1313/tags/complex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/complex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complexity</title>
+      <link>http://localhost:1313/tags/complexity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/complexity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flight</title>
+      <link>http://localhost:1313/tags/flight/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/flight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructures</title>
+      <link>http://localhost:1313/tags/infrastructures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/infrastructures/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modern</title>
+      <link>http://localhost:1313/tags/modern/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/modern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solutions</title>
+      <link>http://localhost:1313/tags/solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/solutions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Task</title>
+      <link>http://localhost:1313/tags/task/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/task/</guid>
       <description></description>
     </item>
     <item>

@@ -1,0 +1,768 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     39188,        760]
+NotebookOptionsPosition[     36732,        719]
+NotebookOutlinePosition[     37138,        735]
+CellTagsIndexPosition[     37095,        732]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"fileList", "=", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"\"\<*.md\>\"", ",", 
+    RowBox[{"File", "[", 
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+       "\"\<content\\\\posts\>\""}], "]"}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.929217717115798*^9, 3.9292178076516476`*^9}, {
+   3.9292179139982204`*^9, 3.9292180109485364`*^9}, {3.9292181116552367`*^9, 
+   3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
+   3.9292195131056185`*^9},
+ CellLabel->
+  "In[133]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\info 1.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\info 2.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\info.md\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.929217973036312*^9, 3.929218015002745*^9}, {
+   3.9292181019595547`*^9, 3.9292181227832947`*^9}, {3.9292192008080373`*^9, 
+   3.929219208468548*^9}, {3.9292195060218716`*^9, 3.929219516010848*^9}, 
+   3.929374761727815*^9, 3.9293770443430643`*^9, {3.929377129799858*^9, 
+   3.92937718610667*^9}, 3.929379873045842*^9, 3.9293799125598564`*^9, 
+   3.929379956910489*^9, 3.929380106410046*^9, 3.9293802464560995`*^9, 
+   3.9293805648564034`*^9, 3.92938079299347*^9, 3.929381120453438*^9, 
+   3.929381394092862*^9, 3.929904981092246*^9, 3.92990503872686*^9, 
+   3.9300716411970215`*^9, 3.930153386240965*^9, 3.9301535256438875`*^9, {
+   3.9304804707324867`*^9, 3.9304804956012917`*^9}, 3.930484085894026*^9, 
+   3.930485348143634*^9, 3.93048560632467*^9, 3.930486004921291*^9, 
+   3.930486206755206*^9, 3.9304864915187435`*^9, 3.930486669964489*^9, 
+   3.9304873251005487`*^9, 3.930487929467533*^9, 3.9304882682124186`*^9, 
+   3.9304883848168063`*^9, 3.9304886872936573`*^9, 3.930490370468549*^9, 
+   3.9304904609847393`*^9, 3.9304907485994406`*^9, 3.930491017728156*^9, 
+   3.9304912944935045`*^9, 3.9304955341185102`*^9, 3.930495962384928*^9, 
+   3.9304963789591675`*^9, 3.930496639826478*^9, 3.9304969043936825`*^9, 
+   3.9304974694812827`*^9, 3.9304982425350337`*^9},
+ CellLabel->
+  "Out[133]=",ExpressionUUID->"36dcf92b-7a08-481e-b804-dee20bc6a5f5"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"dateList", "=", 
+   RowBox[{"With", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"first", "=", "Today"}], "}"}], ",", 
+     RowBox[{"DateRange", "[", 
+      RowBox[{
+       RowBox[{"DatePlus", "[", 
+        RowBox[{"first", ",", 
+         RowBox[{"-", " ", 
+          RowBox[{"Quantity", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Length", "[", "fileList", "]"}], "*", "3"}], ",", 
+            "\"\<Days\>\""}], "]"}]}]}], "]"}], ",", "first"}], "]"}]}], 
+    "]"}]}], "*)"}]], "Input",
+ CellChangeTimes->{
+  3.9292160594991455`*^9, {3.929216262371937*^9, 3.9292163813178587`*^9}, {
+   3.9292164843796673`*^9, 3.929216490015292*^9}, {3.9292180182998824`*^9, 
+   3.9292180457223005`*^9}, {3.929380778986627*^9, 3.929380785027054*^9}, {
+   3.9293813852104425`*^9, 3.9293814305791717`*^9}, {3.9293815766013494`*^9, 
+   3.9293815846823196`*^9}, {3.9293817296478004`*^9, 3.929381755585693*^9}, {
+   3.9299049748571444`*^9, 3.929904975436484*^9}, 3.929905034066107*^9, 
+   3.930480683931385*^9, 3.93048080971883*^9},
+ CellLabel->
+  "In[134]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"i", "=", "1"}], ",", 
+    RowBox[{"i", "<=", 
+     RowBox[{"Length", "[", "fileList", "]"}]}], ",", 
+    RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"file", "=", 
+      RowBox[{"fileList", "[", 
+       RowBox[{"[", "i", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"i", ",", "\"\<. \>\"", ",", "file"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"txtFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{
+           RowBox[{"FileBaseName", "[", "file", "]"}], ",", "\"\<.txt\>\""}], 
+          "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"file", ",", "txtFile"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"content", "=", 
+      RowBox[{"Import", "[", "txtFile", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"header", "=", 
+      RowBox[{"First", "[", 
+       RowBox[{"StringCases", "[", 
+        RowBox[{"content", ",", 
+         RowBox[{"\"\<+++\>\"", "~~", "x___", "~~", "\"\<+++\>\""}]}], " ", 
+        "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"text", "=", 
+      RowBox[{"StringTrim", "[", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"content", ",", " ", 
+         RowBox[{"header", "->", "\"\<\>\""}]}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"oldString", "=", 
+      RowBox[{"RandomChoice", "[", 
+       RowBox[{"TextCases", "[", 
+        RowBox[{"text", ",", "\"\<Sentence\>\""}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<oldString: \>\"", ",", " ", "oldString"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"oldTitle", "=", 
+        RowBox[{"StringTrim", "[", 
+         RowBox[{"First", "[", 
+          RowBox[{"StringCases", "[", 
+           RowBox[{"header", ",", 
+            RowBox[{
+             RowBox[{
+             "\"\<title = \>\"", "~~", "x___", "~~", "\"\<date = \>\""}], " ",
+              "->", "x"}]}], "]"}], "]"}], "]"}]}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"path", "=", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{
+        RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", 
+        "\"\<quillbot-api\>\""}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{"Import", "[", 
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"path", ",", " ", "\"\<example.js\>\""}], "]"}], "]"}], 
+      "*)"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"exampleFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<example.txt\>\""}], "}"}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"exFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<ex.txt\>\""}], "}"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"exJsFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<ex.js\>\""}], "}"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<example.js\>\""}], "}"}], "]"}], 
+      "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"exContent", "=", 
+      RowBox[{"Import", "[", "exampleFile", "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"newExContent", "=", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{"exContent", ",", 
+        RowBox[{"\"\<${text}\>\"", "->", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{"{", 
+           RowBox[{"\"\<'\>\"", ",", "oldString", ",", "\"\<'\>\""}], "}"}], 
+          "]"}]}]}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{"exFile", ",", "newExContent"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"exFile", ",", "exJsFile"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"process", "=", 
+      RowBox[{"StartProcess", "[", "$SystemShell", "]"}]}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"WriteLine", "[", 
+      RowBox[{"process", ",", 
+       RowBox[{"StringJoin", "[", 
+        RowBox[{"\"\<cd \>\"", ",", "path"}], "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"WriteLine", "[", 
+      RowBox[{"process", ",", "\"\<node ex\>\""}], "]"}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"Pause", "[", "60", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"output", "=", 
+        RowBox[{"ReadString", "[", 
+         RowBox[{"process", ",", "EndOfBuffer"}], "]"}]}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"output", "=", 
+        RowBox[{"ReadString", "[", 
+         RowBox[{"process", ",", "\"\<::\>\""}], "]"}]}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"output", "=", 
+      RowBox[{"Import", "[", 
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"path", ",", " ", "\"\<output.txt\>\""}], "}"}], "]"}], 
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"DeleteFile", "[", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<output.txt\>\""}], "}"}], "]"}], "]"}],
+      ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<output: \>\"", "output"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"WriteLine", "[", 
+      RowBox[{"process", ",", "\"\<exit\>\""}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"DeleteFile", "[", "exJsFile", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"paraphrased", "=", 
+        RowBox[{"StringTrim", "[", 
+         RowBox[{"First", "[", 
+          RowBox[{"StringCases", "[", 
+           RowBox[{"output", ",", 
+            RowBox[{
+             RowBox[{"\"\<Paraphrased:\>\"", "~~", "x___", "~~", 
+              RowBox[{"NotebookDirectory", "[", "]"}]}], "->", "x"}]}], "]"}],
+           "]"}], "]"}]}], ";"}], "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"paraphrased", "=", 
+      RowBox[{"RemoveDiacritics", "[", 
+       RowBox[{"StringTrim", "[", "output", "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<paraphrased: \>\"", ",", "paraphrased"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"newString", "=", " ", "paraphrased"}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"newText", "=", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{"text", ",", 
+        RowBox[{"oldString", "->", "newString"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<newText: \>\"", ",", "newText"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"newContent", "=", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"header", ",", "\"\<\\n\>\"", ",", " ", "newText"}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<newContent: \>\"", ",", "newContent"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{"txtFile", ",", "newContent"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"txtFile", ",", "file"}], "]"}], ";"}]}], "\[IndentingNewLine]",
+    "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.929374848236891*^9, 3.9293748511036243`*^9}, {
+   3.929374935234683*^9, 3.9293751531424026`*^9}, {3.9293766798063145`*^9, 
+   3.929376683419645*^9}, {3.9293767565437894`*^9, 3.9293767617159977`*^9}, {
+   3.9293768165861263`*^9, 3.9293768574885263`*^9}, {3.9293769048775253`*^9, 
+   3.929376923032815*^9}, {3.929376963031721*^9, 3.929377017538329*^9}, 
+   3.9293770728294005`*^9, {3.9293771184850016`*^9, 3.9293771821272807`*^9}, 
+   3.9293797678018446`*^9, {3.9293798031371336`*^9, 3.9293798610794344`*^9}, {
+   3.929379951227022*^9, 3.9293799526511736`*^9}, {3.9293806886666846`*^9, 
+   3.9293806900231953`*^9}, {3.930153099569622*^9, 3.930153244290264*^9}, {
+   3.9301533784104185`*^9, 3.9301533788871517`*^9}, {3.9301535173627806`*^9, 
+   3.9301535181359687`*^9}, {3.930480378601529*^9, 3.930480452396018*^9}, {
+   3.930480826221388*^9, 3.93048090418117*^9}, {3.930480992346277*^9, 
+   3.930481020700739*^9}, {3.9304810609516325`*^9, 3.9304810649327507`*^9}, {
+   3.9304811027036743`*^9, 3.930481125756013*^9}, {3.9304850024795713`*^9, 
+   3.9304850709059925`*^9}, {3.930485104190993*^9, 3.93048518970777*^9}, {
+   3.930485221108118*^9, 3.9304853292711287`*^9}, {3.930485860359277*^9, 
+   3.930485885635726*^9}, {3.930485970805511*^9, 3.9304859790292554`*^9}, {
+   3.9304860736945963`*^9, 3.9304860760173674`*^9}, {3.930486177140055*^9, 
+   3.9304861991546183`*^9}, {3.930486355242633*^9, 3.9304863554296274`*^9}, 
+   3.9304864839453135`*^9, {3.9304866404646845`*^9, 3.9304866445841985`*^9}, {
+   3.930487804054434*^9, 3.9304878148019924`*^9}, {3.9304878695858464`*^9, 
+   3.930487881236991*^9}, {3.9304880806792684`*^9, 3.9304880899069266`*^9}, {
+   3.930488245342493*^9, 3.9304882619225726`*^9}, {3.9304886227116013`*^9, 
+   3.930488639207857*^9}, {3.9304902241069584`*^9, 3.9304902613033624`*^9}, {
+   3.9304903078940606`*^9, 3.930490328522088*^9}, 3.9304905072429957`*^9, {
+   3.9304906855340986`*^9, 3.9304907261886063`*^9}, {3.930490930496278*^9, 
+   3.9304909400269036`*^9}, {3.9304916891145935`*^9, 
+   3.9304916944981265`*^9}, {3.9304917437016563`*^9, 
+   3.9304917666087165`*^9}, {3.9304918089765515`*^9, 
+   3.9304918788140244`*^9}, {3.930491924595212*^9, 3.930491945687381*^9}, {
+   3.930491988119519*^9, 3.9304920084680395`*^9}, {3.9304920715618773`*^9, 
+   3.9304920774054384`*^9}, {3.9304959104317317`*^9, 3.930495957950266*^9}, {
+   3.9304962708862295`*^9, 3.930496306222895*^9}, {3.9304963438514338`*^9, 
+   3.930496353405984*^9}, {3.9304966338475266`*^9, 3.9304966350732913`*^9}, 
+   3.9304981759074817`*^9, {3.930498969628899*^9, 
+   3.9304989922813253`*^9}},ExpressionUUID->"c8075ac6-894d-436e-b634-\
+55ef40986281"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "1", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info 1.md\"\>"}],
+  SequenceForm[
+  1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info 1.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"21d133d2-3fac-4904-8cfe-87ccfaf80de2"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Essential complexity is a problem inherent in any task.\"\>", 
+  " ", "\<\"oldString: \"\>"}]], "Print",
+ CellChangeTimes->{3.9304982426079645`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"70bbe162-acc4-45c5-9a1f-6c984da08212"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Any task has an intrinsic difficulty with essential complexity.\
+\"\>", " ", "\<\"output: \"\>"}]], "Print",
+ CellChangeTimes->{3.9304983027171583`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"2e444308-b9b7-4812-af5f-24169cce22a6"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Any task has an intrinsic difficulty with essential complexity.\
+\"\>", " ", "\<\"paraphrased: \"\>"}]], "Print",
+ CellChangeTimes->{3.930498302729517*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"ffa63696-4ea6-4426-9677-a52a9f125742"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Any task has an intrinsic difficulty with essential complexity. \
+For example, the task of coordinating air traffic at the national level is \
+complex in itself. The control system must monitor in real time the precise \
+location of each aircraft (including altitude), its speed, direction and \
+destination, in order to prevent collisions in the air and on the runways. It \
+is also necessary to manage flight schedules promptly to avoid congestion at \
+airports in constantly changing conditions \[Dash] when the weather changes \
+sharply the entire schedule has to be revised.  \\nOn the other hand, \
+accidental complexity is caused by challenges that we think need to be solved \
+in order to reduce the inherent complexity.An example of a minor complexity \
+is the outdated flight management system still in use.The system was designed \
+to solve the complex problem of managing the movement of thousands of \
+aircraft, but this solution creates its own problems.Modern flight control \
+systems are so complex that upgrading them is difficult, if not \
+impossible.Flight management is carried out around the world with more than \
+30 years of technology.  \\n\[OpenCurlyDoubleQuote]Secondary complexity \
+syndrome\[CloseCurlyDoubleQuote] is manifested in many infrastructures \
+(framework) and firm \
+\[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Infrastructures to \
+address narrow, specific challenges are of real benefit; excessively complex \
+infrastructures create more difficulties than they eliminate.\\nComplex \
+solutions attract developers just as flames attract moths, and often with the \
+same result.Solving complex tasks is interesting, and the work of a \
+programmer is essentially consisting of solving puzzles.Who hasn't \
+experienced the charm of solving an incredibly difficult task?However, in \
+large-scale projects, it is very difficult to avoid secondary complexity by \
+focusing on work with intrinsic complexity.  \\nHow do we that?Prefer \
+working-code infrastructures to ivory towers.Relate the amount of code \
+intended to solve the immediate task to the amount that simply serves the \
+user's interaction with the application.Be careful with the solutions \
+promoted by the developers: such solutions are not always bad at first, but \
+they often have a secondary complexity.Check the compliance of the solution \
+with the task.  \\nThe duty of the architect is to solve problems that lie in \
+the plane of intrinsic complexity, without introducing secondary \
+complexity.\"\>", " ", "\<\"newText: \"\>"}]], "Print",
+ CellChangeTimes->{3.9304983027423487`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"6bfa2993-eafe-4607-b358-a5e383e654d8"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newContent: \"\>", 
+  " ", "\<\"+++\\ntitle = 'Cut down on inherent complexity and get rid of \
+incidental complexity'\\ndate = 2024-07-10T00:00:00-07:00\\ndraft = \
+false\\ncategories = []\\ntags = [\\\"Modern\\\", \\\"Flight\\\", \
+\\\"complexity\\\", \\\"complex\\\", \\\"solutions\\\", \\\"infrastructures\\\
+\", \\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2021-05-20T184010.\
+000Z.jpg'\\n+++\\nAny task has an intrinsic difficulty with essential \
+complexity. For example, the task of coordinating air traffic at the national \
+level is complex in itself. The control system must monitor in real time the \
+precise location of each aircraft (including altitude), its speed, direction \
+and destination, in order to prevent collisions in the air and on the \
+runways. It is also necessary to manage flight schedules promptly to avoid \
+congestion at airports in constantly changing conditions \[Dash] when the \
+weather changes sharply the entire schedule has to be revised.  \\nOn the \
+other hand, accidental complexity is caused by challenges that we think need \
+to be solved in order to reduce the inherent complexity.An example of a minor \
+complexity is the outdated flight management system still in use.The system \
+was designed to solve the complex problem of managing the movement of \
+thousands of aircraft, but this solution creates its own problems.Modern \
+flight control systems are so complex that upgrading them is difficult, if \
+not impossible.Flight management is carried out around the world with more \
+than 30 years of technology.  \\n\[OpenCurlyDoubleQuote]Secondary complexity \
+syndrome\[CloseCurlyDoubleQuote] is manifested in many infrastructures \
+(framework) and firm \
+\[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Infrastructures to \
+address narrow, specific challenges are of real benefit; excessively complex \
+infrastructures create more difficulties than they eliminate.\\nComplex \
+solutions attract developers just as flames attract moths, and often with the \
+same result.Solving complex tasks is interesting, and the work of a \
+programmer is essentially consisting of solving puzzles.Who hasn't \
+experienced the charm of solving an incredibly difficult task?However, in \
+large-scale projects, it is very difficult to avoid secondary complexity by \
+focusing on work with intrinsic complexity.  \\nHow do we that?Prefer \
+working-code infrastructures to ivory towers.Relate the amount of code \
+intended to solve the immediate task to the amount that simply serves the \
+user's interaction with the application.Be careful with the solutions \
+promoted by the developers: such solutions are not always bad at first, but \
+they often have a secondary complexity.Check the compliance of the solution \
+with the task.  \\nThe duty of the architect is to solve problems that lie in \
+the plane of intrinsic complexity, without introducing secondary \
+complexity.\"\>"}]], "Print",
+ CellChangeTimes->{3.9304983027593594`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"f436ba73-2a21-4540-9c90-230742319189"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "2", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info 2.md\"\>"}],
+  SequenceForm[
+  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info 2.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.930498302781063*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"467da3d0-db04-48b5-a1c3-cee9a025f262"],
+
+Cell[BoxData[
+ RowBox[{"\<\"If you are angry, irritated, upset and out of balance in \
+general, your interlocutor is likely to interpret your non-verbal \
+manifestations as a sign of attack.\"\>", 
+  " ", "\<\"oldString: \"\>"}]], "Print",
+ CellChangeTimes->{3.930498302793092*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"d8ddcf35-5c85-4e65-ac4f-d9356b64b08e"],
+
+Cell[BoxData[
+ RowBox[{"\<\"output: \"\>", 
+  " ", "\<\"Your interlocutor is likely to view your nonverbal cues as an \
+assault if you are generally disturbed, furious, agitated, or \
+unbalanced.\"\>"}]], "Print",
+ CellChangeTimes->{3.9304983630169907`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"d3c14c39-4dfd-422b-ae43-0fec5a709f09"],
+
+Cell[BoxData[
+ RowBox[{"\<\"paraphrased: \"\>", 
+  " ", "\<\"Your interlocutor is likely to view your nonverbal cues as an \
+assault if you are generally disturbed, furious, agitated, or \
+unbalanced.\"\>"}]], "Print",
+ CellChangeTimes->{3.930498363028447*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"91889b33-e5f7-4cd4-b1c0-6dbab0bf8162"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newText: \"\>", 
+  " ", "\<\"Right now somewhere is suffering the disaster of another project \
+of wage calculation system... And probably not alone.  \\nWhy did that \
+happen? Because the developers chose Ruby instead of Java or Python instead \
+of Smalltalk? Because you decided to use Postgres instead of Oracle? Or \
+because you preferred the Windows platform, even though you should have \
+chosen Linux? As you know, all failures of projects are usually blamed on \
+technology. But was your task really so complex that the Java capabilities \
+were not enough for it?  \\nProjects are usually created by people, and it is \
+these people that determine the success or failure of the whole project.And \
+once that's the case, we need to think a little bit about how to help them \
+succeed.  \\nPer there is someone in the team who, from your point of view, \
+is not doing his job and hindering the success of the project. The technology \
+used to solve such problems is very old and time-tested; in fact, it is the \
+most important technological achievement in human history. What you need is \
+communication.  \\nAt the same time, simply possessing the techniques of \
+communication as a technology is not enough. Respect for people, the ability \
+to give them credit of trust are essential skills that turn a smart leader \
+into an effective.  \\nOf course, the matter is not exhausted, but a few \
+simple tips will significantly increase the effectiveness of your \
+communication with subordinates:  \\n\[Bullet] Consider the discussion of \
+problems as a constructive dialogue rather than a conflict situation.\\nStart \
+from positive assumptions about people and view communication as an \
+opportunity to ask questions that interest you; so you will definitely be \
+able to get more useful information, and your interlocutors will not take a \
+defensive position.  \\n\[Bullet] Start the conversation only in a mood \
+suitable for communication.  \\nYour interlocutor is likely to view your \
+nonverbal cues as an assault if you are generally disturbed, furious, \
+agitated, or unbalanced.  \\n\[Bullet] Use situations such as an opportunity \
+to mutual benefit.  \\nDon't tell the developer to be quiet at meetings \
+because he doesn't let anyone talk; ask him if he can help you get involved \
+in other people's discussions.Explain that an introvert needs a longer break \
+to start a conversation, and if he holds a five-second break before he \
+pronounces the first words, it will help you a lot.  \\nIf you are focused on \
+a common goal, view the \[OpenCurlyDoubleQuote]problems\
+\[CloseCurlyDoubleQuote] of your interlocutors as an opportunity to learn \
+something, manage your emotions, you will not only improve your efficiency, \
+but will also learn something new every time.\"\>"}]], "Print",
+ CellChangeTimes->{3.9304983630392*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"c89c4941-3931-4027-b185-a75777099ac1"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newContent: \"\>", 
+  " ", "\<\"+++\\ntitle = 'Reduce the inherently complex eliminate any \
+secondary intricacy'\\ndate = 2024-07-13T00:00:00-07:00\\ndraft = \
+false\\ncategories = []\\ntags = [\\\"Ruby\\\", \\\"Java\\\", \\\"Python\\\", \
+\\\"Smalltalk\\\", \\\"Postgres\\\", \\\"Oracle\\\", \\\"Windows\\\", \
+\\\"Linux\\\", \\\"Start\\\", \\\"communication\\\", \\\"people\\\", \
+\\\"opportunity\\\", \\\"start\\\", \
+\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2017-06-05T100950.\
+000Z.jpg'\\n+++\\nRight now somewhere is suffering the disaster of another \
+project of wage calculation system... And probably not alone.  \\nWhy did \
+that happen? Because the developers chose Ruby instead of Java or Python \
+instead of Smalltalk? Because you decided to use Postgres instead of Oracle? \
+Or because you preferred the Windows platform, even though you should have \
+chosen Linux? As you know, all failures of projects are usually blamed on \
+technology. But was your task really so complex that the Java capabilities \
+were not enough for it?  \\nProjects are usually created by people, and it is \
+these people that determine the success or failure of the whole project.And \
+once that's the case, we need to think a little bit about how to help them \
+succeed.  \\nPer there is someone in the team who, from your point of view, \
+is not doing his job and hindering the success of the project. The technology \
+used to solve such problems is very old and time-tested; in fact, it is the \
+most important technological achievement in human history. What you need is \
+communication.  \\nAt the same time, simply possessing the techniques of \
+communication as a technology is not enough. Respect for people, the ability \
+to give them credit of trust are essential skills that turn a smart leader \
+into an effective.  \\nOf course, the matter is not exhausted, but a few \
+simple tips will significantly increase the effectiveness of your \
+communication with subordinates:  \\n\[Bullet] Consider the discussion of \
+problems as a constructive dialogue rather than a conflict situation.\\nStart \
+from positive assumptions about people and view communication as an \
+opportunity to ask questions that interest you; so you will definitely be \
+able to get more useful information, and your interlocutors will not take a \
+defensive position.  \\n\[Bullet] Start the conversation only in a mood \
+suitable for communication.  \\nYour interlocutor is likely to view your \
+nonverbal cues as an assault if you are generally disturbed, furious, \
+agitated, or unbalanced.  \\n\[Bullet] Use situations such as an opportunity \
+to mutual benefit.  \\nDon't tell the developer to be quiet at meetings \
+because he doesn't let anyone talk; ask him if he can help you get involved \
+in other people's discussions.Explain that an introvert needs a longer break \
+to start a conversation, and if he holds a five-second break before he \
+pronounces the first words, it will help you a lot.  \\nIf you are focused on \
+a common goal, view the \[OpenCurlyDoubleQuote]problems\
+\[CloseCurlyDoubleQuote] of your interlocutors as an opportunity to learn \
+something, manage your emotions, you will not only improve your efficiency, \
+but will also learn something new every time.\"\>"}]], "Print",
+ CellChangeTimes->{3.93049836305639*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"31b94117-2977-483a-817c-f07a2c6b8e03"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "3", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\info.md\"\>"}],
+  SequenceForm[
+  3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\info.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.930498363065398*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"888577f4-0f45-42f4-b1a9-8ae98b25dbf6"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Always put a customer\[CloseCurlyQuote]s long-term needs above \
+your own short-term requirements \[Dash] and you will not be mistaken.\"\>", 
+  " ", "\<\"oldString: \"\>"}]], "Print",
+ CellChangeTimes->{3.9304983630714335`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"5e9af3e2-6651-4cde-8e97-871e8bff857f"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Never prioritize a customer's long-term interests over your own \
+immediate desires, and you'll never make a mistake.\"\>", 
+  " ", "\<\"output: \"\>"}]], "Print",
+ CellChangeTimes->{3.9304984231895666`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"cfe00a7b-931c-43d4-8718-8762d136cd61"],
+
+Cell[BoxData[
+ RowBox[{"\<\"Never prioritize a customer's long-term interests over your own \
+immediate desires, and you'll never make a mistake.\"\>", 
+  " ", "\<\"paraphrased: \"\>"}]], "Print",
+ CellChangeTimes->{3.930498423203212*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"5463cc9f-d1b4-49af-af8f-93a15da56d78"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newText: \"\>", 
+  " ", "\<\"We, technicians, choose to use certain technologies, \
+methodologies and approaches to solve problems not because they provide the \
+optimal solution, but only because in the depths of our heart we want to \
+mention them in our summary. Such a choice very rarely leads to a positive \
+result.  \\nThe most powerful catalyst for your career will be grateful \
+customers who are in a long queue to recommend you to others \[Dash] because \
+you have worked so well for them. The kindness of the customers will serve \
+you better than any new-fashioned object of the new language and any newly \
+invented paradigm. While it is very important (and even vital) for an \
+architect to be up to date with the latest trends and technologies, never try \
+to expand your horizons at the expense of the client. Remember that you as an \
+architect are entrusted with the well-being of your organization; \
+accordingly, you are expected to act honestly and competently in the \
+interests of the customer, avoiding any conflicts of interest andining full \
+loyalty to your organization. If the proposed project is not relevant or \
+promising enough for your current career goals, find another project.  \
+\\nWhat if it's not possible, and you're still forced to participate in such \
+a project? It will be better for you and everyone else if you choose \
+technology for the benefit of the customer rather than your resume. Sometimes \
+it is difficult to resist the temptation to apply a new fashionable solution, \
+even if it does not fit the current situation.  \\nWith the right solution \
+you get a satisfied team and satisfied client, and the overall stress of work \
+on the project is noticeably decreases.Often this allows you to study a \
+already familiar technology in depth or engage in the development of novelty \
+in your spare time. Or maybe you even have free time to attend the painting \
+courses you have always dreamed of .Your loved ones will appreciate it too \
+\[Dash] they will notice the difference in your condition when you come home \
+after work.  \\nNever prioritize a customer's long-term interests over your \
+own immediate desires, and you'll never make a mistake.\"\>"}]], "Print",
+ CellChangeTimes->{3.9304984232145367`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"44d33b85-16fc-4272-a3dd-76776696da3a"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newContent: \"\>", 
+  " ", "\<\"+++\\ntitle = 'Never put the demands of the client ahead of your \
+resume.'\\ndate = 2024-07-15T00:00:00-07:00\\ndraft = false\\ncategories = []\
+\\ntags = [\\\"project\\\", \\\"solution\\\", \\\"work\\\", \
+\\\"technology\\\", \
+\\\"customer\\\"]\\ncover_image='/images/cover/knoxwelle__2017-11-27T052131.\
+000Z.jpg'\\n+++\\nWe, technicians, choose to use certain technologies, \
+methodologies and approaches to solve problems not because they provide the \
+optimal solution, but only because in the depths of our heart we want to \
+mention them in our summary. Such a choice very rarely leads to a positive \
+result.  \\nThe most powerful catalyst for your career will be grateful \
+customers who are in a long queue to recommend you to others \[Dash] because \
+you have worked so well for them. The kindness of the customers will serve \
+you better than any new-fashioned object of the new language and any newly \
+invented paradigm. While it is very important (and even vital) for an \
+architect to be up to date with the latest trends and technologies, never try \
+to expand your horizons at the expense of the client. Remember that you as an \
+architect are entrusted with the well-being of your organization; \
+accordingly, you are expected to act honestly and competently in the \
+interests of the customer, avoiding any conflicts of interest andining full \
+loyalty to your organization. If the proposed project is not relevant or \
+promising enough for your current career goals, find another project.  \
+\\nWhat if it's not possible, and you're still forced to participate in such \
+a project? It will be better for you and everyone else if you choose \
+technology for the benefit of the customer rather than your resume. Sometimes \
+it is difficult to resist the temptation to apply a new fashionable solution, \
+even if it does not fit the current situation.  \\nWith the right solution \
+you get a satisfied team and satisfied client, and the overall stress of work \
+on the project is noticeably decreases.Often this allows you to study a \
+already familiar technology in depth or engage in the development of novelty \
+in your spare time. Or maybe you even have free time to attend the painting \
+courses you have always dreamed of .Your loved ones will appreciate it too \
+\[Dash] they will notice the difference in your condition when you come home \
+after work.  \\nNever prioritize a customer's long-term interests over your \
+own immediate desires, and you'll never make a mistake.\"\>"}]], "Print",
+ CellChangeTimes->{3.9304984232325315`*^9},
+ CellLabel->
+  "During evaluation of \
+In[135]:=",ExpressionUUID->"22a8e169-f252-4e8d-ad63-a2b8a8cc5e2a"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{687, 696},
+WindowMargins->{{Automatic, -6.75}, {Automatic, -1.5}},
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"d4497f29-cafe-4afb-a326-6e4e980fb65c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+Cell[1218, 38, 1780, 27, 53, "Output",ExpressionUUID->"36dcf92b-7a08-481e-b804-dee20bc6a5f5"]
+}, Open  ]],
+Cell[3013, 68, 1167, 27, 21, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+Cell[CellGroupData[{
+Cell[4205, 99, 10406, 225, 1130, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+Cell[CellGroupData[{
+Cell[14636, 328, 519, 14, 18, "Print",ExpressionUUID->"21d133d2-3fac-4904-8cfe-87ccfaf80de2"],
+Cell[15158, 344, 282, 6, 18, "Print",ExpressionUUID->"70bbe162-acc4-45c5-9a1f-6c984da08212"],
+Cell[15443, 352, 286, 6, 18, "Print",ExpressionUUID->"2e444308-b9b7-4812-af5f-24169cce22a6"],
+Cell[15732, 360, 289, 6, 18, "Print",ExpressionUUID->"ffa63696-4ea6-4426-9677-a52a9f125742"],
+Cell[16024, 368, 2739, 39, 307, "Print",ExpressionUUID->"6bfa2993-eafe-4607-b358-a5e383e654d8"],
+Cell[18766, 409, 3122, 45, 412, "Print",ExpressionUUID->"f436ba73-2a21-4540-9c90-230742319189"],
+Cell[21891, 456, 517, 14, 18, "Print",ExpressionUUID->"467da3d0-db04-48b5-a1c3-cee9a025f262"],
+Cell[22411, 472, 387, 8, 30, "Print",ExpressionUUID->"d8ddcf35-5c85-4e65-ac4f-d9356b64b08e"],
+Cell[22801, 482, 363, 8, 30, "Print",ExpressionUUID->"d3c14c39-4dfd-422b-ae43-0fec5a709f09"],
+Cell[23167, 492, 366, 8, 30, "Print",ExpressionUUID->"91889b33-e5f7-4cd4-b1c0-6dbab0bf8162"],
+Cell[23536, 502, 2983, 42, 373, "Print",ExpressionUUID->"c89c4941-3931-4027-b185-a75777099ac1"],
+Cell[26522, 546, 3473, 49, 491, "Print",ExpressionUUID->"31b94117-2977-483a-817c-f07a2c6b8e03"],
+Cell[29998, 597, 513, 14, 18, "Print",ExpressionUUID->"888577f4-0f45-42f4-b1a9-8ae98b25dbf6"],
+Cell[30514, 613, 362, 7, 30, "Print",ExpressionUUID->"5e9af3e2-6651-4cde-8e97-871e8bff857f"],
+Cell[30879, 622, 341, 7, 30, "Print",ExpressionUUID->"cfe00a7b-931c-43d4-8718-8762d136cd61"],
+Cell[31223, 631, 344, 7, 30, "Print",ExpressionUUID->"5463cc9f-d1b4-49af-af8f-93a15da56d78"],
+Cell[31570, 640, 2401, 34, 294, "Print",ExpressionUUID->"44d33b85-16fc-4272-a3dd-76776696da3a"],
+Cell[33974, 676, 2730, 39, 386, "Print",ExpressionUUID->"22a8e169-f252-4e8d-ad63-a2b8a8cc5e2a"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
