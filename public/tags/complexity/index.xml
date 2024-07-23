@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/complexity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cut down on inherent complexity and get rid of incidental complexity</title>
-      <link>http://localhost:1313/posts/info-1/</link>
+      <title>Reduce the intrinsic complexity and eliminate the incidental complexity</title>
+      <link>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</link>
       <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/info-1/</guid>
-      <description>Essential complexity is a problem inherent in any task. For example, the task of coordinating air traffic at the national level is complex in itself. The control system must monitor in real time the precise location of each aircraft (including altitude), its speed, direction and destination, in order to prevent collisions in the air and on the runways. It is also necessary to manage flight schedules promptly to avoid congestion at airports in constantly changing conditions – when the weather changes sharply the entire schedule has to be revised.&#xA;On the other hand, accidental complexity is caused by challenges that we think need to be solved in order to reduce the inherent complexity.An example of a minor complexity is the outdated flight management system still in use.</description>
+      <guid>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</guid>
+      <description>Essential complexity is a problem inherent in any task. For example, the task of coordinating air traffic at the national level is complex in itself. The control system must monitor in real time the precise location of each aircraft (including altitude), its speed, direction and destination, in order to prevent collisions in the air and on the runways. It is also necessary to manage flight schedules promptly to avoid congestion at airports in constantly changing conditions – when the weather changes sharply the entire schedule has to be revised.&#xA;On the other hand, accidental complexity is caused by challenges that we think need to be solved in order to reduce the inherent complexity. An example of a minor complexity is the outdated flight management system still in use.</description>
     </item>
   </channel>
 </rss>

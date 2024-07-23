@@ -6,43 +6,8 @@
     <description>Recent content in Tags on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Customer</title>
-      <link>http://localhost:1313/tags/customer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/customer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Project</title>
-      <link>http://localhost:1313/tags/project/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/project/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Solution</title>
-      <link>http://localhost:1313/tags/solution/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/solution/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Work</title>
-      <link>http://localhost:1313/tags/work/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/work/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Communication</title>
       <link>http://localhost:1313/tags/communication/</link>
@@ -97,6 +62,20 @@
       <link>http://localhost:1313/tags/problems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/problems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>http://localhost:1313/tags/project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/tags/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/projects/</guid>
       <description></description>
     </item>
     <item>
@@ -170,6 +149,13 @@
       <description></description>
     </item>
     <item>
+      <title>Solution</title>
+      <link>http://localhost:1313/tags/solution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/solution/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Solutions</title>
       <link>http://localhost:1313/tags/solutions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -181,6 +167,34 @@
       <link>http://localhost:1313/tags/task/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/task/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>http://localhost:1313/tags/technology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time</title>
+      <link>http://localhost:1313/tags/time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work</title>
+      <link>http://localhost:1313/tags/work/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/work/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/tags/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/about/</guid>
       <description></description>
     </item>
     <item>

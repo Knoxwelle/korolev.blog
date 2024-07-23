@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Minimize the amount of complexity that is already there and get rid of any extraneous details • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Minimize the amount of complexity that is already there and get rid of any extraneous details">
+<meta name="twitter:description" content="Right now, somewhere is suffering the disaster of another project of a wage calculation system&hellip; And probably not alone. Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it? Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that&rsquo;s the case, we need to think a little bit about how to help them succeed.">
+
+<meta property="og:url" content="http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Minimize the amount of complexity that is already there and get rid of any extraneous details">
+  <meta property="og:description" content="Right now, somewhere is suffering the disaster of another project of a wage calculation system… And probably not alone. Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it? Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that’s the case, we need to think a little bit about how to help them succeed.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-13T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-13T00:00:00-07:00">
+    <meta property="article:tag" content="Ruby">
+    <meta property="article:tag" content="Java">
+    <meta property="article:tag" content="Python">
+    <meta property="article:tag" content="Smalltalk">
+    <meta property="article:tag" content="Postgres">
+    <meta property="article:tag" content="Oracle">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.9196fcf1fedfce04f627f9bf866acdbeadc99ef75c2e0d19c0bff06074f3cb75.css" integrity="sha256-kZb88f7fzgT2J/m/hmrNvq3JnvdcLg0ZwL/wYHTzy3U=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Minimize the amount of complexity that is already there and get rid of any extraneous details</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 13, 2024
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/java">JAVA</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/python">PYTHON</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/ruby">RUBY</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/smalltalk">SMALLTALK</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/ruby">ruby</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/java">java</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/python">python</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/smalltalk">smalltalk</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/postgres">postgres</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/oracle">oracle</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/windows">windows</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/linux">linux</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/start">start</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/communication">communication</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/people">people</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/opportunity">opportunity</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/problems">problems</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/projects">projects</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/project">project</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Right now, somewhere is suffering the disaster of another project of a wage calculation system&hellip; And probably not alone. <br>
+Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it? <br>
+Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that&rsquo;s the case, we need to think a little bit about how to help them succeed. <br>
+Per, there is someone in the team who, from your point of view, is not doing his job and hindering the success of the project. The technology used to solve such problems is very old and time-tested; in fact, it is the most important technological achievement in human history. What you need is communication. <br>
+At the same time, simply possessing the techniques of communication as a technology is not enough. Respect for people and the ability to give them credit and trust are essential skills that turn a smart leader into an effective one. <br>
+Of course, the matter is not exhausted, but a few simple tips will significantly increase the effectiveness of your communication with subordinates: <br>
+• Consider the discussion of problems as a constructive dialogue rather than a conflict situation.<br>
+Start from positive assumptions about people and view communication as an opportunity to ask questions that interest you, so you will definitely be able to get more useful information, and your interlocutors will not take a defensive position. <br>
+• Start the conversation only in a mood suitable for communication. <br>
+If you are angry, irritated, upset, and out of balance in general, your interlocutor is likely to interpret your non-verbal manifestations as a sign of attack. <br>
+• Use situations such as an opportunity to mutual benefit. <br>
+Don&rsquo;t tell the developer to be quiet at meetings because he doesn&rsquo;t let anyone talk; ask him if he can help you get involved in other people&rsquo;s discussions. Explain that an introvert needs a longer break to start a conversation, and if he holds a five-second break before he pronounces the first words, it will help you a lot. <br>
+If you are focused on a common goal, view the “problems” of your interlocutors as an opportunity to learn something, and manage your emotions, you will not only improve your efficiency but also learn something new every time.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/never-prioritize-your-resume-over-the-needs-of-the-client/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Never prioritize your resume over the needs of the client</span>
+    </a>
+    
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

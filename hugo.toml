@@ -48,27 +48,32 @@ gravatar = "korolevst@gmail.com"
 
 ## Main Menu
 [[menu.main]]
-    name = "Posts"
+    name = "Home"
     weight = 100
+    identifier = "home"
+    url = "/"
+[[menu.main]]
+    name = "Posts"
+    weight = 200
     identifier = "posts"
     url = "/posts/"
 [[menu.main]]
     name = "Categories"
-    weight = 200
+    weight = 300
     identifier = "categories"
     url = "/categories/"
 [[menu.main]]
     name = "Tags"
-    weight = 300
+    weight = 400
     identifier = "tags"
     url = "/tags/"
 [[menu.main]]
     name = "Resume"
     identifier = "resume"
-    weight = 400
+    weight = 500
     url = "/resume/resume"
 [[menu.main]]
     name = "About"
     identifier = "about"
-    weight = 500
-    url = "/about/"
+    weight = 600
+    url = "/about/about"

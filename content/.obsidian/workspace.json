@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/info 2.md",
+                "file": "about/about.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/info 2.md",
+                "file": "about/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/info 2.md",
+                "file": "about/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/info 2.md"
+                "file": "about/about.md"
               }
             }
           }
@@ -148,16 +148,30 @@
   },
   "active": "ef4f124263e61312",
   "lastOpenFiles": [
-    "posts/info.txt",
-    "posts/info 2.txt",
-    "posts/info 1.txt",
-    "posts/info 1.md",
-    "posts/info.md",
+    "posts/Minimize the amount of complexity that is already there and get rid of any extraneous details.md",
+    "about/about.md",
+    "resume/resume.md",
+    "about",
+    "resume/Resume_Stan_Korolev_mini.pdf",
+    "'/Resume_Stan_Korolev_mini.pdf'.md",
+    "resume.md",
+    "resume",
+    "Новая папка",
+    "'",
+    "Resume_Stan_Korolev_mini.pdf",
+    "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.md",
+    "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.txt",
+    "posts/Never prioritize your resume over the needs of the client.md",
+    "posts/Never prioritize your resume over the needs of the client.txt",
+    "posts/Minimize the amount of complexity that is already there and get rid of any extraneous details.txt",
+    "posts/Reduce the amount of inherent complexity and eliminate any additional complication.txt",
+    "posts/Do not put your resume above the interests of the client.md",
+    "posts/Cut back on fundamental complexity and do away with incidental complexity..md",
+    "posts/Reduce the amount of inherent complexity and eliminate any additional complication..md",
     "posts/info 2.md",
+    "posts/info 1.md",
     "draft/info.md",
     "draft/info 2.md",
-    "draft/info 1.md",
-    "draft",
-    "Новая папка"
+    "draft/info 1.md"
   ]
 }

@@ -5,7 +5,7 @@ draft = false
 categories = ["resume"]
 tags = ["resume", "CV"]
 +++
-
+[Download in PDF](/resume/Resume_Stan_Korolev_mini.pdf)
 # **Stan Korolev** 
 (1261015 B.C. LTD.) – SOFTWARE DEVELOPER
 
@@ -38,7 +38,7 @@ tags = ["resume", "CV"]
 - Management and Integration tools: HP Quality Center, Atlassian Jira, Jenkins, Git
 - API and Integration: Postman, SoapUI, Rest API, Katalon Studio, Kafka, RabbitMQ
 - Test Frameworks: Selenium, JUnit, JMeter, TestNG, Puppeteer, Cucumber, Appium
-- Cloud and Configuration: AWS, Azure, Oracle, Ansible, Terraform, Docker, Kubernetes
+- Cloud and Configuration: AWS, Azure, Oracle, Ansible, Terraform, Docker, Kubernetes\
 
 
 **PROFESSIONAL EXPERIENCE**
@@ -49,14 +49,10 @@ tags = ["resume", "CV"]
 **Vancouver, BC, Canada**
 
 *Project: Salesforce Integration and Development.*
-- Develop Salesforce solutions using native configuration and custom Apex, SOQL, Visualforce (VF), Aura components, and Lightning Web Components (LWC).
+- Develop Salesforce solutions via Apex, Visualforce, Aura, Lightning Web Components.
 - Kafka SFDC integration (Bi-Directional data transfer) using Web Service and Apex Programming (SOAP and REST). API testing via Postman, payload checks.
-- Developed Apex classes, Controllers, Triggers to manage workflows.
 - Managed communication across LWC, Aura and VF pages via DOM and LMS.
-- Deployed Apex triggers to update Salesforce records via external data sources.
-- Designed and refactored the code to implement Apex Enterprise Design Patterns for Separation of Concerns via Domain, Service, Selector layers and Unit Of Work.
-- Salesforce configuration across custom objects, fields, page layouts, workflows, relationships, lookups, dependent pick lists, alerts, validation rules, approval processes, reports, tabs, record types, formula fields and email generation.
-
+- Improved and refactored the code to implement Apex Enterprise Design Patterns.
 
 *Project: Data cloud migration (BMO, Bank of Montreal).*
 - Coordinated teams across Canada and India for script deliverables.
@@ -72,14 +68,12 @@ tags = ["resume", "CV"]
 **Vancouver, BC, Canada**
 
 *Project: Salesforce RBA SalesHub test automation; Classic LienHub migration to Lightning.*
-- Performed automation testing using Selenium WebDriver, Java, TestNG.
-- Developed test strategy, test plans, test cases for Salesforce platform and App Cloud.
+- Managed automation testing using Selenium WebDriver, Java, TestNG.
 - Implemented test users with different roles and assigned permissions as objects.
 - Automated delivery of IronPlanet assets to convert Leads into Opportunities for RBA.
 - Designed unit test cases to achieve 90% test coverage for Apex classes and triggers.
 - Qualified LWC via Node.js, Jest to test component isolation, events, API, DOM output.
-- Tested Salesforce application standard and custom objects, DocuSign functionality.
-- Used sandboxes for testing and migrated the code to the deployment instance.
+- Exposed CI/CD process to sandboxes for testing and migration to prod instance.
 
 
 **SDET / Software Automation Engineer**
@@ -88,14 +82,11 @@ tags = ["resume", "CV"]
 **Victoria, BC, Canada**
 
 *Project: Power Adviser (PA) software test automation (Initial automation framework build)*
-- Executed automation functional tests utilizing Selenium WebDriver.
-- Configured TestNG framework for automation testing.
+- Automation testing via Selenium WebDriver, configured TestNG.
 - Designed Domain Object Model (DOM) to represent each page element as a node.
 - Implemented Provider and Factory to set parameters and test instances dynamically.
-- Investigated software bugs and interacted with Dev team to resolve bug issues.
 - Provided Power Adviser PDF Report generator functional testing for the correct layout.
 - Analyzed data integrity in automatic power unit converter.
-
 
 
 **Cloud Engineer (AWS Integration) at Sea2sky Business Solutions**

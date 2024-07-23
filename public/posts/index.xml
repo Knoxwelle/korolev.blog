@@ -6,28 +6,28 @@
     <description>Recent content in Posts on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Never put the demands of the client ahead of your resume.</title>
-      <link>http://localhost:1313/posts/info/</link>
-      <pubDate>Mon, 15 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/info/</guid>
-      <description>We, technicians, choose to use certain technologies, methodologies and approaches to solve problems not because they provide the optimal solution, but only because in the depths of our heart we want to mention them in our summary. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for your career will be grateful customers who are in a long queue to recommend you to others – because you have worked so well for them. The kindness of the customers will serve you better than any new-fashioned object of the new language and any newly invented paradigm. While it is very important (and even vital) for an architect to be up to date with the latest trends and technologies, never try to expand your horizons at the expense of the client.</description>
-    </item>
-    <item>
-      <title>Reduce the inherently complex eliminate any secondary intricacy</title>
-      <link>http://localhost:1313/posts/info-2/</link>
+      <title>Minimize the amount of complexity that is already there and get rid of any extraneous details</title>
+      <link>http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/info-2/</guid>
-      <description>Right now somewhere is suffering the disaster of another project of wage calculation system&amp;hellip; And probably not alone.&#xA;Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? Or because you preferred the Windows platform, even though you should have chosen Linux? As you know, all failures of projects are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it?&#xA;Projects are usually created by people, and it is these people that determine the success or failure of the whole project.And once that&amp;rsquo;s the case, we need to think a little bit about how to help them succeed.</description>
+      <guid>http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/</guid>
+      <description>Right now, somewhere is suffering the disaster of another project of a wage calculation system&amp;hellip; And probably not alone. Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it? Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that&amp;rsquo;s the case, we need to think a little bit about how to help them succeed.</description>
     </item>
     <item>
-      <title>Cut down on inherent complexity and get rid of incidental complexity</title>
-      <link>http://localhost:1313/posts/info-1/</link>
+      <title>Never prioritize your resume over the needs of the client</title>
+      <link>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</link>
       <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/info-1/</guid>
-      <description>Essential complexity is a problem inherent in any task. For example, the task of coordinating air traffic at the national level is complex in itself. The control system must monitor in real time the precise location of each aircraft (including altitude), its speed, direction and destination, in order to prevent collisions in the air and on the runways. It is also necessary to manage flight schedules promptly to avoid congestion at airports in constantly changing conditions – when the weather changes sharply the entire schedule has to be revised.&#xA;On the other hand, accidental complexity is caused by challenges that we think need to be solved in order to reduce the inherent complexity.An example of a minor complexity is the outdated flight management system still in use.</description>
+      <guid>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</guid>
+      <description>We, technicians, choose to use certain technologies, methodologies and approaches to solve problems not because they provide the optimal solution, but only because in the depths of our heart we want to mention them in our summary. Such a choice very rarely leads to a positive result. The most powerful catalyst for your career will be grateful customers who are in a long queue to recommend you to others – because you have worked so well for them. The kindness of the customers will serve you better than any new-fashioned object of the new language and any newly invented paradigm. While it is very important (and even vital) for an architect to be up to date with the latest trends and technologies, never try to expand your horizons at the expense of the client.</description>
+    </item>
+    <item>
+      <title>Reduce the intrinsic complexity and eliminate the incidental complexity</title>
+      <link>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</guid>
+      <description>Essential complexity is a problem inherent in any task. For example, the task of coordinating air traffic at the national level is complex in itself. The control system must monitor in real time the precise location of each aircraft (including altitude), its speed, direction and destination, in order to prevent collisions in the air and on the runways. It is also necessary to manage flight schedules promptly to avoid congestion at airports in constantly changing conditions – when the weather changes sharply the entire schedule has to be revised.&#xA;On the other hand, accidental complexity is caused by challenges that we think need to be solved in order to reduce the inherent complexity. An example of a minor complexity is the outdated flight management system still in use.</description>
     </item>
   </channel>
 </rss>

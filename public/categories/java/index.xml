@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 13 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Info 2</title>
-      <link>http://localhost:1313/posts/info-2/</link>
+      <title>Minimize the amount of complexity that is already there and get rid of any extraneous details</title>
+      <link>http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/</link>
       <pubDate>Sat, 13 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/info-2/</guid>
-      <description>re still forced to participate in such a project?It will be better for you and everyone else if you choose technology for the benefit of the customer rather than your resume.Sometimes it is difficult to resist the temptation to apply a new fashionable solution, even if it does not fit the current situation. With the right solution you get a satisfied team and satisfied customer, and the overall stress of work on the project is significantly reduced.Often this allows you to study a already familiar technology in depth or engage in the development of novelty in your spare time.Or maybe you even have free time to attend the painting courses you have always dreamed of.Your loved ones will appreciate it too – they will notice the difference in your condition when you come home after work.</description>
+      <guid>http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/</guid>
+      <description>Right now, somewhere is suffering the disaster of another project of a wage calculation system&amp;hellip; And probably not alone. Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it? Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that&amp;rsquo;s the case, we need to think a little bit about how to help them succeed.</description>
     </item>
   </channel>
 </rss>

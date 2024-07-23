@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     31882,        625]
-NotebookOptionsPosition[     29706,        587]
-NotebookOutlinePosition[     30114,        603]
-CellTagsIndexPosition[     30071,        600]
+NotebookDataLength[     33520,        641]
+NotebookOptionsPosition[     31343,        603]
+NotebookOutlinePosition[     31751,        619]
+CellTagsIndexPosition[     31708,        616]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -34,7 +34,7 @@ Cell[BoxData[
  CellChangeTimes->{{3.929377511216282*^9, 3.9293775228627305`*^9}, 
    3.929377588982523*^9, 3.929378331246873*^9},
  CellLabel->
-  "In[147]:=",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
+  "In[159]:=",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -58,9 +58,10 @@ tinydev\\\\content\\\\posts\\\\info 1.md\"\>",
    3.9304930968848224`*^9, 3.9304932550084515`*^9, 3.930494539872257*^9, 
    3.9304946066472635`*^9, {3.9304946509739275`*^9, 3.9304946669553986`*^9}, 
    3.9304947375316105`*^9, 3.9304993370612392`*^9, 3.9304994437743435`*^9, 
-   3.930499787026879*^9},
+   3.930499787026879*^9, 3.9304998232340126`*^9, {3.9304998549767017`*^9, 
+   3.9304998688637686`*^9}, 3.9304999210195045`*^9},
  CellLabel->
-  "Out[147]=",ExpressionUUID->"effd78c2-2bc9-449a-a346-f0ca3eb4a3d9"]
+  "Out[159]=",ExpressionUUID->"bb3c52d4-0d50-4851-b6ff-4123db2c9b90"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -80,7 +81,7 @@ Cell[BoxData[
   3.929640622573132*^9, 3.929640627361034*^9}, {3.930158393134735*^9, 
   3.9301583942020164`*^9}, {3.9301656634949026`*^9, 3.9301656651222734`*^9}},
  CellLabel->
-  "In[148]:=",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
+  "In[160]:=",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
 
 Cell[CellGroupData[{
 
@@ -206,7 +207,7 @@ Cell[BoxData[
    3.930499643799183*^9}, 3.9304996829900727`*^9, {3.9304997166746225`*^9, 
    3.9304997735696397`*^9}},
  CellLabel->
-  "In[149]:=",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
+  "In[161]:=",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
 
 Cell[CellGroupData[{
 
@@ -227,16 +228,17 @@ posts\\info 1.md"],
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.9304997870944185`*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999213429475`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"f06b98d8-7e64-4e46-9644-5c23099905ec"],
+In[161]:=",ExpressionUUID->"acde63e8-1260-4408-836c-9b20ed0300f6"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"oldImage = \"\>", 
-   "\[InvisibleSpace]", "\<\"knoxwelle__2021-05-20T184010.000Z.jpg\"\>"}],
-  SequenceForm["oldImage = ", "knoxwelle__2021-05-20T184010.000Z.jpg"],
+   "\[InvisibleSpace]", "\<\"knoxwelle__2021-11-22T051245.000Z.jpg\"\>"}],
+  SequenceForm["oldImage = ", "knoxwelle__2021-11-22T051245.000Z.jpg"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -244,16 +246,17 @@ Cell[BoxData[
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787143062*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.930499921375505*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"63213f99-5517-4581-a1f0-89d488e33cfb"],
+In[161]:=",ExpressionUUID->"ed81c9fb-9a95-4d61-98f7-cb0e18717664"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"newImage = \"\>", 
-   "\[InvisibleSpace]", "\<\"knoxwelle__2019-12-23T225914.000Z.jpg\"\>"}],
-  SequenceForm["newImage = ", "knoxwelle__2019-12-23T225914.000Z.jpg"],
+   "\[InvisibleSpace]", "\<\"knoxwelle__2017-05-29T194235.000Z.jpg\"\>"}],
+  SequenceForm["newImage = ", "knoxwelle__2017-05-29T194235.000Z.jpg"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -261,16 +264,17 @@ Cell[BoxData[
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787159648*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999214215083`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"841935f8-892f-44cf-94db-270338a62abb"],
+In[161]:=",ExpressionUUID->"b8bcf4c0-95c0-4f9f-a907-99bb6ac24c4d"],
 
 Cell[BoxData["\<\"+++\\ntitle = 'Cut down on inherent complexity and get rid \
 of incidental complexity'\\ndate = 2024-07-10T00:00:00-07:00\\ndraft = \
 false\\ncategories = []\\ntags = [\\\"Modern\\\", \\\"Flight\\\", \
 \\\"complexity\\\", \\\"complex\\\", \\\"solutions\\\", \\\"infrastructures\\\
-\", \\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2019-12-23T225914.\
+\", \\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2017-05-29T194235.\
 000Z.jpg'\\n+++\"\>"], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -278,16 +282,17 @@ false\\ncategories = []\\ntags = [\\\"Modern\\\", \\\"Flight\\\", \
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.93049978716866*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.930499921448894*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"0691eef9-8ee6-4722-baa8-e871ca61df14"],
+In[161]:=",ExpressionUUID->"2c2e0852-845a-4c25-ad74-aa0ac98d70d7"],
 
 Cell[BoxData["\<\"+++\\ntitle = 'Cut down on inherent complexity and get rid \
 of incidental complexity'\\ndate = 2024-07-10T00:00:00-07:00\\ndraft = \
 false\\ncategories = []\\ntags = [\\\"Modern\\\", \\\"Flight\\\", \
 \\\"complexity\\\", \\\"complex\\\", \\\"solutions\\\", \\\"infrastructures\\\
-\", \\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2019-12-23T225914.\
+\", \\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2017-05-29T194235.\
 000Z.jpg'\\n+++\\nEssential complexity is a problem inherent in any task. For \
 example, the task of coordinating air traffic at the national level is \
 complex in itself. The control system must monitor in real time the precise \
@@ -329,10 +334,11 @@ complexity.\"\>"], "Print",
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787178087*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.930499921477355*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"385a2153-8603-40a4-a834-3b0e939c00d7"],
+In[161]:=",ExpressionUUID->"4bfef505-5ce5-4997-a770-8fc4072f0288"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -351,16 +357,17 @@ posts\\info 2.md"],
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.9304997871895657`*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999215123725`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"7787e1cc-f9a3-4a77-9548-a9ecb199baf5"],
+In[161]:=",ExpressionUUID->"c11c22bd-139b-4b08-b2d9-5603756a8fc4"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"oldImage = \"\>", 
-   "\[InvisibleSpace]", "\<\"knoxwelle__2017-06-05T100950.000Z.jpg\"\>"}],
-  SequenceForm["oldImage = ", "knoxwelle__2017-06-05T100950.000Z.jpg"],
+   "\[InvisibleSpace]", "\<\"knoxwelle__2021-06-22T065420.000Z.jpg\"\>"}],
+  SequenceForm["oldImage = ", "knoxwelle__2021-06-22T065420.000Z.jpg"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -368,16 +375,17 @@ Cell[BoxData[
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.9304997871965656`*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999215387015`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"0bc2fe71-69b5-46e9-adfa-d8b8a3142104"],
+In[161]:=",ExpressionUUID->"49a80296-a13c-4439-9143-8274b085d3bb"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"newImage = \"\>", 
-   "\[InvisibleSpace]", "\<\"knoxwelle__2017-07-08T080217.000Z.jpg\"\>"}],
-  SequenceForm["newImage = ", "knoxwelle__2017-07-08T080217.000Z.jpg"],
+   "\[InvisibleSpace]", "\<\"knoxwelle__2017-02-14T220619.000Z.jpg\"\>"}],
+  SequenceForm["newImage = ", "knoxwelle__2017-02-14T220619.000Z.jpg"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -385,10 +393,11 @@ Cell[BoxData[
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787202566*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999215656066`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"80839891-4df7-4eef-98a7-6e3aab91fc5f"],
+In[161]:=",ExpressionUUID->"46c6300b-5fd4-4480-9827-e04499ed424a"],
 
 Cell[BoxData["\<\"+++\\ntitle = 'Reduce the inherently complex eliminate any \
 secondary intricacy'\\ndate = 2024-07-13T00:00:00-07:00\\ndraft = \
@@ -396,7 +405,7 @@ false\\ncategories = []\\ntags = [\\\"Ruby\\\", \\\"Java\\\", \\\"Python\\\", \
 \\\"Smalltalk\\\", \\\"Postgres\\\", \\\"Oracle\\\", \\\"Windows\\\", \
 \\\"Linux\\\", \\\"Start\\\", \\\"communication\\\", \\\"people\\\", \
 \\\"opportunity\\\", \\\"start\\\", \
-\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2017-07-08T080217.\
+\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2017-02-14T220619.\
 000Z.jpg'\\n+++\"\>"], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -404,10 +413,11 @@ false\\ncategories = []\\ntags = [\\\"Ruby\\\", \\\"Java\\\", \\\"Python\\\", \
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787206597*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999215906096`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"8c990a26-a8de-4013-a9c0-7d375ac5c59c"],
+In[161]:=",ExpressionUUID->"abfb0b4d-2b1f-426c-bdb7-5db2be056dba"],
 
 Cell[BoxData["\<\"+++\\ntitle = 'Reduce the inherently complex eliminate any \
 secondary intricacy'\\ndate = 2024-07-13T00:00:00-07:00\\ndraft = \
@@ -415,7 +425,7 @@ false\\ncategories = []\\ntags = [\\\"Ruby\\\", \\\"Java\\\", \\\"Python\\\", \
 \\\"Smalltalk\\\", \\\"Postgres\\\", \\\"Oracle\\\", \\\"Windows\\\", \
 \\\"Linux\\\", \\\"Start\\\", \\\"communication\\\", \\\"people\\\", \
 \\\"opportunity\\\", \\\"start\\\", \
-\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2017-07-08T080217.\
+\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2017-02-14T220619.\
 000Z.jpg'\\n+++\\nRight now somewhere is suffering the disaster of another \
 project of wage calculation system... And probably not alone.  \\nWhy did \
 that happen? Because the developers chose Ruby instead of Java or Python \
@@ -459,10 +469,11 @@ but will also learn something new every time.\"\>"], "Print",
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.9304997872115755`*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999216206083`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"48f35b83-03b7-4343-bdc4-f96b81beef10"],
+In[161]:=",ExpressionUUID->"46168bdd-68ad-49b0-baa3-08b53b5551ad"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -481,16 +492,17 @@ posts\\info.md"],
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787218527*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.930499921662587*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"da6f2e8b-74f6-427f-9eb6-05d0b76ac4d4"],
+In[161]:=",ExpressionUUID->"bed8a96f-7699-43d9-8808-b932ef831412"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"oldImage = \"\>", 
-   "\[InvisibleSpace]", "\<\"knoxwelle__2017-11-27T052131.000Z.jpg\"\>"}],
-  SequenceForm["oldImage = ", "knoxwelle__2017-11-27T052131.000Z.jpg"],
+   "\[InvisibleSpace]", "\<\"knoxwelle__2018-04-10T190852.000Z.jpg\"\>"}],
+  SequenceForm["oldImage = ", "knoxwelle__2018-04-10T190852.000Z.jpg"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -498,16 +510,17 @@ Cell[BoxData[
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787225642*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.930499921688158*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"92715b73-7eb5-457e-a98e-84607af17266"],
+In[161]:=",ExpressionUUID->"1118f3ac-9e10-42bc-8d43-083b96784dee"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"newImage = \"\>", 
-   "\[InvisibleSpace]", "\<\"knoxwelle__2021-11-29T052528.000Z.jpg\"\>"}],
-  SequenceForm["newImage = ", "knoxwelle__2021-11-29T052528.000Z.jpg"],
+   "\[InvisibleSpace]", "\<\"knoxwelle__2017-05-31T171154.000Z.jpg\"\>"}],
+  SequenceForm["newImage = ", "knoxwelle__2017-05-31T171154.000Z.jpg"],
   Editable->False]], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -515,16 +528,17 @@ Cell[BoxData[
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.9304997872339535`*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.930499921707142*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"a4a939eb-0403-408e-b9a7-88e626286be9"],
+In[161]:=",ExpressionUUID->"db3acf7e-4c39-4b4f-a63b-fee131595e62"],
 
 Cell[BoxData["\<\"+++\\ntitle = 'Never put the demands of the client ahead of \
 your resume.'\\ndate = 2024-07-15T00:00:00-07:00\\ndraft = false\\ncategories \
 = []\\ntags = [\\\"project\\\", \\\"solution\\\", \\\"work\\\", \
 \\\"technology\\\", \
-\\\"customer\\\"]\\ncover_image='/images/cover/knoxwelle__2021-11-29T052528.\
+\\\"customer\\\"]\\ncover_image='/images/cover/knoxwelle__2017-05-31T171154.\
 000Z.jpg'\\n+++\"\>"], "Print",
  CellChangeTimes->{
   3.930158726508911*^9, 3.930158993937003*^9, {3.930159049540325*^9, 
@@ -532,16 +546,17 @@ your resume.'\\ndate = 2024-07-15T00:00:00-07:00\\ndraft = false\\ncategories \
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.930499787244322*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.930499921725137*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"23bf75e9-1760-4b7a-8448-874425f63316"],
+In[161]:=",ExpressionUUID->"7fdaeb2a-9dda-43fd-8a7b-ed9ece690368"],
 
 Cell[BoxData["\<\"+++\\ntitle = 'Never put the demands of the client ahead of \
 your resume.'\\ndate = 2024-07-15T00:00:00-07:00\\ndraft = false\\ncategories \
 = []\\ntags = [\\\"project\\\", \\\"solution\\\", \\\"work\\\", \
 \\\"technology\\\", \
-\\\"customer\\\"]\\ncover_image='/images/cover/knoxwelle__2021-11-29T052528.\
+\\\"customer\\\"]\\ncover_image='/images/cover/knoxwelle__2017-05-31T171154.\
 000Z.jpg'\\n+++\\nWe, technicians, choose to use certain technologies, \
 methodologies and approaches to solve problems not because they provide the \
 optimal solution, but only because in the depths of our heart we want to \
@@ -578,10 +593,11 @@ mistaken.\"\>"], "Print",
    3.9304930971112404`*^9, 3.930493255599456*^9, 3.930494540154113*^9, 
    3.930494606830285*^9, {3.930494651226121*^9, 3.930494667162555*^9}, 
    3.9304947376593866`*^9, 3.930499337398554*^9, 3.930499443944517*^9, 
-   3.9304997872609806`*^9},
+   3.9304997870944185`*^9, 3.9304998235693383`*^9, {3.9304998551850767`*^9, 
+   3.9304998691069098`*^9}, 3.9304999217468433`*^9},
  CellLabel->
   "During evaluation of \
-In[149]:=",ExpressionUUID->"708cef73-be80-4e6d-bb69-6fb35719d033"]
+In[161]:=",ExpressionUUID->"4c8f8db6-0b29-44c2-b5d5-d09a2a638cac"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -604,27 +620,27 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 530, 14, 89, "Input",ExpressionUUID->"7241a640-e92e-4cb9-a883-fbb4ed6d4dc7"],
-Cell[1113, 38, 1501, 24, 96, "Output",ExpressionUUID->"effd78c2-2bc9-449a-a346-f0ca3eb4a3d9"]
+Cell[1113, 38, 1603, 25, 96, "Output",ExpressionUUID->"bb3c52d4-0d50-4851-b6ff-4123db2c9b90"]
 }, Open  ]],
-Cell[2629, 65, 792, 17, 59, "Input",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
+Cell[2731, 66, 792, 17, 59, "Input",ExpressionUUID->"6df45464-0afb-4d19-81ce-421adcd33e53"],
 Cell[CellGroupData[{
-Cell[3446, 86, 5799, 122, 745, "Input",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
+Cell[3548, 87, 5799, 122, 745, "Input",ExpressionUUID->"1cb92565-49b8-449d-92b1-a7ca5d8cb900"],
 Cell[CellGroupData[{
-Cell[9270, 212, 886, 20, 18, "Print",ExpressionUUID->"f06b98d8-7e64-4e46-9644-5c23099905ec"],
-Cell[10159, 234, 759, 15, 18, "Print",ExpressionUUID->"63213f99-5517-4581-a1f0-89d488e33cfb"],
-Cell[10921, 251, 759, 15, 18, "Print",ExpressionUUID->"841935f8-892f-44cf-94db-270338a62abb"],
-Cell[11683, 268, 922, 15, 136, "Print",ExpressionUUID->"0691eef9-8ee6-4722-baa8-e871ca61df14"],
-Cell[12608, 285, 3435, 49, 597, "Print",ExpressionUUID->"385a2153-8603-40a4-a834-3b0e939c00d7"],
-Cell[16046, 336, 886, 20, 18, "Print",ExpressionUUID->"7787e1cc-f9a3-4a77-9548-a9ecb199baf5"],
-Cell[16935, 358, 761, 15, 18, "Print",ExpressionUUID->"0bc2fe71-69b5-46e9-adfa-d8b8a3142104"],
-Cell[17699, 375, 759, 15, 18, "Print",ExpressionUUID->"80839891-4df7-4eef-98a7-6e3aab91fc5f"],
-Cell[18461, 392, 1032, 17, 136, "Print",ExpressionUUID->"8c990a26-a8de-4013-a9c0-7d375ac5c59c"],
-Cell[19496, 411, 3822, 53, 715, "Print",ExpressionUUID->"48f35b83-03b7-4343-bdc4-f96b81beef10"],
-Cell[23321, 466, 880, 20, 18, "Print",ExpressionUUID->"da6f2e8b-74f6-427f-9eb6-05d0b76ac4d4"],
-Cell[24204, 488, 759, 15, 18, "Print",ExpressionUUID->"92715b73-7eb5-457e-a98e-84607af17266"],
-Cell[24966, 505, 761, 15, 18, "Print",ExpressionUUID->"a4a939eb-0403-408e-b9a7-88e626286be9"],
-Cell[25730, 522, 872, 15, 109, "Print",ExpressionUUID->"23bf75e9-1760-4b7a-8448-874425f63316"],
-Cell[26605, 539, 3073, 44, 531, "Print",ExpressionUUID->"708cef73-be80-4e6d-bb69-6fb35719d033"]
+Cell[9372, 213, 988, 21, 18, "Print",ExpressionUUID->"acde63e8-1260-4408-836c-9b20ed0300f6"],
+Cell[10363, 236, 861, 16, 18, "Print",ExpressionUUID->"ed81c9fb-9a95-4d61-98f7-cb0e18717664"],
+Cell[11227, 254, 863, 16, 18, "Print",ExpressionUUID->"b8bcf4c0-95c0-4f9f-a907-99bb6ac24c4d"],
+Cell[12093, 272, 1025, 16, 136, "Print",ExpressionUUID->"2c2e0852-845a-4c25-ad74-aa0ac98d70d7"],
+Cell[13121, 290, 3537, 50, 597, "Print",ExpressionUUID->"4bfef505-5ce5-4997-a770-8fc4072f0288"],
+Cell[16661, 342, 988, 21, 18, "Print",ExpressionUUID->"c11c22bd-139b-4b08-b2d9-5603756a8fc4"],
+Cell[17652, 365, 863, 16, 18, "Print",ExpressionUUID->"49a80296-a13c-4439-9143-8274b085d3bb"],
+Cell[18518, 383, 863, 16, 18, "Print",ExpressionUUID->"46c6300b-5fd4-4480-9827-e04499ed424a"],
+Cell[19384, 401, 1136, 18, 136, "Print",ExpressionUUID->"abfb0b4d-2b1f-426c-bdb7-5db2be056dba"],
+Cell[20523, 421, 3924, 54, 715, "Print",ExpressionUUID->"46168bdd-68ad-49b0-baa3-08b53b5551ad"],
+Cell[24450, 477, 982, 21, 18, "Print",ExpressionUUID->"bed8a96f-7699-43d9-8808-b932ef831412"],
+Cell[25435, 500, 861, 16, 18, "Print",ExpressionUUID->"1118f3ac-9e10-42bc-8d43-083b96784dee"],
+Cell[26299, 518, 861, 16, 18, "Print",ExpressionUUID->"db3acf7e-4c39-4b4f-a63b-fee131595e62"],
+Cell[27163, 536, 974, 16, 109, "Print",ExpressionUUID->"7fdaeb2a-9dda-43fd-8a7b-ed9ece690368"],
+Cell[28140, 554, 3175, 45, 531, "Print",ExpressionUUID->"4c8f8db6-0b29-44c2-b5d5-d09a2a638cac"]
 }, Open  ]]
 }, Open  ]]
 }
