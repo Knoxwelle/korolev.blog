@@ -1,5 +1,5 @@
 +++
-title = 'It's never too early to think about productivity'
+title = 'It is never too early to think about productivity'
 date = 2024-06-30T00:00:00-07:00
 draft = false
 categories = []

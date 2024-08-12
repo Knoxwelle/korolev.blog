@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Application performance determined by architecture.md",
+                "file": "posts/It is never too early to think about productivity.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Application performance determined by architecture.md",
+                "file": "posts/It is never too early to think about productivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Application performance determined by architecture.md",
+                "file": "posts/It is never too early to think about productivity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Application performance determined by architecture.md"
+                "file": "posts/It is never too early to think about productivity.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "63a26ad8b24d63ea",
   "lastOpenFiles": [
+    "posts/Find the true meaning of the needs.md",
+    "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.md",
+    "posts/It is never too early to think about productivity.md",
+    "posts/Ensure continuous integration.md",
+    "posts/Try not to break the schedule.md",
+    "posts/Get up.md",
+    "posts/Simplicity is better than versatility.md",
+    "posts/Application performance determined by architecture.md",
     "posts/There are no solutions for all cases of life.md",
     "posts/You negotiate more often than you think.md",
     "posts/Problems can be more than their reflection in the mirror.md",
@@ -158,18 +166,13 @@
     "posts/Business runs everything.md",
     "posts/Be guided by uncertainty.md",
     "posts/Use quantitative criteria.md",
-    "posts/Ensure continuous integration.md",
     "posts/The architect must be a practitioner.md",
-    "posts/Try not to break the schedule.md",
     "posts/There may be several solutions.md",
     "posts/Database as Fort.md",
     "posts/Failures are inevitable.md",
-    "posts/Get up.md",
-    "posts/Simplicity is better than versatility.md",
     "posts/System Design.txt",
     "posts/Screening.md",
     "posts/Screening.txt",
-    "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.md",
     "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.txt",
     "posts/Perhaps your main problem is not technology.md",
     "posts/Perhaps your main problem is not technology.txt",
@@ -181,9 +184,6 @@
     "posts/База данных как Крепость.txt",
     "posts/Архитектурные компромиссы.txt",
     "posts/Creating architecture as the art of balance.md",
-    "posts/It's never too early to think about productivity.md",
-    "posts/Live Coding.md",
-    "posts/Knowledge test.md",
     "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",
