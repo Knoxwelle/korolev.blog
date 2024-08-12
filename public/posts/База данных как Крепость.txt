@@ -1,0 +1,19 @@
++++
+title = ''
+date = 2024-05-17T00:00:00-07:00
+draft = false
+categories = ["fortress"]
+tags = ["fortress", "data", "model", "database", "application", "errors"]
+cover_image='/images/cover/knoxwelle__2020-09-12T155704.000Z.jpg'
++++
+In the database datax is stored all information – both entered by employees and received from customers. User interfaces, business logic, and applied logic (and even employees) come and go, and data stays.It is difficult to describe in words how important it is to build a reliable data model in the early days of the project.
+
+The enormous popularity of flexible design methodologies has led many to think that applications can (and even preferably!) be designed in the course of work.The era of pre-writing complex, exhaustive technical specifications is gone forever! The new school calls for the product to be delivered early and frequently.One line of exploitable code is better than 10 lines in your head.Sounds too good to be true... at least as far as data is concerned.
+
+While business logic and user interfaces evolve quite rapidly, data structures and their relationships are usually not.Therefore, it is very important to define the data model clearly from the outset, both at the structural and analytical levels.Data migration from one circuit to another "on-site" is at best difficult, always time-consuming and often full of errors.If application-level errors can still be tolerated for some time, errors in the database can lead to catastrophic consequences. Even if you have found and fixed a data-level design error, it will not restore the corrupted information.
+
+A reliable data model is a model that guarantees the security of today’s data and can be extended to tomorrow’s.Ensuring security means ensuring vulnerability to errors that, no matter how hard you try, penetrate the ever-changing application level;ining reference data integrity; setting subject area limits wherever they are known; choosing appropriate keys to help ensure reference integrity and compliance.Ensuring scalability means properly normalizing the data so that the data model can be easily supplemented with new architectural levels without resorting to all kinds of loopholes and bypass paths.
+
+The database is the last guard to protect your valuable data.The applied level, which is ephemeral in nature, cannot monitor itself.In order for the database to provide the necessary protection, the data model must be designed to reject inappropriate data and prevent the creation of meaningless relationships.The keys, external key relationships and subject area limitations described in the scheme are concise, understandable, easily verified and ultimately self-documented.The subject area rules encoded in the data model are also physical, long-term; they are not lost by changes in the application's logic.
+
+To get the most out of a relational database, that is, to make it a full part of an application, not just an application data repository, you need to have a good understanding of what you are creating from the start.As your product develops, the data level will improve as well, but at every development stage it must retain its Fortress status.And then you can trust him and confidently assume responsibility for intercepting errors from other levels of the application – and he will not disappoint you.

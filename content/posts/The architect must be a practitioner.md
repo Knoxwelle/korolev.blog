@@ -1,0 +1,19 @@
++++
+title = 'The architect must be a practitioner'
+date = 2024-06-28T00:00:00-07:00
+draft = false
+categories = []
+tags = ["team", "wireshark", "architect", "project", "problem", "way"]
+cover_image='/images/cover/knoxwelle__2017-05-25T130552.000Z.jpg'
++++
+A good architect should set an example to others. He should be able to replace any member of his team and do anything from networking and configuring the assembly process to writing modular tests and performing performance tests. Without a good understanding of the entire range of technologies, an architect is little different from an ordinary project manager.Team members may have deeper knowledge in their narrow fields – this is perfectly normal – but they are unlikely to be able to trust their architect unless he is familiar with the technologies used.As has already been said, an architect is an interface between the technical team and the business, which means that he must understand all the technical aspects in order to play the role of the team representative before the business management, without constantly seeking help.For the same reasons, the architect must understand the business aspects of the organization in order to successfully lead the developers to the goal of satisfying the commercial interests of the company.
+
+The work of an architect is similar to that of an airplane pilot: he may not look busy, but in reality uses decades of experience to keep an eye on the situation and intervene immediately in the event of an emergency.The project manager (second pilot) provides daily management, relieving the architect of routine and staff management.Ultimately, the architect must be responsible for the quality of the product and its timely delivery.These challenges are difficult to solve without personal authority, which plays an extremely important role in the success of any project.
+
+The best way to learn is to observe others; that's how we learn in childhood.A good architect should be able to identify a problem, put together a team and, without looking for the culprits, explain the essence of the problem, and then propose an elegant solution or a way around.At the same time, the architect can ask the team for help without losing any authority.Developers should feel their contribution to the problem, but the architect guides the discussion and determines the right approach.
+
+Architects should join the team at the very earliest stages of the project; they should not sit in an ivory tower, pointing the way forward from there, but work "in the field" with everyone else.The issues of choosing a strategic direction or technology should not be transformed into independent research or new projects – they should be approached pragmatically, searching for answers in the course of practical work or seeking advice from colleagues-architects (all good architects know each other).
+
+A good architect must have at the expert level at least one of the tools of his profession, such as an integrated design environment (IDE); remember that the architect should be a practitioner.It is logical that the software architect should know the IDE, the database architect – the toolkit for building substance-relation charts (ER-charts), and the information architect - the XML modeling tools.However, the lead architect must be able to apply tools at all levels, from monitoring network traffic using Wireshark to simulating complex financial messages in XMLSpy – there are no levels too low or too high for him.
+
+As a rule, an architect comes up with a good summary and an impressive past.This is usually easy to impress the management and technical staff, but without demonstrating his skills in practice he is unlikely to be able to win the respect of the team.In such a situation, the team will experience training difficulties and its members are unlikely to be able to cope with the task for which they were hired.

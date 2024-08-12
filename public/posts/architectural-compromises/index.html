@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/architectural-compromises/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Architectural compromises • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Architectural compromises">
+<meta name="twitter:description" content="Every software architect should know and understand that you can&rsquo;t get everything at once. In practice, it is impossible to design an architecture that has high performance, high availability, high security and high abstraction at the same time.There is one real story that software architects need to know, understand and tell their clients and colleagues.I mean the history of the Vaza.
+In 1620, there was a war between Sweden and Poland. Wishing to put an end to this expensive war more quickly, the King of Sweden ordered the construction of a gallion called the Vase.It was an unusual ship.The requirements for it were not the same as for any other ship of the time.It was to be more than 60 metres long, carry 64 guns on two battery deck, and also carry 300 soldiers at a time for safe delivery to Poland by sea.">
+
+<meta property="og:url" content="http://localhost:1313/posts/architectural-compromises/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Architectural compromises">
+  <meta property="og:description" content="Every software architect should know and understand that you can’t get everything at once. In practice, it is impossible to design an architecture that has high performance, high availability, high security and high abstraction at the same time.There is one real story that software architects need to know, understand and tell their clients and colleagues.I mean the history of the Vaza.
+In 1620, there was a war between Sweden and Poland. Wishing to put an end to this expensive war more quickly, the King of Sweden ordered the construction of a gallion called the Vase.It was an unusual ship.The requirements for it were not the same as for any other ship of the time.It was to be more than 60 metres long, carry 64 guns on two battery deck, and also carry 300 soldiers at a time for safe delivery to Poland by sea.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-12T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-12T00:00:00-07:00">
+    <meta property="article:tag" content="Vaza">
+    <meta property="article:tag" content="Sweden">
+    <meta property="article:tag" content="Poland">
+    <meta property="article:tag" content="King">
+    <meta property="article:tag" content="Time">
+    <meta property="article:tag" content="Soa">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.9196fcf1fedfce04f627f9bf866acdbeadc99ef75c2e0d19c0bff06074f3cb75.css" integrity="sha256-kZb88f7fzgT2J/m/hmrNvq3JnvdcLg0ZwL/wYHTzy3U=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Architectural compromises</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 12, 2024
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/atam">ATAM</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/cbam">CBAM</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/cost">COST</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/institute">INSTITUTE</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/italian">ITALIAN</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/method">METHOD</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/poland">POLAND</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/sweden">SWEDEN</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/vaza">VAZA</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/vaza">vaza</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/sweden">sweden</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/poland">poland</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/king">king</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/time">time</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/soa">soa</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/atam">atam</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/architecture-tradeoff">architecture tradeoff</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/benefit-analysis-metod">benefit analysis metod</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/sei">sei</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/software-engineering-institute">software engineering institute</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/architecture">architecture</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/software">software</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/ship">ship</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/ships">ships</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2017-07-08T074347.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Every software architect should know and understand that you can&rsquo;t get everything at once. In practice, it is impossible to design an architecture that has high performance, high availability, high security and high abstraction at the same time.There is one real story that software architects need to know, understand and tell their clients and colleagues.I mean the history of the Vaza.</p>
+<p>In 1620, there was a war between Sweden and Poland. Wishing to put an end to this expensive war more quickly, the King of Sweden ordered the construction of a gallion called the Vase.It was an unusual ship.The requirements for it were not the same as for any other ship of the time.It was to be more than 60 metres long, carry 64 guns on two battery deck, and also carry 300 soldiers at a time for safe delivery to Poland by sea. Time was running out, there was a lack of money (sounds familiar, right?).The shipbuilder has never designed such ships before.He specialized in smaller, single-deck vessels. Nevertheless, he undertook the design and construction of the Vaza, relying on his previous experience.As a result, a ship that meets these specifications was built. It&rsquo;s the day of the water descent.The ship proudly sailed into the harbor, saluting out all the guns&hellip;And then he sank.</p>
+<p>The Vaza problem was obvious; anyone who had seen the deck of a large 17th-century battleship knew that the decks of such ships were overcrowded and unsafe, especially during battle. It was a costly mistake to build ships that would serve both combat and transport.The shipbuilder, seeking to fulfil all the wishes of the king, created an unstable and poorly balanced ship.</p>
+<p>A software architect can draw a lot from this story and take this sad experience into account when designing a software product architecture.Trying to fulfil all the requirements at once (as in the case of the Vaza) creates an unstable architecture that does not solve exactly any of the tasks set.A good example of this is the requirement to force service-oriented architecture (SOA) to function as a point-to-point solution at the same time. Usually this forces to bypass the various levels of abstraction created by the SOA approach, and the result is an architecture resembling a spaghetti dish from an Italian restaurant.The architect has several tools at his disposal to identify the compromises to be taken when designing architectures. Two popular methods of this kind are ATAM (Architecture Tradeoff Analysis Method) and CBAM (Cost Benefit Analysis Metod).Further information on ATAM and CBAM can be found on the SEI (Software Engineering Institute) website.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/never-prioritize-your-resume-over-the-needs-of-the-client/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Never prioritize your resume over the needs of the client</span>
+    </a>
+    
+    
+    <a href="/posts/get-up/" class="navigation-next">
+      <span class="navigation-tittle">Get up</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

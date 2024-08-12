@@ -1,0 +1,1507 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     82139,       1499]
+NotebookOptionsPosition[     76450,       1423]
+NotebookOutlinePosition[     76854,       1439]
+CellTagsIndexPosition[     76811,       1436]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"fileList", "=", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"\"\<*.md\>\"", ",", 
+    RowBox[{"File", "[", 
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+       "\"\<content\\\\posts\>\""}], "]"}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.929217717115798*^9, 3.9292178076516476`*^9}, {
+   3.9292179139982204`*^9, 3.9292180109485364`*^9}, {3.9292181116552367`*^9, 
+   3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
+   3.9292195131056185`*^9},
+ CellLabel->
+  "In[236]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\DevOps, SRE.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Interview tips.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Live Coding.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:041f\:0440\:043e\:0432\:0435\:0440\:043a\:0430 \
+\:0437\:043d\:0430\:043d\:0438\:0439.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Screening.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\System Design.md\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.929217973036312*^9, 3.929218015002745*^9}, {
+   3.9292181019595547`*^9, 3.9292181227832947`*^9}, {3.9292192008080373`*^9, 
+   3.929219208468548*^9}, {3.9292195060218716`*^9, 3.929219516010848*^9}, 
+   3.929374761727815*^9, 3.9293770443430643`*^9, {3.929377129799858*^9, 
+   3.92937718610667*^9}, 3.929379873045842*^9, 3.9293799125598564`*^9, 
+   3.929379956910489*^9, 3.929380106410046*^9, 3.9293802464560995`*^9, 
+   3.9293805648564034`*^9, 3.92938079299347*^9, 3.929381120453438*^9, 
+   3.929381394092862*^9, 3.929904981092246*^9, 3.92990503872686*^9, 
+   3.9300716411970215`*^9, 3.930153386240965*^9, 3.9301535256438875`*^9, {
+   3.9304804707324867`*^9, 3.9304804956012917`*^9}, 3.930484085894026*^9, 
+   3.930485348143634*^9, 3.93048560632467*^9, 3.930486004921291*^9, 
+   3.930486206755206*^9, 3.9304864915187435`*^9, 3.930486669964489*^9, 
+   3.9304873251005487`*^9, 3.930487929467533*^9, 3.9304882682124186`*^9, 
+   3.9304883848168063`*^9, 3.9304886872936573`*^9, 3.930490370468549*^9, 
+   3.9304904609847393`*^9, 3.9304907485994406`*^9, 3.930491017728156*^9, 
+   3.9304912944935045`*^9, 3.930495273357706*^9, 3.9304971890971174`*^9, 
+   3.930529347415254*^9, 3.930529582498024*^9, 3.930530259319625*^9, 
+   3.9323468127417393`*^9, 3.932346962019078*^9, 3.9323470400242033`*^9, 
+   3.9323470971145344`*^9, 3.9323475622709985`*^9},
+ CellLabel->
+  "Out[236]=",ExpressionUUID->"3c51cc9a-0797-43e2-a303-7f91c3e23b87"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{"dateList", "=", 
+   RowBox[{"With", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"first", "=", "Today"}], "}"}], ",", 
+     RowBox[{"DateRange", "[", 
+      RowBox[{
+       RowBox[{"DatePlus", "[", 
+        RowBox[{"first", ",", 
+         RowBox[{"-", " ", 
+          RowBox[{"Quantity", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"Length", "[", "fileList", "]"}], "*", "3"}], ",", 
+            "\"\<Days\>\""}], "]"}]}]}], "]"}], ",", "first"}], "]"}]}], 
+    "]"}]}], "*)"}]], "Input",
+ CellChangeTimes->{
+  3.9292160594991455`*^9, {3.929216262371937*^9, 3.9292163813178587`*^9}, {
+   3.9292164843796673`*^9, 3.929216490015292*^9}, {3.9292180182998824`*^9, 
+   3.9292180457223005`*^9}, {3.929380778986627*^9, 3.929380785027054*^9}, {
+   3.9293813852104425`*^9, 3.9293814305791717`*^9}, {3.9293815766013494`*^9, 
+   3.9293815846823196`*^9}, {3.9293817296478004`*^9, 3.929381755585693*^9}, {
+   3.9299049748571444`*^9, 3.929904975436484*^9}, 3.929905034066107*^9, 
+   3.930480683931385*^9, 3.93048080971883*^9},
+ CellLabel->
+  "In[237]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"i", "=", "1"}], ",", 
+    RowBox[{"i", "<=", 
+     RowBox[{"Length", "[", "fileList", "]"}]}], ",", 
+    RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"file", "=", 
+       RowBox[{"fileList", "[", 
+        RowBox[{"[", "i", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Print", "[", 
+       RowBox[{"i", ",", "\"\<. \>\"", ",", "file"}], "]"}], ";", 
+      "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      RowBox[{"txtFile", "=", 
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+          RowBox[{"StringJoin", "[", 
+           RowBox[{
+            RowBox[{"FileBaseName", "[", "file", "]"}], ",", "\"\<.txt\>\""}],
+            "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"RenameFile", "[", 
+       RowBox[{"file", ",", "txtFile"}], "]"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"content", "=", 
+       RowBox[{"Import", "[", "txtFile", "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"header", "=", 
+       RowBox[{"First", "[", 
+        RowBox[{"StringCases", "[", 
+         RowBox[{"content", ",", 
+          RowBox[{"\"\<+++\>\"", "~~", "x___", "~~", "\"\<+++\>\""}]}], " ", 
+         "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"text", "=", 
+       RowBox[{"StringTrim", "[", 
+        RowBox[{"StringReplace", "[", 
+         RowBox[{"content", ",", " ", 
+          RowBox[{"header", "->", "\"\<\>\""}]}], "]"}], "]"}]}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"oldTitle", "=", 
+       RowBox[{"StringTrim", "[", 
+        RowBox[{"First", "[", 
+         RowBox[{"StringCases", "[", 
+          RowBox[{"header", ",", 
+           RowBox[{
+            RowBox[{
+            "\"\<title = \>\"", "~~", "x___", "~~", "\"\<date = \>\""}], " ", 
+            "->", "x"}]}], "]"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"Print", "[", 
+       RowBox[{"StringLength", "[", 
+        RowBox[{"StringReplace", "[", 
+         RowBox[{"oldTitle", ",", 
+          RowBox[{"\"\<'\>\"", "->", "\"\<\>\""}]}], "]"}], "]"}], "]"}], ";",
+       "\[IndentingNewLine]", 
+      RowBox[{"If", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"StringLength", "[", 
+          RowBox[{"StringReplace", "[", 
+           RowBox[{"oldTitle", ",", 
+            RowBox[{"\"\<'\>\"", "->", "\"\<\>\""}]}], "]"}], "]"}], "==", 
+         "0"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"newFile", "=", 
+          RowBox[{"FileNameJoin", "[", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+             RowBox[{"StringJoin", "[", 
+              RowBox[{
+               RowBox[{"FileBaseName", "[", "file", "]"}], ",", 
+               "\"\<.md\>\""}], "]"}]}], "}"}], "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"RenameFile", "[", 
+          RowBox[{"txtFile", ",", "newFile"}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"Print", "[", "\"\<Skipping\>\"", "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"Continue", "[", "]"}], ";"}]}], "]"}], ";", 
+      "\[IndentingNewLine]", 
+      RowBox[{"path", "=", 
+       RowBox[{"StringJoin", "[", 
+        RowBox[{
+         RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", 
+         "\"\<quillbot-api\>\""}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{"Import", "[", 
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"path", ",", " ", "\"\<example.js\>\""}], "]"}], "]"}], 
+      "*)"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"exampleFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<example.txt\>\""}], "}"}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"exFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<ex.txt\>\""}], "}"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"exJsFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<ex.js\>\""}], "}"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<example.js\>\""}], "}"}], "]"}], 
+      "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"exContent", "=", 
+      RowBox[{"Import", "[", "exampleFile", "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"newExContent", "=", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{"exContent", ",", 
+        RowBox[{"\"\<${text}\>\"", "->", "oldTitle"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{"exFile", ",", "newExContent"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"exFile", ",", "exJsFile"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"process", "=", 
+      RowBox[{"StartProcess", "[", "$SystemShell", "]"}]}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"WriteLine", "[", 
+      RowBox[{"process", ",", 
+       RowBox[{"StringJoin", "[", 
+        RowBox[{"\"\<cd \>\"", ",", "path"}], "]"}]}], "]"}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"WriteLine", "[", 
+      RowBox[{"process", ",", "\"\<node ex\>\""}], "]"}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"Pause", "[", "60", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"output", "=", 
+        RowBox[{"ReadString", "[", 
+         RowBox[{"process", ",", "EndOfBuffer"}], "]"}]}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"output", "=", 
+        RowBox[{"ReadString", "[", 
+         RowBox[{"process", ",", "\"\<::\>\""}], "]"}]}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"output", "=", 
+      RowBox[{"Import", "[", 
+       RowBox[{"FileNameJoin", "[", 
+        RowBox[{"{", 
+         RowBox[{"path", ",", " ", "\"\<output.txt\>\""}], "}"}], "]"}], 
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"DeleteFile", "[", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{"path", ",", " ", "\"\<output.txt\>\""}], "}"}], "]"}], "]"}],
+      ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", "output", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"WriteLine", "[", 
+      RowBox[{"process", ",", "\"\<exit\>\""}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"DeleteFile", "[", "exJsFile", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"paraphrased", "=", 
+        RowBox[{"StringTrim", "[", 
+         RowBox[{"First", "[", 
+          RowBox[{"StringCases", "[", 
+           RowBox[{"output", ",", 
+            RowBox[{
+             RowBox[{"\"\<Paraphrased:\>\"", "~~", "x___", "~~", 
+              RowBox[{"NotebookDirectory", "[", "]"}]}], "->", "x"}]}], "]"}],
+           "]"}], "]"}]}], ";"}], "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"paraphrased", "=", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{
+        RowBox[{"RemoveDiacritics", "[", 
+         RowBox[{"StringTrim", "[", "output", "]"}], "]"}], ",", 
+        RowBox[{"\"\<.\>\"", "->", "\"\<\>\""}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", "paraphrased", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"newTitle", "=", " ", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"\"\<'\>\"", ",", "paraphrased", ",", "\"\<'\>\""}], "]"}]}], 
+     ";", "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"newHeader", "=", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{"header", ",", 
+        RowBox[{"oldTitle", "->", "newTitle"}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", "newHeader", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"newContent", "=", 
+      RowBox[{"StringJoin", "[", 
+       RowBox[{"newHeader", ",", "\"\<\\n\>\"", ",", " ", "text"}], "]"}]}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", "newContent", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{"txtFile", ",", "newContent"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"newFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{"paraphrased", ",", "\"\<.md\>\""}], "]"}]}], "}"}], 
+       "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", "newFile", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"txtFile", ",", "newFile"}], "]"}], ";"}]}], 
+   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.929374848236891*^9, 3.9293748511036243`*^9}, {
+   3.929374935234683*^9, 3.9293751531424026`*^9}, {3.9293766798063145`*^9, 
+   3.929376683419645*^9}, {3.9293767565437894`*^9, 3.9293767617159977`*^9}, {
+   3.9293768165861263`*^9, 3.9293768574885263`*^9}, {3.9293769048775253`*^9, 
+   3.929376923032815*^9}, {3.929376963031721*^9, 3.929377017538329*^9}, 
+   3.9293770728294005`*^9, {3.9293771184850016`*^9, 3.9293771821272807`*^9}, 
+   3.9293797678018446`*^9, {3.9293798031371336`*^9, 3.9293798610794344`*^9}, {
+   3.929379951227022*^9, 3.9293799526511736`*^9}, {3.9293806886666846`*^9, 
+   3.9293806900231953`*^9}, {3.930153099569622*^9, 3.930153244290264*^9}, {
+   3.9301533784104185`*^9, 3.9301533788871517`*^9}, {3.9301535173627806`*^9, 
+   3.9301535181359687`*^9}, {3.930480378601529*^9, 3.930480452396018*^9}, {
+   3.930480826221388*^9, 3.93048090418117*^9}, {3.930480992346277*^9, 
+   3.930481020700739*^9}, {3.9304810609516325`*^9, 3.9304810649327507`*^9}, {
+   3.9304811027036743`*^9, 3.930481125756013*^9}, {3.9304850024795713`*^9, 
+   3.9304850709059925`*^9}, {3.930485104190993*^9, 3.93048518970777*^9}, {
+   3.930485221108118*^9, 3.9304853292711287`*^9}, {3.930485860359277*^9, 
+   3.930485885635726*^9}, {3.930485970805511*^9, 3.9304859790292554`*^9}, {
+   3.9304860736945963`*^9, 3.9304860760173674`*^9}, {3.930486177140055*^9, 
+   3.9304861991546183`*^9}, {3.930486355242633*^9, 3.9304863554296274`*^9}, 
+   3.9304864839453135`*^9, {3.9304866404646845`*^9, 3.9304866445841985`*^9}, {
+   3.930487804054434*^9, 3.9304878148019924`*^9}, {3.9304878695858464`*^9, 
+   3.930487881236991*^9}, {3.9304880806792684`*^9, 3.9304880899069266`*^9}, {
+   3.930488245342493*^9, 3.9304882619225726`*^9}, {3.9304886227116013`*^9, 
+   3.930488639207857*^9}, {3.9304902241069584`*^9, 3.9304902613033624`*^9}, {
+   3.9304903078940606`*^9, 3.930490328522088*^9}, 3.9304905072429957`*^9, {
+   3.9304906855340986`*^9, 3.9304907261886063`*^9}, {3.930490930496278*^9, 
+   3.9304909400269036`*^9}, {3.9304963681599717`*^9, 
+   3.9304963702154274`*^9}, {3.930496866229742*^9, 3.9304968666729345`*^9}, 
+   3.9305291755636854`*^9, {3.9305292182487783`*^9, 3.930529244623312*^9}, 
+   3.930529336686267*^9, {3.9305295614475355`*^9, 3.9305295766455374`*^9}, {
+   3.930529917701468*^9, 3.930529952272113*^9}, {3.9323464193411274`*^9, 
+   3.932346428597872*^9}, {3.9323464689952917`*^9, 3.932346572360176*^9}, {
+   3.9323466735420804`*^9, 3.9323466741925306`*^9}, {3.9323467453280487`*^9, 
+   3.9323467978779807`*^9}, {3.932346858592832*^9, 3.932346866318654*^9}, {
+   3.932346932342126*^9, 3.9323469545010347`*^9}, {3.932347023435783*^9, 
+   3.9323470337702675`*^9}, 3.9323470775538206`*^9},
+ CellLabel->
+  "In[238]:=",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "1", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\DevOps, SRE.md\"\>"}],
+  SequenceForm[
+  1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\DevOps, SRE.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.93234756242385*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"fe09f09f-44dd-4447-b4c3-1e1cebb8f1c9"],
+
+Cell[BoxData["11"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323475624288425`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"26845292-b139-4c42-9870-6d4341abd95f"],
+
+Cell[BoxData["\<\"SRE and DevOps\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347622526532*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"7723f649-ff8e-48eb-a65f-100657f268e9"],
+
+Cell[BoxData["\<\"SRE and DevOps\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347622535531*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"2b01469a-0d07-426a-befc-41f1ab9066ac"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'SRE and DevOps'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347622545533*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"b4759e46-b1c7-40cb-a821-66b3b5a53476"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'SRE and DevOps'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time we are talking about DevOps/SRE in enterprise \
+companies, and their recruitment process.\\n\\n## DevOps/SRE\\n\\nI was \
+unemployed, full of time, so I decided to interview DevOps. In vain that the \
+course on linux was held on Udemy (a joke, sarcasm, still passed, but to \
+write about it is embarrassing)?! And then I liked the process much more. It \
+consisted of only 2 steps: general knowledge and troubleshooting.\\n\\nIn \
+general knowledge the interviewer had a list of questions, but he allowed \
+himself to deviate a little from it, which gave some liveliness to the \
+conversation. We've had time to discuss linux loading, networking, container \
+operation, database. In general, what happens in the universe one way or \
+another! Maybe not so profoundly, but some baccalaureate could have answered \
+them. In the end, the interlocutor learned something new, and I wrote out a \
+couple of items to read.\\n\\nTroubleshooting was a role-playing game. There \
+is a system, users complain that the site does not load. You don't have \
+notebooks or dashboards, you've only got a sensible jungle who can be \
+commanded to do or see something. At least it was fun and as close as \
+possible to real work. The problem isn't complicated, but it's only an hour. \
+And the scientific method here loses to empirical observations. The SRE must \
+have some sense of what's going on in the system, which is being produced at \
+the time of the incident.\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323476225544977`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"effe1497-456a-4890-b102-702c3753a557"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\SRE and DevOps.md\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323476225685034`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"bf72f422-9ea4-46ce-aadb-60f5e0436cd7"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "2", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Interview tips.md\"\>"}],
+  SequenceForm[
+  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Interview tips.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323476225744944`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"c17a2e35-8a60-43fd-9052-9faae2c98220"],
+
+Cell[BoxData["14"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323476225805373`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"9a25a212-4e1e-4269-8126-068195824fce"],
+
+Cell[BoxData["\<\"Interview advice\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347682706992*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"eb0f71aa-25e2-42f7-9445-4d21e37ffcac"],
+
+Cell[BoxData["\<\"Interview advice\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.93234768271699*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"0960d91c-7d57-48a4-8cff-7f6b9656453c"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'Interview advice'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = false\\ncategories = [\\\"recruiting\\\"]\
+\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347682725994*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"9f7c31c3-4d4f-47d9-bc3c-a3acf6a76aa5"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'Interview advice'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = false\\ncategories = [\\\"recruiting\\\"]\
+\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nThe fate of the fate I started to go to interviews again, and I want to \
+share some observations. On this, I just give advice to everyone in \
+enterprise companies about how the recruitment process should be \
+structured.\\n\\n## Advice to candidates\\n\\nIn the last five years, I've \
+been through several hundred interviews on both sides. So, some life hacking:\
+\\n\\n- You're going to have to go through the windshields. Those you're not \
+going to go to. You pump the skill, or suddenly something interesting turns \
+out to be, or it'll be the only place with the offer. You never know what's \
+in a box of candy.\\n    \\n- Get some sleep and let yourself rest on the day \
+of wrath. The same live coding is quite a dumb thing; the solution may not \
+come during the call but will appear immediately after.\\n    \\n- Take a \
+glass of water. Drink in any unclear situation; it is a good and adequate \
+filler.\\n    \\n- Talk to me. It's good if you can talk to your cat or \
+colleague about distracted topics before the call. It helps relieve some \
+tension.\\n    \\n- Take it easy. If they don't take you, nobody dies. Yeah, \
+maybe it'll be harder, but in a year or two, you'll even say \\\"thank you.\\\
+\" This attitude will help reduce the degree of stiffness a little.\\n    \
+\\n- Be sure to ask for feedback. Without feedback, it's very hard to \
+learn.\\n    \\n\\nI would like to remind you that refusal should be treated \
+more easily. You just didn't fit this company for that position. It doesn't \
+make you a bad person or a programmer. I received refusals with such words as \
+\\\"overqualified\\\" and \\\"we thought you would fall somewhere and agree \
+to the penny against quater,\\\" just flowers. Well, they don't have a job \
+for me, maybe.\\n\\n## Advice to interviewers\\n\\nMore empathy. You are not \
+a candidate, but a potential colleague. And you have no purpose in \
+overthrowing him; your task is to understand if he can perform the duties \
+that he will have and if it is comfortable for you to communicate. It's \
+impossible to do that in an hour and a half.\\n\\n## Instead of conviction\\n\
+\\nIn my 10 years in IT, I have worked for many types of companies. They were \
+mainly start-ups or small companies with 20\[Dash]30 people. So, the \
+interviews at the enterprise are strikingly different from theirs. Recruiters \
+have a huge flow of vacancies and resumes, so wild options are possible at \
+first sight. For example, after seven successful interviews, I was told that \
+they could not find a position for me. WTF?! But as an excuse, I can say that \
+they have streaming hiring. I mean, they're screwing everybody, \\\"and we're \
+going to figure it out someday.\\\" And the processes are fully standardized. \
+Whether you're a senior in Python with 15 years of referral experience or \
+not, you still go through all the hell stages.\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323476827356124`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"e0442d56-bc50-45ca-bc25-a729eb54e6d4"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Interview advice.md\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347682753611*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"861c328e-2368-4266-a406-8c6f43fbadbc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "3", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Live Coding.md\"\>"}],
+  SequenceForm[
+  3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Live Coding.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347682763607*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"1ac9eb16-b7af-4b39-8ba5-84a817299d46"],
+
+Cell[BoxData["11"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347682773639*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"0e43a42b-c87f-415a-adb8-4e8d55c2bf47"],
+
+Cell[BoxData["\<\"Real-time Coding\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323477429057374`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"bc57869a-2040-4ee8-bcd2-186ed689a56e"],
+
+Cell[BoxData["\<\"Real-time Coding\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.93234774292374*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"a585dd41-7fd7-412f-9444-db75013e5c23"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'Real-time Coding'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323477429383483`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"d5c87ad2-1cb8-440f-8dc6-bff606cdc81a"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'Real-time Coding'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time we talk about Live Coding in enterprise companies, \
+and how the recruitment process should be constructed.\\n\\n## Live Coding\\n\
+\\nThere's always a lot of noise around him. Some people like it \
+(interviews), some people don't like it at all (candidates), and someone goes \
+to a psychologist after him for six months. This is not really to understand \
+that the candidate is able to code, not enough extensive project on github, \
+profile articles with code, reports after all... As I was told, this is done \
+to ensure that everyone is equal in recruitment. Well, good luck hiring a \
+leader or a gentleman in five rounds. At the second, he'll ask himself, \
+\\\"Do I really need this? Well, there are already 3 offers\\\" and it will \
+fall off.\\n\\nAll right, live coding. Usually you get two tasks to program. \
+Yeah, turn the trees. (Do you know what roffle? You come to them later, and \
+they don't have any trees at all) There's an hour for everything. And how \
+this hour will pass very much depends on the interlocutor. There are those \
+who help reason, elaborate the IDE, set up a two-point and self, if \
+forgotten, show some kind of empathy and support - the candidate is still in \
+stress. Take care of them! Much more often I get those who don't even turn on \
+the cameras. They just give a job and watch the attempts. At one of these \
+sessions, I solved a three-hour task. Did I get an offer - no :) \\\"Because \
+you probably have a choice, so we're not going to communicate.\\\" Epic \
+~~fail~~win!\\n\\nThe most interesting live coding I've ever had was with one \
+Canadian. We discussed and solved the problem together. Literally together - \
+he wrote one part, I wrote the second, more complicated. And that's when I \
+realized another problem of this session -- one-sidedness. We have a \
+co-interview at the end of the day. That is, the candidate should look after \
+future colleagues. Can they code too? Working at VOTVASYA does not always \
+involve this.\\n\\nAnd in a well-known company they are asked to solve the \
+problems for O(1), but it does not care about the amount of additional \
+memory. It's easy to understand why their app weighs so much, but it still \
+brakes. But the nuance is that in practice such code is much more difficult \
+to write and maintain because of the problems of synchronization of these \
+very data structures. And it turns out that the interview turns into an \
+Olympiad; and there how lucky - if you slept, come up with a solution; no - \
+nothing, you come up before sleeping.\\n\\nAnother reason why people do not \
+like online programming is that the interviewer is not prepared. Encoding in \
+a notebook with a scratched screen still occurs. Most often, of course, just \
+some kind of online editor, and good if with syntax lighting. But to find \
+such another half-business, you have to come up with a challenge. The \
+strangest thing I had was, \\\"Transfer money from account A to account B\\\" \
+- and the white screen. No interfaces, no templates, not even a hint on the \
+BD... And you just spend 10 minutes telling them what they want to see. What \
+about writing classes? What fields? In short, all this support code, which is \
+not directly related to the task.\\n\\nAnd now what we need to do. What I \
+liked most was the discussion of some kind of PR. Here, without sarcasm, it \
+is immediately clear how a person will behave in a working situation. What he \
+is paying attention to, what he is missing, and why. For example, gentlemen \
+usually ignore formatting because it's the work of linters, and focus more on \
+APIs, races, and optimum work with the base. I highly recommend \
+trying.\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347742950426*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"5e6ba25e-4f83-4dfe-8163-1bdaf95c58dd"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Real-time Coding.md\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323477429689665`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"aff3ff9e-da99-422f-a5e2-2c4641b72b10"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "4", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:041f\:0440\:043e\:0432\:0435\:0440\:043a\:0430 \:0437\
+\:043d\:0430\:043d\:0438\:0439.md\"\>"}],
+  SequenceForm[
+  4, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\\:041f\:0440\:043e\:0432\:0435\:0440\:043a\:0430 \:0437\:043d\:0430\
+\:043d\:0438\:0439.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347742978985*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"9e84a0a8-1983-4d0c-9f76-a1f158e01084"],
+
+Cell[BoxData["15"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347742990982*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"3b9879aa-b747-477b-866e-6f40bacc9e57"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import", "nffil", 
+   "\"File \\!\\(\\*RowBox[{\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\
+\\korol\\\\\\\\\\\\\\\\YandexDisk\\\\\\\\\\\\\\\\Hugo\\\\\\\\\\\\\\\\project\\\
+\\\\\\\\\\\\\\tinydev\\\\\\\\\\\\\\\\quillbot-api\\\\\\\\\\\\\\\\output.txt\\\
+\\\\\"\\\"}]\\) not found during \\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"", 2, 
+   238, 115, 27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.9323478032413874`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"5a498c75-03da-4f00-b59f-9b54049ea68d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "DeleteFile", "fdnfnd", 
+   "\"Directory or file \
+\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\korol\
+\\\\\\\\\\\\\\\\YandexDisk\\\\\\\\\\\\\\\\Hugo\\\\\\\\\\\\\\\\project\\\\\\\\\
+\\\\\\\\tinydev\\\\\\\\\\\\\\\\quillbot-api\\\\\\\\\\\\\\\\output.txt\\\\\\\"\
+\\\"}]\\)\\\" not found.\"", 2, 238, 116, 27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.9323478033207474`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"35a1a856-bc49-4376-8deb-1335bc913792"],
+
+Cell[BoxData["$Failed"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347803356641*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"b471d130-e5dd-4485-82a3-d6cd9db2a5d3"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringTrim", "strse", 
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringTrim\\\", \\\"[\\\", \\\"$Failed\\\", \
+\\\"]\\\"}]\\).\"", 2, 238, 117, 27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.9323478033727016`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"94795500-138e-4153-baa8-5370cb98373d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "RemoveDiacritics", "arg1", 
+   "\"String or list of strings expected in position 1.\"", 2, 238, 118, 
+   27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.932347803412718*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"c76c97aa-a63e-460e-91a9-107932f859f8"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringReplace", "strse", 
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"RemoveDiacritics\\\", \\\"[\\\", RowBox[{\\\"StringTrim\\\
+\", \\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}], \\\"]\\\"}], \\\",\\\", RowBox[{\
+\\\"\\\\\\\".\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}]}], \
+\\\"]\\\"}]\\).\"", 2, 238, 119, 27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.932347803468274*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"6f6b5707-719b-42c8-a477-4c6d652af764"],
+
+Cell[BoxData[
+ RowBox[{"StringReplace", "[", 
+  RowBox[{
+   RowBox[{"RemoveDiacritics", "[", 
+    RowBox[{"StringTrim", "[", "$Failed", "]"}], "]"}], ",", 
+   RowBox[{"\<\".\"\>", "\[Rule]", "\<\"\"\>"}]}], "]"}]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478035403414`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"0875eaf6-e178-4645-943e-cc20f504e961"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringJoin", "string", 
+   "\"String expected at position \\!\\(\\*RowBox[{\\\"2\\\"}]\\) in \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"'\\\\\\\"\\\", \\\"<>\\\", \
+RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"RemoveDiacritics\\\", \\\"[\\\", RowBox[{\\\"StringTrim\\\
+\", \\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}], \\\"]\\\"}], \\\",\\\", RowBox[{\
+\\\"\\\\\\\".\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}]}], \
+\\\"]\\\"}], \\\"<>\\\", \\\"\\\\\\\"'\\\\\\\"\\\"}]\\).\"", 2, 238, 120, 
+   27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.932347803561021*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"ef12328c-1903-4bef-8413-05b3f358ca4c"],
+
+Cell[BoxData[
+ RowBox[{"\<\"+++\\ntitle = \"\>", "~~", 
+  RowBox[{"\<\"'\"\>", "<>", 
+   RowBox[{"StringReplace", "[", 
+    RowBox[{
+     RowBox[{"RemoveDiacritics", "[", 
+      RowBox[{"StringTrim", "[", "$Failed", "]"}], "]"}], ",", 
+     RowBox[{"\<\".\"\>", "\[Rule]", "\<\"\"\>"}]}], "]"}], 
+   "<>", "\<\"'\"\>"}], 
+  "~~", "\<\"\\ndate = 2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories \
+= [\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"}]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347803635021*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"474513a7-ad14-4239-98a6-2d4650f281f8"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringJoin", "string", 
+   "\"String expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
+\\!\\(\\*RowBox[{RowBox[{\\\"(\\\", RowBox[{\\\"\\\\\\\"+++\\\\\\\\ntitle = \
+\\\\\\\"\\\", \\\"~~\\\", RowBox[{\\\"\\\\\\\"'\\\\\\\"\\\", \\\"<>\\\", \
+RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"RemoveDiacritics\\\", \\\"[\\\", RowBox[{\\\"StringTrim\\\
+\", \\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}], \\\"]\\\"}], \\\",\\\", RowBox[{\
+\\\"\\\\\\\".\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}]}], \
+\\\"]\\\"}], \\\"<>\\\", \\\"\\\\\\\"'\\\\\\\"\\\"}], \\\"~~\\\", \
+\\\"\\\\\\\"\\\\\\\\ndate = 2024-07-13T00:00:00-07:00\\\\\\\\ndraft = \
+true\\\\\\\\ncategories = \
+[\\\\\\\\\\\\\\\"recruiting\\\\\\\\\\\\\\\"]\\\\\\\\ntags = \
+[]\\\\\\\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\\
+\\\\\\n+++\\\\\\\"\\\"}], \\\")\\\"}], \\\"<>\\\", RowBox[{\\\"\\\\\\\"\\\\\\\
+\\nI've been going to interviews again, and I'd like to share some \
+observations. This time \\\\\\\"\\\", \\\"\[Ellipsis]\\\", \\\"\\\\\\\" them \
+said, \\\\\\\\\\\\\\\"Here I'm asking questions.\\\\\\\\\\\\\\\" For some \
+reason, I immediately thought we't work.\\\\\\\"\\\"}]}]\\).\"", 2, 238, 121, 
+   27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.932347803662715*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"5f5905eb-c5f5-4971-a2ac-ba6214eb0954"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"\<\"+++\\ntitle = \"\>", "~~", 
+    RowBox[{"\<\"'\"\>", "<>", 
+     RowBox[{"StringReplace", "[", 
+      RowBox[{
+       RowBox[{"RemoveDiacritics", "[", 
+        RowBox[{"StringTrim", "[", "$Failed", "]"}], "]"}], ",", 
+       RowBox[{"\<\".\"\>", "\[Rule]", "\<\"\"\>"}]}], "]"}], 
+     "<>", "\<\"'\"\>"}], 
+    "~~", "\<\"\\ndate = 2024-07-13T00:00:00-07:00\\ndraft = \
+true\\ncategories = [\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"}], ")"}], 
+  "<>", "\<\"\\nI've been going to interviews again, and I'd like to share \
+some observations. This time it is about testing knowledge in enterprise \
+companies, and how the recruitment process should be constructed.\\n\\n## \
+Checker known\\n\\nSo, I talked about five stages of IT interviews. You \
+probably thought I exaggerated. But no: recruiter, python test, live coding, \
+system design, soft skills. Then another call for the offer presentation. So, \
+the second stage is just some kind of Facebook spam. Not only can it be \
+combined with live coding, if it is not just to code, but to discuss the \
+solution, but also the questions on it softly speaking are stupid. Primitive \
+and old-fashioned. So, according to the company's logic, you can send soaps \
+there, so you don't waste your gentlemen's time. I'm not, of course, Don \
+Carleone, but Middle just can't appreciate the master's knowledge. Banally, \
+he doesn't look there, but most importantly - superficially.\\n\\nFor \
+example, the question of how to measure the running time of the program. \
+Well, 'time.time' is complicated. Although I would have taken some more \
+suitable tool. But the correct answer is to use 'time.monotonic'. No \
+questions - it's absolutely true, but will we really measure in the night of \
+30 June to 1 July 2024? And is monotonous time really monotone evenly? After \
+clarifying questions, I realized that the interlocutor is aware of the \
+monotonous time, but absolutely no idea about the NTP and the transitional \
+second.\\n\\nAnd again, the NAC interview means that I can also know the \
+level of who I'm going to have to work with. One of them said, \\\"Here I'm \
+asking questions.\\\" For some reason, I immediately thought we't \
+work.\"\>"}]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478037276073`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"31ad8e3a-0a75-4962-afa0-4c2a1b791836"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringJoin", "string", 
+   "\"String expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
+\\!\\(\\*RowBox[{RowBox[{\\\"StringReplace\\\", \\\"[\\\", RowBox[{RowBox[{\\\
+\"RemoveDiacritics\\\", \\\"[\\\", RowBox[{\\\"StringTrim\\\", \\\"[\\\", \
+\\\"$Failed\\\", \\\"]\\\"}], \\\"]\\\"}], \\\",\\\", RowBox[{\\\"\\\\\\\".\\\
+\\\\\"\\\", \\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}]}], \\\"]\\\"}], \
+\\\"<>\\\", \\\"\\\\\\\".md\\\\\\\"\\\"}]\\).\"", 2, 238, 122, 
+   27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.932347803740619*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"ddac137d-ed52-4865-a587-8274a30a5cee"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General", "stop", 
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"StringJoin\\\", \
+\\\"::\\\", \\\"string\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
+during this calculation.\"", 2, 238, 123, 27127802036208831204, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9323469622282023`*^9, 3.9323470403077927`*^9, 
+  3.9323472178788357`*^9, 3.9323478037861757`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"fba09da1-a5d2-4467-9dd5-b6ae9322be0f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FileNameJoin", "[", 
+  RowBox[{"{", 
+   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\\"\>", ",", 
+    RowBox[{
+     RowBox[{"StringReplace", "[", 
+      RowBox[{
+       RowBox[{"RemoveDiacritics", "[", 
+        RowBox[{"StringTrim", "[", "$Failed", "]"}], "]"}], ",", 
+       RowBox[{"\<\".\"\>", "\[Rule]", "\<\"\"\>"}]}], "]"}], 
+     "<>", "\<\".md\"\>"}]}], "}"}], "]"}]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478038697276`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"988916ed-9bf1-46e6-b2ac-4344d786dc7d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "5", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Screening.md\"\>"}],
+  SequenceForm[
+  5, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Screening.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478038777757`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"03695cd9-b073-44f7-bade-f962ae22fb4e"],
+
+Cell[BoxData["9"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347803922722*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"5bc1b96c-030d-40cc-a833-59b5b8f9b2d0"],
+
+Cell[BoxData["\<\"Examining\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347864073062*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"19aa8282-0d08-45d6-a782-5d4a3e746127"],
+
+Cell[BoxData["\<\"Examining\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347864087061*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"da691ae6-0c0e-4865-a4a5-319f936cfdd7"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'Examining'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478640960636`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"d829c128-47d1-4bf0-b6d5-b8f8aedd4d8f"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'Examining'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time we talk about Screening in enterprise companies, and \
+how the recruitment process should be constructed.\\n\\n## Skpining\\n\\nIt \
+all starts with it, and tech-skpining becomes the norm. Recruiter directly on \
+the first call asks cavernous questions and checks with sparkling. For \
+example:\\n\\n- how to stop the container?\\n    \\n- unchanged data typesx \
+in python?\\n    \\n- What's the PID of the Linux kernel?\\n    \\n- how do \
+you decipher CAP and PACELC?\\n    \\n- ...\\n    \\n\\nSome of them go even \
+further and create an entire platform with small pieces of code that can be \
+run. 20 questions in 20 minutes. \\\"How do I send a message to the \
+generator?\\\" or \\\"What does this code do?\\\" Well, he knows, I't just \
+miss that code on a review, because it's wild. Well, yes, I forgot that \
+sorted's second argument is only named, so we get a minus. And the system \
+doesn't care what Google does in 25 seconds, I checked.\\n\\nWill you have \
+such a screening or not? I don't know, but be prepared. One such conversation \
+caught me on the Skytrain, it was a little weird. But it seems to me that \
+even recruiters are tired of the outcasts, who do not know anything, but send \
+resumes to all available places.\\n\\nBut at the same time the magic of the \
+calendar was mastered by ~20% of them. They are somehow convinced that by the \
+phrase \\\"I made a call on Friday at 1:30 pm, here's the link...\\\" the \
+communication is over. No, damn it! Calendar! Because I:\\n\\n- \:0437\:0430\
+\:0431\:0443\:0434\:0443\\n    \\n- I'll lose links\\n    \\n- \:0437\:0430\
+\:0439\:043c\:0443 \:0441\:043b\:043e\:0442\\n    \\n- I'll count for an hour \
+and a half instead of an hour.\\n    \\n- I don't get to know the \
+interlocutor off-the-shelf.\\n    \\n- and generally 1:30 pm it was UTC (not \
+PST)\\n    \\n\\nThere should be a mandatory test when setting up a recruiter \
+for work. And in one big company with circles came to the fact that in 2 \
+weeks we agreed on the interview 3 times, but in the end the interviewer did \
+not come, then the time did not set (\\\"I put on Monday?\\\" - \\\"Oh, free \
+all day\\\" - and silence...). And if you ask to transfer because of illness, \
+you will be forgotten at all. With the calendar of facaps will be \
+less.\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478641070733`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"db237754-2b77-4121-a1b6-91e7f0f28055"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Examining.md\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478641240635`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"66b81163-b008-4f6d-9ee5-6e27f48bb04a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "6", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\System Design.md\"\>"}],
+  SequenceForm[
+  6, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\System Design.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478641351185`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"a4385f55-6d50-4193-8e87-847662663052"],
+
+Cell[BoxData["13"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323478641431293`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"fcc3eafc-8062-45ea-9bc5-f11dbdeb5c41"],
+
+Cell[BoxData["\<\"System Architecture\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323479243078995`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"182cd1d9-8eda-48ec-9b61-5f908749c866"],
+
+Cell[BoxData["\<\"System Architecture\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347924316903*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"5cfc8a06-43e5-413d-bdcf-f4b4deae23b4"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'System Architecture'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323479243239007`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"579e5e46-4232-4f12-bda3-388661747f3c"],
+
+Cell[BoxData["\<\"+++\\ntitle = 'System Architecture'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time we talk about System Design enterprise companies, and \
+how the recruitment process should be constructed.\\n\\n## System \
+Design\\n\\nIn senior grades, another type of interview appears - system \
+design. In one hour you have to design systemsy, thinking about the \
+architecture of which in a real project you would spend several weeks. IDEF0, \
+UseCase, ER, C4, DFD, BPMN - forget these scary words, there's no time for \
+them. Figac-figac and Proudakshen. Requirements collection -> usage options \
+-> system requirements -> processing -> presentation of the solution, time \
+has passed. The main thing here is more basic words, to build a smart face \
+and somewhere to put kafka. Then they'll be behind you in 40 minutes.\"\>"], \
+"Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.932347924332917*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"e1cd06b2-59b0-4a26-a592-ed35339f5e59"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\System Architecture.md\"\>"], "Print",
+ CellChangeTimes->{3.9304853482294908`*^9, 3.930485606473941*^9, 
+  3.930486004989444*^9, 3.9304862068353786`*^9, 3.9304864916425657`*^9, 
+  3.9304866700649457`*^9, 3.930487325235343*^9, 3.93048792952345*^9, 
+  3.9304882682832403`*^9, 3.9304883858519516`*^9, 3.9304886875845747`*^9, 
+  3.9304903707275305`*^9, 3.9304904611242046`*^9, 3.9304907487026267`*^9, 
+  3.9304910179069705`*^9, 3.930491294814962*^9, 3.9304952735218134`*^9, 
+  3.930497189274151*^9, 3.9305293474912972`*^9, 3.930529582556347*^9, 
+  3.9305302599392853`*^9, 3.932346812899903*^9, 3.9323469621347456`*^9, 
+  3.9323470402076387`*^9, 3.932347097261571*^9, 3.9323479243424425`*^9},
+ CellLabel->
+  "During evaluation of \
+In[238]:=",ExpressionUUID->"8bbe9c51-5372-4fe0-9bb2-8cb6b9aad61c"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{566.25, 696},
+WindowMargins->{{Automatic, 57}, {Automatic, 50.25}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"506ca788-4d1e-4f22-8f45-4b8d6688155e"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+Cell[1218, 38, 2321, 35, 107, "Output",ExpressionUUID->"3c51cc9a-0797-43e2-a303-7f91c3e23b87"]
+}, Open  ]],
+Cell[3554, 76, 1167, 27, 50, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+Cell[CellGroupData[{
+Cell[4746, 107, 11772, 251, 1391, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+Cell[CellGroupData[{
+Cell[16543, 362, 1131, 22, 18, "Print",ExpressionUUID->"fe09f09f-44dd-4447-b4c3-1e1cebb8f1c9"],
+Cell[17677, 386, 783, 12, 18, "Print",ExpressionUUID->"26845292-b139-4c42-9870-6d4341abd95f"],
+Cell[18463, 400, 801, 12, 18, "Print",ExpressionUUID->"7723f649-ff8e-48eb-a65f-100657f268e9"],
+Cell[19267, 414, 801, 12, 18, "Print",ExpressionUUID->"2b01469a-0d07-426a-befc-41f1ab9066ac"],
+Cell[20071, 428, 997, 16, 109, "Print",ExpressionUUID->"b4759e46-b1c7-40cb-a821-66b3b5a53476"],
+Cell[21071, 446, 2542, 36, 412, "Print",ExpressionUUID->"effe1497-456a-4890-b102-702c3753a557"],
+Cell[23616, 484, 896, 13, 18, "Print",ExpressionUUID->"bf72f422-9ea4-46ce-aadb-60f5e0436cd7"],
+Cell[24515, 499, 1140, 22, 18, "Print",ExpressionUUID->"c17a2e35-8a60-43fd-9052-9faae2c98220"],
+Cell[25658, 523, 783, 12, 18, "Print",ExpressionUUID->"9a25a212-4e1e-4269-8126-068195824fce"],
+Cell[26444, 537, 803, 12, 18, "Print",ExpressionUUID->"eb0f71aa-25e2-42f7-9445-4d21e37ffcac"],
+Cell[27250, 551, 802, 12, 18, "Print",ExpressionUUID->"0960d91c-7d57-48a4-8cff-7f6b9656453c"],
+Cell[28055, 565, 1000, 16, 109, "Print",ExpressionUUID->"9f7c31c3-4d4f-47d9-bc3c-a3acf6a76aa5"],
+Cell[29058, 583, 3889, 53, 781, "Print",ExpressionUUID->"e0442d56-bc50-45ca-bc25-a729eb54e6d4"],
+Cell[32950, 638, 896, 13, 18, "Print",ExpressionUUID->"861c328e-2368-4266-a406-8c6f43fbadbc"],
+Cell[33849, 653, 1132, 22, 18, "Print",ExpressionUUID->"1ac9eb16-b7af-4b39-8ba5-84a817299d46"],
+Cell[34984, 677, 781, 12, 18, "Print",ExpressionUUID->"0e43a42b-c87f-415a-adb8-4e8d55c2bf47"],
+Cell[35768, 691, 805, 12, 18, "Print",ExpressionUUID->"bc57869a-2040-4ee8-bcd2-186ed689a56e"],
+Cell[36576, 705, 802, 12, 18, "Print",ExpressionUUID->"a585dd41-7fd7-412f-9444-db75013e5c23"],
+Cell[37381, 719, 1001, 16, 109, "Print",ExpressionUUID->"d5c87ad2-1cb8-440f-8dc6-bff606cdc81a"],
+Cell[38385, 737, 4764, 65, 781, "Print",ExpressionUUID->"5e6ba25e-4f83-4dfe-8163-1bdaf95c58dd"],
+Cell[43152, 804, 898, 13, 18, "Print",ExpressionUUID->"aff3ff9e-da99-422f-a5e2-2c4641b72b10"],
+Cell[44053, 819, 1284, 24, 18, "Print",ExpressionUUID->"9e84a0a8-1983-4d0c-9f76-a1f158e01084"],
+Cell[45340, 845, 781, 12, 18, "Print",ExpressionUUID->"3b9879aa-b747-477b-866e-6f40bacc9e57"]
+}, Open  ]],
+Cell[46136, 860, 678, 13, 22, "Message",ExpressionUUID->"5a498c75-03da-4f00-b59f-9b54049ea68d"],
+Cell[46817, 875, 658, 13, 22, "Message",ExpressionUUID->"35a1a856-bc49-4376-8deb-1335bc913792"],
+Cell[47478, 890, 786, 12, 18, "Print",ExpressionUUID->"b471d130-e5dd-4485-82a3-d6cd9db2a5d3"],
+Cell[48267, 904, 542, 11, 22, "Message",ExpressionUUID->"94795500-138e-4153-baa8-5370cb98373d"],
+Cell[48812, 917, 432, 10, 22, "Message",ExpressionUUID->"c76c97aa-a63e-460e-91a9-107932f859f8"],
+Cell[49247, 929, 763, 14, 22, "Message",ExpressionUUID->"6f6b5707-719b-42c8-a477-4c6d652af764"],
+Cell[50013, 945, 978, 17, 18, "Print",ExpressionUUID->"0875eaf6-e178-4645-943e-cc20f504e961"],
+Cell[50994, 964, 836, 16, 22, "Message",ExpressionUUID->"ef12328c-1903-4bef-8413-05b3f358ca4c"],
+Cell[51833, 982, 1284, 24, 109, "Print",ExpressionUUID->"474513a7-ad14-4239-98a6-2d4650f281f8"],
+Cell[53120, 1008, 1548, 26, 147, "Message",ExpressionUUID->"5f5905eb-c5f5-4971-a2ac-ba6214eb0954"],
+Cell[54671, 1036, 3093, 50, 439, "Print",ExpressionUUID->"31ad8e3a-0a75-4962-afa0-4c2a1b791836"],
+Cell[57767, 1088, 797, 15, 22, "Message",ExpressionUUID->"ddac137d-ed52-4865-a587-8274a30a5cee"],
+Cell[58567, 1105, 537, 11, 22, "Message",ExpressionUUID->"fba09da1-a5d2-4467-9dd5-b6ae9322be0f"],
+Cell[CellGroupData[{
+Cell[59129, 1120, 1222, 23, 30, "Print",ExpressionUUID->"988916ed-9bf1-46e6-b2ac-4344d786dc7d"],
+Cell[60354, 1145, 1130, 22, 18, "Print",ExpressionUUID->"03695cd9-b073-44f7-bade-f962ae22fb4e"],
+Cell[61487, 1169, 780, 12, 18, "Print",ExpressionUUID->"5bc1b96c-030d-40cc-a833-59b5b8f9b2d0"],
+Cell[62270, 1183, 796, 12, 18, "Print",ExpressionUUID->"19aa8282-0d08-45d6-a782-5d4a3e746127"],
+Cell[63069, 1197, 796, 12, 18, "Print",ExpressionUUID->"da691ae6-0c0e-4865-a4a5-319f936cfdd7"],
+Cell[63868, 1211, 994, 16, 109, "Print",ExpressionUUID->"d829c128-47d1-4bf0-b6d5-b8f8aedd4d8f"],
+Cell[64865, 1229, 3378, 47, 807, "Print",ExpressionUUID->"db237754-2b77-4121-a1b6-91e7f0f28055"],
+Cell[68246, 1278, 891, 13, 18, "Print",ExpressionUUID->"66b81163-b008-4f6d-9ee5-6e27f48bb04a"],
+Cell[69140, 1293, 1138, 22, 18, "Print",ExpressionUUID->"a4385f55-6d50-4193-8e87-847662663052"],
+Cell[70281, 1317, 783, 12, 18, "Print",ExpressionUUID->"fcc3eafc-8062-45ea-9bc5-f11dbdeb5c41"],
+Cell[71067, 1331, 808, 12, 18, "Print",ExpressionUUID->"182cd1d9-8eda-48ec-9b61-5f908749c866"],
+Cell[71878, 1345, 806, 12, 18, "Print",ExpressionUUID->"5cfc8a06-43e5-413d-bdcf-f4b4deae23b4"],
+Cell[72687, 1359, 1004, 16, 109, "Print",ExpressionUUID->"579e5e46-4232-4f12-bda3-388661747f3c"],
+Cell[73694, 1377, 1824, 27, 280, "Print",ExpressionUUID->"e1cd06b2-59b0-4a26-a592-ed35339f5e59"],
+Cell[75521, 1406, 901, 13, 18, "Print",ExpressionUUID->"8bbe9c51-5372-4fe0-9bb2-8cb6b9aad61c"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

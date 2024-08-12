@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11222,        279]
-NotebookOptionsPosition[     10289,        254]
-NotebookOutlinePosition[     10699,        270]
-CellTagsIndexPosition[     10656,        267]
+NotebookDataLength[     11944,        288]
+NotebookOptionsPosition[     11009,        263]
+NotebookOutlinePosition[     11419,        279]
+CellTagsIndexPosition[     11376,        276]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -32,16 +32,19 @@ Cell[BoxData[
  CellChangeTimes->{{3.930071308470366*^9, 3.9300713250538263`*^9}, 
    3.9300713659462986`*^9},
  CellLabel->
-  "In[168]:=",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
+  "In[317]:=",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-tinydev\\\\content\\\\posts\\\\info 1.md\"\>", 
+tinydev\\\\content\\\\posts\\\\Minimize the amount of complexity that is \
+already there and get rid of any extraneous details.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\info 2.md\"\>", 
+\\\\content\\\\posts\\\\Never prioritize your resume over the needs of the \
+client.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\info.md\"\>"}], "}"}]], "Output",
+\\\\content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
+incidental complexity.md\"\>"}], "}"}]], "Output",
  CellChangeTimes->{
   3.9300713698977394`*^9, 3.9300714142771993`*^9, {3.9300719625990295`*^9, 
    3.9300719817056694`*^9}, 3.9301494944575987`*^9, 3.930151263013115*^9, {
@@ -49,9 +52,10 @@ tinydev\\\\content\\\\posts\\\\info 1.md\"\>",
    3.9301850300369487`*^9, {3.930185166356888*^9, 3.930185184978855*^9}, 
    3.9301852691857767`*^9, 3.930185365923649*^9, 3.9301858717943535`*^9, 
    3.930190086579197*^9, 3.9304951748716507`*^9, 3.930498635298769*^9, 
-   3.930505536952719*^9, 3.9305086206335545`*^9, 3.9305086834727535`*^9},
+   3.930505536952719*^9, 3.9305086206335545`*^9, 3.9305086834727535`*^9, 
+   3.9305864658590455`*^9},
  CellLabel->
-  "Out[168]=",ExpressionUUID->"29002fa6-10a4-4033-bd77-8db54a6730ea"]
+  "Out[317]=",ExpressionUUID->"16d4bbee-0c25-4b05-8451-00ded83d73d4"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -183,7 +187,7 @@ Cell[BoxData[
    3.9304986220429163`*^9}, {3.9305054097714233`*^9, 3.930505481872596*^9}, {
    3.930508604757191*^9, 3.9305086116416936`*^9}, 3.9305845431562123`*^9},
  CellLabel->
-  "In[169]:=",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+  "In[318]:=",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
 
 Cell[CellGroupData[{
 
@@ -193,20 +197,22 @@ Cell[BoxData[
   "1", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\info 1.md\"\>"}],
+content\\\\posts\\\\Minimize the amount of complexity that is already there \
+and get rid of any extraneous details.md\"\>"}],
   SequenceForm[
   1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\info 1.md"],
+posts\\Minimize the amount of complexity that is already there and get rid of \
+any extraneous details.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
    3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
    3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
    3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
    3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
-   3.930508683556451*^9},
+   3.930508683556451*^9, 3.930586465975724*^9},
  CellLabel->
   "During evaluation of \
-In[169]:=",ExpressionUUID->"3d38c015-d3f9-49d4-96c4-96c28de14d45"],
+In[318]:=",ExpressionUUID->"4bea1df2-e599-4d2a-968a-fc2387f6fd26"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -214,20 +220,21 @@ Cell[BoxData[
   "2", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\info 2.md\"\>"}],
+content\\\\posts\\\\Never prioritize your resume over the needs of the \
+client.md\"\>"}],
   SequenceForm[
   2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\info 2.md"],
+posts\\Never prioritize your resume over the needs of the client.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
    3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
    3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
    3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
    3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
-   3.9305086838316584`*^9},
+   3.930508683556451*^9, 3.93058646696493*^9},
  CellLabel->
   "During evaluation of \
-In[169]:=",ExpressionUUID->"1783f685-954f-4094-80fc-21e3c7ca663a"],
+In[318]:=",ExpressionUUID->"d26a9fde-fd00-4af2-92d0-89c521aa6306"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -235,20 +242,22 @@ Cell[BoxData[
   "3", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\info.md\"\>"}],
+content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
+incidental complexity.md\"\>"}],
   SequenceForm[
   3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\info.md"],
+posts\\Reduce the intrinsic complexity and eliminate the incidental \
+complexity.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
    3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
    3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
    3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
    3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
-   3.9305086843785534`*^9},
+   3.930508683556451*^9, 3.930586468497661*^9},
  CellLabel->
   "During evaluation of \
-In[169]:=",ExpressionUUID->"368d5abe-36fd-42aa-a8b6-4821d66c0181"]
+In[318]:=",ExpressionUUID->"401784cf-9fbb-4089-a47b-4363af4187b0"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -271,14 +280,14 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 481, 12, 32, "Input",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
-Cell[1064, 36, 1028, 17, 53, "Output",ExpressionUUID->"29002fa6-10a4-4033-bd77-8db54a6730ea"]
+Cell[1064, 36, 1267, 21, 82, "Output",ExpressionUUID->"16d4bbee-0c25-4b05-8451-00ded83d73d4"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2129, 58, 5524, 127, 582, "Input",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+Cell[2368, 62, 5524, 127, 582, "Input",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
 Cell[CellGroupData[{
-Cell[7678, 189, 859, 19, 18, "Print",ExpressionUUID->"3d38c015-d3f9-49d4-96c4-96c28de14d45"],
-Cell[8540, 210, 861, 19, 18, "Print",ExpressionUUID->"1783f685-954f-4094-80fc-21e3c7ca663a"],
-Cell[9404, 231, 857, 19, 18, "Print",ExpressionUUID->"368d5abe-36fd-42aa-a8b6-4821d66c0181"]
+Cell[7917, 193, 1059, 21, 30, "Print",ExpressionUUID->"4bea1df2-e599-4d2a-968a-fc2387f6fd26"],
+Cell[8979, 216, 984, 20, 18, "Print",ExpressionUUID->"d26a9fde-fd00-4af2-92d0-89c521aa6306"],
+Cell[9966, 238, 1015, 21, 30, "Print",ExpressionUUID->"401784cf-9fbb-4089-a47b-4363af4187b0"]
 }, Open  ]]
 }, Open  ]]
 }

@@ -1,0 +1,17 @@
++++
+title = 'Simplicity is better than versatility'
+date = 2024-05-20T00:00:00-07:00
+draft = false
+categories = []
+tags = ["software", "solution", "solutions", "universality", "generalization", "leads"]
+cover_image='/images/cover/knoxwelle__2021-04-11T052322.000Z.jpg'
++++
+A typical problem with many frameworks, class libraries, basic services and other infrastructure code is that they are designed for universal use, without attachment to specific applications. As a result, we get a staggering set of features and settings that are often not used at all or used for the wrong purpose, or even simply turned out to be useless.Most developers work on specific systems, and the pursuit of unlimited versatility rarely serves them well.The best way to universality lies through an in-depth understanding of known concrete examples and analysis of their essence in order to find a fundamental common solution: simplicity as a result of practical experience, rather than universality based on conjecture.
+
+The priority of simplicity over versatility helps to make a choice between two architectural alternatives, equal in other respects.When two solutions are possible, prefer a simpler and more needs-oriented one rather than a more sophisticated and versatile one. Of course, it is quite possible (and not so rarely) that a simpler solution in practice will be more versatile.But, even if that doesn’t happen, it’s easier to change a simple solution when you have a good idea of what you need, than to adapt a “universal” solution, which has proved to be not universal enough.
+
+Despite the architect's good intentions, many solutions designed for universal application end up inadequate for anything specific.Software components must first be designed for a specific task, and they must cope well with that task.Effective universality is born of understanding, and understanding leads to simplification.
+
+Generalization sometimes allows to bring the problem to a more fundamental look; the created solution embodies the patterns of several well-known examples – clear, compact and well-founded.However, excessive generalization itself turns into a challenge that leads in the opposite direction and increases complexity instead of reducing it.The desire for abstract generalization often leads to solutions that are not tied to the realities of actual development.Such generalizations are based on assumptions that later turn out to be false, suggest options that later become unwanted, and create a ballast that is then difficult or impossible to remove.In the end, this only increases the secondary complexity that future developers and architects will face.
+
+Many architects value universality, but this attitude should not be unconditional.As a rule, people are unwilling to pay for universal fattening (or do not need it): they are usually faced with a very specific challenge, and they value a specific solution to that challenge.Versatility and flexibility can appear in the creation of concrete solutions, but if at the same time we get off the anchor too quickly and forget about the concrete, then we begin to drift into a sea of unlimited possibilities – a sea full of cunning settings, bulky (not just extensive) lists of parameters, infinite interfaces and irregular abstractions.In the pursuit of abstract flexibility, often (accidentally or deliberately) the valuable properties of alternative, simpler solutions are lost.

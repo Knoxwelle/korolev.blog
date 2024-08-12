@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developers on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/developers/</link>
+    <description>Recent content in Developers on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/developers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Communication is the king, clarity and leadership are his true companions</title>
+      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions-1/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions-1/</guid>
+      <description>Too often, software architects live in ivory towers, leaving specifications to the developers and imposing technologies and directions on them. At the same time, this leads to strife, which is quickly followed by a “popular uprising.&amp;quot; The result is a software product that has nothing to do with the original requirements. Every software architect must be able to explain to his colleagues the goals and objectives of the software project. The keys to effective communication are clarity and leadership.&#xA;Clearness characterizes the process of communication. No one in your group will read a 100-page document justifying your architectural decisions. The ability to express your thoughts clearly is vital to the success of any program or project. From the very beginning of work on the project, adhere to simple explanations and, in no case, start making long descriptions in Word.</description>
+    </item>
+  </channel>
+</rss>

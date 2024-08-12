@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     14000,        367]
-NotebookOptionsPosition[     12840,        338]
-NotebookOutlinePosition[     13251,        354]
-CellTagsIndexPosition[     13208,        351]
+NotebookDataLength[     71213,       1847]
+NotebookOptionsPosition[     67352,       1790]
+NotebookOutlinePosition[     67755,       1806]
+CellTagsIndexPosition[     67712,       1803]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,16 +33,124 @@ Cell[BoxData[
    3.9292179139982204`*^9, 3.9292180109485364`*^9}, {3.9292181116552367`*^9, 
    3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
    3.9292195131056185`*^9},
- CellLabel->"In[10]:=",ExpressionUUID->"9c94ab4b-baf0-41a2-91fb-f956de46a9c1"],
+ CellLabel->
+  "In[338]:=",ExpressionUUID->"9c94ab4b-baf0-41a2-91fb-f956de46a9c1"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-tinydev\\\\content\\\\posts\\\\info 1.md\"\>", 
+tinydev\\\\content\\\\posts\\\\\:041e\:043d\:0430 \:0441\:0442\:0440\:043e\
+\:043a\:0430 \:0440\:0430\:0431\:043e\:0447\:0435\:0433\:043e \:043a\:043e\
+\:0434\:0430 \:0441\:0442\:043e\:0438\:0442 500 \
+\:0441\:0442\:0440\:043e\:043a \:0441\:043f\:0435\:0446\:0438\:0444\:0438\
+\:043a\:0430\:0446\:0438\:0438.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\info 2.md\"\>", 
+\\\\content\\\\posts\\\\Application performance determined by architecture.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Communication is the king, clarity and leadership are his \
+true companions 1.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\info.md\"\>"}], "}"}]], "Output",
+\\\\content\\\\posts\\\\DevOps, SRE.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Find the true meaning of the needs.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Interview tips.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Knowledge test.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Live Coding.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:041f\:0440\:043e\:0431\:043b\:0435\:043c\:044b \
+\:043c\:043e\:0433\:0443\:0442 \:0431\:044b\:0442\:044c \:0431\:043e\:043b\
+\:044c\:0448\:0435 \:0447\:0435\:043c \:0438\:0445 \:043e\:0442\:0440\:0430\
+\:0436\:0435\:043d\:0438\:0435 \:0432 \:0437\:0435\:0440\:043a\:0430\:043b\
+\:0435.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0414\:0443\:043c\:0430\:0442\:044c \:043e \:043f\
+\:0440\:043e\:0438\:0437\:0432\:043e\:0434\:0438\:0442\:0435\:043b\:044c\:043d\
+\:043e\:0441\:0442\:0438 \:043d\:0438\:043a\:043e\:0433\:0434\:0430 \:043d\
+\:0435 \:0440\:0430\:043d\:043e.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0412\:044b \:0432\:0435\:0434\:0435\:0442\:0435 \
+\:043f\:0435\:0440\:0435\:0433\:043e\:0432\:043e\:0440\:044b \:0447\:0430\
+\:0449\:0435, \:0447\:0435\:043c \:0432\:0430\:043c \:043a\:0430\:0436\:0435\
+\:0442\:0441\:044f.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0421\:043e\:0437\:0434\:0430\:043d\:0438\:0435 \
+\:0430\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:0443\:0440\:044b \:043a\
+\:0430\:043a \:0438\:0441\:043a\:0443\:0441\:0441\:0442\:0432\:043e \:0431\
+\:0430\:043b\:0430\:043d\:0441\:0430.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0420\:0435\:0448\:0435\:043d\:0438\:0439 \:043d\
+\:0430 \:0432\:0441\:0435 \:0441\:043b\:0443\:0447\:0430\:0438 \:0436\:0438\
+\:0437\:043d\:0438 \:043d\:0435 \:0441\:0443\:0449\:0435\:0441\:0442\:0432\
+\:0443\:0435\:0442.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0421\:0434\:0435\:043b\:0430\:0442\:044c \:043d\
+\:0430\:0441\:043f\:0435\:0445 \:0438 \:0441\:0431\:0435\:0436\:0430\:0442\
+\:044c \:044d\:0442\:043e \:043f\:0440\:0435\:0441\:0442\:0443\:043f\:043b\
+\:0435\:043d\:0438\:0435.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\
+\:0442\:0435 \:043a\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\
+\:043d\:043d\:044b\:0435 \
+\:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0420\:0443\:043a\:043e\:0432\:043e\:0434\:0441\:0442\
+\:0432\:0443\:0439\:0442\:0435\:0441\:044c \:043d\:0435\:043e\:043f\:0440\
+\:0435\:0434\:0435\:043b\:0451\:043d\:043d\:043e\:0441\:0442\:044c\:044e.md\"\
+\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:041e\:0431\:0435\:0441\:043f\:0435\:0447\:044c\:0442\
+\:0435 \:043d\:0435\:043f\:0440\:0435\:0440\:044b\:0432\:043d\:0443\:044e \
+\:0438\:043d\:0442\:0435\:0433\:0440\:0430\:0446\:0438\:044e.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0410\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:043e\
+\:0440 \:0434\:043e\:043b\:0436\:0435\:043d \:0431\:044b\:0442\:044c \:043f\
+\:0440\:0430\:043a\:0442\:0438\:043a\:043e\:043c.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:041f\:0440\:043e\:0441\:0442\:043e\:0442\:0430 \
+\:043b\:0443\:0447\:0448\:0435 \:0443\:043d\:0438\:0432\:0435\:0440\:0441\
+\:0430\:043b\:044c\:043d\:043e\:0441\:0442\:0438.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0421\:0442\:0430\:0440\:0430\:0439\:0442\:0435\:0441\
+\:044c \:043d\:0435 \:043d\:0430\:0440\:0443\:0448\:0430\:0442\:044c \:0433\
+\:0440\:0430\:0444\:0438\:043a.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0420\:0435\:0448\:0435\:043d\:0438\:0439 \:043c\
+\:043e\:0436\:0435\:0442 \:0431\:044b\:0442\:044c \:043d\:0435\:0441\:043a\
+\:043e\:043b\:044c\:043a\:043e.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0410\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:0443\
+\:0440\:043d\:044b\:0435 \:043a\:043e\:043c\:043f\:0440\:043e\:043c\:0438\
+\:0441\:0441\:044b.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0411\:0430\:0437\:0430 \:0434\:0430\:043d\:043d\
+\:044b\:0445 \:043a\:0430\:043a \:041a\:0440\:0435\:043f\:043e\:0441\:0442\
+\:044c.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0412\:0441\:0435\:043c \:0437\:0430\:043f\:0440\
+\:0430\:0432\:043b\:044f\:0435\:0442 \
+\:0431\:0438\:0437\:043d\:0435\:0441.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0421\:0431\:043e\:0438 \:043d\:0435\:0438\:0437\
+\:0431\:0435\:0436\:043d\:044b.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435.md\"\
+\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Never prioritize your resume over the needs of the \
+client.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Perhaps your main problem is not technology.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
+incidental complexity.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Screening.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\System Design.md\"\>"}], "}"}]], "Output",
  CellChangeTimes->{{3.929217973036312*^9, 3.929218015002745*^9}, {
    3.9292181019595547`*^9, 3.9292181227832947`*^9}, {3.9292192008080373`*^9, 
    3.929219208468548*^9}, {3.9292195060218716`*^9, 3.929219516010848*^9}, 
@@ -53,8 +161,9 @@ tinydev\\\\content\\\\posts\\\\info 1.md\"\>",
    3.929381394092862*^9, 3.929904981092246*^9, 3.92990503872686*^9, 
    3.9300716411970215`*^9, 3.930153386240965*^9, 3.9301535256438875`*^9, {
    3.9304804707324867`*^9, 3.9304804956012917`*^9}, {3.9304807727022657`*^9, 
-   3.9304807950422373`*^9}},
- CellLabel->"Out[10]=",ExpressionUUID->"7fd44eb4-1910-4eb4-ad25-f6966db279a8"]
+   3.9304807950422373`*^9}, 3.932439676312168*^9},
+ CellLabel->
+  "Out[338]=",ExpressionUUID->"35671aeb-4c1f-4655-be75-32f4e5820a92"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -84,11 +193,561 @@ Cell[BoxData[
    3.9293815846823196`*^9}, {3.9293817296478004`*^9, 3.929381755585693*^9}, {
    3.9299049748571444`*^9, 3.929904975436484*^9}, 3.929905034066107*^9, 
    3.930480683931385*^9},
- CellLabel->"In[11]:=",ExpressionUUID->"d1798db8-a9ce-497b-94a9-be3a5c3977db"],
+ CellLabel->
+  "In[339]:=",ExpressionUUID->"d1798db8-a9ce-497b-94a9-be3a5c3977db"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{
+   TemplateBox[{
+     RowBox[{"\"Sat 11 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "11"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 12 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "12"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 13 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "13"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 14 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "14"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 15 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "15"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 16 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "16"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 17 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "17"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 18 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "18"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 19 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "19"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 20 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "20"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 21 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "21"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 22 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "22"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 23 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "23"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 24 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "24"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 25 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "25"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 26 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "26"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 27 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "27"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 28 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "28"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 29 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "29"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 30 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "30"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 31 May 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "5", ",", "31"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 1 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "1"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 2 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "2"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 3 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "3"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 4 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "4"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 5 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "5"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 6 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "6"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 7 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "7"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 8 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "8"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 9 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "9"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 10 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "10"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 11 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "11"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 12 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "12"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 13 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "13"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 14 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "14"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 15 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "15"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 16 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "16"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 17 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "17"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 18 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "18"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 19 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "19"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 20 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "20"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 21 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "21"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 22 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "22"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 23 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "23"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 24 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "24"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 25 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "25"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 26 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "26"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 27 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "27"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 28 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "28"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 29 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "29"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 30 Jun 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "6", ",", "30"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 1 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "1"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 2 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "2"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 3 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "3"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 4 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "4"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 5 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "5"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 6 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "6"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 7 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "7"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 8 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "8"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 9 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "9"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 10 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "10"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
    TemplateBox[{
      RowBox[{"\"Thu 11 Jul 2024\""}], 
      RowBox[{"DateObject", "[", 
@@ -178,6 +837,213 @@ Cell[BoxData[
            RowBox[{"2024", ",", "7", ",", "20"}], "}"}], ",", "\"Day\""}], 
        "]"}]},
     "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 21 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "21"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 22 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "22"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 23 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "23"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 24 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "24"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 25 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "25"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 26 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "26"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 27 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "27"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 28 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "28"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 29 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "29"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 30 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "30"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 31 Jul 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "7", ",", "31"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 1 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "1"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 2 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "2"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 3 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "3"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 4 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "4"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 5 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "5"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Tue 6 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "6"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Wed 7 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "7"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Thu 8 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "8"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Fri 9 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "9"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sat 10 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "10"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Sun 11 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "11"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
+    Editable->False], ",", 
+   TemplateBox[{
+     RowBox[{"\"Mon 12 Aug 2024\""}], 
+     RowBox[{"DateObject", "[", 
+       RowBox[{
+         RowBox[{"{", 
+           RowBox[{"2024", ",", "8", ",", "12"}], "}"}], ",", "\"Day\""}], 
+       "]"}]},
+    "DateObject",
     Editable->False]}], "}"}]], "Output",
  CellChangeTimes->{
   3.929216065085334*^9, {3.929216241827735*^9, 3.92921632413528*^9}, 
@@ -190,8 +1056,9 @@ Cell[BoxData[
    3.9293817373371086`*^9, 3.929904983254523*^9, 3.929905038953761*^9, 
    3.9300716412746*^9, 3.9301533863675327`*^9, 3.930153525807847*^9, {
    3.9304804712501593`*^9, 3.9304804957854986`*^9}, {3.9304807727658334`*^9, 
-   3.930480795107905*^9}},
- CellLabel->"Out[11]=",ExpressionUUID->"1293ad0b-62cb-4ede-910a-ca9d3d5d9776"]
+   3.930480795107905*^9}, 3.9324396765986586`*^9},
+ CellLabel->
+  "Out[339]=",ExpressionUUID->"61cbe63c-736d-4f28-ab3b-d07a7dc116cc"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -279,7 +1146,8 @@ Cell[BoxData[
    3.9293806900231953`*^9}, {3.930153099569622*^9, 3.930153244290264*^9}, {
    3.9301533784104185`*^9, 3.9301533788871517`*^9}, {3.9301535173627806`*^9, 
    3.9301535181359687`*^9}, {3.930480378601529*^9, 3.930480452396018*^9}},
- CellLabel->"In[12]:=",ExpressionUUID->"ccb70ac8-a218-4e25-9c96-1e4a06ac2f40"],
+ CellLabel->
+  "In[340]:=",ExpressionUUID->"ccb70ac8-a218-4e25-9c96-1e4a06ac2f40"],
 
 Cell[CellGroupData[{
 
@@ -289,16 +1157,23 @@ Cell[BoxData[
   "1", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\info 1.md\"\>"}],
+content\\\\posts\\\\\:041e\:043d\:0430 \:0441\:0442\:0440\:043e\:043a\:0430 \
+\:0440\:0430\:0431\:043e\:0447\:0435\:0433\:043e \:043a\:043e\:0434\:0430 \
+\:0441\:0442\:043e\:0438\:0442 500 \:0441\:0442\:0440\:043e\:043a \
+\:0441\:043f\:0435\:0446\:0438\:0444\:0438\:043a\:0430\:0446\:0438\:0438.md\"\
+\>"}],
   SequenceForm[
   1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\info 1.md"],
+posts\\\:041e\:043d\:0430 \:0441\:0442\:0440\:043e\:043a\:0430 \:0440\:0430\
+\:0431\:043e\:0447\:0435\:0433\:043e \:043a\:043e\:0434\:0430 \:0441\:0442\
+\:043e\:0438\:0442 500 \:0441\:0442\:0440\:043e\:043a \
+\:0441\:043f\:0435\:0446\:0438\:0444\:0438\:043a\:0430\:0446\:0438\:0438.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
-  3.9304807728351564`*^9, 3.930480795169197*^9}},
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396767424097`*^9},
  CellLabel->
   "During evaluation of \
-In[12]:=",ExpressionUUID->"8ac59396-85c5-43f1-9241-9e9508ec56e0"],
+In[340]:=",ExpressionUUID->"1d97f636-91d7-43bb-a2d3-12bd3694c61f"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -306,16 +1181,17 @@ Cell[BoxData[
   "2", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\info 2.md\"\>"}],
+content\\\\posts\\\\Application performance determined by \
+architecture.md\"\>"}],
   SequenceForm[
   2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\info 2.md"],
+posts\\Application performance determined by architecture.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
-  3.9304807728351564`*^9, 3.9304807951855183`*^9}},
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439676757409*^9},
  CellLabel->
   "During evaluation of \
-In[12]:=",ExpressionUUID->"a0a96e30-7c1e-450c-9a80-b1e0520375f1"],
+In[340]:=",ExpressionUUID->"a43debc3-9a2f-4df6-81c3-d3914b17befd"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -323,22 +1199,598 @@ Cell[BoxData[
   "3", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\info.md\"\>"}],
+content\\\\posts\\\\Communication is the king, clarity and leadership are his \
+true companions 1.md\"\>"}],
   SequenceForm[
   3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\info.md"],
+posts\\Communication is the king, clarity and leadership are his true \
+companions 1.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
-  3.9304807728351564`*^9, 3.9304807952671337`*^9}},
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439676780421*^9},
  CellLabel->
   "During evaluation of \
-In[12]:=",ExpressionUUID->"592cbe5c-3b38-4711-a17a-e80d297a0f7d"]
+In[340]:=",ExpressionUUID->"7fe4fbaa-f72e-4bb3-a6a2-5c9b445e373e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "4", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\DevOps, SRE.md\"\>"}],
+  SequenceForm[
+  4, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\DevOps, SRE.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396767929487`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"7ff9f0c7-fbcb-406b-befe-8224559295f2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "5", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Find the true meaning of the needs.md\"\>"}],
+  SequenceForm[
+  5, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Find the true meaning of the needs.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439677037049*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"fdd5b040-7d37-4516-97aa-00c526c6c87c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "6", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Interview tips.md\"\>"}],
+  SequenceForm[
+  6, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Interview tips.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396770550733`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"f74515f1-5a7e-4784-a5e0-c38fe07c5a00"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "7", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Knowledge test.md\"\>"}],
+  SequenceForm[
+  7, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Knowledge test.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396770700884`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"76244dbe-5b68-421c-8199-f790a50c40ec"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "8", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Live Coding.md\"\>"}],
+  SequenceForm[
+  8, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Live Coding.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439677087659*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"aa331818-4dc5-41b6-a1f3-ca48e909274b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "9", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:041f\:0440\:043e\:0431\:043b\:0435\:043c\:044b \:043c\
+\:043e\:0433\:0443\:0442 \:0431\:044b\:0442\:044c \:0431\:043e\:043b\:044c\
+\:0448\:0435 \:0447\:0435\:043c \:0438\:0445 \:043e\:0442\:0440\:0430\:0436\
+\:0435\:043d\:0438\:0435 \:0432 \:0437\:0435\:0440\:043a\:0430\:043b\:0435.md\
+\"\>"}],
+  SequenceForm[
+  9, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\\:041f\:0440\:043e\:0431\:043b\:0435\:043c\:044b \:043c\:043e\:0433\
+\:0443\:0442 \:0431\:044b\:0442\:044c \:0431\:043e\:043b\:044c\:0448\:0435 \
+\:0447\:0435\:043c \:0438\:0445 \:043e\:0442\:0440\:0430\:0436\:0435\:043d\
+\:0438\:0435 \:0432 \:0437\:0435\:0440\:043a\:0430\:043b\:0435.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396771056356`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"c7886dd7-5293-4a56-9e69-b73c8b84878a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "10", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0414\:0443\:043c\:0430\:0442\:044c \:043e \:043f\:0440\
+\:043e\:0438\:0437\:0432\:043e\:0434\:0438\:0442\:0435\:043b\:044c\:043d\:043e\
+\:0441\:0442\:0438 \:043d\:0438\:043a\:043e\:0433\:0434\:0430 \:043d\:0435 \
+\:0440\:0430\:043d\:043e.md\"\>"}],
+  SequenceForm[
+  10, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0414\:0443\:043c\:0430\:0442\:044c \:043e \:043f\:0440\:043e\:0438\:0437\
+\:0432\:043e\:0434\:0438\:0442\:0435\:043b\:044c\:043d\:043e\:0441\:0442\:0438\
+ \:043d\:0438\:043a\:043e\:0433\:0434\:0430 \:043d\:0435 \:0440\:0430\:043d\
+\:043e.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439677143634*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"520125ab-ed99-4a2b-9cd2-b4b3dc50d256"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "11", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0412\:044b \:0432\:0435\:0434\:0435\:0442\:0435 \:043f\
+\:0435\:0440\:0435\:0433\:043e\:0432\:043e\:0440\:044b \:0447\:0430\:0449\
+\:0435, \:0447\:0435\:043c \:0432\:0430\:043c \:043a\:0430\:0436\:0435\:0442\
+\:0441\:044f.md\"\>"}],
+  SequenceForm[
+  11, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0412\:044b \:0432\:0435\:0434\:0435\:0442\:0435 \:043f\:0435\:0440\:0435\
+\:0433\:043e\:0432\:043e\:0440\:044b \:0447\:0430\:0449\:0435, \:0447\:0435\
+\:043c \:0432\:0430\:043c \:043a\:0430\:0436\:0435\:0442\:0441\:044f.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396772131824`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"02a35aed-fa61-4740-9dcb-cdd61eadfc86"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "12", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0421\:043e\:0437\:0434\:0430\:043d\:0438\:0435 \:0430\
+\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:0443\:0440\:044b \:043a\:0430\
+\:043a \:0438\:0441\:043a\:0443\:0441\:0441\:0442\:0432\:043e \:0431\:0430\
+\:043b\:0430\:043d\:0441\:0430.md\"\>"}],
+  SequenceForm[
+  12, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0421\:043e\:0437\:0434\:0430\:043d\:0438\:0435 \:0430\:0440\:0445\:0438\
+\:0442\:0435\:043a\:0442\:0443\:0440\:044b \:043a\:0430\:043a \:0438\:0441\
+\:043a\:0443\:0441\:0441\:0442\:0432\:043e \:0431\:0430\:043b\:0430\:043d\
+\:0441\:0430.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396772752037`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"04ed4d3d-c42c-4273-b885-76952861c2c4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "13", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0420\:0435\:0448\:0435\:043d\:0438\:0439 \:043d\:0430 \
+\:0432\:0441\:0435 \:0441\:043b\:0443\:0447\:0430\:0438 \:0436\:0438\:0437\
+\:043d\:0438 \:043d\:0435 \:0441\:0443\:0449\:0435\:0441\:0442\:0432\:0443\
+\:0435\:0442.md\"\>"}],
+  SequenceForm[
+  13, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0420\:0435\:0448\:0435\:043d\:0438\:0439 \:043d\:0430 \:0432\:0441\:0435 \
+\:0441\:043b\:0443\:0447\:0430\:0438 \:0436\:0438\:0437\:043d\:0438 \:043d\
+\:0435 \:0441\:0443\:0449\:0435\:0441\:0442\:0432\:0443\:0435\:0442.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396773417416`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"4b5c0dd2-34a4-462a-9469-49c2adc67e49"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "14", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0421\:0434\:0435\:043b\:0430\:0442\:044c \:043d\:0430\
+\:0441\:043f\:0435\:0445 \:0438 \:0441\:0431\:0435\:0436\:0430\:0442\:044c \
+\:044d\:0442\:043e \:043f\:0440\:0435\:0441\:0442\:0443\:043f\:043b\:0435\
+\:043d\:0438\:0435.md\"\>"}],
+  SequenceForm[
+  14, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0421\:0434\:0435\:043b\:0430\:0442\:044c \:043d\:0430\:0441\:043f\:0435\
+\:0445 \:0438 \:0441\:0431\:0435\:0436\:0430\:0442\:044c \:044d\:0442\:043e \
+\:043f\:0440\:0435\:0441\:0442\:0443\:043f\:043b\:0435\:043d\:0438\:0435.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396774233103`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"483dc4b4-2f0e-40b0-adb4-22d331807813"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "15", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\
+\:0442\:0435 \:043a\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\
+\:043d\:043d\:044b\:0435 \
+\:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438.md\"\>"}],
+  SequenceForm[
+  15, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\:0442\:0435 \:043a\
+\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0435\
+ \:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439677515833*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"98b2fef6-cbc7-4a11-9aa2-60392309d1e2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "16", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0420\:0443\:043a\:043e\:0432\:043e\:0434\:0441\:0442\
+\:0432\:0443\:0439\:0442\:0435\:0441\:044c \:043d\:0435\:043e\:043f\:0440\
+\:0435\:0434\:0435\:043b\:0451\:043d\:043d\:043e\:0441\:0442\:044c\:044e.md\"\
+\>"}],
+  SequenceForm[
+  16, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0420\:0443\:043a\:043e\:0432\:043e\:0434\:0441\:0442\:0432\:0443\:0439\:0442\
+\:0435\:0441\:044c \:043d\:0435\:043e\:043f\:0440\:0435\:0434\:0435\:043b\
+\:0451\:043d\:043d\:043e\:0441\:0442\:044c\:044e.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396776028185`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"dbe7b4e5-0280-428d-9e30-c2f83f491538"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "17", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:041e\:0431\:0435\:0441\:043f\:0435\:0447\:044c\:0442\
+\:0435 \:043d\:0435\:043f\:0440\:0435\:0440\:044b\:0432\:043d\:0443\:044e \
+\:0438\:043d\:0442\:0435\:0433\:0440\:0430\:0446\:0438\:044e.md\"\>"}],
+  SequenceForm[
+  17, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:041e\:0431\:0435\:0441\:043f\:0435\:0447\:044c\:0442\:0435 \:043d\:0435\
+\:043f\:0440\:0435\:0440\:044b\:0432\:043d\:0443\:044e \:0438\:043d\:0442\
+\:0435\:0433\:0440\:0430\:0446\:0438\:044e.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396777210026`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"ae34c540-2074-483e-ae95-2e8c0760484e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "18", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0410\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:043e\
+\:0440 \:0434\:043e\:043b\:0436\:0435\:043d \:0431\:044b\:0442\:044c \:043f\
+\:0440\:0430\:043a\:0442\:0438\:043a\:043e\:043c.md\"\>"}],
+  SequenceForm[
+  18, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0410\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:043e\:0440 \:0434\:043e\
+\:043b\:0436\:0435\:043d \:0431\:044b\:0442\:044c \:043f\:0440\:0430\:043a\
+\:0442\:0438\:043a\:043e\:043c.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396778301253`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"1c39c4df-3d10-4729-9b48-efae25866bdf"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "19", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:041f\:0440\:043e\:0441\:0442\:043e\:0442\:0430 \:043b\
+\:0443\:0447\:0448\:0435 \:0443\:043d\:0438\:0432\:0435\:0440\:0441\:0430\
+\:043b\:044c\:043d\:043e\:0441\:0442\:0438.md\"\>"}],
+  SequenceForm[
+  19, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:041f\:0440\:043e\:0441\:0442\:043e\:0442\:0430 \:043b\:0443\:0447\:0448\
+\:0435 \:0443\:043d\:0438\:0432\:0435\:0440\:0441\:0430\:043b\:044c\:043d\
+\:043e\:0441\:0442\:0438.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396779395986`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"7b59e99b-5f6d-4dff-a74a-d38d196e23c9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "20", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0421\:0442\:0430\:0440\:0430\:0439\:0442\:0435\:0441\
+\:044c \:043d\:0435 \:043d\:0430\:0440\:0443\:0448\:0430\:0442\:044c \:0433\
+\:0440\:0430\:0444\:0438\:043a.md\"\>"}],
+  SequenceForm[
+  20, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0421\:0442\:0430\:0440\:0430\:0439\:0442\:0435\:0441\:044c \:043d\:0435 \
+\:043d\:0430\:0440\:0443\:0448\:0430\:0442\:044c \:0433\:0440\:0430\:0444\
+\:0438\:043a.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396780405984`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"b6260082-56ca-45fc-90e4-c0b2c75af164"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "21", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0420\:0435\:0448\:0435\:043d\:0438\:0439 \:043c\:043e\
+\:0436\:0435\:0442 \:0431\:044b\:0442\:044c \:043d\:0435\:0441\:043a\:043e\
+\:043b\:044c\:043a\:043e.md\"\>"}],
+  SequenceForm[
+  21, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0420\:0435\:0448\:0435\:043d\:0438\:0439 \:043c\:043e\:0436\:0435\:0442 \
+\:0431\:044b\:0442\:044c \:043d\:0435\:0441\:043a\:043e\:043b\:044c\:043a\
+\:043e.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439678145173*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"520321a4-ffaa-4a98-ac67-e3a9c9dc0d96"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "22", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0410\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:0443\
+\:0440\:043d\:044b\:0435 \:043a\:043e\:043c\:043f\:0440\:043e\:043c\:0438\
+\:0441\:0441\:044b.md\"\>"}],
+  SequenceForm[
+  22, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0410\:0440\:0445\:0438\:0442\:0435\:043a\:0442\:0443\:0440\:043d\:044b\:0435\
+ \:043a\:043e\:043c\:043f\:0440\:043e\:043c\:0438\:0441\:0441\:044b.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439678245249*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"9a92a6e6-f9bf-4029-996f-5b41ca581921"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "23", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0411\:0430\:0437\:0430 \:0434\:0430\:043d\:043d\:044b\
+\:0445 \:043a\:0430\:043a \:041a\:0440\:0435\:043f\:043e\:0441\:0442\:044c.md\
+\"\>"}],
+  SequenceForm[
+  23, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0411\:0430\:0437\:0430 \:0434\:0430\:043d\:043d\:044b\:0445 \:043a\:0430\
+\:043a \:041a\:0440\:0435\:043f\:043e\:0441\:0442\:044c.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439678367157*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"a98cc388-4035-4c8e-b7fc-03394fc16412"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "24", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0412\:0441\:0435\:043c \:0437\:0430\:043f\:0440\:0430\
+\:0432\:043b\:044f\:0435\:0442 \:0431\:0438\:0437\:043d\:0435\:0441.md\"\>"}],
+  SequenceForm[
+  24, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0412\:0441\:0435\:043c \:0437\:0430\:043f\:0440\:0430\:0432\:043b\:044f\
+\:0435\:0442 \:0431\:0438\:0437\:043d\:0435\:0441.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396784898033`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"d33d3980-c1b7-42fe-a2e6-07d85d341a4d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "25", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0421\:0431\:043e\:0438 \:043d\:0435\:0438\:0437\:0431\
+\:0435\:0436\:043d\:044b.md\"\>"}],
+  SequenceForm[
+  25, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0421\:0431\:043e\:0438 \:043d\:0435\:0438\:0437\:0431\:0435\:0436\:043d\
+\:044b.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396786054416`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"1eff88ca-462c-4c00-beea-4d765e4aedb0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "26", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435.md\"\>"}],
+  SequenceForm[
+  26, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439678725466*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"d52bb8c2-7441-4942-a568-9709423e77b8"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "27", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Never prioritize your resume over the needs of the \
+client.md\"\>"}],
+  SequenceForm[
+  27, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Never prioritize your resume over the needs of the client.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396788406906`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"96cb3879-91b2-47cb-8132-85cfa2e9e400"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "28", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Perhaps your main problem is not technology.md\"\>"}],
+  SequenceForm[
+  28, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Perhaps your main problem is not technology.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396789559913`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"5684f807-17f8-46c5-a36c-3e0197942352"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "29", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
+incidental complexity.md\"\>"}],
+  SequenceForm[
+  29, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Reduce the intrinsic complexity and eliminate the incidental complexity.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396790640755`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"b4d3ced8-2c92-4345-9e4c-c90150c93fa4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "30", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Screening.md\"\>"}],
+  SequenceForm[
+  30, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Screening.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.9324396791790667`*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"6e1c197e-d3e6-4d77-b730-ace7f49e3867"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "31", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\System Design.md\"\>"}],
+  SequenceForm[
+  31, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+System Design.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9304804712970934`*^9, 3.9304804958363714`*^9}, {
+   3.9304807728351564`*^9, 3.930480795169197*^9}, 3.932439679283303*^9},
+ CellLabel->
+  "During evaluation of \
+In[340]:=",ExpressionUUID->"0fbe145b-b46c-482e-a438-f54cccce7b2c"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{687., 689.25},
-WindowMargins->{{Automatic, 78.75}, {Automatic, 238.5}},
-FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+WindowSize->{687, 687.75},
+WindowMargins->{{Automatic, 78.75}, {Automatic, 0}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"52947e7d-3f57-4d4d-8301-b68a3ec76c10"
 ]
@@ -354,19 +1806,47 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 631, 13, 32, "Input",ExpressionUUID->"9c94ab4b-baf0-41a2-91fb-f956de46a9c1"],
-Cell[1214, 37, 1245, 19, 79, "Output",ExpressionUUID->"7fd44eb4-1910-4eb4-ad25-f6966db279a8"]
+Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"9c94ab4b-baf0-41a2-91fb-f956de46a9c1"],
+Cell[1218, 38, 8379, 127, 535, "Output",ExpressionUUID->"35671aeb-4c1f-4655-be75-32f4e5820a92"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2496, 61, 1102, 25, 32, "Input",ExpressionUUID->"d1798db8-a9ce-497b-94a9-be3a5c3977db"],
-Cell[3601, 88, 3568, 105, 56, "Output",ExpressionUUID->"1293ad0b-62cb-4ede-910a-ca9d3d5d9776"]
+Cell[9634, 170, 1106, 26, 32, "Input",ExpressionUUID->"d1798db8-a9ce-497b-94a9-be3a5c3977db"],
+Cell[10743, 198, 25802, 862, 359, "Output",ExpressionUUID->"61cbe63c-736d-4f28-ab3b-d07a7dc116cc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7206, 198, 3790, 83, 396, "Input",ExpressionUUID->"ccb70ac8-a218-4e25-9c96-1e4a06ac2f40"],
+Cell[36582, 1065, 3794, 84, 395, "Input",ExpressionUUID->"ccb70ac8-a218-4e25-9c96-1e4a06ac2f40"],
 Cell[CellGroupData[{
-Cell[11021, 285, 595, 15, 18, "Print",ExpressionUUID->"8ac59396-85c5-43f1-9241-9e9508ec56e0"],
-Cell[11619, 302, 597, 15, 18, "Print",ExpressionUUID->"a0a96e30-7c1e-450c-9a80-b1e0520375f1"],
-Cell[12219, 319, 593, 15, 18, "Print",ExpressionUUID->"592cbe5c-3b38-4711-a17a-e80d297a0f7d"]
+Cell[40401, 1153, 1159, 22, 30, "Print",ExpressionUUID->"1d97f636-91d7-43bb-a2d3-12bd3694c61f"],
+Cell[41563, 1177, 709, 16, 18, "Print",ExpressionUUID->"a43debc3-9a2f-4df6-81c3-d3914b17befd"],
+Cell[42275, 1195, 761, 17, 30, "Print",ExpressionUUID->"7fe4fbaa-f72e-4bb3-a6a2-5c9b445e373e"],
+Cell[43039, 1214, 631, 15, 18, "Print",ExpressionUUID->"7ff9f0c7-fbcb-406b-befe-8224559295f2"],
+Cell[43673, 1231, 675, 15, 18, "Print",ExpressionUUID->"fdd5b040-7d37-4516-97aa-00c526c6c87c"],
+Cell[44351, 1248, 637, 15, 18, "Print",ExpressionUUID->"f74515f1-5a7e-4784-a5e0-c38fe07c5a00"],
+Cell[44991, 1265, 637, 15, 18, "Print",ExpressionUUID->"76244dbe-5b68-421c-8199-f790a50c40ec"],
+Cell[45631, 1282, 629, 15, 18, "Print",ExpressionUUID->"aa331818-4dc5-41b6-a1f3-ca48e909274b"],
+Cell[46263, 1299, 1179, 22, 30, "Print",ExpressionUUID->"c7886dd7-5293-4a56-9e69-b73c8b84878a"],
+Cell[47445, 1323, 1091, 22, 18, "Print",ExpressionUUID->"520125ab-ed99-4a2b-9cd2-b4b3dc50d256"],
+Cell[48539, 1347, 1059, 21, 18, "Print",ExpressionUUID->"02a35aed-fa61-4740-9dcb-cdd61eadfc86"],
+Cell[49601, 1370, 1091, 22, 18, "Print",ExpressionUUID->"04ed4d3d-c42c-4273-b885-76952861c2c4"],
+Cell[50695, 1394, 1057, 21, 18, "Print",ExpressionUUID->"4b5c0dd2-34a4-462a-9469-49c2adc67e49"],
+Cell[51755, 1417, 1067, 21, 18, "Print",ExpressionUUID->"483dc4b4-2f0e-40b0-adb4-22d331807813"],
+Cell[52825, 1440, 1023, 21, 18, "Print",ExpressionUUID->"98b2fef6-cbc7-4a11-9aa2-60392309d1e2"],
+Cell[53851, 1463, 1023, 21, 18, "Print",ExpressionUUID->"dbe7b4e5-0280-428d-9e30-c2f83f491538"],
+Cell[54877, 1486, 999, 20, 18, "Print",ExpressionUUID->"ae34c540-2074-483e-ae95-2e8c0760484e"],
+Cell[55879, 1508, 977, 20, 18, "Print",ExpressionUUID->"1c39c4df-3d10-4729-9b48-efae25866bdf"],
+Cell[56859, 1530, 963, 20, 18, "Print",ExpressionUUID->"7b59e99b-5f6d-4dff-a74a-d38d196e23c9"],
+Cell[57825, 1552, 941, 20, 18, "Print",ExpressionUUID->"b6260082-56ca-45fc-90e4-c0b2c75af164"],
+Cell[58769, 1574, 927, 20, 18, "Print",ExpressionUUID->"520321a4-ffaa-4a98-ac67-e3a9c9dc0d96"],
+Cell[59699, 1596, 909, 19, 18, "Print",ExpressionUUID->"9a92a6e6-f9bf-4029-996f-5b41ca581921"],
+Cell[60611, 1617, 877, 19, 18, "Print",ExpressionUUID->"a98cc388-4035-4c8e-b7fc-03394fc16412"],
+Cell[61491, 1638, 863, 18, 18, "Print",ExpressionUUID->"d33d3980-c1b7-42fe-a2e6-07d85d341a4d"],
+Cell[62357, 1658, 777, 18, 18, "Print",ExpressionUUID->"1eff88ca-462c-4c00-beea-4d765e4aedb0"],
+Cell[63137, 1678, 709, 16, 18, "Print",ExpressionUUID->"d52bb8c2-7441-4942-a568-9709423e77b8"],
+Cell[63849, 1696, 731, 17, 30, "Print",ExpressionUUID->"96cb3879-91b2-47cb-8132-85cfa2e9e400"],
+Cell[64583, 1715, 701, 16, 18, "Print",ExpressionUUID->"5684f807-17f8-46c5-a36c-3e0197942352"],
+Cell[65287, 1733, 759, 17, 30, "Print",ExpressionUUID->"b4d3ced8-2c92-4345-9e4c-c90150c93fa4"],
+Cell[66049, 1752, 633, 16, 18, "Print",ExpressionUUID->"6e1c197e-d3e6-4d77-b730-ace7f49e3867"],
+Cell[66685, 1770, 639, 16, 18, "Print",ExpressionUUID->"0fbe145b-b46c-482e-a438-f54cccce7b2c"]
 }, Open  ]]
 }, Open  ]]
 }

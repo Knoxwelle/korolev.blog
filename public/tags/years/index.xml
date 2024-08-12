@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Years on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/years/</link>
+    <description>Recent content in Years on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/years/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interview tips</title>
+      <link>http://localhost:1313/posts/interview-tips/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/interview-tips/</guid>
+      <description>The fate of fate I started to go to interviews again, and I want to share some observations. On this, I just give advice to everyone in enterprise companies about how the recruitment process should be structured.&#xA;Advice to candidates In the last five years, I&amp;rsquo;ve been through several hundred interviews on both sides. So, some life hacking:&#xA;You&amp;rsquo;re going to have to go through the windshields. Those you&amp;rsquo;re not going to go to. You pump the skill, or suddenly something interesting turns out to be, or it&amp;rsquo;ll be the only place with the offer. You never know what&amp;rsquo;s in a box of candy.&#xA;Get some sleep and let yourself rest on the day of wrath. The same live coding is quite a dumb thing; the solution may not come during the call but will appear immediately after.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,15 @@
++++
+title = 'Communication is the king, clarity and leadership are his true companions'
+date = 2024-07-12T00:00:00-07:00
+draft = false
+categories = ["vaza", "sweden", "poland", "italian", "atam", "method", "cbam", "cost", "institute"]
+tags = ["vaza", "sweden", "poland", "king", "time", "soa", "atam", "architecture tradeoff", "benefit analysis metod", "sei", "software engineering institute", "architecture", "software", "ship", "ships"]
+cover_image='/images/cover/knoxwelle__2017-07-08T074347.000Z.jpg'
++++
+Every software architect should know and understand that you can't get everything at once. In practice, it is impossible to design an architecture that has high performance, high availability, high security and high abstraction at the same time.There is one real story that software architects need to know, understand and tell their clients and colleagues.I mean the history of the Vaza.
+
+In 1620, there was a war between Sweden and Poland. Wishing to put an end to this expensive war more quickly, the King of Sweden ordered the construction of a gallion called the Vase.It was an unusual ship.The requirements for it were not the same as for any other ship of the time.It was to be more than 60 metres long, carry 64 guns on two battery deck, and also carry 300 soldiers at a time for safe delivery to Poland by sea. Time was running out, there was a lack of money (sounds familiar, right?).The shipbuilder has never designed such ships before.He specialized in smaller, single-deck vessels. Nevertheless, he undertook the design and construction of the Vaza, relying on his previous experience.As a result, a ship that meets these specifications was built. It's the day of the water descent.The ship proudly sailed into the harbor, saluting out all the guns...And then he sank.
+
+The Vaza problem was obvious; anyone who had seen the deck of a large 17th-century battleship knew that the decks of such ships were overcrowded and unsafe, especially during battle. It was a costly mistake to build ships that would serve both combat and transport.The shipbuilder, seeking to fulfil all the wishes of the king, created an unstable and poorly balanced ship.
+
+A software architect can draw a lot from this story and take this sad experience into account when designing a software product architecture.Trying to fulfil all the requirements at once (as in the case of the Vaza) creates an unstable architecture that does not solve exactly any of the tasks set.A good example of this is the requirement to force service-oriented architecture (SOA) to function as a point-to-point solution at the same time. Usually this forces to bypass the various levels of abstraction created by the SOA approach, and the result is an architecture resembling a spaghetti dish from an Italian restaurant.The architect has several tools at his disposal to identify the compromises to be taken when designing architectures. Two popular methods of this kind are ATAM (Architecture Tradeoff Analysis Method) and CBAM (Cost Benefit Analysis Metod).Further information on ATAM and CBAM can be found on the SEI (Software Engineering Institute) website.

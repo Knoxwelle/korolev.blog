@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/software/</link>
+    <description>Recent content in Software on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Создание архитектуры как искусство баланса</title>
+      <link>http://localhost:1313/posts/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B-%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE-%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B0/</link>
+      <pubDate>Mon, 12 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B-%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE-%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B0/</guid>
+      <description>When it comes to developing a software architecture, we first imagine the classic technical operations: system breakdown into modules, defining interfaces, allocating responsibilities, applying templates, and optimizing performance.In addition, the architect must take into account a number of other aspects, including safety, ease of use, easy maintenance, output management, choice of deployment settings, etc.However, all of these technical and procedural aspects must be relevant to the needs of the stakeholders.Taking these interests into account in the analysis of requirements is a great way to ensure that the requirements specifications for the product being developed are complete.&#xA;All parties involved in the project have interests affecting both the software development process adopted in the organization and the organization as a whole. It is the analysis of these interests that forms the resulting set of priorities for the architect.</description>
+    </item>
+    <item>
+      <title>Сбои неизбежны</title>
+      <link>http://localhost:1313/posts/%D1%81%D0%B1%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D1%81%D0%B1%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B/</guid>
+      <description>Equipment is vulnerable to damage, so we&amp;rsquo;re introducing excess in our systems.It allows you to survive individual hardware failures, but increases the likelihood that at any time at least one malfunction will be present in the system.&#xA;The software code is also vulnerable. Our applications are based on software code, which means they are vulnerable too.We implement monitoring tools that report application failures, but these tools are also based on software code, which means that they are vulnerable to failure themselves.&#xA;So people make mistakes, so we try to automate our actions, diagnostics and workflows.Automation reduces the likelihood of errors caused by breaches of rules, but increases the likeliness of mistakes resulting from lack of rules.No automated system is capable of responding to such a range of situations as a human being.</description>
+    </item>
+    <item>
+      <title>Communication is the king, clarity and leadership are his true companions</title>
+      <link>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D1%8B/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D1%8B/</guid>
+      <description>Every software architect should know and understand that you can&amp;rsquo;t get everything at once. In practice, it is impossible to design an architecture that has high performance, high availability, high security and high abstraction at the same time.There is one real story that software architects need to know, understand and tell their clients and colleagues.I mean the history of the Vaza.&#xA;In 1620, there was a war between Sweden and Poland. Wishing to put an end to this expensive war more quickly, the King of Sweden ordered the construction of a gallion called the Vase.It was an unusual ship.The requirements for it were not the same as for any other ship of the time.It was to be more than 60 metres long, carry 64 guns on two battery deck, and also carry 300 soldiers at a time for safe delivery to Poland by sea.</description>
+    </item>
+    <item>
+      <title>Communication is the king, clarity and leadership are his true companions</title>
+      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions-1/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions-1/</guid>
+      <description>Too often, software architects live in ivory towers, leaving specifications to the developers and imposing technologies and directions on them. At the same time, this leads to strife, which is quickly followed by a “popular uprising.&amp;quot; The result is a software product that has nothing to do with the original requirements. Every software architect must be able to explain to his colleagues the goals and objectives of the software project. The keys to effective communication are clarity and leadership.&#xA;Clearness characterizes the process of communication. No one in your group will read a 100-page document justifying your architectural decisions. The ability to express your thoughts clearly is vital to the success of any program or project. From the very beginning of work on the project, adhere to simple explanations and, in no case, start making long descriptions in Word.</description>
+    </item>
+    <item>
+      <title>Простота лучше универсальности</title>
+      <link>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</guid>
+      <description>A typical problem with many frameworks, class libraries, basic services and other infrastructure code is that they are designed for universal use, without attachment to specific applications. As a result, we get a staggering set of features and settings that are often not used at all or used for the wrong purpose, or even simply turned out to be useless.Most developers work on specific systems, and the pursuit of unlimited versatility rarely serves them well.The best way to universality lies through an in-depth understanding of known concrete examples and analysis of their essence in order to find a fundamental common solution: simplicity as a result of practical experience, rather than universality based on conjecture.&#xA;The priority of simplicity over versatility helps to make a choice between two architectural alternatives, equal in other respects.</description>
+    </item>
+    <item>
+      <title>Всем заправляет бизнес</title>
+      <link>http://localhost:1313/posts/%D0%B2%D1%81%D0%B5%D0%BC-%D0%B7%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/</link>
+      <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%B2%D1%81%D0%B5%D0%BC-%D0%B7%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/</guid>
+      <description>In the context of the development of corporate software applications, the architect should become a kind of bridge in the company between the business and technical communities, representing and defending the interests of both sides and often acting as a mediator between them, but at the same time allowing the business to control the affairs.When making technological decisions, the architect must be guided by the business objectives of the company and its surrounding realities.&#xA;Before undertaking a software development project, a commercial company usually plans and announces the desired return on investment (ROI).The architect must accept this indicator and the resulting limitations of the value of the product created for the company.This will help to avoid technical solutions that could lead to excessive expenditure.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
++++
+title = 'It's never too early to think about productivity'
+date = 2024-06-30T00:00:00-07:00
+draft = false
+categories = []
+tags = ["first", "performance", "system", "testing", "problems", "architecture"]
+cover_image='/images/cover/knoxwelle__2017-12-29T205612.000Z.jpg'
++++
+The needs of users of business applications manifest primarily in functional requirements. Non-functional aspects of the system (such as performance, flexibility, downtime, support needs, etc.) are in the architect’s hands. At the same time, preliminary testing of non-functional requirements is often postponed to a very late stage of the development cycle and sometimes fully delegated to the system maintenance team.
+
+This mistake is much more common than it should be. It can be based on various reasons.Worrying about the speed and flexibility of the program, which is not yet exactly performing the required function, may seem pointless. Test environments and tests themselves are quite complex.Early working versions of the system may not be exposed to a realistic load due to insufficient intensity of use.
+
+However, by putting performance out of sight to the later stages of a project's life cycle, you lose a huge amount of information about when performance changes occurred. If performance is one of the important criteria for evaluating system architecture and design, performance testing should start as early as possible.If you use a flexible development methodology with two-week iterations, then performance testing, in my opinion, should be included in the process no later than the third iteration.
+
+Why is it so important? First of all, you will at least be aware of what changes have led to the sharp decline in productivity.If there are performance problems in the system, you don’t have to analyze the entire architecture; it’s enough to focus on the points that have changed recently. Starting performance testing early and performing it frequently narrows the range of changes that need to be analyzed.
+
+Even if you do not try to diagnose performance during early testing, you will at least get a set of basic indicators that you can reflect on in your future work.This information will then play a very important role in identifying and addressing the source of performance problems.
+
+This approach also enables the decisions taken during the design and work on the system architecture to be tested in the context of actual performance requirements.If the system is subject to strict requirements, such early verification is important for the timely delivery of the finished system.
+
+It is well known that organizing technical testing is not an easy task.Configuring the environment, generating data sets, defining the necessary test cases—all this takes a lot of time. Early performance testing facilitates the phased development of the test environment, saving you significantly more time and effort to detect performance problems at a later stage.

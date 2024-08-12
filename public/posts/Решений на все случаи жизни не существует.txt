@@ -1,0 +1,17 @@
++++
+title = ''
+date = 2024-05-28T00:00:00-07:00
+draft = false
+categories = ["rechtin", "building", "systems", "prentice hall"]
+tags = ["eberhardt rechtin", "systems architecting", "systems", "prentice hall", "education", "problem", "sense", "solution", "architect"]
+cover_image='/images/cover/knoxwelle__2017-06-03T162311.000Z.jpg'
++++
+The architect must continuously refine and improve his "context noe poche", since there is no single universal solution for a wide range of diverse problems.Eberhardt Rechtin, in his book "Systems Architecting: Creating & Building Complex Systems" (Prentice Hall, 1991):
+
+“To learn the basic principles of the “eristic approach” to the design of complex systems, ask an experienced architect what he does when faced with a difficult task.His answer would most likely be, "I'm just using common sense."<...>Instead of the term “sensual” it would be better to use the expression “context sensation”1 – knowledge of what is ra zoom in a given context.Education, experience and study of examples allow the architect-practitioner to acquire a considerable power of contextual sense by the moment when it is entrusted to solve a system-level problem – usually it takes decades.” 
+
+One of the major problems in the software industry, I think, is that tasks are often handed over to people who have not developed enough contextual sense.This may be due to the fact that the industry is only two generations old and is now experiencing a phase of explosive growth; it is possible that the disappearance of this problem could be considered a sign of the industry's maturity.
+
+I often encounter manifestations of this problem in my consulting work.Here are typical examples:rejection of domain-driven design1 where it would be appropriate; loss of a pragmatic view of things and excessive enthusiasm for the design of a software solution when it comes to a non-delayed task; unreasonable or irrelevant proposals at a time when the work on optimizing the speed of the system is at a standstill.
+
+The most important thing to know about program templates is when they should be used and when not.The same applies to the hypotheses about the root causes of the problem and the corresponding corrective action.In both situations – in the creation of the architecture of the system and in the analysis of the problem – a universal solution “for all cases of life” does not exist by definition; the architect must develop and train his contextual sense, formulating architectural solutions, as well as identifying and eliminating their shortcomings.

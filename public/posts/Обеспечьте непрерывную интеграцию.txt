@@ -1,0 +1,17 @@
++++
+title = 'Обеспечьте непрерывную интеграцию'
+date = 2024-05-11T00:00:00-07:00
+draft = false
+categories = []
+tags = ["big bang", "martin fowler", "nowadays", "integration", "process", "development", "assembly", "project"]
+cover_image='/images/cover/knoxwelle__2017-05-25T122957.000Z.jpg'
++++
+The collection has long ceased to play the role of the "Big Bang" in the design of projects.Both architects (both at the application level and at the corporate level) should encourage the use of continuous integration methods and tools in each project.
+
+The term continuous integration (CI, Continuous Integration) was first proposed by Martin Fowler as a design template. It means a set of methods and tools that ensure regular automatic assembly and testing of applications over short intervals of time (usually on an integration server specially designed to perform these operations).For any modern software project, the practice of continuous integration, combining modular testing methods and tools with automated assembly tools, becomes mandatory.
+
+Continuous integration affects an integral element of the software development process – the point of converting the source code into a working application.At this point, the components of the project are combined and tested.You've probably heard of the "Build early and often" principle; it used to be used to reduce risks and avoid unpleasant surprises in the development process.Nowadays, “early and frequent assembly” has been replaced by continuous integration, which also includes assembling, but adds to it capabilities that improve interaction and coordination within the developer team.
+
+The most well-known part of the practice of continuous integration is assembly, which is usually automated.The ability to build manually remains, but you can automatically start the build every night or when you make changes to the source code.When the compilation process starts, the latest version of the source code is extracted from the repository; the continuous integration tool tries to compile the project and then test it.The process ends with notifications describing the results.Notifications may be sent in various formats, including by e-mail or via instant messaging systems.
+
+Continuous integration makes the development process more stable and focused.You will like this as an architect, but more importantly, continuous integration will enhance the efficiency of your company and your development teams.

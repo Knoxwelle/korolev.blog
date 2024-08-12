@@ -1,0 +1,25 @@
++++
+title = 'Failures are inevitable'
+date = 2024-08-07T00:00:00-07:00
+draft = false
+categories = ["island2"]
+tags = ["new", "networks", "failures", "software", "system", "network", "failure"]
+cover_image='/images/cover/knoxwelle__2017-04-24T073118.000Z.jpg'
++++
+Equipment is vulnerable to damage, so we're introducing excess in our systems.It allows you to survive individual hardware failures, but increases the likelihood that at any time at least one malfunction will be present in the system.
+
+The software code is also vulnerable. Our applications are based on software code, which means they are vulnerable too.We implement monitoring tools that report application failures, but these tools are also based on software code, which means that they are vulnerable to failure themselves.
+
+So people make mistakes, so we try to automate our actions, diagnostics and workflows.Automation reduces the likelihood of errors caused by breaches of rules, but increases the likeliness of mistakes resulting from lack of rules.No automated system is capable of responding to such a range of situations as a human being.
+
+That's why we're adding monitoring mechanisms to automation tools. New software, new errors. Networks are made up of hardware, software, and very long lines of communication. So networks are also prone to failure. Even if a network works properly, its behavior is formally unpredictable, because the state space of a large network is practically infinite. 
+
+Any security mechanism that we use to fix some kind of error introduces new kinds of failures.We organize clustering so that the application automatically moves from a failed server to a working one, but now, when cluster network caprices arise, there is a risk of "capacity splitting"1.
+
+It is worth recalling that the accident at Trimayle Island2 occurred mainly because of the pressure discharge valve – a safety mechanism that was meant to prevent some types of failures associated with excess pressure.
+
+So, system failures are inevitable anyway, so what do we do?
+
+Be aware of one fact: no matter what, there will be various failures in your system.By denying their inevitability, you lose the ability to control and isolate these failures.But by accepting this fact, you can design your system's response to specific failures.Similar to how car designers create deformation zones (deforming areas first and extinguishing collision energy for passive passenger protection), you can design failure protection modes that will isolate damage and protect the rest of the system components.
+
+If you do not, you will have to deal with all the unpredictable – and usually dangerous – failures that arise during the system.

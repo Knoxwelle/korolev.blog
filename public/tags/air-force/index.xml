@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Air Force on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/air-force/</link>
+    <description>Recent content in Air Force on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/air-force/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Find the true meaning of the needs</title>
+      <link>http://localhost:1313/posts/find-the-true-meaning-of-the-needs/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/find-the-true-meaning-of-the-needs/</guid>
+      <description>Customers and end-users often demand what they think is an effective solution to a problem. A classic example of this is given by Harry Hillaker, the leading designer of the F-16 Falcon. His group had set the goal of designing an aircraft developing M2–2.5 speeds, which was (and probably remains) a very non-trivial task, especially if the accompanying objective was to create a “cheap” light aircraft. Consider that the force required to overcome the air resistance increases by four times the speed of flight, and imagine how this circumstance affects the weight of the aircraft.&#xA;When the design team asked the Air Force customers why they needed the M2–2.5 speed, they replied, &amp;ldquo;That the aircraft could get out of battle if necessary.&amp;rdquo; When the real need became apparent, the designers were able to solve the main problem and present a workable solution: a mobile aircraft with high traction, providing good acceleration and maneuverability instead of high maximum speed.</description>
+    </item>
+  </channel>
+</rss>

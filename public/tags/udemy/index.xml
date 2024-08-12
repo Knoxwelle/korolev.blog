@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Udemy on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/udemy/</link>
+    <description>Recent content in Udemy on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/udemy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps, SRE</title>
+      <link>http://localhost:1313/posts/devops-sre/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/devops-sre/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time we are talking about DevOps and SRE in enterprise companies and their recruitment processes.&#xA;DevOps/SRE I was unemployed and full of time, so I decided to interview DevOps. In vain that the course on Linux was held on Udemy (a joke, sarcasm, still passed, but to write about it is embarrassing)?! And then I liked the process much more. It consisted of only two steps: general knowledge and troubleshooting.&#xA;In general, the interviewer had a list of questions, but he allowed himself to deviate a little from it, which gave some liveliness to the conversation. We&amp;rsquo;ve had time to discuss Linux loading, networking, container operation, and databases. In general, what happens in the universe one way or another?</description>
+    </item>
+  </channel>
+</rss>

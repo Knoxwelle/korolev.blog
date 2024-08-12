@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/simplicity-is-better-than-versatility/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Simplicity is better than versatility • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Simplicity is better than versatility">
+<meta name="twitter:description" content="A typical problem with many frameworks, class libraries, basic services and other infrastructure code is that they are designed for universal use, without attachment to specific applications. As a result, we get a staggering set of features and settings that are often not used at all or used for the wrong purpose, or even simply turned out to be useless.Most developers work on specific systems, and the pursuit of unlimited versatility rarely serves them well.The best way to universality lies through an in-depth understanding of known concrete examples and analysis of their essence in order to find a fundamental common solution: simplicity as a result of practical experience, rather than universality based on conjecture.
+The priority of simplicity over versatility helps to make a choice between two architectural alternatives, equal in other respects.">
+
+<meta property="og:url" content="http://localhost:1313/posts/simplicity-is-better-than-versatility/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Simplicity is better than versatility">
+  <meta property="og:description" content="A typical problem with many frameworks, class libraries, basic services and other infrastructure code is that they are designed for universal use, without attachment to specific applications. As a result, we get a staggering set of features and settings that are often not used at all or used for the wrong purpose, or even simply turned out to be useless.Most developers work on specific systems, and the pursuit of unlimited versatility rarely serves them well.The best way to universality lies through an in-depth understanding of known concrete examples and analysis of their essence in order to find a fundamental common solution: simplicity as a result of practical experience, rather than universality based on conjecture.
+The priority of simplicity over versatility helps to make a choice between two architectural alternatives, equal in other respects.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-20T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-05-20T00:00:00-07:00">
+    <meta property="article:tag" content="Software">
+    <meta property="article:tag" content="Solution">
+    <meta property="article:tag" content="Solutions">
+    <meta property="article:tag" content="Universality">
+    <meta property="article:tag" content="Generalization">
+    <meta property="article:tag" content="Leads">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.9196fcf1fedfce04f627f9bf866acdbeadc99ef75c2e0d19c0bff06074f3cb75.css" integrity="sha256-kZb88f7fzgT2J/m/hmrNvq3JnvdcLg0ZwL/wYHTzy3U=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Simplicity is better than versatility</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> May 20, 2024
+    
+    
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/software">software</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/solution">solution</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/solutions">solutions</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/universality">universality</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/generalization">generalization</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/leads">leads</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2021-04-11T052322.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>A typical problem with many frameworks, class libraries, basic services and other infrastructure code is that they are designed for universal use, without attachment to specific applications. As a result, we get a staggering set of features and settings that are often not used at all or used for the wrong purpose, or even simply turned out to be useless.Most developers work on specific systems, and the pursuit of unlimited versatility rarely serves them well.The best way to universality lies through an in-depth understanding of known concrete examples and analysis of their essence in order to find a fundamental common solution: simplicity as a result of practical experience, rather than universality based on conjecture.</p>
+<p>The priority of simplicity over versatility helps to make a choice between two architectural alternatives, equal in other respects.When two solutions are possible, prefer a simpler and more needs-oriented one rather than a more sophisticated and versatile one. Of course, it is quite possible (and not so rarely) that a simpler solution in practice will be more versatile.But, even if that doesn’t happen, it’s easier to change a simple solution when you have a good idea of what you need, than to adapt a “universal” solution, which has proved to be not universal enough.</p>
+<p>Despite the architect&rsquo;s good intentions, many solutions designed for universal application end up inadequate for anything specific.Software components must first be designed for a specific task, and they must cope well with that task.Effective universality is born of understanding, and understanding leads to simplification.</p>
+<p>Generalization sometimes allows to bring the problem to a more fundamental look; the created solution embodies the patterns of several well-known examples – clear, compact and well-founded.However, excessive generalization itself turns into a challenge that leads in the opposite direction and increases complexity instead of reducing it.The desire for abstract generalization often leads to solutions that are not tied to the realities of actual development.Such generalizations are based on assumptions that later turn out to be false, suggest options that later become unwanted, and create a ballast that is then difficult or impossible to remove.In the end, this only increases the secondary complexity that future developers and architects will face.</p>
+<p>Many architects value universality, but this attitude should not be unconditional.As a rule, people are unwilling to pay for universal fattening (or do not need it): they are usually faced with a very specific challenge, and they value a specific solution to that challenge.Versatility and flexibility can appear in the creation of concrete solutions, but if at the same time we get off the anchor too quickly and forget about the concrete, then we begin to drift into a sea of unlimited possibilities – a sea full of cunning settings, bulky (not just extensive) lists of parameters, infinite interfaces and irregular abstractions.In the pursuit of abstract flexibility, often (accidentally or deliberately) the valuable properties of alternative, simpler solutions are lost.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/business-runs-everything/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Business runs everything</span>
+    </a>
+    
+    
+    <a href="/posts/perhaps-your-main-problem-is-not-technology/" class="navigation-next">
+      <span class="navigation-tittle">Perhaps your main problem is not technology</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

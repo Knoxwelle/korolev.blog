@@ -1,0 +1,17 @@
++++
+title = ''
+date = 2024-08-11T00:00:00-07:00
+draft = false
+categories = []
+tags = ["time", "john", "work", "tests", "code", "system"]
+cover_image='/images/cover/knoxwelle__2017-06-18T220601.000Z.jpg'
++++
+Time is approaching evening.The command is friendly about the new functionality scheduled for the current iteration; it seems that even the air in the room is pulsing at a working pace.However, John is a little in a hurry: he is waiting for a date.However, he has time to rewrite his part of the code, compiles it, registers in the source code management system – and rushes away.A few minutes later, the "red light" is lit: the assembly of the app is disrupted.John didn't have time for automated tests, so he acted on the rush and run principle, causing the entire team to stall.
+
+The situation has changed – the working rhythm has failed. Now everyone knows that when you update the code from the version control system, the code will not work on their local computers, and because the team will have to integrate a lot of code to prepare for the upcoming demonstration, this becomes a serious obstacle.In fact, John has given the team a foothold – integration will only be possible after someone spends their time cancelling its changes.
+
+Such a situation occurs to the offender often. To do in a hurry and escape is a crime, because as a result, the normal course of work is disrupted.This is a sadly common way among developers to save some time for themselves, eventually wasting other people's time, which serves as a manifestation of direct disrespect for other people.And yet it's happening everywhere.Why?Usually because it takes too long to complete the system or conduct tests.
+
+This is where you, the architect, enter the game. You work hard to create a flexible architecture, train developers in flexible development techniques (such as development through testing) and ensure that a server is available for continuous integration. In addition, you need to create a culture whose rules prohibit wasting someone else's working time in vain.This requires, among other things, the creation of a high-quality automated testing infrastructure, as it is capable of changing the behaviour of developers.If tests are performed quickly, developers will perform them more often, which is in itself a good thing, but they will not leave their colleagues with non-working code.If the tests are dependent on external systems or require database references, modify them so that they can be executed locally with dots (or at least with a database stored in memory) and let the tests run slowly on the compilation server.Don't make people wait for the computer to do its job, otherwise they'll start looking for traps, which will result in problems for everyone else.
+
+Do not waste time to ensure quick operation of the system.This increases the efficiency of work, eliminates reasons for employees to avoid work, and ultimately contributes to speeding up the development process.Create surrogates and simulators, eliminate dependencies, divide the system into smaller modules – do anything so that your colleagues do not have even a shadow of temptation to follow the principle of “do in a hurry and escape”.

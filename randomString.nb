@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     39188,        760]
-NotebookOptionsPosition[     36732,        719]
-NotebookOutlinePosition[     37138,        735]
-CellTagsIndexPosition[     37095,        732]
+NotebookDataLength[     59115,       1069]
+NotebookOptionsPosition[     56651,       1028]
+NotebookOutlinePosition[     57057,       1044]
+CellTagsIndexPosition[     57014,       1041]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -34,7 +34,7 @@ Cell[BoxData[
    3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
    3.9292195131056185`*^9},
  CellLabel->
-  "In[133]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+  "In[190]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -61,9 +61,10 @@ tinydev\\\\content\\\\posts\\\\info 1.md\"\>",
    3.9304904609847393`*^9, 3.9304907485994406`*^9, 3.930491017728156*^9, 
    3.9304912944935045`*^9, 3.9304955341185102`*^9, 3.930495962384928*^9, 
    3.9304963789591675`*^9, 3.930496639826478*^9, 3.9304969043936825`*^9, 
-   3.9304974694812827`*^9, 3.9304982425350337`*^9},
+   3.9304974694812827`*^9, 3.9304982425350337`*^9, 3.930498999250693*^9, 
+   3.9305118356722383`*^9},
  CellLabel->
-  "Out[133]=",ExpressionUUID->"36dcf92b-7a08-481e-b804-dee20bc6a5f5"]
+  "Out[190]=",ExpressionUUID->"80b952e2-655b-43fe-9973-c17a40444c3d"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -93,7 +94,7 @@ Cell[BoxData[
    3.9299049748571444`*^9, 3.929904975436484*^9}, 3.929905034066107*^9, 
    3.930480683931385*^9, 3.93048080971883*^9},
  CellLabel->
-  "In[134]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+  "In[191]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
 
 Cell[CellGroupData[{
 
@@ -320,9 +321,9 @@ Cell[BoxData[
    3.9304920774054384`*^9}, {3.9304959104317317`*^9, 3.930495957950266*^9}, {
    3.9304962708862295`*^9, 3.930496306222895*^9}, {3.9304963438514338`*^9, 
    3.930496353405984*^9}, {3.9304966338475266`*^9, 3.9304966350732913`*^9}, 
-   3.9304981759074817`*^9, {3.930498969628899*^9, 
-   3.9304989922813253`*^9}},ExpressionUUID->"c8075ac6-894d-436e-b634-\
-55ef40986281"],
+   3.9304981759074817`*^9, {3.930498969628899*^9, 3.9304989922813253`*^9}},
+ CellLabel->
+  "In[192]:=",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
 
 Cell[CellGroupData[{
 
@@ -337,85 +338,64 @@ content\\\\posts\\\\info 1.md\"\>"}],
   1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
 posts\\info 1.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9304982425826283`*^9},
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.930511835741232*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"21d133d2-3fac-4904-8cfe-87ccfaf80de2"],
+In[192]:=",ExpressionUUID->"40fcb11f-0bb9-43ab-ad92-660abc88d10c"],
 
 Cell[BoxData[
- RowBox[{"\<\"Essential complexity is a problem inherent in any task.\"\>", 
-  " ", "\<\"oldString: \"\>"}]], "Print",
- CellChangeTimes->{3.9304982426079645`*^9},
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Infrastructures to address narrow, specific \
+challenges are of real benefit; excessively complex infrastructures create \
+more difficulties than they eliminate.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Infrastructures to address narrow, specific challenges are of real \
+benefit; excessively complex infrastructures create more difficulties than \
+they eliminate."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305118357777653`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"70bbe162-acc4-45c5-9a1f-6c984da08212"],
+In[192]:=",ExpressionUUID->"bab9bc04-b9f1-4886-b907-fdcf69838ae7"],
 
 Cell[BoxData[
- RowBox[{"\<\"Any task has an intrinsic difficulty with essential complexity.\
-\"\>", " ", "\<\"output: \"\>"}]], "Print",
- CellChangeTimes->{3.9304983027171583`*^9},
+ RowBox[{"\<\"output: \"\>", 
+  " ", "\<\"Real benefits come from infrastructures designed to handle \
+specific, limited problems; overly complicated infrastructures actually make \
+matters worse.\"\>"}]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305118959145393`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"2e444308-b9b7-4812-af5f-24169cce22a6"],
+In[192]:=",ExpressionUUID->"3b625a6f-b0c1-4d1c-a857-1c861caec766"],
 
 Cell[BoxData[
- RowBox[{"\<\"Any task has an intrinsic difficulty with essential complexity.\
-\"\>", " ", "\<\"paraphrased: \"\>"}]], "Print",
- CellChangeTimes->{3.930498302729517*^9},
+ InterpretationBox[
+  RowBox[{"\<\"paraphrased: \"\>", 
+   "\[InvisibleSpace]", "\<\"Real benefits come from infrastructures designed \
+to handle specific, limited problems; overly complicated infrastructures \
+actually make matters worse.\"\>"}],
+  SequenceForm[
+  "paraphrased: ", 
+   "Real benefits come from infrastructures designed to handle specific, \
+limited problems; overly complicated infrastructures actually make matters \
+worse."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305118959240117`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"ffa63696-4ea6-4426-9677-a52a9f125742"],
+In[192]:=",ExpressionUUID->"bf7128f6-f020-4cd3-bfee-9aa5671bfc0a"],
 
 Cell[BoxData[
- RowBox[{"\<\"Any task has an intrinsic difficulty with essential complexity. \
-For example, the task of coordinating air traffic at the national level is \
-complex in itself. The control system must monitor in real time the precise \
-location of each aircraft (including altitude), its speed, direction and \
-destination, in order to prevent collisions in the air and on the runways. It \
-is also necessary to manage flight schedules promptly to avoid congestion at \
-airports in constantly changing conditions \[Dash] when the weather changes \
-sharply the entire schedule has to be revised.  \\nOn the other hand, \
-accidental complexity is caused by challenges that we think need to be solved \
-in order to reduce the inherent complexity.An example of a minor complexity \
-is the outdated flight management system still in use.The system was designed \
-to solve the complex problem of managing the movement of thousands of \
-aircraft, but this solution creates its own problems.Modern flight control \
-systems are so complex that upgrading them is difficult, if not \
-impossible.Flight management is carried out around the world with more than \
-30 years of technology.  \\n\[OpenCurlyDoubleQuote]Secondary complexity \
-syndrome\[CloseCurlyDoubleQuote] is manifested in many infrastructures \
-(framework) and firm \
-\[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Infrastructures to \
-address narrow, specific challenges are of real benefit; excessively complex \
-infrastructures create more difficulties than they eliminate.\\nComplex \
-solutions attract developers just as flames attract moths, and often with the \
-same result.Solving complex tasks is interesting, and the work of a \
-programmer is essentially consisting of solving puzzles.Who hasn't \
-experienced the charm of solving an incredibly difficult task?However, in \
-large-scale projects, it is very difficult to avoid secondary complexity by \
-focusing on work with intrinsic complexity.  \\nHow do we that?Prefer \
-working-code infrastructures to ivory towers.Relate the amount of code \
-intended to solve the immediate task to the amount that simply serves the \
-user's interaction with the application.Be careful with the solutions \
-promoted by the developers: such solutions are not always bad at first, but \
-they often have a secondary complexity.Check the compliance of the solution \
-with the task.  \\nThe duty of the architect is to solve problems that lie in \
-the plane of intrinsic complexity, without introducing secondary \
-complexity.\"\>", " ", "\<\"newText: \"\>"}]], "Print",
- CellChangeTimes->{3.9304983027423487`*^9},
- CellLabel->
-  "During evaluation of \
-In[135]:=",ExpressionUUID->"6bfa2993-eafe-4607-b358-a5e383e654d8"],
-
-Cell[BoxData[
- RowBox[{"\<\"newContent: \"\>", 
-  " ", "\<\"+++\\ntitle = 'Cut down on inherent complexity and get rid of \
-incidental complexity'\\ndate = 2024-07-10T00:00:00-07:00\\ndraft = \
-false\\ncategories = []\\ntags = [\\\"Modern\\\", \\\"Flight\\\", \
-\\\"complexity\\\", \\\"complex\\\", \\\"solutions\\\", \\\"infrastructures\\\
-\", \\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2021-05-20T184010.\
-000Z.jpg'\\n+++\\nAny task has an intrinsic difficulty with essential \
-complexity. For example, the task of coordinating air traffic at the national \
+ InterpretationBox[
+  RowBox[{"\<\"newText: \"\>", 
+   "\[InvisibleSpace]", "\<\"Essential complexity is a problem inherent in \
+any task. For example, the task of coordinating air traffic at the national \
 level is complex in itself. The control system must monitor in real time the \
 precise location of each aircraft (including altitude), its speed, direction \
 and destination, in order to prevent collisions in the air and on the \
@@ -432,27 +412,153 @@ not impossible.Flight management is carried out around the world with more \
 than 30 years of technology.  \\n\[OpenCurlyDoubleQuote]Secondary complexity \
 syndrome\[CloseCurlyDoubleQuote] is manifested in many infrastructures \
 (framework) and firm \
-\[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Infrastructures to \
-address narrow, specific challenges are of real benefit; excessively complex \
-infrastructures create more difficulties than they eliminate.\\nComplex \
-solutions attract developers just as flames attract moths, and often with the \
-same result.Solving complex tasks is interesting, and the work of a \
+\[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Real benefits come \
+from infrastructures designed to handle specific, limited problems; overly \
+complicated infrastructures actually make matters worse.\\nComplex solutions \
+attract developers just as flames attract moths, and often with the same \
+result.Solving complex tasks is interesting, and the work of a programmer is \
+essentially consisting of solving puzzles.Who hasn't experienced the charm of \
+solving an incredibly difficult task?However, in large-scale projects, it is \
+very difficult to avoid secondary complexity by focusing on work with \
+intrinsic complexity.  \\nHow do we that?Prefer working-code infrastructures \
+to ivory towers.Relate the amount of code intended to solve the immediate \
+task to the amount that simply serves the user's interaction with the \
+application.Be careful with the solutions promoted by the developers: such \
+solutions are not always bad at first, but they often have a secondary \
+complexity.Check the compliance of the solution with the task.  \\nThe duty \
+of the architect is to solve problems that lie in the plane of intrinsic \
+complexity, without introducing secondary complexity.\"\>"}],
+  SequenceForm[
+  "newText: ", 
+   "Essential complexity is a problem inherent in any task. For example, the \
+task of coordinating air traffic at the national level is complex in itself. \
+The control system must monitor in real time the precise location of each \
+aircraft (including altitude), its speed, direction and destination, in order \
+to prevent collisions in the air and on the runways. It is also necessary to \
+manage flight schedules promptly to avoid congestion at airports in \
+constantly changing conditions \[Dash] when the weather changes sharply the \
+entire schedule has to be revised.  \nOn the other hand, accidental \
+complexity is caused by challenges that we think need to be solved in order \
+to reduce the inherent complexity.An example of a minor complexity is the \
+outdated flight management system still in use.The system was designed to \
+solve the complex problem of managing the movement of thousands of aircraft, \
+but this solution creates its own problems.Modern flight control systems are \
+so complex that upgrading them is difficult, if not impossible.Flight \
+management is carried out around the world with more than 30 years of \
+technology.  \n\[OpenCurlyDoubleQuote]Secondary complexity syndrome\
+\[CloseCurlyDoubleQuote] is manifested in many infrastructures (framework) \
+and firm \[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Real \
+benefits come from infrastructures designed to handle specific, limited \
+problems; overly complicated infrastructures actually make matters worse.\n\
+Complex solutions attract developers just as flames attract moths, and often \
+with the same result.Solving complex tasks is interesting, and the work of a \
 programmer is essentially consisting of solving puzzles.Who hasn't \
 experienced the charm of solving an incredibly difficult task?However, in \
 large-scale projects, it is very difficult to avoid secondary complexity by \
-focusing on work with intrinsic complexity.  \\nHow do we that?Prefer \
+focusing on work with intrinsic complexity.  \nHow do we that?Prefer \
 working-code infrastructures to ivory towers.Relate the amount of code \
 intended to solve the immediate task to the amount that simply serves the \
 user's interaction with the application.Be careful with the solutions \
 promoted by the developers: such solutions are not always bad at first, but \
 they often have a secondary complexity.Check the compliance of the solution \
-with the task.  \\nThe duty of the architect is to solve problems that lie in \
-the plane of intrinsic complexity, without introducing secondary \
-complexity.\"\>"}]], "Print",
- CellChangeTimes->{3.9304983027593594`*^9},
+with the task.  \nThe duty of the architect is to solve problems that lie in \
+the plane of intrinsic complexity, without introducing secondary complexity."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.930511895935407*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"f436ba73-2a21-4540-9c90-230742319189"],
+In[192]:=",ExpressionUUID->"44f16d25-7830-46cf-bb7c-91adb4b27362"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Cut down on inherent complexity \
+and get rid of incidental complexity'\\ndate = \
+2024-07-10T00:00:00-07:00\\ndraft = false\\ncategories = []\\ntags = \
+[\\\"modern\\\", \\\"flight\\\", \\\"complexity\\\", \\\"complex\\\", \
+\\\"solutions\\\", \\\"infrastructures\\\", \
+\\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2017-05-03T165821.000Z.\
+jpg'\\n+++\\nEssential complexity is a problem inherent in any task. For \
+example, the task of coordinating air traffic at the national level is \
+complex in itself. The control system must monitor in real time the precise \
+location of each aircraft (including altitude), its speed, direction and \
+destination, in order to prevent collisions in the air and on the runways. It \
+is also necessary to manage flight schedules promptly to avoid congestion at \
+airports in constantly changing conditions \[Dash] when the weather changes \
+sharply the entire schedule has to be revised.  \\nOn the other hand, \
+accidental complexity is caused by challenges that we think need to be solved \
+in order to reduce the inherent complexity.An example of a minor complexity \
+is the outdated flight management system still in use.The system was designed \
+to solve the complex problem of managing the movement of thousands of \
+aircraft, but this solution creates its own problems.Modern flight control \
+systems are so complex that upgrading them is difficult, if not \
+impossible.Flight management is carried out around the world with more than \
+30 years of technology.  \\n\[OpenCurlyDoubleQuote]Secondary complexity \
+syndrome\[CloseCurlyDoubleQuote] is manifested in many infrastructures \
+(framework) and firm \
+\[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Real benefits come \
+from infrastructures designed to handle specific, limited problems; overly \
+complicated infrastructures actually make matters worse.\\nComplex solutions \
+attract developers just as flames attract moths, and often with the same \
+result.Solving complex tasks is interesting, and the work of a programmer is \
+essentially consisting of solving puzzles.Who hasn't experienced the charm of \
+solving an incredibly difficult task?However, in large-scale projects, it is \
+very difficult to avoid secondary complexity by focusing on work with \
+intrinsic complexity.  \\nHow do we that?Prefer working-code infrastructures \
+to ivory towers.Relate the amount of code intended to solve the immediate \
+task to the amount that simply serves the user's interaction with the \
+application.Be careful with the solutions promoted by the developers: such \
+solutions are not always bad at first, but they often have a secondary \
+complexity.Check the compliance of the solution with the task.  \\nThe duty \
+of the architect is to solve problems that lie in the plane of intrinsic \
+complexity, without introducing secondary complexity.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'Cut down on inherent complexity and get rid of incidental \
+complexity'\ndate = 2024-07-10T00:00:00-07:00\ndraft = false\ncategories = []\
+\ntags = [\"modern\", \"flight\", \"complexity\", \"complex\", \"solutions\", \
+\"infrastructures\", \"task\"]\n\
+cover_image='/images/cover/knoxwelle__2017-05-03T165821.000Z.jpg'\n+++\n\
+Essential complexity is a problem inherent in any task. For example, the task \
+of coordinating air traffic at the national level is complex in itself. The \
+control system must monitor in real time the precise location of each \
+aircraft (including altitude), its speed, direction and destination, in order \
+to prevent collisions in the air and on the runways. It is also necessary to \
+manage flight schedules promptly to avoid congestion at airports in \
+constantly changing conditions \[Dash] when the weather changes sharply the \
+entire schedule has to be revised.  \nOn the other hand, accidental \
+complexity is caused by challenges that we think need to be solved in order \
+to reduce the inherent complexity.An example of a minor complexity is the \
+outdated flight management system still in use.The system was designed to \
+solve the complex problem of managing the movement of thousands of aircraft, \
+but this solution creates its own problems.Modern flight control systems are \
+so complex that upgrading them is difficult, if not impossible.Flight \
+management is carried out around the world with more than 30 years of \
+technology.  \n\[OpenCurlyDoubleQuote]Secondary complexity syndrome\
+\[CloseCurlyDoubleQuote] is manifested in many infrastructures (framework) \
+and firm \[OpenCurlyDoubleQuote]solutions\[CloseCurlyDoubleQuote].Real \
+benefits come from infrastructures designed to handle specific, limited \
+problems; overly complicated infrastructures actually make matters worse.\n\
+Complex solutions attract developers just as flames attract moths, and often \
+with the same result.Solving complex tasks is interesting, and the work of a \
+programmer is essentially consisting of solving puzzles.Who hasn't \
+experienced the charm of solving an incredibly difficult task?However, in \
+large-scale projects, it is very difficult to avoid secondary complexity by \
+focusing on work with intrinsic complexity.  \nHow do we that?Prefer \
+working-code infrastructures to ivory towers.Relate the amount of code \
+intended to solve the immediate task to the amount that simply serves the \
+user's interaction with the application.Be careful with the solutions \
+promoted by the developers: such solutions are not always bad at first, but \
+they often have a secondary complexity.Check the compliance of the solution \
+with the task.  \nThe duty of the architect is to solve problems that lie in \
+the plane of intrinsic complexity, without introducing secondary complexity."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305118959504194`*^9},
+ CellLabel->
+  "During evaluation of \
+In[192]:=",ExpressionUUID->"3fa39c89-84ac-4c61-8d3a-5875d7cf978d"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -465,49 +571,62 @@ content\\\\posts\\\\info 2.md\"\>"}],
   2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
 posts\\info 2.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.930498302781063*^9},
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305118959699535`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"467da3d0-db04-48b5-a1c3-cee9a025f262"],
+In[192]:=",ExpressionUUID->"3bbc4caa-212d-4fde-94e8-c04a463e5886"],
 
 Cell[BoxData[
- RowBox[{"\<\"If you are angry, irritated, upset and out of balance in \
-general, your interlocutor is likely to interpret your non-verbal \
-manifestations as a sign of attack.\"\>", 
-  " ", "\<\"oldString: \"\>"}]], "Print",
- CellChangeTimes->{3.930498302793092*^9},
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Or because you preferred the Windows platform, \
+even though you should have chosen Linux?\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Or because you preferred the Windows platform, even though you should \
+have chosen Linux?"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.930511895982151*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"d8ddcf35-5c85-4e65-ac4f-d9356b64b08e"],
+In[192]:=",ExpressionUUID->"4228bb29-6365-46c8-bb44-942859065421"],
 
 Cell[BoxData[
- RowBox[{"\<\"output: \"\>", 
-  " ", "\<\"Your interlocutor is likely to view your nonverbal cues as an \
-assault if you are generally disturbed, furious, agitated, or \
-unbalanced.\"\>"}]], "Print",
- CellChangeTimes->{3.9304983630169907`*^9},
+ RowBox[{"\<\"or because, although you ought to have selected Linux, you \
+liked the Windows platform better?\"\>", " ", "\<\"output: \"\>"}]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305119561193237`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"d3c14c39-4dfd-422b-ae43-0fec5a709f09"],
+In[192]:=",ExpressionUUID->"1470a136-766f-4264-b4e3-21e05447a80c"],
 
 Cell[BoxData[
- RowBox[{"\<\"paraphrased: \"\>", 
-  " ", "\<\"Your interlocutor is likely to view your nonverbal cues as an \
-assault if you are generally disturbed, furious, agitated, or \
-unbalanced.\"\>"}]], "Print",
- CellChangeTimes->{3.930498363028447*^9},
+ InterpretationBox[
+  RowBox[{"\<\"paraphrased: \"\>", 
+   "\[InvisibleSpace]", "\<\"or because, although you ought to have selected \
+Linux, you liked the Windows platform better?\"\>"}],
+  SequenceForm[
+  "paraphrased: ", 
+   "or because, although you ought to have selected Linux, you liked the \
+Windows platform better?"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305119561423883`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"91889b33-e5f7-4cd4-b1c0-6dbab0bf8162"],
+In[192]:=",ExpressionUUID->"f9cc5dae-92a5-4524-aa83-21a05c723931"],
 
 Cell[BoxData[
- RowBox[{"\<\"newText: \"\>", 
-  " ", "\<\"Right now somewhere is suffering the disaster of another project \
-of wage calculation system... And probably not alone.  \\nWhy did that \
-happen? Because the developers chose Ruby instead of Java or Python instead \
-of Smalltalk? Because you decided to use Postgres instead of Oracle? Or \
-because you preferred the Windows platform, even though you should have \
-chosen Linux? As you know, all failures of projects are usually blamed on \
+ InterpretationBox[
+  RowBox[{"\<\"newText: \"\>", 
+   "\[InvisibleSpace]", "\<\"Right now somewhere is suffering the disaster of \
+another project of wage calculation system... And probably not alone.  \\nWhy \
+did that happen? Because the developers chose Ruby instead of Java or Python \
+instead of Smalltalk? Because you decided to use Postgres instead of Oracle? \
+or because, although you ought to have selected Linux, you liked the Windows \
+platform better? As you know, all failures of projects are usually blamed on \
 technology. But was your task really so complex that the Java capabilities \
 were not enough for it?  \\nProjects are usually created by people, and it is \
 these people that determine the success or failure of the whole project.And \
@@ -527,38 +646,80 @@ from positive assumptions about people and view communication as an \
 opportunity to ask questions that interest you; so you will definitely be \
 able to get more useful information, and your interlocutors will not take a \
 defensive position.  \\n\[Bullet] Start the conversation only in a mood \
-suitable for communication.  \\nYour interlocutor is likely to view your \
-nonverbal cues as an assault if you are generally disturbed, furious, \
-agitated, or unbalanced.  \\n\[Bullet] Use situations such as an opportunity \
-to mutual benefit.  \\nDon't tell the developer to be quiet at meetings \
-because he doesn't let anyone talk; ask him if he can help you get involved \
-in other people's discussions.Explain that an introvert needs a longer break \
-to start a conversation, and if he holds a five-second break before he \
-pronounces the first words, it will help you a lot.  \\nIf you are focused on \
-a common goal, view the \[OpenCurlyDoubleQuote]problems\
+suitable for communication.  \\nIf you are angry, irritated, upset and out of \
+balance in general, your interlocutor is likely to interpret your non-verbal \
+manifestations as a sign of attack.  \\n\[Bullet] Use situations such as an \
+opportunity to mutual benefit.  \\nDon't tell the developer to be quiet at \
+meetings because he doesn't let anyone talk; ask him if he can help you get \
+involved in other people's discussions.Explain that an introvert needs a \
+longer break to start a conversation, and if he holds a five-second break \
+before he pronounces the first words, it will help you a lot.  \\nIf you are \
+focused on a common goal, view the \[OpenCurlyDoubleQuote]problems\
 \[CloseCurlyDoubleQuote] of your interlocutors as an opportunity to learn \
 something, manage your emotions, you will not only improve your efficiency, \
-but will also learn something new every time.\"\>"}]], "Print",
- CellChangeTimes->{3.9304983630392*^9},
+but will also learn something new every time.\"\>"}],
+  SequenceForm[
+  "newText: ", 
+   "Right now somewhere is suffering the disaster of another project of wage \
+calculation system... And probably not alone.  \nWhy did that happen? Because \
+the developers chose Ruby instead of Java or Python instead of Smalltalk? \
+Because you decided to use Postgres instead of Oracle? or because, although \
+you ought to have selected Linux, you liked the Windows platform better? As \
+you know, all failures of projects are usually blamed on technology. But was \
+your task really so complex that the Java capabilities were not enough for \
+it?  \nProjects are usually created by people, and it is these people that \
+determine the success or failure of the whole project.And once that's the \
+case, we need to think a little bit about how to help them succeed.  \nPer \
+there is someone in the team who, from your point of view, is not doing his \
+job and hindering the success of the project. The technology used to solve \
+such problems is very old and time-tested; in fact, it is the most important \
+technological achievement in human history. What you need is communication.  \
+\nAt the same time, simply possessing the techniques of communication as a \
+technology is not enough. Respect for people, the ability to give them credit \
+of trust are essential skills that turn a smart leader into an effective.  \n\
+Of course, the matter is not exhausted, but a few simple tips will \
+significantly increase the effectiveness of your communication with \
+subordinates:  \n\[Bullet] Consider the discussion of problems as a \
+constructive dialogue rather than a conflict situation.\nStart from positive \
+assumptions about people and view communication as an opportunity to ask \
+questions that interest you; so you will definitely be able to get more \
+useful information, and your interlocutors will not take a defensive \
+position.  \n\[Bullet] Start the conversation only in a mood suitable for \
+communication.  \nIf you are angry, irritated, upset and out of balance in \
+general, your interlocutor is likely to interpret your non-verbal \
+manifestations as a sign of attack.  \n\[Bullet] Use situations such as an \
+opportunity to mutual benefit.  \nDon't tell the developer to be quiet at \
+meetings because he doesn't let anyone talk; ask him if he can help you get \
+involved in other people's discussions.Explain that an introvert needs a \
+longer break to start a conversation, and if he holds a five-second break \
+before he pronounces the first words, it will help you a lot.  \nIf you are \
+focused on a common goal, view the \[OpenCurlyDoubleQuote]problems\
+\[CloseCurlyDoubleQuote] of your interlocutors as an opportunity to learn \
+something, manage your emotions, you will not only improve your efficiency, \
+but will also learn something new every time."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.930511956159686*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"c89c4941-3931-4027-b185-a75777099ac1"],
+In[192]:=",ExpressionUUID->"2d48ef35-3975-4096-80c4-d4eae0821f14"],
 
 Cell[BoxData[
- RowBox[{"\<\"newContent: \"\>", 
-  " ", "\<\"+++\\ntitle = 'Reduce the inherently complex eliminate any \
-secondary intricacy'\\ndate = 2024-07-13T00:00:00-07:00\\ndraft = \
-false\\ncategories = []\\ntags = [\\\"Ruby\\\", \\\"Java\\\", \\\"Python\\\", \
-\\\"Smalltalk\\\", \\\"Postgres\\\", \\\"Oracle\\\", \\\"Windows\\\", \
-\\\"Linux\\\", \\\"Start\\\", \\\"communication\\\", \\\"people\\\", \
-\\\"opportunity\\\", \\\"start\\\", \
-\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2017-06-05T100950.\
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Reduce the inherently complex \
+eliminate any secondary intricacy'\\ndate = 2024-07-13T00:00:00-07:00\\ndraft \
+= false\\ncategories = []\\ntags = [\\\"ruby\\\", \\\"java\\\", \
+\\\"python\\\", \\\"smalltalk\\\", \\\"postgres\\\", \\\"oracle\\\", \
+\\\"windows\\\", \\\"linux\\\", \\\"start\\\", \\\"communication\\\", \
+\\\"people\\\", \\\"opportunity\\\", \
+\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2019-09-19T074242.\
 000Z.jpg'\\n+++\\nRight now somewhere is suffering the disaster of another \
 project of wage calculation system... And probably not alone.  \\nWhy did \
 that happen? Because the developers chose Ruby instead of Java or Python \
 instead of Smalltalk? Because you decided to use Postgres instead of Oracle? \
-Or because you preferred the Windows platform, even though you should have \
-chosen Linux? As you know, all failures of projects are usually blamed on \
+or because, although you ought to have selected Linux, you liked the Windows \
+platform better? As you know, all failures of projects are usually blamed on \
 technology. But was your task really so complex that the Java capabilities \
 were not enough for it?  \\nProjects are usually created by people, and it is \
 these people that determine the success or failure of the whole project.And \
@@ -578,22 +739,69 @@ from positive assumptions about people and view communication as an \
 opportunity to ask questions that interest you; so you will definitely be \
 able to get more useful information, and your interlocutors will not take a \
 defensive position.  \\n\[Bullet] Start the conversation only in a mood \
-suitable for communication.  \\nYour interlocutor is likely to view your \
-nonverbal cues as an assault if you are generally disturbed, furious, \
-agitated, or unbalanced.  \\n\[Bullet] Use situations such as an opportunity \
-to mutual benefit.  \\nDon't tell the developer to be quiet at meetings \
-because he doesn't let anyone talk; ask him if he can help you get involved \
-in other people's discussions.Explain that an introvert needs a longer break \
-to start a conversation, and if he holds a five-second break before he \
-pronounces the first words, it will help you a lot.  \\nIf you are focused on \
-a common goal, view the \[OpenCurlyDoubleQuote]problems\
+suitable for communication.  \\nIf you are angry, irritated, upset and out of \
+balance in general, your interlocutor is likely to interpret your non-verbal \
+manifestations as a sign of attack.  \\n\[Bullet] Use situations such as an \
+opportunity to mutual benefit.  \\nDon't tell the developer to be quiet at \
+meetings because he doesn't let anyone talk; ask him if he can help you get \
+involved in other people's discussions.Explain that an introvert needs a \
+longer break to start a conversation, and if he holds a five-second break \
+before he pronounces the first words, it will help you a lot.  \\nIf you are \
+focused on a common goal, view the \[OpenCurlyDoubleQuote]problems\
 \[CloseCurlyDoubleQuote] of your interlocutors as an opportunity to learn \
 something, manage your emotions, you will not only improve your efficiency, \
-but will also learn something new every time.\"\>"}]], "Print",
- CellChangeTimes->{3.93049836305639*^9},
+but will also learn something new every time.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'Reduce the inherently complex eliminate any secondary \
+intricacy'\ndate = 2024-07-13T00:00:00-07:00\ndraft = false\ncategories = []\n\
+tags = [\"ruby\", \"java\", \"python\", \"smalltalk\", \"postgres\", \"oracle\
+\", \"windows\", \"linux\", \"start\", \"communication\", \"people\", \
+\"opportunity\", \"problems\"]\n\
+cover_image='/images/cover/knoxwelle__2019-09-19T074242.000Z.jpg'\n+++\nRight \
+now somewhere is suffering the disaster of another project of wage \
+calculation system... And probably not alone.  \nWhy did that happen? Because \
+the developers chose Ruby instead of Java or Python instead of Smalltalk? \
+Because you decided to use Postgres instead of Oracle? or because, although \
+you ought to have selected Linux, you liked the Windows platform better? As \
+you know, all failures of projects are usually blamed on technology. But was \
+your task really so complex that the Java capabilities were not enough for \
+it?  \nProjects are usually created by people, and it is these people that \
+determine the success or failure of the whole project.And once that's the \
+case, we need to think a little bit about how to help them succeed.  \nPer \
+there is someone in the team who, from your point of view, is not doing his \
+job and hindering the success of the project. The technology used to solve \
+such problems is very old and time-tested; in fact, it is the most important \
+technological achievement in human history. What you need is communication.  \
+\nAt the same time, simply possessing the techniques of communication as a \
+technology is not enough. Respect for people, the ability to give them credit \
+of trust are essential skills that turn a smart leader into an effective.  \n\
+Of course, the matter is not exhausted, but a few simple tips will \
+significantly increase the effectiveness of your communication with \
+subordinates:  \n\[Bullet] Consider the discussion of problems as a \
+constructive dialogue rather than a conflict situation.\nStart from positive \
+assumptions about people and view communication as an opportunity to ask \
+questions that interest you; so you will definitely be able to get more \
+useful information, and your interlocutors will not take a defensive \
+position.  \n\[Bullet] Start the conversation only in a mood suitable for \
+communication.  \nIf you are angry, irritated, upset and out of balance in \
+general, your interlocutor is likely to interpret your non-verbal \
+manifestations as a sign of attack.  \n\[Bullet] Use situations such as an \
+opportunity to mutual benefit.  \nDon't tell the developer to be quiet at \
+meetings because he doesn't let anyone talk; ask him if he can help you get \
+involved in other people's discussions.Explain that an introvert needs a \
+longer break to start a conversation, and if he holds a five-second break \
+before he pronounces the first words, it will help you a lot.  \nIf you are \
+focused on a common goal, view the \[OpenCurlyDoubleQuote]problems\
+\[CloseCurlyDoubleQuote] of your interlocutors as an opportunity to learn \
+something, manage your emotions, you will not only improve your efficiency, \
+but will also learn something new every time."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305119561840997`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"31b94117-2977-483a-817c-f07a2c6b8e03"],
+In[192]:=",ExpressionUUID->"6914f5a1-209e-4f85-8b32-48e30558cdb8"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -606,56 +814,84 @@ content\\\\posts\\\\info.md\"\>"}],
   3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
 posts\\info.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.930498363065398*^9},
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305119562091026`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"888577f4-0f45-42f4-b1a9-8ae98b25dbf6"],
+In[192]:=",ExpressionUUID->"af52a654-3aa7-4aeb-abd1-4460dca1e1d4"],
 
 Cell[BoxData[
- RowBox[{"\<\"Always put a customer\[CloseCurlyQuote]s long-term needs above \
-your own short-term requirements \[Dash] and you will not be mistaken.\"\>", 
-  " ", "\<\"oldString: \"\>"}]], "Print",
- CellChangeTimes->{3.9304983630714335`*^9},
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Remember that you as an architect are entrusted \
+with the well-being of your organization; accordingly, you are expected to \
+act honestly and competently in the interests of the customer, avoiding any \
+conflicts of interest andining full loyalty to your organization.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Remember that you as an architect are entrusted with the well-being of \
+your organization; accordingly, you are expected to act honestly and \
+competently in the interests of the customer, avoiding any conflicts of \
+interest andining full loyalty to your organization."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.930511956279744*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"5e9af3e2-6651-4cde-8e97-871e8bff857f"],
+In[192]:=",ExpressionUUID->"0b5b7614-da9f-4cbd-8b78-0c9742c723c4"],
 
 Cell[BoxData[
- RowBox[{"\<\"Never prioritize a customer's long-term interests over your own \
-immediate desires, and you'll never make a mistake.\"\>", 
-  " ", "\<\"output: \"\>"}]], "Print",
- CellChangeTimes->{3.9304984231895666`*^9},
+ RowBox[{"\<\"As architects, you should always keep in mind that your \
+company's success is entrusted to you. As such, you should behave with \
+integrity and competence in the best interests of your clients, abstaining \
+from conflicts of interest, and showing complete dedication to your \
+company.\"\>", " ", "\<\"output: \"\>"}]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305120164770947`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"cfe00a7b-931c-43d4-8718-8762d136cd61"],
+In[192]:=",ExpressionUUID->"a6b93f54-3cc7-48b8-8df8-405e6b189353"],
 
 Cell[BoxData[
- RowBox[{"\<\"Never prioritize a customer's long-term interests over your own \
-immediate desires, and you'll never make a mistake.\"\>", 
-  " ", "\<\"paraphrased: \"\>"}]], "Print",
- CellChangeTimes->{3.930498423203212*^9},
+ InterpretationBox[
+  RowBox[{"\<\"paraphrased: \"\>", 
+   "\[InvisibleSpace]", "\<\"As architects, you should always keep in mind \
+that your company's success is entrusted to you. As such, you should behave \
+with integrity and competence in the best interests of your clients, \
+abstaining from conflicts of interest, and showing complete dedication to \
+your company.\"\>"}],
+  SequenceForm[
+  "paraphrased: ", 
+   "As architects, you should always keep in mind that your company's success \
+is entrusted to you. As such, you should behave with integrity and competence \
+in the best interests of your clients, abstaining from conflicts of interest, \
+and showing complete dedication to your company."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305120165482388`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"5463cc9f-d1b4-49af-af8f-93a15da56d78"],
+In[192]:=",ExpressionUUID->"7f19cf74-cecd-4742-9fb6-55993bde0029"],
 
 Cell[BoxData[
- RowBox[{"\<\"newText: \"\>", 
-  " ", "\<\"We, technicians, choose to use certain technologies, \
-methodologies and approaches to solve problems not because they provide the \
-optimal solution, but only because in the depths of our heart we want to \
-mention them in our summary. Such a choice very rarely leads to a positive \
-result.  \\nThe most powerful catalyst for your career will be grateful \
-customers who are in a long queue to recommend you to others \[Dash] because \
-you have worked so well for them. The kindness of the customers will serve \
-you better than any new-fashioned object of the new language and any newly \
-invented paradigm. While it is very important (and even vital) for an \
+ InterpretationBox[
+  RowBox[{"\<\"newText: \"\>", 
+   "\[InvisibleSpace]", "\<\"We, technicians, choose to use certain \
+technologies, methodologies and approaches to solve problems not because they \
+provide the optimal solution, but only because in the depths of our heart we \
+want to mention them in our summary. Such a choice very rarely leads to a \
+positive result.  \\nThe most powerful catalyst for your career will be \
+grateful customers who are in a long queue to recommend you to others \[Dash] \
+because you have worked so well for them. The kindness of the customers will \
+serve you better than any new-fashioned object of the new language and any \
+newly invented paradigm. While it is very important (and even vital) for an \
 architect to be up to date with the latest trends and technologies, never try \
-to expand your horizons at the expense of the client. Remember that you as an \
-architect are entrusted with the well-being of your organization; \
-accordingly, you are expected to act honestly and competently in the \
-interests of the customer, avoiding any conflicts of interest andining full \
-loyalty to your organization. If the proposed project is not relevant or \
-promising enough for your current career goals, find another project.  \
+to expand your horizons at the expense of the client. As architects, you \
+should always keep in mind that your company's success is entrusted to you. \
+As such, you should behave with integrity and competence in the best \
+interests of your clients, abstaining from conflicts of interest, and showing \
+complete dedication to your company. If the proposed project is not relevant \
+or promising enough for your current career goals, find another project.  \
 \\nWhat if it's not possible, and you're still forced to participate in such \
 a project? It will be better for you and everyone else if you choose \
 technology for the benefit of the customer rather than your resume. Sometimes \
@@ -667,20 +903,55 @@ already familiar technology in depth or engage in the development of novelty \
 in your spare time. Or maybe you even have free time to attend the painting \
 courses you have always dreamed of .Your loved ones will appreciate it too \
 \[Dash] they will notice the difference in your condition when you come home \
-after work.  \\nNever prioritize a customer's long-term interests over your \
-own immediate desires, and you'll never make a mistake.\"\>"}]], "Print",
- CellChangeTimes->{3.9304984232145367`*^9},
+after work.  \\nAlways put a customer\[CloseCurlyQuote]s long-term needs \
+above your own short-term requirements \[Dash] and you will not be \
+mistaken.\"\>"}],
+  SequenceForm[
+  "newText: ", 
+   "We, technicians, choose to use certain technologies, methodologies and \
+approaches to solve problems not because they provide the optimal solution, \
+but only because in the depths of our heart we want to mention them in our \
+summary. Such a choice very rarely leads to a positive result.  \nThe most \
+powerful catalyst for your career will be grateful customers who are in a \
+long queue to recommend you to others \[Dash] because you have worked so well \
+for them. The kindness of the customers will serve you better than any \
+new-fashioned object of the new language and any newly invented paradigm. \
+While it is very important (and even vital) for an architect to be up to date \
+with the latest trends and technologies, never try to expand your horizons at \
+the expense of the client. As architects, you should always keep in mind that \
+your company's success is entrusted to you. As such, you should behave with \
+integrity and competence in the best interests of your clients, abstaining \
+from conflicts of interest, and showing complete dedication to your company. \
+If the proposed project is not relevant or promising enough for your current \
+career goals, find another project.  \nWhat if it's not possible, and you're \
+still forced to participate in such a project? It will be better for you and \
+everyone else if you choose technology for the benefit of the customer rather \
+than your resume. Sometimes it is difficult to resist the temptation to apply \
+a new fashionable solution, even if it does not fit the current situation.  \n\
+With the right solution you get a satisfied team and satisfied client, and \
+the overall stress of work on the project is noticeably decreases.Often this \
+allows you to study a already familiar technology in depth or engage in the \
+development of novelty in your spare time. Or maybe you even have free time \
+to attend the painting courses you have always dreamed of .Your loved ones \
+will appreciate it too \[Dash] they will notice the difference in your \
+condition when you come home after work.  \nAlways put a customer\
+\[CloseCurlyQuote]s long-term needs above your own short-term requirements \
+\[Dash] and you will not be mistaken."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.930512016568178*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"44d33b85-16fc-4272-a3dd-76776696da3a"],
+In[192]:=",ExpressionUUID->"4fbe8d2c-5e90-4d90-89e0-a2c74f3aa623"],
 
 Cell[BoxData[
- RowBox[{"\<\"newContent: \"\>", 
-  " ", "\<\"+++\\ntitle = 'Never put the demands of the client ahead of your \
-resume.'\\ndate = 2024-07-15T00:00:00-07:00\\ndraft = false\\ncategories = []\
-\\ntags = [\\\"project\\\", \\\"solution\\\", \\\"work\\\", \
-\\\"technology\\\", \
-\\\"customer\\\"]\\ncover_image='/images/cover/knoxwelle__2017-11-27T052131.\
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Never put the demands of the \
+client ahead of your resume.'\\ndate = 2024-07-15T00:00:00-07:00\\ndraft = \
+false\\ncategories = []\\ntags = [\\\"project\\\", \\\"solution\\\", \\\"time\
+\\\", \\\"work\\\", \
+\\\"technology\\\"]\\ncover_image='/images/cover/knoxwelle__2017-05-03T170121.\
 000Z.jpg'\\n+++\\nWe, technicians, choose to use certain technologies, \
 methodologies and approaches to solve problems not because they provide the \
 optimal solution, but only because in the depths of our heart we want to \
@@ -691,12 +962,12 @@ you have worked so well for them. The kindness of the customers will serve \
 you better than any new-fashioned object of the new language and any newly \
 invented paradigm. While it is very important (and even vital) for an \
 architect to be up to date with the latest trends and technologies, never try \
-to expand your horizons at the expense of the client. Remember that you as an \
-architect are entrusted with the well-being of your organization; \
-accordingly, you are expected to act honestly and competently in the \
-interests of the customer, avoiding any conflicts of interest andining full \
-loyalty to your organization. If the proposed project is not relevant or \
-promising enough for your current career goals, find another project.  \
+to expand your horizons at the expense of the client. As architects, you \
+should always keep in mind that your company's success is entrusted to you. \
+As such, you should behave with integrity and competence in the best \
+interests of your clients, abstaining from conflicts of interest, and showing \
+complete dedication to your company. If the proposed project is not relevant \
+or promising enough for your current career goals, find another project.  \
 \\nWhat if it's not possible, and you're still forced to participate in such \
 a project? It will be better for you and everyone else if you choose \
 technology for the benefit of the customer rather than your resume. Sometimes \
@@ -708,12 +979,50 @@ already familiar technology in depth or engage in the development of novelty \
 in your spare time. Or maybe you even have free time to attend the painting \
 courses you have always dreamed of .Your loved ones will appreciate it too \
 \[Dash] they will notice the difference in your condition when you come home \
-after work.  \\nNever prioritize a customer's long-term interests over your \
-own immediate desires, and you'll never make a mistake.\"\>"}]], "Print",
- CellChangeTimes->{3.9304984232325315`*^9},
+after work.  \\nAlways put a customer\[CloseCurlyQuote]s long-term needs \
+above your own short-term requirements \[Dash] and you will not be \
+mistaken.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'Never put the demands of the client ahead of your resume.'\n\
+date = 2024-07-15T00:00:00-07:00\ndraft = false\ncategories = []\ntags = \
+[\"project\", \"solution\", \"time\", \"work\", \"technology\"]\n\
+cover_image='/images/cover/knoxwelle__2017-05-03T170121.000Z.jpg'\n+++\nWe, \
+technicians, choose to use certain technologies, methodologies and approaches \
+to solve problems not because they provide the optimal solution, but only \
+because in the depths of our heart we want to mention them in our summary. \
+Such a choice very rarely leads to a positive result.  \nThe most powerful \
+catalyst for your career will be grateful customers who are in a long queue \
+to recommend you to others \[Dash] because you have worked so well for them. \
+The kindness of the customers will serve you better than any new-fashioned \
+object of the new language and any newly invented paradigm. While it is very \
+important (and even vital) for an architect to be up to date with the latest \
+trends and technologies, never try to expand your horizons at the expense of \
+the client. As architects, you should always keep in mind that your company's \
+success is entrusted to you. As such, you should behave with integrity and \
+competence in the best interests of your clients, abstaining from conflicts \
+of interest, and showing complete dedication to your company. If the proposed \
+project is not relevant or promising enough for your current career goals, \
+find another project.  \nWhat if it's not possible, and you're still forced \
+to participate in such a project? It will be better for you and everyone else \
+if you choose technology for the benefit of the customer rather than your \
+resume. Sometimes it is difficult to resist the temptation to apply a new \
+fashionable solution, even if it does not fit the current situation.  \nWith \
+the right solution you get a satisfied team and satisfied client, and the \
+overall stress of work on the project is noticeably decreases.Often this \
+allows you to study a already familiar technology in depth or engage in the \
+development of novelty in your spare time. Or maybe you even have free time \
+to attend the painting courses you have always dreamed of .Your loved ones \
+will appreciate it too \[Dash] they will notice the difference in your \
+condition when you come home after work.  \nAlways put a customer\
+\[CloseCurlyQuote]s long-term needs above your own short-term requirements \
+\[Dash] and you will not be mistaken."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9304982425826283`*^9, 3.9304989999487896`*^9, 
+  3.9305120165792027`*^9},
  CellLabel->
   "During evaluation of \
-In[135]:=",ExpressionUUID->"22a8e169-f252-4e8d-ad63-a2b8a8cc5e2a"]
+In[192]:=",ExpressionUUID->"6b8db8e8-3f18-4e9f-941c-788aca20e31c"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -736,30 +1045,30 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
-Cell[1218, 38, 1780, 27, 53, "Output",ExpressionUUID->"36dcf92b-7a08-481e-b804-dee20bc6a5f5"]
+Cell[1218, 38, 1830, 28, 53, "Output",ExpressionUUID->"80b952e2-655b-43fe-9973-c17a40444c3d"]
 }, Open  ]],
-Cell[3013, 68, 1167, 27, 21, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+Cell[3063, 69, 1167, 27, 21, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
 Cell[CellGroupData[{
-Cell[4205, 99, 10406, 225, 1130, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+Cell[4255, 100, 10428, 225, 1130, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
 Cell[CellGroupData[{
-Cell[14636, 328, 519, 14, 18, "Print",ExpressionUUID->"21d133d2-3fac-4904-8cfe-87ccfaf80de2"],
-Cell[15158, 344, 282, 6, 18, "Print",ExpressionUUID->"70bbe162-acc4-45c5-9a1f-6c984da08212"],
-Cell[15443, 352, 286, 6, 18, "Print",ExpressionUUID->"2e444308-b9b7-4812-af5f-24169cce22a6"],
-Cell[15732, 360, 289, 6, 18, "Print",ExpressionUUID->"ffa63696-4ea6-4426-9677-a52a9f125742"],
-Cell[16024, 368, 2739, 39, 307, "Print",ExpressionUUID->"6bfa2993-eafe-4607-b358-a5e383e654d8"],
-Cell[18766, 409, 3122, 45, 412, "Print",ExpressionUUID->"f436ba73-2a21-4540-9c90-230742319189"],
-Cell[21891, 456, 517, 14, 18, "Print",ExpressionUUID->"467da3d0-db04-48b5-a1c3-cee9a025f262"],
-Cell[22411, 472, 387, 8, 30, "Print",ExpressionUUID->"d8ddcf35-5c85-4e65-ac4f-d9356b64b08e"],
-Cell[22801, 482, 363, 8, 30, "Print",ExpressionUUID->"d3c14c39-4dfd-422b-ae43-0fec5a709f09"],
-Cell[23167, 492, 366, 8, 30, "Print",ExpressionUUID->"91889b33-e5f7-4cd4-b1c0-6dbab0bf8162"],
-Cell[23536, 502, 2983, 42, 373, "Print",ExpressionUUID->"c89c4941-3931-4027-b185-a75777099ac1"],
-Cell[26522, 546, 3473, 49, 491, "Print",ExpressionUUID->"31b94117-2977-483a-817c-f07a2c6b8e03"],
-Cell[29998, 597, 513, 14, 18, "Print",ExpressionUUID->"888577f4-0f45-42f4-b1a9-8ae98b25dbf6"],
-Cell[30514, 613, 362, 7, 30, "Print",ExpressionUUID->"5e9af3e2-6651-4cde-8e97-871e8bff857f"],
-Cell[30879, 622, 341, 7, 30, "Print",ExpressionUUID->"cfe00a7b-931c-43d4-8718-8762d136cd61"],
-Cell[31223, 631, 344, 7, 30, "Print",ExpressionUUID->"5463cc9f-d1b4-49af-af8f-93a15da56d78"],
-Cell[31570, 640, 2401, 34, 294, "Print",ExpressionUUID->"44d33b85-16fc-4272-a3dd-76776696da3a"],
-Cell[33974, 676, 2730, 39, 386, "Print",ExpressionUUID->"22a8e169-f252-4e8d-ad63-a2b8a8cc5e2a"]
+Cell[14708, 329, 568, 15, 18, "Print",ExpressionUUID->"40fcb11f-0bb9-43ab-ad92-660abc88d10c"],
+Cell[15279, 346, 700, 16, 30, "Print",ExpressionUUID->"bab9bc04-b9f1-4886-b907-fdcf69838ae7"],
+Cell[15982, 364, 429, 9, 30, "Print",ExpressionUUID->"3b625a6f-b0c1-4d1c-a857-1c861caec766"],
+Cell[16414, 375, 690, 16, 30, "Print",ExpressionUUID->"bf7128f6-f020-4cd3-bfee-9aa5671bfc0a"],
+Cell[17107, 393, 5365, 77, 320, "Print",ExpressionUUID->"44f16d25-7830-46cf-bb7c-91adb4b27362"],
+Cell[22475, 472, 6093, 88, 412, "Print",ExpressionUUID->"3fa39c89-84ac-4c61-8d3a-5875d7cf978d"],
+Cell[28571, 562, 570, 15, 18, "Print",ExpressionUUID->"3bbc4caa-212d-4fde-94e8-c04a463e5886"],
+Cell[29144, 579, 556, 14, 18, "Print",ExpressionUUID->"4228bb29-6365-46c8-bb44-942859065421"],
+Cell[29703, 595, 367, 7, 18, "Print",ExpressionUUID->"1470a136-766f-4264-b4e3-21e05447a80c"],
+Cell[30073, 604, 572, 14, 18, "Print",ExpressionUUID->"f9cc5dae-92a5-4524-aa83-21a05c723931"],
+Cell[30648, 620, 5940, 84, 373, "Print",ExpressionUUID->"2d48ef35-3975-4096-80c4-d4eae0821f14"],
+Cell[36591, 706, 6828, 97, 491, "Print",ExpressionUUID->"6914f5a1-209e-4f85-8b32-48e30558cdb8"],
+Cell[43422, 805, 566, 15, 18, "Print",ExpressionUUID->"af52a654-3aa7-4aeb-abd1-4460dca1e1d4"],
+Cell[43991, 822, 916, 18, 57, "Print",ExpressionUUID->"0b5b7614-da9f-4cbd-8b78-0c9742c723c4"],
+Cell[44910, 842, 558, 10, 43, "Print",ExpressionUUID->"a6b93f54-3cc7-48b8-8df8-405e6b189353"],
+Cell[45471, 854, 952, 19, 57, "Print",ExpressionUUID->"7f19cf74-cecd-4742-9fb6-55993bde0029"],
+Cell[46426, 875, 4786, 69, 294, "Print",ExpressionUUID->"4fbe8d2c-5e90-4d90-89e0-a2c74f3aa623"],
+Cell[51215, 946, 5408, 78, 386, "Print",ExpressionUUID->"6b8db8e8-3f18-4e9f-941c-788aca20e31c"]
 }, Open  ]]
 }, Open  ]]
 }

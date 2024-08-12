@@ -1,0 +1,15 @@
++++
+title = 'One line of working code costs 500 lines of specification'
+date = 2024-06-03T00:00:00-07:00
+draft = false
+categories = []
+tags = ["proecting", "design", "project", "time", "code", "goal"]
+cover_image='/images/cover/knoxwelle__2021-07-21T041637.000Z.jpg'
++++
+Proecting is a beautiful thing. A systematic, detailed presentation of the space of the problem and its solution reveals mistakes and reveals opportunities for improvement, sometimes in a very radical way.Specifications play an important role in this, as they define the pattern for building the system.It is very important to think about the entire architecture—both at the macro level, considering the interaction between the components, and at the micro level, penetrating the behavior of components themselves.
+
+Unfortunately, architects are often fascinated by the design process, falling under the charm of architectural abstractions. However, the specifications themselves have no value. The ultimate objective of the software project is a really functioning system.The architect should always keep this goal in mind and remember that design is only a means, not the end result. The architect of the skyscraper disregarding the laws of physics for the sake of the elegance of the building is destined to soon regret it. One should lose sight of the ultimate goal—the working code—and the project begins to get into serious trouble.
+
+If they have problems with your design, it is possible that they are right and the design is wrong or at least unclear. In such cases, bringing the design into line with practical requirements is your immediate task, and you can solve it by talking to your team members, who will help you determine what works and what doesn't. No design is perfect from the start; any design is subject to change as it is implemented. 
+
+If you are involved in a project and as a developer, learn to appreciate the time spent writing the code, and do not believe those who say that it only takes time to create the architecture. You will get a much more accurate vision of the project at the macro- and micro-levels after you try to breathe life into your creation.

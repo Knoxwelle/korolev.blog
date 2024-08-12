@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/the-architect-must-be-a-practitioner/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>The architect must be a practitioner • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="The architect must be a practitioner">
+<meta name="twitter:description" content="A good architect should set an example to others. He should be able to replace any member of his team and do anything from networking and configuring the assembly process to writing modular tests and performing performance tests. Without a good understanding of the entire range of technologies, an architect is little different from an ordinary project manager.Team members may have deeper knowledge in their narrow fields – this is perfectly normal – but they are unlikely to be able to trust their architect unless he is familiar with the technologies used.As has already been said, an architect is an interface between the technical team and the business, which means that he must understand all the technical aspects in order to play the role of the team representative before the business management, without constantly seeking help.">
+
+<meta property="og:url" content="http://localhost:1313/posts/the-architect-must-be-a-practitioner/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="The architect must be a practitioner">
+  <meta property="og:description" content="A good architect should set an example to others. He should be able to replace any member of his team and do anything from networking and configuring the assembly process to writing modular tests and performing performance tests. Without a good understanding of the entire range of technologies, an architect is little different from an ordinary project manager.Team members may have deeper knowledge in their narrow fields – this is perfectly normal – but they are unlikely to be able to trust their architect unless he is familiar with the technologies used.As has already been said, an architect is an interface between the technical team and the business, which means that he must understand all the technical aspects in order to play the role of the team representative before the business management, without constantly seeking help.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-28T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-06-28T00:00:00-07:00">
+    <meta property="article:tag" content="Team">
+    <meta property="article:tag" content="Wireshark">
+    <meta property="article:tag" content="Architect">
+    <meta property="article:tag" content="Project">
+    <meta property="article:tag" content="Problem">
+    <meta property="article:tag" content="Way">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.9196fcf1fedfce04f627f9bf866acdbeadc99ef75c2e0d19c0bff06074f3cb75.css" integrity="sha256-kZb88f7fzgT2J/m/hmrNvq3JnvdcLg0ZwL/wYHTzy3U=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>The architect must be a practitioner</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jun 28, 2024
+    
+    
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/team">team</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/wireshark">wireshark</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/architect">architect</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/project">project</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/problem">problem</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/way">way</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2017-05-25T130552.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>A good architect should set an example to others. He should be able to replace any member of his team and do anything from networking and configuring the assembly process to writing modular tests and performing performance tests. Without a good understanding of the entire range of technologies, an architect is little different from an ordinary project manager.Team members may have deeper knowledge in their narrow fields – this is perfectly normal – but they are unlikely to be able to trust their architect unless he is familiar with the technologies used.As has already been said, an architect is an interface between the technical team and the business, which means that he must understand all the technical aspects in order to play the role of the team representative before the business management, without constantly seeking help.For the same reasons, the architect must understand the business aspects of the organization in order to successfully lead the developers to the goal of satisfying the commercial interests of the company.</p>
+<p>The work of an architect is similar to that of an airplane pilot: he may not look busy, but in reality uses decades of experience to keep an eye on the situation and intervene immediately in the event of an emergency.The project manager (second pilot) provides daily management, relieving the architect of routine and staff management.Ultimately, the architect must be responsible for the quality of the product and its timely delivery.These challenges are difficult to solve without personal authority, which plays an extremely important role in the success of any project.</p>
+<p>The best way to learn is to observe others; that&rsquo;s how we learn in childhood.A good architect should be able to identify a problem, put together a team and, without looking for the culprits, explain the essence of the problem, and then propose an elegant solution or a way around.At the same time, the architect can ask the team for help without losing any authority.Developers should feel their contribution to the problem, but the architect guides the discussion and determines the right approach.</p>
+<p>Architects should join the team at the very earliest stages of the project; they should not sit in an ivory tower, pointing the way forward from there, but work &ldquo;in the field&rdquo; with everyone else.The issues of choosing a strategic direction or technology should not be transformed into independent research or new projects – they should be approached pragmatically, searching for answers in the course of practical work or seeking advice from colleagues-architects (all good architects know each other).</p>
+<p>A good architect must have at the expert level at least one of the tools of his profession, such as an integrated design environment (IDE); remember that the architect should be a practitioner.It is logical that the software architect should know the IDE, the database architect – the toolkit for building substance-relation charts (ER-charts), and the information architect - the XML modeling tools.However, the lead architect must be able to apply tools at all levels, from monitoring network traffic using Wireshark to simulating complex financial messages in XMLSpy – there are no levels too low or too high for him.</p>
+<p>As a rule, an architect comes up with a good summary and an impressive past.This is usually easy to impress the management and technical staff, but without demonstrating his skills in practice he is unlikely to be able to win the respect of the team.In such a situation, the team will experience training difficulties and its members are unlikely to be able to cope with the task for which they were hired.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Communication is the king, clarity and leadership are his true companions</span>
+    </a>
+    
+    
+    <a href="/posts/screening/" class="navigation-next">
+      <span class="navigation-tittle">Screening</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

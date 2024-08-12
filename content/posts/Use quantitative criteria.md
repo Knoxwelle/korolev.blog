@@ -1,0 +1,17 @@
++++
+title = 'Use quantitative criteria'
+date = 2024-06-21T00:00:00-07:00
+draft = false
+categories = []
+tags = ["ms.", "system", "criteria", "time", "users", "compliance"]
+cover_image='/images/cover/knoxwelle__2020-02-16T030054.000Z.jpg'
++++
+"Fast" can't be a requirement.As well as having a good response time.Or, say, "expandable."The main reason is the lack of objective criteria for meeting such requirements.But users still need these features. The task of the architect is to ensure that the system has the necessary qualities, as well as to balance the inevitable contradictions that arise between them.Without objective criteria, the architect depends on the customer’s caprices (“No, I can’t accept the program – it doesn’t work fast enough”) and on the developers obsessed with obsessive ideas (“no, the program is not ready – it isn’t working fast enough”).
+
+Usually we try to write down all such wishes, as well as any other requirements. But this entry very often looks like a set of foggy epithetics: “flexible”, “friendly to accompany” and so on. However, all such criteria (even "ease of use" with sufficient diligence) can be measured in numerical values for which thresholds can be set.If this is not done, users will lose objective grounds for adopting the system, developers will lose useful guidelines that they can guide while working, and the architects' idea of the system will lose clarity.
+
+Ask simple questions: how much? for how long? how often? how quickly? increases or decreases? at what rate?If you have no answers, you do not understand what the customer needs.The answers must be in the economic model of the system, and if they don't exist, you'll have to think carefully.If you are working on a system architecture and the customer has not given you (or does not give) these numbers, ask yourself why.And then you'll get them.The next time someone tells you that the system should be scalable, ask them where the new users are coming from and why.Ask how many there will be and when it will happen.Don't be satisfied with the answers "many" and "almost".
+
+Vague quantitative criteria should be set in the form of a range: minimum, norm, maximum.If it is not possible to specify such an interval, it is unclear what behavior is required from the system.While working on the architecture, you can test the system for compliance with these criteria to see if it is (still) within permissible deviations.Discrepancies in compliance with certain criteria occurring over time provide useful feedback.Determining these intervals and verifying the system for compliance is a time-consuming and expensive task.If no one is concerned about the performance of the system (neither the characteristics nor the meaning of the term) enough to pay for performance testing, it is likely that this indicator is not significant at all.When you create an architecture, focus on the aspects of the system that are worth the effort.
+
+"The system must respond to user input not more than 1500 ms.At a standard load (defined as...) the average response time should be between 750 and 1250 ms.A response time of less than 500 ms is not perceived by users, so it will not be paid if it falls below this threshold.”But this can be called a requirement.

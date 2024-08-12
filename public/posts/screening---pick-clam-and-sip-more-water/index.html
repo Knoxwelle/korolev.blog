@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/screening---pick-clam-and-sip-more-water/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Screening - pick clam and sip more water • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Screening - pick clam and sip more water">
+<meta name="twitter:description" content="Волею судеб я снова стал ходить на собеседования, и хочу поделиться некоторыми наблюдениями. На этот раз речь про Screening в энтерпрайзных компаниях, и как должен быть выстроен процесс найма.
+Скрининг Всё начинает с него, и тех-скрининг становится нормой. Рекрутер прям на первом звонке задаёт каверзные вопросы и сверяется со шпаргалкой. Например:
+как остановить контейнер?
+неизменяемые типы данных в python?
+какой pid у ядра linux?
+как расшифровывается CAP и PACELC? непонятно что?
+&hellip;
+Некоторые идут ещё дальше и создают целую платформу с небольшими кусками кода, который можно запускать. 20 вопросов за 20 минут. &ldquo;А как послать сообщение в генератор?&rdquo; или &ldquo;А что делает этот код?&rdquo;. Да фиг его знает ‑ я б такой код просто на ревью не пропустил, потому что делает он дичь. Ну и да, я забыл, что у sorted второй аргумент только именованный, так что получаем минус.">
+
+<meta property="og:url" content="http://localhost:1313/posts/screening---pick-clam-and-sip-more-water/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Screening - pick clam and sip more water">
+  <meta property="og:description" content="Волею судеб я снова стал ходить на собеседования, и хочу поделиться некоторыми наблюдениями. На этот раз речь про Screening в энтерпрайзных компаниях, и как должен быть выстроен процесс найма.
+Скрининг Всё начинает с него, и тех-скрининг становится нормой. Рекрутер прям на первом звонке задаёт каверзные вопросы и сверяется со шпаргалкой. Например:
+как остановить контейнер?
+неизменяемые типы данных в python?
+какой pid у ядра linux?
+как расшифровывается CAP и PACELC? непонятно что?
+…
+Некоторые идут ещё дальше и создают целую платформу с небольшими кусками кода, который можно запускать. 20 вопросов за 20 минут. “А как послать сообщение в генератор?” или “А что делает этот код?”. Да фиг его знает ‑ я б такой код просто на ревью не пропустил, потому что делает он дичь. Ну и да, я забыл, что у sorted второй аргумент только именованный, так что получаем минус.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-13T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-13T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.9196fcf1fedfce04f627f9bf866acdbeadc99ef75c2e0d19c0bff06074f3cb75.css" integrity="sha256-kZb88f7fzgT2J/m/hmrNvq3JnvdcLg0ZwL/wYHTzy3U=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Screening - pick clam and sip more water</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 13, 2024
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/recruiting">RECRUITING</a>
+              
+          
+      
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Волею судеб я снова стал ходить на собеседования, и хочу поделиться некоторыми наблюдениями. На этот раз речь про Screening в энтерпрайзных компаниях, и как должен быть выстроен процесс найма.</p>
+<h2 id="скрининг">Скрининг</h2>
+<p>Всё начинает с него, и тех-скрининг становится нормой. Рекрутер прям на первом звонке задаёт каверзные вопросы и сверяется со шпаргалкой. Например:</p>
+<ul>
+<li>
+<p>как остановить контейнер?</p>
+</li>
+<li>
+<p>неизменяемые типы данных в python?</p>
+</li>
+<li>
+<p>какой pid у ядра linux?</p>
+</li>
+<li>
+<p>как расшифровывается CAP и PACELC? непонятно что?</p>
+</li>
+<li>
+<p>&hellip;</p>
+</li>
+</ul>
+<p>Некоторые идут ещё дальше и создают целую платформу с небольшими кусками кода, который можно запускать. 20 вопросов за 20 минут. &ldquo;А как послать сообщение в генератор?&rdquo; или &ldquo;А что делает этот код?&rdquo;. Да фиг его знает ‑ я б такой код просто на ревью не пропустил, потому что делает он дичь. Ну и да, я забыл, что у sorted второй аргумент только именованный, так что получаем минус. И системе плевать, что гуглится это за 25 секунд, я проверял.</p>
+<p>Будет ли у вас подобный скрининг или нет? Не знаю, но будьте готовы. Один такой разговор меня застал в Skytrain, было немного странно. Но мне кажется, что уже даже рекрутеры устали от вкатунов, которые ничего не знают, но рассылают резюме во все доступные места.</p>
+<p>Но в то же время магию календаря освоило ~20% из них. Они почему-то уверены, что на фразе &ldquo;Поставил(а) звонок на пятницу в 1:30 pm, вот ссылочка &hellip;&rdquo; общение закончено. Нет, блин! Календарь! Потому что я:</p>
+<ul>
+<li>
+<p>забуду</p>
+</li>
+<li>
+<p>потеряю ссылку</p>
+</li>
+<li>
+<p>займу слот</p>
+</li>
+<li>
+<p>буду рассчитывать на полтора часа вместо часа</p>
+</li>
+<li>
+<p>не познакомлюсь заочно с собеседником</p>
+</li>
+<li>
+<p>и вообще 1:30 pm это было по UTC (а не PST)</p>
+</li>
+</ul>
+<p>Должен быть обязательный тест при устройстве рекрутера на работу. И в одной большой компании с кружочками дошло до того, что за 2 недели мы 3 раза договаривались о собеседовании, но в итоге то интервьюер не пришёл, то время не поставили (&ldquo;я поставлю на понедельник?&rdquo; - &ldquo;ага, свободен весь день&rdquo; - и тишина&hellip;). А если попросить перенести по болезни, то про тебя вообще забудут. С календарём факапов будет меньше.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

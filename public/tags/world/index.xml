@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/world/</link>
+    <description>Recent content in World on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Решений может быть несколько</title>
+      <link>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE/</guid>
+      <description>One data model, one message format, one transport mechanism (and generally exactly one basic architectural component, policy, principle, etc.) cannot serve all aspects of a business organization equally well.It seems that this fact is an endless source of surprise and sadness for the developers of the systems.At the same time, it is quite natural: since the organization (the word “organization” is highlighted here with the fat red line) is large enough to worry about how several different tables of accounts will affect the system in the next decade, it must be too large and heterogeneous to be able to handle a single table.&#xA;In the technical field, uniformity can be enforced.And it&amp;rsquo;s very convenient for us.However, in the field of business, a controversial, multifaceted, informal, troubling real world comes into play.</description>
+    </item>
+  </channel>
+</rss>

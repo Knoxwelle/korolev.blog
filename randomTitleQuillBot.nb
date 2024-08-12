@@ -1,0 +1,1792 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     92560,       1784]
+NotebookOptionsPosition[     85697,       1697]
+NotebookOutlinePosition[     86106,       1713]
+CellTagsIndexPosition[     86063,       1710]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"fileList", "=", 
+  RowBox[{"FileNames", "[", 
+   RowBox[{"\"\<*.md\>\"", ",", 
+    RowBox[{"File", "[", 
+     RowBox[{"StringJoin", "[", 
+      RowBox[{
+       RowBox[{"NotebookDirectory", "[", "]"}], ",", 
+       "\"\<content\\\\posts\>\""}], "]"}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.929217717115798*^9, 3.9292178076516476`*^9}, {
+   3.9292179139982204`*^9, 3.9292180109485364`*^9}, {3.9292181116552367`*^9, 
+   3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
+   3.9292195131056185`*^9},
+ CellLabel->
+  "In[315]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\DevOps, SRE.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Interview tips.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Knowledge test.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Live Coding.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Screening.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\System Design.md\"\>"}], "}"}]], "Output",
+ CellChangeTimes->{{3.929217973036312*^9, 3.929218015002745*^9}, {
+   3.9292181019595547`*^9, 3.9292181227832947`*^9}, {3.9292192008080373`*^9, 
+   3.929219208468548*^9}, {3.9292195060218716`*^9, 3.929219516010848*^9}, 
+   3.929374761727815*^9, 3.9293770443430643`*^9, {3.929377129799858*^9, 
+   3.92937718610667*^9}, 3.929379873045842*^9, 3.9293799125598564`*^9, 
+   3.929379956910489*^9, 3.929380106410046*^9, 3.9293802464560995`*^9, 
+   3.9293805648564034`*^9, 3.92938079299347*^9, 3.929381120453438*^9, 
+   3.929381394092862*^9, 3.929904981092246*^9, 3.92990503872686*^9, 
+   3.9300716411970215`*^9, 3.930153386240965*^9, 3.9301535256438875`*^9, {
+   3.9304804707324867`*^9, 3.9304804956012917`*^9}, 3.930484085894026*^9, 
+   3.930485348143634*^9, 3.93048560632467*^9, 3.930486004921291*^9, 
+   3.930486206755206*^9, 3.9304864915187435`*^9, 3.930486669964489*^9, 
+   3.9304873251005487`*^9, 3.930487929467533*^9, 3.9304882682124186`*^9, 
+   3.9304883848168063`*^9, 3.9304886872936573`*^9, 3.930490370468549*^9, 
+   3.9304904609847393`*^9, 3.9304907485994406`*^9, 3.930491017728156*^9, 
+   3.9304912944935045`*^9, 3.9304955341185102`*^9, 3.930495962384928*^9, 
+   3.9304963789591675`*^9, 3.930496639826478*^9, 3.9304969043936825`*^9, 
+   3.9304974694812827`*^9, 3.9304982425350337`*^9, 3.930498999250693*^9, 
+   3.9305118356722383`*^9, {3.932260130971604*^9, 3.932260151855281*^9}, 
+   3.9322602645166745`*^9, 3.932317520221552*^9, 3.9323177833029404`*^9, 
+   3.9323180383605585`*^9, 3.932318135005063*^9, 3.932318214944727*^9, 
+   3.9323184265367327`*^9, 3.9323184910555983`*^9, {3.9323185503219137`*^9, 
+   3.932318564104246*^9}, {3.9323185960917172`*^9, 3.9323186113561945`*^9}, {
+   3.9323186918685703`*^9, 3.9323187059166603`*^9}, 3.932318798998652*^9, 
+   3.9323194582347393`*^9, 3.93231956635118*^9, 3.932319813380253*^9, 
+   3.9323199659792385`*^9, 3.932320087756711*^9, 3.932320882606124*^9, {
+   3.932321112282586*^9, 3.932321132517761*^9}, {3.9323211628011436`*^9, 
+   3.932321182536326*^9}, 3.932321296813586*^9, 3.9323213285155525`*^9, 
+   3.9323214444553013`*^9, 3.932321993742594*^9, 3.9323221788827734`*^9, 
+   3.932327176035804*^9, 3.9323278257526307`*^9, 3.932341886980181*^9, 
+   3.932342880269472*^9, 3.932343153681148*^9, 3.932343259852373*^9, 
+   3.932343725330234*^9, 3.932344205773801*^9, 3.932344792726622*^9, 
+   3.9323450482825384`*^9, 3.932345247395508*^9, 3.932345364168034*^9, 
+   3.9323454167225385`*^9, 3.9323455463628173`*^9, 3.932346151182276*^9, 
+   3.932398912350078*^9, 3.9323991152864327`*^9, 3.9323992610882874`*^9, 
+   3.9323997902307816`*^9, 3.932400396644806*^9, 3.932400759179394*^9, 
+   3.9324012223811197`*^9, 3.93240162740829*^9, 3.932401885007033*^9, 
+   3.932411152262658*^9, 3.9324115605273933`*^9, 3.932411602176455*^9, 
+   3.932412010829921*^9, 3.932412148925003*^9, 3.932412330902978*^9, 
+   3.932412383210127*^9, 3.9324124195318704`*^9, 3.9324126989080048`*^9, 
+   3.932413204241524*^9, 3.932413513199175*^9, 3.9324136340406303`*^9, 
+   3.932413707760889*^9, 3.932413798672468*^9, 3.93241386137474*^9, 
+   3.9324139471446342`*^9},
+ CellLabel->
+  "Out[315]=",ExpressionUUID->"f3091758-460c-46ca-bc89-d17b13dfec58"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"For", "[", 
+   RowBox[{
+    RowBox[{"i", "=", "1"}], ",", 
+    RowBox[{"i", "<=", 
+     RowBox[{"Length", "[", "fileList", "]"}]}], ",", 
+    RowBox[{"i", "++"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"file", "=", 
+      RowBox[{"fileList", "[", 
+       RowBox[{"[", "i", "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"i", ",", "\"\<. \>\"", ",", "file"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"txtFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{
+           RowBox[{"FileBaseName", "[", "file", "]"}], ",", "\"\<.txt\>\""}], 
+          "]"}]}], "}"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"file", ",", "txtFile"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"content", "=", 
+      RowBox[{"Import", "[", "txtFile", "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"header", "=", 
+      RowBox[{"First", "[", 
+       RowBox[{"StringCases", "[", 
+        RowBox[{"content", ",", 
+         RowBox[{"\"\<+++\>\"", "~~", "x___", "~~", "\"\<+++\>\""}]}], " ", 
+        "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"text", "=", 
+      RowBox[{"StringTrim", "[", 
+       RowBox[{"StringReplace", "[", 
+        RowBox[{"content", ",", " ", 
+         RowBox[{"header", "->", "\"\<\>\""}]}], "]"}], "]"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"oldTitle", "=", 
+      RowBox[{"StringTrim", "[", 
+       RowBox[{"First", "[", 
+        RowBox[{"StringCases", "[", 
+         RowBox[{"header", ",", 
+          RowBox[{
+           RowBox[{
+           "\"\<title = \>\"", "~~", "x___", "~~", "\"\<date = \>\""}], " ", "->",
+            "x"}]}], "]"}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"oldString", "=", "oldTitle"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"oldTitle", "=", 
+      RowBox[{"StringReplace", "[", 
+       RowBox[{"oldTitle", ",", 
+        RowBox[{"\"\<'\>\"", "->", "\"\<\>\""}]}], "]"}]}], ";", 
+     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<oldTitle: \>\"", ",", "oldTitle"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"newContent", "=", "content"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{
+       RowBox[{"SameAs", "[", 
+        RowBox[{"LanguageIdentify", "[", "oldTitle", "]"}], "]"}], "[", 
+       RowBox[{"Entity", "[", 
+        RowBox[{"\"\<Language\>\"", ",", " ", "\"\<English\>\""}], "]"}], 
+       "]"}], "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"LanguageIdentify", "[", "oldTitle", "]"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"!", 
+        RowBox[{
+         RowBox[{"SameAs", "[", 
+          RowBox[{"LanguageIdentify", "[", "oldTitle", "]"}], "]"}], "[", 
+         RowBox[{"Entity", "[", 
+          RowBox[{"\"\<Language\>\"", ",", " ", "\"\<English\>\""}], "]"}], 
+         "]"}]}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{"Print", "[", "\"\<Skipping paraphrasing\>\"", "]"}], ";", 
+        "\[IndentingNewLine]", 
+        RowBox[{"translated", "=", "oldTitle"}], ";"}], ",", 
+       "\[IndentingNewLine]", "\[IndentingNewLine]", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Print", "[", "\"\<Starting paraphrase\>\"", "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"(*", 
+          RowBox[{"##", "##", "##", "##", "##", "##"}], "*)"}], 
+         "\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+         RowBox[{"session", "=", 
+          RowBox[{"StartWebSession", "[", "]"}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"Pause", "[", "2", "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"WebExecute", "[", 
+          RowBox[{"session", ",", 
+           RowBox[{
+           "\"\<OpenPage\>\"", "->", 
+            "\"\<https://quillbot.com/paraphrasing-tool\>\""}]}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"Pause", "[", "2", "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"acceptButton", "=", 
+          RowBox[{"WebExecute", "[", 
+           RowBox[{"session", ",", 
+            RowBox[{"\"\<LocateElements\>\"", "\[Rule]", 
+             RowBox[{
+             "\"\<XPath\>\"", "\[Rule]", 
+              "\"\<//button[@id='onetrust-accept-btn-handler']\>\""}]}]}], 
+           "]"}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"WebExecute", "[", 
+          RowBox[{"\"\<ClickElement\>\"", "\[Rule]", "acceptButton"}], "]"}], 
+         ";", "\[IndentingNewLine]", 
+         RowBox[{"Pause", "[", "2", "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"textbox", "=", 
+          RowBox[{"WebExecute", "[", 
+           RowBox[{"session", ",", 
+            RowBox[{"\"\<LocateElements\>\"", "\[Rule]", 
+             RowBox[{
+             "\"\<XPath\>\"", "\[Rule]", 
+              "\"\<//div[@role='textbox']\>\""}]}]}], "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"WebExecute", "[", 
+          RowBox[{"\"\<TypeElement\>\"", "->", 
+           RowBox[{"{", 
+            RowBox[{"textbox", ",", " ", "oldTitle"}], "}"}]}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"Pause", "[", "5", "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"translateButtons", "=", 
+          RowBox[{"WebExecute", "[", 
+           RowBox[{"session", ",", 
+            RowBox[{"\"\<LocateElements\>\"", "\[Rule]", 
+             RowBox[{
+             "\"\<XPath\>\"", "\[Rule]", 
+              "\"\<//button/div[contains(text(),'Paraphrase')]\>\""}]}]}], 
+           "]"}]}], ";", "\[IndentingNewLine]", 
+         RowBox[{"WebExecute", "[", 
+          RowBox[{"\"\<ClickElement\>\"", "\[Rule]", 
+           RowBox[{"translateButtons", "[", 
+            RowBox[{"[", "1", "]"}], "]"}]}], "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"(*", 
+          RowBox[{
+           RowBox[{"WebExecute", "[", 
+            RowBox[{"\"\<ClickElement\>\"", "\[Rule]", 
+             RowBox[{"translateButtons", "[", 
+              RowBox[{"[", "2", "]"}], "]"}]}], "]"}], ";"}], "*)"}], 
+         "\[IndentingNewLine]", 
+         RowBox[{"Pause", "[", "10", "]"}], ";", "\[IndentingNewLine]", 
+         RowBox[{"outputBox", "=", 
+          RowBox[{"WebExecute", "[", 
+           RowBox[{"session", ",", 
+            RowBox[{"\"\<LocateElements\>\"", "\[Rule]", 
+             RowBox[{
+             "\"\<XPath\>\"", "\[Rule]", 
+              "\"\<//div[@id='paraphraser-output-box']\>\""}]}]}], "]"}]}], 
+         ";", "\[IndentingNewLine]", 
+         RowBox[{"outputText", "=", 
+          RowBox[{"WebExecute", "[", 
+           RowBox[{"\"\<ElementText\>\"", "->", "outputBox"}], "]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"DeleteObject", "[", "session", "]"}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"(*", 
+          RowBox[{"##", "##", "##", "##", "##", "##"}], "*)"}], 
+         "\[IndentingNewLine]", 
+         RowBox[{"If", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"Length", "[", "outputText", "]"}], ">", "0"}], ",", 
+           RowBox[{
+            RowBox[{"outputText", "=", 
+             RowBox[{"First", "[", "outputText", "]"}]}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"translated", "=", 
+             RowBox[{"StringReplace", "[", 
+              RowBox[{
+               RowBox[{"RemoveDiacritics", "[", 
+                RowBox[{"StringTrim", "[", "outputText", "]"}], "]"}], ",", 
+               RowBox[{"\"\<.\>\"", "->", "\"\<\>\""}]}], "]"}]}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"Print", "[", 
+             RowBox[{"\"\<Rephrased: \>\"", ",", "translated"}], "]"}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"If", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{"StringLength", "[", "translated", "]"}], "<", "1"}], 
+              ",", " ", 
+              RowBox[{
+               RowBox[{"translated", "=", "oldTitle"}], ";", 
+               RowBox[{"Print", "[", 
+                RowBox[{
+                "\"\<\:0414\:043b\:0438\:043d\:043d\:0430 \:043d\:043e\:0432\
+\:043e\:0433\:043e \:0437\:0430\:0433\:043e\:043b\:043e\:0432\:043a\:0430: \>\
+\"", ",", 
+                 RowBox[{"StringLength", "[", "translated", "]"}]}], "]"}], 
+               ";"}]}], "]"}], ";", "\[IndentingNewLine]", 
+            RowBox[{"newTitle", "=", " ", 
+             RowBox[{"StringJoin", "[", 
+              RowBox[{"\"\<'\>\"", ",", "translated", ",", "\"\<'\>\""}], 
+              "]"}]}], ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+            RowBox[{"newHeader", "=", 
+             RowBox[{"StringReplace", "[", 
+              RowBox[{"header", ",", 
+               RowBox[{"oldString", "->", "newTitle"}]}], "]"}]}], ";", 
+            "\[IndentingNewLine]", "\[IndentingNewLine]", 
+            RowBox[{"Print", "[", 
+             RowBox[{"\"\<newHeader: \>\"", ",", "newHeader"}], "]"}], ";", 
+            "\[IndentingNewLine]", 
+            RowBox[{"newContent", "=", 
+             RowBox[{"StringJoin", "[", 
+              RowBox[{"newHeader", ",", "\"\<\\n\>\"", ",", " ", "text"}], 
+              "]"}]}], ";", "\[IndentingNewLine]", 
+            RowBox[{"Print", "[", 
+             RowBox[{"\"\<newContent: \>\"", ",", "newContent"}], "]"}], 
+            ";"}]}], "\[IndentingNewLine]", "]"}], ";"}], 
+        "\[IndentingNewLine]", 
+        RowBox[{"(*", 
+         RowBox[{",", " ", 
+          RowBox[{"Continue", "[", "]"}]}], "*)"}], ";"}]}], 
+      "\[IndentingNewLine]", "]"}], ";", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Export", "[", 
+      RowBox[{"txtFile", ",", "newContent"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"StringLength", "[", "translated", "]"}], "<", "1"}], ",", 
+         RowBox[{
+          RowBox[{"translated", "=", "oldTitle"}], ";"}]}], "]"}], ";"}], 
+      "*)"}], "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<Final filename: \>\"", ",", " ", "translated"}], "]"}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", 
+      RowBox[{"\"\<oldTitle: \>\"", ",", " ", "oldTitle"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"newFile", "=", 
+      RowBox[{"FileNameJoin", "[", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"DirectoryName", "[", "file", "]"}], ",", 
+         RowBox[{"StringJoin", "[", 
+          RowBox[{"translated", ",", "\"\<.md\>\""}], "]"}]}], "}"}], "]"}]}],
+      ";", "\[IndentingNewLine]", 
+     RowBox[{"Print", "[", "newFile", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{"(*", 
+      RowBox[{
+       RowBox[{"If", "[", 
+        RowBox[{
+         RowBox[{"FileExistsQ", "[", "newFile", "]"}], ",", " ", 
+         RowBox[{"Pause", "[", "30", "]"}]}], "]"}], ";"}], "*)"}], 
+     "\[IndentingNewLine]", 
+     RowBox[{"RenameFile", "[", 
+      RowBox[{"txtFile", ",", "newFile"}], "]"}], ";"}]}], 
+   "\[IndentingNewLine]", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.929374848236891*^9, 3.9293748511036243`*^9}, {
+   3.929374935234683*^9, 3.9293751531424026`*^9}, {3.9293766798063145`*^9, 
+   3.929376683419645*^9}, {3.9293767565437894`*^9, 3.9293767617159977`*^9}, {
+   3.9293768165861263`*^9, 3.9293768574885263`*^9}, {3.9293769048775253`*^9, 
+   3.929376923032815*^9}, {3.929376963031721*^9, 3.929377017538329*^9}, 
+   3.9293770728294005`*^9, {3.9293771184850016`*^9, 3.9293771821272807`*^9}, 
+   3.9293797678018446`*^9, {3.9293798031371336`*^9, 3.9293798610794344`*^9}, {
+   3.929379951227022*^9, 3.9293799526511736`*^9}, {3.9293806886666846`*^9, 
+   3.9293806900231953`*^9}, {3.930153099569622*^9, 3.930153244290264*^9}, {
+   3.9301533784104185`*^9, 3.9301533788871517`*^9}, {3.9301535173627806`*^9, 
+   3.9301535181359687`*^9}, {3.930480378601529*^9, 3.930480452396018*^9}, {
+   3.930480826221388*^9, 3.93048090418117*^9}, {3.930480992346277*^9, 
+   3.930481020700739*^9}, {3.9304810609516325`*^9, 3.9304810649327507`*^9}, {
+   3.9304811027036743`*^9, 3.930481125756013*^9}, {3.9304850024795713`*^9, 
+   3.9304850709059925`*^9}, {3.930485104190993*^9, 3.93048518970777*^9}, {
+   3.930485221108118*^9, 3.9304853292711287`*^9}, {3.930485860359277*^9, 
+   3.930485885635726*^9}, {3.930485970805511*^9, 3.9304859790292554`*^9}, {
+   3.9304860736945963`*^9, 3.9304860760173674`*^9}, {3.930486177140055*^9, 
+   3.9304861991546183`*^9}, {3.930486355242633*^9, 3.9304863554296274`*^9}, 
+   3.9304864839453135`*^9, {3.9304866404646845`*^9, 3.9304866445841985`*^9}, {
+   3.930487804054434*^9, 3.9304878148019924`*^9}, {3.9304878695858464`*^9, 
+   3.930487881236991*^9}, {3.9304880806792684`*^9, 3.9304880899069266`*^9}, {
+   3.930488245342493*^9, 3.9304882619225726`*^9}, {3.9304886227116013`*^9, 
+   3.930488639207857*^9}, {3.9304902241069584`*^9, 3.9304902613033624`*^9}, {
+   3.9304903078940606`*^9, 3.930490328522088*^9}, 3.9304905072429957`*^9, {
+   3.9304906855340986`*^9, 3.9304907261886063`*^9}, {3.930490930496278*^9, 
+   3.9304909400269036`*^9}, {3.9304916891145935`*^9, 
+   3.9304916944981265`*^9}, {3.9304917437016563`*^9, 
+   3.9304917666087165`*^9}, {3.9304918089765515`*^9, 
+   3.9304918788140244`*^9}, {3.930491924595212*^9, 3.930491945687381*^9}, {
+   3.930491988119519*^9, 3.9304920084680395`*^9}, {3.9304920715618773`*^9, 
+   3.9304920774054384`*^9}, {3.9304959104317317`*^9, 3.930495957950266*^9}, {
+   3.9304962708862295`*^9, 3.930496306222895*^9}, {3.9304963438514338`*^9, 
+   3.930496353405984*^9}, {3.9304966338475266`*^9, 3.9304966350732913`*^9}, 
+   3.9304981759074817`*^9, {3.930498969628899*^9, 3.9304989922813253`*^9}, 
+   3.93224184149576*^9, {3.9322418827363825`*^9, 3.932241901793186*^9}, {
+   3.9322419561145997`*^9, 3.932241960459314*^9}, {3.932242014429886*^9, 
+   3.9322420363216124`*^9}, {3.932242073616028*^9, 3.932242139655431*^9}, {
+   3.932242182850689*^9, 3.9322421928833427`*^9}, {3.932260076061784*^9, 
+   3.9322601120418577`*^9}, {3.932260248300127*^9, 3.932260257002099*^9}, {
+   3.93231223817431*^9, 3.9323122484561005`*^9}, {3.932312373599408*^9, 
+   3.9323123761278477`*^9}, {3.932316368564017*^9, 3.932316532540805*^9}, {
+   3.932316677002906*^9, 3.9323167773369493`*^9}, {3.932316886303379*^9, 
+   3.9323170131691165`*^9}, {3.9323170495437326`*^9, 
+   3.9323172877488194`*^9}, {3.9323173232591743`*^9, 
+   3.9323173475431547`*^9}, {3.93231768073619*^9, 3.932317688378603*^9}, {
+   3.932317879229087*^9, 3.93231788754504*^9}, {3.9323179187311163`*^9, 
+   3.932317936775447*^9}, 3.932318116789886*^9, {3.9323181989388065`*^9, 
+   3.932318199601267*^9}, {3.9323183825081415`*^9, 3.9323183832610292`*^9}, 
+   3.9323184650787387`*^9, {3.932318540576116*^9, 3.932318547064329*^9}, {
+   3.932318580176986*^9, 3.932318583306225*^9}, 3.9323186496330223`*^9, 
+   3.932318685397257*^9, 3.93231878021986*^9, {3.932318827721863*^9, 
+   3.932318830730202*^9}, 3.932318912056733*^9, {3.9323191206106157`*^9, 
+   3.932319135576525*^9}, {3.932319338652914*^9, 3.9323193387288685`*^9}, {
+   3.932319405729694*^9, 3.932319445718173*^9}, {3.9323195418179526`*^9, 
+   3.932319547720083*^9}, 3.9323196507823215`*^9, 3.9323197117335186`*^9, {
+   3.9323197929007597`*^9, 3.932319807940666*^9}, {3.9323199251779547`*^9, 
+   3.9323199315126514`*^9}, {3.9323200628956995`*^9, 3.9323200655690866`*^9}, 
+   3.932320153215563*^9, {3.9323206886332517`*^9, 3.932320707708331*^9}, {
+   3.9323208371039414`*^9, 3.932320862055195*^9}, {3.9323209578178616`*^9, 
+   3.932320971512195*^9}, {3.9323210646178827`*^9, 3.9323211286181927`*^9}, 
+   3.9323212344213285`*^9, {3.9323213925942373`*^9, 3.932321439498727*^9}, 
+   3.932321823374752*^9, {3.9323219857889795`*^9, 3.9323219886629343`*^9}, {
+   3.9323271593640957`*^9, 3.9323271681809177`*^9}, 3.9323410932407713`*^9, {
+   3.9323411233665104`*^9, 3.932341125393134*^9}, {3.9323412014446683`*^9, 
+   3.9323412033380957`*^9}, 3.9323413150346203`*^9, {3.9323413551037064`*^9, 
+   3.9323413555742245`*^9}, {3.9323414151939163`*^9, 
+   3.9323414930752764`*^9}, {3.932341550518426*^9, 3.9323415573638697`*^9}, {
+   3.9323416047308836`*^9, 3.932341610539426*^9}, {3.9323416672110643`*^9, 
+   3.93234168893246*^9}, {3.9323417262559757`*^9, 3.932341736754326*^9}, {
+   3.932341772539345*^9, 3.932341851764076*^9}, {3.932342524064491*^9, 
+   3.932342544695941*^9}, {3.9323425787522*^9, 3.9323426221428933`*^9}, 
+   3.932342655982977*^9, 3.9323426978864126`*^9, {3.9323427764366193`*^9, 
+   3.9323428442094707`*^9}, {3.932343128023367*^9, 3.9323431307265472`*^9}, {
+   3.9323432221770735`*^9, 3.932343231008795*^9}, {3.932343564146665*^9, 
+   3.9323436064917893`*^9}, {3.932343692570225*^9, 3.9323437006475563`*^9}, {
+   3.9323440667980027`*^9, 3.932344105319462*^9}, {3.9323447715431476`*^9, 
+   3.9323447767989845`*^9}, {3.9323450189780865`*^9, 3.932345031132021*^9}, {
+   3.9323451747791944`*^9, 3.932345198933987*^9}, 3.9323452415158567`*^9, {
+   3.9323453384887505`*^9, 3.9323453411348243`*^9}, 3.9323454000896854`*^9, {
+   3.932345476901555*^9, 3.9323455120191035`*^9}, {3.9323461208331375`*^9, 
+   3.9323461242580795`*^9}, {3.932397118251099*^9, 3.932397189605053*^9}, {
+   3.932397332675127*^9, 3.932397385538116*^9}, {3.932397415869459*^9, 
+   3.932397442944458*^9}, {3.932397608023937*^9, 3.932397624202416*^9}, 
+   3.932397727147298*^9, {3.9323990971699095`*^9, 3.93239910911257*^9}, {
+   3.932399190630185*^9, 3.932399224406474*^9}, 3.932400372105259*^9, {
+   3.932400713766886*^9, 3.9324007232132735`*^9}, {3.932401114654378*^9, 
+   3.93240119087463*^9}, {3.9324015042626405`*^9, 3.932401510181754*^9}, {
+   3.932401585109536*^9, 3.9324016232866945`*^9}, {3.9324018283275013`*^9, 
+   3.9324018431220818`*^9}, {3.9324109616729555`*^9, 
+   3.9324109669972363`*^9}, {3.9324110057813406`*^9, 3.932411008736334*^9}, {
+   3.9324110872367516`*^9, 3.9324110963374443`*^9}, {3.9324111323114915`*^9, 
+   3.932411141809701*^9}, 3.932411246084057*^9, {3.9324113593108306`*^9, 
+   3.932411361527111*^9}, {3.9324115117885637`*^9, 3.932411555350916*^9}, {
+   3.9324119828477087`*^9, 3.932412001442359*^9}, {3.9324120945906897`*^9, 
+   3.932412139893147*^9}, {3.9324122402911177`*^9, 3.9324122637255545`*^9}, {
+   3.932412321661096*^9, 3.932412322088815*^9}, 3.932412379435608*^9, {
+   3.932412638744177*^9, 3.932412669200461*^9}, 3.932413001216716*^9, 
+   3.9324131713573856`*^9, 3.932413282663472*^9, {3.9324134890863943`*^9, 
+   3.932413508374128*^9}, {3.9324136173118906`*^9, 3.932413626303582*^9}, {
+   3.932413689466072*^9, 3.9324137015865707`*^9}, {3.9324137812115164`*^9, 
+   3.932413793822591*^9}, {3.9324138485770617`*^9, 3.932413855770239*^9}, {
+   3.9324139205898223`*^9, 3.9324139413410506`*^9}},
+ CellLabel->
+  "In[316]:=",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "1", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\DevOps, SRE.md\"\>"}],
+  SequenceForm[
+  1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\DevOps, SRE.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413947735666*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"a8bf6ddf-0b3b-4088-8c45-7f8a35c6c455"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"DevOps, SRE\"\>"}],
+  SequenceForm["oldTitle: ", "DevOps, SRE"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413947848214*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"f34cead8-8891-4e41-b610-a671e1bd9dca"],
+
+Cell[BoxData["False"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413948023188*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"bb232b21-eb08-4c12-8e62-0c888704c76a"],
+
+Cell[BoxData[
+ TemplateBox[{"\"Bosnian\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"Language\"", ",", "\"Bosnian\""}], "]"}], 
+   "\"Entity[\\\"Language\\\", \\\"Bosnian\\\"]\"", "\"language\""},
+  "Entity"]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139480878096`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"98a696e0-5d93-4c66-b686-2f6aa3b477a1"],
+
+Cell[BoxData["\<\"Skipping paraphrasing\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139481514263`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"b4a12d32-e578-4f43-86cc-ab7ce00e37df"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Final filename: \"\>", 
+   "\[InvisibleSpace]", "\<\"DevOps, SRE\"\>"}],
+  SequenceForm["Final filename: ", "DevOps, SRE"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139482194204`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"13f235f5-a4e1-4593-8448-d7390899b215"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"DevOps, SRE\"\>"}],
+  SequenceForm["oldTitle: ", "DevOps, SRE"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139482843723`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"5acc6f7a-29d6-4c48-b8a7-0ed5280bf074"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\DevOps, SRE.md\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.93241394834816*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"4d09bc16-b112-474a-891b-188a3dfad651"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "2", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Interview tips.md\"\>"}],
+  SequenceForm[
+  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Interview tips.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139484787664`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"0b4f3650-87b2-41be-a73b-03dd065a8da7"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", 
+   "\[InvisibleSpace]", "\<\"Interview tips\"\>"}],
+  SequenceForm["oldTitle: ", "Interview tips"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413948545537*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"8a653fad-9478-4f4e-9c06-030e409eec4c"],
+
+Cell[BoxData["True"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.93241394866016*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"7ada99c9-7c53-4f70-82e5-a0b86ac1ca3d"],
+
+Cell[BoxData[
+ TemplateBox[{"\"English\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"Language\"", ",", "\"English\""}], "]"}], 
+   "\"Entity[\\\"Language\\\", \\\"English\\\"]\"", "\"language\""},
+  "Entity"]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139487978325`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"0dce1d79-04ed-4954-9706-1eecb79c8169"],
+
+Cell[BoxData["\<\"Starting paraphrase\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413948889465*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"7d42f55a-494f-467d-a809-dc59c3c1444a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rephrased: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
+  SequenceForm["Rephrased: ", ""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413985116723*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"f00a9e7a-36a0-4015-9ffd-f0fbe217f293"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\:0414\:043b\:0438\:043d\:043d\:0430 \:043d\:043e\:0432\:043e\
+\:0433\:043e \:0437\:0430\:0433\:043e\:043b\:043e\:0432\:043a\:0430: \"\>", 
+   "\[InvisibleSpace]", "14"}],
+  SequenceForm[
+  "\:0414\:043b\:0438\:043d\:043d\:0430 \:043d\:043e\:0432\:043e\:0433\:043e \
+\:0437\:0430\:0433\:043e\:043b\:043e\:0432\:043a\:0430: ", 14],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413985137718*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"f3d9bb0b-ce2b-4b10-8bbb-cf4080a5c591"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newHeader: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Interview tips'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = false\\ncategories = [\\\"recruiting\\\"]\
+\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"}],
+  SequenceForm[
+  "newHeader: ", 
+   "+++\ntitle = 'Interview tips'\ndate = 2024-07-13T00:00:00-07:00\ndraft = \
+false\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139851597204`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"d22cb27c-3eb6-4a1a-8d4d-b57cd0a34103"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Interview tips'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = false\\ncategories = [\\\"recruiting\\\"]\
+\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nThe fate of the fate I started to go to interviews again, and I want to \
+share some observations. On this, I just give advice to everyone in \
+enterprise companies about how the recruitment process should be \
+structured.\\n\\n## Advice to candidates\\n\\nIn the last five years, I've \
+been through several hundred interviews on both sides. So, some life hacking:\
+\\n\\n- You're going to have to go through the windshields. Those you're not \
+going to go to. You pump the skill, or suddenly something interesting turns \
+out to be, or it'll be the only place with the offer. You never know what's \
+in a box of candy.\\n    \\n- Get some sleep and let yourself rest on the day \
+of wrath. The same live coding is quite a dumb thing; the solution may not \
+come during the call but will appear immediately after.\\n    \\n- Take a \
+glass of water. Drink in any unclear situation; it is a good and adequate \
+filler.\\n    \\n- Talk to me. It's good if you can talk to your cat or \
+colleague about distracted topics before the call. It helps relieve some \
+tension.\\n    \\n- Take it easy. If they don't take you, nobody dies. Yeah, \
+maybe it'll be harder, but in a year or two, you'll even say \\\"thank you.\\\
+\" This attitude will help reduce the degree of stiffness a little.\\n    \
+\\n- Be sure to ask for feedback. Without feedback, it's very hard to \
+learn.\\n    \\n\\nI would like to remind you that refusal should be treated \
+more easily. You just didn't fit this company for that position. It doesn't \
+make you a bad person or a programmer. I received refusals with such words as \
+\\\"overqualified\\\" and \\\"we thought you would fall somewhere and agree \
+to the penny against quater,\\\" just flowers. Well, they don't have a job \
+for me, maybe.\\n\\n## Advice to interviewers\\n\\nMore empathy. You are not \
+a candidate, but a potential colleague. And you have no purpose in \
+overthrowing him; your task is to understand if he can perform the duties \
+that he will have and if it is comfortable for you to communicate. It's \
+impossible to do that in an hour and a half.\\n\\n## Instead of conviction\\n\
+\\nIn my 10 years in IT, I have worked for many types of companies. They were \
+mainly start-ups or small companies with 20\[Dash]30 people. So, the \
+interviews at the enterprise are strikingly different from theirs. Recruiters \
+have a huge flow of vacancies and resumes, so wild options are possible at \
+first sight. For example, after seven successful interviews, I was told that \
+they could not find a position for me. WTF?! But as an excuse, I can say that \
+they have streaming hiring. I mean, they're screwing everybody, \\\"and we're \
+going to figure it out someday.\\\" And the processes are fully standardized. \
+Whether you're a senior in Python with 15 years of referral experience or \
+not, you still go through all the hell stages.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'Interview tips'\ndate = 2024-07-13T00:00:00-07:00\ndraft = \
+false\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++\nThe \
+fate of the fate I started to go to interviews again, and I want to share \
+some observations. On this, I just give advice to everyone in enterprise \
+companies about how the recruitment process should be structured.\n\n## \
+Advice to candidates\n\nIn the last five years, I've been through several \
+hundred interviews on both sides. So, some life hacking:\n\n- You're going to \
+have to go through the windshields. Those you're not going to go to. You pump \
+the skill, or suddenly something interesting turns out to be, or it'll be the \
+only place with the offer. You never know what's in a box of candy.\n    \n- \
+Get some sleep and let yourself rest on the day of wrath. The same live \
+coding is quite a dumb thing; the solution may not come during the call but \
+will appear immediately after.\n    \n- Take a glass of water. Drink in any \
+unclear situation; it is a good and adequate filler.\n    \n- Talk to me. \
+It's good if you can talk to your cat or colleague about distracted topics \
+before the call. It helps relieve some tension.\n    \n- Take it easy. If \
+they don't take you, nobody dies. Yeah, maybe it'll be harder, but in a year \
+or two, you'll even say \"thank you.\" This attitude will help reduce the \
+degree of stiffness a little.\n    \n- Be sure to ask for feedback. Without \
+feedback, it's very hard to learn.\n    \n\nI would like to remind you that \
+refusal should be treated more easily. You just didn't fit this company for \
+that position. It doesn't make you a bad person or a programmer. I received \
+refusals with such words as \"overqualified\" and \"we thought you would fall \
+somewhere and agree to the penny against quater,\" just flowers. Well, they \
+don't have a job for me, maybe.\n\n## Advice to interviewers\n\nMore empathy. \
+You are not a candidate, but a potential colleague. And you have no purpose \
+in overthrowing him; your task is to understand if he can perform the duties \
+that he will have and if it is comfortable for you to communicate. It's \
+impossible to do that in an hour and a half.\n\n## Instead of conviction\n\n\
+In my 10 years in IT, I have worked for many types of companies. They were \
+mainly start-ups or small companies with 20\[Dash]30 people. So, the \
+interviews at the enterprise are strikingly different from theirs. Recruiters \
+have a huge flow of vacancies and resumes, so wild options are possible at \
+first sight. For example, after seven successful interviews, I was told that \
+they could not find a position for me. WTF?! But as an excuse, I can say that \
+they have streaming hiring. I mean, they're screwing everybody, \"and we're \
+going to figure it out someday.\" And the processes are fully standardized. \
+Whether you're a senior in Python with 15 years of referral experience or \
+not, you still go through all the hell stages."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139851807833`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"a78788ff-85e1-4f5e-bb60-412bab50c9ec"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Final filename: \"\>", 
+   "\[InvisibleSpace]", "\<\"Interview tips\"\>"}],
+  SequenceForm["Final filename: ", "Interview tips"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139852121744`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"8475212b-e865-40f6-b381-67e7c5c4176e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", 
+   "\[InvisibleSpace]", "\<\"Interview tips\"\>"}],
+  SequenceForm["oldTitle: ", "Interview tips"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413985232178*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"f1a9bec2-cfad-4b60-bcb2-c7017b739a79"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Interview tips.md\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413985248178*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"d58d4294-5ab2-4089-9504-b9e4ed744f29"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "3", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Knowledge test.md\"\>"}],
+  SequenceForm[
+  3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Knowledge test.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139852661824`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"d71c0ffb-2c36-4380-a3dd-e617fa6388c9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", 
+   "\[InvisibleSpace]", "\<\"Knowledge test\"\>"}],
+  SequenceForm["oldTitle: ", "Knowledge test"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139852822037`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"8d336cb6-bdfe-4c9c-8888-5b0f9120431c"],
+
+Cell[BoxData["True"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324139852997484`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"dedc1aca-414f-411a-8b4e-e2dcfe25a68f"],
+
+Cell[BoxData[
+ TemplateBox[{"\"English\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"Language\"", ",", "\"English\""}], "]"}], 
+   "\"Entity[\\\"Language\\\", \\\"English\\\"]\"", "\"language\""},
+  "Entity"]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413985318748*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"63240d07-0d55-42dc-b566-058294df4e88"],
+
+Cell[BoxData["\<\"Starting paraphrase\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932413985340779*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"ae99bce7-2968-4825-a39f-c42c65a3c272"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rephrased: \"\>", 
+   "\[InvisibleSpace]", "\<\"Knowledge examination\"\>"}],
+  SequenceForm["Rephrased: ", "Knowledge examination"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140183566427`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"eafe1e90-3afd-4912-a67f-35871845c562"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newHeader: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Knowledge examination'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"}],
+  SequenceForm[
+  "newHeader: ", 
+   "+++\ntitle = 'Knowledge examination'\ndate = 2024-07-13T00:00:00-07:00\n\
+draft = true\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140183776436`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"00f70c2e-5d11-4993-88ae-7bf4cc0e7ef5"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Knowledge examination'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time it is about testing knowledge in enterprise \
+companies, and how the recruitment process should be constructed.\\n\\n## \
+Knowledge test\\n\\nSo, I talked about five stages of IT interviews. You \
+probably thought I exaggerated. But no: recruiter, python test, live coding, \
+system design, soft skills. Then another call for the offer presentation. So, \
+the second stage is just some kind of Facebook spam. Not only can it be \
+combined with live coding, if it is not just to code, but to discuss the \
+solution, but also the questions on it softly speaking are stupid. Primitive \
+and old-fashioned. So, according to the company's logic, you can send soaps \
+there, so you don't waste your gentlemen's time. I'm not, of course, Don \
+Carleone, but Middle just can't appreciate the master's knowledge. Banally, \
+he doesn't look there, but most importantly - superficially.\\n\\nFor \
+example, the question of how to measure the running time of the program. \
+Well, 'time.time' is complicated. Although I would have taken some more \
+suitable tool. But the correct answer is to use 'time.monotonic'. No \
+questions - it's absolutely true, but will we really measure in the night of \
+30 June to 1 July 2024? And is monotonous time really monotone evenly? After \
+clarifying questions, I realized that the interlocutor is aware of the \
+monotonous time, but absolutely no idea about the NTP and the transitional \
+second.\\n\\nAnd again, the NAC interview means that I can also know the \
+level of who I'm going to have to work with. One of them said, \\\"Here I'm \
+asking questions.\\\" For some reason, I immediately thought we't work.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'Knowledge examination'\ndate = 2024-07-13T00:00:00-07:00\n\
+draft = true\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++\nI've \
+been going to interviews again, and I'd like to share some observations. This \
+time it is about testing knowledge in enterprise companies, and how the \
+recruitment process should be constructed.\n\n## Knowledge test\n\nSo, I \
+talked about five stages of IT interviews. You probably thought I \
+exaggerated. But no: recruiter, python test, live coding, system design, soft \
+skills. Then another call for the offer presentation. So, the second stage is \
+just some kind of Facebook spam. Not only can it be combined with live \
+coding, if it is not just to code, but to discuss the solution, but also the \
+questions on it softly speaking are stupid. Primitive and old-fashioned. So, \
+according to the company's logic, you can send soaps there, so you don't \
+waste your gentlemen's time. I'm not, of course, Don Carleone, but Middle \
+just can't appreciate the master's knowledge. Banally, he doesn't look there, \
+but most importantly - superficially.\n\nFor example, the question of how to \
+measure the running time of the program. Well, 'time.time' is complicated. \
+Although I would have taken some more suitable tool. But the correct answer \
+is to use 'time.monotonic'. No questions - it's absolutely true, but will we \
+really measure in the night of 30 June to 1 July 2024? And is monotonous time \
+really monotone evenly? After clarifying questions, I realized that the \
+interlocutor is aware of the monotonous time, but absolutely no idea about \
+the NTP and the transitional second.\n\nAnd again, the NAC interview means \
+that I can also know the level of who I'm going to have to work with. One of \
+them said, \"Here I'm asking questions.\" For some reason, I immediately \
+thought we't work."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414018394641*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"491dfb68-3c1e-495d-8d3b-e0e24359a407"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Final filename: \"\>", 
+   "\[InvisibleSpace]", "\<\"Knowledge examination\"\>"}],
+  SequenceForm["Final filename: ", "Knowledge examination"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414018417647*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"0a8c2d7a-357f-4187-b26a-af20f9feecb7"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", 
+   "\[InvisibleSpace]", "\<\"Knowledge test\"\>"}],
+  SequenceForm["oldTitle: ", "Knowledge test"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140184316616`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"6722d6a9-64c4-445c-b7a1-ac164543c26a"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Knowledge examination.md\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140184452157`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"7b2f7b5c-77cf-4fd2-9f17-f6f75d489875"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "4", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Live Coding.md\"\>"}],
+  SequenceForm[
+  4, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Live Coding.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414018458217*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"77647b62-bc2f-4644-bb08-dafc284679b3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"Live Coding\"\>"}],
+  SequenceForm["oldTitle: ", "Live Coding"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140184722223`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"8f8e3e69-d32b-4b92-a86e-df12704d60af"],
+
+Cell[BoxData["True"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414018482215*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"4d9a6c42-9d3e-49b6-aef2-888a72dbde01"],
+
+Cell[BoxData[
+ TemplateBox[{"\"English\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"Language\"", ",", "\"English\""}], "]"}], 
+   "\"Entity[\\\"Language\\\", \\\"English\\\"]\"", "\"language\""},
+  "Entity"]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.93241401849422*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"939ffd27-26ef-4bca-a2a3-ec5ed06d9c1c"],
+
+Cell[BoxData["\<\"Starting paraphrase\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414018511221*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"8d67c111-a866-4afd-823f-1f43ba381435"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rephrased: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
+  SequenceForm["Rephrased: ", ""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140493054943`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"f2909353-53fa-4630-bc7a-1702b70ef3ff"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"\:0414\:043b\:0438\:043d\:043d\:0430 \:043d\:043e\:0432\:043e\
+\:0433\:043e \:0437\:0430\:0433\:043e\:043b\:043e\:0432\:043a\:0430: \"\>", 
+   "\[InvisibleSpace]", "11"}],
+  SequenceForm[
+  "\:0414\:043b\:0438\:043d\:043d\:0430 \:043d\:043e\:0432\:043e\:0433\:043e \
+\:0437\:0430\:0433\:043e\:043b\:043e\:0432\:043a\:0430: ", 11],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140493364906`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"2dc8b905-7517-475e-8275-e5be610495fb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newHeader: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Live Coding'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"}],
+  SequenceForm[
+  "newHeader: ", 
+   "+++\ntitle = 'Live Coding'\ndate = 2024-07-13T00:00:00-07:00\ndraft = \
+true\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414049358494*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"57b6fc58-8859-4649-9a68-7f55dbdd2dbc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Live Coding'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time we talk about Live Coding in enterprise companies, \
+and how the recruitment process should be constructed.\\n\\n## Live Coding\\n\
+\\nThere's always a lot of noise around him. Some people like it \
+(interviews), some people don't like it at all (candidates), and someone goes \
+to a psychologist after him for six months. This is not really to understand \
+that the candidate is able to code, not enough extensive project on github, \
+profile articles with code, reports after all... As I was told, this is done \
+to ensure that everyone is equal in recruitment. Well, good luck hiring a \
+leader or a gentleman in five rounds. At the second, he'll ask himself, \
+\\\"Do I really need this? Well, there are already 3 offers\\\" and it will \
+fall off.\\n\\nAll right, live coding. Usually you get two tasks to program. \
+Yeah, turn the trees. (Do you know what roffle? You come to them later, and \
+they don't have any trees at all) There's an hour for everything. And how \
+this hour will pass very much depends on the interlocutor. There are those \
+who help reason, elaborate the IDE, set up a two-point and self, if \
+forgotten, show some kind of empathy and support - the candidate is still in \
+stress. Take care of them! Much more often I get those who don't even turn on \
+the cameras. They just give a job and watch the attempts. At one of these \
+sessions, I solved a three-hour task. Did I get an offer - no :) \\\"Because \
+you probably have a choice, so we're not going to communicate.\\\" Epic \
+~~fail~~win!\\n\\nThe most interesting live coding I've ever had was with one \
+Canadian. We discussed and solved the problem together. Literally together - \
+he wrote one part, I wrote the second, more complicated. And that's when I \
+realized another problem of this session -- one-sidedness. We have a \
+co-interview at the end of the day. That is, the candidate should look after \
+future colleagues. Can they code too? Working at VOTVASYA does not always \
+involve this.\\n\\nAnd in a well-known company they are asked to solve the \
+problems for O(1), but it does not care about the amount of additional \
+memory. It's easy to understand why their app weighs so much, but it still \
+brakes. But the nuance is that in practice such code is much more difficult \
+to write and maintain because of the problems of synchronization of these \
+very data structures. And it turns out that the interview turns into an \
+Olympiad; and there how lucky - if you slept, come up with a solution; no - \
+nothing, you come up before sleeping.\\n\\nAnother reason why people do not \
+like online programming is that the interviewer is not prepared. Encoding in \
+a notebook with a scratched screen still occurs. Most often, of course, just \
+some kind of online editor, and good if with syntax lighting. But to find \
+such another half-business, you have to come up with a challenge. The \
+strangest thing I had was, \\\"Transfer money from account A to account B\\\" \
+- and the white screen. No interfaces, no templates, not even a hint on the \
+BD... And you just spend 10 minutes telling them what they want to see. What \
+about writing classes? What fields? In short, all this support code, which is \
+not directly related to the task.\\n\\nAnd now what we need to do. What I \
+liked most was the discussion of some kind of PR. Here, without sarcasm, it \
+is immediately clear how a person will behave in a working situation. What he \
+is paying attention to, what he is missing, and why. For example, gentlemen \
+usually ignore formatting because it's the work of linters, and focus more on \
+APIs, races, and optimum work with the base. I highly recommend trying.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'Live Coding'\ndate = 2024-07-13T00:00:00-07:00\ndraft = \
+true\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++\nI've \
+been going to interviews again, and I'd like to share some observations. This \
+time we talk about Live Coding in enterprise companies, and how the \
+recruitment process should be constructed.\n\n## Live Coding\n\nThere's \
+always a lot of noise around him. Some people like it (interviews), some \
+people don't like it at all (candidates), and someone goes to a psychologist \
+after him for six months. This is not really to understand that the candidate \
+is able to code, not enough extensive project on github, profile articles \
+with code, reports after all... As I was told, this is done to ensure that \
+everyone is equal in recruitment. Well, good luck hiring a leader or a \
+gentleman in five rounds. At the second, he'll ask himself, \"Do I really \
+need this? Well, there are already 3 offers\" and it will fall off.\n\nAll \
+right, live coding. Usually you get two tasks to program. Yeah, turn the \
+trees. (Do you know what roffle? You come to them later, and they don't have \
+any trees at all) There's an hour for everything. And how this hour will pass \
+very much depends on the interlocutor. There are those who help reason, \
+elaborate the IDE, set up a two-point and self, if forgotten, show some kind \
+of empathy and support - the candidate is still in stress. Take care of them! \
+Much more often I get those who don't even turn on the cameras. They just \
+give a job and watch the attempts. At one of these sessions, I solved a \
+three-hour task. Did I get an offer - no :) \"Because you probably have a \
+choice, so we're not going to communicate.\" Epic ~~fail~~win!\n\nThe most \
+interesting live coding I've ever had was with one Canadian. We discussed and \
+solved the problem together. Literally together - he wrote one part, I wrote \
+the second, more complicated. And that's when I realized another problem of \
+this session -- one-sidedness. We have a co-interview at the end of the day. \
+That is, the candidate should look after future colleagues. Can they code \
+too? Working at VOTVASYA does not always involve this.\n\nAnd in a well-known \
+company they are asked to solve the problems for O(1), but it does not care \
+about the amount of additional memory. It's easy to understand why their app \
+weighs so much, but it still brakes. But the nuance is that in practice such \
+code is much more difficult to write and maintain because of the problems of \
+synchronization of these very data structures. And it turns out that the \
+interview turns into an Olympiad; and there how lucky - if you slept, come up \
+with a solution; no - nothing, you come up before sleeping.\n\nAnother reason \
+why people do not like online programming is that the interviewer is not \
+prepared. Encoding in a notebook with a scratched screen still occurs. Most \
+often, of course, just some kind of online editor, and good if with syntax \
+lighting. But to find such another half-business, you have to come up with a \
+challenge. The strangest thing I had was, \"Transfer money from account A to \
+account B\" - and the white screen. No interfaces, no templates, not even a \
+hint on the BD... And you just spend 10 minutes telling them what they want \
+to see. What about writing classes? What fields? In short, all this support \
+code, which is not directly related to the task.\n\nAnd now what we need to \
+do. What I liked most was the discussion of some kind of PR. Here, without \
+sarcasm, it is immediately clear how a person will behave in a working \
+situation. What he is paying attention to, what he is missing, and why. For \
+example, gentlemen usually ignore formatting because it's the work of \
+linters, and focus more on APIs, races, and optimum work with the base. I \
+highly recommend trying."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140493765106`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"d8631b1f-39e4-4489-b405-632613a65070"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Final filename: \"\>", 
+   "\[InvisibleSpace]", "\<\"Live Coding\"\>"}],
+  SequenceForm["Final filename: ", "Live Coding"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414049405069*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"2dcfa4bb-d87d-4cdd-a0e7-03a0a695e25f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"Live Coding\"\>"}],
+  SequenceForm["oldTitle: ", "Live Coding"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.93241404942107*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"47c10411-7f14-4a33-a3fe-ab1e62147804"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Live Coding.md\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140494360557`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"ad4c9ad0-8b0b-4a32-a6ef-a7dd7edb2b59"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "5", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Screening.md\"\>"}],
+  SequenceForm[
+  5, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Screening.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140494530587`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"dbaf91b8-0eaa-4b8e-8088-7a0d7134d390"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"Screening\"\>"}],
+  SequenceForm["oldTitle: ", "Screening"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414049466077*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"12da3a06-3d11-4c37-868d-7b8c3033a28f"],
+
+Cell[BoxData["True"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140494836607`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"fbca1c64-e13e-435a-b2bc-9ee0d8bb4148"],
+
+Cell[BoxData[
+ TemplateBox[{"\"English\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"Language\"", ",", "\"English\""}], "]"}], 
+   "\"Entity[\\\"Language\\\", \\\"English\\\"]\"", "\"language\""},
+  "Entity"]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414049498618*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"9909c926-e62d-4df8-abb7-f6cac5057d16"],
+
+Cell[BoxData["\<\"Starting paraphrase\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140495286098`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"809c8d93-5d14-4906-8c9c-720bf2f0a450"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rephrased: \"\>", "\[InvisibleSpace]", "\<\"Examining\"\>"}],
+  SequenceForm["Rephrased: ", "Examining"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414083097978*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"e0eee1b1-0d6e-407d-96fd-06bf39c15bfc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newHeader: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Examining'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"}],
+  SequenceForm[
+  "newHeader: ", 
+   "+++\ntitle = 'Examining'\ndate = 2024-07-13T00:00:00-07:00\ndraft = true\n\
+categories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414083117*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"b6f0bdf7-a602-46c9-a770-05ee82b719f4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'Examining'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time we talk about Screening in enterprise companies, and \
+how the recruitment process should be constructed.\\n\\n## Skpining\\n\\nIt \
+all starts with it, and tech-skpining becomes the norm. Recruiter directly on \
+the first call asks cavernous questions and checks with sparkling. For \
+example:\\n\\n- how to stop the container?\\n    \\n- unchanged data typesx \
+in python?\\n    \\n- What's the PID of the Linux kernel?\\n    \\n- how do \
+you decipher CAP and PACELC?\\n    \\n- ...\\n    \\n\\nSome of them go even \
+further and create an entire platform with small pieces of code that can be \
+run. 20 questions in 20 minutes. \\\"How do I send a message to the \
+generator?\\\" or \\\"What does this code do?\\\" Well, he knows, I't just \
+miss that code on a review, because it's wild. Well, yes, I forgot that \
+sorted's second argument is only named, so we get a minus. And the system \
+doesn't care what Google does in 25 seconds, I checked.\\n\\nWill you have \
+such a screening or not? I don't know, but be prepared. One such conversation \
+caught me on the Skytrain, it was a little weird. But it seems to me that \
+even recruiters are tired of the outcasts, who do not know anything, but send \
+resumes to all available places.\\n\\nBut at the same time the magic of the \
+calendar was mastered by ~20% of them. They are somehow convinced that by the \
+phrase \\\"I made a call on Friday at 1:30 pm, here's the link...\\\" the \
+communication is over. No, damn it! Calendar! Because I:\\n\\n- \:0437\:0430\
+\:0431\:0443\:0434\:0443\\n    \\n- I'll lose links\\n    \\n- \:0437\:0430\
+\:0439\:043c\:0443 \:0441\:043b\:043e\:0442\\n    \\n- I'll count for an hour \
+and a half instead of an hour.\\n    \\n- I don't get to know the \
+interlocutor off-the-shelf.\\n    \\n- and generally 1:30 pm it was UTC (not \
+PST)\\n    \\n\\nThere should be a mandatory test when setting up a recruiter \
+for work. And in one big company with circles came to the fact that in 2 \
+weeks we agreed on the interview 3 times, but in the end the interviewer did \
+not come, then the time did not set (\\\"I put on Monday?\\\" - \\\"Oh, free \
+all day\\\" - and silence...). And if you ask to transfer because of illness, \
+you will be forgotten at all. With the calendar of facaps will be less.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'Examining'\ndate = 2024-07-13T00:00:00-07:00\ndraft = true\n\
+categories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++\nI've \
+been going to interviews again, and I'd like to share some observations. This \
+time we talk about Screening in enterprise companies, and how the recruitment \
+process should be constructed.\n\n## Skpining\n\nIt all starts with it, and \
+tech-skpining becomes the norm. Recruiter directly on the first call asks \
+cavernous questions and checks with sparkling. For example:\n\n- how to stop \
+the container?\n    \n- unchanged data typesx in python?\n    \n- What's the \
+PID of the Linux kernel?\n    \n- how do you decipher CAP and PACELC?\n    \n\
+- ...\n    \n\nSome of them go even further and create an entire platform \
+with small pieces of code that can be run. 20 questions in 20 minutes. \"How \
+do I send a message to the generator?\" or \"What does this code do?\" Well, \
+he knows, I't just miss that code on a review, because it's wild. Well, yes, \
+I forgot that sorted's second argument is only named, so we get a minus. And \
+the system doesn't care what Google does in 25 seconds, I checked.\n\nWill \
+you have such a screening or not? I don't know, but be prepared. One such \
+conversation caught me on the Skytrain, it was a little weird. But it seems \
+to me that even recruiters are tired of the outcasts, who do not know \
+anything, but send resumes to all available places.\n\nBut at the same time \
+the magic of the calendar was mastered by ~20% of them. They are somehow \
+convinced that by the phrase \"I made a call on Friday at 1:30 pm, here's the \
+link...\" the communication is over. No, damn it! Calendar! Because I:\n\n- \
+\:0437\:0430\:0431\:0443\:0434\:0443\n    \n- I'll lose links\n    \n- \:0437\
+\:0430\:0439\:043c\:0443 \:0441\:043b\:043e\:0442\n    \n- I'll count for an \
+hour and a half instead of an hour.\n    \n- I don't get to know the \
+interlocutor off-the-shelf.\n    \n- and generally 1:30 pm it was UTC (not \
+PST)\n    \n\nThere should be a mandatory test when setting up a recruiter \
+for work. And in one big company with circles came to the fact that in 2 \
+weeks we agreed on the interview 3 times, but in the end the interviewer did \
+not come, then the time did not set (\"I put on Monday?\" - \"Oh, free all \
+day\" - and silence...). And if you ask to transfer because of illness, you \
+will be forgotten at all. With the calendar of facaps will be less."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140831345453`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"ece50d29-2665-43e5-af7b-4f743971833a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Final filename: \"\>", 
+   "\[InvisibleSpace]", "\<\"Examining\"\>"}],
+  SequenceForm["Final filename: ", "Examining"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140831655397`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"0ff70cc6-efda-4338-afd6-922b83fa7fe1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"Screening\"\>"}],
+  SequenceForm["oldTitle: ", "Screening"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140831825557`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"6cbe3c21-e701-4a4a-8d27-c2cf0c360e0a"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Examining.md\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140832005434`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"79208882-9b7e-4ca0-bf97-5dc7f4b0de72"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "6", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\System Design.md\"\>"}],
+  SequenceForm[
+  6, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\System Design.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324140832185645`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"ad69be23-8d43-4360-9b84-508052903ed1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"System Design\"\>"}],
+  SequenceForm["oldTitle: ", "System Design"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414083237115*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"b10e808a-c0fb-400e-a5a3-c5fdffce6aa3"],
+
+Cell[BoxData["True"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414083254118*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"fe4e88e1-327c-4e81-9582-ac9e22fb5b68"],
+
+Cell[BoxData[
+ TemplateBox[{"\"English\"", 
+   RowBox[{"Entity", "[", 
+     RowBox[{"\"Language\"", ",", "\"English\""}], "]"}], 
+   "\"Entity[\\\"Language\\\", \\\"English\\\"]\"", "\"language\""},
+  "Entity"]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414083269121*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"a9147381-e54f-4325-981e-26b593051982"],
+
+Cell[BoxData["\<\"Starting paraphrase\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414083287114*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"e2a5eacc-d701-487b-bba1-8be45f3c898b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Rephrased: \"\>", 
+   "\[InvisibleSpace]", "\<\"System Architecture\"\>"}],
+  SequenceForm["Rephrased: ", "System Architecture"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324141150356755`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"45c1dc48-6252-4a91-9775-14dfc4143ea3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newHeader: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'System Architecture'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\"\
+\>"}],
+  SequenceForm[
+  "newHeader: ", 
+   "+++\ntitle = 'System Architecture'\ndate = 2024-07-13T00:00:00-07:00\n\
+draft = true\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324141151754093`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"61b65bf8-dbd4-4f84-a7bf-3275b2242947"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle = 'System Architecture'\\ndate = \
+2024-07-13T00:00:00-07:00\\ndraft = true\\ncategories = \
+[\\\"recruiting\\\"]\\ntags = \
+[]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\\n+++\\\
+nI've been going to interviews again, and I'd like to share some \
+observations. This time we talk about System Design enterprise companies, and \
+how the recruitment process should be constructed.\\n\\n## System \
+Design\\n\\nIn senior grades, another type of interview appears - system \
+design. In one hour you have to design systemsy, thinking about the \
+architecture of which in a real project you would spend several weeks. IDEF0, \
+UseCase, ER, C4, DFD, BPMN - forget these scary words, there's no time for \
+them. Figac-figac and Proudakshen. Requirements collection -> usage options \
+-> system requirements -> processing -> presentation of the solution, time \
+has passed. The main thing here is more basic words, to build a smart face \
+and somewhere to put kafka. Then they'll be behind you in 40 minutes.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle = 'System Architecture'\ndate = 2024-07-13T00:00:00-07:00\n\
+draft = true\ncategories = [\"recruiting\"]\ntags = []\n\
+cover_image='/images/cover/knoxwelle__2021-07-25T042445.000Z.jpg'\n+++\nI've \
+been going to interviews again, and I'd like to share some observations. This \
+time we talk about System Design enterprise companies, and how the \
+recruitment process should be constructed.\n\n## System Design\n\nIn senior \
+grades, another type of interview appears - system design. In one hour you \
+have to design systemsy, thinking about the architecture of which in a real \
+project you would spend several weeks. IDEF0, UseCase, ER, C4, DFD, BPMN - \
+forget these scary words, there's no time for them. Figac-figac and \
+Proudakshen. Requirements collection -> usage options -> system requirements \
+-> processing -> presentation of the solution, time has passed. The main \
+thing here is more basic words, to build a smart face and somewhere to put \
+kafka. Then they'll be behind you in 40 minutes."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.932414115192416*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"824a453d-4768-4a48-8f13-90c3c5744410"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Final filename: \"\>", 
+   "\[InvisibleSpace]", "\<\"System Architecture\"\>"}],
+  SequenceForm["Final filename: ", "System Architecture"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.93241411521142*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"0053d2a7-8cd6-409e-a6cc-a5d26d6b0370"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldTitle: \"\>", "\[InvisibleSpace]", "\<\"System Design\"\>"}],
+  SequenceForm["oldTitle: ", "System Design"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324141152264147`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"cca1414c-db84-4ed6-8fad-57915d0312bc"],
+
+Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\System Architecture.md\"\>"], "Print",
+ CellChangeTimes->{3.932412420491789*^9, 3.9324126990675964`*^9, 
+  3.9324132044539814`*^9, 3.932413513263705*^9, 3.932413634260309*^9, 
+  3.932413708310449*^9, 3.9324137997855935`*^9, 3.932413862167739*^9, 
+  3.9324141152404227`*^9},
+ CellLabel->
+  "During evaluation of \
+In[316]:=",ExpressionUUID->"73b7c5b1-1a96-4ec7-82f3-84f4a063a37b"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{586.5, 687.75},
+WindowMargins->{{Automatic, 29.25}, {Automatic, 11.25}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a023188e-9dbd-4779-977d-a689875386cc"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+Cell[1218, 38, 3975, 58, 107, "Output",ExpressionUUID->"f3091758-460c-46ca-bc89-d17b13dfec58"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5230, 101, 19015, 362, 1595, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+Cell[CellGroupData[{
+Cell[24270, 467, 718, 17, 18, "Print",ExpressionUUID->"a8bf6ddf-0b3b-4088-8c45-7f8a35c6c455"],
+Cell[24991, 486, 525, 11, 18, "Print",ExpressionUUID->"f34cead8-8891-4e41-b610-a671e1bd9dca"],
+Cell[25519, 499, 370, 7, 18, "Print",ExpressionUUID->"bb232b21-eb08-4c12-8e62-0c888704c76a"],
+Cell[25892, 508, 562, 12, 26, "Print",ExpressionUUID->"98a696e0-5d93-4c66-b686-2f6aa3b477a1"],
+Cell[26457, 522, 396, 7, 18, "Print",ExpressionUUID->"b4a12d32-e578-4f43-86cc-ab7ce00e37df"],
+Cell[26856, 531, 543, 12, 18, "Print",ExpressionUUID->"13f235f5-a4e1-4593-8448-d7390899b215"],
+Cell[27402, 545, 527, 11, 18, "Print",ExpressionUUID->"5acc6f7a-29d6-4c48-b8a7-0ed5280bf074"],
+Cell[27932, 558, 476, 8, 18, "Print",ExpressionUUID->"4d09bc16-b112-474a-891b-188a3dfad651"],
+Cell[28411, 568, 726, 17, 18, "Print",ExpressionUUID->"0b4f3650-87b2-41be-a73b-03dd065a8da7"],
+Cell[29140, 587, 535, 12, 18, "Print",ExpressionUUID->"8a653fad-9478-4f4e-9c06-030e409eec4c"],
+Cell[29678, 601, 368, 7, 18, "Print",ExpressionUUID->"7ada99c9-7c53-4f70-82e5-a0b86ac1ca3d"],
+Cell[30049, 610, 562, 12, 26, "Print",ExpressionUUID->"0dce1d79-04ed-4954-9706-1eecb79c8169"],
+Cell[30614, 624, 392, 7, 18, "Print",ExpressionUUID->"7d42f55a-494f-467d-a809-dc59c3c1444a"],
+Cell[31009, 633, 505, 11, 18, "Print",ExpressionUUID->"f00a9e7a-36a0-4015-9ffd-f0fbe217f293"],
+Cell[31517, 646, 748, 15, 18, "Print",ExpressionUUID->"f3d9bb0b-ce2b-4b10-8bbb-cf4080a5c591"],
+Cell[32268, 663, 925, 20, 109, "Print",ExpressionUUID->"d22cb27c-3eb6-4a1a-8d4d-b57cd0a34103"],
+Cell[33196, 685, 6657, 94, 768, "Print",ExpressionUUID->"a78788ff-85e1-4f5e-bb60-412bab50c9ec"],
+Cell[39856, 781, 549, 12, 18, "Print",ExpressionUUID->"8475212b-e865-40f6-b381-67e7c5c4176e"],
+Cell[40408, 795, 535, 12, 18, "Print",ExpressionUUID->"f1a9bec2-cfad-4b60-bcb2-c7017b739a79"],
+Cell[40946, 809, 480, 8, 18, "Print",ExpressionUUID->"d58d4294-5ab2-4089-9504-b9e4ed744f29"],
+Cell[41429, 819, 726, 17, 18, "Print",ExpressionUUID->"d71c0ffb-2c36-4380-a3dd-e617fa6388c9"],
+Cell[42158, 838, 537, 12, 18, "Print",ExpressionUUID->"8d336cb6-bdfe-4c9c-8888-5b0f9120431c"],
+Cell[42698, 852, 371, 7, 18, "Print",ExpressionUUID->"dedc1aca-414f-411a-8b4e-e2dcfe25a68f"],
+Cell[43072, 861, 560, 12, 26, "Print",ExpressionUUID->"63240d07-0d55-42dc-b566-058294df4e88"],
+Cell[43635, 875, 392, 7, 18, "Print",ExpressionUUID->"ae99bce7-2968-4825-a39f-c42c65a3c272"],
+Cell[44030, 884, 553, 12, 18, "Print",ExpressionUUID->"eafe1e90-3afd-4912-a67f-35871845c562"],
+Cell[44586, 898, 937, 20, 109, "Print",ExpressionUUID->"00f70c2e-5d11-4993-88ae-7bf4cc0e7ef5"],
+Cell[45526, 920, 4390, 65, 439, "Print",ExpressionUUID->"491dfb68-3c1e-495d-8d3b-e0e24359a407"],
+Cell[49919, 987, 561, 12, 18, "Print",ExpressionUUID->"0a8c2d7a-357f-4187-b26a-af20f9feecb7"],
+Cell[50483, 1001, 537, 12, 18, "Print",ExpressionUUID->"6722d6a9-64c4-445c-b7a1-ac164543c26a"],
+Cell[51023, 1015, 489, 8, 18, "Print",ExpressionUUID->"7b2f7b5c-77cf-4fd2-9f17-f6f75d489875"],
+Cell[51515, 1025, 718, 17, 18, "Print",ExpressionUUID->"77647b62-bc2f-4644-bb08-dafc284679b3"],
+Cell[52236, 1044, 527, 11, 18, "Print",ExpressionUUID->"8f8e3e69-d32b-4b92-a86e-df12704d60af"],
+Cell[52766, 1057, 369, 7, 18, "Print",ExpressionUUID->"4d9a6c42-9d3e-49b6-aef2-888a72dbde01"],
+Cell[53138, 1066, 559, 12, 26, "Print",ExpressionUUID->"939ffd27-26ef-4bca-a2a3-ec5ed06d9c1c"],
+Cell[53700, 1080, 392, 7, 18, "Print",ExpressionUUID->"8d67c111-a866-4afd-823f-1f43ba381435"],
+Cell[54095, 1089, 507, 11, 18, "Print",ExpressionUUID->"f2909353-53fa-4630-bc7a-1702b70ef3ff"],
+Cell[54605, 1102, 750, 15, 18, "Print",ExpressionUUID->"2dc8b905-7517-475e-8275-e5be610495fb"],
+Cell[55358, 1119, 915, 20, 109, "Print",ExpressionUUID->"57b6fc58-8859-4649-9a68-7f55dbdd2dbc"],
+Cell[56276, 1141, 8420, 117, 768, "Print",ExpressionUUID->"d8631b1f-39e4-4489-b405-632613a65070"],
+Cell[64699, 1260, 541, 12, 18, "Print",ExpressionUUID->"2dcfa4bb-d87d-4cdd-a0e7-03a0a695e25f"],
+Cell[65243, 1274, 524, 11, 18, "Print",ExpressionUUID->"47c10411-7f14-4a33-a3fe-ab1e62147804"],
+Cell[65770, 1287, 479, 8, 18, "Print",ExpressionUUID->"ad4c9ad0-8b0b-4a32-a6ef-a7dd7edb2b59"],
+Cell[66252, 1297, 716, 17, 18, "Print",ExpressionUUID->"dbaf91b8-0eaa-4b8e-8088-7a0d7134d390"],
+Cell[66971, 1316, 521, 11, 18, "Print",ExpressionUUID->"12da3a06-3d11-4c37-868d-7b8c3033a28f"],
+Cell[67495, 1329, 371, 7, 18, "Print",ExpressionUUID->"fbca1c64-e13e-435a-b2bc-9ee0d8bb4148"],
+Cell[67869, 1338, 560, 12, 26, "Print",ExpressionUUID->"9909c926-e62d-4df8-abb7-f6cac5057d16"],
+Cell[68432, 1352, 394, 7, 18, "Print",ExpressionUUID->"809c8d93-5d14-4906-8c9c-720bf2f0a450"],
+Cell[68829, 1361, 523, 11, 18, "Print",ExpressionUUID->"e0eee1b1-0d6e-407d-96fd-06bf39c15bfc"],
+Cell[69355, 1374, 908, 20, 109, "Print",ExpressionUUID->"b6f0bdf7-a602-46c9-a770-05ee82b719f4"],
+Cell[70266, 1396, 5622, 80, 794, "Print",ExpressionUUID->"ece50d29-2665-43e5-af7b-4f743971833a"],
+Cell[75891, 1478, 539, 12, 18, "Print",ExpressionUUID->"0ff70cc6-efda-4338-afd6-922b83fa7fe1"],
+Cell[76433, 1492, 523, 11, 18, "Print",ExpressionUUID->"6cbe3c21-e701-4a4a-8d27-c2cf0c360e0a"],
+Cell[76959, 1505, 477, 8, 18, "Print",ExpressionUUID->"79208882-9b7e-4ca0-bf97-5dc7f4b0de72"],
+Cell[77439, 1515, 724, 17, 18, "Print",ExpressionUUID->"ad69be23-8d43-4360-9b84-508052903ed1"],
+Cell[78166, 1534, 529, 11, 18, "Print",ExpressionUUID->"b10e808a-c0fb-400e-a5a3-c5fdffce6aa3"],
+Cell[78698, 1547, 369, 7, 18, "Print",ExpressionUUID->"fe4e88e1-327c-4e81-9582-ac9e22fb5b68"],
+Cell[79070, 1556, 560, 12, 26, "Print",ExpressionUUID->"a9147381-e54f-4325-981e-26b593051982"],
+Cell[79633, 1570, 392, 7, 18, "Print",ExpressionUUID->"e2a5eacc-d701-487b-bba1-8be45f3c898b"],
+Cell[80028, 1579, 549, 12, 18, "Print",ExpressionUUID->"45c1dc48-6252-4a91-9775-14dfc4143ea3"],
+Cell[80580, 1593, 933, 20, 109, "Print",ExpressionUUID->"61b65bf8-dbd4-4f84-a7bf-3275b2242947"],
+Cell[81516, 1615, 2570, 41, 280, "Print",ExpressionUUID->"824a453d-4768-4a48-8f13-90c3c5744410"],
+Cell[84089, 1658, 556, 12, 18, "Print",ExpressionUUID->"0053d2a7-8cd6-409e-a6cc-a5d26d6b0370"],
+Cell[84648, 1672, 531, 11, 18, "Print",ExpressionUUID->"cca1414c-db84-4ed6-8fad-57915d0312bc"],
+Cell[85182, 1685, 487, 8, 18, "Print",ExpressionUUID->"73b7c5b1-1a96-4ec7-82f3-84f4a063a37b"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

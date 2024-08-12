@@ -6,14 +6,35 @@
     <description>Recent content in Python on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Minimize the amount of complexity that is already there and get rid of any extraneous details</title>
-      <link>http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/</link>
-      <pubDate>Sat, 13 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/minimize-the-amount-of-complexity-that-is-already-there-and-get-rid-of-any-extraneous-details/</guid>
-      <description>Right now, somewhere is suffering the disaster of another project of a wage calculation system&amp;hellip; And probably not alone. Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it? Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that&amp;rsquo;s the case, we need to think a little bit about how to help them succeed.</description>
+      <title>Knowledge test</title>
+      <link>http://localhost:1313/posts/knowledge-test/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/knowledge-test/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time it is about testing knowledge in enterprise companies and how the recruitment process should be constructed.&#xA;Knowledge test So, I talked about five stages of IT interviews. You probably thought I exaggerated. But no: recruiter, Python test, live coding, system design, soft skills. Then another call for the offer presentation. So, the second stage is just some kind of Facebook spam. Not only can it be combined with live coding if it is not just to code but to discuss the solution, but also the questions on it, softly speaking, are stupid. Primitive and old-fashioned. So, according to the company&amp;rsquo;s logic, you can send soaps there, so you don&amp;rsquo;t waste your gentlemen&amp;rsquo;s time.</description>
+    </item>
+    <item>
+      <title>Interview tips</title>
+      <link>http://localhost:1313/posts/interview-tips/</link>
+      <pubDate>Sun, 07 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/interview-tips/</guid>
+      <description>The fate of fate I started to go to interviews again, and I want to share some observations. On this, I just give advice to everyone in enterprise companies about how the recruitment process should be structured.&#xA;Advice to candidates In the last five years, I&amp;rsquo;ve been through several hundred interviews on both sides. So, some life hacking:&#xA;You&amp;rsquo;re going to have to go through the windshields. Those you&amp;rsquo;re not going to go to. You pump the skill, or suddenly something interesting turns out to be, or it&amp;rsquo;ll be the only place with the offer. You never know what&amp;rsquo;s in a box of candy.&#xA;Get some sleep and let yourself rest on the day of wrath. The same live coding is quite a dumb thing; the solution may not come during the call but will appear immediately after.</description>
+    </item>
+    <item>
+      <title>Screening</title>
+      <link>http://localhost:1313/posts/screening/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/screening/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time we talk about Screening in enterprise companies, and how the recruitment process should be constructed.&#xA;Screening It all starts with it, and tech-screening becomes the norm. Recruiter directly on the first call asks cavernous questions and checks with sparkling. For example:&#xA;how to stop the container? unchanged data typesx in python? What&amp;rsquo;s the PID of the Linux kernel? how do you decipher CAP and PACELC? &amp;hellip; Some of them go even further and create an entire platform with small pieces of code that can be run. 20 questions in 20 minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; or &amp;ldquo;What does this code do?&amp;rdquo; Well, he knows, I&amp;rsquo;t just miss that code on a review, because it&amp;rsquo;s wild.</description>
+    </item>
+    <item>
+      <title>Perhaps your main problem is not technology</title>
+      <link>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</link>
+      <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</guid>
+      <description>Right now, somewhere is suffering the disaster of another project of a wage calculation system&amp;hellip; And probably not alone.&#xA;Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it?&#xA;Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that&amp;rsquo;s the case, we need to think a little bit about how to help them succeed.</description>
     </item>
   </channel>
 </rss>

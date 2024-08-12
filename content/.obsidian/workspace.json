@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "4affcbaa6c649271",
+        "id": "781461cab4be81a6",
         "type": "tabs",
         "children": [
           {
-            "id": "ef4f124263e61312",
+            "id": "63a26ad8b24d63ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "about/about.md",
+                "file": "posts/Application performance determined by architecture.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 303.5
   },
   "right": {
     "id": "45775cd4cc832aed",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about/about.md",
+                "file": "posts/Application performance determined by architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about/about.md",
+                "file": "posts/Application performance determined by architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about/about.md"
+                "file": "posts/Application performance determined by architecture.md"
               }
             }
           }
@@ -146,32 +146,53 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "ef4f124263e61312",
+  "active": "63a26ad8b24d63ea",
   "lastOpenFiles": [
-    "posts/Minimize the amount of complexity that is already there and get rid of any extraneous details.md",
-    "about/about.md",
-    "resume/resume.md",
-    "about",
-    "resume/Resume_Stan_Korolev_mini.pdf",
-    "'/Resume_Stan_Korolev_mini.pdf'.md",
-    "resume.md",
-    "resume",
-    "Новая папка",
-    "'",
-    "Resume_Stan_Korolev_mini.pdf",
+    "posts/There are no solutions for all cases of life.md",
+    "posts/You negotiate more often than you think.md",
+    "posts/Problems can be more than their reflection in the mirror.md",
+    "posts/One line of working code costs 500 lines of specification.md",
+    "posts/System Design.md",
+    "posts/Do it in a hurry and escape this crime.md",
+    "posts/Architectural compromises.md",
+    "posts/Business runs everything.md",
+    "posts/Be guided by uncertainty.md",
+    "posts/Use quantitative criteria.md",
+    "posts/Ensure continuous integration.md",
+    "posts/The architect must be a practitioner.md",
+    "posts/Try not to break the schedule.md",
+    "posts/There may be several solutions.md",
+    "posts/Database as Fort.md",
+    "posts/Failures are inevitable.md",
+    "posts/Get up.md",
+    "posts/Simplicity is better than versatility.md",
+    "posts/System Design.txt",
+    "posts/Screening.md",
+    "posts/Screening.txt",
     "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.md",
     "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.txt",
+    "posts/Perhaps your main problem is not technology.md",
+    "posts/Perhaps your main problem is not technology.txt",
     "posts/Never prioritize your resume over the needs of the client.md",
     "posts/Never prioritize your resume over the needs of the client.txt",
-    "posts/Minimize the amount of complexity that is already there and get rid of any extraneous details.txt",
-    "posts/Reduce the amount of inherent complexity and eliminate any additional complication.txt",
-    "posts/Do not put your resume above the interests of the client.md",
-    "posts/Cut back on fundamental complexity and do away with incidental complexity..md",
-    "posts/Reduce the amount of inherent complexity and eliminate any additional complication..md",
-    "posts/info 2.md",
-    "posts/info 1.md",
-    "draft/info.md",
-    "draft/info 2.md",
-    "draft/info 1.md"
+    "posts/Встаньте.txt",
+    "posts/Сбои неизбежны.txt",
+    "posts/Всем заправляет бизнес.txt",
+    "posts/База данных как Крепость.txt",
+    "posts/Архитектурные компромиссы.txt",
+    "posts/Creating architecture as the art of balance.md",
+    "posts/It's never too early to think about productivity.md",
+    "posts/Live Coding.md",
+    "posts/Knowledge test.md",
+    "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T145454.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T150225.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173907.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T180113.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140333.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140122.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T135922.000Z.jpg"
   ]
 }

@@ -1,0 +1,17 @@
++++
+title = 'Business runs everything'
+date = 2024-05-17T00:00:00-07:00
+draft = false
+categories = []
+tags = ["software", "technical", "business", "development", "architect", "management", "decisions"]
+cover_image='/images/cover/knoxwelle__2017-01-04T173648.000Z.jpg'
++++
+In the context of the development of corporate software applications, the architect should become a kind of bridge in the company between the business and technical communities, representing and defending the interests of both sides and often acting as a mediator between them, but at the same time allowing the business to control the affairs.When making technological decisions, the architect must be guided by the business objectives of the company and its surrounding realities.
+
+Before undertaking a software development project, a commercial company usually plans and announces the desired return on investment (ROI).The architect must accept this indicator and the resulting limitations of the value of the product created for the company.This will help to avoid technical solutions that could lead to excessive expenditure. The return rate should serve as an important component of the target context both when communicating with management (during the search for a compromise between the value of a particular function and the cost of its implementation), and when discussing the technical architecture and implementation with the development team.In particular, before the development team, the architect must represent the interests of the business, not agreeing to the choice of technology with unacceptably high licensing costs and support costs in the testing phase or the actual operation of the product.
+
+One of the challenges that arises when everyone's business is dominated is to provide enough qualitative information about how product development moves so that business management can make informed business decisions.Transparency plays a key role here.The architect, together with the project management, should create and improve the means of obtaining regular, prompt feedback. This goal can be achieved by applying various techniques of lean software development: large, visible diagrams, continuous integration, frequent releases of working versions of the product and their transfer to business management at the earliest stages of the project.
+
+Software development is essentially a design activity, which implies a continuous decision-making process until the ready-made system is put into operation.It is quite natural for developers to make many decisions, but these decisions usually do not relate to the business side of the issue.However, to the extent that business management neglects its responsibilities by not giving the development team direction, answering their questions and making business decisions, it actually leaves business decision-making to the developers themselves.For current micro-decisions adopted by developers, the architect must provide a macro-context, communicating information about the software architecture and business goals and protecting them. It should also ensure that developers do not make business decisions.Technical decisions taken apart from business obligations, expectations and realities (which should be regularly voiced by the business party in the process of working on the project) are reduced to conjecture and often lead to unjustified costs of scarce resources.
+
+In the long term, the interests of the development team are best respected when the business is at the helm.

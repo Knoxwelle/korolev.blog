@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goal on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/goal/</link>
+    <description>Recent content in Goal on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/goal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Одна строка рабочего кода стоит 500 строк спецификации</title>
+      <link>http://localhost:1313/posts/%D0%BE%D0%B4%D0%BD%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0-%D1%81%D1%82%D0%BE%D0%B8%D1%82-500-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%BE%D0%B4%D0%BD%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0-%D1%81%D1%82%D0%BE%D0%B8%D1%82-500-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/</guid>
+      <description>Proecting is a beautiful thing. A systematic, detailed presentation of the space of the problem and its solution reveals mistakes and reveals opportunities for improvement, sometimes in a very radical way.Specifications play an important role in this, as they define the pattern for building the system.It is very important to think about the entire architecture—both at the macro level, considering the interaction between the components, and at the micro level, penetrating the behavior of components themselves.&#xA;Unfortunately, architects are often fascinated by the design process, falling under the charm of architectural abstractions. However, the specifications themselves have no value. The ultimate objective of the software project is a really functioning system.The architect should always keep this goal in mind and remember that design is only a means, not the end result.</description>
+    </item>
+  </channel>
+</rss>

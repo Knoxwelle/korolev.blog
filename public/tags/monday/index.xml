@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monday on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/monday/</link>
+    <description>Recent content in Monday on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/monday/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Screening</title>
+      <link>http://localhost:1313/posts/screening/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/screening/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time we talk about Screening in enterprise companies, and how the recruitment process should be constructed.&#xA;Screening It all starts with it, and tech-screening becomes the norm. Recruiter directly on the first call asks cavernous questions and checks with sparkling. For example:&#xA;how to stop the container? unchanged data typesx in python? What&amp;rsquo;s the PID of the Linux kernel? how do you decipher CAP and PACELC? &amp;hellip; Some of them go even further and create an entire platform with small pieces of code that can be run. 20 questions in 20 minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; or &amp;ldquo;What does this code do?&amp;rdquo; Well, he knows, I&amp;rsquo;t just miss that code on a review, because it&amp;rsquo;s wild.</description>
+    </item>
+  </channel>
+</rss>

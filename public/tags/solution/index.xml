@@ -6,14 +6,35 @@
     <description>Recent content in Solution on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/solution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Never prioritize your resume over the needs of the client</title>
       <link>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</guid>
-      <description>We, technicians, choose to use certain technologies, methodologies and approaches to solve problems not because they provide the optimal solution, but only because in the depths of our heart we want to mention them in our summary. Such a choice very rarely leads to a positive result. The most powerful catalyst for your career will be grateful customers who are in a long queue to recommend you to others – because you have worked so well for them. The kindness of the customers will serve you better than any new-fashioned object of the new language and any newly invented paradigm. While it is very important (and even vital) for an architect to be up to date with the latest trends and technologies, never try to expand your horizons at the expense of the client.</description>
+      <description>We, technicians, choose to use certain technologies, methodologies and approaches to solve problems not because they provide the optimal solution, but only because in the depths of our heart we want to mention them in our summary. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for your career will be grateful customers who are in a long queue to recommend you to others – because you have worked so well for them. The kindness of the customers will serve you better than any new-fashioned object of the new language and any newly invented paradigm. While it is very important (and even vital) for an architect to be up to date with the latest trends and technologies, never try to expand your horizons at the expense of the client.</description>
+    </item>
+    <item>
+      <title>Find the true meaning of the needs</title>
+      <link>http://localhost:1313/posts/find-the-true-meaning-of-the-needs/</link>
+      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/find-the-true-meaning-of-the-needs/</guid>
+      <description>Customers and end-users often demand what they think is an effective solution to a problem. A classic example of this is given by Harry Hillaker, the leading designer of the F-16 Falcon. His group had set the goal of designing an aircraft developing M2–2.5 speeds, which was (and probably remains) a very non-trivial task, especially if the accompanying objective was to create a “cheap” light aircraft. Consider that the force required to overcome the air resistance increases by four times the speed of flight, and imagine how this circumstance affects the weight of the aircraft.&#xA;When the design team asked the Air Force customers why they needed the M2–2.5 speed, they replied, &amp;ldquo;That the aircraft could get out of battle if necessary.&amp;rdquo; When the real need became apparent, the designers were able to solve the main problem and present a workable solution: a mobile aircraft with high traction, providing good acceleration and maneuverability instead of high maximum speed.</description>
+    </item>
+    <item>
+      <title>Решений на все случаи жизни не существует</title>
+      <link>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%B0-%D0%B2%D1%81%D0%B5-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B8-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8-%D0%BD%D0%B5-%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%B0-%D0%B2%D1%81%D0%B5-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B8-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8-%D0%BD%D0%B5-%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82/</guid>
+      <description>The architect must continuously refine and improve his &amp;ldquo;context noe poche&amp;rdquo;, since there is no single universal solution for a wide range of diverse problems.Eberhardt Rechtin, in his book &amp;ldquo;Systems Architecting: Creating &amp;amp; Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;“To learn the basic principles of the “eristic approach” to the design of complex systems, ask an experienced architect what he does when faced with a difficult task.His answer would most likely be, &amp;ldquo;I&amp;rsquo;m just using common sense.&amp;quot;&amp;lt;&amp;hellip;&amp;gt;Instead of the term “sensual” it would be better to use the expression “context sensation”1 – knowledge of what is ra zoom in a given context.Education, experience and study of examples allow the architect-practitioner to acquire a considerable power of contextual sense by the moment when it is entrusted to solve a system-level problem – usually it takes decades.</description>
+    </item>
+    <item>
+      <title>Простота лучше универсальности</title>
+      <link>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</guid>
+      <description>A typical problem with many frameworks, class libraries, basic services and other infrastructure code is that they are designed for universal use, without attachment to specific applications. As a result, we get a staggering set of features and settings that are often not used at all or used for the wrong purpose, or even simply turned out to be useless.Most developers work on specific systems, and the pursuit of unlimited versatility rarely serves them well.The best way to universality lies through an in-depth understanding of known concrete examples and analysis of their essence in order to find a fundamental common solution: simplicity as a result of practical experience, rather than universality based on conjecture.&#xA;The priority of simplicity over versatility helps to make a choice between two architectural alternatives, equal in other respects.</description>
     </item>
   </channel>
 </rss>

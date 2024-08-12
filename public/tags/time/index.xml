@@ -6,14 +6,77 @@
     <description>Recent content in Time on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/time/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DevOps, SRE</title>
+      <link>http://localhost:1313/posts/devops-sre/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/devops-sre/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time we are talking about DevOps and SRE in enterprise companies and their recruitment processes.&#xA;DevOps/SRE I was unemployed and full of time, so I decided to interview DevOps. In vain that the course on Linux was held on Udemy (a joke, sarcasm, still passed, but to write about it is embarrassing)?! And then I liked the process much more. It consisted of only two steps: general knowledge and troubleshooting.&#xA;In general, the interviewer had a list of questions, but he allowed himself to deviate a little from it, which gave some liveliness to the conversation. We&amp;rsquo;ve had time to discuss Linux loading, networking, container operation, and databases. In general, what happens in the universe one way or another?</description>
+    </item>
+    <item>
+      <title>Сделать наспех и сбежать это преступление</title>
+      <link>http://localhost:1313/posts/%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0%D1%81%D0%BF%D0%B5%D1%85-%D0%B8-%D1%81%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C-%D1%8D%D1%82%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0%D1%81%D0%BF%D0%B5%D1%85-%D0%B8-%D1%81%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C-%D1%8D%D1%82%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
+      <description>Time is approaching evening.The command is friendly about the new functionality scheduled for the current iteration; it seems that even the air in the room is pulsing at a working pace.However, John is a little in a hurry: he is waiting for a date.However, he has time to rewrite his part of the code, compiles it, registers in the source code management system – and rushes away.A few minutes later, the &amp;ldquo;red light&amp;rdquo; is lit: the assembly of the app is disrupted.John didn&amp;rsquo;t have time for automated tests, so he acted on the rush and run principle, causing the entire team to stall.&#xA;The situation has changed – the working rhythm has failed. Now everyone knows that when you update the code from the version control system, the code will not work on their local computers, and because the team will have to integrate a lot of code to prepare for the upcoming demonstration, this becomes a serious obstacle.</description>
+    </item>
+    <item>
+      <title>Knowledge test</title>
+      <link>http://localhost:1313/posts/knowledge-test/</link>
+      <pubDate>Wed, 24 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/knowledge-test/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time it is about testing knowledge in enterprise companies and how the recruitment process should be constructed.&#xA;Knowledge test So, I talked about five stages of IT interviews. You probably thought I exaggerated. But no: recruiter, Python test, live coding, system design, soft skills. Then another call for the offer presentation. So, the second stage is just some kind of Facebook spam. Not only can it be combined with live coding if it is not just to code but to discuss the solution, but also the questions on it, softly speaking, are stupid. Primitive and old-fashioned. So, according to the company&amp;rsquo;s logic, you can send soaps there, so you don&amp;rsquo;t waste your gentlemen&amp;rsquo;s time.</description>
+    </item>
+    <item>
+      <title>System Design</title>
+      <link>http://localhost:1313/posts/system-design/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/system-design/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time we talk about system design enterprise companies and how the recruitment process should be constructed.&#xA;System Design In senior grades, another type of interview appears—system design. In one hour you have to design systems, thinking about the architecture of which in a real project you would spend several weeks. IDEF0, UseCase, ER, C4, DFD, BPMN—forget these scary words; there&amp;rsquo;s no time for them. Figac-figac and Proudakshen. Requirements collection -&amp;gt; usage options -&amp;gt; system requirements -&amp;gt; processing -&amp;gt; presentation of the solution, time has passed. The main thing here is more basic words: to build a smart face and somewhere to put kafka. Then they&amp;rsquo;ll be behind you in 40 minutes.</description>
+    </item>
+    <item>
+      <title>Communication is the king, clarity and leadership are his true companions</title>
+      <link>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D1%8B/</link>
+      <pubDate>Fri, 12 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D1%8B/</guid>
+      <description>Every software architect should know and understand that you can&amp;rsquo;t get everything at once. In practice, it is impossible to design an architecture that has high performance, high availability, high security and high abstraction at the same time.There is one real story that software architects need to know, understand and tell their clients and colleagues.I mean the history of the Vaza.&#xA;In 1620, there was a war between Sweden and Poland. Wishing to put an end to this expensive war more quickly, the King of Sweden ordered the construction of a gallion called the Vase.It was an unusual ship.The requirements for it were not the same as for any other ship of the time.It was to be more than 60 metres long, carry 64 guns on two battery deck, and also carry 300 soldiers at a time for safe delivery to Poland by sea.</description>
+    </item>
     <item>
       <title>Never prioritize your resume over the needs of the client</title>
       <link>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</guid>
-      <description>We, technicians, choose to use certain technologies, methodologies and approaches to solve problems not because they provide the optimal solution, but only because in the depths of our heart we want to mention them in our summary. Such a choice very rarely leads to a positive result. The most powerful catalyst for your career will be grateful customers who are in a long queue to recommend you to others – because you have worked so well for them. The kindness of the customers will serve you better than any new-fashioned object of the new language and any newly invented paradigm. While it is very important (and even vital) for an architect to be up to date with the latest trends and technologies, never try to expand your horizons at the expense of the client.</description>
+      <description>We, technicians, choose to use certain technologies, methodologies and approaches to solve problems not because they provide the optimal solution, but only because in the depths of our heart we want to mention them in our summary. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for your career will be grateful customers who are in a long queue to recommend you to others – because you have worked so well for them. The kindness of the customers will serve you better than any new-fashioned object of the new language and any newly invented paradigm. While it is very important (and even vital) for an architect to be up to date with the latest trends and technologies, never try to expand your horizons at the expense of the client.</description>
+    </item>
+    <item>
+      <title>Screening</title>
+      <link>http://localhost:1313/posts/screening/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/screening/</guid>
+      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time we talk about Screening in enterprise companies, and how the recruitment process should be constructed.&#xA;Screening It all starts with it, and tech-screening becomes the norm. Recruiter directly on the first call asks cavernous questions and checks with sparkling. For example:&#xA;how to stop the container? unchanged data typesx in python? What&amp;rsquo;s the PID of the Linux kernel? how do you decipher CAP and PACELC? &amp;hellip; Some of them go even further and create an entire platform with small pieces of code that can be run. 20 questions in 20 minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; or &amp;ldquo;What does this code do?&amp;rdquo; Well, he knows, I&amp;rsquo;t just miss that code on a review, because it&amp;rsquo;s wild.</description>
+    </item>
+    <item>
+      <title>Используйте количественные критерии</title>
+      <link>http://localhost:1313/posts/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B8/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B8/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; can&amp;rsquo;t be a requirement.As well as having a good response time.Or, say, &amp;ldquo;expandable.&amp;ldquo;The main reason is the lack of objective criteria for meeting such requirements.But users still need these features. The task of the architect is to ensure that the system has the necessary qualities, as well as to balance the inevitable contradictions that arise between them.Without objective criteria, the architect depends on the customer’s caprices (“No, I can’t accept the program – it doesn’t work fast enough”) and on the developers obsessed with obsessive ideas (“no, the program is not ready – it isn’t working fast enough”).&#xA;Usually we try to write down all such wishes, as well as any other requirements. But this entry very often looks like a set of foggy epithetics: “flexible”, “friendly to accompany” and so on.</description>
+    </item>
+    <item>
+      <title>Одна строка рабочего кода стоит 500 строк спецификации</title>
+      <link>http://localhost:1313/posts/%D0%BE%D0%B4%D0%BD%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0-%D1%81%D1%82%D0%BE%D0%B8%D1%82-500-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%BE%D0%B4%D0%BD%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0-%D1%81%D1%82%D0%BE%D0%B8%D1%82-500-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/</guid>
+      <description>Proecting is a beautiful thing. A systematic, detailed presentation of the space of the problem and its solution reveals mistakes and reveals opportunities for improvement, sometimes in a very radical way.Specifications play an important role in this, as they define the pattern for building the system.It is very important to think about the entire architecture—both at the macro level, considering the interaction between the components, and at the micro level, penetrating the behavior of components themselves.&#xA;Unfortunately, architects are often fascinated by the design process, falling under the charm of architectural abstractions. However, the specifications themselves have no value. The ultimate objective of the software project is a really functioning system.The architect should always keep this goal in mind and remember that design is only a means, not the end result.</description>
+    </item>
+    <item>
+      <title>Решений может быть несколько</title>
+      <link>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE/</guid>
+      <description>One data model, one message format, one transport mechanism (and generally exactly one basic architectural component, policy, principle, etc.) cannot serve all aspects of a business organization equally well.It seems that this fact is an endless source of surprise and sadness for the developers of the systems.At the same time, it is quite natural: since the organization (the word “organization” is highlighted here with the fat red line) is large enough to worry about how several different tables of accounts will affect the system in the next decade, it must be too large and heterogeneous to be able to handle a single table.&#xA;In the technical field, uniformity can be enforced.And it&amp;rsquo;s very convenient for us.However, in the field of business, a controversial, multifaceted, informal, troubling real world comes into play.</description>
     </item>
   </channel>
 </rss>

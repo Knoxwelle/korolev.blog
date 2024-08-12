@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Use on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/use/</link>
+    <description>Recent content in Use on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/use/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Руководствуйтесь неопределённостью</title>
+      <link>http://localhost:1313/posts/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%D1%81%D1%8C-%D0%BD%D0%B5%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%D1%81%D1%8C-%D0%BD%D0%B5%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E/</guid>
+      <description>When faced with alternatives, people tend to believe that the most important thing is to make the right choice.In design (software products or anything else) this is not the case.The presence of an alternative is a sign that uncertainty in the design of the system needs to be analysed. Use uncertainty as a determining factor to identify places where you can postpone the transition to details or apply breakdown and abstraction to reduce the importance of design decisions.If you strictly “sew” in the system the first decision that came to your mind, it is likely to tie your hands in the future.As a result, random decisions will begin to play an important role, and the flexibility of the software product will decrease.&#xA;One of the simplest and most constructive definitions of architecture was given by Grady Booch: &amp;ldquo;Any architecture is the result of design, but not every design is aimed at creating architecture.</description>
+    </item>
+  </channel>
+</rss>

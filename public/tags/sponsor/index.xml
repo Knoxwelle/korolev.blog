@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sponsor on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/sponsor/</link>
+    <description>Recent content in Sponsor on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sponsor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Вы ведете переговоры чаще, чем вам кажется</title>
+      <link>http://localhost:1313/posts/%D0%B2%D1%8B-%D0%B2%D0%B5%D0%B4%D0%B5%D1%82%D0%B5-%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B-%D1%87%D0%B0%D1%89%D0%B5-%D1%87%D0%B5%D0%BC-%D0%B2%D0%B0%D0%BC-%D0%BA%D0%B0%D0%B6%D0%B5%D1%82%D1%81%D1%8F/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/%D0%B2%D1%8B-%D0%B2%D0%B5%D0%B4%D0%B5%D1%82%D0%B5-%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B-%D1%87%D0%B0%D1%89%D0%B5-%D1%87%D0%B5%D0%BC-%D0%B2%D0%B0%D0%BC-%D0%BA%D0%B0%D0%B6%D0%B5%D1%82%D1%81%D1%8F/</guid>
+      <description>We have all fallen into “budget” refinements, when smart technological solutions are “buried” for savings.The conversation goes like this:&#xA;“Do we really need X?” the project sponsor asks.&#xA;In place of X you can replace virtually everything vital to the system: software licenses, surplus servers, external backups or power sources. The question is always asked in a native tone, as if you are dropping all your pocket money on comics and chewing, while serious adults need to think about buying new shells, in which they will drag their future profits.&#xA;The correct answer to this question is, &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one answers.&#xA;After all, we have technical education, and any technical discipline is the art of compromise.It is clear that no one will need exotic power sources if you put several white wheels in the data center and start interns in them.</description>
+    </item>
+  </channel>
+</rss>
