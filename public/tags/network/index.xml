@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/network/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Сбои неизбежны</title>
-      <link>http://localhost:1313/posts/%D1%81%D0%B1%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B/</link>
+      <title>Failures are inevitable</title>
+      <link>http://localhost:1313/posts/failures-are-inevitable/</link>
       <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D1%81%D0%B1%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B/</guid>
-      <description>Equipment is vulnerable to damage, so we&amp;rsquo;re introducing excess in our systems.It allows you to survive individual hardware failures, but increases the likelihood that at any time at least one malfunction will be present in the system.&#xA;The software code is also vulnerable. Our applications are based on software code, which means they are vulnerable too.We implement monitoring tools that report application failures, but these tools are also based on software code, which means that they are vulnerable to failure themselves.&#xA;So people make mistakes, so we try to automate our actions, diagnostics and workflows.Automation reduces the likelihood of errors caused by breaches of rules, but increases the likeliness of mistakes resulting from lack of rules.No automated system is capable of responding to such a range of situations as a human being.</description>
+      <guid>http://localhost:1313/posts/failures-are-inevitable/</guid>
+      <description>It makes it possible to withstand isolated hardware failures, but it also makes it more likely that the system will malfunction at least once at any given time.&#xA;Additionally susceptible is the software code. We use monitoring tools to record application problems; but, as these tools rely on software code, they are likewise susceptible to malfunction.&#xA;Because humans make mistakes, we attempt to automate our workflows, diagnoses, and actions.Automation lowers the probability of errors resulting from rule violations but raises the probability of errors originating from rule noncompliance.A human being can react to a wider variety of situations than any automated technology.&#xA;We&amp;rsquo;re including monitoring methods in automation tools because of this. Fresh flaws in new software. Hardware, software, and lengthy communication links make up networks.</description>
     </item>
   </channel>
 </rss>

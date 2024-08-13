@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 31 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/express/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Старайтесь не нарушать график</title>
-      <link>http://localhost:1313/posts/%D1%81%D1%82%D0%B0%D1%80%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C-%D0%BD%D0%B5-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B0%D1%82%D1%8C-%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA/</link>
+      <title>Try not to break the schedule</title>
+      <link>http://localhost:1313/posts/try-not-to-break-the-schedule/</link>
       <pubDate>Fri, 31 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D1%81%D1%82%D0%B0%D1%80%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C-%D0%BD%D0%B5-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B0%D1%82%D1%8C-%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA/</guid>
-      <description>A software project can fail for many reasons.One of the most common sources of project failure is changing the schedule of work during the project execution without proper planning.Such failures can be avoided, but it requires considerable effort on the part of many people.Adjusting the timescale or adding resources to a project usually does not create any problems.Problems start when you are required to do more work in the same timeframe or shorten the schedule without reducing the load.&#xA;The idea that by shortening the schedule you can reduce costs or speed up the delivery of a product is a very common misconception.Typically, overtime is used or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are sacrificed for faster delivery of the product or for enhanced functionality without changing the delivery time.</description>
+      <guid>http://localhost:1313/posts/try-not-to-break-the-schedule/</guid>
+      <description>Numerous factors can cause a software project to fail. Changing the work schedule mid-project without enough planning is one of the most frequent causes of project failure. These kinds of failures are preventable, but it will take a lot of work from many individuals. Adding resources or modifying the timeline to a project typically doesn&amp;rsquo;t cause any issues. When you have to work more in the same amount of time or reduce the timetable without lowering the workload, problems arise.&#xA;A very prevalent fallacy is that you can cut expenses or expedite product delivery by shortening the timeline. Usually, extra hours are worked or &amp;ldquo;less important tasks&amp;rdquo; (such modular testing) are given up for quicker product delivery or for better functionality without affecting delivery time.</description>
     </item>
   </channel>
 </rss>

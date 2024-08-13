@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 21 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ms./index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Используйте количественные критерии</title>
-      <link>http://localhost:1313/posts/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B8/</link>
+      <title>Use quantitative criteria</title>
+      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
       <pubDate>Fri, 21 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B8/</guid>
-      <description>&amp;ldquo;Fast&amp;rdquo; can&amp;rsquo;t be a requirement.As well as having a good response time.Or, say, &amp;ldquo;expandable.&amp;ldquo;The main reason is the lack of objective criteria for meeting such requirements.But users still need these features. The task of the architect is to ensure that the system has the necessary qualities, as well as to balance the inevitable contradictions that arise between them.Without objective criteria, the architect depends on the customer’s caprices (“No, I can’t accept the program – it doesn’t work fast enough”) and on the developers obsessed with obsessive ideas (“no, the program is not ready – it isn’t working fast enough”).&#xA;Usually we try to write down all such wishes, as well as any other requirements. But this entry very often looks like a set of foggy epithetics: “flexible”, “friendly to accompany” and so on.</description>
+      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
+      <description>You can&amp;rsquo;t make &amp;ldquo;fast&amp;rdquo; a prerequisite. In addition to having a fast reaction time.alternatively, &amp;ldquo;expandable.&amp;rdquo; The primary cause is the absence of impartial standards for fulfilling these obligations.Users nevertheless require these features. Ensuring that the system has the required attributes and balancing the inevitable contradictions that occur between them are the tasks of the architect. Without objective standards, the developer&amp;rsquo;s fixation with obsessive concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and the architect&amp;rsquo;s whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”) are what the architect counts on.&#xA;Usually, we make an effort to record all such requests along with any additional specifications. However, this entry frequently appears to be a collection of hazy adjectives, such as &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;friendly to accompany,&amp;rdquo; and so forth.</description>
     </item>
   </channel>
 </rss>

@@ -51,31 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>Devops</title>
-      <link>http://localhost:1313/tags/devops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/devops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>John</title>
       <link>http://localhost:1313/tags/john/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/john/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sre</title>
-      <link>http://localhost:1313/tags/sre/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/sre/</guid>
       <description></description>
     </item>
     <item>
@@ -97,13 +76,6 @@
       <link>http://localhost:1313/tags/time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/time/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Udemy</title>
-      <link>http://localhost:1313/tags/udemy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/udemy/</guid>
       <description></description>
     </item>
     <item>
@@ -251,104 +223,6 @@
       <link>http://localhost:1313/tags/sponsor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/sponsor/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Don Carleone</title>
-      <link>http://localhost:1313/tags/don-carleone/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/don-carleone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Facebook</title>
-      <link>http://localhost:1313/tags/facebook/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/facebook/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>July</title>
-      <link>http://localhost:1313/tags/july/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/july/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>June</title>
-      <link>http://localhost:1313/tags/june/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/june/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Knowledge</title>
-      <link>http://localhost:1313/tags/knowledge/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/knowledge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Measure</title>
-      <link>http://localhost:1313/tags/measure/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/measure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Middle</title>
-      <link>http://localhost:1313/tags/middle/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/middle/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ntp</title>
-      <link>http://localhost:1313/tags/ntp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ntp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Questions</title>
-      <link>http://localhost:1313/tags/questions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/questions/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bpmn</title>
-      <link>http://localhost:1313/tags/bpmn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bpmn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Design</title>
-      <link>http://localhost:1313/tags/design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>System Design</title>
-      <link>http://localhost:1313/tags/system-design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/system-design/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Words</title>
-      <link>http://localhost:1313/tags/words/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/words/</guid>
       <description></description>
     </item>
     <item>
@@ -506,48 +380,6 @@
       <description></description>
     </item>
     <item>
-      <title>Advice</title>
-      <link>http://localhost:1313/tags/advice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/advice/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Companies</title>
-      <link>http://localhost:1313/tags/companies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/companies/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Interviews</title>
-      <link>http://localhost:1313/tags/interviews/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/interviews/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>It</title>
-      <link>http://localhost:1313/tags/it/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/it/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wtf</title>
-      <link>http://localhost:1313/tags/wtf/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wtf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Years</title>
-      <link>http://localhost:1313/tags/years/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/years/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Choice</title>
       <link>http://localhost:1313/tags/choice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -559,6 +391,13 @@
       <link>http://localhost:1313/tags/decision/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/decision/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>http://localhost:1313/tags/design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/design/</guid>
       <description></description>
     </item>
     <item>
@@ -954,6 +793,13 @@
       <description></description>
     </item>
     <item>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Opportunity</title>
       <link>http://localhost:1313/tags/opportunity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -986,6 +832,13 @@
       <link>http://localhost:1313/tags/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -1091,27 +944,6 @@
       <link>http://localhost:1313/tags/technical/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/technical/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Candidate</title>
-      <link>http://localhost:1313/tags/candidate/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/candidate/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Github</title>
-      <link>http://localhost:1313/tags/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/github/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kind</title>
-      <link>http://localhost:1313/tags/kind/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/kind/</guid>
       <description></description>
     </item>
     <item>

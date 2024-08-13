@@ -9,18 +9,18 @@
     <lastBuildDate>Sat, 25 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Решений может быть несколько</title>
-      <link>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE/</link>
+      <title>There may be several solutions</title>
+      <link>http://localhost:1313/posts/there-may-be-several-solutions/</link>
       <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE/</guid>
-      <description>One data model, one message format, one transport mechanism (and generally exactly one basic architectural component, policy, principle, etc.) cannot serve all aspects of a business organization equally well.It seems that this fact is an endless source of surprise and sadness for the developers of the systems.At the same time, it is quite natural: since the organization (the word “organization” is highlighted here with the fat red line) is large enough to worry about how several different tables of accounts will affect the system in the next decade, it must be too large and heterogeneous to be able to handle a single table.&#xA;In the technical field, uniformity can be enforced.And it&amp;rsquo;s very convenient for us.However, in the field of business, a controversial, multifaceted, informal, troubling real world comes into play.</description>
+      <guid>http://localhost:1313/posts/there-may-be-several-solutions/</guid>
+      <description>A single data model, communication format, transport mechanism, and typically a single fundamental architectural element, policy, principle, etc., cannot adequately address every facet of a corporate organization. It appears that the system developers are perpetually surprised and saddened by this fact. It makes sense, though, that the organization—which is denoted here by the thick red line—must be too big and diverse to manage a single table, given that it is large enough to worry about the impact of multiple tables of accounts on the system over the course of the next ten years.&#xA;It&amp;rsquo;s also quite practical for us. Nonetheless, the contentious, complex, unofficial, and unsettling actual world of business is involved.Even worse, you have to deal with people&amp;rsquo;s perceptions of particular situations in specific regions of the world rather than the actual world.</description>
     </item>
     <item>
-      <title>База данных как Крепость</title>
-      <link>http://localhost:1313/posts/%D0%B1%D0%B0%D0%B7%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BA%D0%B0%D0%BA-%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <title>Database as Fortress</title>
+      <link>http://localhost:1313/posts/database-as-fortress/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%B1%D0%B0%D0%B7%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BA%D0%B0%D0%BA-%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C/</guid>
-      <description>In the database datax is stored all information – both entered by employees and received from customers. User interfaces, business logic, and applied logic (and even employees) come and go, and data stays.It is difficult to describe in words how important it is to build a reliable data model in the early days of the project.&#xA;The enormous popularity of flexible design methodologies has led many to think that applications can (and even preferably!) be designed in the course of work.The era of pre-writing complex, exhaustive technical specifications is gone forever! The new school calls for the product to be delivered early and frequently.One line of exploitable code is better than 10 lines in your head.Sounds too good to be true&amp;hellip; at least as far as data is concerned.</description>
+      <guid>http://localhost:1313/posts/database-as-fortress/</guid>
+      <description>All information, both entered by staff members and received from clients, is kept in the database datax. Data remains constant despite changes in user interfaces, business logic, applied logic, and even personnel.The significance of developing a trustworthy data model early on in the project cannot be overstated.&#xA;The days of prewriting intricate, detailed technical specifications are long gone! Early and frequent product delivery is required by the new school.It is preferable to write one line of vulnerable code than ten lines in your mind.It seems too good to be true, at least when it comes to the facts.&#xA;Although user interfaces and business logic change quickly, data structures and their connections typically do not. As a result, it&amp;rsquo;s critical to establish a precise definition of the data model early on, both structurally and analytically.</description>
     </item>
   </channel>
 </rss>

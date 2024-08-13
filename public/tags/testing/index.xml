@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 30 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Думать о производительности никогда не рано</title>
-      <link>http://localhost:1313/posts/%D0%B4%D1%83%D0%BC%D0%B0%D1%82%D1%8C-%D0%BE-%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BD%D0%B8%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D0%B5-%D1%80%D0%B0%D0%BD%D0%BE/</link>
+      <title>It is never too early to think about productivity</title>
+      <link>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%B4%D1%83%D0%BC%D0%B0%D1%82%D1%8C-%D0%BE-%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BD%D0%B8%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D0%B5-%D1%80%D0%B0%D0%BD%D0%BE/</guid>
-      <description>The needs of users of business applications manifest primarily in functional requirements. Non-functional aspects of the system (such as performance, flexibility, downtime, support needs, etc.) are in the architect’s hands. At the same time, preliminary testing of non-functional requirements is often postponed to a very late stage of the development cycle and sometimes fully delegated to the system maintenance team.&#xA;This mistake is much more common than it should be. It can be based on various reasons.Worrying about the speed and flexibility of the program, which is not yet exactly performing the required function, may seem pointless. Test environments and tests themselves are quite complex.Early working versions of the system may not be exposed to a realistic load due to insufficient intensity of use.</description>
+      <guid>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</guid>
+      <description>Functional requirements are where business application users&amp;rsquo; needs are mostly expressed. The architect is in charge of the system&amp;rsquo;s non-functional elements, which include performance, flexibility, downtime, support requirements, etc. Simultaneously, initial testing of non-functional needs is sometimes completely assigned to the system maintenance team or delayed until a very late point in the development cycle.&#xA;This is a far more frequent error than it ought to be. It may be founded on a number of factors.It may seem futile to worry about the program&amp;rsquo;s speed and adaptability when it isn&amp;rsquo;t precisely fulfilling the necessary role yet. Both the test settings and the tests themselves are highly intricate. Due to low use intensity, early working versions of the system might not have been subjected to a realistic load.</description>
     </item>
   </channel>
 </rss>

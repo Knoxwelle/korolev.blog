@@ -23,16 +23,18 @@
 
 
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Failures are inevitable">
-<meta name="twitter:description" content="Equipment is vulnerable to damage, so we&rsquo;re introducing excess in our systems.It allows you to survive individual hardware failures, but increases the likelihood that at any time at least one malfunction will be present in the system.
-The software code is also vulnerable. Our applications are based on software code, which means they are vulnerable too.We implement monitoring tools that report application failures, but these tools are also based on software code, which means that they are vulnerable to failure themselves.
-So people make mistakes, so we try to automate our actions, diagnostics and workflows.Automation reduces the likelihood of errors caused by breaches of rules, but increases the likeliness of mistakes resulting from lack of rules.No automated system is capable of responding to such a range of situations as a human being.">
+<meta name="twitter:description" content="It makes it possible to withstand isolated hardware failures, but it also makes it more likely that the system will malfunction at least once at any given time.
+Additionally susceptible is the software code. We use monitoring tools to record application problems; but, as these tools rely on software code, they are likewise susceptible to malfunction.
+Because humans make mistakes, we attempt to automate our workflows, diagnoses, and actions.Automation lowers the probability of errors resulting from rule violations but raises the probability of errors originating from rule noncompliance.A human being can react to a wider variety of situations than any automated technology.
+We&rsquo;re including monitoring methods in automation tools because of this. Fresh flaws in new software. Hardware, software, and lengthy communication links make up networks.">
 
 <meta property="og:url" content="http://localhost:1313/posts/failures-are-inevitable/">
   <meta property="og:site_name" content="Tiny Dev Blog">
   <meta property="og:title" content="Failures are inevitable">
-  <meta property="og:description" content="Equipment is vulnerable to damage, so we’re introducing excess in our systems.It allows you to survive individual hardware failures, but increases the likelihood that at any time at least one malfunction will be present in the system.
-The software code is also vulnerable. Our applications are based on software code, which means they are vulnerable too.We implement monitoring tools that report application failures, but these tools are also based on software code, which means that they are vulnerable to failure themselves.
-So people make mistakes, so we try to automate our actions, diagnostics and workflows.Automation reduces the likelihood of errors caused by breaches of rules, but increases the likeliness of mistakes resulting from lack of rules.No automated system is capable of responding to such a range of situations as a human being.">
+  <meta property="og:description" content="It makes it possible to withstand isolated hardware failures, but it also makes it more likely that the system will malfunction at least once at any given time.
+Additionally susceptible is the software code. We use monitoring tools to record application problems; but, as these tools rely on software code, they are likewise susceptible to malfunction.
+Because humans make mistakes, we attempt to automate our workflows, diagnoses, and actions.Automation lowers the probability of errors resulting from rule violations but raises the probability of errors originating from rule noncompliance.A human being can react to a wider variety of situations than any automated technology.
+We’re including monitoring methods in automation tools because of this. Fresh flaws in new software. Hardware, software, and lengthy communication links make up networks.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -53,7 +55,7 @@ So people make mistakes, so we try to automate our actions, diagnostics and work
 
 
 
-<link rel="stylesheet" href="/scss/hyde-hyde.9196fcf1fedfce04f627f9bf866acdbeadc99ef75c2e0d19c0bff06074f3cb75.css" integrity="sha256-kZb88f7fzgT2J/m/hmrNvq3JnvdcLg0ZwL/wYHTzy3U=">
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
 
 
 <link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
@@ -263,15 +265,15 @@ So people make mistakes, so we try to automate our actions, diagnostics and work
   
   
   <div class="post">
-    <p>Equipment is vulnerable to damage, so we&rsquo;re introducing excess in our systems.It allows you to survive individual hardware failures, but increases the likelihood that at any time at least one malfunction will be present in the system.</p>
-<p>The software code is also vulnerable. Our applications are based on software code, which means they are vulnerable too.We implement monitoring tools that report application failures, but these tools are also based on software code, which means that they are vulnerable to failure themselves.</p>
-<p>So people make mistakes, so we try to automate our actions, diagnostics and workflows.Automation reduces the likelihood of errors caused by breaches of rules, but increases the likeliness of mistakes resulting from lack of rules.No automated system is capable of responding to such a range of situations as a human being.</p>
-<p>That&rsquo;s why we&rsquo;re adding monitoring mechanisms to automation tools. New software, new errors. Networks are made up of hardware, software, and very long lines of communication. So networks are also prone to failure. Even if a network works properly, its behavior is formally unpredictable, because the state space of a large network is practically infinite.</p>
-<p>Any security mechanism that we use to fix some kind of error introduces new kinds of failures.We organize clustering so that the application automatically moves from a failed server to a working one, but now, when cluster network caprices arise, there is a risk of &ldquo;capacity splitting&quot;1.</p>
-<p>It is worth recalling that the accident at Trimayle Island2 occurred mainly because of the pressure discharge valve – a safety mechanism that was meant to prevent some types of failures associated with excess pressure.</p>
-<p>So, system failures are inevitable anyway, so what do we do?</p>
-<p>Be aware of one fact: no matter what, there will be various failures in your system.By denying their inevitability, you lose the ability to control and isolate these failures.But by accepting this fact, you can design your system&rsquo;s response to specific failures.Similar to how car designers create deformation zones (deforming areas first and extinguishing collision energy for passive passenger protection), you can design failure protection modes that will isolate damage and protect the rest of the system components.</p>
-<p>If you do not, you will have to deal with all the unpredictable – and usually dangerous – failures that arise during the system.</p>
+    <p>It makes it possible to withstand isolated hardware failures, but it also makes it more likely that the system will malfunction at least once at any given time.</p>
+<p>Additionally susceptible is the software code. We use monitoring tools to record application problems; but, as these tools rely on software code, they are likewise susceptible to malfunction.</p>
+<p>Because humans make mistakes, we attempt to automate our workflows, diagnoses, and actions.Automation lowers the probability of errors resulting from rule violations but raises the probability of errors originating from rule noncompliance.A human being can react to a wider variety of situations than any automated technology.</p>
+<p>We&rsquo;re including monitoring methods in automation tools because of this. Fresh flaws in new software. Hardware, software, and lengthy communication links make up networks. Thus, networks can potentially malfunction. Because a huge network&rsquo;s state space is essentially unlimited, a network&rsquo;s behavior is formally unpredictable even when it operates as intended.</p>
+<p>Every security measure we take to address a problem creates new opportunities for failures.We set up clustering so that the program automatically switches between a functioning and a failing server, but now there&rsquo;s a chance of &ldquo;capacity splitting&rdquo; when cluster network whims occur1.</p>
+<p>It is important to remember that the pressure discharge valve, a safety feature designed to stop specific kinds of failures linked to excessive pressure, was mostly to blame for the Trimayle Island2 accident.</p>
+<p>Consequently, since system failures are unavoidable, what should we do?</p>
+<p>One thing to keep in mind is that your system will always experience a variety of failures.You lose the power to isolate and control these errors by refusing to accept that they are inevitable.However, by acknowledging this reality, you can create a system that reacts to particular errors.You can build failure protection modes that will isolate damage and shield the remaining system components, much like auto designers do with deformation zones—deforming areas first and squelching collision energy for passive passenger safety.</p>
+<p>If you don&rsquo;t, you&rsquo;ll be stuck handling all of the unforeseen—and typically hazardous—failures that occur throughout the system.</p>
 
   </div>
   

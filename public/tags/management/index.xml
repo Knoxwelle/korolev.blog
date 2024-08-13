@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 17 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Всем заправляет бизнес</title>
-      <link>http://localhost:1313/posts/%D0%B2%D1%81%D0%B5%D0%BC-%D0%B7%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/</link>
+      <title>Business runs everything</title>
+      <link>http://localhost:1313/posts/business-runs-everything/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%B2%D1%81%D0%B5%D0%BC-%D0%B7%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/</guid>
-      <description>In the context of the development of corporate software applications, the architect should become a kind of bridge in the company between the business and technical communities, representing and defending the interests of both sides and often acting as a mediator between them, but at the same time allowing the business to control the affairs.When making technological decisions, the architect must be guided by the business objectives of the company and its surrounding realities.&#xA;Before undertaking a software development project, a commercial company usually plans and announces the desired return on investment (ROI).The architect must accept this indicator and the resulting limitations of the value of the product created for the company.This will help to avoid technical solutions that could lead to excessive expenditure.</description>
+      <guid>http://localhost:1313/posts/business-runs-everything/</guid>
+      <description>When it comes to the creation of corporate software applications, the architect should serve as a sort of intermediary within the organization between the technical and business communities, representing and defending the interests of each while frequently mediating disputes and letting the business run its operations. The commercial goals of the organization and its external environment must inform the architect&amp;rsquo;s technological decisions.&#xA;A software development company typically plans and advertises the intended return on investment (ROI) prior to starting a software development project. This signal must be accepted by the architect, along with the ensuing restrictions on the product&amp;rsquo;s value for the business.This will assist in avoiding technological solutions that can result in exorbitant costs. When discussing the technical architecture and implementation with the development team, as well as when interacting with management (in the process of figuring out how to strike a balance between the cost and benefit of a given function), the return rate ought to play a significant role in the overall target context.</description>
     </item>
   </channel>
 </rss>

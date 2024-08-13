@@ -6,20 +6,20 @@ categories = ["island2"]
 tags = ["new", "networks", "failures", "software", "system", "network", "failure"]
 cover_image='/images/cover/knoxwelle__2017-04-24T073118.000Z.jpg'
 +++
-Equipment is vulnerable to damage, so we're introducing excess in our systems.It allows you to survive individual hardware failures, but increases the likelihood that at any time at least one malfunction will be present in the system.
+It makes it possible to withstand isolated hardware failures, but it also makes it more likely that the system will malfunction at least once at any given time.
 
-The software code is also vulnerable. Our applications are based on software code, which means they are vulnerable too.We implement monitoring tools that report application failures, but these tools are also based on software code, which means that they are vulnerable to failure themselves.
+Additionally susceptible is the software code. We use monitoring tools to record application problems; but, as these tools rely on software code, they are likewise susceptible to malfunction.
 
-So people make mistakes, so we try to automate our actions, diagnostics and workflows.Automation reduces the likelihood of errors caused by breaches of rules, but increases the likeliness of mistakes resulting from lack of rules.No automated system is capable of responding to such a range of situations as a human being.
+Because humans make mistakes, we attempt to automate our workflows, diagnoses, and actions.Automation lowers the probability of errors resulting from rule violations but raises the probability of errors originating from rule noncompliance.A human being can react to a wider variety of situations than any automated technology.
 
-That's why we're adding monitoring mechanisms to automation tools. New software, new errors. Networks are made up of hardware, software, and very long lines of communication. So networks are also prone to failure. Even if a network works properly, its behavior is formally unpredictable, because the state space of a large network is practically infinite. 
+We're including monitoring methods in automation tools because of this. Fresh flaws in new software. Hardware, software, and lengthy communication links make up networks. Thus, networks can potentially malfunction. Because a huge network's state space is essentially unlimited, a network's behavior is formally unpredictable even when it operates as intended. 
 
-Any security mechanism that we use to fix some kind of error introduces new kinds of failures.We organize clustering so that the application automatically moves from a failed server to a working one, but now, when cluster network caprices arise, there is a risk of "capacity splitting"1.
+Every security measure we take to address a problem creates new opportunities for failures.We set up clustering so that the program automatically switches between a functioning and a failing server, but now there's a chance of "capacity splitting" when cluster network whims occur1.
 
-It is worth recalling that the accident at Trimayle Island2 occurred mainly because of the pressure discharge valve – a safety mechanism that was meant to prevent some types of failures associated with excess pressure.
+It is important to remember that the pressure discharge valve, a safety feature designed to stop specific kinds of failures linked to excessive pressure, was mostly to blame for the Trimayle Island2 accident.
 
-So, system failures are inevitable anyway, so what do we do?
+Consequently, since system failures are unavoidable, what should we do?
 
-Be aware of one fact: no matter what, there will be various failures in your system.By denying their inevitability, you lose the ability to control and isolate these failures.But by accepting this fact, you can design your system's response to specific failures.Similar to how car designers create deformation zones (deforming areas first and extinguishing collision energy for passive passenger protection), you can design failure protection modes that will isolate damage and protect the rest of the system components.
+One thing to keep in mind is that your system will always experience a variety of failures.You lose the power to isolate and control these errors by refusing to accept that they are inevitable.However, by acknowledging this reality, you can create a system that reacts to particular errors.You can build failure protection modes that will isolate damage and shield the remaining system components, much like auto designers do with deformation zones—deforming areas first and squelching collision energy for passive passenger safety.
 
-If you do not, you will have to deal with all the unpredictable – and usually dangerous – failures that arise during the system.
+If you don't, you'll be stuck handling all of the unforeseen—and typically hazardous—failures that occur throughout the system.

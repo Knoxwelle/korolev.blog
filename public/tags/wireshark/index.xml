@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 28 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/wireshark/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Архитектор должен быть практиком</title>
-      <link>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%BE%D0%BC/</link>
+      <title>The architect must be a practitioner</title>
+      <link>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%BE%D0%BC/</guid>
-      <description>A good architect should set an example to others. He should be able to replace any member of his team and do anything from networking and configuring the assembly process to writing modular tests and performing performance tests. Without a good understanding of the entire range of technologies, an architect is little different from an ordinary project manager.Team members may have deeper knowledge in their narrow fields – this is perfectly normal – but they are unlikely to be able to trust their architect unless he is familiar with the technologies used.As has already been said, an architect is an interface between the technical team and the business, which means that he must understand all the technical aspects in order to play the role of the team representative before the business management, without constantly seeking help.</description>
+      <guid>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</guid>
+      <description>A competent architect ought to lead by example. He should be able to take the position of any team member and handle any task, including creating modular tests, conducting performance tests, and setting up networking and the assembly process. In the absence of a thorough comprehension of all available technologies, an architect is really no different from a regular project manager.Although it is rather typical for team members to be more knowledgeable in their specialized professions, they are unlikely to be able to trust their architect unless he is conversant with the technology being employed.Since an architect serves as a liaison between the technical team and the company, as has already been mentioned, he must be well-versed in all technical facets in order to represent the team to the business management without continuously seeking assistance.</description>
     </item>
   </channel>
 </rss>

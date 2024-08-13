@@ -9,11 +9,11 @@
     <lastBuildDate>Mon, 20 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/generalization/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Простота лучше универсальности</title>
-      <link>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</link>
+      <title>Simplicity is better than versatility</title>
+      <link>http://localhost:1313/posts/simplicity-is-better-than-versatility/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</guid>
-      <description>A typical problem with many frameworks, class libraries, basic services and other infrastructure code is that they are designed for universal use, without attachment to specific applications. As a result, we get a staggering set of features and settings that are often not used at all or used for the wrong purpose, or even simply turned out to be useless.Most developers work on specific systems, and the pursuit of unlimited versatility rarely serves them well.The best way to universality lies through an in-depth understanding of known concrete examples and analysis of their essence in order to find a fundamental common solution: simplicity as a result of practical experience, rather than universality based on conjecture.&#xA;The priority of simplicity over versatility helps to make a choice between two architectural alternatives, equal in other respects.</description>
+      <guid>http://localhost:1313/posts/simplicity-is-better-than-versatility/</guid>
+      <description>The fact that many frameworks, class libraries, basic services, and other infrastructure code are made to be used universally and aren&amp;rsquo;t tied to any particular application is a common issue with them. The majority of developers specialize in particular systems; therefore, trying to be as versatile as possible is rarely beneficial to them. The greatest approach to reaching universality is not by universality based on supposition but rather by a thorough comprehension of known concrete cases and a study of their essence to uncover a fundamental common solution. Simplicity is the outcome of practical experience.&#xA;Simplifying an architectural design over adding more features makes it easier to choose between two options that are equivalent in every other way. Choose a more straightforward and needs-based solution over a more complex and adaptable one when there are two options.</description>
     </item>
   </channel>
 </rss>

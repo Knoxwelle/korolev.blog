@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</loc>
+    <lastmod>2024-08-12T00:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/organization/</loc>
     <lastmod>2024-08-12T00:00:00-07:00</lastmod>
   </url><url>
@@ -26,34 +29,13 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2024-08-12T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B-%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%BE-%D0%B1%D0%B0%D0%BB%D0%B0%D0%BD%D1%81%D0%B0/</loc>
-    <lastmod>2024-08-12T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/code/</loc>
     <lastmod>2024-08-11T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/devops/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/devops-sre/</loc>
+    <loc>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</loc>
     <lastmod>2024-08-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/john/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/recruiting/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/sre/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/sre/</loc>
     <lastmod>2024-08-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/system/</loc>
@@ -65,13 +47,7 @@
     <loc>http://localhost:1313/tags/time/</loc>
     <lastmod>2024-08-11T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/udemy/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/work/</loc>
-    <lastmod>2024-08-11T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0%D1%81%D0%BF%D0%B5%D1%85-%D0%B8-%D1%81%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C-%D1%8D%D1%82%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</loc>
     <lastmod>2024-08-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/application/</loc>
@@ -89,10 +65,16 @@
     <loc>http://localhost:1313/tags/performance/</loc>
     <lastmod>2024-08-10T00:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2024-08-07T00:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/failure/</loc>
     <lastmod>2024-08-07T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/failures/</loc>
+    <lastmod>2024-08-07T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/failures-are-inevitable/</loc>
     <lastmod>2024-08-07T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/island2/</loc>
@@ -105,9 +87,6 @@
     <lastmod>2024-08-07T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/new/</loc>
-    <lastmod>2024-08-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D1%81%D0%B1%D0%BE%D0%B8-%D0%BD%D0%B5%D0%B8%D0%B7%D0%B1%D0%B5%D0%B6%D0%BD%D1%8B/</loc>
     <lastmod>2024-08-07T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/complex/</loc>
@@ -146,79 +125,16 @@
     <loc>http://localhost:1313/tags/sponsor/</loc>
     <lastmod>2024-07-30T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D0%B2%D1%8B-%D0%B2%D0%B5%D0%B4%D0%B5%D1%82%D0%B5-%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8B-%D1%87%D0%B0%D1%89%D0%B5-%D1%87%D0%B5%D0%BC-%D0%B2%D0%B0%D0%BC-%D0%BA%D0%B0%D0%B6%D0%B5%D1%82%D1%81%D1%8F/</loc>
+    <loc>http://localhost:1313/posts/you-negotiate-more-often-than-you-think/</loc>
     <lastmod>2024-07-30T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/carleone/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/don-carleone/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/facebook/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/july/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/june/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/knowledge/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/knowledge-test/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/measure/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/middle/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/nac/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/ntp/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/python/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/questions/</loc>
-    <lastmod>2024-07-24T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/bpmn/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/bpmn/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/design/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/idef0/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/system-design/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/system-design/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/usecase/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/words/</loc>
-    <lastmod>2024-07-16T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/architect/</loc>
     <lastmod>2024-07-14T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/communication/</loc>
+    <lastmod>2024-07-14T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/get-up/</loc>
     <lastmod>2024-07-14T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/optical/</loc>
@@ -233,8 +149,8 @@
     <loc>http://localhost:1313/tags/success/</loc>
     <lastmod>2024-07-14T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D1%8C%D1%82%D0%B5/</loc>
-    <lastmod>2024-07-14T00:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/posts/architectural-compromises/</loc>
+    <lastmod>2024-07-12T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/architecture-tradeoff/</loc>
     <lastmod>2024-07-12T00:00:00-07:00</lastmod>
@@ -249,9 +165,6 @@
     <lastmod>2024-07-12T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cbam/</loc>
-    <lastmod>2024-07-12T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D1%81%D1%8B/</loc>
     <lastmod>2024-07-12T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/cost/</loc>
@@ -320,31 +233,16 @@
     <loc>http://localhost:1313/draft/</loc>
     <lastmod>2024-07-10T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/advice/</loc>
-    <lastmod>2024-07-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/companies/</loc>
-    <lastmod>2024-07-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/interview-tips/</loc>
-    <lastmod>2024-07-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/interviews/</loc>
-    <lastmod>2024-07-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/it/</loc>
-    <lastmod>2024-07-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/wtf/</loc>
-    <lastmod>2024-07-07T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/years/</loc>
-    <lastmod>2024-07-07T00:00:00-07:00</lastmod>
+    <loc>http://localhost:1313/posts/be-guided-by-uncertainty/</loc>
+    <lastmod>2024-07-06T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/choice/</loc>
     <lastmod>2024-07-06T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/decision/</loc>
+    <lastmod>2024-07-06T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2024-07-06T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/grady-booch/</loc>
@@ -354,9 +252,6 @@
     <lastmod>2024-07-06T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/use/</loc>
-    <lastmod>2024-07-06T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%D1%81%D1%8C-%D0%BD%D0%B5%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C%D1%8E/</loc>
     <lastmod>2024-07-06T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/about/</loc>
@@ -389,13 +284,13 @@
     <loc>http://localhost:1313/tags/first/</loc>
     <lastmod>2024-06-30T00:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</loc>
+    <lastmod>2024-06-30T00:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/problems/</loc>
     <lastmod>2024-06-30T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/testing/</loc>
-    <lastmod>2024-06-30T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D0%B4%D1%83%D0%BC%D0%B0%D1%82%D1%8C-%D0%BE-%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BD%D0%B8%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D0%B5-%D1%80%D0%B0%D0%BD%D0%BE/</loc>
     <lastmod>2024-06-30T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/calendar/</loc>
@@ -410,16 +305,22 @@
     <loc>http://localhost:1313/tags/hour/</loc>
     <lastmod>2024-06-29T00:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/interview-at-enterprise/</loc>
+    <lastmod>2024-06-29T00:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/monday/</loc>
+    <lastmod>2024-06-29T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/python/</loc>
     <lastmod>2024-06-29T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/recruiter/</loc>
     <lastmod>2024-06-29T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/screening/</loc>
+    <loc>http://localhost:1313/categories/recruiting/</loc>
     <lastmod>2024-06-29T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/screening/</loc>
+    <loc>http://localhost:1313/tags/screening/</loc>
     <lastmod>2024-06-29T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/skytrain/</loc>
@@ -440,13 +341,13 @@
     <loc>http://localhost:1313/tags/team/</loc>
     <lastmod>2024-06-28T00:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</loc>
+    <lastmod>2024-06-28T00:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/way/</loc>
     <lastmod>2024-06-28T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/wireshark/</loc>
-    <lastmod>2024-06-28T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%BE%D0%BC/</loc>
     <lastmod>2024-06-28T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/compliance/</loc>
@@ -458,10 +359,10 @@
     <loc>http://localhost:1313/tags/ms./</loc>
     <lastmod>2024-06-21T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/users/</loc>
+    <loc>http://localhost:1313/posts/use-quantitative-criteria/</loc>
     <lastmod>2024-06-21T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-%D0%BA%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D0%BA%D1%80%D0%B8%D1%82%D0%B5%D1%80%D0%B8%D0%B8/</loc>
+    <loc>http://localhost:1313/tags/users/</loc>
     <lastmod>2024-06-21T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/air-force/</loc>
@@ -476,7 +377,7 @@
     <loc>http://localhost:1313/tags/bear/</loc>
     <lastmod>2024-06-18T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions-1/</loc>
+    <loc>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</loc>
     <lastmod>2024-06-18T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/developers/</loc>
@@ -503,10 +404,10 @@
     <loc>http://localhost:1313/tags/goal/</loc>
     <lastmod>2024-06-03T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/proecting/</loc>
+    <loc>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</loc>
     <lastmod>2024-06-03T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D0%BE%D0%B4%D0%BD%D0%B0-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B0-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D0%BA%D0%BE%D0%B4%D0%B0-%D1%81%D1%82%D0%BE%D0%B8%D1%82-500-%D1%81%D1%82%D1%80%D0%BE%D0%BA-%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8/</loc>
+    <loc>http://localhost:1313/tags/proecting/</loc>
     <lastmod>2024-06-03T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/delivery/</loc>
@@ -524,7 +425,7 @@
     <loc>http://localhost:1313/tags/times/</loc>
     <lastmod>2024-05-31T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D1%81%D1%82%D0%B0%D1%80%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C-%D0%BD%D0%B5-%D0%BD%D0%B0%D1%80%D1%83%D1%88%D0%B0%D1%82%D1%8C-%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D0%BA/</loc>
+    <loc>http://localhost:1313/posts/try-not-to-break-the-schedule/</loc>
     <lastmod>2024-05-31T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/building/</loc>
@@ -557,16 +458,16 @@
     <loc>http://localhost:1313/tags/systems-architecting/</loc>
     <lastmod>2024-05-28T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BD%D0%B0-%D0%B2%D1%81%D0%B5-%D1%81%D0%BB%D1%83%D1%87%D0%B0%D0%B8-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8-%D0%BD%D0%B5-%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82/</loc>
+    <loc>http://localhost:1313/posts/there-are-no-solutions-for-all-cases-of-life/</loc>
     <lastmod>2024-05-28T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/members/</loc>
     <lastmod>2024-05-27T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/risk/</loc>
+    <loc>http://localhost:1313/posts/problems-can-be-more-than-their-reflection-in-the-mirror/</loc>
     <lastmod>2024-05-27T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B-%D0%BC%D0%BE%D0%B3%D1%83%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5-%D1%87%D0%B5%D0%BC-%D0%B8%D1%85-%D0%BE%D1%82%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%B5/</loc>
+    <loc>http://localhost:1313/tags/risk/</loc>
     <lastmod>2024-05-27T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/data/</loc>
@@ -575,10 +476,10 @@
     <loc>http://localhost:1313/tags/philip-k.-dick/</loc>
     <lastmod>2024-05-25T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/world/</loc>
+    <loc>http://localhost:1313/posts/there-may-be-several-solutions/</loc>
     <lastmod>2024-05-25T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B1%D1%8B%D1%82%D1%8C-%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE/</loc>
+    <loc>http://localhost:1313/tags/world/</loc>
     <lastmod>2024-05-25T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/explain/</loc>
@@ -588,6 +489,9 @@
     <lastmod>2024-05-22T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/java/</loc>
+    <lastmod>2024-05-22T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2024-05-22T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/opportunity/</loc>
@@ -606,6 +510,9 @@
     <lastmod>2024-05-22T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/projects/</loc>
+    <lastmod>2024-05-22T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-05-22T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ruby/</loc>
@@ -629,16 +536,22 @@
     <loc>http://localhost:1313/tags/leads/</loc>
     <lastmod>2024-05-20T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/universality/</loc>
+    <loc>http://localhost:1313/posts/simplicity-is-better-than-versatility/</loc>
     <lastmod>2024-05-20T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BB%D1%83%D1%87%D1%88%D0%B5-%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8/</loc>
+    <loc>http://localhost:1313/tags/universality/</loc>
     <lastmod>2024-05-20T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/business/</loc>
     <lastmod>2024-05-17T00:00:00-07:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/business-runs-everything/</loc>
+    <lastmod>2024-05-17T00:00:00-07:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/database/</loc>
+    <lastmod>2024-05-17T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/database-as-fortress/</loc>
     <lastmod>2024-05-17T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/decisions/</loc>
@@ -665,40 +578,13 @@
     <loc>http://localhost:1313/tags/technical/</loc>
     <lastmod>2024-05-17T00:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%D0%B1%D0%B0%D0%B7%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BA%D0%B0%D0%BA-%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C/</loc>
-    <lastmod>2024-05-17T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D0%B2%D1%81%D0%B5%D0%BC-%D0%B7%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/</loc>
-    <lastmod>2024-05-17T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/big4/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/canadian/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/candidate/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/github/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/kind/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/live-coding/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/pr/</loc>
-    <lastmod>2024-05-13T00:00:00-07:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/assembly/</loc>
     <lastmod>2024-05-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/big-bang/</loc>
+    <lastmod>2024-05-11T00:00:00-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ensure-continuous-integration/</loc>
     <lastmod>2024-05-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/integration/</loc>
@@ -711,9 +597,6 @@
     <lastmod>2024-05-11T00:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/process/</loc>
-    <lastmod>2024-05-11T00:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D1%8C%D1%82%D0%B5-%D0%BD%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D1%83%D1%8E-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8E/</loc>
     <lastmod>2024-05-11T00:00:00-07:00</lastmod>
   </url>
 </urlset>

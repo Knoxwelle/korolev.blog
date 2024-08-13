@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 11 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/john/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Сделать наспех и сбежать это преступление</title>
-      <link>http://localhost:1313/posts/%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0%D1%81%D0%BF%D0%B5%D1%85-%D0%B8-%D1%81%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C-%D1%8D%D1%82%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <title>Do it in a hurry and escape this crime</title>
+      <link>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0%D1%81%D0%BF%D0%B5%D1%85-%D0%B8-%D1%81%D0%B1%D0%B5%D0%B6%D0%B0%D1%82%D1%8C-%D1%8D%D1%82%D0%BE-%D0%BF%D1%80%D0%B5%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
-      <description>Time is approaching evening.The command is friendly about the new functionality scheduled for the current iteration; it seems that even the air in the room is pulsing at a working pace.However, John is a little in a hurry: he is waiting for a date.However, he has time to rewrite his part of the code, compiles it, registers in the source code management system – and rushes away.A few minutes later, the &amp;ldquo;red light&amp;rdquo; is lit: the assembly of the app is disrupted.John didn&amp;rsquo;t have time for automated tests, so he acted on the rush and run principle, causing the entire team to stall.&#xA;The situation has changed – the working rhythm has failed. Now everyone knows that when you update the code from the version control system, the code will not work on their local computers, and because the team will have to integrate a lot of code to prepare for the upcoming demonstration, this becomes a serious obstacle.</description>
+      <guid>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</guid>
+      <description>Evening is drawing near. Even the air in the room seems to be pulsing at a working pace; the command is pleasant regarding the new features planned for the current iteration. But John is waiting for a date, so he&amp;rsquo;s a touch rushed. He still has time to rush off, rewrite his portion of the code, build it, and register it in the source code management system. After a few minutes, the app&amp;rsquo;s assembly is disrupted, and the &amp;ldquo;red light&amp;rdquo; is lit.John acted rashly, assuming that the team would stall because he didn&amp;rsquo;t have time for automated tests.&#xA;The working rhythm has failed; the circumstances have altered. Everyone is now aware that updating the code from the version control system will cause it to malfunction on their local machines.</description>
     </item>
   </channel>
 </rss>

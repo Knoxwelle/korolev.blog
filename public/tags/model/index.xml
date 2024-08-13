@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 17 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/model/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>База данных как Крепость</title>
-      <link>http://localhost:1313/posts/%D0%B1%D0%B0%D0%B7%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BA%D0%B0%D0%BA-%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C/</link>
+      <title>Database as Fortress</title>
+      <link>http://localhost:1313/posts/database-as-fortress/</link>
       <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%B1%D0%B0%D0%B7%D0%B0-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%BA%D0%B0%D0%BA-%D0%BA%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D1%8C/</guid>
-      <description>In the database datax is stored all information – both entered by employees and received from customers. User interfaces, business logic, and applied logic (and even employees) come and go, and data stays.It is difficult to describe in words how important it is to build a reliable data model in the early days of the project.&#xA;The enormous popularity of flexible design methodologies has led many to think that applications can (and even preferably!) be designed in the course of work.The era of pre-writing complex, exhaustive technical specifications is gone forever! The new school calls for the product to be delivered early and frequently.One line of exploitable code is better than 10 lines in your head.Sounds too good to be true&amp;hellip; at least as far as data is concerned.</description>
+      <guid>http://localhost:1313/posts/database-as-fortress/</guid>
+      <description>All information, both entered by staff members and received from clients, is kept in the database datax. Data remains constant despite changes in user interfaces, business logic, applied logic, and even personnel.The significance of developing a trustworthy data model early on in the project cannot be overstated.&#xA;The days of prewriting intricate, detailed technical specifications are long gone! Early and frequent product delivery is required by the new school.It is preferable to write one line of vulnerable code than ten lines in your mind.It seems too good to be true, at least when it comes to the facts.&#xA;Although user interfaces and business logic change quickly, data structures and their connections typically do not. As a result, it&amp;rsquo;s critical to establish a precise definition of the data model early on, both structurally and analytically.</description>
     </item>
   </channel>
 </rss>

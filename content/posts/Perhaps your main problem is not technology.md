@@ -6,21 +6,21 @@ categories = ["ruby", "java", "python", "smalltalk"]
 tags = ["ruby", "java", "python", "smalltalk", "postgres", "oracle", "windows", "linux", "start", "communication", "people", "opportunity", "problems", "projects", "project", "explain"]
 cover_image='/images/cover/knoxwelle__2017-06-18T221428.000Z.jpg'
 +++
-Right now, somewhere is suffering the disaster of another project of a wage calculation system... And probably not alone.
+Somewhere right now, a different wage calculation project is failing miserably... and most likely not by yourself.
 
-Why did that happen? Because the developers chose Ruby instead of Java or Python instead of Smalltalk? Because you decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you know, all project failures are usually blamed on technology. But was your task really so complex that the Java capabilities were not enough for it?
+What caused that to occur? because the developers opted for Ruby over Smalltalk or Java or Python? since you choose to utilize Postgres over Oracle? or because you preferred the Windows platform even if you should have chosen Linux? As you are aware, technology is frequently held responsible for project failures. 
 
-Projects are usually created by people, and it is these people that determine the success or failure of the whole project. And once that's the case, we need to think a little bit about how to help them succeed.
+People normally establish projects, and it is up to these individuals to decide whether the project as a whole succeeds or fails. And once that is the case, we ought to consider our options for assisting them in being successful.
 
-Per, there is someone in the team who, from your point of view, is not doing his job and hindering the success of the project. The technology used to solve such problems is very old and time-tested; in fact, it is the most important technological achievement in human history. What you need is communication.   
-At the same time, simply possessing the techniques of communication as a technology is not enough. Respect for people and the ability to give them credit and trust are essential skills that turn a smart leader into an effective one.   
-Of course, the matter is not exhausted, but a few simple tips will significantly increase the effectiveness of your communication with subordinates: 
+Per, you believe that there is a team member that is underperforming and impeding the project's progress. The most significant technological advancement in human history is the very old and tried-and-true technology that is employed to handle these kinds of issues. You require communication.   
+However, having communication techniques alone is insufficient as a technology. Being able to give others credit and trust, together with having respect for them, are critical abilities that transform an intelligent leader into an effective one.   
+Of course, the subject is not closed, but following a few easy guidelines will greatly improve the efficacy of your correspondence with subordinates: 
 
-- Consider the discussion of problems as a constructive dialogue rather than a conflict situation.  
-- Start from positive assumptions about people and view communication as an opportunity to ask questions that interest you, so you will definitely be able to get more useful information, and your interlocutors will not take a defensive position.   
-- Start the conversation only in a mood suitable for communication.   
-- If you are angry, irritated, upset, and out of balance in general, your interlocutor is likely to interpret your non-verbal manifestations as a sign of attack.   
-- Use situations such as an opportunity to mutual benefit.
+- View problem-solving discussions as productive conversations as opposed to confrontational scenarios.  
+- Begin with favorable presumptions about others and see conversation as an opportunity to ask questions that pique your interest. By doing this, you can obtain more insightful information and prevent defensiveness from your interlocutors.   
+- Only initiate the conversation while in a state that is conducive to communicating.   
+- Your interlocutor is likely to view your nonverbal cues as an assault if you are generally unhappy, furious, agitated, and unbalanced.   
+- Take advantage of circumstances like an opportunity for mutual gain.
 
-Don't tell the developer to be quiet at meetings because he doesn't let anyone talk; ask him if he can help you get involved in other people's discussions. Explain that an introvert needs a longer break to start a conversation, and if he holds a five-second break before he pronounces the first words, it will help you a lot.   
-If you are focused on a common goal, view the “problems” of your interlocutors as an opportunity to learn something, and manage your emotions, you will not only improve your efficiency but also learn something new every time.
+Ask the developer if he can assist you participate in other people's discussions instead of telling him to keep quiet during meetings because he doesn't allow anyone to speak. Remind him that introverts require more time to engage in conversation, and that it would be very beneficial if he took a five-second pause before speaking.   
+You will increase your efficiency and learn something new every time if you have a common goal in mind, control your emotions, and see the "problems" that your interlocutors present as opportunities to learn.

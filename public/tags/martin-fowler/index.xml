@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 11 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/martin-fowler/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Обеспечьте непрерывную интеграцию</title>
-      <link>http://localhost:1313/posts/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D1%8C%D1%82%D0%B5-%D0%BD%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D1%83%D1%8E-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8E/</link>
+      <title>Ensure continuous integration</title>
+      <link>http://localhost:1313/posts/ensure-continuous-integration/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D1%8C%D1%82%D0%B5-%D0%BD%D0%B5%D0%BF%D1%80%D0%B5%D1%80%D1%8B%D0%B2%D0%BD%D1%83%D1%8E-%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8E/</guid>
-      <description>The collection has long ceased to play the role of the &amp;ldquo;Big Bang&amp;rdquo; in the design of projects.Both architects (both at the application level and at the corporate level) should encourage the use of continuous integration methods and tools in each project.&#xA;The term continuous integration (CI, Continuous Integration) was first proposed by Martin Fowler as a design template. It means a set of methods and tools that ensure regular automatic assembly and testing of applications over short intervals of time (usually on an integration server specially designed to perform these operations).For any modern software project, the practice of continuous integration, combining modular testing methods and tools with automated assembly tools, becomes mandatory.&#xA;Continuous integration affects an integral element of the software development process – the point of converting the source code into a working application.</description>
+      <guid>http://localhost:1313/posts/ensure-continuous-integration/</guid>
+      <description>The collection no longer serves as the project&amp;rsquo;s &amp;ldquo;Big Bang&amp;rdquo; in terms of design. In every project, architects should promote the use of continuous integration techniques and technologies, both at the corporate and application levels.&#xA;Martin Fowler originally suggested the term continuous integration (CI) as a design template. It refers to a collection of techniques and equipment that guarantees consistent, automated application testing and assembly across brief intervals of time (sometimes on an integration server specifically created to carry out these tasks). Continuous integration, which combines automated assembly tools with modular testing techniques and tools, is now required for all modern software projects.&#xA;The project&amp;rsquo;s components are now assembled and put to the test. These days, continuous integration has taken the position of &amp;ldquo;early and frequent assembly.</description>
     </item>
   </channel>
 </rss>

@@ -9,18 +9,11 @@
     <lastBuildDate>Sun, 14 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/position/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Встаньте</title>
-      <link>http://localhost:1313/posts/%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D1%8C%D1%82%D0%B5/</link>
+      <title>Get up</title>
+      <link>http://localhost:1313/posts/get-up/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D1%8C%D1%82%D0%B5/</guid>
-      <description>For many of us, an architect&amp;rsquo;s career began with some sort of purely technical position, where success was largely determined by the ability to communicate with computers.But as an architect, we have to communicate mainly with other people. Whether you are discussing the advantages of a template with developers or explaining to management the pros and cons of buying intermediate software, your communication skills are the key to success.&#xA;Objectively measure the degree of influence of the architect on the project is quite difficult, but one thing is quite clear: if the developers constantly ignore the instructions of the Architect, and the management does not attach importance to his recommendations, the &amp;ldquo;correctness&amp;rdquo; of the actions of architect will not affect the development of his career.</description>
-    </item>
-    <item>
-      <title>Interview tips</title>
-      <link>http://localhost:1313/posts/interview-tips/</link>
-      <pubDate>Sun, 07 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/interview-tips/</guid>
-      <description>The fate of fate I started to go to interviews again, and I want to share some observations. On this, I just give advice to everyone in enterprise companies about how the recruitment process should be structured.&#xA;Advice to candidates In the last five years, I&amp;rsquo;ve been through several hundred interviews on both sides. So, some life hacking:&#xA;You&amp;rsquo;re going to have to go through the windshields. Those you&amp;rsquo;re not going to go to. You pump the skill, or suddenly something interesting turns out to be, or it&amp;rsquo;ll be the only place with the offer. You never know what&amp;rsquo;s in a box of candy.&#xA;Get some sleep and let yourself rest on the day of wrath. The same live coding is quite a dumb thing; the solution may not come during the call but will appear immediately after.</description>
+      <guid>http://localhost:1313/posts/get-up/</guid>
+      <description>Many of us started our careers as architects in some form of very technical role where computer communication skills were essential to succeed.However, our primary means of communication as architects is with other people. Your ability to communicate effectively is essential for success, whether you are arguing with developers about the benefits of using a template or outlining the advantages and disadvantages of purchasing intermediary software to management.&#xA;It is challenging to measure the architect&amp;rsquo;s influence on the project objectively, but one thing is certain: the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not have an impact on the trajectory of his career if the developers consistently disregard his instructions and the management does not value his advice. Skilled architects know that they must &amp;ldquo;promote&amp;rdquo; their concepts, and good communication is necessary for this.</description>
     </item>
   </channel>
 </rss>

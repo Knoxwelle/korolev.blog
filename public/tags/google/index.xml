@@ -9,11 +9,11 @@
     <lastBuildDate>Sat, 29 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Screening</title>
-      <link>http://localhost:1313/posts/screening/</link>
+      <title>Interview at Enterprise</title>
+      <link>http://localhost:1313/posts/interview-at-enterprise/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/screening/</guid>
-      <description>I&amp;rsquo;ve been going to interviews again, and I&amp;rsquo;d like to share some observations. This time we talk about Screening in enterprise companies, and how the recruitment process should be constructed.&#xA;Screening It all starts with it, and tech-screening becomes the norm. Recruiter directly on the first call asks cavernous questions and checks with sparkling. For example:&#xA;how to stop the container? unchanged data typesx in python? What&amp;rsquo;s the PID of the Linux kernel? how do you decipher CAP and PACELC? &amp;hellip; Some of them go even further and create an entire platform with small pieces of code that can be run. 20 questions in 20 minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; or &amp;ldquo;What does this code do?&amp;rdquo; Well, he knows, I&amp;rsquo;t just miss that code on a review, because it&amp;rsquo;s wild.</description>
+      <guid>http://localhost:1313/posts/interview-at-enterprise/</guid>
+      <description>I&amp;rsquo;ve started attending interviews once more, and I would want to offer some findings. This episode, we discuss screening in large corporations and the design of the hiring process.&#xA;Screening From there, tech-screening spreads like wildfire. On the initial call, the recruiter asks a ton of questions and checks with sparkling. As an illustration:&#xA;How can the container be stopped? Python&amp;rsquo;s unaltered data typesx? What is the Linux kernel&amp;rsquo;s PID? How are CAP and PACELC interpreted? -&amp;hellip; Some even go so far as to build a full platform out of executable little bits of code. Twenty minutes, twenty questions. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Alternatively &amp;ldquo;What does this code do?&amp;rdquo; He&amp;rsquo;s aware that I wouldn&amp;rsquo;t just overlook that code on a review because it&amp;rsquo;s so bizarre.</description>
     </item>
   </channel>
 </rss>

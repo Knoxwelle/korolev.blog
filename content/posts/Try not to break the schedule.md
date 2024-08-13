@@ -6,18 +6,18 @@ categories = []
 tags = ["express", "start", "problems", "delivery", "project", "quality", "times"]
 cover_image='/images/cover/knoxwelle__2017-06-01T184503.000Z.jpg'
 +++
-A software project can fail for many reasons.One of the most common sources of project failure is changing the schedule of work during the project execution without proper planning.Such failures can be avoided, but it requires considerable effort on the part of many people.Adjusting the timescale or adding resources to a project usually does not create any problems.Problems start when you are required to do more work in the same timeframe or shorten the schedule without reducing the load.
+Numerous factors can cause a software project to fail. Changing the work schedule mid-project without enough planning is one of the most frequent causes of project failure. These kinds of failures are preventable, but it will take a lot of work from many individuals. Adding resources or modifying the timeline to a project typically doesn't cause any issues. When you have to work more in the same amount of time or reduce the timetable without lowering the workload, problems arise.
 
-The idea that by shortening the schedule you can reduce costs or speed up the delivery of a product is a very common misconception.Typically, overtime is used or "less important tasks" (such as modular testing) are sacrificed for faster delivery of the product or for enhanced functionality without changing the delivery time.Avoid such a scenario at all costs.Remind those who require such measures of you of the following facts:
+A very prevalent fallacy is that you can cut expenses or expedite product delivery by shortening the timeline. Usually, extra hours are worked or "less important tasks" (such modular testing) are given up for quicker product delivery or for better functionality without affecting delivery time.Steer out of the situation at all costs. Remind others who need you to take such actions of the following information:
 
-- Reducing design times leads to poor design quality and poor documentation, and also increases the likelihood of quality control problems and the risk that the system will not be accepted by the user.
+Cutting design periods short increases the possibility of quality control issues, inadequate documentation, and user rejection of the system. It also lowers design quality.
 
-- The reduction in coding or delivery times is directly related to the number of errors in the final product.
+The number of errors in the finished product is directly correlated with the reduction in coding or delivery times.
 
-- Reducing test times leads to poorly tested code and is directly related to the number of tests problems. 
+Test problem count is closely correlated with test time reduction, which results in code that has not been well tested. 
 
- - All of this entails problems at the stage of operation, and the elimination of such problems is much more expensive.
+All of this implies operational issues, and resolving these issues comes at a far higher cost.
 
-In the end, expenditure not only does not decrease, but increases.Usually this is the reason for failure.
+Ultimately, spending not only stays the same but goes up. This is typically the cause of failure.
 
-As an architect, sooner or later you will find yourself in a situation where your chances of success are determined by how fast you act.Express your opinion as soon as possible.First try to ensure quality by keeping the scheduled schedule.If you can't do without shrinking the graphics, try to move non-critical functionality to future versions.Of course, this will require good training, negotiation skills and the ability to persuade themselves to be right.Start refining your skills in these areas today.Believe me, you won't regret it.
+As an architect, you will eventually come across a situation where your odds of success are based on how quickly you act. Give your thoughts as soon as you can. First, make an effort to maintain quality by adhering to the timetable. If reducing the graphics is unavoidable, consider delaying non-essential features until later iterations. Naturally, this will need for strong bargaining abilities, solid training, and the capacity to convince oneself that one is correct. Put some practice into these areas right now. You won't regret it, I promise.
