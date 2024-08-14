@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/tags/position/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Get up</title>
-      <link>http://localhost:1313/posts/get-up/</link>
+      <link>http://localhost:1313/posts/stand-up/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/get-up/</guid>
-      <description>Many of us started our careers as architects in some form of very technical role where computer communication skills were essential to succeed.However, our primary means of communication as architects is with other people. Your ability to communicate effectively is essential for success, whether you are arguing with developers about the benefits of using a template or outlining the advantages and disadvantages of purchasing intermediary software to management.&#xA;It is challenging to measure the architect&amp;rsquo;s influence on the project objectively, but one thing is certain: the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not have an impact on the trajectory of his career if the developers consistently disregard his instructions and the management does not value his advice. Skilled architects know that they must &amp;ldquo;promote&amp;rdquo; their concepts, and good communication is necessary for this.</description>
+      <guid>http://localhost:1313/posts/stand-up/</guid>
+      <description>Many of us started our careers as architects in some form of very technical role where computer communication skills were essential to succeed. However, our primary means of communication as architects is with other people. Your ability to communicate effectively is essential for success, whether you are arguing with developers about the benefits of using a template or outlining the advantages and disadvantages of purchasing intermediary software to management.&#xA;It is challenging to measure the architect&amp;rsquo;s influence on the project objectively, but one thing is certain: the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not have an impact on the trajectory of his career if the developers consistently disregard his instructions and the management does not value his advice. Skilled architects know that they must &amp;ldquo;promote&amp;rdquo; their concepts, and good communication is necessary for this.</description>
     </item>
   </channel>
 </rss>

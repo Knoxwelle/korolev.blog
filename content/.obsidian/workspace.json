@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Stand up.md",
+                "file": "posts/Use quantitative criteria.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Stand up.md",
+                "file": "posts/Use quantitative criteria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Stand up.md",
+                "file": "posts/Use quantitative criteria.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Stand up.md"
+                "file": "posts/Use quantitative criteria.md"
               }
             }
           }
@@ -148,21 +148,23 @@
   },
   "active": "63a26ad8b24d63ea",
   "lastOpenFiles": [
-    "posts/Application performance determined by architecture.md",
-    "posts/Simplicity is better than versatility.md",
+    "posts/Interview at Enterprise.md",
+    "posts/Interview at Enterprise.txt",
+    "posts/Use quantitative criteria.md",
+    "posts/There are no solutions for all cases of life.md",
+    "posts/The architect must be a practitioner.md",
     "posts/Perhaps your main problem is not technology.md",
-    "posts/One line of working code costs 500 lines of specification.md",
     "posts/Never prioritize your resume over the needs of the client.md",
+    "posts/Application performance determined by architecture.md",
+    "posts/Stand up.md",
+    "posts/Simplicity is better than versatility.md",
+    "posts/One line of working code costs 500 lines of specification.md",
     "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.md",
     "posts/Problems can be more than their reflection in the mirror.md",
-    "posts/The architect must be a practitioner.md",
-    "posts/Interview at Enterprise.md",
     "posts/Database as Fortress.md",
     "posts/You negotiate more often than you think.md",
-    "posts/Use quantitative criteria.md",
     "posts/Try not to break the schedule.md",
     "posts/There may be several solutions.md",
-    "posts/There are no solutions for all cases of life.md",
     "posts/You negotiate more often than you think.txt",
     "posts/Interview tips.md",
     "posts/DevOps, SRE.md",
@@ -177,13 +179,10 @@
     "posts/System Design.txt",
     "posts/Simplicity is better than versatility.txt",
     "posts/Screening.txt",
-    "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.txt",
     "posts/It is never too early to think about productivity.md",
-    "posts/Stand up.md",
     "posts/Find the true meaning of the needs.md",
     "posts/Failures are inevitable.md",
     "posts/Ensure continuous integration.md",
-    "posts/Do it in a hurry and escape this crime.md",
     "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",
