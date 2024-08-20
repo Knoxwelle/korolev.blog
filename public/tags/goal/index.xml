@@ -6,14 +6,14 @@
     <description>Recent content in Goal on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/goal/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>One line of working code costs 500 lines of specification</title>
-      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</guid>
-      <description>It is lovely to promethize. In this regard, specifications are crucial since they establish the framework for system construction. It is crucial to consider the architecture as a whole, taking into account the behavior of individual components as well as the interactions between them on a micro and macro scale.&#xA;Regrettably, architects are frequently enthralled with the design process and are drawn to architectural abstractions. But the specs are worthless in and of themselves. A truly functional system is the software project&amp;rsquo;s ultimate goal. This objective should constantly remain in the architect&amp;rsquo;s mind, and they should never forget that design is merely a tool, not the final product. The skyscraper&amp;rsquo;s architect would soon come to regret disobeying the rules of physics in favor of the building&amp;rsquo;s elegance.</description>
+      <title>500 lines of specification are needed for every line of functioning code</title>
+      <link>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</guid>
+      <description>Promising is a beautiful thing. Specifications are important in this sense because they set the foundation for building systems. Taking into account the behavior of individual components as well as the interconnections between them on a micro and macro scale is essential when analyzing the architecture as a whole.&#xA;Unfortunately, architects are often fascinated with design and gravitate toward architectural abstractions. However, the specs are meaningless on their own. The ultimate goal of the software project is to create a fully functional system. The architect should never lose sight of this goal or the fact that design is only a tool and not the finished product. The architect of the skyscraper would soon come to regret defying physics to achieve the elegant design of the edifice.</description>
     </item>
   </channel>
 </rss>

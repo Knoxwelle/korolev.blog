@@ -6,35 +6,35 @@
     <description>Recent content in Architecture on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application performance determined by architecture</title>
       <link>http://localhost:1313/posts/application-performance-determined-by-architecture/</link>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/application-performance-determined-by-architecture/</guid>
-      <description>The architecture of an application determines its performance. Although this claim appears clear at first glance, practical experience indicates otherwise. Software architects, for instance, frequently think that application performance issues can be resolved by simply moving to a different software infrastructure manufacturer. This notion could have its roots in the noise surrounding test results; for instance, claims that the leading company&amp;rsquo;s product performs 25% better than its closest rival&amp;rsquo;s could be the cause of this belief. However, given the overall low performance, which stems from architectural inefficiencies, the stated 25% (one millisection) means relatively little if the competition product completes the operation in 4 milliseconds and the leading product completes it in 3 milliseconds.&#xA;Other groups of people, like the developers&amp;rsquo; support service and the authors of the books on app performance management, advise you to perform the subtle configuration of the application&amp;rsquo;s infrastructure, such as experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth, in addition to IT managers and performance testing teams.</description>
-    </item>
-    <item>
-      <title>Architectural compromises</title>
-      <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/architectural-compromises/</guid>
-      <description>High performance, high availability, high security, and high abstraction cannot all be achieved at the same time in an architecture. Software architects just need to be aware of, comprehend, and share one true story with their clients and peers. I&amp;rsquo;m referring to Vaza&amp;rsquo;s past.&#xA;There was a conflict between Sweden and Poland in 1620. The Swedish King ordered the building of a gallion known as the Vase in an attempt to swiftly conclude this costly conflict. The ship was unique. It had different specifications than any other ship of the era. In addition to carrying 64 weapons on two battery decks and transporting 300 men at a time safely to Poland by sea, it had to be longer than sixty meters. There was not enough money, and there was running out of time (sounds familiar?</description>
+      <description>An application&amp;rsquo;s performance is determined by its architecture. On the surface, this claim seems obvious, but actual experience suggests otherwise. For example, software architects frequently believe that switching to a different software infrastructure manufacturer can alleviate application performance difficulties. This idea may have originated from the hype around test findings; for example, assertions that the product of the top company outperforms that of its nearest competitor by 25% may have contributed to the development of this view. However, if the leading product completes the operation in 3 milliseconds and the competitor product completes it in 4 milliseconds, the reported 25% (one millisection) represents virtually little given the overall low performance, which is caused by architectural inefficiencies.&#xA;In addition to IT managers and performance testing teams, other groups of people advise you to carry out the subtle configuration of the application&amp;rsquo;s infrastructure, like experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth.</description>
     </item>
     <item>
       <title>Be guided by uncertainty</title>
       <link>http://localhost:1313/posts/be-guided-by-uncertainty/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/be-guided-by-uncertainty/</guid>
-      <description>People often think that making the best decision is what matters most when presented with options.This is untrue in design, whether it be software products or anything else. An analysis of the uncertainty in the system&amp;rsquo;s design is necessary when an alternative exists. Use breakdown and abstraction to lessen the significance of design decisions, or use uncertainty as a deciding factor to find areas where you can delay the transition to specifics.It&amp;rsquo;s conceivable that you&amp;rsquo;ll tie your hands later if you blindly &amp;ldquo;sew&amp;rdquo; whatever decision comes to mind into the system.As a result, the software product&amp;rsquo;s flexibility will decline and random judgments will start to take center stage.&#xA;Grady Booch provided one of the clearest and most helpful definitions of architecture, saying that &amp;ldquo;though not all designs are intended to result in architecture, all architecture is the product of design.</description>
+      <description>When faced with options, people frequently believe that choosing the best course of action is what really counts. This is not true in terms of design, be it software or anything else. When an alternative exists, an analysis of the uncertainty in the system&amp;rsquo;s design is required. To reduce the importance of design decisions, utilize abstraction and breakdown. Alternatively, use uncertainty as a determining factor to identify places where you can postpone going into detail. You could &amp;ldquo;sew&amp;rdquo; whatever option comes to mind mindlessly into the system, which could tie your hands later.The software product will become less flexible as a result, and arbitrary judgments will begin to take center stage.&#xA;One of the best and most useful definitions of architecture was offered by Grady Booch, who stated that &amp;ldquo;all architecture is the product of design, even though not all designs are intended to result in architecture.</description>
     </item>
     <item>
-      <title>It is never too early to think about productivity</title>
-      <link>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</guid>
-      <description>Functional requirements are where business application users&amp;rsquo; needs are mostly expressed. The architect is in charge of the system&amp;rsquo;s non-functional elements, which include performance, flexibility, downtime, support requirements, etc. Simultaneously, initial testing of non-functional needs is sometimes completely assigned to the system maintenance team or delayed until a very late point in the development cycle.&#xA;This is a far more frequent error than it ought to be. It may be founded on a number of factors.It may seem futile to worry about the program&amp;rsquo;s speed and adaptability when it isn&amp;rsquo;t precisely fulfilling the necessary role yet. Both the test settings and the tests themselves are highly intricate. Due to low use intensity, early working versions of the system might not have been subjected to a realistic load.</description>
+      <title>There is never a bad time to consider productivity</title>
+      <link>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</guid>
+      <description>The needs of business application users are mostly stated in functional requirements. The non-functional components of the system, such as performance, flexibility, downtime, support needs, etc., are under the architect&amp;rsquo;s control. Concurrently, the system maintenance team may be given full responsibility for the initial testing of non-functional requirements, or the testing may be postponed until a very late stage of the development process.&#xA;This is a mistake that happens far more often than it should. It could have several foundations. Worrying about the program&amp;rsquo;s speed and flexibility while it isn&amp;rsquo;t yet perfectly performing the required role may seem pointless. The tests themselves are rather complex, as are the test settings. Early working versions of the system may not have been subjected to a realistic load because of their low use intensity.</description>
+    </item>
+    <item>
+      <title>Architectural compromises</title>
+      <link>http://localhost:1313/posts/architectural-compromises/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/architectural-compromises/</guid>
+      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
     </item>
   </channel>
 </rss>

@@ -6,14 +6,14 @@
     <description>Recent content in Fortress on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/fortress/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Database as Fortress</title>
-      <link>http://localhost:1313/posts/database-as-fortress/</link>
-      <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/database-as-fortress/</guid>
-      <description>All information, both entered by staff members and received from clients, is kept in the database datax. Data remains constant despite changes in user interfaces, business logic, applied logic, and even personnel.The significance of developing a trustworthy data model early on in the project cannot be overstated.&#xA;The days of prewriting intricate, detailed technical specifications are long gone! Early and frequent product delivery is required by the new school.It is preferable to write one line of vulnerable code than ten lines in your mind.It seems too good to be true, at least when it comes to the facts.&#xA;Although user interfaces and business logic change quickly, data structures and their connections typically do not. As a result, it&amp;rsquo;s critical to establish a precise definition of the data model early on, both structurally and analytically.</description>
+      <title>Using a database as a fort</title>
+      <link>http://localhost:1313/posts/using-a-database-as-a-fort/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/using-a-database-as-a-fort/</guid>
+      <description>The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don&amp;rsquo;t affect the data. It is imperative that a reliable data model be created as early in the project as possible.&#xA;Prewriting complex, comprehensive technical requirements is a thing of the past! The new school demands that products be delivered frequently and early.Writing one line of vulnerable code is better than writing 10 in your head. When it comes to the facts, at least, it looks too good to be true.&#xA;Data structures and their relationships usually do not change quickly, although user interfaces and business logic do. Because of this, it&amp;rsquo;s imperative to define the data model precisely from the start, both analytically and structurally.</description>
     </item>
   </channel>
 </rss>

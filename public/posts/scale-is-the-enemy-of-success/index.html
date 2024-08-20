@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/scale-is-the-enemy-of-success/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Scale is the enemy of success • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Scale is the enemy of success">
+<meta name="twitter:description" content="The boundaries of the project characterize its scale.How much time, effort and resources is required to implement it?What functionality and what level of quality is required?How difficult is it to deliver the product to the deadline?What&rsquo;s the risk?What are the limits?The answers to these questions determine the boundaries of the project.Software architects prefer the challenge of large, complex projects.The potential benefits even tempt people to artificially increase the size of the project to increase its apparent importance.But expanding borders is the enemy of success, because the likelihood of failure is growing faster than expected.Double the scale of a project often increases the likelihood of failure by an order.
+How much is that happening?Let us consider a few examples.
+Intuition tells us to spend twice as much time or resources to double the amount of work.">
+
+<meta property="og:url" content="http://localhost:1313/posts/scale-is-the-enemy-of-success/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Scale is the enemy of success">
+  <meta property="og:description" content="The boundaries of the project characterize its scale.How much time, effort and resources is required to implement it?What functionality and what level of quality is required?How difficult is it to deliver the product to the deadline?What’s the risk?What are the limits?The answers to these questions determine the boundaries of the project.Software architects prefer the challenge of large, complex projects.The potential benefits even tempt people to artificially increase the size of the project to increase its apparent importance.But expanding borders is the enemy of success, because the likelihood of failure is growing faster than expected.Double the scale of a project often increases the likelihood of failure by an order.
+How much is that happening?Let us consider a few examples.
+Intuition tells us to spend twice as much time or resources to double the amount of work.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-23T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-23T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Scale is the enemy of success</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 23, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2020-08-07T185058.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>The boundaries of the project characterize its scale.How much time, effort and resources is required to implement it?What functionality and what level of quality is required?How difficult is it to deliver the product to the deadline?What&rsquo;s the risk?What are the limits?The answers to these questions determine the boundaries of the project.Software architects prefer the challenge of large, complex projects.The potential benefits even tempt people to artificially increase the size of the project to increase its apparent importance.But expanding borders is the enemy of success, because the likelihood of failure is growing faster than expected.Double the scale of a project often increases the likelihood of failure by an order.</p>
+<p>How much is that happening?Let us consider a few examples.</p>
+<ul>
+<li>Intuition tells us to spend twice as much time or resources to double the amount of work.However, history shows that the connection between them is not as linear as intuition claims.For example, in a four-man team, interaction time is more than doubled compared to a two-person team.</li>
+<li>Our estimates are not accurate science.Who of us has not come into a situation where the implementation of a function was much more difficult than originally assumed.</li>
+</ul>
+<p>Of course, some tasks initially involve the implementation of a project of a certain scale and complexity. Writing a text editor without the possibility of entering text is easy, but it is unlikely to be called text editor.What strategies help manage borders in real projects?</p>
+<ul>
+<li>Find out what you really need. The implementation of the project must ensure that the set of requirements is met. Requirements determine functionality or some of its qualities.Question any requirements that are not described in such a way that their value for the customer can be measured.If the requirement has no practical significance, why is it needed?</li>
+<li>Divide and rule.Look for ways to divide the work into smaller independent pieces.Managing several small independent projects is easier than one large project with interrelated parts.</li>
+<li>Set priorities.The world of business is changing.In large projects, the requirements change over and over again.Really important demands usually remain, however economically, while other demands change and even disappear. The system of priorities allows the most important requirements to be implemented first.</li>
+<li>Demonstrate the results as soon as possible.People rarely realize what they need until they get a result.A well-known comic book presents the evolution of the children&rsquo;s bats project: what the customer said and how its requirements were understood by the participants of the project, performing certain roles. The result is a clever structure, only remotely reminiscent of a hammer.And the last picture called &ldquo;What the customer wanted&rdquo; depicts the simplest car tires on a rope.When the customer has something that he can experience on his own, the solution sometimes turns out to be easier than expected.When you prioritize the most important functions, you get the most crucial information as a feedback at the earliest stage, when it is most needed.</li>
+</ul>
+<p>Proponents of flexible methodologies urge us to build “the simplest that will work.” Failures in projects with complex architecture occur much more often than in simple ones. Shrinking the boundaries of a project often leads to simplification of the architecture – and this is one of the most effective strategies for an architect to increase the chances of successfully completing a project.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/software-architecture-has-ethical-implications/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Software architecture has ethical implications</span>
+    </a>
+    
+    
+    <a href="/posts/architectural-compromises/" class="navigation-next">
+      <span class="navigation-tittle">Architectural compromises</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

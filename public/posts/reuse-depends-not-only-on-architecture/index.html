@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/reuse-depends-not-only-on-architecture/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Reuse depends not only on architecture • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Reuse depends not only on architecture">
+<meta name="twitter:description" content="Looks like a well-designed infrastructure or a well thought out and smartly implemented architecture is ideal for reuse in your organization.However, in reality, even the most beautiful and elegant architectures, infrastructures or systems will be reused only by people who:&hellip;know about their existence The developers and designers of your organization should know about the existence of the architecture, infrastructure, library or fragment of code and about where to find all the necessary information about these elements (documentation, version data and compatibility). The simple and logical truth is that people do not consider possibilities that they do not know exist.You can only count on the reuse of certain elements if information about them is actively disseminated. There are many ways to disseminate information about reusable items within your organization – from a wiki with an RSS feed that contains information about updates (useful for very large teams) to an email with notifications about version changes in the source repository.">
+
+<meta property="og:url" content="http://localhost:1313/posts/reuse-depends-not-only-on-architecture/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Reuse depends not only on architecture">
+  <meta property="og:description" content="Looks like a well-designed infrastructure or a well thought out and smartly implemented architecture is ideal for reuse in your organization.However, in reality, even the most beautiful and elegant architectures, infrastructures or systems will be reused only by people who:…know about their existence The developers and designers of your organization should know about the existence of the architecture, infrastructure, library or fragment of code and about where to find all the necessary information about these elements (documentation, version data and compatibility). The simple and logical truth is that people do not consider possibilities that they do not know exist.You can only count on the reuse of certain elements if information about them is actively disseminated. There are many ways to disseminate information about reusable items within your organization – from a wiki with an RSS feed that contains information about updates (useful for very large teams) to an email with notifications about version changes in the source repository.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-06-29T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-06-29T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Reuse depends not only on architecture</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jun 29, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2017-08-06T104731.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Looks like a well-designed infrastructure or a well thought out and smartly implemented architecture is ideal for reuse in your organization.However, in reality, even the most beautiful and elegant architectures, infrastructures or systems will be reused only by people who:&hellip;know about their existence The developers and designers of your organization should know about the existence of the architecture, infrastructure, library or fragment of code and about where to find all the necessary information about these elements (documentation, version data and compatibility). The simple and logical truth is that people do not consider possibilities that they do not know exist.You can only count on the reuse of certain elements if information about them is actively disseminated.
+There are many ways to disseminate information about reusable items within your organization – from a wiki with an RSS feed that contains information about updates (useful for very large teams) to an email with notifications about version changes in the source repository.In a very small team, a designer or lead developer can inform his colleagues in a personal conversation or simply by making a loud announcement for the entire office.In general, the way to disseminate information about reusable elements can be any – the main thing is that it is.Do not leave the dissemination of information to chance.</p>
+<h2 id="know-how-to-use-them">&hellip;know how to use them</h2>
+<p>The ability to reuse elements depends on skills and qualifications.Of course, there are people who are capable (as Donald Knuth put it) of &ldquo;resonating&rdquo; with programming and design.We&rsquo;ve all worked with people like talented designers and architects who have an impressive (and even frightening) speed and depth of information absorption.But people like that are rare. The rest of the team are probably just good, reliable, sensible developers and designers.They need to be taught.
+It may be that developers and designers do not know the specific pattern used in the design, or do not fully understand the inheritance model chosen by the infrastructure designer.They need to have easy access to information in the form of up-to-date documentation and, even better, through training.A small amount of effort spent on training can well prepare the team to reuse certain elements.</p>
+<h2 id="think-its-better-than-doing-it-again-on-your-own">&hellip;think it&rsquo;s better than doing it again on your own</h2>
+<p>Many people – and especially developers – prefer to solve problems on their own rather than seeking help. Asking about how something works seems to them to be a sign of weakness or even ignorance.Much depends on the level of maturity and personality composition of individual team members – for different people the words “better than to do again” mean different things.&ldquo;Young Arrowers&rdquo; always prefer to write the right code themselves, because it comforts their selfishness.More experienced participants are more likely to accept the fact that someone else has already thought about such a problem and is able to propose something to solve it.
+If your team doesn&rsquo;t know where to find items for reuse, or does not know how to work with them, it will, of course, create them again on its own.And you&rsquo;ll have to pay the bills.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Communication is the king, clarity and leadership are his true companions</span>
+    </a>
+    
+    
+    <a href="/posts/software-architect-is-written-in-lowercase/" class="navigation-next">
+      <span class="navigation-tittle">Software architect is written in lowercase</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

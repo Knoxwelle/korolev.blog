@@ -6,14 +6,14 @@
     <description>Recent content in Requirements on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/requirements/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating architecture as the art of balance</title>
-      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
-      <description>The traditional technical processes that come to mind when creating a software architecture are breaking the system down into its component parts, defining interfaces, assigning tasks, using templates, and performance tuning. The architect also needs to consider a variety of additional factors, such as output management, deployment settings, simplicity of usage, safety, and ease of maintenance.All of these procedural and technical details, meanwhile, have to be pertinent to the needs of the stakeholders.One of the best ways to make sure that the requirements specifications for the product being developed are comprehensive is to consider these interests during the requirements analysis process.&#xA;Each project participant has interests that impact the corporation as a whole as well as the software development process the company uses. The architect&amp;rsquo;s final set of priorities is derived from a consideration of these interests.</description>
+      <title>Building architecture as a balancing art</title>
+      <link>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</guid>
+      <description>When designing a software architecture, the conventional technical procedures that spring to mind are disassembling the system into its constituent pieces, specifying interfaces, allocating responsibilities, employing templates, and optimizing performance. A wide range of other variables, including output management, deployment settings, convenience of use, safety, and maintenance, must also be taken into account by the architect.Meanwhile, every one of these technical and procedural specifics must be relevant to the requirements of the stakeholders.Taking these interests into account during the requirements analysis process is one of the greatest ways to ensure that the requirements specifications for the product being developed are thorough.&#xA;Every project participant has interests that affect both the company&amp;rsquo;s software development process and the firm as a whole. Taking these interests into account leads to the architect&amp;rsquo;s final list of priorities.</description>
     </item>
   </channel>
 </rss>

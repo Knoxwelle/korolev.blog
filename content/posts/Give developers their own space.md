@@ -1,0 +1,13 @@
++++
+title = 'Give developers their own space'
+date = 2024-04-27T00:00:00-07:00
+draft = false
+categories = []
+tags = []
+cover_image='/images/cover/knoxwelle__2017-01-15T081122.000Z.jpg'
++++
+Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it's critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.
+
+It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.You observe how these elements interact while developers work on building classes, methods, tests, interfaces, and databases. Seek out the confined spaces and make an effort to remove them. Do your personnel find it difficult to write exams? Reduce dependencies and enhance interfaces. Where abstraction is actually required and what may be done without it are not entirely clear. Gain a deeper comprehension of the topic. Are you unable to create system components? Make a plan for the project. When using the API you built, do developers keep making the same mistakes? Make the design more comprehensible. Is your design misinterpreted by the developers? Discuss everything in detail with them. Do you not grasp when and why scaling is appropriate? Engage with clients and get knowledge of their business strategy. 
+
+A good architect just doesn't have time to sabotage work being done by coders.It goes without saying that you will need to keep an eye on things closely enough to make sure your idea is implemented as intended. To achieve this, nevertheless, does not require standing behind other people's backs. When you observe that the developers are having problems, you can provide your answer; nevertheless, it is preferable to establish a situation in which they come to you for guidance on their own.A competent architect deftly strikes a compromise between safeguarding the profession's prosperity and allowing associates to fulfill their intellectual and artistic potential.

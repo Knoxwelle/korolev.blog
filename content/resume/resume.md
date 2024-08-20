@@ -33,7 +33,7 @@ tags = ["resume", "CV"]
 **TOOLS AND TECHNOLOGIES**
 
 - Methodology and Project Management: Agile, Scrum, Kanban
-- Scripting: Java, C#, Ruby, Python, JavaScript, Node,js, SQL, CSS, Apex, , SOQL
+- Scripting: Java, C#, Ruby, Python, JavaScript, Node.js, SQL, CSS, Apex, SOQL
 - Salesforce services: Sales, Service, Marketing, Commerce, Platform and App Cloud
 - Management and Integration tools: HP Quality Center, Atlassian Jira, Jenkins, Git
 - API and Integration: Postman, SoapUI, Rest API, Katalon Studio, Kafka, RabbitMQ
@@ -62,7 +62,7 @@ tags = ["resume", "CV"]
 - Lead Oracle HCM assets to establish industry testing standards in Katalon Studio.
 
 
-**SDET / Salesforce Software Automation Engineer**
+**Salesforce Software Automation Engineer / SDET**
 **July 2021 – July 2022**
 **Ritchie Bros. Auctioneers**
 **Vancouver, BC, Canada**
@@ -76,7 +76,7 @@ tags = ["resume", "CV"]
 - Exposed CI/CD process to sandboxes for testing and migration to prod instance.
 
 
-**SDET / Software Automation Engineer**
+**Software Automation Engineer / SDET**
 **August 2020 – January 2021**
 **Schneider Electric**
 **Victoria, BC, Canada**
@@ -89,7 +89,7 @@ tags = ["resume", "CV"]
 - Analyzed data integrity in automatic power unit converter.
 
 
-**Cloud Engineer (AWS Integration) at Sea2sky Business Solutions**
+**Cloud Engineer (AWS Integration) at Sea2Sky Business Solutions**
 **Vancouver, BC, Canada, September 2018 – August 2020**
 
 *Project: LMS-CRM cloud integration within an educational institution infrastructure.*
@@ -99,6 +99,13 @@ February 2017 – August 2018, Radar System Architect at Skoltech
 October 2011 – May 2016, Radar Payload Tech Lead at Gazprom Space Systems
 September 2006 – October 2011, RF Engineer at Spurt Research and Development Centre
 
+**February 2017 – August 2018, Radar System Architect at Skoltech
+- Equipped multi-project testing environment for Skolkovo Nanosat Laboratory.
+**October 2011 – May 2016, Radar Payload Tech Lead at Gazprom Space Systems
+- Provided Power Adviser PDF Report generator functional testing for the correct layout.
+**September 2006 – October 2011, RF Engineer at Spurt Research and Development Centre
+- Deployed 6 VSAT stations for Elta Industries Israel (X-band, 2.4 m. offset).
+- Designed on-board SAR processing algorithms for Obzor-R and Arkon SAR satellites.
 
 **EDUCATION AND CERTIFICATION**
 

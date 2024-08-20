@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Use quantitative criteria.md",
+                "file": "posts/Architecture is not the only factor in reuse.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 561.5
   },
   "right": {
     "id": "45775cd4cc832aed",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Use quantitative criteria.md",
+                "file": "posts/Architecture is not the only factor in reuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Use quantitative criteria.md",
+                "file": "posts/Architecture is not the only factor in reuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Use quantitative criteria.md"
+                "file": "posts/Architecture is not the only factor in reuse.md"
               }
             }
           }
@@ -146,43 +146,44 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "63a26ad8b24d63ea",
+  "active": "154ff832aca75efb",
   "lastOpenFiles": [
-    "posts/Interview at Enterprise.md",
-    "posts/Interview at Enterprise.txt",
-    "posts/Use quantitative criteria.md",
-    "posts/There are no solutions for all cases of life.md",
-    "posts/The architect must be a practitioner.md",
-    "posts/Perhaps your main problem is not technology.md",
-    "posts/Never prioritize your resume over the needs of the client.md",
-    "posts/Application performance determined by architecture.md",
+    "posts/You underestimate how frequently you negotiate.txt",
+    "posts/Versatility is inferior to simplicity.txt",
+    "posts/Using a database as a fort.txt",
+    "posts/Try not to alter the timetable.md",
+    "posts/Try not to alter the timetable.txt",
+    "posts/Try before you decide.txt",
+    "posts/Towers are not scalable.txt",
+    "posts/Time changes everything.txt",
+    "posts/There is no I am in architecture.txt",
+    "posts/There is never a bad time to consider productivity.txt",
+    "posts/There are no answers for every situation in life.txt",
+    "posts/The ethical concerns of software architecture.txt",
+    "posts/Versatility is inferior to simplicity.md",
+    "posts/Towers are not scalable.md",
+    "posts/The ethical concerns of software architecture.md",
+    "posts/There are no answers for every situation in life.md",
+    "posts/There is no I am in architecture.md",
+    "posts/There could be a number of answers.md",
+    "posts/Try before you decide.md",
+    "posts/It is written in lowercase as software architect.md",
+    "posts/Apply numerical standards.md",
+    "posts/Perspective as seen from 300 meters.md",
+    "posts/Never put the demands of the client ahead of your resume.md",
+    "posts/A practitioner must be the architect.md",
+    "posts/There is never a bad time to consider productivity.md",
+    "posts/Diversity prevails.md",
     "posts/Stand up.md",
-    "posts/Simplicity is better than versatility.md",
-    "posts/One line of working code costs 500 lines of specification.md",
-    "posts/Reduce the intrinsic complexity and eliminate the incidental complexity.md",
-    "posts/Problems can be more than their reflection in the mirror.md",
-    "posts/Database as Fortress.md",
-    "posts/You negotiate more often than you think.md",
-    "posts/Try not to break the schedule.md",
-    "posts/There may be several solutions.md",
-    "posts/You negotiate more often than you think.txt",
-    "posts/Interview tips.md",
-    "posts/DevOps, SRE.md",
-    "posts/Knowledge test.md",
-    "posts/System Design.md",
-    "posts/Use quantitative criteria.txt",
-    "posts/Live Coding.md",
-    "posts/Try not to break the schedule.txt",
-    "posts/There may be several solutions.txt",
-    "posts/There are no solutions for all cases of life.txt",
-    "posts/The architect must be a practitioner.txt",
-    "posts/System Design.txt",
-    "posts/Simplicity is better than versatility.txt",
-    "posts/Screening.txt",
-    "posts/It is never too early to think about productivity.md",
-    "posts/Find the true meaning of the needs.md",
-    "posts/Failures are inevitable.md",
-    "posts/Ensure continuous integration.md",
+    "posts/Failures are unavoidable.md",
+    "posts/Assure ongoing integration.md",
+    "posts/Take quick action to get away from this crime.md",
+    "posts/Using a database as a fort.md",
+    "posts/Communication is the king, clarity and leadership are his true companions.md",
+    "posts/Be guided by uncertainty.md",
+    "posts/Application performance determined by architecture.md",
+    "posts/One step in the design process is programming.md",
+    "posts/Cut down on the inherent complexity and do away with the incidental complication.md",
     "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",

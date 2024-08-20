@@ -6,14 +6,14 @@
     <description>Recent content in Ruby on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/ruby/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Perhaps your main problem is not technology</title>
-      <link>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</guid>
-      <description>Somewhere right now, a different wage calculation project is failing miserably&amp;hellip; and most likely not by yourself.&#xA;What caused that to occur? because the developers opted for Ruby over Smalltalk or Java or Python? since you choose to utilize Postgres over Oracle? or because you preferred the Windows platform even if you should have chosen Linux? As you are aware, technology is frequently held responsible for project failures.&#xA;People normally establish projects, and it is up to these individuals to decide whether the project as a whole succeeds or fails. And once that is the case, we ought to consider our options for assisting them in being successful.&#xA;Per, you believe that there is a team member that is underperforming and impeding the project&amp;rsquo;s progress.</description>
+      <title>Perhaps technology is not your primary issue</title>
+      <link>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</guid>
+      <description>Another salary calculation project is currently failing horribly somewhere; it&amp;rsquo;s probably not your fault.&#xA;Why did that happen? because Ruby was chosen by the developers instead of Smalltalk, Java, or Python? since you&amp;rsquo;ve decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you are aware, project failures are often attributed to technology.&#xA;Projects are typically started by people, and it is up to these people to determine whether the initiative succeeds or fails overall. And once that&amp;rsquo;s the case, we should think about the ways we might help them succeed.&#xA;As a result, you think that one of the team members is performing poorly and preventing the project from moving forward.</description>
     </item>
   </channel>
 </rss>

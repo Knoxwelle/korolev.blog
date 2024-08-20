@@ -6,14 +6,14 @@
     <description>Recent content in Criteria on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/criteria/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Use quantitative criteria</title>
-      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
-      <pubDate>Fri, 21 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
-      <description>You can&amp;rsquo;t make &amp;ldquo;fast&amp;rdquo; a prerequisite. In addition to having a fast reaction time.alternatively, &amp;ldquo;expandable.&amp;rdquo; The primary cause is the absence of impartial standards for fulfilling these obligations.Users nevertheless require these features. Ensuring that the system has the required attributes and balancing the inevitable contradictions that occur between them are the tasks of the architect. Without objective standards, the developer&amp;rsquo;s fixation with obsessive concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and the architect&amp;rsquo;s whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”) are what the architect counts on.&#xA;Usually, we make an effort to record all such requests along with any additional specifications. However, this entry frequently appears to be a collection of hazy adjectives, such as &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;friendly to accompany,&amp;rdquo; and so forth.</description>
+      <title>Apply numerical standards</title>
+      <link>http://localhost:1313/posts/apply-numerical-standards/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/apply-numerical-standards/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Not only does it have a quick reaction time, but it&amp;rsquo;s also &amp;ldquo;expandable.&amp;rdquo; The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect&amp;rsquo;s duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer&amp;rsquo;s obsession with inane concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and his or her own whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”).&#xA;Generally, we try to document all of these requests along with any other information. All too often, though, this section seems to be a list of vague words like &amp;ldquo;friendly to accompany,&amp;rdquo; &amp;ldquo;flexible,&amp;rdquo; and so on.</description>
     </item>
   </channel>
 </rss>

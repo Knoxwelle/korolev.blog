@@ -6,14 +6,14 @@
     <description>Recent content in Business on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/business/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Business runs everything</title>
-      <link>http://localhost:1313/posts/business-runs-everything/</link>
-      <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/business-runs-everything/</guid>
-      <description>When it comes to the creation of corporate software applications, the architect should serve as a sort of intermediary within the organization between the technical and business communities, representing and defending the interests of each while frequently mediating disputes and letting the business run its operations. The commercial goals of the organization and its external environment must inform the architect&amp;rsquo;s technological decisions.&#xA;A software development company typically plans and advertises the intended return on investment (ROI) prior to starting a software development project. This signal must be accepted by the architect, along with the ensuing restrictions on the product&amp;rsquo;s value for the business.This will assist in avoiding technological solutions that can result in exorbitant costs. When discussing the technical architecture and implementation with the development team, as well as when interacting with management (in the process of figuring out how to strike a balance between the cost and benefit of a given function), the return rate ought to play a significant role in the overall target context.</description>
+      <title>Everything is run by business</title>
+      <link>http://localhost:1313/posts/everything-is-run-by-business/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/everything-is-run-by-business/</guid>
+      <description>When it comes to developing corporate software applications, the architect should act as a kind of go-between for the technical and business communities inside the organization, representing and defending each group&amp;rsquo;s interests, resolving conflicts on a regular basis, and allowing the business to operate as usual. The architect&amp;rsquo;s technology choices must take the organization&amp;rsquo;s business objectives and external surroundings into consideration.&#xA;Before beginning a software development project, a software development business usually plans and promotes the desired return on investment (ROI). The architect has to acknowledge this signal and the resulting limitations on the product&amp;rsquo;s business value.This will help prevent the need of technical solutions that could be extremely expensive. The return rate should be taken into consideration in the overall target context when talking about the technical architecture and implementation with the development team and when interacting with management (during the process of determining how to strike a balance between the cost and benefit of a given function).</description>
     </item>
   </channel>
 </rss>

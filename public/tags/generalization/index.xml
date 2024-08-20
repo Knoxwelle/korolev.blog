@@ -6,14 +6,14 @@
     <description>Recent content in Generalization on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 16 Apr 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/generalization/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Simplicity is better than versatility</title>
-      <link>http://localhost:1313/posts/simplicity-is-better-than-versatility/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/simplicity-is-better-than-versatility/</guid>
-      <description>The fact that many frameworks, class libraries, basic services, and other infrastructure code are made to be used universally and aren&amp;rsquo;t tied to any particular application is a common issue with them. The majority of developers specialize in particular systems; therefore, trying to be as versatile as possible is rarely beneficial to them. The greatest approach to reaching universality is not by universality based on supposition but rather by a thorough comprehension of known concrete cases and a study of their essence to uncover a fundamental common solution. Simplicity is the outcome of practical experience.&#xA;Simplifying an architectural design over adding more features makes it easier to choose between two options that are equivalent in every other way. Choose a more straightforward and needs-based solution over a more complex and adaptable one when there are two options.</description>
+      <title>Versatility is inferior to simplicity</title>
+      <link>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</guid>
+      <description>A typical problem with them is that a lot of frameworks, class libraries, fundamental services, and other infrastructure code are designed to be utilized anywhere and aren&amp;rsquo;t specific to any one application. Since most developers are experts in specific systems, it rarely helps them to try to be as adaptable as possible. The best way to achieve universality isn&amp;rsquo;t through universality based on conjecture, but rather through a careful understanding of well-known concrete examples and an analysis of their essence to find a fundamentally shared solution. Experience in the real world leads to simplicity.&#xA;Making an architectural design simpler rather than more feature-rich makes it simpler to decide between two solutions that are identical to each other. When there are two possibilities, go with the simpler, needs-based solution rather than the more flexible, complex one.</description>
     </item>
   </channel>
 </rss>

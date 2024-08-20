@@ -6,14 +6,14 @@
     <description>Recent content in Infrastructure on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/infrastructure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Application performance determined by architecture</title>
       <link>http://localhost:1313/posts/application-performance-determined-by-architecture/</link>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/application-performance-determined-by-architecture/</guid>
-      <description>The architecture of an application determines its performance. Although this claim appears clear at first glance, practical experience indicates otherwise. Software architects, for instance, frequently think that application performance issues can be resolved by simply moving to a different software infrastructure manufacturer. This notion could have its roots in the noise surrounding test results; for instance, claims that the leading company&amp;rsquo;s product performs 25% better than its closest rival&amp;rsquo;s could be the cause of this belief. However, given the overall low performance, which stems from architectural inefficiencies, the stated 25% (one millisection) means relatively little if the competition product completes the operation in 4 milliseconds and the leading product completes it in 3 milliseconds.&#xA;Other groups of people, like the developers&amp;rsquo; support service and the authors of the books on app performance management, advise you to perform the subtle configuration of the application&amp;rsquo;s infrastructure, such as experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth, in addition to IT managers and performance testing teams.</description>
+      <description>An application&amp;rsquo;s performance is determined by its architecture. On the surface, this claim seems obvious, but actual experience suggests otherwise. For example, software architects frequently believe that switching to a different software infrastructure manufacturer can alleviate application performance difficulties. This idea may have originated from the hype around test findings; for example, assertions that the product of the top company outperforms that of its nearest competitor by 25% may have contributed to the development of this view. However, if the leading product completes the operation in 3 milliseconds and the competitor product completes it in 4 milliseconds, the reported 25% (one millisection) represents virtually little given the overall low performance, which is caused by architectural inefficiencies.&#xA;In addition to IT managers and performance testing teams, other groups of people advise you to carry out the subtle configuration of the application&amp;rsquo;s infrastructure, like experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth.</description>
     </item>
   </channel>
 </rss>

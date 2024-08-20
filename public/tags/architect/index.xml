@@ -6,35 +6,35 @@
     <description>Recent content in Architect on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/architect/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Get up</title>
+      <title>A practitioner must be the architect</title>
+      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
+      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
+    </item>
+    <item>
+      <title>Everything is run by business</title>
+      <link>http://localhost:1313/posts/everything-is-run-by-business/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/everything-is-run-by-business/</guid>
+      <description>When it comes to developing corporate software applications, the architect should act as a kind of go-between for the technical and business communities inside the organization, representing and defending each group&amp;rsquo;s interests, resolving conflicts on a regular basis, and allowing the business to operate as usual. The architect&amp;rsquo;s technology choices must take the organization&amp;rsquo;s business objectives and external surroundings into consideration.&#xA;Before beginning a software development project, a software development business usually plans and promotes the desired return on investment (ROI). The architect has to acknowledge this signal and the resulting limitations on the product&amp;rsquo;s business value.This will help prevent the need of technical solutions that could be extremely expensive. The return rate should be taken into consideration in the overall target context when talking about the technical architecture and implementation with the development team and when interacting with management (during the process of determining how to strike a balance between the cost and benefit of a given function).</description>
+    </item>
+    <item>
+      <title>Stand up</title>
       <link>http://localhost:1313/posts/stand-up/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 19 May 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/stand-up/</guid>
-      <description>Many of us started our careers as architects in some form of very technical role where computer communication skills were essential to succeed. However, our primary means of communication as architects is with other people. Your ability to communicate effectively is essential for success, whether you are arguing with developers about the benefits of using a template or outlining the advantages and disadvantages of purchasing intermediary software to management.&#xA;It is challenging to measure the architect&amp;rsquo;s influence on the project objectively, but one thing is certain: the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not have an impact on the trajectory of his career if the developers consistently disregard his instructions and the management does not value his advice. Skilled architects know that they must &amp;ldquo;promote&amp;rdquo; their concepts, and good communication is necessary for this.</description>
+      <description>Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success.&#xA;It is difficult to assess the architect&amp;rsquo;s impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the course of his career. Professional architects are aware that they need to &amp;ldquo;promote&amp;rdquo; their ideas, and effective communication is essential to this.</description>
     </item>
     <item>
-      <title>The architect must be a practitioner</title>
-      <link>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</link>
-      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</guid>
-      <description>A competent architect ought to lead by example. He should be able to take the position of any team member and handle any task, including creating modular tests, conducting performance tests, and setting up networking and the assembly process. In the absence of a thorough comprehension of all available technologies, an architect is really no different from a regular project manager.Although it is rather typical for team members to be more knowledgeable in their specialized professions, they are unlikely to be able to trust their architect unless he is conversant with the technology being employed.Since an architect serves as a liaison between the technical team and the company, as has already been mentioned, he must be well-versed in all technical facets in order to represent the team to the business management without continuously seeking assistance.</description>
-    </item>
-    <item>
-      <title>There are no solutions for all cases of life</title>
-      <link>http://localhost:1313/posts/there-are-no-solutions-for-all-cases-of-life/</link>
-      <pubDate>Tue, 28 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-are-no-solutions-for-all-cases-of-life/</guid>
-      <description>Since there isn&amp;rsquo;t a single, all-encompassing solution for a broad variety of various challenges, the architect must constantly hone and enhance his &amp;ldquo;context noe poche.&amp;rdquo; In &amp;ldquo;Systems Architecting: Creating &amp;amp; Building Complex Systems&amp;rdquo; (Prentice Hall, 1991), Eberhardt Rechtin writes:&#xA;Most likely, he would say, &amp;ldquo;I&amp;rsquo;m just using common sense.&amp;rdquo; &amp;lt;&amp;hellip;&amp;gt; It might be preferable to use the phrase &amp;ldquo;context sensation&amp;quot;1—knowledge of what is relevant in a certain context—instead of the word &amp;ldquo;sensual.&amp;rdquo; Through education, experience, and case studies, the architect-practitioner can develop a strong contextual awareness by the time they are asked to tackle a system-level issue, which typically takes decades.&#xA;I believe that one of the main issues facing the software business is that projects are frequently assigned to individuals who lack sufficient contextual awareness.</description>
-    </item>
-    <item>
-      <title>Business runs everything</title>
-      <link>http://localhost:1313/posts/business-runs-everything/</link>
-      <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/business-runs-everything/</guid>
-      <description>When it comes to the creation of corporate software applications, the architect should serve as a sort of intermediary within the organization between the technical and business communities, representing and defending the interests of each while frequently mediating disputes and letting the business run its operations. The commercial goals of the organization and its external environment must inform the architect&amp;rsquo;s technological decisions.&#xA;A software development company typically plans and advertises the intended return on investment (ROI) prior to starting a software development project. This signal must be accepted by the architect, along with the ensuing restrictions on the product&amp;rsquo;s value for the business.This will assist in avoiding technological solutions that can result in exorbitant costs. When discussing the technical architecture and implementation with the development team, as well as when interacting with management (in the process of figuring out how to strike a balance between the cost and benefit of a given function), the return rate ought to play a significant role in the overall target context.</description>
+      <title>There are no answers for every situation in life</title>
+      <link>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</guid>
+      <description>For a wide range of different problems, there isn&amp;rsquo;t a single, comprehensive solution, so the architect must continuously refine and improve his &amp;ldquo;context noe poche.&amp;rdquo; Eberhardt Rechtin writes in &amp;ldquo;Systems Architecting: Creating and Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;&amp;lt;&amp;hellip;&amp;gt; Rather than using the word &amp;ldquo;sensual,&amp;rdquo; it might be better to speak to it as &amp;ldquo;context sensation&amp;rdquo;—knowledge of what is pertinent in a certain context. By the time an architect-practitioner is called to address a system-level issue, which usually takes decades, they can have a strong contextual awareness thanks to education, experience, and case studies.&#xA;One of the biggest problems I see with the software industry, in my opinion, is that projects are often given to people who don&amp;rsquo;t have enough contextual knowledge.This could be due to the fact that the industry is only two generations old and is currently experiencing a time of rapid expansion; alternatively, it could be that the industry has reached a mature stage if this problem has been resolved.</description>
     </item>
   </channel>
 </rss>

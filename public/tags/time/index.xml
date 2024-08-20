@@ -6,56 +6,56 @@
     <description>Recent content in Time on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/time/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Do it in a hurry and escape this crime</title>
-      <link>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</link>
-      <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</guid>
-      <description>Evening is drawing near. Even the air in the room seems to be pulsing at a working pace; the command is pleasant regarding the new features planned for the current iteration. But John is waiting for a date, so he&amp;rsquo;s a touch rushed. He still has time to rush off, rewrite his portion of the code, build it, and register it in the source code management system. After a few minutes, the app&amp;rsquo;s assembly is disrupted, and the &amp;ldquo;red light&amp;rdquo; is lit.John acted rashly, assuming that the team would stall because he didn&amp;rsquo;t have time for automated tests.&#xA;The working rhythm has failed; the circumstances have altered. Everyone is now aware that updating the code from the version control system will cause it to malfunction on their local machines.</description>
+      <title>Enterprise interview</title>
+      <link>http://localhost:1313/posts/enterprise-interview/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
+      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
+    </item>
+    <item>
+      <title>There could be a number of answers</title>
+      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
+      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
+    </item>
+    <item>
+      <title>Apply numerical standards</title>
+      <link>http://localhost:1313/posts/apply-numerical-standards/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/apply-numerical-standards/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Not only does it have a quick reaction time, but it&amp;rsquo;s also &amp;ldquo;expandable.&amp;rdquo; The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect&amp;rsquo;s duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer&amp;rsquo;s obsession with inane concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and his or her own whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”).&#xA;Generally, we try to document all of these requests along with any other information. All too often, though, this section seems to be a list of vague words like &amp;ldquo;friendly to accompany,&amp;rdquo; &amp;ldquo;flexible,&amp;rdquo; and so on.</description>
     </item>
     <item>
       <title>Architectural compromises</title>
       <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/architectural-compromises/</guid>
-      <description>High performance, high availability, high security, and high abstraction cannot all be achieved at the same time in an architecture. Software architects just need to be aware of, comprehend, and share one true story with their clients and peers. I&amp;rsquo;m referring to Vaza&amp;rsquo;s past.&#xA;There was a conflict between Sweden and Poland in 1620. The Swedish King ordered the building of a gallion known as the Vase in an attempt to swiftly conclude this costly conflict. The ship was unique. It had different specifications than any other ship of the era. In addition to carrying 64 weapons on two battery decks and transporting 300 men at a time safely to Poland by sea, it had to be longer than sixty meters. There was not enough money, and there was running out of time (sounds familiar?</description>
+      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
     </item>
     <item>
-      <title>Never prioritize your resume over the needs of the client</title>
-      <link>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</link>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</guid>
-      <description>As technicians, we select specific technologies, tactics, and methods to address issues not because they offer the best solution but rather because we sincerely want to include them in our synopsis. Making such a decision almost never has favorable outcomes.&#xA;Because you have done so successfully for them, your grateful clients who are waiting in line to refer you to others will be the most potent career catalyst. You will get better service from the kind clients than from any newly created paradigm or trendy object in the new language. Even though staying current with emerging ideas and technology is crucial for architects, you should never try to take on more work at the client&amp;rsquo;s expense. As architects, you should never forget that you are responsible for the success of your organization.</description>
+      <title>Never put the demands of the client ahead of your resume</title>
+      <link>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</guid>
+      <description>As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off.&#xA;Your grateful clients who are lining up to recommend you to others will be the most effective career catalyst because of how well you have served them. The gracious customers will provide you with greater service than any recently developed paradigm or in-vogue item in the new language. Architects need to stay up to date on evolving concepts and technologies, but you should never try to take on additional work at the client&amp;rsquo;s expense. It is imperative for architects to always remember that their organization&amp;rsquo;s success is their responsibility.</description>
     </item>
     <item>
-      <title>Interview at Enterprise</title>
-      <link>http://localhost:1313/posts/interview-at-enterprise/</link>
-      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/interview-at-enterprise/</guid>
-      <description>I&amp;rsquo;ve started attending interviews once more, and I would want to offer some findings. This episode, we discuss screening in large corporations and the design of the hiring process.&#xA;Screening From there, tech-screening spreads like wildfire. On the initial call, the recruiter asks a ton of questions and checks with sparkling. As an illustration:&#xA;How can the container be stopped? Python&amp;rsquo;s unaltered data typesx? What is the Linux kernel&amp;rsquo;s PID? How are CAP and PACELC interpreted? -&amp;hellip; Some even go so far as to build a full platform out of executable little bits of code. Twenty minutes, twenty questions. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Alternatively &amp;ldquo;What does this code do?&amp;rdquo; He&amp;rsquo;s aware that I wouldn&amp;rsquo;t just overlook that code on a review because it&amp;rsquo;s so bizarre.</description>
+      <title>Take quick action to get away from this crime</title>
+      <link>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</guid>
+      <description>It&amp;rsquo;s almost evening. The command is nice about the new features planned for the present iteration; even the room seems to be pulsing at a working rate. However, John is a little hurried because he&amp;rsquo;s waiting for a date. There&amp;rsquo;s still time for him to dash off, rework his part of the code, build it, and upload it to the source code repository. The &amp;ldquo;red light&amp;rdquo; illuminates, and the app&amp;rsquo;s construction is interrupted after a few minutes. John acted precipitously, believing that his lack of time for automated tests would force the team to stall.&#xA;The situation has changed; the working rhythm has failed. Now everyone knows that when they update the code from the version control system, it will break on their own computers.</description>
     </item>
     <item>
-      <title>Use quantitative criteria</title>
-      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
-      <pubDate>Fri, 21 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
-      <description>You can&amp;rsquo;t make &amp;ldquo;fast&amp;rdquo; a prerequisite. In addition to having a fast reaction time.alternatively, &amp;ldquo;expandable.&amp;rdquo; The primary cause is the absence of impartial standards for fulfilling these obligations.Users nevertheless require these features. Ensuring that the system has the required attributes and balancing the inevitable contradictions that occur between them are the tasks of the architect. Without objective standards, the developer&amp;rsquo;s fixation with obsessive concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and the architect&amp;rsquo;s whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”) are what the architect counts on.&#xA;Usually, we make an effort to record all such requests along with any additional specifications. However, this entry frequently appears to be a collection of hazy adjectives, such as &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;friendly to accompany,&amp;rdquo; and so forth.</description>
-    </item>
-    <item>
-      <title>One line of working code costs 500 lines of specification</title>
-      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</guid>
-      <description>It is lovely to promethize. In this regard, specifications are crucial since they establish the framework for system construction. It is crucial to consider the architecture as a whole, taking into account the behavior of individual components as well as the interactions between them on a micro and macro scale.&#xA;Regrettably, architects are frequently enthralled with the design process and are drawn to architectural abstractions. But the specs are worthless in and of themselves. A truly functional system is the software project&amp;rsquo;s ultimate goal. This objective should constantly remain in the architect&amp;rsquo;s mind, and they should never forget that design is merely a tool, not the final product. The skyscraper&amp;rsquo;s architect would soon come to regret disobeying the rules of physics in favor of the building&amp;rsquo;s elegance.</description>
-    </item>
-    <item>
-      <title>There may be several solutions</title>
-      <link>http://localhost:1313/posts/there-may-be-several-solutions/</link>
-      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-may-be-several-solutions/</guid>
-      <description>A single data model, communication format, transport mechanism, and typically a single fundamental architectural element, policy, principle, etc., cannot adequately address every facet of a corporate organization. It appears that the system developers are perpetually surprised and saddened by this fact. It makes sense, though, that the organization—which is denoted here by the thick red line—must be too big and diverse to manage a single table, given that it is large enough to worry about the impact of multiple tables of accounts on the system over the course of the next ten years.&#xA;It&amp;rsquo;s also quite practical for us. Nonetheless, the contentious, complex, unofficial, and unsettling actual world of business is involved.Even worse, you have to deal with people&amp;rsquo;s perceptions of particular situations in specific regions of the world rather than the actual world.</description>
+      <title>500 lines of specification are needed for every line of functioning code</title>
+      <link>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</guid>
+      <description>Promising is a beautiful thing. Specifications are important in this sense because they set the foundation for building systems. Taking into account the behavior of individual components as well as the interconnections between them on a micro and macro scale is essential when analyzing the architecture as a whole.&#xA;Unfortunately, architects are often fascinated with design and gravitate toward architectural abstractions. However, the specs are meaningless on their own. The ultimate goal of the software project is to create a fully functional system. The architect should never lose sight of this goal or the fact that design is only a tool and not the finished product. The architect of the skyscraper would soon come to regret defying physics to achieve the elegant design of the edifice.</description>
     </item>
   </channel>
 </rss>

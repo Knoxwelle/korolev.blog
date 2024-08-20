@@ -6,13 +6,111 @@
     <description>Recent content in Categories on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/categories/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/categories/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>http://localhost:1313/categories/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smalltalk</title>
+      <link>http://localhost:1313/categories/smalltalk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/smalltalk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recruiting</title>
+      <link>http://localhost:1313/categories/recruiting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/recruiting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Skytrain</title>
+      <link>http://localhost:1313/categories/skytrain/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/skytrain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Utc</title>
+      <link>http://localhost:1313/categories/utc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/utc/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Island2</title>
       <link>http://localhost:1313/categories/island2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/island2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/categories/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/categories/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/resume/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fortress</title>
+      <link>http://localhost:1313/categories/fortress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/fortress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Building</title>
+      <link>http://localhost:1313/categories/building/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/building/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prentice Hall</title>
+      <link>http://localhost:1313/categories/prentice-hall/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/prentice-hall/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rechtin</title>
+      <link>http://localhost:1313/categories/rechtin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/rechtin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Systems</title>
+      <link>http://localhost:1313/categories/systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/systems/</guid>
       <description></description>
     </item>
     <item>
@@ -76,104 +174,6 @@
       <link>http://localhost:1313/categories/vaza/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/vaza/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/categories/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/about/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Resume</title>
-      <link>http://localhost:1313/categories/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/resume/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recruiting</title>
-      <link>http://localhost:1313/categories/recruiting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/recruiting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Skytrain</title>
-      <link>http://localhost:1313/categories/skytrain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/skytrain/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Utc</title>
-      <link>http://localhost:1313/categories/utc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/utc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Building</title>
-      <link>http://localhost:1313/categories/building/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/building/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Prentice Hall</title>
-      <link>http://localhost:1313/categories/prentice-hall/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/prentice-hall/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rechtin</title>
-      <link>http://localhost:1313/categories/rechtin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/rechtin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Systems</title>
-      <link>http://localhost:1313/categories/systems/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/systems/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/java/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>http://localhost:1313/categories/ruby/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Smalltalk</title>
-      <link>http://localhost:1313/categories/smalltalk/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/smalltalk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fortress</title>
-      <link>http://localhost:1313/categories/fortress/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/fortress/</guid>
       <description></description>
     </item>
   </channel>

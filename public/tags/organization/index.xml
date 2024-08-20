@@ -6,21 +6,21 @@
     <description>Recent content in Organization on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/organization/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating architecture as the art of balance</title>
-      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
-      <description>The traditional technical processes that come to mind when creating a software architecture are breaking the system down into its component parts, defining interfaces, assigning tasks, using templates, and performance tuning. The architect also needs to consider a variety of additional factors, such as output management, deployment settings, simplicity of usage, safety, and ease of maintenance.All of these procedural and technical details, meanwhile, have to be pertinent to the needs of the stakeholders.One of the best ways to make sure that the requirements specifications for the product being developed are comprehensive is to consider these interests during the requirements analysis process.&#xA;Each project participant has interests that impact the corporation as a whole as well as the software development process the company uses. The architect&amp;rsquo;s final set of priorities is derived from a consideration of these interests.</description>
+      <title>Building architecture as a balancing art</title>
+      <link>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</guid>
+      <description>When designing a software architecture, the conventional technical procedures that spring to mind are disassembling the system into its constituent pieces, specifying interfaces, allocating responsibilities, employing templates, and optimizing performance. A wide range of other variables, including output management, deployment settings, convenience of use, safety, and maintenance, must also be taken into account by the architect.Meanwhile, every one of these technical and procedural specifics must be relevant to the requirements of the stakeholders.Taking these interests into account during the requirements analysis process is one of the greatest ways to ensure that the requirements specifications for the product being developed are thorough.&#xA;Every project participant has interests that affect both the company&amp;rsquo;s software development process and the firm as a whole. Taking these interests into account leads to the architect&amp;rsquo;s final list of priorities.</description>
     </item>
     <item>
-      <title>There may be several solutions</title>
-      <link>http://localhost:1313/posts/there-may-be-several-solutions/</link>
-      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-may-be-several-solutions/</guid>
-      <description>A single data model, communication format, transport mechanism, and typically a single fundamental architectural element, policy, principle, etc., cannot adequately address every facet of a corporate organization. It appears that the system developers are perpetually surprised and saddened by this fact. It makes sense, though, that the organization—which is denoted here by the thick red line—must be too big and diverse to manage a single table, given that it is large enough to worry about the impact of multiple tables of accounts on the system over the course of the next ten years.&#xA;It&amp;rsquo;s also quite practical for us. Nonetheless, the contentious, complex, unofficial, and unsettling actual world of business is involved.Even worse, you have to deal with people&amp;rsquo;s perceptions of particular situations in specific regions of the world rather than the actual world.</description>
+      <title>There could be a number of answers</title>
+      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
+      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
     </item>
   </channel>
 </rss>

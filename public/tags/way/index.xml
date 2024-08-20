@@ -6,14 +6,14 @@
     <description>Recent content in Way on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/way/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The architect must be a practitioner</title>
-      <link>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</link>
-      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</guid>
-      <description>A competent architect ought to lead by example. He should be able to take the position of any team member and handle any task, including creating modular tests, conducting performance tests, and setting up networking and the assembly process. In the absence of a thorough comprehension of all available technologies, an architect is really no different from a regular project manager.Although it is rather typical for team members to be more knowledgeable in their specialized professions, they are unlikely to be able to trust their architect unless he is conversant with the technology being employed.Since an architect serves as a liaison between the technical team and the company, as has already been mentioned, he must be well-versed in all technical facets in order to represent the team to the business management without continuously seeking assistance.</description>
+      <title>A practitioner must be the architect</title>
+      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
+      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
     </item>
   </channel>
 </rss>

@@ -6,28 +6,28 @@
     <description>Recent content in Communication on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/communication/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Get up</title>
-      <link>http://localhost:1313/posts/stand-up/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/stand-up/</guid>
-      <description>Many of us started our careers as architects in some form of very technical role where computer communication skills were essential to succeed. However, our primary means of communication as architects is with other people. Your ability to communicate effectively is essential for success, whether you are arguing with developers about the benefits of using a template or outlining the advantages and disadvantages of purchasing intermediary software to management.&#xA;It is challenging to measure the architect&amp;rsquo;s influence on the project objectively, but one thing is certain: the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not have an impact on the trajectory of his career if the developers consistently disregard his instructions and the management does not value his advice. Skilled architects know that they must &amp;ldquo;promote&amp;rdquo; their concepts, and good communication is necessary for this.</description>
+      <title>Perhaps technology is not your primary issue</title>
+      <link>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</guid>
+      <description>Another salary calculation project is currently failing horribly somewhere; it&amp;rsquo;s probably not your fault.&#xA;Why did that happen? because Ruby was chosen by the developers instead of Smalltalk, Java, or Python? since you&amp;rsquo;ve decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you are aware, project failures are often attributed to technology.&#xA;Projects are typically started by people, and it is up to these people to determine whether the initiative succeeds or fails overall. And once that&amp;rsquo;s the case, we should think about the ways we might help them succeed.&#xA;As a result, you think that one of the team members is performing poorly and preventing the project from moving forward.</description>
     </item>
     <item>
       <title>Communication is the king, clarity and leadership are his true companions</title>
       <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</guid>
-      <description>All too frequently, software architects reside in ivory towers, dictating technologies and instructions to developers while leaving them with little to no guidance. Simultaneously, this causes conflict, which is soon followed by a &amp;ldquo;popular uprising.&amp;rdquo; The end product is a piece of software that bears no relation to the original specifications. It is imperative for any software architect to be able to articulate to his peers the aims and purposes of the software project. Effective communication relies on leadership and clarity.&#xA;A communication procedure that is clear and concise. A one hundred-page document explaining your architectural choices will not be read by anyone in your group. Effective communication of ideas is essential for any program or effort to succeed. When starting work on the project, stick to brief explanations and don&amp;rsquo;t start writing lengthy word descriptions.</description>
+      <description>Too often, software architects live in ivory towers, prescribing to developers the technologies and procedures to follow while providing them with little or no assistance. This simultaneously leads to conflict and, shortly after, a &amp;ldquo;popular uprising.&amp;rdquo; The final result is a piece of software that is completely unrelated to the initial requirements. Any software architect must be able to clearly communicate the goals and objectives of the software project to his peers. Leadership and clarity are prerequisites for effective communication.&#xA;a method of communication that is precise and short. Nobody in your group will read a hundred-page booklet outlining your architectural decisions. Every program or endeavor must have effective concept communication in order to be successful. When you first start working on the project, don&amp;rsquo;t start writing long-word descriptions; instead, stick to succinct explanations.</description>
     </item>
     <item>
-      <title>Perhaps your main problem is not technology</title>
-      <link>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</guid>
-      <description>Somewhere right now, a different wage calculation project is failing miserably&amp;hellip; and most likely not by yourself.&#xA;What caused that to occur? because the developers opted for Ruby over Smalltalk or Java or Python? since you choose to utilize Postgres over Oracle? or because you preferred the Windows platform even if you should have chosen Linux? As you are aware, technology is frequently held responsible for project failures.&#xA;People normally establish projects, and it is up to these individuals to decide whether the project as a whole succeeds or fails. And once that is the case, we ought to consider our options for assisting them in being successful.&#xA;Per, you believe that there is a team member that is underperforming and impeding the project&amp;rsquo;s progress.</description>
+      <title>Stand up</title>
+      <link>http://localhost:1313/posts/stand-up/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/stand-up/</guid>
+      <description>Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success.&#xA;It is difficult to assess the architect&amp;rsquo;s impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the course of his career. Professional architects are aware that they need to &amp;ldquo;promote&amp;rdquo; their ideas, and effective communication is essential to this.</description>
     </item>
   </channel>
 </rss>

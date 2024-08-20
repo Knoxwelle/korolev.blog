@@ -6,21 +6,21 @@
     <description>Recent content in Data on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>There may be several solutions</title>
-      <link>http://localhost:1313/posts/there-may-be-several-solutions/</link>
-      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-may-be-several-solutions/</guid>
-      <description>A single data model, communication format, transport mechanism, and typically a single fundamental architectural element, policy, principle, etc., cannot adequately address every facet of a corporate organization. It appears that the system developers are perpetually surprised and saddened by this fact. It makes sense, though, that the organization—which is denoted here by the thick red line—must be too big and diverse to manage a single table, given that it is large enough to worry about the impact of multiple tables of accounts on the system over the course of the next ten years.&#xA;It&amp;rsquo;s also quite practical for us. Nonetheless, the contentious, complex, unofficial, and unsettling actual world of business is involved.Even worse, you have to deal with people&amp;rsquo;s perceptions of particular situations in specific regions of the world rather than the actual world.</description>
+      <title>There could be a number of answers</title>
+      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
+      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
     </item>
     <item>
-      <title>Database as Fortress</title>
-      <link>http://localhost:1313/posts/database-as-fortress/</link>
-      <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/database-as-fortress/</guid>
-      <description>All information, both entered by staff members and received from clients, is kept in the database datax. Data remains constant despite changes in user interfaces, business logic, applied logic, and even personnel.The significance of developing a trustworthy data model early on in the project cannot be overstated.&#xA;The days of prewriting intricate, detailed technical specifications are long gone! Early and frequent product delivery is required by the new school.It is preferable to write one line of vulnerable code than ten lines in your mind.It seems too good to be true, at least when it comes to the facts.&#xA;Although user interfaces and business logic change quickly, data structures and their connections typically do not. As a result, it&amp;rsquo;s critical to establish a precise definition of the data model early on, both structurally and analytically.</description>
+      <title>Using a database as a fort</title>
+      <link>http://localhost:1313/posts/using-a-database-as-a-fort/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/using-a-database-as-a-fort/</guid>
+      <description>The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don&amp;rsquo;t affect the data. It is imperative that a reliable data model be created as early in the project as possible.&#xA;Prewriting complex, comprehensive technical requirements is a thing of the past! The new school demands that products be delivered frequently and early.Writing one line of vulnerable code is better than writing 10 in your head. When it comes to the facts, at least, it looks too good to be true.&#xA;Data structures and their relationships usually do not change quickly, although user interfaces and business logic do. Because of this, it&amp;rsquo;s imperative to define the data model precisely from the start, both analytically and structurally.</description>
     </item>
   </channel>
 </rss>

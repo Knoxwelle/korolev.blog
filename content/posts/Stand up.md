@@ -1,19 +1,19 @@
 +++
-title = 'Get up'
-date = 2024-07-14T00:00:00-07:00
+title = 'Stand up'
+date = 2024-05-19T00:00:00-07:00
 draft = false
 categories = []
 tags = ["architect", "optical", "communication", "standing", "success", "position"]
-cover_image='/images/cover/knoxwelle__2024-02-18T042256.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-11-22T051245.000Z.jpg'
 +++
-Many of us started our careers as architects in some form of very technical role where computer communication skills were essential to succeed. However, our primary means of communication as architects is with other people. Your ability to communicate effectively is essential for success, whether you are arguing with developers about the benefits of using a template or outlining the advantages and disadvantages of purchasing intermediary software to management. 
+Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success. 
 
-It is challenging to measure the architect's influence on the project objectively, but one thing is certain: the "correctness" of the architect's actions will not have an impact on the trajectory of his career if the developers consistently disregard his instructions and the management does not value his advice. Skilled architects know that they must "promote" their concepts, and good communication is necessary for this.
+It is difficult to assess the architect's impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the "correctness" of the architect's actions will not affect the course of his career. Professional architects are aware that they need to "promote" their ideas, and effective communication is essential to this.
 
-Numerous books have been written about interpersonal communication, but I want to share with you one easy-to-implement method that will significantly boost your communication skills and, in turn, support your success as an architect. Stand up whenever you have to defend your position in front of multiple people at once. It makes no difference if you're at a casual conversation of two charts or a formal system project study. Particularly if everyone else is seated, stand up. 
+Many books have been written about interpersonal communication, but I want to share with you one simple technique that can help you succeed as an architect by improving your communication abilities dramatically. When you have to defend your position in front of several people at once, take a stand. Whether you are in a formal system project study or just having a casual discussion between two charts, it doesn't matter. Get up, especially if everyone else is seated. 
 
-People immediately start to view you as an authoritative and self-assured person when you stand up. You're starting to command attention. There's a decreased chance of interruptions. Whether or whether your suggestions are adopted, all of this will have a big influence on the conversation. 
+When you speak up, people start to see you as a confident, authoritative person right away. You're beginning to demand interest. There's less likelihood of disruptions. Everything about this will have a significant impact on the conversation, whether or not your proposals are implemented. 
 
-It should be mentioned that someone who is standing makes more intense use of gestures and mimics. Making eye contact with the entire audience when speaking to a gathering of ten or more people can be facilitated by rising up. In communication, optical contact, gestures, mimics, and other visual cues are crucial. Furthermore, speaking while standing modifies the pitch, loudness, and cadence of your speech. You begin speaking in a loud environment by pausing to emphasize key points in your speech. Each of these components significantly adds to the efficacy of communication. 
+It should be noted that a standing person uses gestures and mimics more intensely. When addressing a group of ten or more people, standing up might help you make eye contact with everyone in the room. Optical contact, gestures, mimics, and other visual clues are important in communicating. Speaking while standing also affects your speech's volume, tempo, and pitch. When you start speaking in front of a large group of people, you take a moment to highlight important themes. The effectiveness of communication is considerably increased by each of these elements. 
 
-Would you like to communicate your views more effectively than twice? It is very simple: stand up.
+Would you prefer to express your opinions once more rather than twice? It's really easy: just get up.

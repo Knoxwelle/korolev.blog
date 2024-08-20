@@ -6,35 +6,35 @@
     <description>Recent content in Problems on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/problems/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>It is never too early to think about productivity</title>
-      <link>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</guid>
-      <description>Functional requirements are where business application users&amp;rsquo; needs are mostly expressed. The architect is in charge of the system&amp;rsquo;s non-functional elements, which include performance, flexibility, downtime, support requirements, etc. Simultaneously, initial testing of non-functional needs is sometimes completely assigned to the system maintenance team or delayed until a very late point in the development cycle.&#xA;This is a far more frequent error than it ought to be. It may be founded on a number of factors.It may seem futile to worry about the program&amp;rsquo;s speed and adaptability when it isn&amp;rsquo;t precisely fulfilling the necessary role yet. Both the test settings and the tests themselves are highly intricate. Due to low use intensity, early working versions of the system might not have been subjected to a realistic load.</description>
+      <title>Perhaps technology is not your primary issue</title>
+      <link>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</guid>
+      <description>Another salary calculation project is currently failing horribly somewhere; it&amp;rsquo;s probably not your fault.&#xA;Why did that happen? because Ruby was chosen by the developers instead of Smalltalk, Java, or Python? since you&amp;rsquo;ve decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you are aware, project failures are often attributed to technology.&#xA;Projects are typically started by people, and it is up to these people to determine whether the initiative succeeds or fails overall. And once that&amp;rsquo;s the case, we should think about the ways we might help them succeed.&#xA;As a result, you think that one of the team members is performing poorly and preventing the project from moving forward.</description>
     </item>
     <item>
-      <title>Try not to break the schedule</title>
-      <link>http://localhost:1313/posts/try-not-to-break-the-schedule/</link>
-      <pubDate>Fri, 31 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/try-not-to-break-the-schedule/</guid>
-      <description>Numerous factors can cause a software project to fail. Changing the work schedule mid-project without enough planning is one of the most frequent causes of project failure. These kinds of failures are preventable, but it will take a lot of work from many individuals. Adding resources or modifying the timeline to a project typically doesn&amp;rsquo;t cause any issues. When you have to work more in the same amount of time or reduce the timetable without lowering the workload, problems arise.&#xA;A very prevalent fallacy is that you can cut expenses or expedite product delivery by shortening the timeline. Usually, extra hours are worked or &amp;ldquo;less important tasks&amp;rdquo; (such modular testing) are given up for quicker product delivery or for better functionality without affecting delivery time.</description>
+      <title>Try not to alter the timetable</title>
+      <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
+      <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
     </item>
     <item>
-      <title>Problems can be more than their reflection in the mirror</title>
-      <link>http://localhost:1313/posts/problems-can-be-more-than-their-reflection-in-the-mirror/</link>
-      <pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/problems-can-be-more-than-their-reflection-in-the-mirror/</guid>
-      <description>I have several programming projects that I have been working on.They all ran into issues that proved to be more problematic than the development team had anticipated.This frequently happened in the following ways: while some team members identified these issues early on, the majority of employees rejected or disregarded any indications because they didn&amp;rsquo;t recognize their significance until it was too late.&#xA;There are several reasons why this occurs:&#xA;Issues that appear unimportant early in the project grow important when it is too late to address them.Although the tale of the welded frog is undoubtedly exaggerated, it well captures what goes wrong in many undertakings.&#xA;Some workers frequently run into opposition when other team members lack comparable expertise or experience.Even highly compensated seasoned consultants recruited expressly to avoid such issues rarely possess the guts, confidence, and perseverance needed to overcome this opposition.</description>
+      <title>There is never a bad time to consider productivity</title>
+      <link>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</guid>
+      <description>The needs of business application users are mostly stated in functional requirements. The non-functional components of the system, such as performance, flexibility, downtime, support needs, etc., are under the architect&amp;rsquo;s control. Concurrently, the system maintenance team may be given full responsibility for the initial testing of non-functional requirements, or the testing may be postponed until a very late stage of the development process.&#xA;This is a mistake that happens far more often than it should. It could have several foundations. Worrying about the program&amp;rsquo;s speed and flexibility while it isn&amp;rsquo;t yet perfectly performing the required role may seem pointless. The tests themselves are rather complex, as are the test settings. Early working versions of the system may not have been subjected to a realistic load because of their low use intensity.</description>
     </item>
     <item>
-      <title>Perhaps your main problem is not technology</title>
-      <link>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</guid>
-      <description>Somewhere right now, a different wage calculation project is failing miserably&amp;hellip; and most likely not by yourself.&#xA;What caused that to occur? because the developers opted for Ruby over Smalltalk or Java or Python? since you choose to utilize Postgres over Oracle? or because you preferred the Windows platform even if you should have chosen Linux? As you are aware, technology is frequently held responsible for project failures.&#xA;People normally establish projects, and it is up to these individuals to decide whether the project as a whole succeeds or fails. And once that is the case, we ought to consider our options for assisting them in being successful.&#xA;Per, you believe that there is a team member that is underperforming and impeding the project&amp;rsquo;s progress.</description>
+      <title>Issues can extend beyond what they see in the mirror</title>
+      <link>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</guid>
+      <description>I&amp;rsquo;ve been working on a few different programming projects. All of them encountered problems that turned out to be more difficult than the development team had predicted. This typically manifested itself in the following ways: although a minority of team members saw these problems at an early stage, most workers rejected or ignored any warning signs since they were too late to realize how serious they were.&#xA;This happens for a number of reasons:&#xA;-Project-related issues that don&amp;rsquo;t seem vital at first become crucial when it&amp;rsquo;s too late to fix them. The story of the welded frog is obviously a farce, but it well illustrates the mistakes that can be made in a lot of projects.&#xA;-When other team members don&amp;rsquo;t have the same level of skill or experience, some employees frequently encounter resistance.</description>
     </item>
   </channel>
 </rss>

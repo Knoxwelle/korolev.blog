@@ -6,14 +6,14 @@
     <description>Recent content in Skytrain on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/skytrain/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interview at Enterprise</title>
-      <link>http://localhost:1313/posts/interview-at-enterprise/</link>
-      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/interview-at-enterprise/</guid>
-      <description>I&amp;rsquo;ve started attending interviews once more, and I would want to offer some findings. This episode, we discuss screening in large corporations and the design of the hiring process.&#xA;Screening From there, tech-screening spreads like wildfire. On the initial call, the recruiter asks a ton of questions and checks with sparkling. As an illustration:&#xA;How can the container be stopped? Python&amp;rsquo;s unaltered data typesx? What is the Linux kernel&amp;rsquo;s PID? How are CAP and PACELC interpreted? -&amp;hellip; Some even go so far as to build a full platform out of executable little bits of code. Twenty minutes, twenty questions. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Alternatively &amp;ldquo;What does this code do?&amp;rdquo; He&amp;rsquo;s aware that I wouldn&amp;rsquo;t just overlook that code on a review because it&amp;rsquo;s so bizarre.</description>
+      <title>Enterprise interview</title>
+      <link>http://localhost:1313/posts/enterprise-interview/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
+      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
     </item>
   </channel>
 </rss>

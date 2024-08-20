@@ -6,14 +6,14 @@
     <description>Recent content in Choice on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/choice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Be guided by uncertainty</title>
       <link>http://localhost:1313/posts/be-guided-by-uncertainty/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/be-guided-by-uncertainty/</guid>
-      <description>People often think that making the best decision is what matters most when presented with options.This is untrue in design, whether it be software products or anything else. An analysis of the uncertainty in the system&amp;rsquo;s design is necessary when an alternative exists. Use breakdown and abstraction to lessen the significance of design decisions, or use uncertainty as a deciding factor to find areas where you can delay the transition to specifics.It&amp;rsquo;s conceivable that you&amp;rsquo;ll tie your hands later if you blindly &amp;ldquo;sew&amp;rdquo; whatever decision comes to mind into the system.As a result, the software product&amp;rsquo;s flexibility will decline and random judgments will start to take center stage.&#xA;Grady Booch provided one of the clearest and most helpful definitions of architecture, saying that &amp;ldquo;though not all designs are intended to result in architecture, all architecture is the product of design.</description>
+      <description>When faced with options, people frequently believe that choosing the best course of action is what really counts. This is not true in terms of design, be it software or anything else. When an alternative exists, an analysis of the uncertainty in the system&amp;rsquo;s design is required. To reduce the importance of design decisions, utilize abstraction and breakdown. Alternatively, use uncertainty as a determining factor to identify places where you can postpone going into detail. You could &amp;ldquo;sew&amp;rdquo; whatever option comes to mind mindlessly into the system, which could tie your hands later.The software product will become less flexible as a result, and arbitrary judgments will begin to take center stage.&#xA;One of the best and most useful definitions of architecture was offered by Grady Booch, who stated that &amp;ldquo;all architecture is the product of design, even though not all designs are intended to result in architecture.</description>
     </item>
   </channel>
 </rss>

@@ -6,56 +6,56 @@
     <description>Recent content in System on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/system/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Do it in a hurry and escape this crime</title>
-      <link>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</link>
-      <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</guid>
-      <description>Evening is drawing near. Even the air in the room seems to be pulsing at a working pace; the command is pleasant regarding the new features planned for the current iteration. But John is waiting for a date, so he&amp;rsquo;s a touch rushed. He still has time to rush off, rewrite his portion of the code, build it, and register it in the source code management system. After a few minutes, the app&amp;rsquo;s assembly is disrupted, and the &amp;ldquo;red light&amp;rdquo; is lit.John acted rashly, assuming that the team would stall because he didn&amp;rsquo;t have time for automated tests.&#xA;The working rhythm has failed; the circumstances have altered. Everyone is now aware that updating the code from the version control system will cause it to malfunction on their local machines.</description>
+      <title>Failures are unavoidable</title>
+      <link>http://localhost:1313/posts/failures-are-unavoidable/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/failures-are-unavoidable/</guid>
+      <description>It increases the likelihood that the system will experience a malfunction at least once in any given period of time, but it also makes it possible to survive isolated hardware failures.&#xA;The software code is also vulnerable. We employ monitoring tools to keep track of application issues, but because they depend on software, these tools might sometimes break.&#xA;We try to automate our diagnoses, actions, and workflows since humans are fallible. Automation increases the likelihood of errors coming from rule noncompliance but decreases the likelihood of errors resulting from rule violations. More circumstances can be handled by a human than by any automated technology.&#xA;For this reason, we&amp;rsquo;re including monitoring techniques in automated solutions. new software with fresh bugs. Networks are made up of hardware, software, and long communication lines.</description>
     </item>
     <item>
-      <title>Failures are inevitable</title>
-      <link>http://localhost:1313/posts/failures-are-inevitable/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/failures-are-inevitable/</guid>
-      <description>It makes it possible to withstand isolated hardware failures, but it also makes it more likely that the system will malfunction at least once at any given time.&#xA;Additionally susceptible is the software code. We use monitoring tools to record application problems; but, as these tools rely on software code, they are likewise susceptible to malfunction.&#xA;Because humans make mistakes, we attempt to automate our workflows, diagnoses, and actions.Automation lowers the probability of errors resulting from rule violations but raises the probability of errors originating from rule noncompliance.A human being can react to a wider variety of situations than any automated technology.&#xA;We&amp;rsquo;re including monitoring methods in automation tools because of this. Fresh flaws in new software. Hardware, software, and lengthy communication links make up networks.</description>
-    </item>
-    <item>
-      <title>You negotiate more often than you think</title>
-      <link>http://localhost:1313/posts/you-negotiate-more-often-than-you-think/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-negotiate-more-often-than-you-think/</guid>
-      <description>All of us have been &amp;ldquo;buried&amp;rdquo; for savings by &amp;ldquo;budget&amp;rdquo; modifications, which are clever technology solutions.The dialogue proceeds as follows:&#xA;&amp;ldquo;Is X really necessary?&amp;rdquo; The sponsor of the project queries.&#xA;Almost anything that is necessary for the system can be swapped out for X, including extra servers, software licenses, external backups, and power sources. The topic is always posed in a colloquial manner, as though you are spending all of your allowance on comic books and chewing gum, and mature individuals should consider investing in new shells, which will hold their future earnings.&#xA;&amp;ldquo;Yes,&amp;rdquo; is the appropriate response to this query. utterly essential.&amp;quot; But virtually nobody responds, for whatever reason.&#xA;We have technical schooling, after all, and compromise is the skill of every technical profession.</description>
+      <title>You underestimate how frequently you negotiate</title>
+      <link>http://localhost:1313/posts/you-underestimate-how-frequently-you-negotiate/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-underestimate-how-frequently-you-negotiate/</guid>
+      <description>We&amp;rsquo;ve all been &amp;ldquo;buried&amp;rdquo; for savings through ingenious technological &amp;ldquo;budget&amp;rdquo; changes.The conversation goes like this:&#xA;&amp;ldquo;Is X really necessary?&amp;rdquo;&#xA;X can replace nearly anything that is required for the system, such as additional servers, software licenses, external backups, and power supplies. The question is always asked in a casual tone, as if you are spending your entire allowance on gum and comic books, and older people ought to think about buying new shells to save their money for the future.&#xA;&amp;ldquo;Yes&amp;rdquo; is the right answer to this question. absolutely necessary.&amp;quot; However, almost no one answers, for whatever reason.&#xA;After all, we have technical education, and every technical occupation requires the ability to compromise.It is evident that nobody will need unconventional power sources if several white wheels are installed in the data center and interns are stationed there.</description>
     </item>
     <item>
       <title>Be guided by uncertainty</title>
       <link>http://localhost:1313/posts/be-guided-by-uncertainty/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/be-guided-by-uncertainty/</guid>
-      <description>People often think that making the best decision is what matters most when presented with options.This is untrue in design, whether it be software products or anything else. An analysis of the uncertainty in the system&amp;rsquo;s design is necessary when an alternative exists. Use breakdown and abstraction to lessen the significance of design decisions, or use uncertainty as a deciding factor to find areas where you can delay the transition to specifics.It&amp;rsquo;s conceivable that you&amp;rsquo;ll tie your hands later if you blindly &amp;ldquo;sew&amp;rdquo; whatever decision comes to mind into the system.As a result, the software product&amp;rsquo;s flexibility will decline and random judgments will start to take center stage.&#xA;Grady Booch provided one of the clearest and most helpful definitions of architecture, saying that &amp;ldquo;though not all designs are intended to result in architecture, all architecture is the product of design.</description>
+      <description>When faced with options, people frequently believe that choosing the best course of action is what really counts. This is not true in terms of design, be it software or anything else. When an alternative exists, an analysis of the uncertainty in the system&amp;rsquo;s design is required. To reduce the importance of design decisions, utilize abstraction and breakdown. Alternatively, use uncertainty as a determining factor to identify places where you can postpone going into detail. You could &amp;ldquo;sew&amp;rdquo; whatever option comes to mind mindlessly into the system, which could tie your hands later.The software product will become less flexible as a result, and arbitrary judgments will begin to take center stage.&#xA;One of the best and most useful definitions of architecture was offered by Grady Booch, who stated that &amp;ldquo;all architecture is the product of design, even though not all designs are intended to result in architecture.</description>
     </item>
     <item>
-      <title>It is never too early to think about productivity</title>
-      <link>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</link>
+      <title>There could be a number of answers</title>
+      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</guid>
-      <description>Functional requirements are where business application users&amp;rsquo; needs are mostly expressed. The architect is in charge of the system&amp;rsquo;s non-functional elements, which include performance, flexibility, downtime, support requirements, etc. Simultaneously, initial testing of non-functional needs is sometimes completely assigned to the system maintenance team or delayed until a very late point in the development cycle.&#xA;This is a far more frequent error than it ought to be. It may be founded on a number of factors.It may seem futile to worry about the program&amp;rsquo;s speed and adaptability when it isn&amp;rsquo;t precisely fulfilling the necessary role yet. Both the test settings and the tests themselves are highly intricate. Due to low use intensity, early working versions of the system might not have been subjected to a realistic load.</description>
+      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
+      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
     </item>
     <item>
-      <title>Use quantitative criteria</title>
-      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
-      <pubDate>Fri, 21 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
-      <description>You can&amp;rsquo;t make &amp;ldquo;fast&amp;rdquo; a prerequisite. In addition to having a fast reaction time.alternatively, &amp;ldquo;expandable.&amp;rdquo; The primary cause is the absence of impartial standards for fulfilling these obligations.Users nevertheless require these features. Ensuring that the system has the required attributes and balancing the inevitable contradictions that occur between them are the tasks of the architect. Without objective standards, the developer&amp;rsquo;s fixation with obsessive concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and the architect&amp;rsquo;s whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”) are what the architect counts on.&#xA;Usually, we make an effort to record all such requests along with any additional specifications. However, this entry frequently appears to be a collection of hazy adjectives, such as &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;friendly to accompany,&amp;rdquo; and so forth.</description>
+      <title>There is never a bad time to consider productivity</title>
+      <link>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</guid>
+      <description>The needs of business application users are mostly stated in functional requirements. The non-functional components of the system, such as performance, flexibility, downtime, support needs, etc., are under the architect&amp;rsquo;s control. Concurrently, the system maintenance team may be given full responsibility for the initial testing of non-functional requirements, or the testing may be postponed until a very late stage of the development process.&#xA;This is a mistake that happens far more often than it should. It could have several foundations. Worrying about the program&amp;rsquo;s speed and flexibility while it isn&amp;rsquo;t yet perfectly performing the required role may seem pointless. The tests themselves are rather complex, as are the test settings. Early working versions of the system may not have been subjected to a realistic load because of their low use intensity.</description>
     </item>
     <item>
-      <title>There may be several solutions</title>
-      <link>http://localhost:1313/posts/there-may-be-several-solutions/</link>
-      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-may-be-several-solutions/</guid>
-      <description>A single data model, communication format, transport mechanism, and typically a single fundamental architectural element, policy, principle, etc., cannot adequately address every facet of a corporate organization. It appears that the system developers are perpetually surprised and saddened by this fact. It makes sense, though, that the organization—which is denoted here by the thick red line—must be too big and diverse to manage a single table, given that it is large enough to worry about the impact of multiple tables of accounts on the system over the course of the next ten years.&#xA;It&amp;rsquo;s also quite practical for us. Nonetheless, the contentious, complex, unofficial, and unsettling actual world of business is involved.Even worse, you have to deal with people&amp;rsquo;s perceptions of particular situations in specific regions of the world rather than the actual world.</description>
+      <title>Apply numerical standards</title>
+      <link>http://localhost:1313/posts/apply-numerical-standards/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/apply-numerical-standards/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Not only does it have a quick reaction time, but it&amp;rsquo;s also &amp;ldquo;expandable.&amp;rdquo; The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect&amp;rsquo;s duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer&amp;rsquo;s obsession with inane concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and his or her own whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”).&#xA;Generally, we try to document all of these requests along with any other information. All too often, though, this section seems to be a list of vague words like &amp;ldquo;friendly to accompany,&amp;rdquo; &amp;ldquo;flexible,&amp;rdquo; and so on.</description>
+    </item>
+    <item>
+      <title>Take quick action to get away from this crime</title>
+      <link>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</guid>
+      <description>It&amp;rsquo;s almost evening. The command is nice about the new features planned for the present iteration; even the room seems to be pulsing at a working rate. However, John is a little hurried because he&amp;rsquo;s waiting for a date. There&amp;rsquo;s still time for him to dash off, rework his part of the code, build it, and upload it to the source code repository. The &amp;ldquo;red light&amp;rdquo; illuminates, and the app&amp;rsquo;s construction is interrupted after a few minutes. John acted precipitously, believing that his lack of time for automated tests would force the team to stall.&#xA;The situation has changed; the working rhythm has failed. Now everyone knows that when they update the code from the version control system, it will break on their own computers.</description>
     </item>
   </channel>
 </rss>

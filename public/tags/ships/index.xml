@@ -6,14 +6,14 @@
     <description>Recent content in Ships on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ships/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architectural compromises</title>
       <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/architectural-compromises/</guid>
-      <description>High performance, high availability, high security, and high abstraction cannot all be achieved at the same time in an architecture. Software architects just need to be aware of, comprehend, and share one true story with their clients and peers. I&amp;rsquo;m referring to Vaza&amp;rsquo;s past.&#xA;There was a conflict between Sweden and Poland in 1620. The Swedish King ordered the building of a gallion known as the Vase in an attempt to swiftly conclude this costly conflict. The ship was unique. It had different specifications than any other ship of the era. In addition to carrying 64 weapons on two battery decks and transporting 300 men at a time safely to Poland by sea, it had to be longer than sixty meters. There was not enough money, and there was running out of time (sounds familiar?</description>
+      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
     </item>
   </channel>
 </rss>

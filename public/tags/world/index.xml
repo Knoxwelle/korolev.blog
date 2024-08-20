@@ -6,14 +6,14 @@
     <description>Recent content in World on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/world/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>There may be several solutions</title>
-      <link>http://localhost:1313/posts/there-may-be-several-solutions/</link>
-      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-may-be-several-solutions/</guid>
-      <description>A single data model, communication format, transport mechanism, and typically a single fundamental architectural element, policy, principle, etc., cannot adequately address every facet of a corporate organization. It appears that the system developers are perpetually surprised and saddened by this fact. It makes sense, though, that the organization—which is denoted here by the thick red line—must be too big and diverse to manage a single table, given that it is large enough to worry about the impact of multiple tables of accounts on the system over the course of the next ten years.&#xA;It&amp;rsquo;s also quite practical for us. Nonetheless, the contentious, complex, unofficial, and unsettling actual world of business is involved.Even worse, you have to deal with people&amp;rsquo;s perceptions of particular situations in specific regions of the world rather than the actual world.</description>
+      <title>There could be a number of answers</title>
+      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
+      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
     </item>
   </channel>
 </rss>

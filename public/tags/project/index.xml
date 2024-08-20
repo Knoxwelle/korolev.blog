@@ -6,56 +6,56 @@
     <description>Recent content in Project on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Never prioritize your resume over the needs of the client</title>
-      <link>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</link>
-      <pubDate>Thu, 11 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</guid>
-      <description>As technicians, we select specific technologies, tactics, and methods to address issues not because they offer the best solution but rather because we sincerely want to include them in our synopsis. Making such a decision almost never has favorable outcomes.&#xA;Because you have done so successfully for them, your grateful clients who are waiting in line to refer you to others will be the most potent career catalyst. You will get better service from the kind clients than from any newly created paradigm or trendy object in the new language. Even though staying current with emerging ideas and technology is crucial for architects, you should never try to take on more work at the client&amp;rsquo;s expense. As architects, you should never forget that you are responsible for the success of your organization.</description>
+      <title>Perhaps technology is not your primary issue</title>
+      <link>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</guid>
+      <description>Another salary calculation project is currently failing horribly somewhere; it&amp;rsquo;s probably not your fault.&#xA;Why did that happen? because Ruby was chosen by the developers instead of Smalltalk, Java, or Python? since you&amp;rsquo;ve decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you are aware, project failures are often attributed to technology.&#xA;Projects are typically started by people, and it is up to these people to determine whether the initiative succeeds or fails overall. And once that&amp;rsquo;s the case, we should think about the ways we might help them succeed.&#xA;As a result, you think that one of the team members is performing poorly and preventing the project from moving forward.</description>
     </item>
     <item>
-      <title>The architect must be a practitioner</title>
-      <link>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</link>
-      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</guid>
-      <description>A competent architect ought to lead by example. He should be able to take the position of any team member and handle any task, including creating modular tests, conducting performance tests, and setting up networking and the assembly process. In the absence of a thorough comprehension of all available technologies, an architect is really no different from a regular project manager.Although it is rather typical for team members to be more knowledgeable in their specialized professions, they are unlikely to be able to trust their architect unless he is conversant with the technology being employed.Since an architect serves as a liaison between the technical team and the company, as has already been mentioned, he must be well-versed in all technical facets in order to represent the team to the business management without continuously seeking assistance.</description>
+      <title>A practitioner must be the architect</title>
+      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
+      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
+    </item>
+    <item>
+      <title>Assure ongoing integration</title>
+      <link>http://localhost:1313/posts/assure-ongoing-integration/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/assure-ongoing-integration/</guid>
+      <description>In terms of design, the collection is no longer the &amp;ldquo;Big Bang&amp;rdquo; for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.&#xA;The term continuous integration (CI) was first proposed by Martin Fowler as a design template. It describes a set of methods and tools that ensure reliable, automated application testing and assembly across short time intervals (often on an integration server designed to do these functions). These days, all software projects must use continuous integration, which blends automated assembly tools with modular testing methods and resources.&#xA;Now that the project&amp;rsquo;s components have been assembled, they have been tested. Continuous integration now occupies the space previously occupied by &amp;ldquo;early and frequent assembly.</description>
+    </item>
+    <item>
+      <title>Try not to alter the timetable</title>
+      <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
+      <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
     </item>
     <item>
       <title>Communication is the king, clarity and leadership are his true companions</title>
       <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</guid>
-      <description>All too frequently, software architects reside in ivory towers, dictating technologies and instructions to developers while leaving them with little to no guidance. Simultaneously, this causes conflict, which is soon followed by a &amp;ldquo;popular uprising.&amp;rdquo; The end product is a piece of software that bears no relation to the original specifications. It is imperative for any software architect to be able to articulate to his peers the aims and purposes of the software project. Effective communication relies on leadership and clarity.&#xA;A communication procedure that is clear and concise. A one hundred-page document explaining your architectural choices will not be read by anyone in your group. Effective communication of ideas is essential for any program or effort to succeed. When starting work on the project, stick to brief explanations and don&amp;rsquo;t start writing lengthy word descriptions.</description>
+      <description>Too often, software architects live in ivory towers, prescribing to developers the technologies and procedures to follow while providing them with little or no assistance. This simultaneously leads to conflict and, shortly after, a &amp;ldquo;popular uprising.&amp;rdquo; The final result is a piece of software that is completely unrelated to the initial requirements. Any software architect must be able to clearly communicate the goals and objectives of the software project to his peers. Leadership and clarity are prerequisites for effective communication.&#xA;a method of communication that is precise and short. Nobody in your group will read a hundred-page booklet outlining your architectural decisions. Every program or endeavor must have effective concept communication in order to be successful. When you first start working on the project, don&amp;rsquo;t start writing long-word descriptions; instead, stick to succinct explanations.</description>
     </item>
     <item>
-      <title>One line of working code costs 500 lines of specification</title>
-      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</guid>
-      <description>It is lovely to promethize. In this regard, specifications are crucial since they establish the framework for system construction. It is crucial to consider the architecture as a whole, taking into account the behavior of individual components as well as the interactions between them on a micro and macro scale.&#xA;Regrettably, architects are frequently enthralled with the design process and are drawn to architectural abstractions. But the specs are worthless in and of themselves. A truly functional system is the software project&amp;rsquo;s ultimate goal. This objective should constantly remain in the architect&amp;rsquo;s mind, and they should never forget that design is merely a tool, not the final product. The skyscraper&amp;rsquo;s architect would soon come to regret disobeying the rules of physics in favor of the building&amp;rsquo;s elegance.</description>
+      <title>Never put the demands of the client ahead of your resume</title>
+      <link>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</guid>
+      <description>As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off.&#xA;Your grateful clients who are lining up to recommend you to others will be the most effective career catalyst because of how well you have served them. The gracious customers will provide you with greater service than any recently developed paradigm or in-vogue item in the new language. Architects need to stay up to date on evolving concepts and technologies, but you should never try to take on additional work at the client&amp;rsquo;s expense. It is imperative for architects to always remember that their organization&amp;rsquo;s success is their responsibility.</description>
     </item>
     <item>
-      <title>Try not to break the schedule</title>
-      <link>http://localhost:1313/posts/try-not-to-break-the-schedule/</link>
-      <pubDate>Fri, 31 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/try-not-to-break-the-schedule/</guid>
-      <description>Numerous factors can cause a software project to fail. Changing the work schedule mid-project without enough planning is one of the most frequent causes of project failure. These kinds of failures are preventable, but it will take a lot of work from many individuals. Adding resources or modifying the timeline to a project typically doesn&amp;rsquo;t cause any issues. When you have to work more in the same amount of time or reduce the timetable without lowering the workload, problems arise.&#xA;A very prevalent fallacy is that you can cut expenses or expedite product delivery by shortening the timeline. Usually, extra hours are worked or &amp;ldquo;less important tasks&amp;rdquo; (such modular testing) are given up for quicker product delivery or for better functionality without affecting delivery time.</description>
-    </item>
-    <item>
-      <title>Perhaps your main problem is not technology</title>
-      <link>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</guid>
-      <description>Somewhere right now, a different wage calculation project is failing miserably&amp;hellip; and most likely not by yourself.&#xA;What caused that to occur? because the developers opted for Ruby over Smalltalk or Java or Python? since you choose to utilize Postgres over Oracle? or because you preferred the Windows platform even if you should have chosen Linux? As you are aware, technology is frequently held responsible for project failures.&#xA;People normally establish projects, and it is up to these individuals to decide whether the project as a whole succeeds or fails. And once that is the case, we ought to consider our options for assisting them in being successful.&#xA;Per, you believe that there is a team member that is underperforming and impeding the project&amp;rsquo;s progress.</description>
-    </item>
-    <item>
-      <title>Ensure continuous integration</title>
-      <link>http://localhost:1313/posts/ensure-continuous-integration/</link>
-      <pubDate>Sat, 11 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/ensure-continuous-integration/</guid>
-      <description>The collection no longer serves as the project&amp;rsquo;s &amp;ldquo;Big Bang&amp;rdquo; in terms of design. In every project, architects should promote the use of continuous integration techniques and technologies, both at the corporate and application levels.&#xA;Martin Fowler originally suggested the term continuous integration (CI) as a design template. It refers to a collection of techniques and equipment that guarantees consistent, automated application testing and assembly across brief intervals of time (sometimes on an integration server specifically created to carry out these tasks). Continuous integration, which combines automated assembly tools with modular testing techniques and tools, is now required for all modern software projects.&#xA;The project&amp;rsquo;s components are now assembled and put to the test. These days, continuous integration has taken the position of &amp;ldquo;early and frequent assembly.</description>
+      <title>500 lines of specification are needed for every line of functioning code</title>
+      <link>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</guid>
+      <description>Promising is a beautiful thing. Specifications are important in this sense because they set the foundation for building systems. Taking into account the behavior of individual components as well as the interconnections between them on a micro and macro scale is essential when analyzing the architecture as a whole.&#xA;Unfortunately, architects are often fascinated with design and gravitate toward architectural abstractions. However, the specs are meaningless on their own. The ultimate goal of the software project is to create a fully functional system. The architect should never lose sight of this goal or the fact that design is only a tool and not the finished product. The architect of the skyscraper would soon come to regret defying physics to achieve the elegant design of the edifice.</description>
     </item>
   </channel>
 </rss>

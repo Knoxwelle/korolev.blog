@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/designing-in-the-void/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Designing in the void • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Designing in the void">
+<meta name="twitter:description" content="The system consists of interdependent software elements.The organizational structure of these program elements together with their unifying relationships is called architecture.On diagrams depicting such systems, individual program elements and servers are often simplified in the form of rectangles connected by arrow keys.
+One small arrow may mean: &ldquo;Synchronous SOAP-XML Request/Respond via HTTP&rdquo;.There is too much information for one element of the chart.There is usually not enough space for complete writing, so we mark the arrow with &ldquo;XML through HTTP&rdquo; (from the point of view of internal implementation) or &ldquo;Search by product code&rdquo; (for external users).
+The arrow that connects programs looks like a direct contact, but it is not.The vacuum between rectangles is filled with hardware and software components.In particular, the following can be located:">
+
+<meta property="og:url" content="http://localhost:1313/posts/designing-in-the-void/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Designing in the void">
+  <meta property="og:description" content="The system consists of interdependent software elements.The organizational structure of these program elements together with their unifying relationships is called architecture.On diagrams depicting such systems, individual program elements and servers are often simplified in the form of rectangles connected by arrow keys.
+One small arrow may mean: “Synchronous SOAP-XML Request/Respond via HTTP”.There is too much information for one element of the chart.There is usually not enough space for complete writing, so we mark the arrow with “XML through HTTP” (from the point of view of internal implementation) or “Search by product code” (for external users).
+The arrow that connects programs looks like a direct contact, but it is not.The vacuum between rectangles is filled with hardware and software components.In particular, the following can be located:">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-23T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-05-23T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Designing in the void</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> May 23, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2018-01-30T182303.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>The system consists of interdependent software elements.The organizational structure of these program elements together with their unifying relationships is called architecture.On diagrams depicting such systems, individual program elements and servers are often simplified in the form of rectangles connected by arrow keys.</p>
+<p>One small arrow may mean: &ldquo;Synchronous SOAP-XML Request/Respond via HTTP&rdquo;.There is too much information for one element of the chart.There is usually not enough space for complete writing, so we mark the arrow with &ldquo;XML through HTTP&rdquo; (from the point of view of internal implementation) or &ldquo;Search by product code&rdquo; (for external users).</p>
+<p>The arrow that connects programs looks like a direct contact, but it is not.The vacuum between rectangles is filled with hardware and software components.In particular, the following can be located:</p>
+<ul>
+<li>Network maps</li>
+<li>Network Switches</li>
+<li>Firewalls</li>
+<li>Intrusion Detection and Prevention Systems (IDS/IPS)</li>
+<li>Brokers or message queues</li>
+<li>XML Conversion Mechanisms</li>
+<li>FTP Servers</li>
+<li>Zone tables</li>
+<li>SoNET Rings</li>
+<li>MPLS Gates</li>
+<li>Highway lines</li>
+<li>Oceans</li>
+<li>Fishing trawlers damaging bottom cables</li>
+</ul>
+<p>Between program elements A and B there are always four to five computers running package switching, traffic analysis, routing, threat analysis, etc. And you, as an architect connecting these program modules together, must take into account the existence of this intermediate environment.</p>
+<p>One day I saw a arrow with the inscription &ldquo;Implementation.&ldquo;One server was installed in my client&rsquo;s company, the other was located in a completely different location.This crucial client arrow triggered a chain of events that resembled the Mouse Run game more than a single interface. Messages were transmitted to brokers, storing them in files that were loaded on FTP&hellip; etc.This &ldquo;interface&rdquo; included more than 20 stages.</p>
+<p>It is necessary to understand well what static and dynamic load falls on each arrow.Next to &ldquo;SOAP-XML over HTTP&rdquo; by the arrow, it would also be worth writing: &ldquo;For each Http request one call is accepted, for each HTTp answer one response is returned.Up to 100 requests per second are expected, and 99.999% of the requests should be delivered in less than 250 ms.”</p>
+<p>But that&rsquo;s not all you need to know about this arrow:</p>
+<ul>
+<li>What if the calling party calls too often?How should the recipient act – ignore requests, polite refusal or, if possible, try to process them?</li>
+<li>What should the calling party do if the processing of the request has taken more than 250 ms?Do you want to try again?Wait a minute?Decide that there was a failure on the recipient side and continue without this function?</li>
+<li>What happens if the calling party has sent a request for version 1.0 and received a response in version 1.1?What if HTML was obtained instead of XML?Or an MP3 file instead of an XML file?</li>
+<li>What happens if one side of the interface becomes temporarily inaccessible?</li>
+</ul>
+<p>The answers to these questions are the essence of designing &ldquo;in empty space&rdquo; diagrams.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/there-are-no-solutions-for-all-cases-of-life/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">There are no solutions for all cases of life</span>
+    </a>
+    
+    
+    <a href="/posts/creating-architecture-as-the-art-of-balance/" class="navigation-next">
+      <span class="navigation-tittle">Creating architecture as the art of balance</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

@@ -6,14 +6,14 @@
     <description>Recent content in Complex on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/complex/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reduce the intrinsic complexity and eliminate the incidental complexity</title>
-      <link>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</guid>
-      <description>For instance, it takes a lot of work to coordinate air traffic at the national level. To avoid collisions in the air and on the runways, the control system must continuously monitor each aircraft&amp;rsquo;s exact location, including height, speed, direction, and destination. Additionally, it&amp;rsquo;s critical to swiftly manage aircraft schedules in order to prevent traffic jams at airports under continuously changing conditions. A drastic change in the weather necessitates a complete revision of the timetable.&#xA;Conversely, problems that we believe must be resolved in order to lessen the inherent complexity are the source of unintended complexity. A modest example of complexity is the flight management system, which is now out of date and yet in use.The system was created to handle the difficult task of coordinating the flight of thousands of aircraft; however, this solution has drawbacks of its own.</description>
+      <title>Cut down on the inherent complexity and do away with the incidental complication</title>
+      <link>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</guid>
+      <description>For example, national air traffic coordination is a labor-intensive process. The control system needs to keep track of every aircraft&amp;rsquo;s precise location at all times, including height, speed, direction, and destination, in order to prevent collisions both in the air and on the runways. In addition, under constantly shifting circumstances, it&amp;rsquo;s imperative to quickly adjust aircraft schedules to avoid traffic bottlenecks at airports. A significant shift in the weather calls for a thorough reworking of the schedule.&#xA;On the other hand, unintended complexity arises from issues that we feel need to be handled in order to reduce the inherent complexity. A simple illustration of complexity is the flight management system, which is still in use even though it is outdated. The system was developed to manage the challenging task of coordinating the flight of thousands of aircraft; yet, this approach is not without its problems.</description>
     </item>
   </channel>
 </rss>

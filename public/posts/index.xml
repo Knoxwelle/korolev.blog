@@ -6,189 +6,308 @@
     <description>Recent content in Posts on Tiny Dev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating architecture as the art of balance</title>
-      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Mon, 12 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
-      <description>The traditional technical processes that come to mind when creating a software architecture are breaking the system down into its component parts, defining interfaces, assigning tasks, using templates, and performance tuning. The architect also needs to consider a variety of additional factors, such as output management, deployment settings, simplicity of usage, safety, and ease of maintenance.All of these procedural and technical details, meanwhile, have to be pertinent to the needs of the stakeholders.One of the best ways to make sure that the requirements specifications for the product being developed are comprehensive is to consider these interests during the requirements analysis process.&#xA;Each project participant has interests that impact the corporation as a whole as well as the software development process the company uses. The architect&amp;rsquo;s final set of priorities is derived from a consideration of these interests.</description>
+      <title>Building architecture as a balancing art</title>
+      <link>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</guid>
+      <description>When designing a software architecture, the conventional technical procedures that spring to mind are disassembling the system into its constituent pieces, specifying interfaces, allocating responsibilities, employing templates, and optimizing performance. A wide range of other variables, including output management, deployment settings, convenience of use, safety, and maintenance, must also be taken into account by the architect.Meanwhile, every one of these technical and procedural specifics must be relevant to the requirements of the stakeholders.Taking these interests into account during the requirements analysis process is one of the greatest ways to ensure that the requirements specifications for the product being developed are thorough.&#xA;Every project participant has interests that affect both the company&amp;rsquo;s software development process and the firm as a whole. Taking these interests into account leads to the architect&amp;rsquo;s final list of priorities.</description>
     </item>
     <item>
-      <title>Do it in a hurry and escape this crime</title>
-      <link>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</link>
+      <title>Perhaps technology is not your primary issue</title>
+      <link>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</guid>
+      <description>Another salary calculation project is currently failing horribly somewhere; it&amp;rsquo;s probably not your fault.&#xA;Why did that happen? because Ruby was chosen by the developers instead of Smalltalk, Java, or Python? since you&amp;rsquo;ve decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you are aware, project failures are often attributed to technology.&#xA;Projects are typically started by people, and it is up to these people to determine whether the initiative succeeds or fails overall. And once that&amp;rsquo;s the case, we should think about the ways we might help them succeed.&#xA;As a result, you think that one of the team members is performing poorly and preventing the project from moving forward.</description>
+    </item>
+    <item>
+      <title>The ethical concerns of software architecture</title>
+      <link>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</guid>
+      <description>When it comes to civil rights, identity theft, or malware, the ethical nature of software is made clear. But in calves, it also appears in less unusual situations.The lives of thousands, if not millions, of people are impacted by successful initiatives. They may have both beneficial and detrimental effects.&#xA;Whenever I decide how software should behave, I really decide what its users may and cannot do. Furthermore, the verdict is far harsher than the legislation because there is no appeal court where the selection of required fields or the rigid order of transactions may be disputed.&#xA;The scale effect provides another perspective on this issue. Do you recall articles about the newest viruses on the Internet or popular films? You have to have fulfilled the approximations of the number of working hours lost nationwide as a result of them.</description>
+    </item>
+    <item>
+      <title>Remember the importance of performance</title>
+      <link>http://localhost:1313/posts/remember-the-importance-of-performance/</link>
       <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-it-in-a-hurry-and-escape-this-crime/</guid>
-      <description>Evening is drawing near. Even the air in the room seems to be pulsing at a working pace; the command is pleasant regarding the new features planned for the current iteration. But John is waiting for a date, so he&amp;rsquo;s a touch rushed. He still has time to rush off, rewrite his portion of the code, build it, and register it in the source code management system. After a few minutes, the app&amp;rsquo;s assembly is disrupted, and the &amp;ldquo;red light&amp;rdquo; is lit.John acted rashly, assuming that the team would stall because he didn&amp;rsquo;t have time for automated tests.&#xA;The working rhythm has failed; the circumstances have altered. Everyone is now aware that updating the code from the version control system will cause it to malfunction on their local machines.</description>
+      <guid>http://localhost:1313/posts/remember-the-importance-of-performance/</guid>
+      <description>Your car is 98% recyclable, roomy, comfy, economical, and affordable. Would you like one? Naturally. anybody desires. Yes, the fact that it can only go a maximum of 10 km/h is the only issue. Did you not make up your mind? This brief illustration makes it quite evident that production is just as significant as any other factor.&#xA;Because computers process data at a rate that is unmatched by humans, many architects prioritize performance last because they believe the system&amp;rsquo;s speed will be sufficient. Furthermore, Moore&amp;rsquo;s law will ensure everything is taken care of if current systems are not quick enough.But the equipment&amp;rsquo;s speed is simply one component of the system.&#xA;Some people define performance as only how long it takes a system to react to input from them.</description>
+    </item>
+    <item>
+      <title>A practitioner must be the architect</title>
+      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
+      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
     </item>
     <item>
       <title>Application performance determined by architecture</title>
       <link>http://localhost:1313/posts/application-performance-determined-by-architecture/</link>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/application-performance-determined-by-architecture/</guid>
-      <description>The architecture of an application determines its performance. Although this claim appears clear at first glance, practical experience indicates otherwise. Software architects, for instance, frequently think that application performance issues can be resolved by simply moving to a different software infrastructure manufacturer. This notion could have its roots in the noise surrounding test results; for instance, claims that the leading company&amp;rsquo;s product performs 25% better than its closest rival&amp;rsquo;s could be the cause of this belief. However, given the overall low performance, which stems from architectural inefficiencies, the stated 25% (one millisection) means relatively little if the competition product completes the operation in 4 milliseconds and the leading product completes it in 3 milliseconds.&#xA;Other groups of people, like the developers&amp;rsquo; support service and the authors of the books on app performance management, advise you to perform the subtle configuration of the application&amp;rsquo;s infrastructure, such as experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth, in addition to IT managers and performance testing teams.</description>
+      <description>An application&amp;rsquo;s performance is determined by its architecture. On the surface, this claim seems obvious, but actual experience suggests otherwise. For example, software architects frequently believe that switching to a different software infrastructure manufacturer can alleviate application performance difficulties. This idea may have originated from the hype around test findings; for example, assertions that the product of the top company outperforms that of its nearest competitor by 25% may have contributed to the development of this view. However, if the leading product completes the operation in 3 milliseconds and the competitor product completes it in 4 milliseconds, the reported 25% (one millisection) represents virtually little given the overall low performance, which is caused by architectural inefficiencies.&#xA;In addition to IT managers and performance testing teams, other groups of people advise you to carry out the subtle configuration of the application&amp;rsquo;s infrastructure, like experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth.</description>
     </item>
     <item>
-      <title>Failures are inevitable</title>
-      <link>http://localhost:1313/posts/failures-are-inevitable/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/failures-are-inevitable/</guid>
-      <description>It makes it possible to withstand isolated hardware failures, but it also makes it more likely that the system will malfunction at least once at any given time.&#xA;Additionally susceptible is the software code. We use monitoring tools to record application problems; but, as these tools rely on software code, they are likewise susceptible to malfunction.&#xA;Because humans make mistakes, we attempt to automate our workflows, diagnoses, and actions.Automation lowers the probability of errors resulting from rule violations but raises the probability of errors originating from rule noncompliance.A human being can react to a wider variety of situations than any automated technology.&#xA;We&amp;rsquo;re including monitoring methods in automation tools because of this. Fresh flaws in new software. Hardware, software, and lengthy communication links make up networks.</description>
+      <title>Enterprise interview</title>
+      <link>http://localhost:1313/posts/enterprise-interview/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
+      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
     </item>
     <item>
-      <title>Reduce the intrinsic complexity and eliminate the incidental complexity</title>
-      <link>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</link>
-      <pubDate>Sun, 04 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/reduce-the-intrinsic-complexity-and-eliminate-the-incidental-complexity/</guid>
-      <description>For instance, it takes a lot of work to coordinate air traffic at the national level. To avoid collisions in the air and on the runways, the control system must continuously monitor each aircraft&amp;rsquo;s exact location, including height, speed, direction, and destination. Additionally, it&amp;rsquo;s critical to swiftly manage aircraft schedules in order to prevent traffic jams at airports under continuously changing conditions. A drastic change in the weather necessitates a complete revision of the timetable.&#xA;Conversely, problems that we believe must be resolved in order to lessen the inherent complexity are the source of unintended complexity. A modest example of complexity is the flight management system, which is now out of date and yet in use.The system was created to handle the difficult task of coordinating the flight of thousands of aircraft; however, this solution has drawbacks of its own.</description>
+      <title>Architecture is not the only factor in reuse</title>
+      <link>http://localhost:1313/posts/architecture-is-not-the-only-factor-in-reuse/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/architecture-is-not-the-only-factor-in-reuse/</guid>
+      <description>It appears that a well-planned and cleverly executed architecture, or well-thought-out infrastructure, is perfect for repurposing within your company. But in practice, only those who are aware of an architecture, infrastructure, or system&amp;rsquo;s existence will be able to utilize it again, no matter how exquisite and lovely it may be. Your organization&amp;rsquo;s developers and designers should be aware of the existence of any libraries, architectures, infrastructures, or code fragments, as well as where to locate all the information required to understand these components (documentation, compatibility, and version data). The obvious and straightforward reality is that people do not take into account options that they are unaware even exist. Certain pieces can only be reused provided information about them is regularly shared. Within your company, there are numerous ways to share information about reusable items: from an email with updates on version changes in the source repository to a wiki with an RSS feed that provides information about updates (particularly helpful for extremely large teams).</description>
     </item>
     <item>
-      <title>You negotiate more often than you think</title>
-      <link>http://localhost:1313/posts/you-negotiate-more-often-than-you-think/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-negotiate-more-often-than-you-think/</guid>
-      <description>All of us have been &amp;ldquo;buried&amp;rdquo; for savings by &amp;ldquo;budget&amp;rdquo; modifications, which are clever technology solutions.The dialogue proceeds as follows:&#xA;&amp;ldquo;Is X really necessary?&amp;rdquo; The sponsor of the project queries.&#xA;Almost anything that is necessary for the system can be swapped out for X, including extra servers, software licenses, external backups, and power sources. The topic is always posed in a colloquial manner, as though you are spending all of your allowance on comic books and chewing gum, and mature individuals should consider investing in new shells, which will hold their future earnings.&#xA;&amp;ldquo;Yes,&amp;rdquo; is the appropriate response to this query. utterly essential.&amp;quot; But virtually nobody responds, for whatever reason.&#xA;We have technical schooling, after all, and compromise is the skill of every technical profession.</description>
+      <title>Creating in the Dark</title>
+      <link>http://localhost:1313/posts/creating-in-the-dark/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/creating-in-the-dark/</guid>
+      <description>The software components of the system are interrelated. Architecture refers to the hierarchical structure of various program components as well as their cohesive connections.Individual program components and servers are frequently simplified into rectangles connected by arrow keys on diagrams showing such systems.&#xA;The meaning of a single little arrow could be &amp;ldquo;Synchronous SOAP-XML Request/Respond via HTTP.&amp;rdquo; One chart element cannot include all the information that is available. Since there is typically not enough room for everything to be written, we label the arrow with &amp;ldquo;Search by product code&amp;rdquo; (for external users) or &amp;ldquo;XML through HTTP&amp;rdquo; (from the perspective of internal implementation).&#xA;Although it appears to be a direct communication, the arrow connecting the programs is not. Hardware and software components occupy the space in between rectangles.</description>
     </item>
     <item>
-      <title>Get up</title>
-      <link>http://localhost:1313/posts/stand-up/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/stand-up/</guid>
-      <description>Many of us started our careers as architects in some form of very technical role where computer communication skills were essential to succeed. However, our primary means of communication as architects is with other people. Your ability to communicate effectively is essential for success, whether you are arguing with developers about the benefits of using a template or outlining the advantages and disadvantages of purchasing intermediary software to management.&#xA;It is challenging to measure the architect&amp;rsquo;s influence on the project objectively, but one thing is certain: the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not have an impact on the trajectory of his career if the developers consistently disregard his instructions and the management does not value his advice. Skilled architects know that they must &amp;ldquo;promote&amp;rdquo; their concepts, and good communication is necessary for this.</description>
+      <title>Assure ongoing integration</title>
+      <link>http://localhost:1313/posts/assure-ongoing-integration/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/assure-ongoing-integration/</guid>
+      <description>In terms of design, the collection is no longer the &amp;ldquo;Big Bang&amp;rdquo; for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.&#xA;The term continuous integration (CI) was first proposed by Martin Fowler as a design template. It describes a set of methods and tools that ensure reliable, automated application testing and assembly across short time intervals (often on an integration server designed to do these functions). These days, all software projects must use continuous integration, which blends automated assembly tools with modular testing methods and resources.&#xA;Now that the project&amp;rsquo;s components have been assembled, they have been tested. Continuous integration now occupies the space previously occupied by &amp;ldquo;early and frequent assembly.</description>
     </item>
     <item>
-      <title>Architectural compromises</title>
-      <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Fri, 12 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/architectural-compromises/</guid>
-      <description>High performance, high availability, high security, and high abstraction cannot all be achieved at the same time in an architecture. Software architects just need to be aware of, comprehend, and share one true story with their clients and peers. I&amp;rsquo;m referring to Vaza&amp;rsquo;s past.&#xA;There was a conflict between Sweden and Poland in 1620. The Swedish King ordered the building of a gallion known as the Vase in an attempt to swiftly conclude this costly conflict. The ship was unique. It had different specifications than any other ship of the era. In addition to carrying 64 weapons on two battery decks and transporting 300 men at a time safely to Poland by sea, it had to be longer than sixty meters. There was not enough money, and there was running out of time (sounds familiar?</description>
-    </item>
-    <item>
-      <title>Never prioritize your resume over the needs of the client</title>
-      <link>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</link>
+      <title>Investigate the topic</title>
+      <link>http://localhost:1313/posts/investigate-the-topic/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/never-prioritize-your-resume-over-the-needs-of-the-client/</guid>
-      <description>As technicians, we select specific technologies, tactics, and methods to address issues not because they offer the best solution but rather because we sincerely want to include them in our synopsis. Making such a decision almost never has favorable outcomes.&#xA;Because you have done so successfully for them, your grateful clients who are waiting in line to refer you to others will be the most potent career catalyst. You will get better service from the kind clients than from any newly created paradigm or trendy object in the new language. Even though staying current with emerging ideas and technology is crucial for architects, you should never try to take on more work at the client&amp;rsquo;s expense. As architects, you should never forget that you are responsible for the success of your organization.</description>
+      <guid>http://localhost:1313/posts/investigate-the-topic/</guid>
+      <description>A proficient software architect possesses expertise not only in technology but also in the domain of the problem that needs to be resolved. In the absence of this information, it is challenging to comprehend the business side of the assignment, goal, and specifications of the organization; consequently, it is challenging to create an efficient architecture that satisfies the demands of the business.&#xA;Understanding the business&amp;rsquo;s problems, goals, and needs in order to translate them into a technical architectural solution that satisfies them is the responsibility of the software architect. Understanding the issue helps the architect choose which patterns to use, how to schedule expansions in the future, and how to consider market trends to better prepare for change. For instance, workflow-based design works well in certain contexts (such as the insurance industry) and service-oriented architecture in others (such as the financial markets).</description>
+    </item>
+    <item>
+      <title>Failures are unavoidable</title>
+      <link>http://localhost:1313/posts/failures-are-unavoidable/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/failures-are-unavoidable/</guid>
+      <description>It increases the likelihood that the system will experience a malfunction at least once in any given period of time, but it also makes it possible to survive isolated hardware failures.&#xA;The software code is also vulnerable. We employ monitoring tools to keep track of application issues, but because they depend on software, these tools might sometimes break.&#xA;We try to automate our diagnoses, actions, and workflows since humans are fallible. Automation increases the likelihood of errors coming from rule noncompliance but decreases the likelihood of errors resulting from rule violations. More circumstances can be handled by a human than by any automated technology.&#xA;For this reason, we&amp;rsquo;re including monitoring techniques in automated solutions. new software with fresh bugs. Networks are made up of hardware, software, and long communication lines.</description>
+    </item>
+    <item>
+      <title>Determine what the needs actually mean</title>
+      <link>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</guid>
+      <description>Customers and end users often insist on what they see to be a practical resolution to a problem. Harry Hillaker, a leading F-16 Falcon designer, offers a perfect example of this. The goal set for his team was to build an aircraft capable of traveling at M2-2.5 speeds. This was (and presumably still is) a very challenging project, particularly if the secondary objective was to construct a light aircraft that was &amp;ldquo;cheap.&amp;rdquo;&#xA;The design team was informed by Air Force clients that the M2–2.5 speed was critical for the aircraft to be able to escape combat if needed. When the true necessity was realized, the designers addressed the main problem and offered a workable solution. Rather than having a fast peak speed, this was in the form of a movable aircraft with good traction that provided good acceleration and maneuverability.</description>
+    </item>
+    <item>
+      <title>You underestimate how frequently you negotiate</title>
+      <link>http://localhost:1313/posts/you-underestimate-how-frequently-you-negotiate/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-underestimate-how-frequently-you-negotiate/</guid>
+      <description>We&amp;rsquo;ve all been &amp;ldquo;buried&amp;rdquo; for savings through ingenious technological &amp;ldquo;budget&amp;rdquo; changes.The conversation goes like this:&#xA;&amp;ldquo;Is X really necessary?&amp;rdquo;&#xA;X can replace nearly anything that is required for the system, such as additional servers, software licenses, external backups, and power supplies. The question is always asked in a casual tone, as if you are spending your entire allowance on gum and comic books, and older people ought to think about buying new shells to save their money for the future.&#xA;&amp;ldquo;Yes&amp;rdquo; is the right answer to this question. absolutely necessary.&amp;quot; However, almost no one answers, for whatever reason.&#xA;After all, we have technical education, and every technical occupation requires the ability to compromise.It is evident that nobody will need unconventional power sources if several white wheels are installed in the data center and interns are stationed there.</description>
     </item>
     <item>
       <title>Be guided by uncertainty</title>
       <link>http://localhost:1313/posts/be-guided-by-uncertainty/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/be-guided-by-uncertainty/</guid>
-      <description>People often think that making the best decision is what matters most when presented with options.This is untrue in design, whether it be software products or anything else. An analysis of the uncertainty in the system&amp;rsquo;s design is necessary when an alternative exists. Use breakdown and abstraction to lessen the significance of design decisions, or use uncertainty as a deciding factor to find areas where you can delay the transition to specifics.It&amp;rsquo;s conceivable that you&amp;rsquo;ll tie your hands later if you blindly &amp;ldquo;sew&amp;rdquo; whatever decision comes to mind into the system.As a result, the software product&amp;rsquo;s flexibility will decline and random judgments will start to take center stage.&#xA;Grady Booch provided one of the clearest and most helpful definitions of architecture, saying that &amp;ldquo;though not all designs are intended to result in architecture, all architecture is the product of design.</description>
+      <description>When faced with options, people frequently believe that choosing the best course of action is what really counts. This is not true in terms of design, be it software or anything else. When an alternative exists, an analysis of the uncertainty in the system&amp;rsquo;s design is required. To reduce the importance of design decisions, utilize abstraction and breakdown. Alternatively, use uncertainty as a determining factor to identify places where you can postpone going into detail. You could &amp;ldquo;sew&amp;rdquo; whatever option comes to mind mindlessly into the system, which could tie your hands later.The software product will become less flexible as a result, and arbitrary judgments will begin to take center stage.&#xA;One of the best and most useful definitions of architecture was offered by Grady Booch, who stated that &amp;ldquo;all architecture is the product of design, even though not all designs are intended to result in architecture.</description>
     </item>
     <item>
-      <title>It is never too early to think about productivity</title>
-      <link>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</link>
+      <title>Try before you decide</title>
+      <link>http://localhost:1313/posts/try-before-you-decide/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
+      <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
+    </item>
+    <item>
+      <title>Try not to alter the timetable</title>
+      <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
+      <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
+    </item>
+    <item>
+      <title>There could be a number of answers</title>
+      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/it-is-never-too-early-to-think-about-productivity/</guid>
-      <description>Functional requirements are where business application users&amp;rsquo; needs are mostly expressed. The architect is in charge of the system&amp;rsquo;s non-functional elements, which include performance, flexibility, downtime, support requirements, etc. Simultaneously, initial testing of non-functional needs is sometimes completely assigned to the system maintenance team or delayed until a very late point in the development cycle.&#xA;This is a far more frequent error than it ought to be. It may be founded on a number of factors.It may seem futile to worry about the program&amp;rsquo;s speed and adaptability when it isn&amp;rsquo;t precisely fulfilling the necessary role yet. Both the test settings and the tests themselves are highly intricate. Due to low use intensity, early working versions of the system might not have been subjected to a realistic load.</description>
+      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
+      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
     </item>
     <item>
-      <title>Interview at Enterprise</title>
-      <link>http://localhost:1313/posts/interview-at-enterprise/</link>
+      <title>One step in the design process is programming</title>
+      <link>http://localhost:1313/posts/one-step-in-the-design-process-is-programming/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/interview-at-enterprise/</guid>
-      <description>I&amp;rsquo;ve started attending interviews once more, and I would want to offer some findings. This episode, we discuss screening in large corporations and the design of the hiring process.&#xA;Screening From there, tech-screening spreads like wildfire. On the initial call, the recruiter asks a ton of questions and checks with sparkling. As an illustration:&#xA;How can the container be stopped? Python&amp;rsquo;s unaltered data typesx? What is the Linux kernel&amp;rsquo;s PID? How are CAP and PACELC interpreted? -&amp;hellip; Some even go so far as to build a full platform out of executable little bits of code. Twenty minutes, twenty questions. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Alternatively &amp;ldquo;What does this code do?&amp;rdquo; He&amp;rsquo;s aware that I wouldn&amp;rsquo;t just overlook that code on a review because it&amp;rsquo;s so bizarre.</description>
+      <guid>http://localhost:1313/posts/one-step-in-the-design-process-is-programming/</guid>
+      <description>Programming is learning, according to Kristen Nygaard, the creator of the object-oriented mapping and programming language Simula. Improving development processes fundamentally requires an understanding that programming, or more accurately, software development, is a process of study and creative search rather than production and design. In software development, concepts from conventional engineering disciplines are inapplicable. Leading scholars in our profession have spent more than 30 years documenting and analyzing the issues that emerge. For instance, in the &amp;ldquo;Rapport of the Ratifying Group of the Ministry of Defense Scientific Council on Military Software,&amp;rdquo; Frederick Brooks, Jr. contended in 1987 that a lot of software issues stemmed from the document-oriented methodology of &amp;ldquo;first specification, then development.&amp;rdquo;.&#xA;Where might the software sector find useful inspiration to advance its methods?</description>
     </item>
     <item>
-      <title>The architect must be a practitioner</title>
-      <link>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</link>
-      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-architect-must-be-a-practitioner/</guid>
-      <description>A competent architect ought to lead by example. He should be able to take the position of any team member and handle any task, including creating modular tests, conducting performance tests, and setting up networking and the assembly process. In the absence of a thorough comprehension of all available technologies, an architect is really no different from a regular project manager.Although it is rather typical for team members to be more knowledgeable in their specialized professions, they are unlikely to be able to trust their architect unless he is conversant with the technology being employed.Since an architect serves as a liaison between the technical team and the company, as has already been mentioned, he must be well-versed in all technical facets in order to represent the team to the business management without continuously seeking assistance.</description>
+      <title>Cut down on the inherent complexity and do away with the incidental complication</title>
+      <link>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</guid>
+      <description>For example, national air traffic coordination is a labor-intensive process. The control system needs to keep track of every aircraft&amp;rsquo;s precise location at all times, including height, speed, direction, and destination, in order to prevent collisions both in the air and on the runways. In addition, under constantly shifting circumstances, it&amp;rsquo;s imperative to quickly adjust aircraft schedules to avoid traffic bottlenecks at airports. A significant shift in the weather calls for a thorough reworking of the schedule.&#xA;On the other hand, unintended complexity arises from issues that we feel need to be handled in order to reduce the inherent complexity. A simple illustration of complexity is the flight management system, which is still in use even though it is outdated. The system was developed to manage the challenging task of coordinating the flight of thousands of aircraft; yet, this approach is not without its problems.</description>
     </item>
     <item>
-      <title>Use quantitative criteria</title>
-      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
-      <pubDate>Fri, 21 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
-      <description>You can&amp;rsquo;t make &amp;ldquo;fast&amp;rdquo; a prerequisite. In addition to having a fast reaction time.alternatively, &amp;ldquo;expandable.&amp;rdquo; The primary cause is the absence of impartial standards for fulfilling these obligations.Users nevertheless require these features. Ensuring that the system has the required attributes and balancing the inevitable contradictions that occur between them are the tasks of the architect. Without objective standards, the developer&amp;rsquo;s fixation with obsessive concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and the architect&amp;rsquo;s whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”) are what the architect counts on.&#xA;Usually, we make an effort to record all such requests along with any additional specifications. However, this entry frequently appears to be a collection of hazy adjectives, such as &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;friendly to accompany,&amp;rdquo; and so forth.</description>
+      <title>Diversity prevails</title>
+      <link>http://localhost:1313/posts/diversity-prevails/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/diversity-prevails/</guid>
+      <description>The tools that architects use to design computer systems have undergone significant changes as a result of the technology&amp;rsquo;s natural progression. These modifications have rekindled interest in multilingual programming, or using more than one language at the center of a software system&amp;rsquo;s implementation.&#xA;The idea of multilingual programming is not new; one common example from the past is systems where the server portion is based on C++ COM objects while the client portion is written in Visual Basic.As a matter of fact, this architecture made good use of the advantages that each of the languages listed had at the height of their popularity.What modifications have sparked a renewed interest in bilingual programming? The genuine usage of text protocols has been made possible by new technical standards and a continual growth in resources, such as processing capacity and channel bandwidth.</description>
+    </item>
+    <item>
+      <title>It is written in lowercase as software architect</title>
+      <link>http://localhost:1313/posts/it-is-written-in-lowercase-as-software-architect/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/it-is-written-in-lowercase-as-software-architect/</guid>
+      <description>There has been a depressing tendency in the field of software development lately: the aim to elevate software design to a professional standing comparable to that of the traditional school of architecture. Architects seem to want to validate their accomplishments in the eyes of the general public instead of their immediate employers and network of peers. However, it wasn&amp;rsquo;t until the end of the 19th century—a millennium after its inception—that architecture achieved professional stature. Some software architects rush their attempts to gain attention.&#xA;However, software development is still in its infancy. This industry still lacks enough knowledge for us to credibly classify it as professional. The software development sector is relatively new, but despite this, its products are highly appreciated, and qualified experts in the field—as well as those who aspire to appear—are compensated at a level commensurate with top professional disciplines like law, accounting, and medicine.</description>
+    </item>
+    <item>
+      <title>Being a responsible leader matters more than looks</title>
+      <link>http://localhost:1313/posts/being-a-responsible-leader-matters-more-than-looks/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/being-a-responsible-leader-matters-more-than-looks/</guid>
+      <description>Upon being drawn to the project, the architect&amp;rsquo;s urge to &amp;ldquo;show himself&amp;rdquo; is evident.The hiring of a software architect typically signifies the organization&amp;rsquo;s trust in the expert&amp;rsquo;s technical proficiency; thus, the architect aspires to promptly demonstrate his merit for the trust. Unfortunately, there are those among us who mistakenly think that in order to &amp;ldquo;imagine yourself in all its glory,&amp;rdquo; one must shock, if not completely obscure, the group with their technical brilliance.&#xA;While making an impact on the audience is crucial for marketing, it has a detrimental effect on program project management. By taking a responsible leadership stance and having a solid grasp of both the technical and substantive aspects of the challenge at hand, the architect can gain the respect of his team.</description>
+    </item>
+    <item>
+      <title>Everything is run by business</title>
+      <link>http://localhost:1313/posts/everything-is-run-by-business/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/everything-is-run-by-business/</guid>
+      <description>When it comes to developing corporate software applications, the architect should act as a kind of go-between for the technical and business communities inside the organization, representing and defending each group&amp;rsquo;s interests, resolving conflicts on a regular basis, and allowing the business to operate as usual. The architect&amp;rsquo;s technology choices must take the organization&amp;rsquo;s business objectives and external surroundings into consideration.&#xA;Before beginning a software development project, a software development business usually plans and promotes the desired return on investment (ROI). The architect has to acknowledge this signal and the resulting limitations on the product&amp;rsquo;s business value.This will help prevent the need of technical solutions that could be extremely expensive. The return rate should be taken into consideration in the overall target context when talking about the technical architecture and implementation with the development team and when interacting with management (during the process of determining how to strike a balance between the cost and benefit of a given function).</description>
+    </item>
+    <item>
+      <title>There is never a bad time to consider productivity</title>
+      <link>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</guid>
+      <description>The needs of business application users are mostly stated in functional requirements. The non-functional components of the system, such as performance, flexibility, downtime, support needs, etc., are under the architect&amp;rsquo;s control. Concurrently, the system maintenance team may be given full responsibility for the initial testing of non-functional requirements, or the testing may be postponed until a very late stage of the development process.&#xA;This is a mistake that happens far more often than it should. It could have several foundations. Worrying about the program&amp;rsquo;s speed and flexibility while it isn&amp;rsquo;t yet perfectly performing the required role may seem pointless. The tests themselves are rather complex, as are the test settings. Early working versions of the system may not have been subjected to a realistic load because of their low use intensity.</description>
+    </item>
+    <item>
+      <title>Apply numerical standards</title>
+      <link>http://localhost:1313/posts/apply-numerical-standards/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/apply-numerical-standards/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Not only does it have a quick reaction time, but it&amp;rsquo;s also &amp;ldquo;expandable.&amp;rdquo; The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect&amp;rsquo;s duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer&amp;rsquo;s obsession with inane concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and his or her own whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”).&#xA;Generally, we try to document all of these requests along with any other information. All too often, though, this section seems to be a list of vague words like &amp;ldquo;friendly to accompany,&amp;rdquo; &amp;ldquo;flexible,&amp;rdquo; and so on.</description>
+    </item>
+    <item>
+      <title>No &#34;I am in architecture&#34; exists</title>
+      <link>http://localhost:1313/posts/there-is-no-i-am-in-architecture/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-is-no-i-am-in-architecture/</guid>
+      <description>Of course, there is an &amp;ldquo;I&amp;rdquo; in architecture. However, this is not the primary &amp;ldquo;I&amp;rdquo; that draws attention and controls conversations. It only takes a series of letters. For us software architects, what does that mean? Sometimes, our greatest threat comes from our own ego. Who hasn&amp;rsquo;t seen architects who: • believe they know the specifications better than the clients; • see developers as resources employed to carry out their concepts; or • dismiss any skepticism regarding their own or other architects&amp;rsquo; ideas? Any seasoned architect has probably made at least one of these errors at some point.I&amp;rsquo;ve given in to all of them and have gained harsh insight from my mistakes.&#xA;Why is this taking place? • Our success has already been attained.</description>
+    </item>
+    <item>
+      <title>Study the technical terms</title>
+      <link>http://localhost:1313/posts/study-the-technical-terms/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/study-the-technical-terms/</guid>
+      <description>There is jargon in every profession, which makes communication between its representatives more successful. Software architects converse about ROA, two-stage presentation, and supertypes of levels; lawyers converse about Habeas Corpus, Voir Dire, and Venire; carpenters converse about connections, infiltration, and impregnation. A moment, please excuse me.&#xA;Having efficient channels of communication amongst software architects is crucial, irrespective of the platform they operate on. Architectural and design templates are among these tools. Understanding fundamental architectural patterns and design templates, being able to recognize them in code, knowing when to apply them, and being able to use them in discussions with other architects and developers are all necessary for working as an architect.&#xA;Enterprise-level templates, application-level templates, integration templates, and design templates are the four primary categories into which architectural and design templates fall.</description>
+    </item>
+    <item>
+      <title>Perspective as seen from 300 meters</title>
+      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
+      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
     </item>
     <item>
       <title>Communication is the king, clarity and leadership are his true companions</title>
       <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</guid>
-      <description>All too frequently, software architects reside in ivory towers, dictating technologies and instructions to developers while leaving them with little to no guidance. Simultaneously, this causes conflict, which is soon followed by a &amp;ldquo;popular uprising.&amp;rdquo; The end product is a piece of software that bears no relation to the original specifications. It is imperative for any software architect to be able to articulate to his peers the aims and purposes of the software project. Effective communication relies on leadership and clarity.&#xA;A communication procedure that is clear and concise. A one hundred-page document explaining your architectural choices will not be read by anyone in your group. Effective communication of ideas is essential for any program or effort to succeed. When starting work on the project, stick to brief explanations and don&amp;rsquo;t start writing lengthy word descriptions.</description>
-    </item>
-    <item>
-      <title>Find the true meaning of the needs</title>
-      <link>http://localhost:1313/posts/find-the-true-meaning-of-the-needs/</link>
-      <pubDate>Tue, 18 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/find-the-true-meaning-of-the-needs/</guid>
-      <description>Clients and end users frequently insist on what they perceive to be a workable solution to an issue. Leading F-16 Falcon designer Harry Hillaker provides a prime illustration of this. His team&amp;rsquo;s mission was to construct an airplane that could reach M2-2.5 speeds. This was (and probably still is) a tremendously difficult undertaking, especially if the secondary goal was to build a light aircraft that was &amp;ldquo;cheap.&amp;rdquo;&#xA;The Air Force clients told the design team that they required the M2–2.5 speed so that the aircraft could escape combat if necessary. The primary issue was resolved, and a feasible solution was presented by the designers when the true necessity became evident. This was in the form of a mobile aircraft with strong traction that offered good acceleration and maneuverability rather than a high top speed.</description>
-    </item>
-    <item>
-      <title>One line of working code costs 500 lines of specification</title>
-      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specification/</guid>
-      <description>It is lovely to promethize. In this regard, specifications are crucial since they establish the framework for system construction. It is crucial to consider the architecture as a whole, taking into account the behavior of individual components as well as the interactions between them on a micro and macro scale.&#xA;Regrettably, architects are frequently enthralled with the design process and are drawn to architectural abstractions. But the specs are worthless in and of themselves. A truly functional system is the software project&amp;rsquo;s ultimate goal. This objective should constantly remain in the architect&amp;rsquo;s mind, and they should never forget that design is merely a tool, not the final product. The skyscraper&amp;rsquo;s architect would soon come to regret disobeying the rules of physics in favor of the building&amp;rsquo;s elegance.</description>
-    </item>
-    <item>
-      <title>Try not to break the schedule</title>
-      <link>http://localhost:1313/posts/try-not-to-break-the-schedule/</link>
-      <pubDate>Fri, 31 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/try-not-to-break-the-schedule/</guid>
-      <description>Numerous factors can cause a software project to fail. Changing the work schedule mid-project without enough planning is one of the most frequent causes of project failure. These kinds of failures are preventable, but it will take a lot of work from many individuals. Adding resources or modifying the timeline to a project typically doesn&amp;rsquo;t cause any issues. When you have to work more in the same amount of time or reduce the timetable without lowering the workload, problems arise.&#xA;A very prevalent fallacy is that you can cut expenses or expedite product delivery by shortening the timeline. Usually, extra hours are worked or &amp;ldquo;less important tasks&amp;rdquo; (such modular testing) are given up for quicker product delivery or for better functionality without affecting delivery time.</description>
-    </item>
-    <item>
-      <title>There are no solutions for all cases of life</title>
-      <link>http://localhost:1313/posts/there-are-no-solutions-for-all-cases-of-life/</link>
-      <pubDate>Tue, 28 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-are-no-solutions-for-all-cases-of-life/</guid>
-      <description>Since there isn&amp;rsquo;t a single, all-encompassing solution for a broad variety of various challenges, the architect must constantly hone and enhance his &amp;ldquo;context noe poche.&amp;rdquo; In &amp;ldquo;Systems Architecting: Creating &amp;amp; Building Complex Systems&amp;rdquo; (Prentice Hall, 1991), Eberhardt Rechtin writes:&#xA;Most likely, he would say, &amp;ldquo;I&amp;rsquo;m just using common sense.&amp;rdquo; &amp;lt;&amp;hellip;&amp;gt; It might be preferable to use the phrase &amp;ldquo;context sensation&amp;quot;1—knowledge of what is relevant in a certain context—instead of the word &amp;ldquo;sensual.&amp;rdquo; Through education, experience, and case studies, the architect-practitioner can develop a strong contextual awareness by the time they are asked to tackle a system-level issue, which typically takes decades.&#xA;I believe that one of the main issues facing the software business is that projects are frequently assigned to individuals who lack sufficient contextual awareness.</description>
-    </item>
-    <item>
-      <title>Problems can be more than their reflection in the mirror</title>
-      <link>http://localhost:1313/posts/problems-can-be-more-than-their-reflection-in-the-mirror/</link>
       <pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/problems-can-be-more-than-their-reflection-in-the-mirror/</guid>
-      <description>I have several programming projects that I have been working on.They all ran into issues that proved to be more problematic than the development team had anticipated.This frequently happened in the following ways: while some team members identified these issues early on, the majority of employees rejected or disregarded any indications because they didn&amp;rsquo;t recognize their significance until it was too late.&#xA;There are several reasons why this occurs:&#xA;Issues that appear unimportant early in the project grow important when it is too late to address them.Although the tale of the welded frog is undoubtedly exaggerated, it well captures what goes wrong in many undertakings.&#xA;Some workers frequently run into opposition when other team members lack comparable expertise or experience.Even highly compensated seasoned consultants recruited expressly to avoid such issues rarely possess the guts, confidence, and perseverance needed to overcome this opposition.</description>
+      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</guid>
+      <description>Too often, software architects live in ivory towers, prescribing to developers the technologies and procedures to follow while providing them with little or no assistance. This simultaneously leads to conflict and, shortly after, a &amp;ldquo;popular uprising.&amp;rdquo; The final result is a piece of software that is completely unrelated to the initial requirements. Any software architect must be able to clearly communicate the goals and objectives of the software project to his peers. Leadership and clarity are prerequisites for effective communication.&#xA;a method of communication that is precise and short. Nobody in your group will read a hundred-page booklet outlining your architectural decisions. Every program or endeavor must have effective concept communication in order to be successful. When you first start working on the project, don&amp;rsquo;t start writing long-word descriptions; instead, stick to succinct explanations.</description>
     </item>
     <item>
-      <title>There may be several solutions</title>
-      <link>http://localhost:1313/posts/there-may-be-several-solutions/</link>
+      <title>Success is hampered by scale</title>
+      <link>http://localhost:1313/posts/success-is-hampered-by-scale/</link>
       <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-may-be-several-solutions/</guid>
-      <description>A single data model, communication format, transport mechanism, and typically a single fundamental architectural element, policy, principle, etc., cannot adequately address every facet of a corporate organization. It appears that the system developers are perpetually surprised and saddened by this fact. It makes sense, though, that the organization—which is denoted here by the thick red line—must be too big and diverse to manage a single table, given that it is large enough to worry about the impact of multiple tables of accounts on the system over the course of the next ten years.&#xA;It&amp;rsquo;s also quite practical for us. Nonetheless, the contentious, complex, unofficial, and unsettling actual world of business is involved.Even worse, you have to deal with people&amp;rsquo;s perceptions of particular situations in specific regions of the world rather than the actual world.</description>
+      <guid>http://localhost:1313/posts/success-is-hampered-by-scale/</guid>
+      <description>The scope of the project is defined by its boundaries.How much time, energy, and money are needed to put it into practice? What degree of quality and usefulness are necessary? To what extent is meeting the deadline for product delivery a challenge? What kind of danger exists? What are the boundaries? The project&amp;rsquo;s boundaries are established by the responses to these queries. Large-scale, intricate projects present a challenge that software architects relish. People are even tempted to inflate the project&amp;rsquo;s size in order to give the impression that it is more important due to the prospective rewards.However, because the chance of failure is increasing more quickly than anticipated, expanding borders is the enemy of success. An order of magnitude increase in project scale typically translates into an increased risk of failure.</description>
     </item>
     <item>
-      <title>Perhaps your main problem is not technology</title>
-      <link>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perhaps-your-main-problem-is-not-technology/</guid>
-      <description>Somewhere right now, a different wage calculation project is failing miserably&amp;hellip; and most likely not by yourself.&#xA;What caused that to occur? because the developers opted for Ruby over Smalltalk or Java or Python? since you choose to utilize Postgres over Oracle? or because you preferred the Windows platform even if you should have chosen Linux? As you are aware, technology is frequently held responsible for project failures.&#xA;People normally establish projects, and it is up to these individuals to decide whether the project as a whole succeeds or fails. And once that is the case, we ought to consider our options for assisting them in being successful.&#xA;Per, you believe that there is a team member that is underperforming and impeding the project&amp;rsquo;s progress.</description>
+      <title>Time changes everything</title>
+      <link>http://localhost:1313/posts/time-changes-everything/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/time-changes-everything/</guid>
+      <description>Seeing what has survived and what hasn&amp;rsquo;t has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?&#xA;Pick a noble assignment For a software architect, this is highly challenging. We receive assignments and issues from the client, so we really don&amp;rsquo;t have a choice, do we? It&amp;rsquo;s not really that easy. First of all, we frequently make the error of thinking that we have little power over what the customer desires. But it&amp;rsquo;s typically possible to just step outside of your comfort zone when it comes to technology.</description>
     </item>
     <item>
-      <title>Simplicity is better than versatility</title>
-      <link>http://localhost:1313/posts/simplicity-is-better-than-versatility/</link>
+      <title>Using a database as a fort</title>
+      <link>http://localhost:1313/posts/using-a-database-as-a-fort/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/using-a-database-as-a-fort/</guid>
+      <description>The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don&amp;rsquo;t affect the data. It is imperative that a reliable data model be created as early in the project as possible.&#xA;Prewriting complex, comprehensive technical requirements is a thing of the past! The new school demands that products be delivered frequently and early.Writing one line of vulnerable code is better than writing 10 in your head. When it comes to the facts, at least, it looks too good to be true.&#xA;Data structures and their relationships usually do not change quickly, although user interfaces and business logic do. Because of this, it&amp;rsquo;s imperative to define the data model precisely from the start, both analytically and structurally.</description>
+    </item>
+    <item>
+      <title>Issues can extend beyond what they see in the mirror</title>
+      <link>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</link>
       <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/simplicity-is-better-than-versatility/</guid>
-      <description>The fact that many frameworks, class libraries, basic services, and other infrastructure code are made to be used universally and aren&amp;rsquo;t tied to any particular application is a common issue with them. The majority of developers specialize in particular systems; therefore, trying to be as versatile as possible is rarely beneficial to them. The greatest approach to reaching universality is not by universality based on supposition but rather by a thorough comprehension of known concrete cases and a study of their essence to uncover a fundamental common solution. Simplicity is the outcome of practical experience.&#xA;Simplifying an architectural design over adding more features makes it easier to choose between two options that are equivalent in every other way. Choose a more straightforward and needs-based solution over a more complex and adaptable one when there are two options.</description>
+      <guid>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</guid>
+      <description>I&amp;rsquo;ve been working on a few different programming projects. All of them encountered problems that turned out to be more difficult than the development team had predicted. This typically manifested itself in the following ways: although a minority of team members saw these problems at an early stage, most workers rejected or ignored any warning signs since they were too late to realize how serious they were.&#xA;This happens for a number of reasons:&#xA;-Project-related issues that don&amp;rsquo;t seem vital at first become crucial when it&amp;rsquo;s too late to fix them. The story of the welded frog is obviously a farce, but it well illustrates the mistakes that can be made in a lot of projects.&#xA;-When other team members don&amp;rsquo;t have the same level of skill or experience, some employees frequently encounter resistance.</description>
     </item>
     <item>
-      <title>Business runs everything</title>
-      <link>http://localhost:1313/posts/business-runs-everything/</link>
-      <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/business-runs-everything/</guid>
-      <description>When it comes to the creation of corporate software applications, the architect should serve as a sort of intermediary within the organization between the technical and business communities, representing and defending the interests of each while frequently mediating disputes and letting the business run its operations. The commercial goals of the organization and its external environment must inform the architect&amp;rsquo;s technological decisions.&#xA;A software development company typically plans and advertises the intended return on investment (ROI) prior to starting a software development project. This signal must be accepted by the architect, along with the ensuing restrictions on the product&amp;rsquo;s value for the business.This will assist in avoiding technological solutions that can result in exorbitant costs. When discussing the technical architecture and implementation with the development team, as well as when interacting with management (in the process of figuring out how to strike a balance between the cost and benefit of a given function), the return rate ought to play a significant role in the overall target context.</description>
+      <title>Stand up</title>
+      <link>http://localhost:1313/posts/stand-up/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/stand-up/</guid>
+      <description>Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success.&#xA;It is difficult to assess the architect&amp;rsquo;s impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the course of his career. Professional architects are aware that they need to &amp;ldquo;promote&amp;rdquo; their ideas, and effective communication is essential to this.</description>
     </item>
     <item>
-      <title>Database as Fortress</title>
-      <link>http://localhost:1313/posts/database-as-fortress/</link>
-      <pubDate>Fri, 17 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/database-as-fortress/</guid>
-      <description>All information, both entered by staff members and received from clients, is kept in the database datax. Data remains constant despite changes in user interfaces, business logic, applied logic, and even personnel.The significance of developing a trustworthy data model early on in the project cannot be overstated.&#xA;The days of prewriting intricate, detailed technical specifications are long gone! Early and frequent product delivery is required by the new school.It is preferable to write one line of vulnerable code than ten lines in your mind.It seems too good to be true, at least when it comes to the facts.&#xA;Although user interfaces and business logic change quickly, data structures and their connections typically do not. As a result, it&amp;rsquo;s critical to establish a precise definition of the data model early on, both structurally and analytically.</description>
+      <title>There are no answers for every situation in life</title>
+      <link>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</guid>
+      <description>For a wide range of different problems, there isn&amp;rsquo;t a single, comprehensive solution, so the architect must continuously refine and improve his &amp;ldquo;context noe poche.&amp;rdquo; Eberhardt Rechtin writes in &amp;ldquo;Systems Architecting: Creating and Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;&amp;lt;&amp;hellip;&amp;gt; Rather than using the word &amp;ldquo;sensual,&amp;rdquo; it might be better to speak to it as &amp;ldquo;context sensation&amp;rdquo;—knowledge of what is pertinent in a certain context. By the time an architect-practitioner is called to address a system-level issue, which usually takes decades, they can have a strong contextual awareness thanks to education, experience, and case studies.&#xA;One of the biggest problems I see with the software industry, in my opinion, is that projects are often given to people who don&amp;rsquo;t have enough contextual knowledge.This could be due to the fact that the industry is only two generations old and is currently experiencing a time of rapid expansion; alternatively, it could be that the industry has reached a mature stage if this problem has been resolved.</description>
     </item>
     <item>
-      <title>Ensure continuous integration</title>
-      <link>http://localhost:1313/posts/ensure-continuous-integration/</link>
-      <pubDate>Sat, 11 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/ensure-continuous-integration/</guid>
-      <description>The collection no longer serves as the project&amp;rsquo;s &amp;ldquo;Big Bang&amp;rdquo; in terms of design. In every project, architects should promote the use of continuous integration techniques and technologies, both at the corporate and application levels.&#xA;Martin Fowler originally suggested the term continuous integration (CI) as a design template. It refers to a collection of techniques and equipment that guarantees consistent, automated application testing and assembly across brief intervals of time (sometimes on an integration server specifically created to carry out these tasks). Continuous integration, which combines automated assembly tools with modular testing techniques and tools, is now required for all modern software projects.&#xA;The project&amp;rsquo;s components are now assembled and put to the test. These days, continuous integration has taken the position of &amp;ldquo;early and frequent assembly.</description>
+      <title>Architectural compromises</title>
+      <link>http://localhost:1313/posts/architectural-compromises/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/architectural-compromises/</guid>
+      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
+    </item>
+    <item>
+      <title>Never put the demands of the client ahead of your resume</title>
+      <link>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</guid>
+      <description>As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off.&#xA;Your grateful clients who are lining up to recommend you to others will be the most effective career catalyst because of how well you have served them. The gracious customers will provide you with greater service than any recently developed paradigm or in-vogue item in the new language. Architects need to stay up to date on evolving concepts and technologies, but you should never try to take on additional work at the client&amp;rsquo;s expense. It is imperative for architects to always remember that their organization&amp;rsquo;s success is their responsibility.</description>
+    </item>
+    <item>
+      <title>Take quick action to get away from this crime</title>
+      <link>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</guid>
+      <description>It&amp;rsquo;s almost evening. The command is nice about the new features planned for the present iteration; even the room seems to be pulsing at a working rate. However, John is a little hurried because he&amp;rsquo;s waiting for a date. There&amp;rsquo;s still time for him to dash off, rework his part of the code, build it, and upload it to the source code repository. The &amp;ldquo;red light&amp;rdquo; illuminates, and the app&amp;rsquo;s construction is interrupted after a few minutes. John acted precipitously, believing that his lack of time for automated tests would force the team to stall.&#xA;The situation has changed; the working rhythm has failed. Now everyone knows that when they update the code from the version control system, it will break on their own computers.</description>
+    </item>
+    <item>
+      <title>Give developers their own space</title>
+      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
+      <pubDate>Sat, 27 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
+      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
+    </item>
+    <item>
+      <title>Towers are not scalable</title>
+      <link>http://localhost:1313/posts/towers-are-not-scalable/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/towers-are-not-scalable/</guid>
+      <description>It&amp;rsquo;s common to compare software development to constructing highways, dams, and skyscrapers. This analogy makes sense in a few key areas.&#xA;The intricacy of the construction process is more challenging than designing a structure that will remain in its final location when it is built.This technique will result in a ready-made building at the end from an empty site at the start. Every employee should be able to use their professional abilities throughout this time, and the partially constructed structure should hold together. This comparison has practical implications for large-scale integrated system implementation. (And almost all web and business apps fall under the &amp;ldquo;integrated&amp;rdquo; category!) The classic &amp;ldquo;Big Bang&amp;rdquo; deployment involves bringing a large number of beams into the desert, launching them into the air, and then waiting for the beams to self-assemble into a building.</description>
+    </item>
+    <item>
+      <title>500 lines of specification are needed for every line of functioning code</title>
+      <link>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</guid>
+      <description>Promising is a beautiful thing. Specifications are important in this sense because they set the foundation for building systems. Taking into account the behavior of individual components as well as the interconnections between them on a micro and macro scale is essential when analyzing the architecture as a whole.&#xA;Unfortunately, architects are often fascinated with design and gravitate toward architectural abstractions. However, the specs are meaningless on their own. The ultimate goal of the software project is to create a fully functional system. The architect should never lose sight of this goal or the fact that design is only a tool and not the finished product. The architect of the skyscraper would soon come to regret defying physics to achieve the elegant design of the edifice.</description>
+    </item>
+    <item>
+      <title>Versatility is inferior to simplicity</title>
+      <link>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</guid>
+      <description>A typical problem with them is that a lot of frameworks, class libraries, fundamental services, and other infrastructure code are designed to be utilized anywhere and aren&amp;rsquo;t specific to any one application. Since most developers are experts in specific systems, it rarely helps them to try to be as adaptable as possible. The best way to achieve universality isn&amp;rsquo;t through universality based on conjecture, but rather through a careful understanding of well-known concrete examples and an analysis of their essence to find a fundamentally shared solution. Experience in the real world leads to simplicity.&#xA;Making an architectural design simpler rather than more feature-rich makes it simpler to decide between two solutions that are identical to each other. When there are two possibilities, go with the simpler, needs-based solution rather than the more flexible, complex one.</description>
     </item>
   </channel>
 </rss>
