@@ -2,8 +2,8 @@
 title = 'There are no answers for every situation in life'
 date = 2024-05-07T00:00:00-07:00
 draft = false
-categories = ["rechtin", "building", "systems", "prentice hall"]
-tags = ["eberhardt rechtin", "systems architecting", "systems", "prentice hall", "education", "problem", "sense", "solution", "architect"]
+categories = ["rechtin", "building", "systems", "prentice hall", "hall"]
+tags = ["eberhardt rechtin", "systems architecting", "systems", "prentice hall", "education", "problem", "sense", "solution", "architect", "industry", "issue", "context", "solutions"]
 cover_image='/images/cover/knoxwelle__2017-02-14T221401.000Z.jpg'
 +++
 For a wide range of different problems, there isn't a single, comprehensive solution, so the architect must continuously refine and improve his "context noe poche." Eberhardt Rechtin writes in "Systems Architecting: Creating and Building Complex Systems" (Prentice Hall, 1991):

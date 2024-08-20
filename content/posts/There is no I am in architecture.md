@@ -2,8 +2,8 @@
 title = 'No "I am in architecture" exists'
 date = 2024-06-01T00:00:00-07:00
 draft = false
-categories = []
-tags = []
+categories = ["our"]
+tags = ["greater", "resolving", "team", "architecture", "success", "architects", "work", "design"]
 cover_image='/images/cover/knoxwelle__2019-10-12T040611.000Z.jpg'
 +++
 Of course, there is an "I" in architecture. However, this is not the primary "I" that draws attention and controls conversations.

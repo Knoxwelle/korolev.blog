@@ -3,7 +3,7 @@ title = 'Using a database as a fort'
 date = 2024-05-21T00:00:00-07:00
 draft = false
 categories = ["fortress"]
-tags = ["fortress", "data", "model", "database", "application", "errors"]
+tags = ["fortress", "data", "model", "database", "application", "errors", "logic"]
 cover_image='/images/cover/knoxwelle__2018-01-22T072634.000Z.jpg'
 +++
 The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don't affect the data. It is imperative that a reliable data model be created as early in the project as possible.

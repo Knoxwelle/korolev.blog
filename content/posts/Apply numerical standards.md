@@ -3,7 +3,7 @@ title = 'Apply numerical standards'
 date = 2024-06-02T00:00:00-07:00
 draft = false
 categories = []
-tags = ["ms.", "system", "criteria", "time", "users", "compliance"]
+tags = ["ms.", "system", "criteria", "time", "users", "compliance", "work", "performance"]
 cover_image='/images/cover/knoxwelle__2018-10-12T084816.000Z.jpg'
 +++
 "Fast" cannot be a requirement. Not only does it have a quick reaction time, but it's also "expandable." The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect's duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer's obsession with inane concepts (“No, the program is not ready; it isn't working fast enough”) and his or her own whims (“No, I can't accept the program; it doesn't work fast enough”).

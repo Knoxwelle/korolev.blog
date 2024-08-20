@@ -3,7 +3,7 @@ title = 'Creating in the Dark'
 date = 2024-07-21T00:00:00-07:00
 draft = false
 categories = []
-tags = []
+tags = ["architecture", "respond", "http", "prevention systems", "ids", "network maps", "network", "zone", "sonet", "b.", "mouse run", "html", "arrow", "xml", "request", "components"]
 cover_image='/images/cover/knoxwelle__2017-06-18T215508.000Z.jpg'
 +++
 The software components of the system are interrelated. Architecture refers to the hierarchical structure of various program components as well as their cohesive connections.Individual program components and servers are frequently simplified into rectangles connected by arrow keys on diagrams showing such systems.

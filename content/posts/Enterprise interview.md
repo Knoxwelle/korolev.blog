@@ -2,8 +2,8 @@
 title = 'Enterprise interview'
 date = 2024-08-05T00:00:00-07:00
 draft = false
-categories = ["recruiting", "skytrain", "utc", "python"]
-tags = ["recruiter", "google", "skytrain", "friday", "utc", "monday", "calendar", "code", "screening", "time", "hour"]
+categories = ["recruiting", "skytrain", "utc", "python", "google", "github", "sure", "canadian", "pr", "usecase", "dfd", "bpmn", "carleone", "nac", "lack"]
+tags = ["recruiter", "google", "skytrain", "friday", "utc", "monday", "calendar", "code", "screening", "time", "hour", "sparkling", "python", "github", "ram", "b.", "architecture", "system", "bpmn", "kafka", "it", "facebook", "don carleone", "middle", "undoubtedly", "june", "july", "linux", "udemy", "advice", "stay", "quater", "interview", "interviews"]
 cover_image='/images/cover/knoxwelle__2018-09-12T085550.000Z.jpg'
 +++
 I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.

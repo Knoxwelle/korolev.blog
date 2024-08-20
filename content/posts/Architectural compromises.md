@@ -2,8 +2,8 @@
 title = 'Architectural compromises'
 date = 2024-05-06T00:00:00-07:00
 draft = false
-categories = ["vaza", "sweden", "poland", "italian", "atam", "method", "cbam", "cost", "institute"]
-tags = ["vaza", "sweden", "poland", "king", "time", "soa", "atam", "architecture tradeoff", "benefit analysis metod", "sei", "software engineering institute", "architecture", "software", "ship", "ships"]
+categories = ["vaza", "sweden", "poland", "italian", "atam", "method", "cbam", "cost", "institute", "swedish", "italy"]
+tags = ["vaza", "sweden", "poland", "king", "time", "soa", "atam", "architecture tradeoff", "benefit analysis metod", "sei", "software engineering institute", "architecture", "software", "ship", "ships", "swedish king", "italy", "benefit analysis method", "cbam"]
 cover_image='/images/cover/knoxwelle__2019-11-02T042224.000Z.jpg'
 +++
 An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza's history.

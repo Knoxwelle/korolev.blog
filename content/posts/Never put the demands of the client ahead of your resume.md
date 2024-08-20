@@ -3,7 +3,7 @@ title = 'Never put the demands of the client ahead of your resume'
 date = 2024-05-06T00:00:00-07:00
 draft = false
 categories = []
-tags = ["project", "solution", "time", "work", "technology", "always"]
+tags = ["project", "solution", "time", "work", "technology", "always", "client", "ones", "needs"]
 cover_image='/images/cover/knoxwelle__2021-03-07T053437.000Z.jpg'
 +++
 As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off. 

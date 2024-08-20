@@ -3,7 +3,7 @@ title = 'A practitioner must be the architect'
 date = 2024-08-07T00:00:00-07:00
 draft = false
 categories = []
-tags = ["team", "wireshark", "architect", "project", "problem", "way"]
+tags = ["team", "wireshark", "architect", "project", "problem", "way", "management", "architects"]
 cover_image='/images/cover/knoxwelle__2017-04-24T073708.000Z.jpg'
 +++
 A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it's common for team members to possess greater expertise in their specialized fields, they won't be able to put their trust in their architect if he doesn't understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects. For similar reasons, the architect needs to be well-versed in the business facets of the company in order to appropriately direct the developers toward the goal of fulfilling the company's commercial objectives.

@@ -3,7 +3,7 @@ title = 'Towers are not scalable'
 date = 2024-04-26T00:00:00-07:00
 draft = false
 categories = []
-tags = []
+tags = ["big bang", "component", "deployment", "time", "components", "method"]
 cover_image='/images/cover/knoxwelle__2017-05-25T215346.000Z.jpg'
 +++
 It's common to compare software development to constructing highways, dams, and skyscrapers. This analogy makes sense in a few key areas.

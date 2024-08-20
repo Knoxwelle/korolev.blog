@@ -3,7 +3,7 @@ title = 'Being a responsible leader matters more than looks'
 date = 2024-06-08T00:00:00-07:00
 draft = false
 categories = []
-tags = []
+tags = ["architect", "money", "project", "investment"]
 cover_image='/images/cover/knoxwelle__2018-10-15T182636.000Z.jpg'
 +++
 Upon being drawn to the project, the architect's urge to "show himself" is evident.The hiring of a software architect typically signifies the organization's trust in the expert's technical proficiency; thus, the architect aspires to promptly demonstrate his merit for the trust. Unfortunately, there are those among us who mistakenly think that in order to "imagine yourself in all its glory," one must shock, if not completely obscure, the group with their technical brilliance.

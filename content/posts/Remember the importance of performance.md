@@ -3,7 +3,7 @@ title = 'Remember the importance of performance'
 date = 2024-08-11T00:00:00-07:00
 draft = false
 categories = []
-tags = []
+tags = ["moore", "productivity", "performance", "system", "speed", "time", "user"]
 cover_image='/images/cover/knoxwelle__2017-08-06T105106.000Z.jpg'
 +++
 Your car is 98% recyclable, roomy, comfy, economical, and affordable. Would you like one? Naturally. anybody desires.  Yes, the fact that it can only go a maximum of 10 km/h is the only issue. Did you not make up your mind? This brief illustration makes it quite evident that production is just as significant as any other factor.

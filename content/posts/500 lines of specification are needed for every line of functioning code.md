@@ -3,7 +3,7 @@ title = '500 lines of specification are needed for every line of functioning cod
 date = 2024-04-25T00:00:00-07:00
 draft = false
 categories = []
-tags = ["proecting", "design", "project", "time", "code", "goal"]
+tags = ["proecting", "design", "project", "time", "code", "goal", "promising", "architect"]
 cover_image='/images/cover/knoxwelle__2022-12-23T082709.000Z.jpg'
 +++
 Promising is a beautiful thing. Specifications are important in this sense because they set the foundation for building systems. Taking into account the behavior of individual components as well as the interconnections between them on a micro and macro scale is essential when analyzing the architecture as a whole.

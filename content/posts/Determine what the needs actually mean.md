@@ -2,8 +2,8 @@
 title = 'Determine what the needs actually mean'
 date = 2024-07-08T00:00:00-07:00
 draft = false
-categories = []
-tags = ["harry hillaker", "falcon", "air force", "bear", "aircraft", "speed", "problem", "solution", "area"]
+categories = ["hillaker"]
+tags = ["harry hillaker", "falcon", "air force", "bear", "aircraft", "speed", "problem", "solution", "area", "cooperation", "technical", "meetings", "attention"]
 cover_image='/images/cover/knoxwelle__2017-05-25T125606.000Z.jpg'
 +++
 Customers and end users often insist on what they see to be a practical resolution to a problem. Harry Hillaker, a leading F-16 Falcon designer, offers a perfect example of this. The goal set for his team was to build an aircraft capable of traveling at M2-2.5 speeds. This was (and presumably still is) a very challenging project, particularly if the secondary objective was to construct a light aircraft that was "cheap." 

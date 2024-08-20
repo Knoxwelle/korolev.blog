@@ -3,7 +3,7 @@ title = 'The ethical concerns of software architecture'
 date = 2024-08-14T00:00:00-07:00
 draft = false
 categories = []
-tags = []
+tags = ["whenever", "users", "data", "fields", "hour", "need"]
 cover_image='/images/cover/knoxwelle__2019-12-16T002054.000Z.jpg'
 +++
 When it comes to civil rights, identity theft, or malware, the ethical nature of software is made clear. But in calves, it also appears in less unusual situations.The lives of thousands, if not millions, of people are impacted by successful initiatives. They may have both beneficial and detrimental effects. 

@@ -3,7 +3,7 @@ title = 'Take quick action to get away from this crime'
 date = 2024-05-05T00:00:00-07:00
 draft = false
 categories = []
-tags = ["time", "john", "work", "tests", "code", "system"]
+tags = ["time", "john", "work", "tests", "code", "system", "development", "developers"]
 cover_image='/images/cover/knoxwelle__2017-06-13T103113.000Z.jpg'
 +++
 It's almost evening. The command is nice about the new features planned for the present iteration; even the room seems to be pulsing at a working rate. However, John is a little hurried because he's waiting for a date. There's still time for him to dash off, rework his part of the code, build it, and upload it to the source code repository. The "red light" illuminates, and the app's construction is interrupted after a few minutes. John acted precipitously, believing that his lack of time for automated tests would force the team to stall.

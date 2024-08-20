@@ -2,8 +2,8 @@
 title = 'Time changes everything'
 date = 2024-05-21T00:00:00-07:00
 draft = false
-categories = []
-tags = []
+categories = ["dude"]
+tags = ["wise", "first", "easy", "dude", "time", "assignment", "look", "solutions", "lot"]
 cover_image='/images/cover/knoxwelle__2017-05-20T084708.000Z.jpg'
 +++
 Seeing what has survived and what hasn't has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?

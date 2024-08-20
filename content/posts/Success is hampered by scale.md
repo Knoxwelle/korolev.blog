@@ -3,7 +3,7 @@ title = 'Success is hampered by scale'
 date = 2024-05-25T00:00:00-07:00
 draft = false
 categories = []
-tags = []
+tags = ["project", "projects", "requirements", "needs"]
 cover_image='/images/cover/knoxwelle__2017-06-13T102807.000Z.jpg'
 +++
 The scope of the project is defined by its boundaries.How much time, energy, and money are needed to put it into practice? What degree of quality and usefulness are necessary? To what extent is meeting the deadline for product delivery a challenge? What kind of danger exists? What are the boundaries? The project's boundaries are established by the responses to these queries. Large-scale, intricate projects present a challenge that software architects relish. People are even tempted to inflate the project's size in order to give the impression that it is more important due to the prospective rewards.However, because the chance of failure is increasing more quickly than anticipated, expanding borders is the enemy of success. An order of magnitude increase in project scale typically translates into an increased risk of failure.

@@ -3,7 +3,7 @@ title = 'Assure ongoing integration'
 date = 2024-07-17T00:00:00-07:00
 draft = false
 categories = []
-tags = ["big bang", "martin fowler", "nowadays", "integration", "process", "development", "assembly", "project"]
+tags = ["big bang", "martin fowler", "nowadays", "integration", "process", "development", "assembly", "project", "methods"]
 cover_image='/images/cover/knoxwelle__2017-05-18T195656.000Z.jpg'
 +++
 In terms of design, the collection is no longer the "Big Bang" for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.

@@ -2,8 +2,8 @@
 title = 'Investigate the topic'
 date = 2024-07-11T00:00:00-07:00
 draft = false
-categories = []
-tags = []
+categories = ["i"]
+tags = ["monday", "friday", "architecture", "business", "architect", "insurance", "objectives"]
 cover_image='/images/cover/knoxwelle__2017-02-14T215327.000Z.jpg'
 +++
 A proficient software architect possesses expertise not only in technology but also in the domain of the problem that needs to be resolved. In the absence of this information, it is challenging to comprehend the business side of the assignment, goal, and specifications of the organization; consequently, it is challenging to create an efficient architecture that satisfies the demands of the business.

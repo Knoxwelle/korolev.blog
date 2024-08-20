@@ -3,7 +3,7 @@ title = 'Failures are unavoidable'
 date = 2024-07-10T00:00:00-07:00
 draft = false
 categories = ["island2"]
-tags = ["new", "networks", "failures", "software", "system", "network", "failure"]
+tags = ["new", "networks", "failures", "software", "system", "network", "failure", "trimayle island", "mistakes"]
 cover_image='/images/cover/knoxwelle__2019-07-06T172534.000Z.jpg'
 +++
 It increases the likelihood that the system will experience a malfunction at least once in any given period of time, but it also makes it possible to survive isolated hardware failures.

@@ -3,7 +3,7 @@ title = 'You underestimate how frequently you negotiate'
 date = 2024-07-08T00:00:00-07:00
 draft = false
 categories = []
-tags = ["need", "servers", "system", "sponsor", "server"]
+tags = ["need", "servers", "system", "sponsor", "server", "use"]
 cover_image='/images/cover/knoxwelle__2019-11-09T031935.000Z.jpg'
 +++
 We've all been "buried" for savings through ingenious technological "budget" changes.The conversation goes like this:

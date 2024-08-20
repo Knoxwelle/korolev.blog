@@ -3,7 +3,7 @@ title = 'There could be a number of answers'
 date = 2024-06-30T00:00:00-07:00
 draft = false
 categories = []
-tags = ["philip k. dick", "data", "world", "time", "system", "organization"]
+tags = ["philip k. dick", "data", "world", "time", "system", "organization", "components", "ways"]
 cover_image='/images/cover/knoxwelle__2016-12-17T142421.000Z.jpg'
 +++
 Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.

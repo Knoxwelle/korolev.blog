@@ -2,8 +2,8 @@
 title = 'One step in the design process is programming'
 date = 2024-06-29T00:00:00-07:00
 draft = false
-categories = []
-tags = []
+categories = ["ratifying group", "scientific", "bmw", "simula"]
+tags = ["kristen nygaard", "simula", "rapport", "ratifying group", "ministry", "defense scientific council", "military software", "frederick brooks", "jr.", "bmw", "jack reeves", "scrum", "software", "development", "design", "techniques"]
 cover_image='/images/cover/knoxwelle__2017-05-25T131215.000Z.jpg'
 +++
 Programming is learning, according to Kristen Nygaard, the creator of the object-oriented mapping and programming language Simula. Improving development processes fundamentally requires an understanding that programming, or more accurately, software development, is a process of study and creative search rather than production and design. In software development, concepts from conventional engineering disciplines are inapplicable. Leading scholars in our profession have spent more than 30 years documenting and analyzing the issues that emerge. For instance, in the "Rapport of the Ratifying Group of the Ministry of Defense Scientific Council on Military Software," Frederick Brooks, Jr. contended in 1987 that a lot of software issues stemmed from the document-oriented methodology of "first specification, then development.".

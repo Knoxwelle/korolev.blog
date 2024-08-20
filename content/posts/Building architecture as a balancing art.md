@@ -3,7 +3,7 @@ title = 'Building architecture as a balancing art'
 date = 2024-08-15T00:00:00-07:00
 draft = false
 categories = []
-tags = ["product", "software", "priorities", "organization", "requirements"]
+tags = ["product", "software", "priorities", "organization", "requirements", "process", "account"]
 cover_image='/images/cover/knoxwelle__2016-11-23T130222.000Z.jpg'
 +++
 When designing a software architecture, the conventional technical procedures that spring to mind are disassembling the system into its constituent pieces, specifying interfaces, allocating responsibilities, employing templates, and optimizing performance. A wide range of other variables, including output management, deployment settings, convenience of use, safety, and maintenance, must also be taken into account by the architect.Meanwhile, every one of these technical and procedural specifics must be relevant to the requirements of the stakeholders.Taking these interests into account during the requirements analysis process is one of the greatest ways to ensure that the requirements specifications for the product being developed are thorough.

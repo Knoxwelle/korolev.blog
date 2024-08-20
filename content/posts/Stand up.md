@@ -3,7 +3,7 @@ title = 'Stand up'
 date = 2024-05-19T00:00:00-07:00
 draft = false
 categories = []
-tags = ["architect", "optical", "communication", "standing", "success", "position"]
+tags = ["architect", "optical", "communication", "standing", "success", "position", "people", "architects", "contact"]
 cover_image='/images/cover/knoxwelle__2021-11-22T051245.000Z.jpg'
 +++
 Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success. 

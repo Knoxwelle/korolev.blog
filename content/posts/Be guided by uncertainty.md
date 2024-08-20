@@ -2,8 +2,8 @@
 title = 'Be guided by uncertainty'
 date = 2024-07-01T00:00:00-07:00
 draft = false
-categories = []
-tags = ["use", "grady booch", "architecture", "m-m-m", "design", "decision", "choice", "system"]
+categories = ["e"]
+tags = ["use", "grady booch", "architecture", "m-m-m", "design", "decision", "choice", "system", "architect"]
 cover_image='/images/cover/knoxwelle__2017-12-11T082123.000Z.jpg'
 +++
 When faced with options, people frequently believe that choosing the best course of action is what really counts. This is not true in terms of design, be it software or anything else. When an alternative exists, an analysis of the uncertainty in the system's design is required. To reduce the importance of design decisions, utilize abstraction and breakdown. Alternatively, use uncertainty as a determining factor to identify places where you can postpone going into detail. You could "sew" whatever option comes to mind mindlessly into the system, which could tie your hands later.The software product will become less flexible as a result, and arbitrary judgments will begin to take center stage.

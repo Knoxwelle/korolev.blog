@@ -3,7 +3,7 @@ title = 'Perhaps technology is not your primary issue'
 date = 2024-08-14T00:00:00-07:00
 draft = false
 categories = ["ruby", "java", "python", "smalltalk"]
-tags = ["ruby", "java", "python", "smalltalk", "postgres", "oracle", "windows", "linux", "start", "communication", "people", "opportunity", "problems", "projects", "project", "explain"]
+tags = ["ruby", "java", "python", "smalltalk", "postgres", "oracle", "windows", "linux", "start", "communication", "people", "opportunity", "problems", "projects", "project", "explain", "technology", "opportunities"]
 cover_image='/images/cover/knoxwelle__2016-12-17T142733.000Z.jpg'
 +++
 Another salary calculation project is currently failing horribly somewhere; it's probably not your fault.

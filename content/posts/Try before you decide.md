@@ -2,8 +2,8 @@
 title = 'Try before you decide'
 date = 2024-07-01T00:00:00-07:00
 draft = false
-categories = []
-tags = []
+categories = ["javascript"]
+tags = ["mary", "tom poppendieck", "javascript", "architect", "decision", "team", "solution", "information"]
 cover_image='/images/cover/knoxwelle__2018-02-22T193104.000Z.jpg'
 +++
 Many choices must be taken during the attachment-forming process. 

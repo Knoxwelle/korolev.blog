@@ -3,7 +3,7 @@ title = 'Cut down on the inherent complexity and do away with the incidental com
 date = 2024-06-20T00:00:00-07:00
 draft = false
 categories = []
-tags = ["modern", "flight", "complexity", "complex", "solutions", "infrastructures", "task"]
+tags = ["modern", "flight", "complexity", "complex", "solutions", "infrastructures", "task", "issues"]
 cover_image='/images/cover/knoxwelle__2017-05-03T170300.000Z.jpg'
 +++
 For example, national air traffic coordination is a labor-intensive process. The control system needs to keep track of every aircraft's precise location at all times, including height, speed, direction, and destination, in order to prevent collisions both in the air and on the runways. In addition, under constantly shifting circumstances, it's imperative to quickly adjust aircraft schedules to avoid traffic bottlenecks at airports. A significant shift in the weather calls for a thorough reworking of the schedule. 

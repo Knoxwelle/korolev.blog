@@ -2,8 +2,8 @@
 title = 'Study the technical terms'
 date = 2024-06-01T00:00:00-07:00
 draft = false
-categories = []
-tags = []
+categories = ["roa", "corpus", "voir dire", "venire"]
+tags = ["software", "roa", "habeas corpus", "voir", "venire", "eda", "martin fowler", "architecture", "addison-wesley professional", "band four", "object-oriented software", "andrew koenig", "death march", "committee", "mushroom management", "templates", "patterns", "design", "architects"]
 cover_image='/images/cover/knoxwelle__2019-12-06T093515.000Z.jpg'
 +++
 There is jargon in every profession, which makes communication between its representatives more successful. Software architects converse about ROA, two-stage presentation, and supertypes of levels; lawyers converse about Habeas Corpus, Voir Dire, and Venire; carpenters converse about connections, infiltration, and impregnation. A moment, please excuse me.

@@ -3,7 +3,7 @@ title = 'Issues can extend beyond what they see in the mirror'
 date = 2024-05-20T00:00:00-07:00
 draft = false
 categories = []
-tags = ["team", "risk", "problems", "members", "need"]
+tags = ["team", "risk", "problems", "members", "need", "risks", "issues"]
 cover_image='/images/cover/knoxwelle__2017-11-27T051628.000Z.jpg'
 +++
 I've been working on a few different programming projects. All of them encountered problems that turned out to be more difficult than the development team had predicted. This typically manifested itself in the following ways: although a minority of team members saw these problems at an early stage, most workers rejected or ignored any warning signs since they were too late to realize how serious they were.

@@ -3,7 +3,7 @@ title = 'Versatility is inferior to simplicity'
 date = 2024-04-16T00:00:00-07:00
 draft = false
 categories = []
-tags = ["software", "solution", "solutions", "universality", "generalization", "leads"]
+tags = ["software", "solution", "solutions", "universality", "generalization", "leads", "problem", "value", "turn"]
 cover_image='/images/cover/knoxwelle__2017-08-06T105344.000Z.jpg'
 +++
 A typical problem with them is that a lot of frameworks, class libraries, fundamental services, and other infrastructure code are designed to be utilized anywhere and aren't specific to any one application. Since most developers are experts in specific systems, it rarely helps them to try to be as adaptable as possible. The best way to achieve universality isn't through universality based on conjecture, but rather through a careful understanding of well-known concrete examples and an analysis of their essence to find a fundamentally shared solution. Experience in the real world leads to simplicity.

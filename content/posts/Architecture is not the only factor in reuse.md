@@ -3,7 +3,7 @@ title = 'Architecture is not the only factor in reuse'
 date = 2024-07-27T00:00:00-07:00
 draft = false
 categories = []
-tags = []
+tags = ["donald knuth", "young arrowers", "information", "team", "people", "designers", "developers"]
 cover_image='/images/cover/knoxwelle__2019-11-24T184105.000Z.jpg'
 +++
 It appears that a well-planned and cleverly executed architecture, or well-thought-out infrastructure, is perfect for repurposing within your company. But in practice, only those who are aware of an architecture, infrastructure, or system's existence will be able to utilize it again, no matter how exquisite and lovely it may be. Your organization's developers and designers should be aware of the existence of any libraries, architectures, infrastructures, or code fragments, as well as where to locate all the information required to understand these components (documentation, compatibility, and version data). The obvious and straightforward reality is that people do not take into account options that they are unaware even exist. Certain pieces can only be reused provided information about them is regularly shared.

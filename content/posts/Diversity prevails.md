@@ -2,8 +2,8 @@
 title = 'Diversity prevails'
 date = 2024-06-20T00:00:00-07:00
 draft = false
-categories = []
-tags = []
+categories = ["visual basic", "atom"]
+tags = ["c++ com", "atom", "xmpp", "use", "programming", "systems", "paradigms", "protocols"]
 cover_image='/images/cover/knoxwelle__2016-12-24T174732.000Z.jpg'
 +++
 The tools that architects use to design computer systems have undergone significant changes as a result of the technology's natural progression. These modifications have rekindled interest in multilingual programming, or using more than one language at the center of a software system's implementation.

@@ -3,7 +3,7 @@ title = 'There is never a bad time to consider productivity'
 date = 2024-06-03T00:00:00-07:00
 draft = false
 categories = []
-tags = ["first", "performance", "system", "testing", "problems", "architecture"]
+tags = ["first", "performance", "system", "testing", "problems", "architecture", "design", "test"]
 cover_image='/images/cover/knoxwelle__2016-12-17T154007.000Z.jpg'
 +++
 The needs of business application users are mostly stated in functional requirements. The non-functional components of the system, such as performance, flexibility, downtime, support needs, etc., are under the architect's control. Concurrently, the system maintenance team may be given full responsibility for the initial testing of non-functional requirements, or the testing may be postponed until a very late stage of the development process.

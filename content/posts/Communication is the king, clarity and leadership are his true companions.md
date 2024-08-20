@@ -3,7 +3,7 @@ title = 'Communication is the king, clarity and leadership are his true companio
 date = 2024-05-27T00:00:00-07:00
 draft = false
 categories = []
-tags = ["visio", "communication", "project", "developers", "software", "leadership"]
+tags = ["visio", "communication", "project", "developers", "software", "leadership", "diagrams"]
 cover_image='/images/cover/knoxwelle__2018-10-12T082623.000Z.jpg'
 +++
 Too often, software architects live in ivory towers, prescribing to developers the technologies and procedures to follow while providing them with little or no assistance. This simultaneously leads to conflict and, shortly after, a "popular uprising." The final result is a piece of software that is completely unrelated to the initial requirements. Any software architect must be able to clearly communicate the goals and objectives of the software project to his peers. Leadership and clarity are prerequisites for effective communication.
