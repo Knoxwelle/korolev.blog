@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Patterns on Korolev Blog</title>
+    <link>http://localhost:1313/tags/patterns/</link>
+    <description>Recent content in Patterns on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/patterns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Study the technical terms</title>
+      <link>http://localhost:1313/posts/study-the-technical-terms/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/study-the-technical-terms/</guid>
+      <description>There is jargon in every profession, which makes communication between its representatives more successful. Software architects converse about ROA, two-stage presentation, and supertypes of levels; lawyers converse about Habeas Corpus, Voir Dire, and Venire; carpenters converse about connections, infiltration, and impregnation. A moment, please excuse me.&#xA;Having efficient channels of communication amongst software architects is crucial, irrespective of the platform they operate on. Architectural and design templates are among these tools. Understanding fundamental architectural patterns and design templates, being able to recognize them in code, knowing when to apply them, and being able to use them in discussions with other architects and developers are all necessary for working as an architect.&#xA;Enterprise-level templates, application-level templates, integration templates, and design templates are the four primary categories into which architectural and design templates fall.</description>
+    </item>
+  </channel>
+</rss>

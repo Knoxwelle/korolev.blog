@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     11944,        288]
-NotebookOptionsPosition[     11009,        263]
-NotebookOutlinePosition[     11419,        279]
-CellTagsIndexPosition[     11376,        276]
+NotebookDataLength[     77578,       1659]
+NotebookOptionsPosition[     71363,       1578]
+NotebookOutlinePosition[     71792,       1595]
+CellTagsIndexPosition[     71749,       1592]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -31,20 +31,138 @@ Cell[BoxData[
        "\"\<content\\\\posts\>\""}], "]"}], "]"}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.930071308470366*^9, 3.9300713250538263`*^9}, 
    3.9300713659462986`*^9},
- CellLabel->
-  "In[317]:=",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
+ CellLabel->"In[1]:=",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-tinydev\\\\content\\\\posts\\\\Minimize the amount of complexity that is \
-already there and get rid of any extraneous details.md\"\>", 
+tinydev\\\\content\\\\posts\\\\500 lines of specification are needed for \
+every line of functioning code.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\Never prioritize your resume over the needs of the \
-client.md\"\>", 
+\\\\content\\\\posts\\\\Application performance determined by architecture.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Apply numerical standards.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
-incidental complexity.md\"\>"}], "}"}]], "Output",
+\\\\content\\\\posts\\\\A practitioner must be the architect.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Architect Janus.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Architectural compromises.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Architecture is not the only factor in reuse.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Assure ongoing integration.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Be guided by uncertainty.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Being a responsible leader matters more than looks.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Building architecture as a balancing art.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Communication is the king, clarity and leadership are \
+his true companions.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Context dictates the rules.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Creating in the Dark.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Cut down on the inherent complexity and do away with \
+the incidental complication.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Determine what the needs actually mean.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Diversity prevails.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Do not control - observe.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Do not get carried away by architectural metaphors.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Dwarves, elves, wizards and kings.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Enterprise interview.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Everything is run by business.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Failures are unavoidable.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Fight the repetitions.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Give developers their own space.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Investigate the topic.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Issues can extend beyond what they see in the \
+mirror.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\It is written in lowercase as software architect.md\"\
+\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Learn from building architects.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Never put the demands of the client ahead of your \
+resume.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\One step in the design process is programming.md\"\>",
+    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Pathology of patterns.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Perhaps technology is not your primary issue.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Perspective as seen from 300 meters.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Question assumptions\[LongDash]especially your own.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Remember the importance of performance.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Share knowledge and experience.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Stand up.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Study the technical terms.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Success is hampered by scale.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Support the developers.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Take quick action to get away from this crime.md\"\>",
+    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\The architects focus is on boundaries and \
+interfaces.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\The ethical concerns of software architecture.md\"\>",
+    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\There are no answers for every situation in \
+life.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\There could be a number of answers.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\There is never a bad time to consider productivity.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\There is no I am in architecture.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Time changes everything.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Towers are not scalable.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Try before you decide.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Try not to alter the timetable.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Using a database as a fort.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Versatility is inferior to simplicity.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Welcome to the real world.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Write down your reasons.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\You underestimate how frequently you \
+negotiate.md\"\>"}], "}"}]], "Output",
  CellChangeTimes->{
   3.9300713698977394`*^9, 3.9300714142771993`*^9, {3.9300719625990295`*^9, 
    3.9300719817056694`*^9}, 3.9301494944575987`*^9, 3.930151263013115*^9, {
@@ -53,12 +171,9 @@ incidental complexity.md\"\>"}], "}"}]], "Output",
    3.9301852691857767`*^9, 3.930185365923649*^9, 3.9301858717943535`*^9, 
    3.930190086579197*^9, 3.9304951748716507`*^9, 3.930498635298769*^9, 
    3.930505536952719*^9, 3.9305086206335545`*^9, 3.9305086834727535`*^9, 
-   3.9305864658590455`*^9},
- CellLabel->
-  "Out[317]=",ExpressionUUID->"16d4bbee-0c25-4b05-8451-00ded83d73d4"]
+   3.9305864658590455`*^9, 3.934058832790743*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"7d122058-eedc-48a0-bd07-5c4eb4272f0a"]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
@@ -136,8 +251,8 @@ Cell[BoxData[
             RowBox[{"StringCases", "[", 
              RowBox[{"header", ",", 
               RowBox[{
-               RowBox[{"\"\<tags = [\>\"", "~~", "x___", "~~", "\"\<]\>\""}], 
-               "->", "x"}]}], " ", "]"}], "]"}], ",", 
+               RowBox[{"\"\<tags=[\>\"", "~~", "x___", "~~", "\"\<]\>\""}], "->",
+                "x"}]}], " ", "]"}], "]"}], ",", 
            RowBox[{"\"\<\\\"\>\"", "->", "\"\<\>\""}]}], "]"}], ",", 
          "\"\<, \>\""}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
      RowBox[{"newTags", "=", 
@@ -160,9 +275,9 @@ Cell[BoxData[
       RowBox[{"StringReplace", "[", 
        RowBox[{"header", ",", " ", 
         RowBox[{
-         RowBox[{"\"\<tags = [\>\"", "~~", "x___", "~~", "\"\<]\>\""}], "->", 
+         RowBox[{"\"\<tags=[\>\"", "~~", "x___", "~~", "\"\<]\>\""}], "->", 
          RowBox[{"StringJoin", "[", 
-          RowBox[{"\"\<tags = [\>\"", ",", 
+          RowBox[{"\"\<tags=[\>\"", ",", 
            RowBox[{"StringRiffle", "[", 
             RowBox[{"newTags", ",", "\"\<, \>\""}], "]"}], ",", "\"\<]\>\""}],
            "]"}]}]}], "]"}]}], ";", "\[IndentingNewLine]", 
@@ -185,9 +300,19 @@ Cell[BoxData[
    3.9301852411961613`*^9}, {3.930185360617222*^9, 3.9301853611953807`*^9}, {
    3.9301858629064817`*^9, 3.9301858645845375`*^9}, {3.930498610206187*^9, 
    3.9304986220429163`*^9}, {3.9305054097714233`*^9, 3.930505481872596*^9}, {
-   3.930508604757191*^9, 3.9305086116416936`*^9}, 3.9305845431562123`*^9},
- CellLabel->
-  "In[318]:=",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+   3.930508604757191*^9, 3.9305086116416936`*^9}, 3.9305845431562123`*^9, {
+   3.943575494811618*^9, 
+   3.9435755033210554`*^9}},ExpressionUUID->"6904367e-62e7-47bb-aafb-\
+246e4474ba97"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"NotebookClose", "[", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.9340591771591654`*^9, 
+  3.93405919308354*^9}},ExpressionUUID->"bc52285c-316c-4670-940c-\
+32e4dc2f0159"],
 
 Cell[CellGroupData[{
 
@@ -197,22 +322,22 @@ Cell[BoxData[
   "1", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\Minimize the amount of complexity that is already there \
-and get rid of any extraneous details.md\"\>"}],
+content\\\\posts\\\\500 lines of specification are needed for every line of \
+functioning code.md\"\>"}],
   SequenceForm[
   1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\Minimize the amount of complexity that is already there and get rid of \
-any extraneous details.md"],
+posts\\500 lines of specification are needed for every line of functioning \
+code.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
    3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
    3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
    3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
    3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
-   3.930508683556451*^9, 3.930586465975724*^9},
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340588337351933`*^9},
  CellLabel->
   "During evaluation of \
-In[318]:=",ExpressionUUID->"4bea1df2-e599-4d2a-968a-fc2387f6fd26"],
+In[2]:=",ExpressionUUID->"f8457632-7174-4129-8953-20a62de7d538"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -220,21 +345,21 @@ Cell[BoxData[
   "2", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\Never prioritize your resume over the needs of the \
-client.md\"\>"}],
+content\\\\posts\\\\Application performance determined by \
+architecture.md\"\>"}],
   SequenceForm[
   2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\Never prioritize your resume over the needs of the client.md"],
+posts\\Application performance determined by architecture.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
    3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
    3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
    3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
    3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
-   3.930508683556451*^9, 3.93058646696493*^9},
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058900369871*^9},
  CellLabel->
   "During evaluation of \
-In[318]:=",ExpressionUUID->"d26a9fde-fd00-4af2-92d0-89c521aa6306"],
+In[2]:=",ExpressionUUID->"15cd149e-5bbf-4165-aa81-b67ec56cb620"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -242,28 +367,1219 @@ Cell[BoxData[
   "3", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
-incidental complexity.md\"\>"}],
+content\\\\posts\\\\Apply numerical standards.md\"\>"}],
   SequenceForm[
   3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\Reduce the intrinsic complexity and eliminate the incidental \
-complexity.md"],
+posts\\Apply numerical standards.md"],
   Editable->False]], "Print",
  CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
    3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
    3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
    3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
    3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
-   3.930508683556451*^9, 3.930586468497661*^9},
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058904807102*^9},
  CellLabel->
   "During evaluation of \
-In[318]:=",ExpressionUUID->"401784cf-9fbb-4089-a47b-4363af4187b0"]
+In[2]:=",ExpressionUUID->"62beb1f5-c28e-4f49-8a52-a62fc5d5aa6d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "4", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\A practitioner must be the architect.md\"\>"}],
+  SequenceForm[
+  4, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\A practitioner must be the architect.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589120232353`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"3dc87f00-8cc9-45a1-a74f-751d3d114596"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "5", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Architect Janus.md\"\>"}],
+  SequenceForm[
+  5, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Architect Janus.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058917421282*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"59bce591-4540-4b70-b145-72bb076d6f71"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "6", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Architectural compromises.md\"\>"}],
+  SequenceForm[
+  6, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Architectural compromises.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058921884306*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"6992b4fd-69b4-47bb-b271-8f55c4ecd28c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "7", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Architecture is not the only factor in reuse.md\"\>"}],
+  SequenceForm[
+  7, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Architecture is not the only factor in reuse.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058925329137*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"1b900373-b51c-4d81-a975-50669cdf777b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "8", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Assure ongoing integration.md\"\>"}],
+  SequenceForm[
+  8, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Assure ongoing integration.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058931540079*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"f9ca0262-a742-47e5-8056-870a5e2f4644"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "9", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Be guided by uncertainty.md\"\>"}],
+  SequenceForm[
+  9, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Be guided by uncertainty.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.93405893348352*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"f4080e05-d450-4992-9553-56b3c9cb308e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "10", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Being a responsible leader matters more than \
+looks.md\"\>"}],
+  SequenceForm[
+  10, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Being a responsible leader matters more than looks.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058937302397*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"ca2fcf6d-a586-4af3-9127-1014b4725fa3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "11", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Building architecture as a balancing art.md\"\>"}],
+  SequenceForm[
+  11, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Building architecture as a balancing art.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589395985737`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"fa556fe8-ec7e-4fb2-9dac-871ea825171d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "12", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Communication is the king, clarity and leadership are his \
+true companions.md\"\>"}],
+  SequenceForm[
+  12, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Communication is the king, clarity and leadership are his true companions.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589439224997`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"048ae815-b1fc-425d-aeed-c89ed129923e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "13", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Context dictates the rules.md\"\>"}],
+  SequenceForm[
+  13, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Context dictates the rules.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589469671493`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"8718bd85-8240-4603-8df8-3eb0f09f4cd5"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "14", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Creating in the Dark.md\"\>"}],
+  SequenceForm[
+  14, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Creating in the Dark.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589523968983`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"d921e873-2e8d-47e4-bddf-529f779d0465"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "15", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Cut down on the inherent complexity and do away with the \
+incidental complication.md\"\>"}],
+  SequenceForm[
+  15, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\Cut \
+down on the inherent complexity and do away with the incidental \
+complication.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589592456174`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"45248dee-c11e-47d7-83da-528d5ac5774a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "16", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Determine what the needs actually mean.md\"\>"}],
+  SequenceForm[
+  16, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Determine what the needs actually mean.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589629607024`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"9a8de8d8-f211-4198-9133-31e38f4d91b6"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "17", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Diversity prevails.md\"\>"}],
+  SequenceForm[
+  17, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Diversity prevails.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589665965557`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"4581dbe0-a041-491b-b3fd-4a7e32a9f5cb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "18", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Do not control - observe.md\"\>"}],
+  SequenceForm[
+  18, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\Do \
+not control - observe.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058969980355*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"58fbd59f-da59-450a-b6d5-f74ffef862b3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "19", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Do not get carried away by architectural \
+metaphors.md\"\>"}],
+  SequenceForm[
+  19, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\Do \
+not get carried away by architectural metaphors.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058975340906*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"3985f906-d3d8-42b1-9307-2d855cc3b048"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "20", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Dwarves, elves, wizards and kings.md\"\>"}],
+  SequenceForm[
+  20, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Dwarves, elves, wizards and kings.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058978823702*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"e3d243b8-1569-4fbb-8a3c-08313619cb1e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "21", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Enterprise interview.md\"\>"}],
+  SequenceForm[
+  21, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Enterprise interview.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589824618125`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"58e659cc-7115-4139-8332-15ff7cd12031"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "22", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Everything is run by business.md\"\>"}],
+  SequenceForm[
+  22, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Everything is run by business.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934058993838888*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"c3fa9222-9407-4f27-9240-abc34329080b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "23", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Failures are unavoidable.md\"\>"}],
+  SequenceForm[
+  23, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Failures are unavoidable.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340589976376963`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"1dce29e2-c780-460a-a8e4-1aae7deeb265"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "24", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Fight the repetitions.md\"\>"}],
+  SequenceForm[
+  24, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Fight the repetitions.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590007730093`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"258be0ea-70ea-4050-bb6d-c2895e9bfc71"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "25", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Give developers their own space.md\"\>"}],
+  SequenceForm[
+  25, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Give developers their own space.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590045900164`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"df9805e1-dacb-485e-ad38-2ab20193638c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "26", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Investigate the topic.md\"\>"}],
+  SequenceForm[
+  26, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Investigate the topic.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590085016537`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"3c1ca9a9-b757-4bbf-a227-c4540ddb76b2"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "27", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Issues can extend beyond what they see in the mirror.md\"\
+\>"}],
+  SequenceForm[
+  27, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Issues can extend beyond what they see in the mirror.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059011637805*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"a482ff0e-7809-4d21-9833-260ea04f8637"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "28", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\It is written in lowercase as software architect.md\"\>"}],
+  SequenceForm[
+  28, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\It \
+is written in lowercase as software architect.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590152567854`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"fe7b5b3d-c332-4bc4-a831-11b8e30c3b42"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "29", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Learn from building architects.md\"\>"}],
+  SequenceForm[
+  29, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Learn from building architects.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590168632455`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"d6332914-fa4f-44de-a19a-19d60e3bb07e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "30", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Never put the demands of the client ahead of your \
+resume.md\"\>"}],
+  SequenceForm[
+  30, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Never put the demands of the client ahead of your resume.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059020822502*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"00dfabd8-aea5-4735-9a39-b1f6e2054245"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "31", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\One step in the design process is programming.md\"\>"}],
+  SequenceForm[
+  31, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\One \
+step in the design process is programming.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590250820713`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"ef4adfc9-018e-410e-a5a8-aab77a65d7f6"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "32", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Pathology of patterns.md\"\>"}],
+  SequenceForm[
+  32, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Pathology of patterns.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590287147675`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"086faa5a-d1ed-455a-93e2-987bf777c4a4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "33", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Perhaps technology is not your primary issue.md\"\>"}],
+  SequenceForm[
+  33, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Perhaps technology is not your primary issue.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059030562134*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"c0fe4c03-3823-4e01-b1c8-54b5b90b6d33"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "34", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Perspective as seen from 300 meters.md\"\>"}],
+  SequenceForm[
+  34, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Perspective as seen from 300 meters.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059035139017*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"1ffee831-a263-4822-8154-af73533bc98f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "35", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Question assumptions\[LongDash]especially your \
+own.md\"\>"}],
+  SequenceForm[
+  35, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Question assumptions\[LongDash]especially your own.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.93405903911444*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"f4b62071-0e1c-4dfa-9cb8-834429e41785"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "36", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Remember the importance of performance.md\"\>"}],
+  SequenceForm[
+  36, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Remember the importance of performance.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059044377678*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"c810329e-ca92-41d3-b32a-364ef06adcc8"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "37", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Share knowledge and experience.md\"\>"}],
+  SequenceForm[
+  37, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Share knowledge and experience.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590511563272`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"ef6b5753-fc59-4708-a47f-367702caeab1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "38", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Stand up.md\"\>"}],
+  SequenceForm[
+  38, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Stand up.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059056907215*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"3a73b8c6-67fd-4eb8-80ee-e392708c7d01"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "39", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Study the technical terms.md\"\>"}],
+  SequenceForm[
+  39, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Study the technical terms.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059063556979*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"de6698b4-a38d-4b9f-96ce-75f1e7a0d702"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "40", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Success is hampered by scale.md\"\>"}],
+  SequenceForm[
+  40, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Success is hampered by scale.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059067966685*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"9a21caaf-a47f-452b-82c9-ab9c034dbbe5"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "41", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Support the developers.md\"\>"}],
+  SequenceForm[
+  41, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Support the developers.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059074257105*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"446f9efd-92c2-456c-9b99-92df1805462f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "42", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Take quick action to get away from this crime.md\"\>"}],
+  SequenceForm[
+  42, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Take quick action to get away from this crime.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059078131626*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"730136e8-108b-4fe0-aaca-6a221aabe32b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "43", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\The architects focus is on boundaries and interfaces.md\"\
+\>"}],
+  SequenceForm[
+  43, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\The \
+architects focus is on boundaries and interfaces.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059082779807*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"c1356755-21c4-426f-bd6e-21dd3f455fd9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "44", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\The ethical concerns of software architecture.md\"\>"}],
+  SequenceForm[
+  44, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\The \
+ethical concerns of software architecture.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590851295958`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"b8656712-25de-48c1-8e06-7fcea662b003"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "45", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\There are no answers for every situation in life.md\"\>"}],
+  SequenceForm[
+  45, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+There are no answers for every situation in life.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590898448877`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"8c7a0f69-0f4e-41cf-9294-b7748594e10f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "46", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\There could be a number of answers.md\"\>"}],
+  SequenceForm[
+  46, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+There could be a number of answers.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590934167275`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"151475e7-c2d8-4cd9-8ea5-1b480e0e2085"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "47", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\There is never a bad time to consider \
+productivity.md\"\>"}],
+  SequenceForm[
+  47, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+There is never a bad time to consider productivity.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340590974192195`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"2ece7ff0-e549-40e2-8ae6-a98dd37b0a1e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "48", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\There is no I am in architecture.md\"\>"}],
+  SequenceForm[
+  48, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+There is no I am in architecture.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059101168539*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"19afbdd6-a750-4580-97e3-4ffce11a31fc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "49", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Time changes everything.md\"\>"}],
+  SequenceForm[
+  49, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Time changes everything.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059105465906*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"c8b39ccd-6e34-46c7-ae60-c30d9dc95181"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "50", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Towers are not scalable.md\"\>"}],
+  SequenceForm[
+  50, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Towers are not scalable.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059109375121*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"962f3b0a-8e70-4c2a-9625-cab08b9f41c0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "51", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Try before you decide.md\"\>"}],
+  SequenceForm[
+  51, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\Try \
+before you decide.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340591139278903`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"3fd2bb5e-9aa0-4b02-bfab-837378031ae8"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "52", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Try not to alter the timetable.md\"\>"}],
+  SequenceForm[
+  52, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\Try \
+not to alter the timetable.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340591178077807`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"2fb4bf8a-aa42-44e7-b81f-df437d0f92eb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "53", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Using a database as a fort.md\"\>"}],
+  SequenceForm[
+  53, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Using a database as a fort.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059121088451*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"28026f9d-b26b-4365-9b7f-5d7e4d377c16"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "54", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Versatility is inferior to simplicity.md\"\>"}],
+  SequenceForm[
+  54, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Versatility is inferior to simplicity.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340591237745523`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"adb35bdf-2b6f-4a0d-ae19-a68bcba4f591"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "55", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Welcome to the real world.md\"\>"}],
+  SequenceForm[
+  55, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Welcome to the real world.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059127746374*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"1d51cef6-ff7a-414b-bdc9-9591d9deeaed"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "56", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Write down your reasons.md\"\>"}],
+  SequenceForm[
+  56, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\\
+Write down your reasons.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.934059132157152*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"bc901297-d13a-48db-87be-af802dca1c6e"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "57", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\You underestimate how frequently you negotiate.md\"\>"}],
+  SequenceForm[
+  57, ". ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\posts\\You \
+underestimate how frequently you negotiate.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{{3.9301514083970814`*^9, 3.93015143037217*^9}, 
+   3.9301514614234066`*^9, 3.930185030222081*^9, {3.930185166428467*^9, 
+   3.930185185070431*^9}, 3.930185269244337*^9, 3.930185365977886*^9, 
+   3.9301858718466687`*^9, 3.93019008665702*^9, 3.9304951750297284`*^9, 
+   3.930498635450635*^9, 3.9305055370007963`*^9, 3.9305086206889687`*^9, 
+   3.930508683556451*^9, 3.930586465975724*^9, 3.9340591355057487`*^9},
+ CellLabel->
+  "During evaluation of \
+In[2]:=",ExpressionUUID->"26670d85-1b34-435f-a539-32177c32e7db"]
 }, Open  ]]
 }, Open  ]]
 },
+Evaluator->"kernel1",
 WindowSize->{752.25, 624.75},
 WindowMargins->{{Automatic, -3}, {-9.75, Automatic}},
-FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"bc3582ce-1cd5-4583-ac8d-93f0de389e9e"
 ]
@@ -279,15 +1595,70 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 481, 12, 32, "Input",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
-Cell[1064, 36, 1267, 21, 82, "Output",ExpressionUUID->"16d4bbee-0c25-4b05-8451-00ded83d73d4"]
+Cell[580, 22, 476, 11, 32, "Input",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
+Cell[1059, 35, 9236, 139, 852, "Output",ExpressionUUID->"7d122058-eedc-48a0-bd07-5c4eb4272f0a"]
 }, Open  ]],
+Cell[10310, 177, 5548, 128, 580, "Input",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
 Cell[CellGroupData[{
-Cell[2368, 62, 5524, 127, 582, "Input",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+Cell[15883, 309, 206, 5, 32, "Input",ExpressionUUID->"bc52285c-316c-4670-940c-32e4dc2f0159"],
 Cell[CellGroupData[{
-Cell[7917, 193, 1059, 21, 30, "Print",ExpressionUUID->"4bea1df2-e599-4d2a-968a-fc2387f6fd26"],
-Cell[8979, 216, 984, 20, 18, "Print",ExpressionUUID->"d26a9fde-fd00-4af2-92d0-89c521aa6306"],
-Cell[9966, 238, 1015, 21, 30, "Print",ExpressionUUID->"401784cf-9fbb-4089-a47b-4363af4187b0"]
+Cell[16114, 318, 1039, 21, 30, "Print",ExpressionUUID->"f8457632-7174-4129-8953-20a62de7d538"],
+Cell[17156, 341, 991, 20, 18, "Print",ExpressionUUID->"15cd149e-5bbf-4165-aa81-b67ec56cb620"],
+Cell[18150, 363, 939, 19, 18, "Print",ExpressionUUID->"62beb1f5-c28e-4f49-8a52-a62fc5d5aa6d"],
+Cell[19092, 384, 963, 19, 18, "Print",ExpressionUUID->"3dc87f00-8cc9-45a1-a74f-751d3d114596"],
+Cell[20058, 405, 919, 19, 18, "Print",ExpressionUUID->"59bce591-4540-4b70-b145-72bb076d6f71"],
+Cell[20980, 426, 939, 19, 18, "Print",ExpressionUUID->"6992b4fd-69b4-47bb-b271-8f55c4ecd28c"],
+Cell[21922, 447, 977, 19, 18, "Print",ExpressionUUID->"1b900373-b51c-4d81-a975-50669cdf777b"],
+Cell[22902, 468, 941, 19, 18, "Print",ExpressionUUID->"f9ca0262-a742-47e5-8056-870a5e2f4644"],
+Cell[23846, 489, 936, 19, 18, "Print",ExpressionUUID->"f4080e05-d450-4992-9553-56b3c9cb308e"],
+Cell[24785, 510, 997, 21, 18, "Print",ExpressionUUID->"ca2fcf6d-a586-4af3-9127-1014b4725fa3"],
+Cell[25785, 533, 977, 20, 18, "Print",ExpressionUUID->"fa556fe8-ec7e-4fb2-9dac-871ea825171d"],
+Cell[26765, 555, 1045, 21, 30, "Print",ExpressionUUID->"048ae815-b1fc-425d-aeed-c89ed129923e"],
+Cell[27813, 578, 949, 20, 18, "Print",ExpressionUUID->"8718bd85-8240-4603-8df8-3eb0f09f4cd5"],
+Cell[28765, 600, 937, 20, 18, "Print",ExpressionUUID->"d921e873-2e8d-47e4-bddf-529f779d0465"],
+Cell[29705, 622, 1061, 22, 30, "Print",ExpressionUUID->"45248dee-c11e-47d7-83da-528d5ac5774a"],
+Cell[30769, 646, 973, 20, 18, "Print",ExpressionUUID->"9a8de8d8-f211-4198-9133-31e38f4d91b6"],
+Cell[31745, 668, 933, 20, 18, "Print",ExpressionUUID->"4581dbe0-a041-491b-b3fd-4a7e32a9f5cb"],
+Cell[32681, 690, 943, 20, 18, "Print",ExpressionUUID->"58fbd59f-da59-450a-b6d5-f74ffef862b3"],
+Cell[33627, 712, 997, 21, 18, "Print",ExpressionUUID->"3985f906-d3d8-42b1-9307-2d855cc3b048"],
+Cell[34627, 735, 961, 20, 18, "Print",ExpressionUUID->"e3d243b8-1569-4fbb-8a3c-08313619cb1e"],
+Cell[35591, 757, 937, 20, 18, "Print",ExpressionUUID->"58e659cc-7115-4139-8332-15ff7cd12031"],
+Cell[36531, 779, 953, 20, 18, "Print",ExpressionUUID->"c3fa9222-9407-4f27-9240-abc34329080b"],
+Cell[37487, 801, 945, 20, 18, "Print",ExpressionUUID->"1dce29e2-c780-460a-a8e4-1aae7deeb265"],
+Cell[38435, 823, 939, 20, 18, "Print",ExpressionUUID->"258be0ea-70ea-4050-bb6d-c2895e9bfc71"],
+Cell[39377, 845, 959, 20, 18, "Print",ExpressionUUID->"df9805e1-dacb-485e-ad38-2ab20193638c"],
+Cell[40339, 867, 939, 20, 18, "Print",ExpressionUUID->"3c1ca9a9-b757-4bbf-a227-c4540ddb76b2"],
+Cell[41281, 889, 1001, 21, 18, "Print",ExpressionUUID->"a482ff0e-7809-4d21-9833-260ea04f8637"],
+Cell[42285, 912, 993, 20, 18, "Print",ExpressionUUID->"fe7b5b3d-c332-4bc4-a831-11b8e30c3b42"],
+Cell[43281, 934, 957, 20, 18, "Print",ExpressionUUID->"d6332914-fa4f-44de-a19a-19d60e3bb07e"],
+Cell[44241, 956, 1009, 21, 18, "Print",ExpressionUUID->"00dfabd8-aea5-4735-9a39-b1f6e2054245"],
+Cell[45253, 979, 987, 20, 18, "Print",ExpressionUUID->"ef4adfc9-018e-410e-a5a8-aab77a65d7f6"],
+Cell[46243, 1001, 939, 20, 18, "Print",ExpressionUUID->"086faa5a-d1ed-455a-93e2-987bf777c4a4"],
+Cell[47185, 1023, 983, 20, 18, "Print",ExpressionUUID->"c0fe4c03-3823-4e01-b1c8-54b5b90b6d33"],
+Cell[48171, 1045, 965, 20, 18, "Print",ExpressionUUID->"1ffee831-a263-4822-8154-af73533bc98f"],
+Cell[49139, 1067, 996, 21, 18, "Print",ExpressionUUID->"f4b62071-0e1c-4dfa-9cb8-834429e41785"],
+Cell[50138, 1090, 971, 20, 18, "Print",ExpressionUUID->"c810329e-ca92-41d3-b32a-364ef06adcc8"],
+Cell[51112, 1112, 957, 20, 18, "Print",ExpressionUUID->"ef6b5753-fc59-4708-a47f-367702caeab1"],
+Cell[52072, 1134, 911, 20, 18, "Print",ExpressionUUID->"3a73b8c6-67fd-4eb8-80ee-e392708c7d01"],
+Cell[52986, 1156, 945, 20, 18, "Print",ExpressionUUID->"de6698b4-a38d-4b9f-96ce-75f1e7a0d702"],
+Cell[53934, 1178, 951, 20, 18, "Print",ExpressionUUID->"9a21caaf-a47f-452b-82c9-ab9c034dbbe5"],
+Cell[54888, 1200, 939, 20, 18, "Print",ExpressionUUID->"446f9efd-92c2-456c-9b99-92df1805462f"],
+Cell[55830, 1222, 985, 20, 18, "Print",ExpressionUUID->"730136e8-108b-4fe0-aaca-6a221aabe32b"],
+Cell[56818, 1244, 1001, 21, 18, "Print",ExpressionUUID->"c1356755-21c4-426f-bd6e-21dd3f455fd9"],
+Cell[57822, 1267, 987, 20, 18, "Print",ExpressionUUID->"b8656712-25de-48c1-8e06-7fcea662b003"],
+Cell[58812, 1289, 993, 20, 18, "Print",ExpressionUUID->"8c7a0f69-0f4e-41cf-9294-b7748594e10f"],
+Cell[59808, 1311, 965, 20, 18, "Print",ExpressionUUID->"151475e7-c2d8-4cd9-8ea5-1b480e0e2085"],
+Cell[60776, 1333, 999, 21, 18, "Print",ExpressionUUID->"2ece7ff0-e549-40e2-8ae6-a98dd37b0a1e"],
+Cell[61778, 1356, 959, 20, 18, "Print",ExpressionUUID->"19afbdd6-a750-4580-97e3-4ffce11a31fc"],
+Cell[62740, 1378, 941, 20, 18, "Print",ExpressionUUID->"c8b39ccd-6e34-46c7-ae60-c30d9dc95181"],
+Cell[63684, 1400, 941, 20, 18, "Print",ExpressionUUID->"962f3b0a-8e70-4c2a-9625-cab08b9f41c0"],
+Cell[64628, 1422, 939, 20, 18, "Print",ExpressionUUID->"3fd2bb5e-9aa0-4b02-bfab-837378031ae8"],
+Cell[65570, 1444, 957, 20, 18, "Print",ExpressionUUID->"2fb4bf8a-aa42-44e7-b81f-df437d0f92eb"],
+Cell[66530, 1466, 947, 20, 18, "Print",ExpressionUUID->"28026f9d-b26b-4365-9b7f-5d7e4d377c16"],
+Cell[67480, 1488, 971, 20, 18, "Print",ExpressionUUID->"adb35bdf-2b6f-4a0d-ae19-a68bcba4f591"],
+Cell[68454, 1510, 945, 20, 18, "Print",ExpressionUUID->"1d51cef6-ff7a-414b-bdc9-9591d9deeaed"],
+Cell[69402, 1532, 941, 20, 18, "Print",ExpressionUUID->"bc901297-d13a-48db-87be-af802dca1c6e"],
+Cell[70346, 1554, 989, 20, 18, "Print",ExpressionUUID->"26670d85-1b34-435f-a539-32177c32e7db"]
 }, Open  ]]
 }, Open  ]]
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donald Knuth on Korolev Blog</title>
+    <link>http://localhost:1313/tags/donald-knuth/</link>
+    <description>Recent content in Donald Knuth on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/donald-knuth/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architecture is not the only factor in reuse</title>
+      <link>http://localhost:1313/posts/architecture-is-not-the-only-factor-in-reuse/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/architecture-is-not-the-only-factor-in-reuse/</guid>
+      <description>It appears that a well-planned and cleverly executed architecture, or well-thought-out infrastructure, is perfect for repurposing within your company. But in practice, only those who are aware of an architecture, infrastructure, or system&amp;rsquo;s existence will be able to utilize it again, no matter how exquisite and lovely it may be. Your organization&amp;rsquo;s developers and designers should be aware of the existence of any libraries, architectures, infrastructures, or code fragments, as well as where to locate all the information required to understand these components (documentation, compatibility, and version data). The obvious and straightforward reality is that people do not take into account options that they are unaware even exist. Certain pieces can only be reused provided information about them is regularly shared. Within your company, there are numerous ways to share information about reusable items: from an email with updates on version changes in the source repository to a wiki with an RSS feed that provides information about updates (particularly helpful for extremely large teams).</description>
+    </item>
+  </channel>
+</rss>

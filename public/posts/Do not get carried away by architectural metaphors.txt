@@ -1,0 +1,29 @@
++++
+title = 'Do not get carried away by architectural metaphors'
+date = 2024-03-26T00:00:00-07:00
+draft = false
+categories = ["pacific ocean", "port channel", "hub"]
+tags = ["pacific ocean", "port channel", "rowing", "hub bus", "metaphor", "system", "cabinet", "filing", "example"]
+cover_image='/images/cover/knoxwelle__2017-04-24T073118.000Z.jpg'
++++
+Architects love dealing with metaphors.Metaphors allow us to give tangibility to abstract, complex, and elusive topics.When communicating with other team members or during discussions about architecture with the end user, there is an irresistible temptation to choose an expressive metaphor, familiar from the real world, that would describe what you are trying to build.
+
+Usually, everything starts off well: the interlocutors find common ground, and it seems that everything is heading in the right direction.A metaphor develops and grows until it begins to live a life of its own.People treat her favorably – progress is evident!
+
+And then usually comes the moment when the architectural metaphor suddenly becomes dangerous and rises up against its creators.Here's how it might happen:
+
+- If your metaphor starts to appeal to the client more than the system being developed itself, it means that all interested parties begin to believe in the beautiful illusion created by the metaphor, unwilling to delve into what is actually hidden behind it.
+
+Example: "We are building a transportation system based on the principle of moving a ship between several docks."
+
+You imagine a container ship sailing the vastness of the Pacific Ocean, while I was thinking of a rowing boat in a pool, with just one oar.
+
+- The development team is starting to consider the metaphor more significant compared to the actual business task.And you, out of love for your metaphor, begin to justify strange decisions.
+
+Example: "We said that the system would be similar to a filing cabinet, so we would have to output the data in alphabetical order.""I know that this cabinet has six dimensions, infinite length, and built-in clocks, but we have already made the icon – and the filing cabinet should behave like a filing cabinet..."
+
+- In the system, there are names from old, long-forgotten metaphors – archaeological relics of concepts that have long been discarded.
+
+Example: "But why does the Billing Factory1 object create a Port Channel for the Rowing boat system?".. And should he really return the Pomegranate presentation for Hub Bus?.. Well, yes, I really started working here recently, so what?
+
+So, don't fall in love with the metaphor that represents your system; use it for research and clarification purposes, but don't let it influence you.

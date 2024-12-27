@@ -1,40 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Architect on Tiny Dev Blog</title>
+    <title>Architect on Korolev Blog</title>
     <link>http://localhost:1313/tags/architect/</link>
-    <description>Recent content in Architect on Tiny Dev Blog</description>
+    <description>Recent content in Architect on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/architect/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A practitioner must be the architect</title>
-      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
-      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
+      <title>Give developers their own space</title>
+      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
+      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
     </item>
     <item>
-      <title>Everything is run by business</title>
-      <link>http://localhost:1313/posts/everything-is-run-by-business/</link>
-      <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/everything-is-run-by-business/</guid>
-      <description>When it comes to developing corporate software applications, the architect should act as a kind of go-between for the technical and business communities inside the organization, representing and defending each group&amp;rsquo;s interests, resolving conflicts on a regular basis, and allowing the business to operate as usual. The architect&amp;rsquo;s technology choices must take the organization&amp;rsquo;s business objectives and external surroundings into consideration.&#xA;Before beginning a software development project, a software development business usually plans and promotes the desired return on investment (ROI). The architect has to acknowledge this signal and the resulting limitations on the product&amp;rsquo;s business value.This will help prevent the need of technical solutions that could be extremely expensive. The return rate should be taken into consideration in the overall target context when talking about the technical architecture and implementation with the development team and when interacting with management (during the process of determining how to strike a balance between the cost and benefit of a given function).</description>
-    </item>
-    <item>
-      <title>Stand up</title>
-      <link>http://localhost:1313/posts/stand-up/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/stand-up/</guid>
-      <description>Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success.&#xA;It is difficult to assess the architect&amp;rsquo;s impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the course of his career. Professional architects are aware that they need to &amp;ldquo;promote&amp;rdquo; their ideas, and effective communication is essential to this.</description>
-    </item>
-    <item>
-      <title>There are no answers for every situation in life</title>
-      <link>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</guid>
-      <description>For a wide range of different problems, there isn&amp;rsquo;t a single, comprehensive solution, so the architect must continuously refine and improve his &amp;ldquo;context noe poche.&amp;rdquo; Eberhardt Rechtin writes in &amp;ldquo;Systems Architecting: Creating and Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;&amp;lt;&amp;hellip;&amp;gt; Rather than using the word &amp;ldquo;sensual,&amp;rdquo; it might be better to speak to it as &amp;ldquo;context sensation&amp;rdquo;—knowledge of what is pertinent in a certain context. By the time an architect-practitioner is called to address a system-level issue, which usually takes decades, they can have a strong contextual awareness thanks to education, experience, and case studies.&#xA;One of the biggest problems I see with the software industry, in my opinion, is that projects are often given to people who don&amp;rsquo;t have enough contextual knowledge.This could be due to the fact that the industry is only two generations old and is currently experiencing a time of rapid expansion; alternatively, it could be that the industry has reached a mature stage if this problem has been resolved.</description>
+      <title>Try before you decide</title>
+      <link>http://localhost:1313/posts/try-before-you-decide/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
+      <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
     </item>
   </channel>
 </rss>

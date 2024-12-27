@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network Maps on Korolev Blog</title>
+    <link>http://localhost:1313/tags/network-maps/</link>
+    <description>Recent content in Network Maps on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/network-maps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating in the Dark</title>
+      <link>http://localhost:1313/posts/creating-in-the-dark/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/creating-in-the-dark/</guid>
+      <description>The software components of the system are interrelated. Architecture refers to the hierarchical structure of various program components as well as their cohesive connections.Individual program components and servers are frequently simplified into rectangles connected by arrow keys on diagrams showing such systems.&#xA;The meaning of a single little arrow could be &amp;ldquo;Synchronous SOAP-XML Request/Respond via HTTP.&amp;rdquo; One chart element cannot include all the information that is available. Since there is typically not enough room for everything to be written, we label the arrow with &amp;ldquo;Search by product code&amp;rdquo; (for external users) or &amp;ldquo;XML through HTTP&amp;rdquo; (from the perspective of internal implementation).&#xA;Although it appears to be a direct communication, the arrow connecting the programs is not. Hardware and software components occupy the space in between rectangles.</description>
+    </item>
+  </channel>
+</rss>

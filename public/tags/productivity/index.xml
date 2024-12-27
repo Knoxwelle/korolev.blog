@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Productivity on Korolev Blog</title>
+    <link>http://localhost:1313/tags/productivity/</link>
+    <description>Recent content in Productivity on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Remember the importance of performance</title>
+      <link>http://localhost:1313/posts/remember-the-importance-of-performance/</link>
+      <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/remember-the-importance-of-performance/</guid>
+      <description>Your car is 98% recyclable, roomy, comfy, economical, and affordable. Would you like one? Naturally. anybody desires. Yes, the fact that it can only go a maximum of 10 km/h is the only issue. Did you not make up your mind? This brief illustration makes it quite evident that production is just as significant as any other factor.&#xA;Because computers process data at a rate that is unmatched by humans, many architects prioritize performance last because they believe the system&amp;rsquo;s speed will be sufficient. Furthermore, Moore&amp;rsquo;s law will ensure everything is taken care of if current systems are not quick enough.But the equipment&amp;rsquo;s speed is simply one component of the system.&#xA;Some people define performance as only how long it takes a system to react to input from them.</description>
+    </item>
+  </channel>
+</rss>

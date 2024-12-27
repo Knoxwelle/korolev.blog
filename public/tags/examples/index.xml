@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Examples on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/examples/</link>
+    <description>Recent content in Examples on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/examples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fight the repetitions</title>
+      <link>http://localhost:1313/posts/fight-the-repetitions/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/fight-the-repetitions/</guid>
+      <description>Do your developers have to perform monotonous tasks that require almost no thought? Are there almost identical fragments in the code?Do you notice code that has been written using the &amp;ldquo;copy-paste-modify&amp;rdquo; method?If the answers are positive, then your team is working slower than it could be, and, strangely enough, the reason for that might be you.&#xA;Before we delve into explanations, let&amp;rsquo;s agree on two truths regarding software development:&#xA;-Duplication is evil.&#xA;Repetitive work slows down development. As an architect, you set the tone.You have the best understanding of the system as a whole, and most likely, it was you who set the direction of the work by creating a complete vertical cross-section of the system – an example that has been repeatedly copied by now.</description>
+    </item>
+  </channel>
+</rss>

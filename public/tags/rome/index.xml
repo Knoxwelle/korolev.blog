@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rome on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/rome/</link>
+    <description>Recent content in Rome on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/rome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architect Janus</title>
+      <link>http://localhost:1313/posts/architect-janus/</link>
+      <pubDate>Sat, 13 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/architect-janus/</guid>
+      <description>In ancient Rome, Janus was considered the god of beginnings and endings, doors and passages.He was usually depicted with two heads facing in different directions; this symbol is often found on coins and in films.Janus symbolizes transitions and changes in life – birth, marriage, reaching maturity – from the past to the future, from youth to old age.&#xA;Janus&amp;rsquo;s ability to look both forward and backward, to see the past and the future, is an exceptionally valuable skill for both a software architect and a building architect.The architect strives to unite reality with their vision of it, past achievements with future plans, and management expectations with development constraints.Building such bridges is a crucial part of an architect&amp;rsquo;s work.Often, an architect feels that in their pursuit to bring a project to completion, they must overcome chasms created by forces pulling in opposite directions.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Experience on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/experience/</link>
+    <description>Recent content in Experience on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/experience/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Share knowledge and experience</title>
+      <link>http://localhost:1313/posts/share-knowledge-and-experience/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/share-knowledge-and-experience/</guid>
+      <description>From all our endeavors, both successful and unsuccessful, we derive a lot of valuable lessons.In such a young industry as software development, the sharing of experience and knowledge is vital for progress.What any of the teams learns in their tiny corner of the world can impact the work of their colleagues across the globe.&#xA;If we look at things realistically, our foundation of fundamental (that is, absolute and theoretically true) knowledge about software development is small compared to what is necessary for the successful advancement of a project. To compensate for this lack of knowledge, we make guesses, rely on intuition, and sometimes even just choose randomly. Thus, during any major software development project, empirical data emerges about what works and what doesn&amp;rsquo;t. Step by step, we accumulate experience from changes that we want to apply to the industry as a whole.</description>
+    </item>
+  </channel>
+</rss>

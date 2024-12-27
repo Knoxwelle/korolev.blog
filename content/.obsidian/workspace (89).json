@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "d6c8f4070fe86883",
+    "type": "split",
+    "children": [
+      {
+        "id": "c715d2023ce1d2ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "60ff6f498de06d84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/Enterprise interview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b88f4f7dc62844bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "61477651816c08ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7566ea1bdc4bb546",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8cf821ed5ce5613d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4b829ea056cf0076",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a49fc1b6f9ba9f86",
+    "type": "split",
+    "children": [
+      {
+        "id": "98298dba98d47d8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d422dac1ca7f1f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/Enterprise interview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30757bf3e7c8cd13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/Enterprise interview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a49b134fefc11f61",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7bcfdd152093725e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/Enterprise interview.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "7566ea1bdc4bb546",
+  "lastOpenFiles": [
+    "posts/There is never a bad time to consider productivity.md",
+    "posts/Cut down on the inherent complexity and do away with the incidental complication.md",
+    "posts/Relying too much on architectural metaphors should be avoided..md",
+    "posts/There are no answers for every situation in life.txt",
+    "posts/Kings, wizards, elves, and dwarfs.md",
+    "posts/Stand up.md",
+    "posts/Failures are unavoidable.md",
+    "posts/Give developers their own space.md",
+    "posts/Architecture determines application performance.md",
+    "posts/There are no answers for every situation in life.md",
+    "posts/Try not to alter the timetable.md",
+    "posts/Pathology of patterns.md",
+    "posts/Determine what the needs actually mean.md",
+    "posts/Never put the demands of the client ahead of your resume.md",
+    "posts/Assure ongoing integration.md",
+    "resume/resume.md",
+    "posts/Software architect is written in lowercase..md",
+    "posts/Being a responsible leader is more important than appearances..md",
+    "posts/For every line of functional code, 500 lines of specification are required..md",
+    "about/about.md",
+    "posts/For every line of functional code, 500 lines of specification are required. (2).md",
+    "posts/Enterprise interview.md"
+  ]
+}

@@ -1,10 +1,10 @@
 +++
-title = 'Perspective as seen from 300 meters'
-date = 2024-05-30T00:00:00-07:00
-draft = false
-categories = []
-tags = ["whenever", "view", "infoviz", "code", "quality", "representations", "metrics", "program", "software"]
-cover_image='/images/cover/knoxwelle__2017-06-18T220601.000Z.jpg'
+title='Perspective as seen from 300 meters'
+date=2024-12-14T00:00:00-07:00
+draft=false
+categories=[]
+tags=["whenever", "view", "infoviz", "code", "quality", "representations", "metrics", "program", "software"]
+cover_image='/images/cover/knoxwelle__2017-01-15T081122.000Z.jpg'
 +++
 We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design's clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, "I'll know when I see it." So, what do you think quality is? 
    

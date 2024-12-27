@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Objectives on Korolev Blog</title>
+    <link>http://localhost:1313/tags/objectives/</link>
+    <description>Recent content in Objectives on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/objectives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Investigate the topic</title>
+      <link>http://localhost:1313/posts/investigate-the-topic/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/investigate-the-topic/</guid>
+      <description>A proficient software architect possesses expertise not only in technology but also in the domain of the problem that needs to be resolved. In the absence of this information, it is challenging to comprehend the business side of the assignment, goal, and specifications of the organization; consequently, it is challenging to create an efficient architecture that satisfies the demands of the business.&#xA;Understanding the business&amp;rsquo;s problems, goals, and needs in order to translate them into a technical architectural solution that satisfies them is the responsibility of the software architect. Understanding the issue helps the architect choose which patterns to use, how to schedule expansions in the future, and how to consider market trends to better prepare for change. For instance, workflow-based design works well in certain contexts (such as the insurance industry) and service-oriented architecture in others (such as the financial markets).</description>
+    </item>
+  </channel>
+</rss>

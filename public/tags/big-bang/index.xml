@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Big Bang on Tiny Dev Blog</title>
+    <title>Big Bang on Korolev Blog</title>
     <link>http://localhost:1313/tags/big-bang/</link>
-    <description>Recent content in Big Bang on Tiny Dev Blog</description>
+    <description>Recent content in Big Bang on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 -0700</lastBuildDate>
@@ -14,6 +14,13 @@
       <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/assure-ongoing-integration/</guid>
       <description>In terms of design, the collection is no longer the &amp;ldquo;Big Bang&amp;rdquo; for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.&#xA;The term continuous integration (CI) was first proposed by Martin Fowler as a design template. It describes a set of methods and tools that ensure reliable, automated application testing and assembly across short time intervals (often on an integration server designed to do these functions). These days, all software projects must use continuous integration, which blends automated assembly tools with modular testing methods and resources.&#xA;Now that the project&amp;rsquo;s components have been assembled, they have been tested. Continuous integration now occupies the space previously occupied by &amp;ldquo;early and frequent assembly.</description>
+    </item>
+    <item>
+      <title>Towers are not scalable</title>
+      <link>http://localhost:1313/posts/towers-are-not-scalable/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/towers-are-not-scalable/</guid>
+      <description>It&amp;rsquo;s common to compare software development to constructing highways, dams, and skyscrapers. This analogy makes sense in a few key areas.&#xA;The intricacy of the construction process is more challenging than designing a structure that will remain in its final location when it is built.This technique will result in a ready-made building at the end from an empty site at the start. Every employee should be able to use their professional abilities throughout this time, and the partially constructed structure should hold together. This comparison has practical implications for large-scale integrated system implementation. (And almost all web and business apps fall under the &amp;ldquo;integrated&amp;rdquo; category!) The classic &amp;ldquo;Big Bang&amp;rdquo; deployment involves bringing a large number of beams into the desert, launching them into the air, and then waiting for the beams to self-assemble into a building.</description>
     </item>
   </channel>
 </rss>

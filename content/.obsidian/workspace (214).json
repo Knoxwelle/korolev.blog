@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "2c77e5235496f1a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "781461cab4be81a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63a26ad8b24d63ea",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5f0daee8b5249e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea22e5b3c325f09c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "154ff832aca75efb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "f8fac548194ac68f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81ed4e426435bc4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 583.5
+  },
+  "right": {
+    "id": "45775cd4cc832aed",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc25f5abf132c807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d93a169373db6edc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8401c9771697d3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb2d644712a987ba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4e36d1721f5e1c80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "63a26ad8b24d63ea",
+  "lastOpenFiles": [
+    "drafts/200 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/200 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/198 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/198 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/196 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/190 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/194 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/196 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/192 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/188 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/184 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/186 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/188 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/182 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/180 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/176 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/178 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/166 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/142 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/146 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/172 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/168 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/148 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/156 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/160 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/154 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/152 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/150 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/170 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/174 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/138 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/128 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/124 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/112 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/106 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "drafts/100 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.txt",
+    "images/cover/knoxwelle__2024-08-25T010835.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T145454.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T150225.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173907.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T180113.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140333.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140122.000Z.jpg"
+  ]
+}

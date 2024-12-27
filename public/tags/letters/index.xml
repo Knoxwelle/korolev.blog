@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Letters on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/letters/</link>
+    <description>Recent content in Letters on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/letters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to the real world</title>
+      <link>http://localhost:1313/posts/welcome-to-the-real-world/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/welcome-to-the-real-world/</guid>
+      <description>Technophiles love precision – especially programmers who live in a world of zeros and ones.They are used to working with binary decisions: one/zero, true/false, yes/no.Everything is clear and consistent; foreign key constraints, atomic transactions, and checksums protect against surprises.&#xA;Unfortunately, the real world is not so orderly.Clients place orders, and a second later, they cancel them.Receipts are rejected, letters are lost, payments are delayed, and promises are broken. Data entry errors occur more often than we would like.Users prefer &amp;ldquo;shallow&amp;rdquo; interfaces that provide simultaneous access to many functions, rather than a long and narrow corridor of the &amp;ldquo;process&amp;rdquo; of data entry, which is easier to implement and seems more &amp;ldquo;logical&amp;rdquo; to many developers. The execution of the program is now controlled not by the call stack, but by the user.</description>
+    </item>
+  </channel>
+</rss>

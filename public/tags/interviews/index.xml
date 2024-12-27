@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Interviews on Tiny Dev Blog</title>
+    <title>Interviews on Korolev Blog</title>
     <link>http://localhost:1313/tags/interviews/</link>
-    <description>Recent content in Interviews on Tiny Dev Blog</description>
+    <description>Recent content in Interviews on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/interviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Interview tips</title>
-      <link>http://localhost:1313/posts/interview-tips/</link>
-      <pubDate>Sun, 07 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/interview-tips/</guid>
-      <description>The fate of fate I started to go to interviews again, and I want to share some observations. On this, I just give advice to everyone in enterprise companies about how the recruitment process should be structured.&#xA;Advice to candidates In the last five years, I&amp;rsquo;ve been through several hundred interviews on both sides. So, some life hacking:&#xA;You&amp;rsquo;re going to have to go through the windshields. Those you&amp;rsquo;re not going to go to. You pump the skill, or suddenly something interesting turns out to be, or it&amp;rsquo;ll be the only place with the offer. You never know what&amp;rsquo;s in a box of candy.&#xA;Get some sleep and let yourself rest on the day of wrath. The same live coding is quite a dumb thing; the solution may not come during the call but will appear immediately after.</description>
+      <title>Enterprise interview</title>
+      <link>http://localhost:1313/posts/enterprise-interview/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
+      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
     </item>
   </channel>
 </rss>

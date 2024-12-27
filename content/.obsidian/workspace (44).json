@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "8dd739d469396fc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2f483eb69b545c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "974ae4b8903f2405",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/cover/knoxwelle__2016-11-19T135922.000Z.jpg"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1e0c04e6ef1a084",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee774d7cb11fe072",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7be9659273e3b5b9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "310eb162bea0570e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "46d32007ab29e53e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "664a47024daa2c09",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b145856ef14f98d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "254723e59697b99b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "images/cover/knoxwelle__2016-11-19T135922.000Z.jpg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ab58bcd947044654",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "images/cover/knoxwelle__2016-11-19T135922.000Z.jpg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "196cf50b2762a69e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f4d2d052d6e32049",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "images/cover/knoxwelle__2016-11-19T135922.000Z.jpg"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "7be9659273e3b5b9",
+  "lastOpenFiles": [
+    "images/cover/knoxwelle__2020-09-20T153557.000Z.jpg",
+    "images/cover/knoxwelle__2020-03-31T173917.000Z.jpg",
+    "images/cover/knoxwelle__2017-02-14T220856.000Z.jpg",
+    "images/cover/knoxwelle__2018-10-12T084444.000Z.jpg",
+    "images/cover/knoxwelle__2019-11-06T002124.000Z.jpg",
+    "images/cover/knoxwelle__2019-06-09T040906.000Z.jpg",
+    "images/cover/knoxwelle__2018-09-15T202518.000Z.jpg",
+    "images/cover/knoxwelle__2017-07-27T210408.000Z.jpg",
+    "images/cover/knoxwelle__2023-10-23T051419.000Z.jpg",
+    "images/cover/knoxwelle__2018-02-22T192253.000Z.jpg",
+    "images/cover/knoxwelle__2018-07-02T160945.000Z.jpg",
+    "posts/For every line of functional code, 500 lines of specification are required. (2).md",
+    "posts/For every line of functional code, 500 lines of specification are required..md"
+  ]
+}

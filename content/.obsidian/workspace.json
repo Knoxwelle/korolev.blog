@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/500 lines of specification are needed for every line of functioning code.md",
+                "file": "posts/Встаньте.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "byModifiedTimeReverse"
               }
             }
           },
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 561.5
+    "width": 247.5
   },
   "right": {
     "id": "45775cd4cc832aed",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/500 lines of specification are needed for every line of functioning code.md",
+                "file": "posts/Встаньте.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/500 lines of specification are needed for every line of functioning code.md",
+                "file": "posts/Встаньте.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/500 lines of specification are needed for every line of functioning code.md"
+                "file": "posts/Встаньте.md"
               }
             }
           }
@@ -148,42 +148,43 @@
   },
   "active": "63a26ad8b24d63ea",
   "lastOpenFiles": [
-    "posts/Application performance determined by architecture.md",
-    "posts/Apply numerical standards.md",
-    "posts/A practitioner must be the architect.md",
-    "posts/Using a database as a fort.md",
-    "posts/Architectural compromises.md",
-    "posts/Architecture is not the only factor in reuse.md",
-    "posts/Assure ongoing integration.md",
-    "posts/Be guided by uncertainty.md",
-    "posts/Being a responsible leader matters more than looks.md",
-    "posts/Building architecture as a balancing art.md",
-    "posts/Communication is the king, clarity and leadership are his true companions.md",
-    "posts/Creating in the Dark.md",
-    "posts/Cut down on the inherent complexity and do away with the incidental complication.md",
-    "posts/Determine what the needs actually mean.md",
-    "posts/Diversity prevails.md",
+    "drafts/Сбои неизбежны.md",
+    "drafts/174 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "posts/Встаньте.md",
+    "posts/Общение это король, ясность и лидерство это его верные слуги.md",
+    "posts/Производительность приложения определяется его архитектурой.md",
+    "posts/Драма хайповых технологий, потребностей клиента и угрызений совести.md",
     "posts/Enterprise interview.md",
-    "posts/Everything is run by business.md",
-    "posts/Failures are unavoidable.md",
-    "posts/Give developers their own space.md",
-    "posts/Investigate the topic.md",
-    "posts/Issues can extend beyond what they see in the mirror.md",
-    "posts/It is written in lowercase as software architect.md",
-    "posts/Never put the demands of the client ahead of your resume.md",
-    "posts/One step in the design process is programming.md",
-    "posts/Perhaps technology is not your primary issue.md",
-    "posts/Perspective as seen from 300 meters.md",
-    "posts/You underestimate how frequently you negotiate.txt",
-    "posts/Versatility is inferior to simplicity.txt",
-    "posts/Using a database as a fort.txt",
-    "posts/Try not to alter the timetable.txt",
-    "posts/Try before you decide.txt",
-    "posts/Towers are not scalable.txt",
-    "posts/Time changes everything.txt",
-    "posts/There is no I am in architecture.txt",
-    "posts/There is never a bad time to consider productivity.txt",
-    "posts/There could be a number of answers.txt",
+    "posts/Сделать наспех и сбежать – преступление.md",
+    "posts/Истинный смысл требований заказчика.md",
+    "drafts/130 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/136 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/38 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/124 - Barbee Davis - 97 Things Every Project Manager Should Know. Collective Wisdom from the Experts - 2009.md",
+    "drafts/116 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/108 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/96 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/70 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/72 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/76 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/78 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/206 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/214 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/208 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/212 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/210 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/88 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.md",
+    "drafts/214 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/210 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/212 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/206 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/208 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/204 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/202 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/200 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/198 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "drafts/196 - Гудлиф П. - 97 этюдов для программистов. Опыт ведущих экспертов (Профессионально) - 2012.txt",
+    "images/cover/knoxwelle__2024-08-25T010835.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",
@@ -192,7 +193,6 @@
     "images/cover/knoxwelle__2016-12-24T173907.000Z.jpg",
     "images/cover/knoxwelle__2016-12-24T180113.000Z.jpg",
     "images/cover/knoxwelle__2016-11-19T140333.000Z.jpg",
-    "images/cover/knoxwelle__2016-11-19T140122.000Z.jpg",
-    "images/cover/knoxwelle__2016-11-19T135922.000Z.jpg"
+    "images/cover/knoxwelle__2016-11-19T140122.000Z.jpg"
   ]
 }

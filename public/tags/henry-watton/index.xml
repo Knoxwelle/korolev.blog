@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henry Watton on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/henry-watton/</link>
+    <description>Recent content in Henry Watton on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/henry-watton/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learn from building architects</title>
+      <link>http://localhost:1313/posts/learn-from-building-architects/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/learn-from-building-architects/</guid>
+      <description>Architecture is a social act and a material theater of human activity.Spiro Kostof (Spiro Kostof)&#xA;How many software architects consider their role to be exclusively (or primarily) technical?Shouldn&amp;rsquo;t they actually be intermediaries and arbitrators for the warring factions among the parties interested in the project? How many of them view their work purely from an intellectual standpoint, without giving due attention to the human factor?&#xA;An architect becomes great not so much through intellect as through a pure, sensitive heart.Frank Lloyd Wright (Frank Lloyd Wright)&#xA;What is more characteristic of the architects in your organization: unbridled intellectual power and the ability to remember the smallest technical details, or good taste, sophistication, and generosity of spirit?In what kind of atmosphere would you prefer to work yourself?</description>
+    </item>
+  </channel>
+</rss>

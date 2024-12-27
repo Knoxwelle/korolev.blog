@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Needs on Korolev Blog</title>
+    <link>http://localhost:1313/tags/needs/</link>
+    <description>Recent content in Needs on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 May 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/needs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Success is hampered by scale</title>
+      <link>http://localhost:1313/posts/success-is-hampered-by-scale/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/success-is-hampered-by-scale/</guid>
+      <description>The scope of the project is defined by its boundaries.How much time, energy, and money are needed to put it into practice? What degree of quality and usefulness are necessary? To what extent is meeting the deadline for product delivery a challenge? What kind of danger exists? What are the boundaries? The project&amp;rsquo;s boundaries are established by the responses to these queries. Large-scale, intricate projects present a challenge that software architects relish. People are even tempted to inflate the project&amp;rsquo;s size in order to give the impression that it is more important due to the prospective rewards.However, because the chance of failure is increasing more quickly than anticipated, expanding borders is the enemy of success. An order of magnitude increase in project scale typically translates into an increased risk of failure.</description>
+    </item>
+    <item>
+      <title>Never put the demands of the client ahead of your resume</title>
+      <link>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</guid>
+      <description>As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off.&#xA;Your grateful clients who are lining up to recommend you to others will be the most effective career catalyst because of how well you have served them. The gracious customers will provide you with greater service than any recently developed paradigm or in-vogue item in the new language. Architects need to stay up to date on evolving concepts and technologies, but you should never try to take on additional work at the client&amp;rsquo;s expense. It is imperative for architects to always remember that their organization&amp;rsquo;s success is their responsibility.</description>
+    </item>
+  </channel>
+</rss>

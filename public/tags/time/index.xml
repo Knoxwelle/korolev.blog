@@ -1,61 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Time on Tiny Dev Blog</title>
+    <title>Time on Korolev Blog</title>
     <link>http://localhost:1313/tags/time/</link>
-    <description>Recent content in Time on Tiny Dev Blog</description>
+    <description>Recent content in Time on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/time/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enterprise interview</title>
       <link>http://localhost:1313/posts/enterprise-interview/</link>
-      <pubDate>Mon, 05 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/enterprise-interview/</guid>
       <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
     </item>
     <item>
-      <title>There could be a number of answers</title>
-      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
-      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
-    </item>
-    <item>
-      <title>Apply numerical standards</title>
-      <link>http://localhost:1313/posts/apply-numerical-standards/</link>
-      <pubDate>Sun, 02 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/apply-numerical-standards/</guid>
-      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Not only does it have a quick reaction time, but it&amp;rsquo;s also &amp;ldquo;expandable.&amp;rdquo; The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect&amp;rsquo;s duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer&amp;rsquo;s obsession with inane concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and his or her own whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”).&#xA;Generally, we try to document all of these requests along with any other information. All too often, though, this section seems to be a list of vague words like &amp;ldquo;friendly to accompany,&amp;rdquo; &amp;ldquo;flexible,&amp;rdquo; and so on.</description>
+      <title>Time changes everything</title>
+      <link>http://localhost:1313/posts/time-changes-everything/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/time-changes-everything/</guid>
+      <description>Seeing what has survived and what hasn&amp;rsquo;t has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?&#xA;Pick a noble assignment For a software architect, this is highly challenging. We receive assignments and issues from the client, so we really don&amp;rsquo;t have a choice, do we? It&amp;rsquo;s not really that easy. First of all, we frequently make the error of thinking that we have little power over what the customer desires. But it&amp;rsquo;s typically possible to just step outside of your comfort zone when it comes to technology.</description>
     </item>
     <item>
       <title>Architectural compromises</title>
       <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/architectural-compromises/</guid>
       <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
     </item>
     <item>
-      <title>Never put the demands of the client ahead of your resume</title>
-      <link>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</link>
-      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</guid>
-      <description>As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off.&#xA;Your grateful clients who are lining up to recommend you to others will be the most effective career catalyst because of how well you have served them. The gracious customers will provide you with greater service than any recently developed paradigm or in-vogue item in the new language. Architects need to stay up to date on evolving concepts and technologies, but you should never try to take on additional work at the client&amp;rsquo;s expense. It is imperative for architects to always remember that their organization&amp;rsquo;s success is their responsibility.</description>
-    </item>
-    <item>
-      <title>Take quick action to get away from this crime</title>
-      <link>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</link>
-      <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</guid>
-      <description>It&amp;rsquo;s almost evening. The command is nice about the new features planned for the present iteration; even the room seems to be pulsing at a working rate. However, John is a little hurried because he&amp;rsquo;s waiting for a date. There&amp;rsquo;s still time for him to dash off, rework his part of the code, build it, and upload it to the source code repository. The &amp;ldquo;red light&amp;rdquo; illuminates, and the app&amp;rsquo;s construction is interrupted after a few minutes. John acted precipitously, believing that his lack of time for automated tests would force the team to stall.&#xA;The situation has changed; the working rhythm has failed. Now everyone knows that when they update the code from the version control system, it will break on their own computers.</description>
-    </item>
-    <item>
-      <title>500 lines of specification are needed for every line of functioning code</title>
-      <link>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</guid>
-      <description>Promising is a beautiful thing. Specifications are important in this sense because they set the foundation for building systems. Taking into account the behavior of individual components as well as the interconnections between them on a micro and macro scale is essential when analyzing the architecture as a whole.&#xA;Unfortunately, architects are often fascinated with design and gravitate toward architectural abstractions. However, the specs are meaningless on their own. The ultimate goal of the software project is to create a fully functional system. The architect should never lose sight of this goal or the fact that design is only a tool and not the finished product. The architect of the skyscraper would soon come to regret defying physics to achieve the elegant design of the edifice.</description>
+      <title>Try not to alter the timetable</title>
+      <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
+      <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
     </item>
   </channel>
 </rss>

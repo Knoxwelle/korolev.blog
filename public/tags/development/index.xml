@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Tiny Dev Blog</title>
+    <title>Development on Korolev Blog</title>
     <link>http://localhost:1313/tags/development/</link>
-    <description>Recent content in Development on Tiny Dev Blog</description>
+    <description>Recent content in Development on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 -0700</lastBuildDate>
@@ -16,11 +16,32 @@
       <description>In terms of design, the collection is no longer the &amp;ldquo;Big Bang&amp;rdquo; for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.&#xA;The term continuous integration (CI) was first proposed by Martin Fowler as a design template. It describes a set of methods and tools that ensure reliable, automated application testing and assembly across short time intervals (often on an integration server designed to do these functions). These days, all software projects must use continuous integration, which blends automated assembly tools with modular testing methods and resources.&#xA;Now that the project&amp;rsquo;s components have been assembled, they have been tested. Continuous integration now occupies the space previously occupied by &amp;ldquo;early and frequent assembly.</description>
     </item>
     <item>
+      <title>One step in the design process is programming</title>
+      <link>http://localhost:1313/posts/one-step-in-the-design-process-is-programming/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/one-step-in-the-design-process-is-programming/</guid>
+      <description>Programming is learning, according to Kristen Nygaard, the creator of the object-oriented mapping and programming language Simula. Improving development processes fundamentally requires an understanding that programming, or more accurately, software development, is a process of study and creative search rather than production and design. In software development, concepts from conventional engineering disciplines are inapplicable. Leading scholars in our profession have spent more than 30 years documenting and analyzing the issues that emerge. For instance, in the &amp;ldquo;Rapport of the Ratifying Group of the Ministry of Defense Scientific Council on Military Software,&amp;rdquo; Frederick Brooks, Jr. contended in 1987 that a lot of software issues stemmed from the document-oriented methodology of &amp;ldquo;first specification, then development.&amp;rdquo;.&#xA;Where might the software sector find useful inspiration to advance its methods?</description>
+    </item>
+    <item>
+      <title>It is written in lowercase as software architect</title>
+      <link>http://localhost:1313/posts/it-is-written-in-lowercase-as-software-architect/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/it-is-written-in-lowercase-as-software-architect/</guid>
+      <description>There has been a depressing tendency in the field of software development lately: the aim to elevate software design to a professional standing comparable to that of the traditional school of architecture. Architects seem to want to validate their accomplishments in the eyes of the general public instead of their immediate employers and network of peers. However, it wasn&amp;rsquo;t until the end of the 19th century—a millennium after its inception—that architecture achieved professional stature. Some software architects rush their attempts to gain attention.&#xA;However, software development is still in its infancy. This industry still lacks enough knowledge for us to credibly classify it as professional. The software development sector is relatively new, but despite this, its products are highly appreciated, and qualified experts in the field—as well as those who aspire to appear—are compensated at a level commensurate with top professional disciplines like law, accounting, and medicine.</description>
+    </item>
+    <item>
       <title>Everything is run by business</title>
       <link>http://localhost:1313/posts/everything-is-run-by-business/</link>
       <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/everything-is-run-by-business/</guid>
       <description>When it comes to developing corporate software applications, the architect should act as a kind of go-between for the technical and business communities inside the organization, representing and defending each group&amp;rsquo;s interests, resolving conflicts on a regular basis, and allowing the business to operate as usual. The architect&amp;rsquo;s technology choices must take the organization&amp;rsquo;s business objectives and external surroundings into consideration.&#xA;Before beginning a software development project, a software development business usually plans and promotes the desired return on investment (ROI). The architect has to acknowledge this signal and the resulting limitations on the product&amp;rsquo;s business value.This will help prevent the need of technical solutions that could be extremely expensive. The return rate should be taken into consideration in the overall target context when talking about the technical architecture and implementation with the development team and when interacting with management (during the process of determining how to strike a balance between the cost and benefit of a given function).</description>
+    </item>
+    <item>
+      <title>Take quick action to get away from this crime</title>
+      <link>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/take-quick-action-to-get-away-from-this-crime/</guid>
+      <description>It&amp;rsquo;s almost evening. The command is nice about the new features planned for the present iteration; even the room seems to be pulsing at a working rate. However, John is a little hurried because he&amp;rsquo;s waiting for a date. There&amp;rsquo;s still time for him to dash off, rework his part of the code, build it, and upload it to the source code repository. The &amp;ldquo;red light&amp;rdquo; illuminates, and the app&amp;rsquo;s construction is interrupted after a few minutes. John acted precipitously, believing that his lack of time for automated tests would force the team to stall.&#xA;The situation has changed; the working rhythm has failed. Now everyone knows that when they update the code from the version control system, it will break on their own computers.</description>
     </item>
   </channel>
 </rss>

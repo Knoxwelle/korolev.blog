@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Evans on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/eric-evans/</link>
+    <description>Recent content in Eric Evans on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Jan 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/eric-evans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The architects focus is on boundaries and interfaces</title>
+      <link>http://localhost:1313/posts/the-architects-focus-is-on-boundaries-and-interfaces/</link>
+      <pubDate>Thu, 11 Jan 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-architects-focus-is-on-boundaries-and-interfaces/</guid>
+      <description>Since Lord Nelson destroyed the French and Spanish fleets at Trafalgar in 1805, the principle of &amp;ldquo;divide and conquer&amp;rdquo; has become the main mantra for solving complex, intricate problems. Another, more familiar term with the same meaning is separation of concerns.The division of responsibility leads to encapsulation, and encapsulation contributes to the delineation of boundaries and interfaces.&#xA;If we look at the task through the eyes of an architect, the most challenging part is finding natural places to establish boundaries and determining suitable interfaces necessary for creating a functional system.This is especially difficult to achieve in large corporate systems, where natural boundaries are often very few, and various subject areas are closely intertwined.In such situations, traditional principles like &amp;ldquo;minimize coupling, maximize cohesion&amp;rdquo; and &amp;ldquo;don&amp;rsquo;t cut where intensive information exchange is needed&amp;rdquo; are somewhat helpful; however, they do not provide guidance on how to effectively communicate information about tasks and potential solutions to stakeholders.</description>
+    </item>
+  </channel>
+</rss>

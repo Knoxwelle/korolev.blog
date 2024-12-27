@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Factors on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/factors/</link>
+    <description>Recent content in Factors on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/factors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Question assumptions—especially your own</title>
+      <link>http://localhost:1313/posts/question-assumptionsespecially-your-own/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/question-assumptionsespecially-your-own/</guid>
+      <description>The Law of Unintended Consequences states: &amp;ldquo;Assumptions are the root of all failures.&amp;ldquo;Of course, the wording isn&amp;rsquo;t very serious, but when assumptions cost you several thousand (or even millions) of dollars, it’s no laughing matter.&#xA;The experience of software architects indicates that the rationale for each decision made should be documented, especially if the decision involves a compromise (between performance and maintainability, between cost and time to market, etc.).In a more formal approach, the context in which each decision is made is recorded, including the factors that influenced the final choice. Such factors can include not only functional or non-functional requirements but also facts (or &amp;ldquo;factoids&amp;rdquo;) that seem important to the decision-maker (such as technology constraints, employee qualifications, the political environment, etc.).&#xA;The practice of documenting decisions is useful because listing these factors helps to highlight the implicit assumptions that influence important decisions regarding the designed product.</description>
+    </item>
+  </channel>
+</rss>

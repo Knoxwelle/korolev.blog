@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Team on Tiny Dev Blog</title>
+    <title>Team on Korolev Blog</title>
     <link>http://localhost:1313/tags/team/</link>
-    <description>Recent content in Team on Tiny Dev Blog</description>
+    <description>Recent content in Team on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/team/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A practitioner must be the architect</title>
-      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
-      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
-    </item>
-    <item>
-      <title>Issues can extend beyond what they see in the mirror</title>
-      <link>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</guid>
-      <description>I&amp;rsquo;ve been working on a few different programming projects. All of them encountered problems that turned out to be more difficult than the development team had predicted. This typically manifested itself in the following ways: although a minority of team members saw these problems at an early stage, most workers rejected or ignored any warning signs since they were too late to realize how serious they were.&#xA;This happens for a number of reasons:&#xA;-Project-related issues that don&amp;rsquo;t seem vital at first become crucial when it&amp;rsquo;s too late to fix them. The story of the welded frog is obviously a farce, but it well illustrates the mistakes that can be made in a lot of projects.&#xA;-When other team members don&amp;rsquo;t have the same level of skill or experience, some employees frequently encounter resistance.</description>
+      <title>Try before you decide</title>
+      <link>http://localhost:1313/posts/try-before-you-decide/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
+      <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "2c77e5235496f1a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "781461cab4be81a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63a26ad8b24d63ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/Reuse involves more factors than only architecture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5f0daee8b5249e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea22e5b3c325f09c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "154ff832aca75efb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "f8fac548194ac68f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81ed4e426435bc4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 503.5
+  },
+  "right": {
+    "id": "45775cd4cc832aed",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc25f5abf132c807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d93a169373db6edc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/Reuse involves more factors than only architecture.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8401c9771697d3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/Reuse involves more factors than only architecture.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb2d644712a987ba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4e36d1721f5e1c80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/Reuse involves more factors than only architecture.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "63a26ad8b24d63ea",
+  "lastOpenFiles": [
+    "posts/Relying too much on architectural metaphors should be avoided.md",
+    "posts/Take advice from architects.md",
+    "posts/Programming is a step in the design process..md",
+    "posts/Programming is a step in the design process.txt",
+    "posts/Perspective as seen from 300 meters.md",
+    "posts/Simplicity is preferable to versatility.md",
+    "posts/Maybe it s not technology that is bothering you.md",
+    "posts/Perspective as seen from 300 meters.txt",
+    "posts/Pathology of patterns.md",
+    "posts/Pathology of patterns.txt",
+    "posts/Never put the demands of the client ahead of your resume.md",
+    "posts/For every line of functional code, 500 lines of specification are required.md",
+    "posts/Never put the demands of the client ahead of your resume.txt",
+    "posts/Maybe it's not technology that's bothering you.txt",
+    "posts/Making Things in the Dark.md",
+    "posts/Making Things in the Dark.txt",
+    "posts/Making a fort out of a database.md",
+    "posts/Making a fort out of a database.txt",
+    "posts/Leadership and clarity are the king's true companions, and communication is the monarch..md",
+    "posts/Leadership and clarity are the king's true companions, and communication is the monarch.txt",
+    "posts/Kings, wizards, elves, and dwarfs.md",
+    "posts/Kings, wizards, elves, and dwarfs.txt",
+    "posts/Issues can extend beyond what they see in the mirror.md",
+    "posts/Issues can extend beyond what they see in the mirror.txt",
+    "posts/Investigate the topic.md",
+    "posts/For every line of functional code, 500 lines of specification are required. (2).md",
+    "posts/Give developers their own space.md",
+    "posts/Act immediately to escape this crime.md",
+    "posts/Fight the repetitions.md",
+    "posts/Failures are unavoidable.md",
+    "posts/Everything is run by business.md",
+    "posts/Enterprise interview.md",
+    "posts/Do not direct instead, watch.md",
+    "posts/Diversity prevails.md",
+    "posts/Determine what the needs actually mean.md",
+    "posts/Cut down on the inherent complexity and do away with the incidental complication.md",
+    "images/cover/knoxwelle__2024-08-25T010835.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T145454.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T150225.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173907.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T180113.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140333.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140122.000Z.jpg"
+  ]
+}

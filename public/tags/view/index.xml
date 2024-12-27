@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>View on Korolev Blog</title>
+    <link>http://localhost:1313/tags/view/</link>
+    <description>Recent content in View on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perspective as seen from 300 meters</title>
+      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
+      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cabinet on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/cabinet/</link>
+    <description>Recent content in Cabinet on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cabinet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do not get carried away by architectural metaphors</title>
+      <link>http://localhost:1313/posts/do-not-get-carried-away-by-architectural-metaphors/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-get-carried-away-by-architectural-metaphors/</guid>
+      <description>Architects love dealing with metaphors.Metaphors allow us to give tangibility to abstract, complex, and elusive topics.When communicating with other team members or during discussions about architecture with the end user, there is an irresistible temptation to choose an expressive metaphor, familiar from the real world, that would describe what you are trying to build.&#xA;Usually, everything starts off well: the interlocutors find common ground, and it seems that everything is heading in the right direction.A metaphor develops and grows until it begins to live a life of its own.People treat her favorably – progress is evident!&#xA;And then usually comes the moment when the architectural metaphor suddenly becomes dangerous and rises up against its creators.Here&amp;rsquo;s how it might happen:&#xA;If your metaphor starts to appeal to the client more than the system being developed itself, it means that all interested parties begin to believe in the beautiful illusion created by the metaphor, unwilling to delve into what is actually hidden behind it.</description>
+    </item>
+  </channel>
+</rss>

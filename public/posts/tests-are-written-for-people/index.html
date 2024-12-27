@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/tests-are-written-for-people/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Tests are written for people • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Tests are written for people">
+<meta name="twitter:description" content="You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: &ldquo;Who am I writing for?&rdquo; these tests?». If the answer is &ldquo;I write them for myself to reduce costs for debugging&rdquo; or &ldquo;for the compiler to execute them,&rdquo; then it&rsquo;s quite possible that you are not writing the best tests. So, for whom Why write tests? For those who will try to understand your code.
+Good tests serve as documentation for the code they are testing. They describe how the code works.">
+
+<meta property="og:url" content="http://localhost:1313/posts/tests-are-written-for-people/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Tests are written for people">
+  <meta property="og:description" content="You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: “Who am I writing for?” these tests?». If the answer is “I write them for myself to reduce costs for debugging” or “for the compiler to execute them,” then it’s quite possible that you are not writing the best tests. So, for whom Why write tests? For those who will try to understand your code.
+Good tests serve as documentation for the code they are testing. They describe how the code works.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-30T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-09-30T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Tests are written for people</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Sep 30, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2017-06-13T102153.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: &ldquo;Who am I writing for?&rdquo;
+these tests?». If the answer is &ldquo;I write them for myself to reduce costs
+for debugging&rdquo; or &ldquo;for the compiler to execute them,&rdquo; then it&rsquo;s quite possible that you are not writing the best tests. So, for whom
+Why write tests? For those who will try to understand your code.</p>
+<p>Good tests serve as documentation for the code they are testing. They describe how the code works. For each use case, the tests do the following:</p>
+<p>-Describe the context, starting point, or prerequisites that must be met.</p>
+<ul>
+<li>They illustrate how the application is invoked.</li>
+<li>Describe the expected results or postconditions that need to be verified.</li>
+</ul>
+<p>In various usage scenarios, the options for these actions will be slightly
+differ. Anyone who tries to understand your code should be able to
+look at several tests and, by comparing these three parts of the tests under consideration, be able to determine what makes the program work in different cases
+differently. Each test should clearly illustrate the cause-and-effect
+connections between these three parts.</p>
+<p>From this, it follows that the invisible part of the test is as important as the visible part. The abundance of code in the test distracts the reader&rsquo;s attention to insignificant details.
+hide such details in understandable method calls, and in this you
+The Extract Method refactoring technique will be very helpful. And try to give each test an expressive name so that it describes a specific use case, and the person reading the tests doesn&rsquo;t have to
+analyze each test in an attempt to understand what the differences are
+between scenarios. In all cases, the test class name and the class method name must contain at least the entry point and the way to call the application. This will allow for a simple reading of the method names to check the test coverage. It is often useful to include the expected results in the test method names, unless
+this won&rsquo;t make the names too long to read or perceive.</p>
+<p>Testing the tests themselves is also a good idea. You can check if they can
+detect errors that should be found if these errors are introduced into the production code (of course, in the local copy of the code, which
+you will throw them away later). Make sure that the tests produce useful and meaningful reports. You also need to check that your tests speak a language understandable to the
+who understands your code. This can be done only if you let them read it
+tests to a programmer who is not familiar with your code and listen to their impressions. If something is unclear to them, don&rsquo;t attribute it to a lack of mental ability. It is more likely that you failed to write clear code. Try switching roles and reading their tests!</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/a-verbose-journal-will-deprive-you-of-sleep/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">A verbose journal will deprive you of sleep</span>
+    </a>
+    
+    
+    <a href="/posts/give-developers-their-own-space/" class="navigation-next">
+      <span class="navigation-tittle">Give developers their own space</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZHZHEBE8QZ"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-ZHZHEBE8QZ');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

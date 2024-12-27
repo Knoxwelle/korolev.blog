@@ -1,54 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software on Tiny Dev Blog</title>
+    <title>Software on Korolev Blog</title>
     <link>http://localhost:1313/tags/software/</link>
-    <description>Recent content in Software on Tiny Dev Blog</description>
+    <description>Recent content in Software on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building architecture as a balancing art</title>
-      <link>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</guid>
-      <description>When designing a software architecture, the conventional technical procedures that spring to mind are disassembling the system into its constituent pieces, specifying interfaces, allocating responsibilities, employing templates, and optimizing performance. A wide range of other variables, including output management, deployment settings, convenience of use, safety, and maintenance, must also be taken into account by the architect.Meanwhile, every one of these technical and procedural specifics must be relevant to the requirements of the stakeholders.Taking these interests into account during the requirements analysis process is one of the greatest ways to ensure that the requirements specifications for the product being developed are thorough.&#xA;Every project participant has interests that affect both the company&amp;rsquo;s software development process and the firm as a whole. Taking these interests into account leads to the architect&amp;rsquo;s final list of priorities.</description>
-    </item>
-    <item>
-      <title>Failures are unavoidable</title>
-      <link>http://localhost:1313/posts/failures-are-unavoidable/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/failures-are-unavoidable/</guid>
-      <description>It increases the likelihood that the system will experience a malfunction at least once in any given period of time, but it also makes it possible to survive isolated hardware failures.&#xA;The software code is also vulnerable. We employ monitoring tools to keep track of application issues, but because they depend on software, these tools might sometimes break.&#xA;We try to automate our diagnoses, actions, and workflows since humans are fallible. Automation increases the likelihood of errors coming from rule noncompliance but decreases the likelihood of errors resulting from rule violations. More circumstances can be handled by a human than by any automated technology.&#xA;For this reason, we&amp;rsquo;re including monitoring techniques in automated solutions. new software with fresh bugs. Networks are made up of hardware, software, and long communication lines.</description>
-    </item>
-    <item>
-      <title>Everything is run by business</title>
-      <link>http://localhost:1313/posts/everything-is-run-by-business/</link>
-      <pubDate>Tue, 04 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/everything-is-run-by-business/</guid>
-      <description>When it comes to developing corporate software applications, the architect should act as a kind of go-between for the technical and business communities inside the organization, representing and defending each group&amp;rsquo;s interests, resolving conflicts on a regular basis, and allowing the business to operate as usual. The architect&amp;rsquo;s technology choices must take the organization&amp;rsquo;s business objectives and external surroundings into consideration.&#xA;Before beginning a software development project, a software development business usually plans and promotes the desired return on investment (ROI). The architect has to acknowledge this signal and the resulting limitations on the product&amp;rsquo;s business value.This will help prevent the need of technical solutions that could be extremely expensive. The return rate should be taken into consideration in the overall target context when talking about the technical architecture and implementation with the development team and when interacting with management (during the process of determining how to strike a balance between the cost and benefit of a given function).</description>
-    </item>
-    <item>
-      <title>Communication is the king, clarity and leadership are his true companions</title>
-      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</link>
-      <pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</guid>
-      <description>Too often, software architects live in ivory towers, prescribing to developers the technologies and procedures to follow while providing them with little or no assistance. This simultaneously leads to conflict and, shortly after, a &amp;ldquo;popular uprising.&amp;rdquo; The final result is a piece of software that is completely unrelated to the initial requirements. Any software architect must be able to clearly communicate the goals and objectives of the software project to his peers. Leadership and clarity are prerequisites for effective communication.&#xA;a method of communication that is precise and short. Nobody in your group will read a hundred-page booklet outlining your architectural decisions. Every program or endeavor must have effective concept communication in order to be successful. When you first start working on the project, don&amp;rsquo;t start writing long-word descriptions; instead, stick to succinct explanations.</description>
+      <title>Perspective as seen from 300 meters</title>
+      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
+      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
     </item>
     <item>
       <title>Architectural compromises</title>
       <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/architectural-compromises/</guid>
       <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
-    </item>
-    <item>
-      <title>Versatility is inferior to simplicity</title>
-      <link>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</guid>
-      <description>A typical problem with them is that a lot of frameworks, class libraries, fundamental services, and other infrastructure code are designed to be utilized anywhere and aren&amp;rsquo;t specific to any one application. Since most developers are experts in specific systems, it rarely helps them to try to be as adaptable as possible. The best way to achieve universality isn&amp;rsquo;t through universality based on conjecture, but rather through a careful understanding of well-known concrete examples and an analysis of their essence to find a fundamentally shared solution. Experience in the real world leads to simplicity.&#xA;Making an architectural design simpler rather than more feature-rich makes it simpler to decide between two solutions that are identical to each other. When there are two possibilities, go with the simpler, needs-based solution rather than the more flexible, complex one.</description>
     </item>
   </channel>
 </rss>

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Management on Tiny Dev Blog</title>
+    <title>Management on Korolev Blog</title>
     <link>http://localhost:1313/tags/management/</link>
-    <description>Recent content in Management on Tiny Dev Blog</description>
+    <description>Recent content in Management on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A practitioner must be the architect</title>
+      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
+      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
+    </item>
     <item>
       <title>Everything is run by business</title>
       <link>http://localhost:1313/posts/everything-is-run-by-business/</link>

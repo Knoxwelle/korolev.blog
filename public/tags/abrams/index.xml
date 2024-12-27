@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abrams on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/abrams/</link>
+    <description>Recent content in Abrams on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Mar 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/abrams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Context dictates the rules</title>
+      <link>http://localhost:1313/posts/context-dictates-the-rules/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/context-dictates-the-rules/</guid>
+      <description>I see some irony here: I begin the conversation about the ideals of architecture with the statement that, in essence, ideals do not exist.Well, if there aren&amp;rsquo;t any, then apparently there&amp;rsquo;s nothing more to write about&amp;hellip;There is a clear contradiction, and attempts to continue in the same vein could, heaven forbid, lead to the destruction of the Universe or something else of that sort – who knows?&#xA;But alas, this is not a pipe.&#xA;One of the most valuable lessons I&amp;rsquo;ve learned from my experience as a software architect is this: context matters, and simplicity helps.In practical terms, this means that context is the only force that surpasses simplicity in making architectural decisions.&#xA;When I speak of context, I mean not only the immediate high-level indicators such as key business factors, but also the elements that have an indirect influence (for example, new technologies and intellectual leadership on a particular issue).</description>
+    </item>
+  </channel>
+</rss>

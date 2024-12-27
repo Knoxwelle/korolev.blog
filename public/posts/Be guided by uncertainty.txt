@@ -1,0 +1,17 @@
++++
+title = 'Be guided by uncertainty'
+date = 2024-06-13T00:00:00-07:00
+draft = false
+categories = ["e"]
+tags = ["use", "grady booch", "architecture", "m-m-m", "design", "decision", "choice", "system", "architect"]
+cover_image='/images/cover/knoxwelle__2017-09-12T080328.000Z.jpg'
++++
+When faced with options, people frequently believe that choosing the best course of action is what really counts. This is not true in terms of design, be it software or anything else. When an alternative exists, an analysis of the uncertainty in the system's design is required. To reduce the importance of design decisions, utilize abstraction and breakdown. Alternatively, use uncertainty as a determining factor to identify places where you can postpone going into detail. You could "sew" whatever option comes to mind mindlessly into the system, which could tie your hands later.The software product will become less flexible as a result, and arbitrary judgments will begin to take center stage.
+
+One of the best and most useful definitions of architecture was offered by Grady Booch, who stated that "all architecture is the product of design, even though not all designs are intended to result in architecture." The architecture of the system is a representation of the important design choices that have molded it; the cost of making changes determines how important these choices are." Therefore, an architecture is efficient if it generally reduces the importance of design decisions. This becomes even more important when the architecture is inefficient. If one of the two paths is taken by a design solution, the architect must step back. "How do I build a solution that lessens the relevance of a choice between alternatives "A" and "B"?" is a question he ought to ask himself. as opposed to needing to choose between options A and B? The fact that there is an alternative at all (and that the ideal option isn't always obvious or constant) is more significant in this situation than whether option A or option B is the better one. 
+
+It could take an architect some time to realize there is a contradiction. Are you and a colleague arguing passionately about a few ideas on the board? Are you feverishly experimenting with different combinations, purposely splattering "M-m-m" and "E-e-e" all over the code? When a new requirement or clarification of an existing one casts doubt on the viability of the current implementation, you are faced with uncertainty. How do we react to it? To keep a decision apart from the code that eventually relies on it, think about applying separation or encapsulation. Often, the alternative is the unclear code, which sounds like someone who is nervous during an interview and attempts to compensate by using a lot of terminology and making a lot of assumptions. Furthermore, the project will swiftly and carelessly head in the wrong direction if the decision is made with great but misguided confidence.
+
+ If you are unsure about any of the numerous options for developing the system, make no decisions at all. If you have reliable information to help you make a more responsible decision, wait a little bit to make that decision, but don't wait too long to avoid wasting that information.
+
+Given the intimate relationship between architecture and the design process, the architect ought to give empirical architectural techniques that provide feedback and design cycles top priority. This will enable the architect to break down the system into its component elements and schedule its design, making good use of uncertainty.

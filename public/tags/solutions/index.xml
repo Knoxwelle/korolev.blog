@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Solutions on Tiny Dev Blog</title>
+    <title>Solutions on Korolev Blog</title>
     <link>http://localhost:1313/tags/solutions/</link>
-    <description>Recent content in Solutions on Tiny Dev Blog</description>
+    <description>Recent content in Solutions on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/solutions/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cut down on the inherent complexity and do away with the incidental complication</title>
-      <link>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</guid>
-      <description>For example, national air traffic coordination is a labor-intensive process. The control system needs to keep track of every aircraft&amp;rsquo;s precise location at all times, including height, speed, direction, and destination, in order to prevent collisions both in the air and on the runways. In addition, under constantly shifting circumstances, it&amp;rsquo;s imperative to quickly adjust aircraft schedules to avoid traffic bottlenecks at airports. A significant shift in the weather calls for a thorough reworking of the schedule.&#xA;On the other hand, unintended complexity arises from issues that we feel need to be handled in order to reduce the inherent complexity. A simple illustration of complexity is the flight management system, which is still in use even though it is outdated. The system was developed to manage the challenging task of coordinating the flight of thousands of aircraft; yet, this approach is not without its problems.</description>
-    </item>
-    <item>
-      <title>Versatility is inferior to simplicity</title>
-      <link>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</guid>
-      <description>A typical problem with them is that a lot of frameworks, class libraries, fundamental services, and other infrastructure code are designed to be utilized anywhere and aren&amp;rsquo;t specific to any one application. Since most developers are experts in specific systems, it rarely helps them to try to be as adaptable as possible. The best way to achieve universality isn&amp;rsquo;t through universality based on conjecture, but rather through a careful understanding of well-known concrete examples and an analysis of their essence to find a fundamentally shared solution. Experience in the real world leads to simplicity.&#xA;Making an architectural design simpler rather than more feature-rich makes it simpler to decide between two solutions that are identical to each other. When there are two possibilities, go with the simpler, needs-based solution rather than the more flexible, complex one.</description>
+      <title>Time changes everything</title>
+      <link>http://localhost:1313/posts/time-changes-everything/</link>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/time-changes-everything/</guid>
+      <description>Seeing what has survived and what hasn&amp;rsquo;t has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?&#xA;Pick a noble assignment For a software architect, this is highly challenging. We receive assignments and issues from the client, so we really don&amp;rsquo;t have a choice, do we? It&amp;rsquo;s not really that easy. First of all, we frequently make the error of thinking that we have little power over what the customer desires. But it&amp;rsquo;s typically possible to just step outside of your comfort zone when it comes to technology.</description>
     </item>
   </channel>
 </rss>

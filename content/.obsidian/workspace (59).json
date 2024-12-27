@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "100f3fb561c4099e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cf0b9465c52dbf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45557714b806678e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/For every line of functional code, 500 lines of specification are required. (2).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53a59fc00b18e4b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6df50466cfdb3e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebb945e92ce2805b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c2df0ab8c81651cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9527cbc38870bf41",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ac8e3077fdc48fd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8040769738804b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45d099fb0c6fb1e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "posts/For every line of functional code, 500 lines of specification are required. (2).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b52230071719fed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "posts/For every line of functional code, 500 lines of specification are required. (2).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f258a0e1c63f23f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "06e2c688b8850358",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "posts/For every line of functional code, 500 lines of specification are required. (2).md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "45557714b806678e",
+  "lastOpenFiles": [
+    "images/cover/knoxwelle__2017-06-13T102651.000Z.jpg",
+    "images/cover/knoxwelle__2022-11-22T043648.000Z.jpg",
+    "images/cover/knoxwelle__2020-07-03T221847.000Z.jpg",
+    "images/cover/knoxwelle__2020-09-26T181252.000Z.jpg",
+    "images/cover/knoxwelle__2019-12-18T164441.000Z.jpg",
+    "images/cover/knoxwelle__2022-12-23T082709.000Z.jpg",
+    "images/cover/knoxwelle__2020-01-18T211918.000Z.jpg",
+    "images/cover/knoxwelle__2020-06-23T102223.000Z.jpg",
+    "images/cover/knoxwelle__2023-03-12T175241.000Z.jpg",
+    "images/cover/knoxwelle__2019-09-28T050434.000Z.jpg",
+    "images/cover/knoxwelle__2024-02-13T072918.000Z.jpg"
+  ]
+}

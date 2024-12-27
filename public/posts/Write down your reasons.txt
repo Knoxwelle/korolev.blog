@@ -1,0 +1,30 @@
++++
+title = 'Write down your reasons'
+date = 2024-01-23T00:00:00-07:00
+draft = false
+categories = []
+tags = ["mark richards", "documentation", "project", "software", "format", "developers"]
+cover_image='/images/cover/knoxwelle__2019-11-27T142205.000Z.jpg'
++++
+In the developer community, there are quite a few disagreements regarding the value of documentation, especially when it comes to the architecture of software products.These disagreements are usually related to subjective views on the value of "thorough preliminary design" and the complexities that arise from the constant updating of project documentation in accordance with changes in the codebase.
+
+One type of documentation that hardly ever becomes outdated, requires little effort to prepare, and almost always pays off is the record of the justifications behind various architectural decisions. As Mark Richards explains in the study "Architectural Compromises," the creation of software architecture essentially comes down to finding reasonable compromises between various quality attributes, costs, time, and other factors.It should be absolutely clear to you, the management, developers, and other stakeholders involved in the project, why one solution has been preferred over others and what compromises this has led to. (Did you sacrifice horizontal scalability for the sake of reducing costs on equipment and licenses?) Are the security issues so serious that they justify an increase in response time for the sake of data encryption?
+
+The format of such documentation depends on the specifics of the project and can vary from brief notes in a text document, wiki, or blog to formal templates that reflect all aspects of each architectural solution.Regardless of the type and format, this document should address the following key questions: "What is the essence of the decision made?" and "Why did we make this decision?"Another common question that should be addressed there is: "What alternative solutions were considered and why were they rejected?" (In fact, people often ask: "Why didn't you do it the way I suggested?").The documentation should provide the possibility of search, so that the required information can be easily found when necessary.
+
+Such documentation can be useful in many situations:
+
+-To inform developers about important architectural principles that should be followed in their work.
+
+-To create a unified vision of the project among team members (and even to prevent rebellion) when developers question the logic of the architecture (and possibly to humbly accept criticism if the solution indeed proves to be flawed upon closer examination).
+
+-To demonstrate to management and stakeholders the reasons why the software product is built in a certain way and not otherwise (for example, why some expensive equipment or software component is necessary).
+
+-To hand over the project to a new architect (how many times, when inheriting a software product, have you tried to understand why the architects made those specific choices?).
+
+However, the most important advantages of this practice are as follows:
+
+-She makes you explicitly formulate your arguments, testing their reliability (see the following study "Doubt the assumptions – especially your own").
+- It provides a starting point for reevaluating decisions in the event of changes in the conditions upon which those decisions depend.
+
+In terms of the effort required for preparation, such documentation is comparable to notes taken during meetings or thematic discussions. However, whatever format you choose, these efforts will pay off.

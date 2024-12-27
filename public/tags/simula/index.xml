@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simula on Korolev Blog</title>
+    <link>http://localhost:1313/tags/simula/</link>
+    <description>Recent content in Simula on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/simula/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One step in the design process is programming</title>
+      <link>http://localhost:1313/posts/one-step-in-the-design-process-is-programming/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/one-step-in-the-design-process-is-programming/</guid>
+      <description>Programming is learning, according to Kristen Nygaard, the creator of the object-oriented mapping and programming language Simula. Improving development processes fundamentally requires an understanding that programming, or more accurately, software development, is a process of study and creative search rather than production and design. In software development, concepts from conventional engineering disciplines are inapplicable. Leading scholars in our profession have spent more than 30 years documenting and analyzing the issues that emerge. For instance, in the &amp;ldquo;Rapport of the Ratifying Group of the Ministry of Defense Scientific Council on Military Software,&amp;rdquo; Frederick Brooks, Jr. contended in 1987 that a lot of software issues stemmed from the document-oriented methodology of &amp;ldquo;first specification, then development.&amp;rdquo;.&#xA;Where might the software sector find useful inspiration to advance its methods?</description>
+    </item>
+  </channel>
+</rss>

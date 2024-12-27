@@ -1,110 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Drafts on Tiny Dev Blog</title>
+    <title>Drafts on Korolev Blog</title>
     <link>http://localhost:1313/draft/</link>
-    <description>Recent content in Drafts on Tiny Dev Blog</description>
+    <description>Recent content in Drafts on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/draft/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-1-1-1-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-1-1-1-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-1-1-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-1-1-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-2/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3-1-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3-1-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3-2/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3-2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1-3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-4-1-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-4-1-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-4-1/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-4-1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-4/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/draft/example-1-1-2-1-1-1-1-5/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/draft/example-1-1-2-1-1-1-1-5/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

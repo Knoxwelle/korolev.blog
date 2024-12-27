@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mistakes on Korolev Blog</title>
+    <link>http://localhost:1313/tags/mistakes/</link>
+    <description>Recent content in Mistakes on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mistakes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failures are unavoidable</title>
+      <link>http://localhost:1313/posts/failures-are-unavoidable/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/failures-are-unavoidable/</guid>
+      <description>It increases the likelihood that the system will experience a malfunction at least once in any given period of time, but it also makes it possible to survive isolated hardware failures.&#xA;The software code is also vulnerable. We employ monitoring tools to keep track of application issues, but because they depend on software, these tools might sometimes break.&#xA;We try to automate our diagnoses, actions, and workflows since humans are fallible. Automation increases the likelihood of errors coming from rule noncompliance but decreases the likelihood of errors resulting from rule violations. More circumstances can be handled by a human than by any automated technology.&#xA;For this reason, we&amp;rsquo;re including monitoring techniques in automated solutions. new software with fresh bugs. Networks are made up of hardware, software, and long communication lines.</description>
+    </item>
+  </channel>
+</rss>

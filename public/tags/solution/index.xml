@@ -1,40 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Solution on Tiny Dev Blog</title>
+    <title>Solution on Korolev Blog</title>
     <link>http://localhost:1313/tags/solution/</link>
-    <description>Recent content in Solution on Tiny Dev Blog</description>
+    <description>Recent content in Solution on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/solution/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Determine what the needs actually mean</title>
-      <link>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</guid>
-      <description>Customers and end users often insist on what they see to be a practical resolution to a problem. Harry Hillaker, a leading F-16 Falcon designer, offers a perfect example of this. The goal set for his team was to build an aircraft capable of traveling at M2-2.5 speeds. This was (and presumably still is) a very challenging project, particularly if the secondary objective was to construct a light aircraft that was &amp;ldquo;cheap.&amp;rdquo;&#xA;The design team was informed by Air Force clients that the M2–2.5 speed was critical for the aircraft to be able to escape combat if needed. When the true necessity was realized, the designers addressed the main problem and offered a workable solution. Rather than having a fast peak speed, this was in the form of a movable aircraft with good traction that provided good acceleration and maneuverability.</description>
-    </item>
-    <item>
-      <title>There are no answers for every situation in life</title>
-      <link>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</guid>
-      <description>For a wide range of different problems, there isn&amp;rsquo;t a single, comprehensive solution, so the architect must continuously refine and improve his &amp;ldquo;context noe poche.&amp;rdquo; Eberhardt Rechtin writes in &amp;ldquo;Systems Architecting: Creating and Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;&amp;lt;&amp;hellip;&amp;gt; Rather than using the word &amp;ldquo;sensual,&amp;rdquo; it might be better to speak to it as &amp;ldquo;context sensation&amp;rdquo;—knowledge of what is pertinent in a certain context. By the time an architect-practitioner is called to address a system-level issue, which usually takes decades, they can have a strong contextual awareness thanks to education, experience, and case studies.&#xA;One of the biggest problems I see with the software industry, in my opinion, is that projects are often given to people who don&amp;rsquo;t have enough contextual knowledge.This could be due to the fact that the industry is only two generations old and is currently experiencing a time of rapid expansion; alternatively, it could be that the industry has reached a mature stage if this problem has been resolved.</description>
-    </item>
-    <item>
-      <title>Never put the demands of the client ahead of your resume</title>
-      <link>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</link>
-      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</guid>
-      <description>As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off.&#xA;Your grateful clients who are lining up to recommend you to others will be the most effective career catalyst because of how well you have served them. The gracious customers will provide you with greater service than any recently developed paradigm or in-vogue item in the new language. Architects need to stay up to date on evolving concepts and technologies, but you should never try to take on additional work at the client&amp;rsquo;s expense. It is imperative for architects to always remember that their organization&amp;rsquo;s success is their responsibility.</description>
-    </item>
-    <item>
-      <title>Versatility is inferior to simplicity</title>
-      <link>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</guid>
-      <description>A typical problem with them is that a lot of frameworks, class libraries, fundamental services, and other infrastructure code are designed to be utilized anywhere and aren&amp;rsquo;t specific to any one application. Since most developers are experts in specific systems, it rarely helps them to try to be as adaptable as possible. The best way to achieve universality isn&amp;rsquo;t through universality based on conjecture, but rather through a careful understanding of well-known concrete examples and an analysis of their essence to find a fundamentally shared solution. Experience in the real world leads to simplicity.&#xA;Making an architectural design simpler rather than more feature-rich makes it simpler to decide between two solutions that are identical to each other. When there are two possibilities, go with the simpler, needs-based solution rather than the more flexible, complex one.</description>
+      <title>Try before you decide</title>
+      <link>http://localhost:1313/posts/try-before-you-decide/</link>
+      <pubDate>Sun, 08 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
+      <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
     </item>
   </channel>
 </rss>

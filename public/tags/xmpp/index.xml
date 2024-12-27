@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xmpp on Korolev Blog</title>
+    <link>http://localhost:1313/tags/xmpp/</link>
+    <description>Recent content in Xmpp on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/xmpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diversity prevails</title>
+      <link>http://localhost:1313/posts/diversity-prevails/</link>
+      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/diversity-prevails/</guid>
+      <description>The tools that architects use to design computer systems have undergone significant changes as a result of the technology&amp;rsquo;s natural progression. These modifications have rekindled interest in multilingual programming, or using more than one language at the center of a software system&amp;rsquo;s implementation.&#xA;The idea of multilingual programming is not new; one common example from the past is systems where the server portion is based on C++ COM objects while the client portion is written in Visual Basic.As a matter of fact, this architecture made good use of the advantages that each of the languages listed had at the height of their popularity.What modifications have sparked a renewed interest in bilingual programming? The genuine usage of text protocols has been made possible by new technical standards and a continual growth in resources, such as processing capacity and channel bandwidth.</description>
+    </item>
+  </channel>
+</rss>

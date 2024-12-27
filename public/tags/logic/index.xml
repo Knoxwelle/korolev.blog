@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logic on Korolev Blog</title>
+    <link>http://localhost:1313/tags/logic/</link>
+    <description>Recent content in Logic on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 21 May 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/logic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using a database as a fort</title>
+      <link>http://localhost:1313/posts/using-a-database-as-a-fort/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/using-a-database-as-a-fort/</guid>
+      <description>The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don&amp;rsquo;t affect the data. It is imperative that a reliable data model be created as early in the project as possible.&#xA;Prewriting complex, comprehensive technical requirements is a thing of the past! The new school demands that products be delivered frequently and early.Writing one line of vulnerable code is better than writing 10 in your head. When it comes to the facts, at least, it looks too good to be true.&#xA;Data structures and their relationships usually do not change quickly, although user interfaces and business logic do. Because of this, it&amp;rsquo;s imperative to define the data model precisely from the start, both analytically and structurally.</description>
+    </item>
+  </channel>
+</rss>

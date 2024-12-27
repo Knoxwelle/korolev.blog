@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "100f3fb561c4099e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3cf0b9465c52dbf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45557714b806678e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "53a59fc00b18e4b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6df50466cfdb3e42",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebb945e92ce2805b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c2df0ab8c81651cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9527cbc38870bf41",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ac8e3077fdc48fd0",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8040769738804b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45d099fb0c6fb1e8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7b52230071719fed",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f258a0e1c63f23f6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "06e2c688b8850358",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "45557714b806678e",
+  "lastOpenFiles": [
+    "images/cover/knoxwelle__2023-03-12T175241.000Z.jpg",
+    "images/cover/knoxwelle__2019-09-28T050434.000Z.jpg",
+    "images/cover/knoxwelle__2024-02-13T072918.000Z.jpg",
+    "images/cover/knoxwelle__2019-10-08T090137.000Z.jpg",
+    "images/cover/knoxwelle__2021-12-27T073501.000Z.jpg",
+    "images/cover/knoxwelle__2020-03-29T043644.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T145012.000Z.jpg",
+    "images/cover/knoxwelle__2020-04-25T085731.000Z.jpg",
+    "images/cover/knoxwelle__2018-04-19T173404.000Z.jpg",
+    "images/cover/knoxwelle__2019-11-22T000304.000Z.jpg",
+    "images/cover/knoxwelle__2020-07-21T071815.000Z.jpg"
+  ]
+}

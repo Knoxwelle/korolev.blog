@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Developers on Tiny Dev Blog</title>
+    <title>Developers on Korolev Blog</title>
     <link>http://localhost:1313/tags/developers/</link>
-    <description>Recent content in Developers on Tiny Dev Blog</description>
+    <description>Recent content in Developers on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/developers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Communication is the king, clarity and leadership are his true companions</title>
-      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</link>
-      <pubDate>Mon, 27 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-his-true-companions/</guid>
-      <description>Too often, software architects live in ivory towers, prescribing to developers the technologies and procedures to follow while providing them with little or no assistance. This simultaneously leads to conflict and, shortly after, a &amp;ldquo;popular uprising.&amp;rdquo; The final result is a piece of software that is completely unrelated to the initial requirements. Any software architect must be able to clearly communicate the goals and objectives of the software project to his peers. Leadership and clarity are prerequisites for effective communication.&#xA;a method of communication that is precise and short. Nobody in your group will read a hundred-page booklet outlining your architectural decisions. Every program or endeavor must have effective concept communication in order to be successful. When you first start working on the project, don&amp;rsquo;t start writing long-word descriptions; instead, stick to succinct explanations.</description>
+      <title>Give developers their own space</title>
+      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
+      <pubDate>Mon, 30 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
+      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
     </item>
   </channel>
 </rss>

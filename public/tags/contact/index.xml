@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact on Korolev Blog</title>
+    <link>http://localhost:1313/tags/contact/</link>
+    <description>Recent content in Contact on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 19 May 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/contact/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stand up</title>
+      <link>http://localhost:1313/posts/stand-up/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/stand-up/</guid>
+      <description>Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success.&#xA;It is difficult to assess the architect&amp;rsquo;s impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the course of his career. Professional architects are aware that they need to &amp;ldquo;promote&amp;rdquo; their ideas, and effective communication is essential to this.</description>
+    </item>
+  </channel>
+</rss>

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     24535,        524]
-NotebookOptionsPosition[     22658,        489]
-NotebookOutlinePosition[     23063,        505]
-CellTagsIndexPosition[     23020,        502]
+NotebookDataLength[     43486,        894]
+NotebookOptionsPosition[     40085,        839]
+NotebookOutlinePosition[     40509,        856]
+CellTagsIndexPosition[     40466,        853]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -31,20 +31,138 @@ Cell[BoxData[
        "\"\<content\\\\posts\>\""}], "]"}], "]"}]}], "]"}]}]], "Input",
  CellChangeTimes->{{3.930071308470366*^9, 3.9300713250538263`*^9}, 
    3.9300713659462986`*^9},
- CellLabel->
-  "In[314]:=",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
+ CellLabel->"In[3]:=",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-tinydev\\\\content\\\\posts\\\\Minimize the amount of complexity that is \
-already there and get rid of any extraneous details.md\"\>", 
+tinydev\\\\content\\\\posts\\\\500 lines of specification are needed for \
+every line of functioning code.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\Never prioritize your resume over the needs of the \
-client.md\"\>", 
+\\\\content\\\\posts\\\\Application performance determined by architecture.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Apply numerical standards.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
-incidental complexity.md\"\>"}], "}"}]], "Output",
+\\\\content\\\\posts\\\\A practitioner must be the architect.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Architect Janus.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Architectural compromises.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Architecture is not the only factor in reuse.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Assure ongoing integration.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Be guided by uncertainty.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Being a responsible leader matters more than looks.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Building architecture as a balancing art.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Communication is the king, clarity and leadership are \
+his true companions.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Context dictates the rules.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Creating in the Dark.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Cut down on the inherent complexity and do away with \
+the incidental complication.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Determine what the needs actually mean.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Diversity prevails.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Do not control - observe.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Do not get carried away by architectural metaphors.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Dwarves, elves, wizards and kings.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Enterprise interview.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Everything is run by business.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Failures are unavoidable.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Fight the repetitions.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Give developers their own space.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Investigate the topic.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Issues can extend beyond what they see in the \
+mirror.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\It is written in lowercase as software architect.md\"\
+\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Learn from building architects.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Never put the demands of the client ahead of your \
+resume.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\One step in the design process is programming.md\"\>",
+    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\Pathology of patterns.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Perhaps technology is not your primary issue.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Perspective as seen from 300 meters.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Question assumptions\[LongDash]especially your own.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Remember the importance of performance.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Share knowledge and experience.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Stand up.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Study the technical terms.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Success is hampered by scale.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Support the developers.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Take quick action to get away from this crime.md\"\>",
+    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\The architects focus is on boundaries and \
+interfaces.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\The ethical concerns of software architecture.md\"\>",
+    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+tinydev\\\\content\\\\posts\\\\There are no answers for every situation in \
+life.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\There could be a number of answers.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\There is never a bad time to consider productivity.md\
+\"\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\There is no I am in architecture.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Time changes everything.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Towers are not scalable.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Try before you decide.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Try not to alter the timetable.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Using a database as a fort.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Versatility is inferior to simplicity.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Welcome to the real world.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\Write down your reasons.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
+\\\\content\\\\posts\\\\You underestimate how frequently you \
+negotiate.md\"\>"}], "}"}]], "Output",
  CellChangeTimes->{
   3.9300713698977394`*^9, 3.9300714142771993`*^9, {3.9300719625990295`*^9, 
    3.9300719817056694`*^9}, 3.9301494944575987`*^9, 3.930151263013115*^9, {
@@ -80,14 +198,12 @@ incidental complexity.md\"\>"}], "}"}]], "Output",
    3.9305841781571274`*^9, 3.930584626707699*^9, 3.9305846859371643`*^9, 
    3.9305848427368345`*^9, 3.9305850391557617`*^9, 3.9305852745462866`*^9, 
    3.9305853237107954`*^9, 3.9305862127251616`*^9, 3.9305863366996393`*^9, 
-   3.9305863855954638`*^9},
- CellLabel->
-  "Out[314]=",ExpressionUUID->"cfbd9eaa-d521-4fb2-85aa-f9c01014ec19"]
+   3.9305863855954638`*^9, 3.934059143973563*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"e2749709-23da-477e-816c-28e768a5f402"]
 }, Open  ]],
 
 Cell[BoxData[""], "Input",
- CellLabel->
-  "In[315]:=",ExpressionUUID->"658a87d4-f1c4-450c-83c4-eb807f16311f"],
+ CellLabel->"In[4]:=",ExpressionUUID->"658a87d4-f1c4-450c-83c4-eb807f16311f"],
 
 Cell[CellGroupData[{
 
@@ -180,8 +296,8 @@ Cell[BoxData[
              RowBox[{"header", ",", 
               RowBox[{
                RowBox[{
-               "\"\<categories = [\>\"", "~~", "x___", "~~", "\"\<tags\>\""}],
-                "->", "x"}], " ", ",", 
+               "\"\<categories=[\>\"", "~~", "x___", "~~", "\"\<tags\>\""}], "->",
+                "x"}], " ", ",", 
               RowBox[{"Overlaps", "\[Rule]", "False"}]}], "]"}], "]"}], ",", 
            RowBox[{
             RowBox[{"{", 
@@ -221,13 +337,13 @@ Cell[BoxData[
           RowBox[{"StringCases", "[", 
            RowBox[{"header", ",", 
             RowBox[{
-            "\"\<categories = [\>\"", "~~", "x__", "~~", "\"\<tags\>\""}], 
-            " ", ",", 
+            "\"\<categories=[\>\"", "~~", "x__", "~~", "\"\<tags\>\""}], " ", 
+            ",", 
             RowBox[{"Overlaps", "\[Rule]", "False"}]}], "]"}], "]"}], ",", 
          "\"\<tags\>\""}], "]"}], "]"}]}], ";", "\[IndentingNewLine]", 
      RowBox[{"newString", "=", 
       RowBox[{"StringJoin", "[", 
-       RowBox[{"\"\<categories = [\>\"", ",", 
+       RowBox[{"\"\<categories=[\>\"", ",", 
         RowBox[{"StringTrim", "[", 
          RowBox[{"StringRiffle", "[", 
           RowBox[{"newCategories", ",", "\"\<, \>\""}], "]"}], "]"}], ",", 
@@ -316,9 +432,109 @@ Cell[BoxData[
    3.9305849641152244`*^9}, {3.9305850196417074`*^9, 
    3.9305850237984753`*^9}, {3.9305850926928635`*^9, 3.930585100810001*^9}, {
    3.930585252864177*^9, 3.9305852693145895`*^9}, {3.9305860937131786`*^9, 
-   3.930586123192542*^9}, {3.9305861595829782`*^9, 3.93058616100228*^9}},
+   3.930586123192542*^9}, {3.9305861595829782`*^9, 3.93058616100228*^9}, {
+   3.943575548184491*^9, 
+   3.943575562045127*^9}},ExpressionUUID->"6904367e-62e7-47bb-aafb-\
+246e4474ba97"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"vaza\"\>", ",", "\<\"sweden\"\>", ",", "\<\"poland\"\>", 
+   ",", "\<\"italian\"\>", ",", "\<\"atam\"\>", ",", "\<\"method\"\>", 
+   ",", "\<\"cbam\"\>", ",", "\<\"cost\"\>", ",", "\<\"institute\"\>", 
+   ",", "\<\"swedish\"\>", ",", "\<\"italy\"\>"}], "}"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340593234838*^9},
  CellLabel->
-  "In[316]:=",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"59008238-adda-46d6-bb63-ebf13befe2d4"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"\<\"\\\"vaza\\\"\"\>", ",", "\<\"\\\"sweden\\\"\"\>", 
+   ",", "\<\"\\\"poland\\\"\"\>", ",", "\<\"\\\"italian\\\"\"\>", 
+   ",", "\<\"\\\"atam\\\"\"\>", ",", "\<\"\\\"method\\\"\"\>", 
+   ",", "\<\"\\\"cbam\\\"\"\>", ",", "\<\"\\\"cost\\\"\"\>", 
+   ",", "\<\"\\\"institute\\\"\"\>", ",", "\<\"\\\"swedish\\\"\"\>", 
+   ",", "\<\"\\\"italy\\\"\"\>"}], "}"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340593235956345`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"cc7668ad-ba7a-464f-86d0-42ec3c11b067"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newHeader: \"\>", 
+  " ", "\<\"+++\\ntitle = 'Architectural compromises'\\ndate = \
+2024-01-18T00:00:00-07:00\\ndraft = false\\ncategories = [\\\"vaza\\\", \
+\\\"sweden\\\", \\\"poland\\\", \\\"italian\\\", \\\"atam\\\", \
+\\\"method\\\", \\\"cbam\\\", \\\"cost\\\", \\\"institute\\\", \
+\\\"swedish\\\", \\\"italy\\\"]\\ntags = [\\\"vaza\\\", \\\"sweden\\\", \
+\\\"poland\\\", \\\"king\\\", \\\"time\\\", \\\"soa\\\", \\\"atam\\\", \
+\\\"architecture tradeoff\\\", \\\"benefit analysis metod\\\", \\\"sei\\\", \
+\\\"software engineering institute\\\", \\\"architecture\\\", \
+\\\"software\\\", \\\"ship\\\", \\\"ships\\\", \\\"swedish king\\\", \
+\\\"italy\\\", \\\"benefit analysis method\\\", \
+\\\"cbam\\\"]\\ncover_image='/images/cover/knoxwelle__2020-01-16T082143.000Z.\
+jpg'\\n+++\"\>"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340593237595243`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4ff7402b-1486-422e-8b8d-ab0e98c9a1dc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "7", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Architecture is not the only factor in reuse.md\"\>"}],
+  SequenceForm[
+  7, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Architecture is not the only factor in reuse.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340593237896204`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"a95fd8d2-7ad8-4525-8178-726d1f316387"],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   NaturalLanguageProcessing`ProgressBar`PackagePrivate`progressBar[
+   "Detecting entities\[Ellipsis]", 1, 0, 1, 0][
+   NaturalLanguageProcessing`ProgressBar`PackagePrivate`fractionGlobal$131579,
+     NaturalLanguageProcessing`ProgressBar`PackagePrivate`$startTime], 
+   StandardForm],
+  ImageSizeCache->{482.4345703125, {28.60400390625, 8.279296875}},
+  TrackedSymbols:>{},
+  UpdateInterval->0.5]], "PrintTemporary",
+ CellChangeTimes->{3.934059323813387*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"38f203cd-31b1-45f9-9257-5fa478c09265"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"NotebookClose", "[", "]"}], ";"}]], "Input",
+ CellChangeTimes->{{3.9340593138982525`*^9, 
+  3.934059325566393*^9}},ExpressionUUID->"3db242bf-0d2d-4d54-8165-\
+85099a7a3fc4"],
 
 Cell[CellGroupData[{
 
@@ -328,58 +544,56 @@ Cell[BoxData[
   "1", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\Minimize the amount of complexity that is already there \
-and get rid of any extraneous details.md\"\>"}],
+content\\\\posts\\\\500 lines of specification are needed for every line of \
+functioning code.md\"\>"}],
   SequenceForm[
   1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\Minimize the amount of complexity that is already there and get rid of \
-any extraneous details.md"],
+posts\\500 lines of specification are needed for every line of functioning \
+code.md"],
   Editable->False]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340591450947714`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"2d642211-0d5e-4471-938c-b4a2f2517192"],
+In[5]:=",ExpressionUUID->"2d946ff3-b95e-404b-ad92-1455617dc1a5"],
 
 Cell[BoxData[
- RowBox[{"{", "\<\"ruby\"\>", "}"}]], "Print",
+ RowBox[{"{", "\<\"\"\>", "}"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.9305863959977922`*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340591712474856`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"319418f5-0611-40ed-91eb-47f79a436841"],
+In[5]:=",ExpressionUUID->"b7f8fa33-b842-4713-b8fe-8ff1101304a2"],
 
 Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"\<\"\\\"ruby\\\"\"\>", ",", "\<\"\\\"java\\\"\"\>", 
-   ",", "\<\"\\\"python\\\"\"\>", ",", "\<\"\\\"smalltalk\\\"\"\>"}], 
-  "}"}]], "Print",
+ RowBox[{"{", "}"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586396029608*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340591713315935`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"7c503a06-f298-4585-865e-4c90ed4ce048"],
+In[5]:=",ExpressionUUID->"56e480e8-cd80-483f-93c3-4789a52e4c34"],
 
 Cell[BoxData[
  RowBox[{"\<\"newHeader: \"\>", 
-  " ", "\<\"+++\\ntitle = 'Minimize the amount of complexity that is already \
-there and get rid of any extraneous details'\\ndate = \
-2024-07-13T00:00:00-07:00\\ndraft = false\\ncategories = [\\\"ruby\\\", \
-\\\"java\\\", \\\"python\\\", \\\"smalltalk\\\"]\\ntags = [\\\"ruby\\\", \
-\\\"java\\\", \\\"python\\\", \\\"smalltalk\\\", \\\"postgres\\\", \\\"oracle\
-\\\", \\\"windows\\\", \\\"linux\\\", \\\"start\\\", \\\"communication\\\", \
-\\\"people\\\", \\\"opportunity\\\", \
-\\\"problems\\\"]\\ncover_image='/images/cover/knoxwelle__2021-07-25T042445.\
+  " ", "\<\"+++\\ntitle = '500 lines of specification are needed for every \
+line of functioning code'\\ndate = 2024-04-24T00:00:00-07:00\\ndraft = \
+false\\ncategories = []\\ntags = [\\\"proecting\\\", \\\"design\\\", \
+\\\"project\\\", \\\"time\\\", \\\"code\\\", \\\"goal\\\", \\\"promising\\\", \
+\\\"architect\\\"]\\ncover_image='/images/cover/knoxwelle__2022-11-04T072714.\
 000Z.jpg'\\n+++\"\>"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.9305863960516033`*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340591714097505`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"f2d0d3f4-2be4-43ec-87b4-05c5fc7ce5b6"],
+In[5]:=",ExpressionUUID->"eaf711ff-eb89-4614-9da6-412103df8af6"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -387,50 +601,55 @@ Cell[BoxData[
   "2", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\Never prioritize your resume over the needs of the \
-client.md\"\>"}],
+content\\\\posts\\\\Application performance determined by \
+architecture.md\"\>"}],
   SequenceForm[
   2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\Never prioritize your resume over the needs of the client.md"],
+posts\\Application performance determined by architecture.md"],
   Editable->False]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586396074605*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059171531375*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"e3429c13-2c20-4584-9a28-a28d2ee7c863"],
+In[5]:=",ExpressionUUID->"f6df0bad-dce8-4e78-bda1-920b96afb362"],
 
 Cell[BoxData[
  RowBox[{"{", "\<\"\"\>", "}"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586403821307*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592113734083`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"54feea11-9228-4084-bd83-85f234d23708"],
+In[5]:=",ExpressionUUID->"cfb71a26-a23a-44ba-a32d-28237007f1a2"],
 
 Cell[BoxData[
  RowBox[{"{", "}"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586403843023*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059211448923*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"3832b3bc-8e23-4252-8b81-ff3423f61ee8"],
+In[5]:=",ExpressionUUID->"87ad0a2c-43b9-4e04-a109-f79f3d49731f"],
 
 Cell[BoxData[
  RowBox[{"\<\"newHeader: \"\>", 
-  " ", "\<\"+++\\ntitle = 'Never prioritize your resume over the needs of the \
-client'\\ndate = 2024-07-10T00:00:00-07:00\\ndraft = false\\ncategories = \
-[]\\ntags = \
-[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\"\
-\>"}]], "Print",
+  " ", "\<\"+++\\ntitle = 'Application performance determined by \
+architecture'\\ndate = 2024-01-16T00:00:00-07:00\\ndraft = false\\ncategories \
+= []\\ntags = [\\\"performance\\\", \\\"architecture\\\", \
+\\\"application\\\", \\\"product\\\", \\\"infrastructure\\\", \\\"people\\\"]\
+\\ncover_image='/images/cover/knoxwelle__2018-10-12T084816.000Z.jpg'\\n+++\"\>\
+"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586403861618*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592115143456`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"01c6518d-e848-4cc0-a7ba-1064cbe7b8fe"],
+In[5]:=",ExpressionUUID->"a6b1c857-6a2b-4b40-8247-9e8ea8f9f684"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -438,58 +657,190 @@ Cell[BoxData[
   "3", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-content\\\\posts\\\\Reduce the intrinsic complexity and eliminate the \
-incidental complexity.md\"\>"}],
+content\\\\posts\\\\Apply numerical standards.md\"\>"}],
   SequenceForm[
   3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
-posts\\Reduce the intrinsic complexity and eliminate the incidental \
-complexity.md"],
+posts\\Apply numerical standards.md"],
   Editable->False]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.9305864038856*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059211583709*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"f7885320-121f-45d1-a59f-826bf11557e2"],
+In[5]:=",ExpressionUUID->"fa37dfa6-6786-4126-bbc8-df8adc8795e9"],
 
 Cell[BoxData[
- RowBox[{"{", "\<\"one\"\>", "}"}]], "Print",
+ RowBox[{"{", "\<\"\"\>", "}"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586410595356*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592468716383`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"7789d666-1522-4dcd-ba71-5489941262d7"],
+In[5]:=",ExpressionUUID->"32c620fb-99ee-4670-b835-3ea31f9fa4a6"],
 
 Cell[BoxData[
- RowBox[{"{", "\<\"\\\"one\\\"\"\>", "}"}]], "Print",
+ RowBox[{"{", "}"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.9305864106063795`*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592468962035`*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"34a64498-3663-408b-b523-be058f005eb3"],
+In[5]:=",ExpressionUUID->"fa639a07-fadf-48b3-adbc-3b429eb92d04"],
 
 Cell[BoxData[
  RowBox[{"\<\"newHeader: \"\>", 
-  " ", "\<\"+++\\ntitle = 'Reduce the intrinsic complexity and eliminate the \
-incidental complexity'\\ndate = 2024-07-10T00:00:00-07:00\\ndraft = \
-false\\ncategories = [\\\"one\\\"]\\ntags = [\\\"modern\\\", \\\"flight\\\", \
-\\\"complexity\\\", \\\"complex\\\", \\\"solutions\\\", \\\"infrastructures\\\
-\", \\\"task\\\"]\\ncover_image='/images/cover/knoxwelle__2017-05-25T125819.\
+  " ", "\<\"+++\\ntitle = 'Apply numerical standards'\\ndate = \
+2024-08-26T00:00:00-07:00\\ndraft = false\\ncategories = []\\ntags = [\\\"ms.\
+\\\", \\\"system\\\", \\\"criteria\\\", \\\"time\\\", \\\"users\\\", \
+\\\"compliance\\\", \\\"work\\\", \
+\\\"performance\\\"]\\ncover_image='/images/cover/knoxwelle__2020-02-\
+12T172651.000Z.jpg'\\n+++\"\>"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592469229608`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"e34b3058-cbb2-4615-8071-d7ba44196775"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "4", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\A practitioner must be the architect.md\"\>"}],
+  SequenceForm[
+  4, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\A practitioner must be the architect.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592469573603`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"52f27fc1-973f-4b96-9fb2-07efe66ae304"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"\"\>", "}"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592690444255`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"fcdadedd-e0bd-47e8-8aea-b69f0076cd19"],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059269066374*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c6733a00-9481-4a78-af3d-3dcfad088f34"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newHeader: \"\>", 
+  " ", "\<\"+++\\ntitle = 'A practitioner must be the architect'\\ndate = \
+2024-02-03T00:00:00-07:00\\ndraft = false\\ncategories = []\\ntags = \
+[\\\"team\\\", \\\"wireshark\\\", \\\"architect\\\", \\\"project\\\", \
+\\\"problem\\\", \\\"way\\\", \\\"management\\\", \
+\\\"architects\\\"]\\ncover_image='/images/cover/knoxwelle__2019-09-28T050434.\
 000Z.jpg'\\n+++\"\>"}]], "Print",
  CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
   3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
-  3.9305862128415904`*^9, 3.930586336911927*^9, 3.9305864106225653`*^9},
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059269085065*^9},
  CellLabel->
   "During evaluation of \
-In[316]:=",ExpressionUUID->"f6c0708f-956a-42c1-95bf-559f8fc65719"]
+In[5]:=",ExpressionUUID->"6a03d47f-fea9-4a63-b5c1-c38ee9ceb10f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "5", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Architect Janus.md\"\>"}],
+  SequenceForm[
+  5, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Architect Janus.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592691072145`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"bad20774-ea90-42c4-bcdc-9531aad410bb"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"rome\"\>", "}"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.9340592946642876`*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"c5d86ca3-5e12-44d0-b001-c41b41f33856"],
+
+Cell[BoxData[
+ RowBox[{"{", "\<\"\\\"rome\\\"\"\>", "}"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059294683395*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4c9db253-b158-4e56-a77a-d9beb0aa1059"],
+
+Cell[BoxData[
+ RowBox[{"\<\"newHeader: \"\>", 
+  " ", "\<\"+++\\ntitle = 'Architect Janus'\\ndate = \
+2024-03-28T00:00:00-07:00\\ndraft = false\\ncategories = \
+[\\\"rome\\\"]\\ntags = [\\\"rome\\\", \\\"it\\\", \\\"architect\\\", \
+\\\"project\\\", \\\"architects\\\", \\\"design\\\", \
+\\\"management\\\"]\\ncover_image='/images/cover/knoxwelle__2019-11-19T020505.\
+000Z.jpg'\\n+++\"\>"}]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059294698491*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"6f664611-0e0a-4951-961e-1ee07a832c9a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "6", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+content\\\\posts\\\\Architectural compromises.md\"\>"}],
+  SequenceForm[
+  6, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\content\\\
+posts\\Architectural compromises.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.930584626840005*^9, 3.9305846860459375`*^9, 
+  3.9305848428094835`*^9, 3.930585039206321*^9, 3.930585274602155*^9, 
+  3.9305862128415904`*^9, 3.930586336911927*^9, 3.930586385728552*^9, 
+  3.934059294715866*^9},
+ CellLabel->
+  "During evaluation of \
+In[5]:=",ExpressionUUID->"4ff5a8c3-a05f-4e76-a326-9f350f8dec32"]
 }, Open  ]]
 }, Open  ]]
 },
+Evaluator->"kernel1",
 WindowSize->{752.25, 624.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"bc3582ce-1cd5-4583-ac8d-93f0de389e9e"
 ]
@@ -505,25 +856,44 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 481, 12, 32, "Input",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
-Cell[1064, 36, 3267, 48, 82, "Output",ExpressionUUID->"cfbd9eaa-d521-4fb2-85aa-f9c01014ec19"]
+Cell[580, 22, 476, 11, 32, "Input",ExpressionUUID->"13b4e8db-af42-475f-9acc-2c03c98d4531"],
+Cell[1059, 35, 11236, 166, 852, "Output",ExpressionUUID->"e2749709-23da-477e-816c-28e768a5f402"]
 }, Open  ]],
-Cell[4346, 87, 109, 2, 21, "Input",ExpressionUUID->"658a87d4-f1c4-450c-83c4-eb807f16311f"],
+Cell[12310, 204, 104, 1, 21, "Input",ExpressionUUID->"658a87d4-f1c4-450c-83c4-eb807f16311f"],
 Cell[CellGroupData[{
-Cell[4480, 93, 10911, 227, 857, "Input",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
+Cell[12439, 209, 10933, 228, 829, "Input",ExpressionUUID->"6904367e-62e7-47bb-aafb-246e4474ba97"],
 Cell[CellGroupData[{
-Cell[15416, 324, 861, 18, 30, "Print",ExpressionUUID->"2d642211-0d5e-4471-938c-b4a2f2517192"],
-Cell[16280, 344, 376, 7, 18, "Print",ExpressionUUID->"319418f5-0611-40ed-91eb-47f79a436841"],
-Cell[16659, 353, 496, 10, 18, "Print",ExpressionUUID->"7c503a06-f298-4585-865e-4c90ed4ce048"],
-Cell[17158, 365, 954, 16, 122, "Print",ExpressionUUID->"f2d0d3f4-2be4-43ec-87b4-05c5fc7ce5b6"],
-Cell[18115, 383, 787, 17, 18, "Print",ExpressionUUID->"e3429c13-2c20-4584-9a28-a28d2ee7c863"],
-Cell[18905, 402, 370, 7, 18, "Print",ExpressionUUID->"54feea11-9228-4084-bd83-85f234d23708"],
-Cell[19278, 411, 358, 7, 18, "Print",ExpressionUUID->"3832b3bc-8e23-4252-8b81-ff3423f61ee8"],
-Cell[19639, 420, 627, 12, 109, "Print",ExpressionUUID->"01c6518d-e848-4cc0-a7ba-1064cbe7b8fe"],
-Cell[20269, 434, 815, 18, 30, "Print",ExpressionUUID->"f7885320-121f-45d1-a59f-826bf11557e2"],
-Cell[21087, 454, 373, 7, 18, "Print",ExpressionUUID->"7789d666-1522-4dcd-ba71-5489941262d7"],
-Cell[21463, 463, 383, 7, 18, "Print",ExpressionUUID->"34a64498-3663-408b-b523-be058f005eb3"],
-Cell[21849, 472, 781, 13, 109, "Print",ExpressionUUID->"f6c0708f-956a-42c1-95bf-559f8fc65719"]
+Cell[23397, 441, 648, 12, 18, "Print",ExpressionUUID->"59008238-adda-46d6-bb63-ebf13befe2d4"],
+Cell[24048, 455, 748, 14, 18, "Print",ExpressionUUID->"cc7668ad-ba7a-464f-86d0-42ec3c11b067"],
+Cell[24799, 471, 1172, 20, 136, "Print",ExpressionUUID->"4ff7402b-1486-422e-8b8d-ab0e98c9a1dc"],
+Cell[25974, 493, 784, 17, 18, "Print",ExpressionUUID->"a95fd8d2-7ad8-4525-8178-726d1f316387"],
+Cell[26761, 512, 599, 13, 43, "PrintTemporary",ExpressionUUID->"38f203cd-31b1-45f9-9257-5fa478c09265"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27409, 531, 207, 5, 32, "Input",ExpressionUUID->"3db242bf-0d2d-4d54-8165-85099a7a3fc4"],
+Cell[CellGroupData[{
+Cell[27641, 540, 844, 19, 30, "Print",ExpressionUUID->"2d946ff3-b95e-404b-ad92-1455617dc1a5"],
+Cell[28488, 561, 395, 8, 18, "Print",ExpressionUUID->"b7f8fa33-b842-4713-b8fe-8ff1101304a2"],
+Cell[28886, 571, 383, 8, 18, "Print",ExpressionUUID->"56e480e8-cd80-483f-93c3-4789a52e4c34"],
+Cell[29272, 581, 799, 14, 109, "Print",ExpressionUUID->"eaf711ff-eb89-4614-9da6-412103df8af6"],
+Cell[30074, 597, 796, 18, 18, "Print",ExpressionUUID->"f6df0bad-dce8-4e78-bda1-920b96afb362"],
+Cell[30873, 617, 395, 8, 18, "Print",ExpressionUUID->"cfb71a26-a23a-44ba-a32d-28237007f1a2"],
+Cell[31271, 627, 381, 8, 18, "Print",ExpressionUUID->"87ad0a2c-43b9-4e04-a109-f79f3d49731f"],
+Cell[31655, 637, 766, 14, 109, "Print",ExpressionUUID->"a6b1c857-6a2b-4b40-8247-9e8ea8f9f684"],
+Cell[32424, 653, 744, 17, 18, "Print",ExpressionUUID->"fa37dfa6-6786-4126-bbc8-df8adc8795e9"],
+Cell[33171, 672, 395, 8, 18, "Print",ExpressionUUID->"32c620fb-99ee-4670-b835-3ea31f9fa4a6"],
+Cell[33569, 682, 383, 8, 18, "Print",ExpressionUUID->"fa639a07-fadf-48b3-adbc-3b429eb92d04"],
+Cell[33955, 692, 751, 14, 109, "Print",ExpressionUUID->"e34b3058-cbb2-4615-8071-d7ba44196775"],
+Cell[34709, 708, 768, 17, 18, "Print",ExpressionUUID->"52f27fc1-973f-4b96-9fb2-07efe66ae304"],
+Cell[35480, 727, 395, 8, 18, "Print",ExpressionUUID->"fcdadedd-e0bd-47e8-8aea-b69f0076cd19"],
+Cell[35878, 737, 381, 8, 18, "Print",ExpressionUUID->"c6733a00-9481-4a78-af3d-3dcfad088f34"],
+Cell[36262, 747, 768, 14, 109, "Print",ExpressionUUID->"6a03d47f-fea9-4a63-b5c1-c38ee9ceb10f"],
+Cell[37033, 763, 726, 17, 18, "Print",ExpressionUUID->"bad20774-ea90-42c4-bcdc-9531aad410bb"],
+Cell[37762, 782, 399, 8, 18, "Print",ExpressionUUID->"c5d86ca3-5e12-44d0-b001-c41b41f33856"],
+Cell[38164, 792, 405, 8, 18, "Print",ExpressionUUID->"4c9db253-b158-4e56-a77a-d9beb0aa1059"],
+Cell[38572, 802, 738, 14, 109, "Print",ExpressionUUID->"6f664611-0e0a-4951-961e-1ee07a832c9a"],
+Cell[39313, 818, 744, 17, 18, "Print",ExpressionUUID->"4ff5a8c3-a05f-4e76-a326-9f350f8dec32"]
 }, Open  ]]
 }, Open  ]]
 }

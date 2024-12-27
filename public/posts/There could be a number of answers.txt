@@ -1,0 +1,15 @@
++++
+title = 'There could be a number of answers'
+date = 2023-11-27T00:00:00-07:00
+draft = false
+categories = []
+tags = ["philip k. dick", "data", "world", "time", "system", "organization", "components", "ways"]
+cover_image='/images/cover/knoxwelle__2023-02-19T060119.000Z.jpg'
++++
+Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.
+
+It's also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people's views of specific situations in specific parts of the world. You may, of course, try to treat this as a technical issue and offer solutions one at a time. However, reality is "what doesn't disappear when you stop believing in it," as said by Philip K. Dick, and problems will reappear as a company expands. So corporate data teams spend all of their (expensive) time juggling DTD in an attempt to stop existential horror. 
+
+Why not accept that there exist contradictions in the universe and try to prevent the formation of multiple contradicting ideas, products, and services? Yes, the technical expert who lives inside of everyone of us cringes at the sound of those words. We see terrifying pictures in our heads: careless upgrades, unnecessary maintenance costs, gangs of addicts that need to be managed... But first, let's utilize some real-world expertise from the data storage sector. Data fairs, also referred to as data marts, often display data in ways that are significantly different from those found in the source databases, arbitrarily combine calculated and imported numbers, and demonstrate denormalization (in a relational sense). However, the presence of the data's flawed elements does not portend disaster. The ETL process lies at the intersection of two very different worlds, often data operations and analytical processing, with their own unique variations in bandwidth, update and sample frequencies, frequency of structural changes, and sometimes even volume. This is the main issue: sufficiently large differences in the non-functional components of the system constitute the boundary that permits the actual organization of the management of disharmonized representations.
+
+It goes without saying that you shouldn't make duplicate presentations or think of different ways to get around just for fun. But you should never forget that the system's disintegration into non-functional components might offer valuable opportunities for creating a range of solutions that will benefit your clients.

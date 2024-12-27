@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Position on Tiny Dev Blog</title>
+    <title>Position on Korolev Blog</title>
     <link>http://localhost:1313/tags/position/</link>
-    <description>Recent content in Position on Tiny Dev Blog</description>
+    <description>Recent content in Position on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 May 2024 00:00:00 -0700</lastBuildDate>

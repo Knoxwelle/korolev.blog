@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Processes on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/processes/</link>
+    <description>Recent content in Processes on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/processes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Support the developers</title>
+      <link>http://localhost:1313/posts/support-the-developers/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/support-the-developers/</guid>
+      <description>It&amp;rsquo;s usually easier said than done; when it comes to talking, architects certainly know how to do it.In order for your words not to turn into empty air (the main method of building castles in the air), you will need a good team of developers.As a rule, the role of an architect is to impose constraints, but you also have the opportunity to lift those constraints.Do everything in your power to give developers the freedom they need.&#xA;Make sure that developers have all the necessary tools. The toolkit should not be imposed from above – it should be thoughtfully selected so that developers always have everything they need at hand. Routine tasks should be automated whenever possible. Additionally, do not hesitate to invest in providing developers with modern computers, sufficiently wide communication channels, and access to the programs, data, and information necessary to perform their work.</description>
+    </item>
+  </channel>
+</rss>

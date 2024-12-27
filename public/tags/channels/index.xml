@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Channels on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/channels/</link>
+    <description>Recent content in Channels on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/channels/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do not control - observe</title>
+      <link>http://localhost:1313/posts/do-not-control---observe/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-control---observe/</guid>
+      <description>Modern systems are distributed and loosely coupled.The construction of loosely connected systems creates quite a few troubles, so why do we go for it?Because we want our systems to be flexible and not fall apart at the slightest changes.This is a critical property in modern environments, where we control only a small part of our application, while everything else exists in the form of distributed services or packages that are managed by other departments or external vendors.&#xA;So, the desire to create a system that is flexible and capable of evolving over time is a good thing.But this also means that our system will gradually change.In other words, &amp;ldquo;today the system is no longer what it was yesterday.&amp;ldquo;Unfortunately, this noticeably complicates the documentation of the system.</description>
+    </item>
+  </channel>
+</rss>

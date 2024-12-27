@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our on Korolev Blog</title>
+    <link>http://localhost:1313/categories/our/</link>
+    <description>Recent content in Our on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/our/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No &#34;I am in architecture&#34; exists</title>
+      <link>http://localhost:1313/posts/there-is-no-i-am-in-architecture/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-is-no-i-am-in-architecture/</guid>
+      <description>Of course, there is an &amp;ldquo;I&amp;rdquo; in architecture. However, this is not the primary &amp;ldquo;I&amp;rdquo; that draws attention and controls conversations. It only takes a series of letters. For us software architects, what does that mean? Sometimes, our greatest threat comes from our own ego. Who hasn&amp;rsquo;t seen architects who: • believe they know the specifications better than the clients; • see developers as resources employed to carry out their concepts; or • dismiss any skepticism regarding their own or other architects&amp;rsquo; ideas? Any seasoned architect has probably made at least one of these errors at some point.I&amp;rsquo;ve given in to all of them and have gained harsh insight from my mistakes.&#xA;Why is this taking place? • Our success has already been attained.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Start on Tiny Dev Blog</title>
+    <title>Start on Korolev Blog</title>
     <link>http://localhost:1313/tags/start/</link>
-    <description>Recent content in Start on Tiny Dev Blog</description>
+    <description>Recent content in Start on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 28 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/start/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Perhaps technology is not your primary issue</title>
-      <link>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</guid>
-      <description>Another salary calculation project is currently failing horribly somewhere; it&amp;rsquo;s probably not your fault.&#xA;Why did that happen? because Ruby was chosen by the developers instead of Smalltalk, Java, or Python? since you&amp;rsquo;ve decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you are aware, project failures are often attributed to technology.&#xA;Projects are typically started by people, and it is up to these people to determine whether the initiative succeeds or fails overall. And once that&amp;rsquo;s the case, we should think about the ways we might help them succeed.&#xA;As a result, you think that one of the team members is performing poorly and preventing the project from moving forward.</description>
-    </item>
     <item>
       <title>Try not to alter the timetable</title>
       <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
       <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
     </item>

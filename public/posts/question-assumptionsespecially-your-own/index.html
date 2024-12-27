@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/question-assumptionsespecially-your-own/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Question assumptions—especially your own • Tiny Dev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Question assumptions—especially your own">
+<meta name="twitter:description" content="The Law of Unintended Consequences states: &ldquo;Assumptions are the root of all failures.&ldquo;Of course, the wording isn&rsquo;t very serious, but when assumptions cost you several thousand (or even millions) of dollars, it’s no laughing matter.
+The experience of software architects indicates that the rationale for each decision made should be documented, especially if the decision involves a compromise (between performance and maintainability, between cost and time to market, etc.).In a more formal approach, the context in which each decision is made is recorded, including the factors that influenced the final choice. Such factors can include not only functional or non-functional requirements but also facts (or &ldquo;factoids&rdquo;) that seem important to the decision-maker (such as technology constraints, employee qualifications, the political environment, etc.).
+The practice of documenting decisions is useful because listing these factors helps to highlight the implicit assumptions that influence important decisions regarding the designed product.">
+
+<meta property="og:url" content="http://localhost:1313/posts/question-assumptionsespecially-your-own/">
+  <meta property="og:site_name" content="Tiny Dev Blog">
+  <meta property="og:title" content="Question assumptions—especially your own">
+  <meta property="og:description" content="The Law of Unintended Consequences states: “Assumptions are the root of all failures.“Of course, the wording isn’t very serious, but when assumptions cost you several thousand (or even millions) of dollars, it’s no laughing matter.
+The experience of software architects indicates that the rationale for each decision made should be documented, especially if the decision involves a compromise (between performance and maintainability, between cost and time to market, etc.).In a more formal approach, the context in which each decision is made is recorded, including the factors that influenced the final choice. Such factors can include not only functional or non-functional requirements but also facts (or “factoids”) that seem important to the decision-maker (such as technology constraints, employee qualifications, the political environment, etc.).
+The practice of documenting decisions is useful because listing these factors helps to highlight the implicit assumptions that influence important decisions regarding the designed product.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-02-29T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-02-29T00:00:00-07:00">
+    <meta property="article:tag" content="Oracle">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Assumptions">
+    <meta property="article:tag" content="Factors">
+    <meta property="article:tag" content="Decision">
+    <meta property="article:tag" content="Version">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Tiny Dev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Tiny Dev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Question assumptions—especially your own</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Feb 29, 2024
+    
+    
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/oracle">oracle</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/linux">linux</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/assumptions">assumptions</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/factors">factors</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/decision">decision</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/version">version</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/bitmap">bitmap</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2016-12-17T142632.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>The Law of Unintended Consequences states: &ldquo;Assumptions are the root of all failures.&ldquo;Of course, the wording isn&rsquo;t very serious, but when assumptions cost you several thousand (or even millions) of dollars, it’s no laughing matter.</p>
+<p>The experience of software architects indicates that the rationale for each decision made should be documented, especially if the decision involves a compromise (between performance and maintainability, between cost and time to market, etc.).In a more formal approach, the context in which each decision is made is recorded, including the factors that influenced the final choice. Such factors can include not only functional or non-functional requirements but also facts (or &ldquo;factoids&rdquo;) that seem important to the decision-maker (such as technology constraints, employee qualifications, the political environment, etc.).</p>
+<p>The practice of documenting decisions is useful because listing these factors helps to highlight the implicit assumptions that influence important decisions regarding the designed product.Very often, the basis of these assumptions lies in &ldquo;historical reasons,&rdquo; subjective opinions, developers&rsquo; biases, fears and doubts, and even rumors.</p>
+<ul>
+<li>
+<p>&ldquo;Open source products are unreliable.&rdquo;</p>
+</li>
+<li>
+<p>&ldquo;Indexes based on bitmaps bring more trouble than benefit.&rdquo;</p>
+</li>
+<li>
+<p>&ldquo;The client will never accept a page that loads in five seconds.&rdquo;</p>
+</li>
+<li>
+<p>&ldquo;The IT director will agree to purchase products only from large vendors.&rdquo;</p>
+</li>
+</ul>
+<p>It is very important that such assumptions are formulated explicitly and clearly (for the sake of those who will come after us, as well as for future reassessment). But perhaps even more important is to ensure that any assumptions not supported by current empirical evidence (or confirmations from participants, when it comes to political factors) are verified before a final decision is made. What if the client agrees to wait five seconds while building the most important report if you add a progress indicator?In what specific regard and which particular open-source project is unreliable? Have you tested the indexes based on bitmap images on your data, using the queries and transactions of your application?</p>
+<p>Pay attention to the word &ldquo;relevant.&rdquo; What was true for the old version of your program may become invalid today.The performance of bitmap index can vary across different versions of Oracle.The security vulnerabilities in the old version of the library may have already been fixed in the new version.An old reliable manufacturer or supplier may be on their last legs financially.The technological landscape changes every day, and so do people.Who knows, maybe your IT director has become a secret admirer of Linux?Facts and assumptions are the pillars on which your software product is built.Make sure that these piles are standing on a solid foundation.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/diversity-prevails/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Diversity prevails</span>
+    </a>
+    
+    
+    <a href="/posts/everything-is-run-by-business/" class="navigation-next">
+      <span class="navigation-tittle">Everything is run by business</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

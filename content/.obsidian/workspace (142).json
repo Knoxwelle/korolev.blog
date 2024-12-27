@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "2c77e5235496f1a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "781461cab4be81a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63a26ad8b24d63ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "draft/Example 1 1 2 1 1 1 1 4 1 1 1 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5f0daee8b5249e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea22e5b3c325f09c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "154ff832aca75efb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "f8fac548194ac68f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81ed4e426435bc4d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 583.5
+  },
+  "right": {
+    "id": "45775cd4cc832aed",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc25f5abf132c807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d93a169373db6edc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "draft/Example 1 1 2 1 1 1 1 4 1 1 1 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8401c9771697d3c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "draft/Example 1 1 2 1 1 1 1 4 1 1 1 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cb2d644712a987ba",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4e36d1721f5e1c80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "draft/Example 1 1 2 1 1 1 1 4 1 1 1 2.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "63a26ad8b24d63ea",
+  "lastOpenFiles": [
+    "posts/Архитектор Янус.txt",
+    "posts/Architect Janus.md",
+    "posts/A practitioner must be the architect.md",
+    "posts/Assure ongoing integration.md",
+    "posts/Architecture is not the only factor in reuse.md",
+    "posts/Architectural compromises.md",
+    "posts/Building architecture as a balancing art.md",
+    "posts/Being a responsible leader matters more than looks.md",
+    "posts/Be guided by uncertainty.md",
+    "posts/Creating in the Dark.md",
+    "posts/Context dictates the rules.md",
+    "posts/Communication is the king, clarity and leadership are his true companions.md",
+    "posts/Do not control - observe.md",
+    "posts/Determine what the needs actually mean.md",
+    "posts/Cut down on the inherent complexity and do away with the incidental complication.md",
+    "posts/Investigate the topic.md",
+    "posts/Give developers their own space.md",
+    "posts/Fight the repetitions.md",
+    "posts/Failures are unavoidable.md",
+    "posts/Everything is run by business.md",
+    "posts/Dwarves, elves, wizards and kings.md",
+    "posts/Pathology of patterns.md",
+    "posts/One step in the design process is programming.md",
+    "posts/Never put the demands of the client ahead of your resume.md",
+    "posts/Learn from building architects.md",
+    "posts/It is written in lowercase as software architect.md",
+    "draft/Example.txt",
+    "posts/Software architecture's moral dilemmas.txt",
+    "posts/Software architect is written in lowercase.txt",
+    "posts/Simplicity is preferable to versatility.txt",
+    "posts/Share knowledge and experience.txt",
+    "posts/Scale is an obstacle to success.txt",
+    "posts/Reuse involves more factors than only architecture.txt",
+    "posts/Relying too much on architectural metaphors should be avoided.txt",
+    "posts/Recall how crucial performance is.txt",
+    "posts/Question assumptions—especially your own.txt",
+    "images/cover/knoxwelle__2024-08-25T010835.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T175005.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T174519.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173132.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T145454.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T150225.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T173907.000Z.jpg",
+    "images/cover/knoxwelle__2016-12-24T180113.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140333.000Z.jpg",
+    "images/cover/knoxwelle__2016-11-19T140122.000Z.jpg"
+  ]
+}

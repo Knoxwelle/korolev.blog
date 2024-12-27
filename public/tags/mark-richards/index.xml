@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mark Richards on Tiny Dev Blog</title>
+    <link>http://localhost:1313/tags/mark-richards/</link>
+    <description>Recent content in Mark Richards on Tiny Dev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mark-richards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Write down your reasons</title>
+      <link>http://localhost:1313/posts/write-down-your-reasons/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/write-down-your-reasons/</guid>
+      <description>In the developer community, there are quite a few disagreements regarding the value of documentation, especially when it comes to the architecture of software products.These disagreements are usually related to subjective views on the value of &amp;ldquo;thorough preliminary design&amp;rdquo; and the complexities that arise from the constant updating of project documentation in accordance with changes in the codebase.&#xA;One type of documentation that hardly ever becomes outdated, requires little effort to prepare, and almost always pays off is the record of the justifications behind various architectural decisions. As Mark Richards explains in the study &amp;ldquo;Architectural Compromises,&amp;rdquo; the creation of software architecture essentially comes down to finding reasonable compromises between various quality attributes, costs, time, and other factors.It should be absolutely clear to you, the management, developers, and other stakeholders involved in the project, why one solution has been preferred over others and what compromises this has led to.</description>
+    </item>
+  </channel>
+</rss>

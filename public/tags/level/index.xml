@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Level on Korolev Blog</title>
+    <link>http://localhost:1313/tags/level/</link>
+    <description>Recent content in Level on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/level/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It is written in lowercase as software architect</title>
+      <link>http://localhost:1313/posts/it-is-written-in-lowercase-as-software-architect/</link>
+      <pubDate>Fri, 14 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/it-is-written-in-lowercase-as-software-architect/</guid>
+      <description>There has been a depressing tendency in the field of software development lately: the aim to elevate software design to a professional standing comparable to that of the traditional school of architecture. Architects seem to want to validate their accomplishments in the eyes of the general public instead of their immediate employers and network of peers. However, it wasn&amp;rsquo;t until the end of the 19th century—a millennium after its inception—that architecture achieved professional stature. Some software architects rush their attempts to gain attention.&#xA;However, software development is still in its infancy. This industry still lacks enough knowledge for us to credibly classify it as professional. The software development sector is relatively new, but despite this, its products are highly appreciated, and qualified experts in the field—as well as those who aspire to appear—are compensated at a level commensurate with top professional disciplines like law, accounting, and medicine.</description>
+    </item>
+  </channel>
+</rss>

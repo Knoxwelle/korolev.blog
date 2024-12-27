@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data on Tiny Dev Blog</title>
+    <title>Data on Korolev Blog</title>
     <link>http://localhost:1313/tags/data/</link>
-    <description>Recent content in Data on Tiny Dev Blog</description>
+    <description>Recent content in Data on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The ethical concerns of software architecture</title>
+      <link>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</guid>
+      <description>When it comes to civil rights, identity theft, or malware, the ethical nature of software is made clear. But in calves, it also appears in less unusual situations.The lives of thousands, if not millions, of people are impacted by successful initiatives. They may have both beneficial and detrimental effects.&#xA;Whenever I decide how software should behave, I really decide what its users may and cannot do. Furthermore, the verdict is far harsher than the legislation because there is no appeal court where the selection of required fields or the rigid order of transactions may be disputed.&#xA;The scale effect provides another perspective on this issue. Do you recall articles about the newest viruses on the Internet or popular films? You have to have fulfilled the approximations of the number of working hours lost nationwide as a result of them.</description>
+    </item>
     <item>
       <title>There could be a number of answers</title>
       <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>

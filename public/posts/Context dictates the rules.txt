@@ -1,0 +1,25 @@
++++
+title = 'Context dictates the rules'
+date = 2024-06-15T00:00:00-07:00
+draft = false
+categories = []
+tags = ["interbase", "abrams", "start", "context", "database", "tank", "architecture", "team"]
+cover_image='/images/cover/knoxwelle__2016-12-18T184639.000Z.jpg'
++++
+I see some irony here: I begin the conversation about the ideals of architecture with the statement that, in essence, ideals do not exist.Well, if there aren't any, then apparently there's nothing more to write about...There is a clear contradiction, and attempts to continue in the same vein could, heaven forbid, lead to the destruction of the Universe or something else of that sort – who knows?
+
+But alas, this is not a pipe.
+
+One of the most valuable lessons I've learned from my experience as a software architect is this: context matters, and simplicity helps.In practical terms, this means that context is the only force that surpasses simplicity in making architectural decisions.
+
+When I speak of context, I mean not only the immediate high-level indicators such as key business factors, but also the elements that have an indirect influence (for example, new technologies and intellectual leadership on a particular issue).A good architect knows how to track several fast-moving targets.
+
+What does good architecture consist of?She is a product of decisions made in the context of conflicting tasks with varying priorities.This means that the most important decisions are sometimes related not to what should be included in the system, but to what should be excluded from it.The value of good architecture lies in the skillful decision-making (and its product merely reflects your intentions). 
+
+History offers us many interesting examples of the influence of context on architecture.My favorite example is the choice of a database for the software of a modern tank.(Usually, the choice of database does not have significant importance for the system architecture; this example is provided merely for clarification.)
+
+When it was time to choose a database, the team set about exploring various options.Most databases turned out to be capable of providing the level of performance necessary for navigation and targeting systems while the tank is moving quickly across rough terrain.But then the team unexpectedly discovered that firing the cannon creates a strong electromagnetic pulse, which causes a failure of the onboard systems – and, of course, the databases! On the modern battlefield, a tank with non-functioning software literally loses connection with the outside world.In this context, the decisive factor in choosing the database was the recovery time, and at that moment, InterBase had the best performance in this regard, which is why this database was ultimately selected for the M1 Abrams tank.
+
+So, although the technological debates of "X versus Y" are raging on many forums, it's all just a pointless distraction.Their foundation often lies not in fundamental discrepancies in technical execution, but in more subtle differences that users prefer in the absence of a "trump card" in the form of a defining context.
+
+Your team needs to let go of the pursuit of perfection.Start with analyzing the context and use it as a starting point for finding the simplest solutions.

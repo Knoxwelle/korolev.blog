@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architects on Korolev Blog</title>
+    <link>http://localhost:1313/tags/architects/</link>
+    <description>Recent content in Architects on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/architects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A practitioner must be the architect</title>
+      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
+      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
+      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
+    </item>
+    <item>
+      <title>No &#34;I am in architecture&#34; exists</title>
+      <link>http://localhost:1313/posts/there-is-no-i-am-in-architecture/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-is-no-i-am-in-architecture/</guid>
+      <description>Of course, there is an &amp;ldquo;I&amp;rdquo; in architecture. However, this is not the primary &amp;ldquo;I&amp;rdquo; that draws attention and controls conversations. It only takes a series of letters. For us software architects, what does that mean? Sometimes, our greatest threat comes from our own ego. Who hasn&amp;rsquo;t seen architects who: • believe they know the specifications better than the clients; • see developers as resources employed to carry out their concepts; or • dismiss any skepticism regarding their own or other architects&amp;rsquo; ideas? Any seasoned architect has probably made at least one of these errors at some point.I&amp;rsquo;ve given in to all of them and have gained harsh insight from my mistakes.&#xA;Why is this taking place? • Our success has already been attained.</description>
+    </item>
+    <item>
+      <title>Study the technical terms</title>
+      <link>http://localhost:1313/posts/study-the-technical-terms/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/study-the-technical-terms/</guid>
+      <description>There is jargon in every profession, which makes communication between its representatives more successful. Software architects converse about ROA, two-stage presentation, and supertypes of levels; lawyers converse about Habeas Corpus, Voir Dire, and Venire; carpenters converse about connections, infiltration, and impregnation. A moment, please excuse me.&#xA;Having efficient channels of communication amongst software architects is crucial, irrespective of the platform they operate on. Architectural and design templates are among these tools. Understanding fundamental architectural patterns and design templates, being able to recognize them in code, knowing when to apply them, and being able to use them in discussions with other architects and developers are all necessary for working as an architect.&#xA;Enterprise-level templates, application-level templates, integration templates, and design templates are the four primary categories into which architectural and design templates fall.</description>
+    </item>
+    <item>
+      <title>Stand up</title>
+      <link>http://localhost:1313/posts/stand-up/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/stand-up/</guid>
+      <description>Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success.&#xA;It is difficult to assess the architect&amp;rsquo;s impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the course of his career. Professional architects are aware that they need to &amp;ldquo;promote&amp;rdquo; their ideas, and effective communication is essential to this.</description>
+    </item>
+  </channel>
+</rss>

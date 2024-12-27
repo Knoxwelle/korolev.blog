@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hall on Korolev Blog</title>
+    <link>http://localhost:1313/categories/hall/</link>
+    <description>Recent content in Hall on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/hall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>There are no answers for every situation in life</title>
+      <link>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</link>
+      <pubDate>Tue, 07 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</guid>
+      <description>For a wide range of different problems, there isn&amp;rsquo;t a single, comprehensive solution, so the architect must continuously refine and improve his &amp;ldquo;context noe poche.&amp;rdquo; Eberhardt Rechtin writes in &amp;ldquo;Systems Architecting: Creating and Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;&amp;lt;&amp;hellip;&amp;gt; Rather than using the word &amp;ldquo;sensual,&amp;rdquo; it might be better to speak to it as &amp;ldquo;context sensation&amp;rdquo;—knowledge of what is pertinent in a certain context. By the time an architect-practitioner is called to address a system-level issue, which usually takes decades, they can have a strong contextual awareness thanks to education, experience, and case studies.&#xA;One of the biggest problems I see with the software industry, in my opinion, is that projects are often given to people who don&amp;rsquo;t have enough contextual knowledge.This could be due to the fact that the industry is only two generations old and is currently experiencing a time of rapid expansion; alternatively, it could be that the industry has reached a mature stage if this problem has been resolved.</description>
+    </item>
+  </channel>
+</rss>

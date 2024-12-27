@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Investment on Korolev Blog</title>
+    <link>http://localhost:1313/tags/investment/</link>
+    <description>Recent content in Investment on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/investment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Being a responsible leader matters more than looks</title>
+      <link>http://localhost:1313/posts/being-a-responsible-leader-matters-more-than-looks/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/being-a-responsible-leader-matters-more-than-looks/</guid>
+      <description>Upon being drawn to the project, the architect&amp;rsquo;s urge to &amp;ldquo;show himself&amp;rdquo; is evident.The hiring of a software architect typically signifies the organization&amp;rsquo;s trust in the expert&amp;rsquo;s technical proficiency; thus, the architect aspires to promptly demonstrate his merit for the trust. Unfortunately, there are those among us who mistakenly think that in order to &amp;ldquo;imagine yourself in all its glory,&amp;rdquo; one must shock, if not completely obscure, the group with their technical brilliance.&#xA;While making an impact on the audience is crucial for marketing, it has a detrimental effect on program project management. By taking a responsible leadership stance and having a solid grasp of both the technical and substantive aspects of the challenge at hand, the architect can gain the respect of his team.</description>
+    </item>
+  </channel>
+</rss>
