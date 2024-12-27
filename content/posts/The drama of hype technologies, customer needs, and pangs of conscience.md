@@ -1,9 +1,9 @@
 +++
 title='The drama of hype technologies, customer needs, and pangs of conscience'
-date=2024-12-15T00:00:00-07:00
+date=2024-11-09T00:00:00-07:00
 draft=false
-categories=[]
-tags=[]
+categories=["java", "python", "cobol"]
+tags=["java", "python", "cobol", "client", "project", "technology", "work", "solution"]
 cover_image='/images/cover/knoxwelle__2017-07-08T074347.000Z.jpg'
 +++
 We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.

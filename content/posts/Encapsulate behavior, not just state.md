@@ -1,9 +1,9 @@
 +++
 title='Encapsulate behavior, not just state'
-date=2024-07-18T00:00:00-07:00
+date=2024-09-18T00:00:00-07:00
 draft=false
-categories=[]
-tags=[]
+categories=["java", "c"]
+tags=[" java object", "java", "c# object", "order", "item", "additem", "ordermanager", "orderservice", "object", "classes", "encapsulation", "customer", "objects"]
 cover_image='/images/cover/knoxwelle__2024-04-22T212715.000Z.jpg'
 +++
 In systems theory, there is the concept of isolation, which is among the most useful when it comes to large and complex system structures. 

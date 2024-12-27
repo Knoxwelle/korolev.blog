@@ -6,28 +6,14 @@
     <description>Recent content in Use on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/use/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>You underestimate how frequently you negotiate</title>
-      <link>http://localhost:1313/posts/you-underestimate-how-frequently-you-negotiate/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-underestimate-how-frequently-you-negotiate/</guid>
-      <description>We&amp;rsquo;ve all been &amp;ldquo;buried&amp;rdquo; for savings through ingenious technological &amp;ldquo;budget&amp;rdquo; changes.The conversation goes like this:&#xA;&amp;ldquo;Is X really necessary?&amp;rdquo;&#xA;X can replace nearly anything that is required for the system, such as additional servers, software licenses, external backups, and power supplies. The question is always asked in a casual tone, as if you are spending your entire allowance on gum and comic books, and older people ought to think about buying new shells to save their money for the future.&#xA;&amp;ldquo;Yes&amp;rdquo; is the right answer to this question. absolutely necessary.&amp;quot; However, almost no one answers, for whatever reason.&#xA;After all, we have technical education, and every technical occupation requires the ability to compromise.It is evident that nobody will need unconventional power sources if several white wheels are installed in the data center and interns are stationed there.</description>
-    </item>
-    <item>
-      <title>Be guided by uncertainty</title>
-      <link>http://localhost:1313/posts/be-guided-by-uncertainty/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/be-guided-by-uncertainty/</guid>
-      <description>When faced with options, people frequently believe that choosing the best course of action is what really counts. This is not true in terms of design, be it software or anything else. When an alternative exists, an analysis of the uncertainty in the system&amp;rsquo;s design is required. To reduce the importance of design decisions, utilize abstraction and breakdown. Alternatively, use uncertainty as a determining factor to identify places where you can postpone going into detail. You could &amp;ldquo;sew&amp;rdquo; whatever option comes to mind mindlessly into the system, which could tie your hands later.The software product will become less flexible as a result, and arbitrary judgments will begin to take center stage.&#xA;One of the best and most useful definitions of architecture was offered by Grady Booch, who stated that &amp;ldquo;all architecture is the product of design, even though not all designs are intended to result in architecture.</description>
-    </item>
-    <item>
-      <title>Diversity prevails</title>
-      <link>http://localhost:1313/posts/diversity-prevails/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/diversity-prevails/</guid>
-      <description>The tools that architects use to design computer systems have undergone significant changes as a result of the technology&amp;rsquo;s natural progression. These modifications have rekindled interest in multilingual programming, or using more than one language at the center of a software system&amp;rsquo;s implementation.&#xA;The idea of multilingual programming is not new; one common example from the past is systems where the server portion is based on C++ COM objects while the client portion is written in Visual Basic.As a matter of fact, this architecture made good use of the advantages that each of the languages listed had at the height of their popularity.What modifications have sparked a renewed interest in bilingual programming? The genuine usage of text protocols has been made possible by new technical standards and a continual growth in resources, such as processing capacity and channel bandwidth.</description>
+      <title>Interfaces</title>
+      <link>http://localhost:1313/posts/interfaces/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/interfaces/</guid>
+      <description>One of the most common tasks in software development is interface specification. Interfaces exist at the highest level of abstraction (user interfaces), at the lowest level (function interfaces), and at intermediate levels (class interfaces, libraries, etc.). Regardless of what you are doing—aligning with end users on their future interaction with the system, collaborating with developers to develop the API specification, or declaring private class functions—interface design is an important part of your job. If you handle it well, using your interfaces will be a pure pleasure, and user productivity will increase. If you handle the task poorly, your interfaces will become a source of frustration and errors.&#xA;Good interfaces possess the following properties:&#xA;They are easy to use correctly. Users of a well-designed interface almost always use it correctly because that is the path of least resistance for that interface.</description>
     </item>
   </channel>
 </rss>

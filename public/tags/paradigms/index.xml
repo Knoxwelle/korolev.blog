@@ -6,14 +6,14 @@
     <description>Recent content in Paradigms on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/paradigms/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Diversity prevails</title>
-      <link>http://localhost:1313/posts/diversity-prevails/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/diversity-prevails/</guid>
-      <description>The tools that architects use to design computer systems have undergone significant changes as a result of the technology&amp;rsquo;s natural progression. These modifications have rekindled interest in multilingual programming, or using more than one language at the center of a software system&amp;rsquo;s implementation.&#xA;The idea of multilingual programming is not new; one common example from the past is systems where the server portion is based on C++ COM objects while the client portion is written in Visual Basic.As a matter of fact, this architecture made good use of the advantages that each of the languages listed had at the height of their popularity.What modifications have sparked a renewed interest in bilingual programming? The genuine usage of text protocols has been made possible by new technical standards and a continual growth in resources, such as processing capacity and channel bandwidth.</description>
+      <title>Programming paradigms</title>
+      <link>http://localhost:1313/posts/programming-paradigms/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/programming-paradigms/</guid>
+      <description>Psychology of Programming: It has long been known that a programmer&amp;rsquo;s professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.&#xA;Every programmer starts with some one language. This language has an the predominant influence on how a programmer sees software. But no matter how long a programmer has worked with this language, if they only work with it, they will only know this language. The thinking of a programmer who knows only one language is limited to the capabilities of that language.&#xA;A programmer learning a second language will encounter difficulties, especially if the computational model of the second language differs from the first.</description>
     </item>
   </channel>
 </rss>

@@ -24,18 +24,18 @@
 
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Architectural compromises">
 <meta name="twitter:description" content="An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&rsquo;s history.
-In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.">
+In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.">
 
 <meta property="og:url" content="http://localhost:1313/posts/architectural-compromises/">
   <meta property="og:site_name" content="Korolev Blog">
   <meta property="og:title" content="Architectural compromises">
   <meta property="og:description" content="An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza’s history.
-In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.">
+In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.">
   <meta property="og:locale" content="en-us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2024-08-09T00:00:00-07:00">
-    <meta property="article:modified_time" content="2024-08-09T00:00:00-07:00">
+    <meta property="article:published_time" content="2024-09-27T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-09-27T00:00:00-07:00">
     <meta property="article:tag" content="Vaza">
     <meta property="article:tag" content="Sweden">
     <meta property="article:tag" content="Poland">
@@ -202,7 +202,7 @@ In 1620, there was a war between Sweden and Poland. An attempt was made to bring
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> Aug 09, 2024
+      <i class="fas fa-calendar-alt"></i> Sep 27, 2024
     
     
     
@@ -218,6 +218,12 @@ In 1620, there was a war between Sweden and Poland. An attempt was made to bring
               •
           
               <a class="badge badge-category" href="/categories/cost">COST</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/cost-benefit">COST BENEFIT</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/cost-benefit-analysis-method">COST BENEFIT ANALYSIS METHOD</a>
               •
           
               <a class="badge badge-category" href="/categories/institute">INSTITUTE</a>
@@ -328,7 +334,7 @@ In 1620, there was a war between Sweden and Poland. An attempt was made to bring
   
   <div class="post">
     <p>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&rsquo;s history.</p>
-<p>In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks. Time was running out and there wasn&rsquo;t enough money—sounds familiar? The shipyard has never before designed such ships. Smaller, single-decker boats were his specialty. Still, he used his prior experience and abilities to develop and construct the Vaza. As a result, a ship was built to meet these specifications. The water is going to fall today. The ship proudly entered the harbor and saluted with all of her cannons. Then he succumbed.</p>
+<p>In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks. Time was running out, and there wasn&rsquo;t enough money—sounds familiar? The shipyard has never before designed such ships. Smaller, single-decker boats were his specialty. Still, he used his prior experience and abilities to develop and construct the Vaza. As a result, a ship was built to meet these specifications. The weather is going to fall today. The ship proudly entered the harbor and saluted with all of her cannons. Then he succumbed.</p>
 <p>The Vaza problem was obvious to everyone who had seen the deck of a huge 17th-century battleship: these ships&rsquo; decks were dangerously crowded, especially during battle. Creating ships that could be used for both combat and transportation was an expensive mistake. To cater to the king&rsquo;s every want, the shipwright built an unsteady and unbalanced ship.</p>
 <p>A software architect may take this dismal experience into consideration and learn a lot from this story while designing the architecture of a software product. An unstable architecture is created when wants are tried to be satisfied all at once (like with the Vaza), making it impossible to accurately finish any of the jobs. A good example of this is forcing service-oriented architecture (SOA) to function in parallel as a point-to-point solution. This usually means that we have to steer clear of the numerous levels of abstraction generated by the SOA technique, and the result is an architecture that resembles spaghetti at a restaurant in Italy. An architect can use a range of methods to determine the necessary sacrifices when building architecture. Two popular methods of this kind are the Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis Method (CBAM).</p>
 
@@ -337,14 +343,14 @@ In 1620, there was a war between Sweden and Poland. An attempt was made to bring
 
 <div class="navigation navigation-single">
     
-    <a href="/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/" class="navigation-prev">
+    <a href="/posts/enterprise-interview/" class="navigation-prev">
       <i aria-hidden="true" class="fa fa-chevron-left"></i>
-      <span class="navigation-tittle">Two mistakes can cancel each other out, making them difficult to correct</span>
+      <span class="navigation-tittle">Enterprise interview</span>
     </a>
     
     
-    <a href="/posts/do-not-repeat-your-code/" class="navigation-next">
-      <span class="navigation-tittle">Do not repeat your code</span>
+    <a href="/posts/time-changes-everything/" class="navigation-next">
+      <span class="navigation-tittle">Time changes everything</span>
       <i aria-hidden="true" class="fa fa-chevron-right"></i>
     </a>
     

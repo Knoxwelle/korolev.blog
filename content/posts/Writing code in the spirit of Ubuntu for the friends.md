@@ -1,9 +1,9 @@
 +++
 title='Writing code in the spirit of Ubuntu for the friends'
-date=2024-08-17T00:00:00-07:00
+date=2024-08-23T00:00:00-07:00
 draft=false
-categories=[]
-tags=[]
+categories=["ubuntu"]
+tags=["zulu", "ubuntu", "code", "moment", "quality", "person"]
 cover_image='/images/cover/knoxwelle__2017-05-25T123506.000Z.jpg'
 +++
 Very often we program in isolation, and our programs reflect both our personal interpretation of the problem and a very personal solution to it. We can work in a team, but even then we are isolated as a team. We easily forget that the code created in such isolation will be executed, used, and extended by other people. It's easy to overlook the social aspect of programming. Creating software is both a technical and a social endeavor. We should look around more often to understand that we do not work in isolation and that we share a common responsibility for the potential success not only of the group of developers but also of every person around us.

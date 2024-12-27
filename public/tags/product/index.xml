@@ -6,21 +6,28 @@
     <description>Recent content in Product on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/product/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building architecture as a balancing art</title>
-      <link>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</guid>
-      <description>When designing a software architecture, the conventional technical procedures that spring to mind are disassembling the system into its constituent pieces, specifying interfaces, allocating responsibilities, employing templates, and optimizing performance. A wide range of other variables, including output management, deployment settings, convenience of use, safety, and maintenance, must also be taken into account by the architect.Meanwhile, every one of these technical and procedural specifics must be relevant to the requirements of the stakeholders.Taking these interests into account during the requirements analysis process is one of the greatest ways to ensure that the requirements specifications for the product being developed are thorough.&#xA;Every project participant has interests that affect both the company&amp;rsquo;s software development process and the firm as a whole. Taking these interests into account leads to the architect&amp;rsquo;s final list of priorities.</description>
+      <title>First say yes</title>
+      <link>http://localhost:1313/posts/first-say-yes/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/first-say-yes/</guid>
+      <description>Recently, I was at the grocery store and searched for edamame, green soybeans (I only vaguely guessed they were some kind of vegetable). I didn&amp;rsquo;t I knew where to look for this product: in the vegetable section, in the frozen section. products or on the shelves with canned goods? Finally, I gave up and asked a store employee for help. She didn&amp;rsquo;t know either!&#xA;The store employee could have reacted to my request in different ways. She could have made it clear that only a fool doesn&amp;rsquo;t know where to look for it, or just brushed it off. vague hints, or even just say that they don&amp;rsquo;t have such a product. But she deemed it possible to find a solution and help the customer.</description>
     </item>
     <item>
-      <title>Application performance determined by architecture</title>
-      <link>http://localhost:1313/posts/application-performance-determined-by-architecture/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/application-performance-determined-by-architecture/</guid>
-      <description>An application&amp;rsquo;s performance is determined by its architecture. On the surface, this claim seems obvious, but actual experience suggests otherwise. For example, software architects frequently believe that switching to a different software infrastructure manufacturer can alleviate application performance difficulties. This idea may have originated from the hype around test findings; for example, assertions that the product of the top company outperforms that of its nearest competitor by 25% may have contributed to the development of this view. However, if the leading product completes the operation in 3 milliseconds and the competitor product completes it in 4 milliseconds, the reported 25% (one millisection) represents virtually little given the overall low performance, which is caused by architectural inefficiencies.&#xA;In addition to IT managers and performance testing teams, other groups of people advise you to carry out the subtle configuration of the application&amp;rsquo;s infrastructure, like experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth.</description>
+      <title>Creating architecture as the art of balance</title>
+      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
+      <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
+    </item>
+    <item>
+      <title>The performance of an application is determined by its architecture</title>
+      <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
+      <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
     </item>
   </channel>
 </rss>

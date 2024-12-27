@@ -6,35 +6,21 @@
     <description>Recent content in Performance on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/performance/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Remember the importance of performance</title>
-      <link>http://localhost:1313/posts/remember-the-importance-of-performance/</link>
-      <pubDate>Sun, 11 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/remember-the-importance-of-performance/</guid>
-      <description>Your car is 98% recyclable, roomy, comfy, economical, and affordable. Would you like one? Naturally. anybody desires. Yes, the fact that it can only go a maximum of 10 km/h is the only issue. Did you not make up your mind? This brief illustration makes it quite evident that production is just as significant as any other factor.&#xA;Because computers process data at a rate that is unmatched by humans, many architects prioritize performance last because they believe the system&amp;rsquo;s speed will be sufficient. Furthermore, Moore&amp;rsquo;s law will ensure everything is taken care of if current systems are not quick enough.But the equipment&amp;rsquo;s speed is simply one component of the system.&#xA;Some people define performance as only how long it takes a system to react to input from them.</description>
+      <title>Thinking about performance is never too early</title>
+      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
+      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>
     <item>
-      <title>Application performance determined by architecture</title>
-      <link>http://localhost:1313/posts/application-performance-determined-by-architecture/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/application-performance-determined-by-architecture/</guid>
-      <description>An application&amp;rsquo;s performance is determined by its architecture. On the surface, this claim seems obvious, but actual experience suggests otherwise. For example, software architects frequently believe that switching to a different software infrastructure manufacturer can alleviate application performance difficulties. This idea may have originated from the hype around test findings; for example, assertions that the product of the top company outperforms that of its nearest competitor by 25% may have contributed to the development of this view. However, if the leading product completes the operation in 3 milliseconds and the competitor product completes it in 4 milliseconds, the reported 25% (one millisection) represents virtually little given the overall low performance, which is caused by architectural inefficiencies.&#xA;In addition to IT managers and performance testing teams, other groups of people advise you to carry out the subtle configuration of the application&amp;rsquo;s infrastructure, like experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth.</description>
-    </item>
-    <item>
-      <title>There is never a bad time to consider productivity</title>
-      <link>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</guid>
-      <description>The needs of business application users are mostly stated in functional requirements. The non-functional components of the system, such as performance, flexibility, downtime, support needs, etc., are under the architect&amp;rsquo;s control. Concurrently, the system maintenance team may be given full responsibility for the initial testing of non-functional requirements, or the testing may be postponed until a very late stage of the development process.&#xA;This is a mistake that happens far more often than it should. It could have several foundations. Worrying about the program&amp;rsquo;s speed and flexibility while it isn&amp;rsquo;t yet perfectly performing the required role may seem pointless. The tests themselves are rather complex, as are the test settings. Early working versions of the system may not have been subjected to a realistic load because of their low use intensity.</description>
-    </item>
-    <item>
-      <title>Apply numerical standards</title>
-      <link>http://localhost:1313/posts/apply-numerical-standards/</link>
-      <pubDate>Sun, 02 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/apply-numerical-standards/</guid>
-      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Not only does it have a quick reaction time, but it&amp;rsquo;s also &amp;ldquo;expandable.&amp;rdquo; The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect&amp;rsquo;s duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer&amp;rsquo;s obsession with inane concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and his or her own whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”).&#xA;Generally, we try to document all of these requests along with any other information. All too often, though, this section seems to be a list of vague words like &amp;ldquo;friendly to accompany,&amp;rdquo; &amp;ldquo;flexible,&amp;rdquo; and so on.</description>
+      <title>The performance of an application is determined by its architecture</title>
+      <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
+      <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
     </item>
   </channel>
 </rss>

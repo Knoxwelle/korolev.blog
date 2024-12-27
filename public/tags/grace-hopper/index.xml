@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grace Hopper on Korolev Blog</title>
+    <link>http://localhost:1313/tags/grace-hopper/</link>
+    <description>Recent content in Grace Hopper on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/grace-hopper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do not rely on miracles</title>
+      <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
+      <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
+    </item>
+  </channel>
+</rss>

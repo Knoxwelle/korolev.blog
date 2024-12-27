@@ -1,9 +1,9 @@
 +++
 title='Stand up!'
-date=2024-10-19T00:00:00-07:00
+date=2024-10-18T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["eye", "communication", "standing", "effectiveness", "attention", "architect"]
 cover_image='/images/cover/knoxwelle__2024-08-25T010835.000Z.jpg'
 +++
 For many of us, a career as an architect began with some purely technical position where success was primarily determined by the ability to communicate with computers. However, in the role of an architect, we primarily have to communicate with other people. Whether you discuss the advantages of a particular template with developers or explain to management the pros and cons of purchasing middleware, the key to success lies in your communication skills.

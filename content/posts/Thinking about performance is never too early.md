@@ -1,9 +1,9 @@
 +++
 title='Thinking about performance is never too early'
-date=2024-11-11T00:00:00-07:00
+date=2024-07-29T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["first", "performance", "system", "testing", "requirements", "issues"]
 cover_image='/images/cover/knoxwelle__2018-09-05T083440.000Z.jpg'
 +++
 The needs of business application users manifest primarily

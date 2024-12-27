@@ -1,9 +1,9 @@
 +++
 title='Creating architecture as the art of balance'
-date=2024-06-28T00:00:00-07:00
+date=2024-07-30T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["match", "first", "product", "priorities", "software", "organization", "development"]
 cover_image='/images/cover/knoxwelle__2017-12-28T082056.000Z.jpg'
 +++
 Match the interests of the parties with the technical requirements.

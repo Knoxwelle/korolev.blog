@@ -6,21 +6,21 @@
     <description>Recent content in Application on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/application/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Application performance determined by architecture</title>
-      <link>http://localhost:1313/posts/application-performance-determined-by-architecture/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/application-performance-determined-by-architecture/</guid>
-      <description>An application&amp;rsquo;s performance is determined by its architecture. On the surface, this claim seems obvious, but actual experience suggests otherwise. For example, software architects frequently believe that switching to a different software infrastructure manufacturer can alleviate application performance difficulties. This idea may have originated from the hype around test findings; for example, assertions that the product of the top company outperforms that of its nearest competitor by 25% may have contributed to the development of this view. However, if the leading product completes the operation in 3 milliseconds and the competitor product completes it in 4 milliseconds, the reported 25% (one millisection) represents virtually little given the overall low performance, which is caused by architectural inefficiencies.&#xA;In addition to IT managers and performance testing teams, other groups of people advise you to carry out the subtle configuration of the application&amp;rsquo;s infrastructure, like experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth.</description>
+      <title>Relational Database Management Systems</title>
+      <link>http://localhost:1313/posts/relational-database-management-systems/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/relational-database-management-systems/</guid>
+      <description>If your application needs to handle a large, long-lived set of interrelated data elements, you can confidently place it in a relational database. In the past, there were few relational DBMSs; they were complex, expensive to maintain, and clunky beasts. Those times are gone. Today, finding a relational DBMS is not difficult: it is quite possible that a relational DBMS or even two are already installed on your machine. Some very advanced relational DBMSs, such like MySQL and PostgreSQL, are available in source code, so the question of costs it is no longer worth buying them. Moreover, the so-called &amp;ldquo;embedded database systems&amp;rdquo; can be integrated into your application as libraries, almost requiring no configuration and administration; two such examples are interesting open-source DBMS, SQLite and HSQLDB.</description>
     </item>
     <item>
-      <title>Using a database as a fort</title>
-      <link>http://localhost:1313/posts/using-a-database-as-a-fort/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/using-a-database-as-a-fort/</guid>
-      <description>The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don&amp;rsquo;t affect the data. It is imperative that a reliable data model be created as early in the project as possible.&#xA;Prewriting complex, comprehensive technical requirements is a thing of the past! The new school demands that products be delivered frequently and early.Writing one line of vulnerable code is better than writing 10 in your head. When it comes to the facts, at least, it looks too good to be true.&#xA;Data structures and their relationships usually do not change quickly, although user interfaces and business logic do. Because of this, it&amp;rsquo;s imperative to define the data model precisely from the start, both analytically and structurally.</description>
+      <title>The performance of an application is determined by its architecture</title>
+      <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
+      <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
     </item>
   </channel>
 </rss>

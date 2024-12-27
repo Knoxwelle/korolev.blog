@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haskell on Korolev Blog</title>
+    <link>http://localhost:1313/categories/haskell/</link>
+    <description>Recent content in Haskell on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/haskell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programming paradigms</title>
+      <link>http://localhost:1313/posts/programming-paradigms/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/programming-paradigms/</guid>
+      <description>Psychology of Programming: It has long been known that a programmer&amp;rsquo;s professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.&#xA;Every programmer starts with some one language. This language has an the predominant influence on how a programmer sees software. But no matter how long a programmer has worked with this language, if they only work with it, they will only know this language. The thinking of a programmer who knows only one language is limited to the capabilities of that language.&#xA;A programmer learning a second language will encounter difficulties, especially if the computational model of the second language differs from the first.</description>
+    </item>
+  </channel>
+</rss>

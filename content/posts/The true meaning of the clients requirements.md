@@ -1,9 +1,9 @@
 +++
 title='The true meaning of the clients requirements'
-date=2024-07-18T00:00:00-07:00
+date=2024-09-09T00:00:00-07:00
 draft=false
-categories=[]
-tags=[]
+categories=["hillaker"]
+tags=["harry hillaker", "falcon", "air force", "agile manifesto", "collaboration", "requirements", "aircraft", "client", "business", "speed"]
 cover_image='/images/cover/knoxwelle__2017-05-25T124338.000Z.jpg'
 +++
 In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.

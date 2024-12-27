@@ -1,9 +1,9 @@
 +++
 title='Two mistakes can cancel each other out, making them difficult to correct'
-date=2024-08-02T00:00:00-07:00
+date=2024-11-15T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["code", "allan klumpp", "apollo", "everything", "timetolive", "problems", "fix", "defect", "users"]
 cover_image='/images/cover/knoxwelle__2019-10-12T040611.000Z.jpg'
 +++
 Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?

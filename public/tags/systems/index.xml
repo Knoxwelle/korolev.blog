@@ -6,21 +6,14 @@
     <description>Recent content in Systems on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/systems/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Diversity prevails</title>
-      <link>http://localhost:1313/posts/diversity-prevails/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/diversity-prevails/</guid>
-      <description>The tools that architects use to design computer systems have undergone significant changes as a result of the technology&amp;rsquo;s natural progression. These modifications have rekindled interest in multilingual programming, or using more than one language at the center of a software system&amp;rsquo;s implementation.&#xA;The idea of multilingual programming is not new; one common example from the past is systems where the server portion is based on C++ COM objects while the client portion is written in Visual Basic.As a matter of fact, this architecture made good use of the advantages that each of the languages listed had at the height of their popularity.What modifications have sparked a renewed interest in bilingual programming? The genuine usage of text protocols has been made possible by new technical standards and a continual growth in resources, such as processing capacity and channel bandwidth.</description>
-    </item>
-    <item>
-      <title>There are no answers for every situation in life</title>
-      <link>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</guid>
-      <description>For a wide range of different problems, there isn&amp;rsquo;t a single, comprehensive solution, so the architect must continuously refine and improve his &amp;ldquo;context noe poche.&amp;rdquo; Eberhardt Rechtin writes in &amp;ldquo;Systems Architecting: Creating and Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;&amp;lt;&amp;hellip;&amp;gt; Rather than using the word &amp;ldquo;sensual,&amp;rdquo; it might be better to speak to it as &amp;ldquo;context sensation&amp;rdquo;—knowledge of what is pertinent in a certain context. By the time an architect-practitioner is called to address a system-level issue, which usually takes decades, they can have a strong contextual awareness thanks to education, experience, and case studies.&#xA;One of the biggest problems I see with the software industry, in my opinion, is that projects are often given to people who don&amp;rsquo;t have enough contextual knowledge.This could be due to the fact that the industry is only two generations old and is currently experiencing a time of rapid expansion; alternatively, it could be that the industry has reached a mature stage if this problem has been resolved.</description>
+      <title>A verbose journal will deprive you of sleep</title>
+      <link>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</guid>
+      <description>When I encounter a system that has been in development or operation for a long time, the first sign of real trouble is always a &amp;ldquo;dirty&amp;rdquo; log. You know what I&amp;rsquo;m talking about: it&amp;rsquo;s when clicking a link during normal web page usage results in a whole stream of messages being recorded in the system&amp;rsquo;s single log. Too many log entries can be just as useless as having none at all.&#xA;If your systems are similar to mine, then when your work ends, the work of others begins. After the development is completed, the system will be long and successfully serve customers (if you&amp;rsquo;re lucky). How will you learn about problems if the system is in operation, and what will you do about them?</description>
     </item>
   </channel>
 </rss>

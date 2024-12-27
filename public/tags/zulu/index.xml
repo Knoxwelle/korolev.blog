@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zulu on Korolev Blog</title>
+    <link>http://localhost:1313/tags/zulu/</link>
+    <description>Recent content in Zulu on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/zulu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing code in the spirit of Ubuntu for the friends</title>
+      <link>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</link>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</guid>
+      <description>Very often we program in isolation, and our programs reflect both our personal interpretation of the problem and a very personal solution to it. We can work in a team, but even then we are isolated as a team. We easily forget that the code created in such isolation will be executed, used, and extended by other people. It&amp;rsquo;s easy to overlook the social aspect of programming. Creating software is both a technical and a social endeavor. We should look around more often to understand that we do not work in isolation and that we share a common responsibility for the potential success not only of the group of developers but also of every person around us.&#xA;It is possible to write high-quality code in isolation from reality, completely detached.</description>
+    </item>
+  </channel>
+</rss>

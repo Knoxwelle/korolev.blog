@@ -1,9 +1,9 @@
 +++
 title='Use quantitative criteria'
-date=2024-11-14T00:00:00-07:00
+date=2024-09-02T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["ms.", "system", "criteria", "time", "work", "users"]
 cover_image='/images/cover/knoxwelle__2022-01-21T050158.000Z.jpg'
 +++
 "Fast" cannot be a requirement. Nor can "having a good response time." Or, let's say, "scalable." The main reason is the lack of objective criteria for meeting such requirements.

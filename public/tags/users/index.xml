@@ -6,21 +6,28 @@
     <description>Recent content in Users on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/users/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The ethical concerns of software architecture</title>
-      <link>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</guid>
-      <description>When it comes to civil rights, identity theft, or malware, the ethical nature of software is made clear. But in calves, it also appears in less unusual situations.The lives of thousands, if not millions, of people are impacted by successful initiatives. They may have both beneficial and detrimental effects.&#xA;Whenever I decide how software should behave, I really decide what its users may and cannot do. Furthermore, the verdict is far harsher than the legislation because there is no appeal court where the selection of required fields or the rigid order of transactions may be disputed.&#xA;The scale effect provides another perspective on this issue. Do you recall articles about the newest viruses on the Internet or popular films? You have to have fulfilled the approximations of the number of working hours lost nationwide as a result of them.</description>
+      <title>Interfaces</title>
+      <link>http://localhost:1313/posts/interfaces/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/interfaces/</guid>
+      <description>One of the most common tasks in software development is interface specification. Interfaces exist at the highest level of abstraction (user interfaces), at the lowest level (function interfaces), and at intermediate levels (class interfaces, libraries, etc.). Regardless of what you are doing—aligning with end users on their future interaction with the system, collaborating with developers to develop the API specification, or declaring private class functions—interface design is an important part of your job. If you handle it well, using your interfaces will be a pure pleasure, and user productivity will increase. If you handle the task poorly, your interfaces will become a source of frustration and errors.&#xA;Good interfaces possess the following properties:&#xA;They are easy to use correctly. Users of a well-designed interface almost always use it correctly because that is the path of least resistance for that interface.</description>
     </item>
     <item>
-      <title>Apply numerical standards</title>
-      <link>http://localhost:1313/posts/apply-numerical-standards/</link>
-      <pubDate>Sun, 02 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/apply-numerical-standards/</guid>
-      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Not only does it have a quick reaction time, but it&amp;rsquo;s also &amp;ldquo;expandable.&amp;rdquo; The main reason is that there are no unbiased guidelines for carrying out these responsibilities.Nevertheless, users need these functionalities. The architect&amp;rsquo;s duties include making sure the system possesses the necessary characteristics and resolving the inevitable conflicts that arise between them. In the absence of objective benchmarks, the architect is forced to rely on the developer&amp;rsquo;s obsession with inane concepts (“No, the program is not ready; it isn&amp;rsquo;t working fast enough”) and his or her own whims (“No, I can&amp;rsquo;t accept the program; it doesn&amp;rsquo;t work fast enough”).&#xA;Generally, we try to document all of these requests along with any other information. All too often, though, this section seems to be a list of vague words like &amp;ldquo;friendly to accompany,&amp;rdquo; &amp;ldquo;flexible,&amp;rdquo; and so on.</description>
+      <title>Two mistakes can cancel each other out, making them difficult to correct</title>
+      <link>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</guid>
+      <description>Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?&#xA;In his interview, Allan Klumpp, the lead software developer for the Apollo lunar module, revealed that the engine control software contained a defect that caused the lunar module to behave erratically. However, there was another bug in the program that compensated for the first one, and during the Apollo 11 and 12 moon landings, this software was successfully used before the bugs were discovered and fixed.&#xA;Let&amp;rsquo;s consider a function that returns an exit code. Let&amp;rsquo;s say it returns false when it should return true. Now imagine that the calling function does not implement the check for the return value. Everything works perfectly until one day someone discovers the lack of a check and adds it.</description>
+    </item>
+    <item>
+      <title>Use quantitative criteria</title>
+      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Nor can &amp;ldquo;having a good response time.&amp;rdquo; Or, let&amp;rsquo;s say, &amp;ldquo;scalable.&amp;rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&amp;rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&amp;ldquo;No, I can&amp;rsquo;t accept the program – it doesn&amp;rsquo;t work fast enough&amp;rdquo;) and the developers, obsessed with their compulsions (&amp;ldquo;No, the program isn&amp;rsquo;t ready yet – it doesn&amp;rsquo;t work fast enough&amp;rdquo;).&#xA;Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;easy to accompany,&amp;rdquo; and so on.</description>
     </item>
   </channel>
 </rss>

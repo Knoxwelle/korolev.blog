@@ -6,14 +6,21 @@
     <description>Recent content in Google on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enterprise interview</title>
       <link>http://localhost:1313/posts/enterprise-interview/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/enterprise-interview/</guid>
       <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
+    </item>
+    <item>
+      <title>Satisfy your ambition through Open Source</title>
+      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
+      <pubDate>Sat, 31 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
+      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
     </item>
   </channel>
 </rss>

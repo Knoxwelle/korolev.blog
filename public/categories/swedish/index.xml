@@ -6,14 +6,14 @@
     <description>Recent content in Swedish on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/swedish/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Architectural compromises</title>
       <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Fri, 09 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/architectural-compromises/</guid>
-      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
+      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,9 @@
 +++
 title='How to use the bug tracking system'
-date=2024-08-16T00:00:00-07:00
+date=2024-07-16T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["error", "report", "information", "public", "team"]
 cover_image='/images/cover/knoxwelle__2019-09-28T050434.000Z.jpg'
 +++
 No matter what you call them – bugs, defects, or even design side effects – it is impossible to eliminate them completely. For a project to be successful

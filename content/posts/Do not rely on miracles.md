@@ -1,9 +1,9 @@
 +++
 title='Do not rely on miracles'
-date=2024-08-01T00:00:00-07:00
+date=2024-10-10T00:00:00-07:00
 draft=false
-categories=[]
-tags=[]
+categories=["cobol"]
+tags=["grace hopper", "cobol", "dll", "magic", "work", "project", "need", "programmers"]
 cover_image='/images/cover/knoxwelle__2020-02-07T165621.000Z.jpg'
 +++
 If you look at any activity, process, or discipline with sufficient

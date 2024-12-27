@@ -6,21 +6,28 @@
     <description>Recent content in Quality on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/quality/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Perspective as seen from 300 meters</title>
-      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
-      <pubDate>Sat, 14 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
-      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
-    </item>
     <item>
       <title>Try not to alter the timetable</title>
       <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
-      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
       <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
+    </item>
+    <item>
+      <title>Writing code in the spirit of Ubuntu for the friends</title>
+      <link>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</link>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</guid>
+      <description>Very often we program in isolation, and our programs reflect both our personal interpretation of the problem and a very personal solution to it. We can work in a team, but even then we are isolated as a team. We easily forget that the code created in such isolation will be executed, used, and extended by other people. It&amp;rsquo;s easy to overlook the social aspect of programming. Creating software is both a technical and a social endeavor. We should look around more often to understand that we do not work in isolation and that we share a common responsibility for the potential success not only of the group of developers but also of every person around us.&#xA;It is possible to write high-quality code in isolation from reality, completely detached.</description>
+    </item>
+    <item>
+      <title>Perspective as seen from 300 meters</title>
+      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
+      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
     </item>
   </channel>
 </rss>

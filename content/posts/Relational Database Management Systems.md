@@ -1,9 +1,9 @@
 +++
 title='Relational Database Management Systems'
-date=2024-07-31T00:00:00-07:00
+date=2024-10-01T00:00:00-07:00
 draft=false
-categories=[]
-tags=[]
+categories=["mysql", "sql", "java", "ruby"]
+tags=["ram", "java", "ruby", "data", "database", "application", "dbms", "sql"]
 cover_image='/images/cover/knoxwelle__2017-04-24T073118.000Z.jpg'
 +++
 If your application needs to handle a large, long-lived set of interrelated data elements, you can confidently place it in a relational database. In the past, there were few relational DBMSs; they were complex, expensive to maintain, and clunky beasts. Those times are gone. Today, finding a relational DBMS is not difficult: it is quite possible that a relational DBMS or even two are already installed on your machine. Some very advanced relational DBMSs, such

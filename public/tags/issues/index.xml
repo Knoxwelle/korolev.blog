@@ -6,21 +6,14 @@
     <description>Recent content in Issues on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/issues/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cut down on the inherent complexity and do away with the incidental complication</title>
-      <link>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</link>
-      <pubDate>Thu, 20 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/cut-down-on-the-inherent-complexity-and-do-away-with-the-incidental-complication/</guid>
-      <description>For example, national air traffic coordination is a labor-intensive process. The control system needs to keep track of every aircraft&amp;rsquo;s precise location at all times, including height, speed, direction, and destination, in order to prevent collisions both in the air and on the runways. In addition, under constantly shifting circumstances, it&amp;rsquo;s imperative to quickly adjust aircraft schedules to avoid traffic bottlenecks at airports. A significant shift in the weather calls for a thorough reworking of the schedule.&#xA;On the other hand, unintended complexity arises from issues that we feel need to be handled in order to reduce the inherent complexity. A simple illustration of complexity is the flight management system, which is still in use even though it is outdated. The system was developed to manage the challenging task of coordinating the flight of thousands of aircraft; yet, this approach is not without its problems.</description>
-    </item>
-    <item>
-      <title>Issues can extend beyond what they see in the mirror</title>
-      <link>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/issues-can-extend-beyond-what-they-see-in-the-mirror/</guid>
-      <description>I&amp;rsquo;ve been working on a few different programming projects. All of them encountered problems that turned out to be more difficult than the development team had predicted. This typically manifested itself in the following ways: although a minority of team members saw these problems at an early stage, most workers rejected or ignored any warning signs since they were too late to realize how serious they were.&#xA;This happens for a number of reasons:&#xA;-Project-related issues that don&amp;rsquo;t seem vital at first become crucial when it&amp;rsquo;s too late to fix them. The story of the welded frog is obviously a farce, but it well illustrates the mistakes that can be made in a lot of projects.&#xA;-When other team members don&amp;rsquo;t have the same level of skill or experience, some employees frequently encounter resistance.</description>
+      <title>Thinking about performance is never too early</title>
+      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
+      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>
   </channel>
 </rss>

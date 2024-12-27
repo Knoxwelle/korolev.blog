@@ -6,21 +6,42 @@
     <description>Recent content in Software on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Perspective as seen from 300 meters</title>
-      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
-      <pubDate>Sat, 14 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
-      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
+      <title>Communication is the king, clarity and leadership are its loyal servants</title>
+      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
+      <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
+    </item>
+    <item>
+      <title>Do not repeat your code</title>
+      <link>http://localhost:1313/posts/do-not-repeat-your-code/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-repeat-your-code/</guid>
+      <description>&amp;ldquo;Don&amp;rsquo;t Repeat Yourself (DRY)&amp;rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.&#xA;Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.</description>
     </item>
     <item>
       <title>Architectural compromises</title>
       <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Fri, 09 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/architectural-compromises/</guid>
-      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a gallion known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
+      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
+    </item>
+    <item>
+      <title>Creating architecture as the art of balance</title>
+      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
+      <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
+    </item>
+    <item>
+      <title>Perspective as seen from 300 meters</title>
+      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
+      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
     </item>
   </channel>
 </rss>

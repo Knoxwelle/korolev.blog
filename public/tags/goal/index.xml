@@ -6,14 +6,14 @@
     <description>Recent content in Goal on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/goal/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>500 lines of specification are needed for every line of functioning code</title>
-      <link>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</link>
-      <pubDate>Thu, 25 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/500-lines-of-specification-are-needed-for-every-line-of-functioning-code/</guid>
-      <description>Promising is a beautiful thing. Specifications are important in this sense because they set the foundation for building systems. Taking into account the behavior of individual components as well as the interconnections between them on a micro and macro scale is essential when analyzing the architecture as a whole.&#xA;Unfortunately, architects are often fascinated with design and gravitate toward architectural abstractions. However, the specs are meaningless on their own. The ultimate goal of the software project is to create a fully functional system. The architect should never lose sight of this goal or the fact that design is only a tool and not the finished product. The architect of the skyscraper would soon come to regret defying physics to achieve the elegant design of the edifice.</description>
+      <title>One line of working code costs 500 lines of specifications</title>
+      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</guid>
+      <description>You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.&#xA;Design is a beautiful thing. A systematic, detailed representation of the problem space and its solution reveals errors and identifies opportunities for improvement, sometimes in quite radical ways. Specifications play an important role in this, as they define the template for building the system. It is very important to carefully consider the entire architecture—both at the macro level, examining the interaction between components, and at the micro level, delving into the behavior of the components themselves.&#xA;Unfortunately, architects often get carried away with the design process, falling under the charm of architectural abstractions. However, by themselves specifications have no value.</description>
     </item>
   </channel>
 </rss>

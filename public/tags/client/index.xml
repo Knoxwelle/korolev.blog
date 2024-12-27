@@ -6,14 +6,28 @@
     <description>Recent content in Client on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/client/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Never put the demands of the client ahead of your resume</title>
-      <link>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</link>
-      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/never-put-the-demands-of-the-client-ahead-of-your-resume/</guid>
-      <description>As technicians, we choose particular strategies, technologies, and approaches to solve problems not because they provide the greatest answer, but rather because we genuinely wish to incorporate them into our overview. Choosing such a course of action rarely pays off.&#xA;Your grateful clients who are lining up to recommend you to others will be the most effective career catalyst because of how well you have served them. The gracious customers will provide you with greater service than any recently developed paradigm or in-vogue item in the new language. Architects need to stay up to date on evolving concepts and technologies, but you should never try to take on additional work at the client&amp;rsquo;s expense. It is imperative for architects to always remember that their organization&amp;rsquo;s success is their responsibility.</description>
+      <title>Your clients mean something different than what they say</title>
+      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
+      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
+    </item>
+    <item>
+      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
+      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
+      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
+    </item>
+    <item>
+      <title>The true meaning of the clients requirements</title>
+      <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
+      <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
     </item>
   </channel>
 </rss>

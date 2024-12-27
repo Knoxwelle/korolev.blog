@@ -6,14 +6,14 @@
     <description>Recent content in Hillaker on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/hillaker/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Determine what the needs actually mean</title>
-      <link>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</guid>
-      <description>Customers and end users often insist on what they see to be a practical resolution to a problem. Harry Hillaker, a leading F-16 Falcon designer, offers a perfect example of this. The goal set for his team was to build an aircraft capable of traveling at M2-2.5 speeds. This was (and presumably still is) a very challenging project, particularly if the secondary objective was to construct a light aircraft that was &amp;ldquo;cheap.&amp;rdquo;&#xA;The design team was informed by Air Force clients that the M2–2.5 speed was critical for the aircraft to be able to escape combat if needed. When the true necessity was realized, the designers addressed the main problem and offered a workable solution. Rather than having a fast peak speed, this was in the form of a movable aircraft with good traction that provided good acceleration and maneuverability.</description>
+      <title>The true meaning of the clients requirements</title>
+      <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
+      <pubDate>Mon, 09 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
+      <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
     </item>
   </channel>
 </rss>

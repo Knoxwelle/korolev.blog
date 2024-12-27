@@ -6,12 +6,19 @@
     <description>Recent content in Solution on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/solution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
+      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
+      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
+    </item>
     <item>
       <title>Try before you decide</title>
       <link>http://localhost:1313/posts/try-before-you-decide/</link>
-      <pubDate>Sun, 08 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
       <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
     </item>

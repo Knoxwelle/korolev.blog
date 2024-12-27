@@ -1,9 +1,9 @@
 +++
 title='To do something hastily and run away is a crime'
-date=2024-10-12T00:00:00-07:00
+date=2024-07-04T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["john", "run", "time", "tests", "code", "work"]
 cover_image='/images/cover/knoxwelle__2017-06-07T081638.000Z.jpg'
 +++
 It's getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves.

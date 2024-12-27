@@ -1,9 +1,9 @@
 +++
 title='Do not be afraid to break something'
-date=2024-07-29T00:00:00-07:00
+date=2024-07-17T00:00:00-07:00
 draft=false
 categories=[]
-tags=[]
+tags=["system", "code", "project", "structure", "work"]
 cover_image='/images/cover/knoxwelle__2016-12-18T184639.000Z.jpg'
 +++
 Everyone who has worked in our industry has surely encountered a project, code

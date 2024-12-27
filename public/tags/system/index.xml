@@ -6,21 +6,63 @@
     <description>Recent content in System on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/system/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>One line of working code costs 500 lines of specifications</title>
+      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</guid>
+      <description>You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.&#xA;Design is a beautiful thing. A systematic, detailed representation of the problem space and its solution reveals errors and identifies opportunities for improvement, sometimes in quite radical ways. Specifications play an important role in this, as they define the template for building the system. It is very important to carefully consider the entire architecture—both at the macro level, examining the interaction between components, and at the micro level, delving into the behavior of the components themselves.&#xA;Unfortunately, architects often get carried away with the design process, falling under the charm of architectural abstractions. However, by themselves specifications have no value.</description>
+    </item>
     <item>
       <title>Enterprise interview</title>
       <link>http://localhost:1313/posts/enterprise-interview/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/enterprise-interview/</guid>
       <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
     </item>
     <item>
+      <title>Use quantitative criteria</title>
+      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Nor can &amp;ldquo;having a good response time.&amp;rdquo; Or, let&amp;rsquo;s say, &amp;ldquo;scalable.&amp;rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&amp;rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&amp;ldquo;No, I can&amp;rsquo;t accept the program – it doesn&amp;rsquo;t work fast enough&amp;rdquo;) and the developers, obsessed with their compulsions (&amp;ldquo;No, the program isn&amp;rsquo;t ready yet – it doesn&amp;rsquo;t work fast enough&amp;rdquo;).&#xA;Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;easy to accompany,&amp;rdquo; and so on.</description>
+    </item>
+    <item>
       <title>Give developers their own space</title>
       <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
-      <pubDate>Mon, 30 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
       <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
+    </item>
+    <item>
+      <title>A verbose journal will deprive you of sleep</title>
+      <link>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</guid>
+      <description>When I encounter a system that has been in development or operation for a long time, the first sign of real trouble is always a &amp;ldquo;dirty&amp;rdquo; log. You know what I&amp;rsquo;m talking about: it&amp;rsquo;s when clicking a link during normal web page usage results in a whole stream of messages being recorded in the system&amp;rsquo;s single log. Too many log entries can be just as useless as having none at all.&#xA;If your systems are similar to mine, then when your work ends, the work of others begins. After the development is completed, the system will be long and successfully serve customers (if you&amp;rsquo;re lucky). How will you learn about problems if the system is in operation, and what will you do about them?</description>
+    </item>
+    <item>
+      <title>You are negotiating</title>
+      <link>http://localhost:1313/posts/you-are-negotiating/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-are-negotiating/</guid>
+      <description>Have you encountered projects where reasonable technological solutions are &amp;ldquo;buried&amp;rdquo; for the sake of saving costs?&#xA;The conversation goes something like this: &amp;ldquo;Do we really need X?&amp;rdquo; asks the project manager. You can substitute X with almost anything essential for system operations: software product licenses, redundant servers, external backups or power sources. The question is always asked in a fatherly tone, as if you were spending all your pocket money on comics and chewing gum, while serious adults need to think about buying new buckets in which they will carry their future profits.&#xA;The correct answer to this question is: &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one responds.&#xA;After all, we have a technical education, and any technical discipline is an art of compromise.</description>
+    </item>
+    <item>
+      <title>Thinking about performance is never too early</title>
+      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
+      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
+    </item>
+    <item>
+      <title>Do not be afraid to break something</title>
+      <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
+      <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
     </item>
   </channel>
 </rss>

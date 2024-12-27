@@ -6,28 +6,14 @@
     <description>Recent content in Data on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The ethical concerns of software architecture</title>
-      <link>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-ethical-concerns-of-software-architecture/</guid>
-      <description>When it comes to civil rights, identity theft, or malware, the ethical nature of software is made clear. But in calves, it also appears in less unusual situations.The lives of thousands, if not millions, of people are impacted by successful initiatives. They may have both beneficial and detrimental effects.&#xA;Whenever I decide how software should behave, I really decide what its users may and cannot do. Furthermore, the verdict is far harsher than the legislation because there is no appeal court where the selection of required fields or the rigid order of transactions may be disputed.&#xA;The scale effect provides another perspective on this issue. Do you recall articles about the newest viruses on the Internet or popular films? You have to have fulfilled the approximations of the number of working hours lost nationwide as a result of them.</description>
-    </item>
-    <item>
-      <title>There could be a number of answers</title>
-      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
-      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
-    </item>
-    <item>
-      <title>Using a database as a fort</title>
-      <link>http://localhost:1313/posts/using-a-database-as-a-fort/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/using-a-database-as-a-fort/</guid>
-      <description>The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don&amp;rsquo;t affect the data. It is imperative that a reliable data model be created as early in the project as possible.&#xA;Prewriting complex, comprehensive technical requirements is a thing of the past! The new school demands that products be delivered frequently and early.Writing one line of vulnerable code is better than writing 10 in your head. When it comes to the facts, at least, it looks too good to be true.&#xA;Data structures and their relationships usually do not change quickly, although user interfaces and business logic do. Because of this, it&amp;rsquo;s imperative to define the data model precisely from the start, both analytically and structurally.</description>
+      <title>Relational Database Management Systems</title>
+      <link>http://localhost:1313/posts/relational-database-management-systems/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/relational-database-management-systems/</guid>
+      <description>If your application needs to handle a large, long-lived set of interrelated data elements, you can confidently place it in a relational database. In the past, there were few relational DBMSs; they were complex, expensive to maintain, and clunky beasts. Those times are gone. Today, finding a relational DBMS is not difficult: it is quite possible that a relational DBMS or even two are already installed on your machine. Some very advanced relational DBMSs, such like MySQL and PostgreSQL, are available in source code, so the question of costs it is no longer worth buying them. Moreover, the so-called &amp;ldquo;embedded database systems&amp;rdquo; can be integrated into your application as libraries, almost requiring no configuration and administration; two such examples are interesting open-source DBMS, SQLite and HSQLDB.</description>
     </item>
   </channel>
 </rss>

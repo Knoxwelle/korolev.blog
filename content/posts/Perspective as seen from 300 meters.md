@@ -1,6 +1,6 @@
 +++
 title='Perspective as seen from 300 meters'
-date=2024-12-14T00:00:00-07:00
+date=2024-07-19T00:00:00-07:00
 draft=false
 categories=[]
 tags=["whenever", "view", "infoviz", "code", "quality", "representations", "metrics", "program", "software"]

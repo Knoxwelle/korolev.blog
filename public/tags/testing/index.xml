@@ -6,14 +6,21 @@
     <description>Recent content in Testing on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>There is never a bad time to consider productivity</title>
-      <link>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-is-never-a-bad-time-to-consider-productivity/</guid>
-      <description>The needs of business application users are mostly stated in functional requirements. The non-functional components of the system, such as performance, flexibility, downtime, support needs, etc., are under the architect&amp;rsquo;s control. Concurrently, the system maintenance team may be given full responsibility for the initial testing of non-functional requirements, or the testing may be postponed until a very late stage of the development process.&#xA;This is a mistake that happens far more often than it should. It could have several foundations. Worrying about the program&amp;rsquo;s speed and flexibility while it isn&amp;rsquo;t yet perfectly performing the required role may seem pointless. The tests themselves are rather complex, as are the test settings. Early working versions of the system may not have been subjected to a realistic load because of their low use intensity.</description>
+      <title>Do not touch this code</title>
+      <link>http://localhost:1313/posts/do-not-touch-this-code/</link>
+      <pubDate>Sun, 10 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-touch-this-code/</guid>
+      <description>Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head Testing informs you that there is a problem. You are immediately ready to respond: &amp;ldquo;Let me quickly fix everything: I know what the issue is.&amp;rdquo;&#xA;However, in a broader sense, the problem is that you, as a developer, believe you should be granted access to the server where testing is being conducted.&#xA;In most cases, when it comes to web development, the architecture can be broken down into the following parts:&#xA;-Local development and unit testing on the developer&amp;rsquo;s machine&#xA;Development server where automated or manual integration testing is conducted Staging server, where the quality control team and users conduct acceptance testing Combat (production) server Yes, there are other servers and services, for example, for managing source code or software defects, but the idea is clear.</description>
+    </item>
+    <item>
+      <title>Thinking about performance is never too early</title>
+      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
+      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>
   </channel>
 </rss>

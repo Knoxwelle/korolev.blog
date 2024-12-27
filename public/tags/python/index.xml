@@ -6,12 +6,19 @@
     <description>Recent content in Python on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
+      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
+      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
+      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
+    </item>
     <item>
       <title>Enterprise interview</title>
       <link>http://localhost:1313/posts/enterprise-interview/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/enterprise-interview/</guid>
       <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
     </item>

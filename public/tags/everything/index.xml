@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Everything on Korolev Blog</title>
+    <link>http://localhost:1313/tags/everything/</link>
+    <description>Recent content in Everything on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/everything/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two mistakes can cancel each other out, making them difficult to correct</title>
+      <link>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</guid>
+      <description>Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?&#xA;In his interview, Allan Klumpp, the lead software developer for the Apollo lunar module, revealed that the engine control software contained a defect that caused the lunar module to behave erratically. However, there was another bug in the program that compensated for the first one, and during the Apollo 11 and 12 moon landings, this software was successfully used before the bugs were discovered and fixed.&#xA;Let&amp;rsquo;s consider a function that returns an exit code. Let&amp;rsquo;s say it returns false when it should return true. Now imagine that the calling function does not implement the check for the return value. Everything works perfectly until one day someone discovers the lack of a check and adds it.</description>
+    </item>
+  </channel>
+</rss>
