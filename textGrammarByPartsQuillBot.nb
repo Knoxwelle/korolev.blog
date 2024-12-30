@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     26325,        503]
-NotebookOptionsPosition[     25554,        483]
-NotebookOutlinePosition[     25955,        499]
-CellTagsIndexPosition[     25912,        496]
+NotebookDataLength[     59747,       1095]
+NotebookOptionsPosition[     56992,       1051]
+NotebookOutlinePosition[     57393,       1067]
+CellTagsIndexPosition[     57350,       1064]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -34,7 +34,7 @@ Cell[BoxData[
    3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
    3.9292195131056185`*^9},
  CellLabel->
-  "In[962]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+  "In[968]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -154,9 +154,9 @@ they say.md\"\>"}], "}"}]], "Output",
    3.932321182536326*^9}, 3.932321296813586*^9, 3.9323213285155525`*^9, 
    3.9323214444553013`*^9, 3.932321993742594*^9, 3.9323221788827734`*^9, 
    3.932327176035804*^9, 3.9323278257526307`*^9, 3.9324299102160163`*^9, 
-   3.9330854710908985`*^9, 3.944262979873376*^9},
+   3.9330854710908985`*^9, 3.944262979873376*^9, 3.9442633456672764`*^9},
  CellLabel->
-  "Out[962]=",ExpressionUUID->"c3c1bf31-3acc-48c8-9dd4-9885daeec6c5"]
+  "Out[968]=",ExpressionUUID->"b7dfa394-a790-4f24-b5f8-0e94400b03db"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -185,7 +185,10 @@ Cell[BoxData[
    3.9293815846823196`*^9}, {3.9293817296478004`*^9, 3.929381755585693*^9}, {
    3.9299049748571444`*^9, 3.929904975436484*^9}, 3.929905034066107*^9, 
    3.930480683931385*^9, 3.93048080971883*^9},
- CellLabel->"In[2]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+ CellLabel->
+  "In[969]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+
+Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
@@ -470,9 +473,574 @@ button']\>\""}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]",
    3.9324279213688855`*^9}, 3.9324279570592003`*^9, {3.9324280866738443`*^9, 
    3.9324281033808517`*^9}, {3.932429814200081*^9, 3.9324298212371674`*^9}, 
    3.9324298908808784`*^9, {3.9325781448690696`*^9, 3.9325781452466526`*^9}, 
-   3.9340630085332527`*^9, 3.934121808065522*^9, 
-   3.9442632591496067`*^9},ExpressionUUID->"c8075ac6-894d-436e-b634-\
-55ef40986281"],
+   3.9340630085332527`*^9, 3.934121808065522*^9, 3.9442632591496067`*^9},
+ CellLabel->
+  "In[970]:=",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "1", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+content\\\\posts\\\\Architectural compromises.md\"\>"}],
+  SequenceForm[
+  1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+content\\posts\\Architectural compromises.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"14f9157d-7554-48a3-a480-e7ce05959597"],
+
+Cell[BoxData["4"], "Print",
+ CellChangeTimes->{3.944263345806332*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"40452fb8-8107-43c1-a7ed-ba84dfc08229"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"An architecture cannot accomplish high security, \
+high availability, high abstraction, and high performance all at once. All \
+that software architects need to do is know, understand, and relate one real \
+narrative to their peers and clients. I am speaking of Vaza's history.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "An architecture cannot accomplish high security, high availability, high \
+abstraction, and high performance all at once. All that software architects \
+need to do is know, understand, and relate one real narrative to their peers \
+and clients. I am speaking of Vaza's history."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633586241674`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"49c047c3-1f4b-4bae-a97f-d455491fe906"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"An architecture cannot accomplish high security, \
+high availability, high abstraction, and high performance all at once. All \
+that software architects need to do is know, understand, and relate one real \
+narrative to their peers and clients. I am speaking of Vaza's history.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "An architecture cannot accomplish high security, high availability, high \
+abstraction, and high performance all at once. All that software architects \
+need to do is know, understand, and relate one real narrative to their peers \
+and clients. I am speaking of Vaza's history."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.944263395450546*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"c614a5df-201c-4aef-8331-63c8d0e1f727"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"In 1620, there was a war between Sweden and \
+Poland. An attempt was made to bring this expensive war to an early end by \
+the Swedish King by ordering the construction of a gallion known as the vase. \
+The ship was not like the others. It was unlike any other ship of the time in \
+its features. It had to be longer than sixty meters in order to safely convey \
+300 men at a time to Poland while also carrying 64 weapons on two battery \
+decks. Time was running out and there wasn't enough money\[LongDash]sounds \
+familiar? The shipyard has never before designed such ships. Smaller, \
+single-decker boats were his specialty. Still, he used his prior experience \
+and abilities to develop and construct the Vaza. As a result, a ship was \
+built to meet these specifications. The water is going to fall today. The \
+ship proudly entered the harbor and saluted with all of her cannons. Then he \
+succumbed.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "In 1620, there was a war between Sweden and Poland. An attempt was made \
+to bring this expensive war to an early end by the Swedish King by ordering \
+the construction of a gallion known as the vase. The ship was not like the \
+others. It was unlike any other ship of the time in its features. It had to \
+be longer than sixty meters in order to safely convey 300 men at a time to \
+Poland while also carrying 64 weapons on two battery decks. Time was running \
+out and there wasn't enough money\[LongDash]sounds familiar? The shipyard has \
+never before designed such ships. Smaller, single-decker boats were his \
+specialty. Still, he used his prior experience and abilities to develop and \
+construct the Vaza. As a result, a ship was built to meet these \
+specifications. The water is going to fall today. The ship proudly entered \
+the harbor and saluted with all of her cannons. Then he succumbed."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633954696517`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"497d602e-aa73-469c-81d6-8629d5796d46"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"In 1620, there was a war between Sweden and \
+Poland. An attempt was made to bring this expensive war to an early end by \
+the Swedish King by ordering the construction of a galleon known as the vase. \
+The ship was not like the others. It was unlike any other ship of the time in \
+its features. It had to be longer than sixty meters in order to safely convey \
+300 men at a time to Poland while also carrying 64 weapons on two battery \
+decks. Time was running out, and there wasn't enough money\[LongDash]sounds \
+familiar? The shipyard has never before designed such ships. Smaller, \
+single-decker boats were his specialty. Still, he used his prior experience \
+and abilities to develop and construct the Vaza. As a result, a ship was \
+built to meet these specifications. The weather is going to fall today. The \
+ship proudly entered the harbor and saluted with all of her cannons. Then he \
+succumbed.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "In 1620, there was a war between Sweden and Poland. An attempt was made \
+to bring this expensive war to an early end by the Swedish King by ordering \
+the construction of a galleon known as the vase. The ship was not like the \
+others. It was unlike any other ship of the time in its features. It had to \
+be longer than sixty meters in order to safely convey 300 men at a time to \
+Poland while also carrying 64 weapons on two battery decks. Time was running \
+out, and there wasn't enough money\[LongDash]sounds familiar? The shipyard \
+has never before designed such ships. Smaller, single-decker boats were his \
+specialty. Still, he used his prior experience and abilities to develop and \
+construct the Vaza. As a result, a ship was built to meet these \
+specifications. The weather is going to fall today. The ship proudly entered \
+the harbor and saluted with all of her cannons. Then he succumbed."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.944263450901019*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"6bafd122-0594-48d9-8543-d1853af42749"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"The Vaza problem was obvious to everyone who had \
+seen the deck of a huge 17th-century battleship: these ships' decks were \
+dangerously crowded, especially during battle. Creating ships that could be \
+used for both combat and transportation was an expensive mistake. To cater to \
+the king's every want, the shipwright built an unsteady and unbalanced \
+ship.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "The Vaza problem was obvious to everyone who had seen the deck of a huge \
+17th-century battleship: these ships' decks were dangerously crowded, \
+especially during battle. Creating ships that could be used for both combat \
+and transportation was an expensive mistake. To cater to the king's every \
+want, the shipwright built an unsteady and unbalanced ship."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442634509160137`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"b388e9d8-eff2-4101-9e7f-d5a98f046bfa"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"The Vaza problem was obvious to everyone who had \
+seen the deck of a huge 17th-century battleship: these ships' decks were \
+dangerously crowded, especially during battle. Creating ships that could be \
+used for both combat and transportation was an expensive mistake. To cater to \
+the king's every want, the shipwright built an unsteady and unbalanced \
+ship.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "The Vaza problem was obvious to everyone who had seen the deck of a huge \
+17th-century battleship: these ships' decks were dangerously crowded, \
+especially during battle. Creating ships that could be used for both combat \
+and transportation was an expensive mistake. To cater to the king's every \
+want, the shipwright built an unsteady and unbalanced ship."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.944263487859114*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"3eaabd97-4152-4c81-b98d-0e575c8fcbcf"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"A software architect may take this dismal \
+experience into consideration and learn a lot from this story while designing \
+the architecture of a software product. An unstable architecture is created \
+when wants are tried to be satisfied all at once (like with the Vaza), making \
+it impossible to accurately finish any of the jobs. A good example of this is \
+forcing service-oriented architecture (SOA) to function in parallel as a \
+point-to-point solution. This usually means that we have to steer clear of \
+the numerous levels of abstraction generated by the SOA technique, and the \
+result is an architecture that resembles spaghetti at a restaurant in Italy. \
+An architect can use a range of methods to determine the necessary sacrifices \
+when building architecture. Two popular methods of this kind are the \
+Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
+Method (CBAM).\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "A software architect may take this dismal experience into consideration \
+and learn a lot from this story while designing the architecture of a \
+software product. An unstable architecture is created when wants are tried to \
+be satisfied all at once (like with the Vaza), making it impossible to \
+accurately finish any of the jobs. A good example of this is forcing \
+service-oriented architecture (SOA) to function in parallel as a \
+point-to-point solution. This usually means that we have to steer clear of \
+the numerous levels of abstraction generated by the SOA technique, and the \
+result is an architecture that resembles spaghetti at a restaurant in Italy. \
+An architect can use a range of methods to determine the necessary sacrifices \
+when building architecture. Two popular methods of this kind are the \
+Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
+Method (CBAM)."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442634878681126`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"731c533d-85a8-4ca7-8f5e-84a834da1d82"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"A software architect may take this dismal \
+experience into consideration and learn a lot from this story while designing \
+the architecture of a software product. An unstable architecture is created \
+when wants are tried to be satisfied all at once (like with the Vaza), making \
+it impossible to accurately finish any of the jobs. A good example of this is \
+forcing service-oriented architecture (SOA) to function in parallel as a \
+point-to-point solution. This usually means that we have to steer clear of \
+the numerous levels of abstraction generated by the SOA technique, and the \
+result is an architecture that resembles spaghetti at a restaurant in Italy. \
+An architect can use a range of methods to determine the necessary sacrifices \
+when building architecture. Two popular methods of this kind are the \
+Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
+Method (CBAM).\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "A software architect may take this dismal experience into consideration \
+and learn a lot from this story while designing the architecture of a \
+software product. An unstable architecture is created when wants are tried to \
+be satisfied all at once (like with the Vaza), making it impossible to \
+accurately finish any of the jobs. A good example of this is forcing \
+service-oriented architecture (SOA) to function in parallel as a \
+point-to-point solution. This usually means that we have to steer clear of \
+the numerous levels of abstraction generated by the SOA technique, and the \
+result is an architecture that resembles spaghetti at a restaurant in Italy. \
+An architect can use a range of methods to determine the necessary sacrifices \
+when building architecture. Two popular methods of this kind are the \
+Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
+Method (CBAM)."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442635475438128`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"b38165dd-d514-4d7a-80b9-72f285b6234d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newText: \"\>", 
+   "\[InvisibleSpace]", "\<\"An architecture cannot accomplish high security, \
+high availability, high abstraction, and high performance all at once. All \
+that software architects need to do is know, understand, and relate one real \
+narrative to their peers and clients. I am speaking of Vaza's \
+history.\\n\\nIn 1620, there was a war between Sweden and Poland. An attempt \
+was made to bring this expensive war to an early end by the Swedish King by \
+ordering the construction of a galleon known as the vase. The ship was not \
+like the others. It was unlike any other ship of the time in its features. It \
+had to be longer than sixty meters in order to safely convey 300 men at a \
+time to Poland while also carrying 64 weapons on two battery decks. Time was \
+running out, and there wasn't enough money\[LongDash]sounds familiar? The \
+shipyard has never before designed such ships. Smaller, single-decker boats \
+were his specialty. Still, he used his prior experience and abilities to \
+develop and construct the Vaza. As a result, a ship was built to meet these \
+specifications. The weather is going to fall today. The ship proudly entered \
+the harbor and saluted with all of her cannons. Then he succumbed.\\n\\nThe \
+Vaza problem was obvious to everyone who had seen the deck of a huge \
+17th-century battleship: these ships' decks were dangerously crowded, \
+especially during battle. Creating ships that could be used for both combat \
+and transportation was an expensive mistake. To cater to the king's every \
+want, the shipwright built an unsteady and unbalanced ship.\\n\\nA software \
+architect may take this dismal experience into consideration and learn a lot \
+from this story while designing the architecture of a software product. An \
+unstable architecture is created when wants are tried to be satisfied all at \
+once (like with the Vaza), making it impossible to accurately finish any of \
+the jobs. A good example of this is forcing service-oriented architecture \
+(SOA) to function in parallel as a point-to-point solution. This usually \
+means that we have to steer clear of the numerous levels of abstraction \
+generated by the SOA technique, and the result is an architecture that \
+resembles spaghetti at a restaurant in Italy. An architect can use a range of \
+methods to determine the necessary sacrifices when building architecture. Two \
+popular methods of this kind are the Architecture Tradeoff Analysis Method \
+(ATAM) and the Cost Benefit Analysis Method (CBAM).\"\>"}],
+  SequenceForm[
+  "newText: ", 
+   "An architecture cannot accomplish high security, high availability, high \
+abstraction, and high performance all at once. All that software architects \
+need to do is know, understand, and relate one real narrative to their peers \
+and clients. I am speaking of Vaza's history.\n\nIn 1620, there was a war \
+between Sweden and Poland. An attempt was made to bring this expensive war to \
+an early end by the Swedish King by ordering the construction of a galleon \
+known as the vase. The ship was not like the others. It was unlike any other \
+ship of the time in its features. It had to be longer than sixty meters in \
+order to safely convey 300 men at a time to Poland while also carrying 64 \
+weapons on two battery decks. Time was running out, and there wasn't enough \
+money\[LongDash]sounds familiar? The shipyard has never before designed such \
+ships. Smaller, single-decker boats were his specialty. Still, he used his \
+prior experience and abilities to develop and construct the Vaza. As a \
+result, a ship was built to meet these specifications. The weather is going \
+to fall today. The ship proudly entered the harbor and saluted with all of \
+her cannons. Then he succumbed.\n\nThe Vaza problem was obvious to everyone \
+who had seen the deck of a huge 17th-century battleship: these ships' decks \
+were dangerously crowded, especially during battle. Creating ships that could \
+be used for both combat and transportation was an expensive mistake. To cater \
+to the king's every want, the shipwright built an unsteady and unbalanced \
+ship.\n\nA software architect may take this dismal experience into \
+consideration and learn a lot from this story while designing the \
+architecture of a software product. An unstable architecture is created when \
+wants are tried to be satisfied all at once (like with the Vaza), making it \
+impossible to accurately finish any of the jobs. A good example of this is \
+forcing service-oriented architecture (SOA) to function in parallel as a \
+point-to-point solution. This usually means that we have to steer clear of \
+the numerous levels of abstraction generated by the SOA technique, and the \
+result is an architecture that resembles spaghetti at a restaurant in Italy. \
+An architect can use a range of methods to determine the necessary sacrifices \
+when building architecture. Two popular methods of this kind are the \
+Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
+Method (CBAM)."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.944263547754777*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"be8457f6-c5e1-4382-8199-f3f9a5ddadae"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle='Architectural \
+compromises'\\ndate=2024-08-09T00:00:00-07:00\\ndraft=false\\ncategories=[\\\"\
+vaza\\\", \\\"sweden\\\", \\\"poland\\\", \\\"italian\\\", \\\"atam\\\", \
+\\\"method\\\", \\\"cbam\\\", \\\"cost\\\", \\\"institute\\\", \
+\\\"swedish\\\", \\\"italy\\\"]\\ntags=[\\\"vaza\\\", \\\"sweden\\\", \
+\\\"poland\\\", \\\"king\\\", \\\"time\\\", \\\"soa\\\", \\\"atam\\\", \
+\\\"architecture tradeoff\\\", \\\"benefit analysis metod\\\", \\\"sei\\\", \
+\\\"software engineering institute\\\", \\\"architecture\\\", \
+\\\"software\\\", \\\"ship\\\", \\\"ships\\\", \\\"swedish king\\\", \
+\\\"italy\\\", \\\"benefit analysis method\\\", \
+\\\"cbam\\\"]\\ncover_image='/images/cover/knoxwelle__2016-12-17T153900.000Z.\
+jpg'\\n+++\\nAn architecture cannot accomplish high security, high \
+availability, high abstraction, and high performance all at once. All that \
+software architects need to do is know, understand, and relate one real \
+narrative to their peers and clients. I am speaking of Vaza's \
+history.\\n\\nIn 1620, there was a war between Sweden and Poland. An attempt \
+was made to bring this expensive war to an early end by the Swedish King by \
+ordering the construction of a galleon known as the vase. The ship was not \
+like the others. It was unlike any other ship of the time in its features. It \
+had to be longer than sixty meters in order to safely convey 300 men at a \
+time to Poland while also carrying 64 weapons on two battery decks. Time was \
+running out, and there wasn't enough money\[LongDash]sounds familiar? The \
+shipyard has never before designed such ships. Smaller, single-decker boats \
+were his specialty. Still, he used his prior experience and abilities to \
+develop and construct the Vaza. As a result, a ship was built to meet these \
+specifications. The weather is going to fall today. The ship proudly entered \
+the harbor and saluted with all of her cannons. Then he succumbed.\\n\\nThe \
+Vaza problem was obvious to everyone who had seen the deck of a huge \
+17th-century battleship: these ships' decks were dangerously crowded, \
+especially during battle. Creating ships that could be used for both combat \
+and transportation was an expensive mistake. To cater to the king's every \
+want, the shipwright built an unsteady and unbalanced ship.\\n\\nA software \
+architect may take this dismal experience into consideration and learn a lot \
+from this story while designing the architecture of a software product. An \
+unstable architecture is created when wants are tried to be satisfied all at \
+once (like with the Vaza), making it impossible to accurately finish any of \
+the jobs. A good example of this is forcing service-oriented architecture \
+(SOA) to function in parallel as a point-to-point solution. This usually \
+means that we have to steer clear of the numerous levels of abstraction \
+generated by the SOA technique, and the result is an architecture that \
+resembles spaghetti at a restaurant in Italy. An architect can use a range of \
+methods to determine the necessary sacrifices when building architecture. Two \
+popular methods of this kind are the Architecture Tradeoff Analysis Method \
+(ATAM) and the Cost Benefit Analysis Method (CBAM).\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle='Architectural compromises'\ndate=2024-08-09T00:00:00-07:00\n\
+draft=false\ncategories=[\"vaza\", \"sweden\", \"poland\", \"italian\", \
+\"atam\", \"method\", \"cbam\", \"cost\", \"institute\", \"swedish\", \"italy\
+\"]\ntags=[\"vaza\", \"sweden\", \"poland\", \"king\", \"time\", \"soa\", \
+\"atam\", \"architecture tradeoff\", \"benefit analysis metod\", \"sei\", \
+\"software engineering institute\", \"architecture\", \"software\", \"ship\", \
+\"ships\", \"swedish king\", \"italy\", \"benefit analysis method\", \
+\"cbam\"]\ncover_image='/images/cover/knoxwelle__2016-12-17T153900.000Z.jpg'\n\
++++\nAn architecture cannot accomplish high security, high availability, high \
+abstraction, and high performance all at once. All that software architects \
+need to do is know, understand, and relate one real narrative to their peers \
+and clients. I am speaking of Vaza's history.\n\nIn 1620, there was a war \
+between Sweden and Poland. An attempt was made to bring this expensive war to \
+an early end by the Swedish King by ordering the construction of a galleon \
+known as the vase. The ship was not like the others. It was unlike any other \
+ship of the time in its features. It had to be longer than sixty meters in \
+order to safely convey 300 men at a time to Poland while also carrying 64 \
+weapons on two battery decks. Time was running out, and there wasn't enough \
+money\[LongDash]sounds familiar? The shipyard has never before designed such \
+ships. Smaller, single-decker boats were his specialty. Still, he used his \
+prior experience and abilities to develop and construct the Vaza. As a \
+result, a ship was built to meet these specifications. The weather is going \
+to fall today. The ship proudly entered the harbor and saluted with all of \
+her cannons. Then he succumbed.\n\nThe Vaza problem was obvious to everyone \
+who had seen the deck of a huge 17th-century battleship: these ships' decks \
+were dangerously crowded, especially during battle. Creating ships that could \
+be used for both combat and transportation was an expensive mistake. To cater \
+to the king's every want, the shipwright built an unsteady and unbalanced \
+ship.\n\nA software architect may take this dismal experience into \
+consideration and learn a lot from this story while designing the \
+architecture of a software product. An unstable architecture is created when \
+wants are tried to be satisfied all at once (like with the Vaza), making it \
+impossible to accurately finish any of the jobs. A good example of this is \
+forcing service-oriented architecture (SOA) to function in parallel as a \
+point-to-point solution. This usually means that we have to steer clear of \
+the numerous levels of abstraction generated by the SOA technique, and the \
+result is an architecture that resembles spaghetti at a restaurant in Italy. \
+An architect can use a range of methods to determine the necessary sacrifices \
+when building architecture. Two popular methods of this kind are the \
+Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
+Method (CBAM)."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.944263547778384*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"45eb6f10-dd92-4b67-8c7b-11b3cb6d65c5"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "2", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+content\\\\posts\\\\A verbose journal will deprive you of sleep.md\"\>"}],
+  SequenceForm[
+  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+content\\posts\\A verbose journal will deprive you of sleep.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442635477953973`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"15cd5fe3-bf72-42ca-9668-15f8af153202"],
+
+Cell[BoxData["6"], "Print",
+ CellChangeTimes->{3.9442635478529263`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"84d0939f-444b-4672-ac6d-1aac4648da23"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"When I encounter a system that has been in \
+development or operation for a long time, the first sign of real trouble is \
+always a \\\"dirty\\\" log. You know what I'm talking about: it's when \
+clicking a link during normal web page usage results in a whole stream of \
+messages being recorded in the system's single log. Too many log entries can \
+be just as useless as having none at all.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "When I encounter a system that has been in development or operation for a \
+long time, the first sign of real trouble is always a \"dirty\" log. You know \
+what I'm talking about: it's when clicking a link during normal web page \
+usage results in a whole stream of messages being recorded in the system's \
+single log. Too many log entries can be just as useless as having none at \
+all."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.944263590269762*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"93085716-10d2-466b-8f6d-ec2c51ad4b80"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"When I encounter a system that has been in \
+development or operation for a long time, the first sign of real trouble is \
+always a \\\"dirty\\\" log. You know what I'm talking about: it's when \
+clicking a link during normal web page usage results in a whole stream of \
+messages being recorded in the system's single log. Too many log entries can \
+be just as useless as having none at all.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "When I encounter a system that has been in development or operation for a \
+long time, the first sign of real trouble is always a \"dirty\" log. You know \
+what I'm talking about: it's when clicking a link during normal web page \
+usage results in a whole stream of messages being recorded in the system's \
+single log. Too many log entries can be just as useless as having none at \
+all."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442636934565*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"6dc717e1-e23b-4960-8677-6fa6ea64f9cb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"If your systems are similar to mine, then when \
+your work ends, the work of others begins. After the development is \
+completed, the system will be long\\nand successfully serve customers (if \
+you're lucky). How will you learn about problems if the system is in \
+operation, and what will you do about them?\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "If your systems are similar to mine, then when your work ends, the work \
+of others begins. After the development is completed, the system will be long\
+\nand successfully serve customers (if you're lucky). How will you learn \
+about problems if the system is in operation, and what will you do about \
+them?"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442636934710646`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"fe1c4dd9-0b2c-454f-b4ce-8182de04ebc0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"If your systems are similar to mine, then when \
+your work ends, the work of others begins. After the development is \
+completed, the system will be long\\nand successfully serve customers (if \
+you're lucky). How will you learn about problems if the system is in \
+operation, and what will you do about them?\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "If your systems are similar to mine, then when your work ends, the work \
+of others begins. After the development is completed, the system will be long\
+\nand successfully serve customers (if you're lucky). How will you learn \
+about problems if the system is in operation, and what will you do about \
+them?"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.944263760324011*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"b05823a7-d15d-45dd-9126-28c9c8e7a4a0"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Perhaps someone is monitoring the system instead \
+of you, or maybe it is\\nyou do. In any case, monitoring probably involves \
+viewing\\nmagazines. If something happens and you are woken up in the middle \
+of the night, it is preferable that\\nthe reason was valid. If my system is \
+dying, I need to know about it. But\\nif she just hiccupped, I would prefer \
+not to have my sweet sleep disturbed.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Perhaps someone is monitoring the system instead of you, or maybe it is\n\
+you do. In any case, monitoring probably involves viewing\nmagazines. If \
+something happens and you are woken up in the middle of the night, it is \
+preferable that\nthe reason was valid. If my system is dying, I need to know \
+about it. But\nif she just hiccupped, I would prefer not to have my sweet \
+sleep disturbed."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442637603329954`*^9},
+ CellLabel->
+  "During evaluation of \
+In[970]:=",ExpressionUUID->"3229fe5b-2e2d-437c-ac65-0e94ba1278b1"]
+}, Open  ]],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.944263774871705*^9},
+ CellLabel->
+  "Out[970]=",ExpressionUUID->"14a03a3b-c0ca-487e-acde-9719d2272c5c"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{
@@ -500,11 +1068,35 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
-Cell[1218, 38, 8182, 120, 948, "Output",ExpressionUUID->"c3c1bf31-3acc-48c8-9dd4-9885daeec6c5"]
+Cell[1218, 38, 8206, 120, 948, "Output",ExpressionUUID->"b7dfa394-a790-4f24-b5f8-0e94400b03db"]
 }, Open  ]],
-Cell[9415, 161, 1162, 26, 50, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
-Cell[10580, 189, 14758, 285, 1367, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
-Cell[25341, 476, 209, 5, 32, "Input",ExpressionUUID->"a0b10ffd-1787-48ca-94e8-71ea09e00d63"]
+Cell[9439, 161, 1167, 27, 50, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+Cell[CellGroupData[{
+Cell[10631, 192, 14780, 285, 1381, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+Cell[CellGroupData[{
+Cell[25436, 481, 567, 14, 18, "Print",ExpressionUUID->"14f9157d-7554-48a3-a480-e7ce05959597"],
+Cell[26006, 497, 175, 4, 18, "Print",ExpressionUUID->"40452fb8-8107-43c1-a7ed-ba84dfc08229"],
+Cell[26184, 503, 881, 17, 57, "Print",ExpressionUUID->"49c047c3-1f4b-4bae-a97f-d455491fe906"],
+Cell[27068, 522, 881, 17, 57, "Print",ExpressionUUID->"c614a5df-201c-4aef-8331-63c8d0e1f727"],
+Cell[27952, 541, 2137, 34, 149, "Print",ExpressionUUID->"497d602e-aa73-469c-81d6-8629d5796d46"],
+Cell[30092, 577, 2143, 34, 149, "Print",ExpressionUUID->"6bafd122-0594-48d9-8543-d1853af42749"],
+Cell[32238, 613, 1049, 20, 70, "Print",ExpressionUUID->"b388e9d8-eff2-4101-9e7f-d5a98f046bfa"],
+Cell[33290, 635, 1049, 20, 70, "Print",ExpressionUUID->"3eaabd97-4152-4c81-b98d-0e575c8fcbcf"],
+Cell[34342, 657, 2151, 35, 149, "Print",ExpressionUUID->"731c533d-85a8-4ca7-8f5e-84a834da1d82"],
+Cell[36496, 694, 2153, 35, 149, "Print",ExpressionUUID->"b38165dd-d514-4d7a-80b9-72f285b6234d"],
+Cell[38652, 731, 5271, 75, 412, "Print",ExpressionUUID->"be8457f6-c5e1-4382-8199-f3f9a5ddadae"],
+Cell[43926, 808, 6641, 94, 544, "Print",ExpressionUUID->"45eb6f10-dd92-4b67-8c7b-11b3cb6d65c5"],
+Cell[50570, 904, 603, 14, 30, "Print",ExpressionUUID->"15cd5fe3-bf72-42ca-9668-15f8af153202"],
+Cell[51176, 920, 177, 4, 18, "Print",ExpressionUUID->"84d0939f-444b-4672-ac6d-1aac4648da23"],
+Cell[51356, 926, 1105, 21, 83, "Print",ExpressionUUID->"93085716-10d2-466b-8f6d-ec2c51ad4b80"],
+Cell[52464, 949, 1105, 21, 83, "Print",ExpressionUUID->"6dc717e1-e23b-4960-8677-6fa6ea64f9cb"],
+Cell[53572, 972, 944, 19, 70, "Print",ExpressionUUID->"fe1c4dd9-0b2c-454f-b4ce-8182de04ebc0"],
+Cell[54519, 993, 944, 19, 70, "Print",ExpressionUUID->"b05823a7-d15d-45dd-9126-28c9c8e7a4a0"],
+Cell[55466, 1014, 1123, 21, 83, "Print",ExpressionUUID->"3229fe5b-2e2d-437c-ac65-0e94ba1278b1"]
+}, Open  ]],
+Cell[56604, 1038, 160, 3, 35, "Output",ExpressionUUID->"14a03a3b-c0ca-487e-acde-9719d2272c5c"]
+}, Open  ]],
+Cell[56779, 1044, 209, 5, 32, "Input",ExpressionUUID->"a0b10ffd-1787-48ca-94e8-71ea09e00d63"]
 }
 ]
 *)
