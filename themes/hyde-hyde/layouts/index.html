@@ -3,6 +3,7 @@
 {{ end }}
 
 {{ define "content" }}
+{{ partial "ads.html" . }}
   <div class="post-list">
     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
     {{ range $paginator.Pages }}
