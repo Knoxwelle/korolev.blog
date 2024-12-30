@@ -6,7 +6,7 @@ theme ="hyde-hyde"
 # copyright="© Stan Korolev"
 googleAnalytics = "G-ZHZHEBE8QZ"
 # enableEmoji=true
-# enableRobotsTXT=true
+enableRobotsTXT=true
 # pygmentsUseClasses=true
 # pygmentsCodeFences=true
 
