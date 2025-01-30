@@ -1,6 +1,6 @@
 +++
 title='Interfaces'
-date=2024-11-25T00:00:00-07:00
+date=2024-10-11T00:00:00-07:00
 draft=false
 categories=[]
 tags=["api", "interface", "interfaces", "users", "use", "user"]

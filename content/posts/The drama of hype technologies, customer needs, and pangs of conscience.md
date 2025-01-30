@@ -1,6 +1,6 @@
 +++
 title='The drama of hype technologies, customer needs, and pangs of conscience'
-date=2024-11-09T00:00:00-07:00
+date=2025-01-07T00:00:00-07:00
 draft=false
 categories=["java", "python", "cobol"]
 tags=["java", "python", "cobol", "client", "project", "technology", "work", "solution"]

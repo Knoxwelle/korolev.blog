@@ -1,6 +1,6 @@
 +++
 title='Thinking about performance is never too early'
-date=2024-07-29T00:00:00-07:00
+date=2024-10-24T00:00:00-07:00
 draft=false
 categories=[]
 tags=["first", "performance", "system", "testing", "requirements", "issues"]

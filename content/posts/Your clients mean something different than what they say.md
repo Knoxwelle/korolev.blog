@@ -1,6 +1,6 @@
 +++
 title='Your clients mean something different than what they say'
-date=2024-12-11T00:00:00-07:00
+date=2024-10-06T00:00:00-07:00
 draft=false
 categories=[]
 tags=["start", "clients", "need", "client", "task", "project"]

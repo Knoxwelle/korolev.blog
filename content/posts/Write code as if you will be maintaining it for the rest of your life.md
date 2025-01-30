@@ -1,6 +1,6 @@
 +++
 title='Write code as if you will be maintaining it for the rest of your life'
-date=2024-07-05T00:00:00-07:00
+date=2024-09-09T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "start", "career", "life", "rest"]

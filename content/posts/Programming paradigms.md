@@ -1,6 +1,6 @@
 +++
 title='Programming paradigms'
-date=2024-12-08T00:00:00-07:00
+date=2024-09-07T00:00:00-07:00
 draft=false
 categories=["c", "pascal", "fortran", "c++", "ada", "haskell", "c language", "prolog"]
 tags=["programming", "pascal", "fortran", "c", "c++", "ada", "haskell", "prolog", "language", "programmer", "languages", "difficulties", "paradigms"]

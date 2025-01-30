@@ -1,6 +1,6 @@
 +++
 title='Encapsulate behavior, not just state'
-date=2024-09-18T00:00:00-07:00
+date=2024-10-16T00:00:00-07:00
 draft=false
 categories=["java", "c"]
 tags=[" java object", "java", "c# object", "order", "item", "additem", "ordermanager", "orderservice", "object", "classes", "encapsulation", "customer", "objects"]

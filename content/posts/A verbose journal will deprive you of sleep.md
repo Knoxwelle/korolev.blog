@@ -1,6 +1,6 @@
 +++
 title='A verbose journal will deprive you of sleep'
-date=2024-08-22T00:00:00-07:00
+date=2024-12-05T00:00:00-07:00
 draft=false
 categories=[]
 tags=["system", "log", "error", "systems", "operation"]

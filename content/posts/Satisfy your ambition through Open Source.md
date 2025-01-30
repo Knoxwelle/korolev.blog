@@ -1,6 +1,6 @@
 +++
 title='Satisfy your ambition through Open Source'
-date=2024-08-31T00:00:00-07:00
+date=2024-08-09T00:00:00-07:00
 draft=false
 categories=["google", "pc"]
 tags=["google", "apple", "microsoft", "code", "projects", "project", "work", "programmer"]

@@ -1,6 +1,6 @@
 +++
 title='How to use the bug tracking system'
-date=2024-07-16T00:00:00-07:00
+date=2025-01-27T00:00:00-07:00
 draft=false
 categories=[]
 tags=["error", "report", "information", "public", "team"]

@@ -1,6 +1,6 @@
 +++
 title='Relational Database Management Systems'
-date=2024-10-01T00:00:00-07:00
+date=2024-08-22T00:00:00-07:00
 draft=false
 categories=["mysql", "sql", "java", "ruby"]
 tags=["ram", "java", "ruby", "data", "database", "application", "dbms", "sql"]
