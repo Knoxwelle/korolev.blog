@@ -6,245 +6,336 @@
     <description>Recent content on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Try not to alter the timetable</title>
-      <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
-      <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
-    </item>
-    <item>
-      <title>Your clients mean something different than what they say</title>
-      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
-      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
-    </item>
-    <item>
-      <title>Programming paradigms</title>
-      <link>http://localhost:1313/posts/programming-paradigms/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/programming-paradigms/</guid>
-      <description>Psychology of Programming: It has long been known that a programmer&amp;rsquo;s professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.&#xA;Every programmer starts with some one language. This language has an the predominant influence on how a programmer sees software. But no matter how long a programmer has worked with this language, if they only work with it, they will only know this language. The thinking of a programmer who knows only one language is limited to the capabilities of that language.&#xA;A programmer learning a second language will encounter difficulties, especially if the computational model of the second language differs from the first.</description>
-    </item>
-    <item>
-      <title>Communication is the king, clarity and leadership are its loyal servants</title>
-      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
-      <pubDate>Wed, 27 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
-      <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
+      <title>Continuous learning</title>
+      <link>http://localhost:1313/posts/continuous-learning/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/continuous-learning/</guid>
+      <description>We live in interesting times. Development is distributed all over the world, and it turns out that many people are capable of doing your job. To remain competitive in the labor market, you need to continuously learn. Otherwise, you will turn into a dinosaur stuck in your job until one fine day it turns out that you are no longer needed, or that your job has been given to someone who is willing to do it for less.&#xA;How to solve this problem? Some employers are generous and organize training to develop already hired programmers. Others simply cannot afford to allocate time or resources for this. The most reliable solution is to take care of your own education.&#xA;Here is a list of ways to continue learning.</description>
     </item>
     <item>
       <title>Interfaces</title>
       <link>http://localhost:1313/posts/interfaces/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/interfaces/</guid>
       <description>One of the most common tasks in software development is interface specification. Interfaces exist at the highest level of abstraction (user interfaces), at the lowest level (function interfaces), and at intermediate levels (class interfaces, libraries, etc.). Regardless of what you are doing—aligning with end users on their future interaction with the system, collaborating with developers to develop the API specification, or declaring private class functions—interface design is an important part of your job. If you handle it well, using your interfaces will be a pure pleasure, and user productivity will increase. If you handle the task poorly, your interfaces will become a source of frustration and errors.&#xA;Good interfaces possess the following properties:&#xA;They are easy to use correctly. Users of a well-designed interface almost always use it correctly because that is the path of least resistance for that interface.</description>
     </item>
     <item>
-      <title>One line of working code costs 500 lines of specifications</title>
-      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</link>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</guid>
-      <description>You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.&#xA;Design is a beautiful thing. A systematic, detailed representation of the problem space and its solution reveals errors and identifies opportunities for improvement, sometimes in quite radical ways. Specifications play an important role in this, as they define the template for building the system. It is very important to carefully consider the entire architecture—both at the macro level, examining the interaction between components, and at the micro level, delving into the behavior of the components themselves.&#xA;Unfortunately, architects often get carried away with the design process, falling under the charm of architectural abstractions. However, by themselves specifications have no value.</description>
-    </item>
-    <item>
-      <title>Two mistakes can cancel each other out, making them difficult to correct</title>
-      <link>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</guid>
-      <description>Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?&#xA;In his interview, Allan Klumpp, the lead software developer for the Apollo lunar module, revealed that the engine control software contained a defect that caused the lunar module to behave erratically. However, there was another bug in the program that compensated for the first one, and during the Apollo 11 and 12 moon landings, this software was successfully used before the bugs were discovered and fixed.&#xA;Let&amp;rsquo;s consider a function that returns an exit code. Let&amp;rsquo;s say it returns false when it should return true. Now imagine that the calling function does not implement the check for the return value. Everything works perfectly until one day someone discovers the lack of a check and adds it.</description>
-    </item>
-    <item>
-      <title>Do not touch this code</title>
-      <link>http://localhost:1313/posts/do-not-touch-this-code/</link>
-      <pubDate>Sun, 10 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-touch-this-code/</guid>
-      <description>Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head Testing informs you that there is a problem. You are immediately ready to respond: &amp;ldquo;Let me quickly fix everything: I know what the issue is.&amp;rdquo;&#xA;However, in a broader sense, the problem is that you, as a developer, believe you should be granted access to the server where testing is being conducted.&#xA;In most cases, when it comes to web development, the architecture can be broken down into the following parts:&#xA;-Local development and unit testing on the developer&amp;rsquo;s machine&#xA;Development server where automated or manual integration testing is conducted Staging server, where the quality control team and users conduct acceptance testing Combat (production) server Yes, there are other servers and services, for example, for managing source code or software defects, but the idea is clear.</description>
-    </item>
-    <item>
-      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
-      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
-      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
-      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
-    </item>
-    <item>
       <title>Stand up!</title>
       <link>http://localhost:1313/posts/stand-up/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/stand-up/</guid>
       <description>For many of us, a career as an architect began with some purely technical position where success was primarily determined by the ability to communicate with computers. However, in the role of an architect, we primarily have to communicate with other people. Whether you discuss the advantages of a particular template with developers or explain to management the pros and cons of purchasing middleware, the key to success lies in your communication skills.&#xA;Objectively measuring the degree of an architect&amp;rsquo;s influence on a project is quite difficult, but one thing is clear: if developers constantly ignore the architect&amp;rsquo;s instructions and management does not pay attention to his recommendations, the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the development of his career in any way.</description>
     </item>
     <item>
-      <title>First say yes</title>
-      <link>http://localhost:1313/posts/first-say-yes/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/first-say-yes/</guid>
-      <description>Recently, I was at the grocery store and searched for edamame, green soybeans (I only vaguely guessed they were some kind of vegetable). I didn&amp;rsquo;t I knew where to look for this product: in the vegetable section, in the frozen section. products or on the shelves with canned goods? Finally, I gave up and asked a store employee for help. She didn&amp;rsquo;t know either!&#xA;The store employee could have reacted to my request in different ways. She could have made it clear that only a fool doesn&amp;rsquo;t know where to look for it, or just brushed it off. vague hints, or even just say that they don&amp;rsquo;t have such a product. But she deemed it possible to find a solution and help the customer.</description>
-    </item>
-    <item>
-      <title>Try before you decide</title>
-      <link>http://localhost:1313/posts/try-before-you-decide/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
-      <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
-    </item>
-    <item>
-      <title>Do not rely on miracles</title>
-      <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
-      <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
-    </item>
-    <item>
-      <title>Do not repeat your code</title>
-      <link>http://localhost:1313/posts/do-not-repeat-your-code/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-repeat-your-code/</guid>
-      <description>&amp;ldquo;Don&amp;rsquo;t Repeat Yourself (DRY)&amp;rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.&#xA;Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.</description>
-    </item>
-    <item>
-      <title>Relational Database Management Systems</title>
-      <link>http://localhost:1313/posts/relational-database-management-systems/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/relational-database-management-systems/</guid>
-      <description>If your application needs to handle a large, long-lived set of interrelated data elements, you can confidently place it in a relational database. In the past, there were few relational DBMSs; they were complex, expensive to maintain, and clunky beasts. Those times are gone. Today, finding a relational DBMS is not difficult: it is quite possible that a relational DBMS or even two are already installed on your machine. Some very advanced relational DBMSs, such like MySQL and PostgreSQL, are available in source code, so the question of costs it is no longer worth buying them. Moreover, the so-called &amp;ldquo;embedded database systems&amp;rdquo; can be integrated into your application as libraries, almost requiring no configuration and administration; two such examples are interesting open-source DBMS, SQLite and HSQLDB.</description>
-    </item>
-    <item>
-      <title>Time changes everything</title>
-      <link>http://localhost:1313/posts/time-changes-everything/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/time-changes-everything/</guid>
-      <description>Seeing what has survived and what hasn&amp;rsquo;t has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?&#xA;Pick a noble assignment For a software architect, this is highly challenging. We receive assignments and issues from the client, so we really don&amp;rsquo;t have a choice, do we? It&amp;rsquo;s not really that easy. First of all, we frequently make the error of thinking that we have little power over what the customer desires. But it&amp;rsquo;s typically possible to just step outside of your comfort zone when it comes to technology.</description>
-    </item>
-    <item>
-      <title>Architectural compromises</title>
-      <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Fri, 27 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/architectural-compromises/</guid>
-      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
-    </item>
-    <item>
-      <title>Enterprise interview</title>
-      <link>http://localhost:1313/posts/enterprise-interview/</link>
-      <pubDate>Thu, 19 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
-      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
-    </item>
-    <item>
-      <title>Encapsulate behavior, not just state</title>
-      <link>http://localhost:1313/posts/encapsulate-behavior-not-just-state/</link>
-      <pubDate>Wed, 18 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/encapsulate-behavior-not-just-state/</guid>
-      <description>In systems theory, there is the concept of isolation, which is among the most useful when it comes to large and complex system structures. In the software development industry, everyone understands the value of isolating one entity within another, in other words, encapsulation. In programming languages, subprograms and functions, modules and packages, classes, etc., are used to ensure isolation.&#xA;Modules and packages solve large-scale encapsulation tasks, while how classes, subprograms, and functions are designed to solve the same problems in a more at a low level. Over the years of working, I have discovered that of all types of encapsulation The most difficult thing for programmers is encapsulation in classes. It is not uncommon to encounter a class where the only method, main, has 5000 lines, or a class, in which there are only set and get methods for its basic attributes.</description>
-    </item>
-    <item>
-      <title>When programmers and testers collaborate</title>
-      <link>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</link>
-      <pubDate>Thu, 12 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</guid>
-      <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Интеграционный тест). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
-    </item>
-    <item>
-      <title>The true meaning of the clients requirements</title>
-      <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
-      <pubDate>Mon, 09 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
-      <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
-    </item>
-    <item>
-      <title>Use quantitative criteria</title>
-      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
-      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Nor can &amp;ldquo;having a good response time.&amp;rdquo; Or, let&amp;rsquo;s say, &amp;ldquo;scalable.&amp;rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&amp;rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&amp;ldquo;No, I can&amp;rsquo;t accept the program – it doesn&amp;rsquo;t work fast enough&amp;rdquo;) and the developers, obsessed with their compulsions (&amp;ldquo;No, the program isn&amp;rsquo;t ready yet – it doesn&amp;rsquo;t work fast enough&amp;rdquo;).&#xA;Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;easy to accompany,&amp;rdquo; and so on.</description>
-    </item>
-    <item>
-      <title>Satisfy your ambition through Open Source</title>
-      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
-      <pubDate>Sat, 31 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
-      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
-    </item>
-    <item>
-      <title>Give developers their own space</title>
-      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
-      <pubDate>Thu, 29 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
-      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
-    </item>
-    <item>
-      <title>Writing code in the spirit of Ubuntu for the friends</title>
-      <link>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</link>
-      <pubDate>Fri, 23 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</guid>
-      <description>Very often we program in isolation, and our programs reflect both our personal interpretation of the problem and a very personal solution to it. We can work in a team, but even then we are isolated as a team. We easily forget that the code created in such isolation will be executed, used, and extended by other people. It&amp;rsquo;s easy to overlook the social aspect of programming. Creating software is both a technical and a social endeavor. We should look around more often to understand that we do not work in isolation and that we share a common responsibility for the potential success not only of the group of developers but also of every person around us.&#xA;It is possible to write high-quality code in isolation from reality, completely detached.</description>
-    </item>
-    <item>
-      <title>A verbose journal will deprive you of sleep</title>
-      <link>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</link>
-      <pubDate>Thu, 22 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</guid>
-      <description>When I encounter a system that has been in development or operation for a long time, the first sign of real trouble is always a &amp;ldquo;dirty&amp;rdquo; log. You know what I&amp;rsquo;m talking about: it&amp;rsquo;s when clicking a link during normal web page usage results in a whole stream of messages being recorded in the system&amp;rsquo;s single log. Too many log entries can be just as useless as having none at all.&#xA;If your systems are similar to mine, then when your work ends, the work of others begins. After the development is completed, the system will be long and successfully serve customers (if you&amp;rsquo;re lucky). How will you learn about problems if the system is in operation, and what will you do about them?</description>
-    </item>
-    <item>
-      <title>You are negotiating</title>
-      <link>http://localhost:1313/posts/you-are-negotiating/</link>
-      <pubDate>Fri, 02 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-are-negotiating/</guid>
-      <description>Have you encountered projects where reasonable technological solutions are &amp;ldquo;buried&amp;rdquo; for the sake of saving costs?&#xA;The conversation goes something like this: &amp;ldquo;Do we really need X?&amp;rdquo; asks the project manager. You can substitute X with almost anything essential for system operations: software product licenses, redundant servers, external backups or power sources. The question is always asked in a fatherly tone, as if you were spending all your pocket money on comics and chewing gum, while serious adults need to think about buying new buckets in which they will carry their future profits.&#xA;The correct answer to this question is: &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one responds.&#xA;After all, we have a technical education, and any technical discipline is an art of compromise.</description>
-    </item>
-    <item>
-      <title>Creating architecture as the art of balance</title>
-      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
-      <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
-    </item>
-    <item>
-      <title>Tests are written for people</title>
-      <link>http://localhost:1313/posts/tests-are-written-for-people/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/tests-are-written-for-people/</guid>
-      <description>You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: &amp;ldquo;Who am I writing for?&amp;rdquo; these tests?». If the answer is &amp;ldquo;I write them for myself to reduce costs for debugging&amp;rdquo; or &amp;ldquo;for the compiler to execute them,&amp;rdquo; then it&amp;rsquo;s quite possible that you are not writing the best tests. So, for whom Why write tests? For those who will try to understand your code.&#xA;Good tests serve as documentation for the code they are testing. They describe how the code works.</description>
-    </item>
-    <item>
-      <title>Thinking about performance is never too early</title>
-      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
-      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
+      <title>Apply the principles of functional programming</title>
+      <link>http://localhost:1313/posts/apply-the-principles-of-functional-programming/</link>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/apply-the-principles-of-functional-programming/</guid>
+      <description>Functional programming has recently regained the attention of the majority in the programming community, partly because the emergent properties of the functional paradigm resonate with solving the challenges arising in our industry due to the increasing importance of multi-core architectures. And although this application is undoubtedly important, it is not the main reason for my urging to learn functional programming.&#xA;By mastering the functional programming paradigm, a programmer can significantly improve the quality of code produced in other contexts. A deep understanding of the functional programming paradigm and its practical application will help you design systems with a much higher degree of referential transparency.&#xA;Referential transparency is a highly desirable quality: it implies that functions consistently produce the same results for the same input data regardless of the place and time of calling these functions.</description>
     </item>
     <item>
       <title>Perspective as seen from 300 meters</title>
       <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 28 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
       <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
     </item>
     <item>
       <title>Do not be afraid to break something</title>
       <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
       <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
     </item>
     <item>
-      <title>How to use the bug tracking system</title>
-      <link>http://localhost:1313/posts/how-to-use-the-bug-tracking-system/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/how-to-use-the-bug-tracking-system/</guid>
-      <description>No matter what you call them – bugs, defects, or even design side effects – it is impossible to eliminate them completely. For a project to be successful moving forward, it is very important to be able to correctly write an error report, as well as to know what to pay attention to in it.&#xA;In a good bug report, three things should be described: • How to reproduce the error – as accurately as possible – and how often the error manifests itself. • What was supposed to happen – how do you see it? • What is actually happening – at least the data you were able to record.&#xA;The volume and quality of the provided information equally characterize the report&amp;rsquo;s author, as well as the error itself.</description>
+      <title>Try not to alter the timetable</title>
+      <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
+      <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
+    </item>
+    <item>
+      <title>You are negotiating</title>
+      <link>http://localhost:1313/posts/you-are-negotiating/</link>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-are-negotiating/</guid>
+      <description>Have you encountered projects where reasonable technological solutions are &amp;ldquo;buried&amp;rdquo; for the sake of saving costs?&#xA;The conversation goes something like this: &amp;ldquo;Do we really need X?&amp;rdquo; asks the project manager. You can substitute X with almost anything essential for system operations: software product licenses, redundant servers, external backups or power sources. The question is always asked in a fatherly tone, as if you were spending all your pocket money on comics and chewing gum, while serious adults need to think about buying new buckets in which they will carry their future profits.&#xA;The correct answer to this question is: &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one responds.&#xA;After all, we have a technical education, and any technical discipline is an art of compromise.</description>
     </item>
     <item>
       <title>You need to take care of the code</title>
       <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
       <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
+    </item>
+    <item>
+      <title>Try before you decide</title>
+      <link>http://localhost:1313/posts/try-before-you-decide/</link>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
+      <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
+    </item>
+    <item>
+      <title>The performance of an application is determined by its architecture</title>
+      <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
+      <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
+    </item>
+    <item>
+      <title>Write code as if you will be maintaining it for the rest of your life</title>
+      <link>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</guid>
+      <description>You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?&#xA;I think the answer lies in your mindset or simply in your approach. If you are indifferent to your fellow developers, testers, managers, sales and marketing staff, as well as end users, you will not feel the urge to, for example, conduct test-driven development or write clear comments in the code. I think there is a simple way to change your attitude and develop a desire to release products of the highest quality:</description>
+    </item>
+    <item>
+      <title>Tests are written for people</title>
+      <link>http://localhost:1313/posts/tests-are-written-for-people/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/tests-are-written-for-people/</guid>
+      <description>You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: &amp;ldquo;Who am I writing for?&amp;rdquo; these tests?». If the answer is &amp;ldquo;I write them for myself to reduce costs for debugging&amp;rdquo; or &amp;ldquo;for the compiler to execute them,&amp;rdquo; then it&amp;rsquo;s quite possible that you are not writing the best tests. So, for whom Why write tests? For those who will try to understand your code.&#xA;Good tests serve as documentation for the code they are testing. They describe how the code works.</description>
+    </item>
+    <item>
+      <title>To do something hastily and run away is a crime</title>
+      <link>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</guid>
+      <description>It&amp;rsquo;s getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves. A few minutes later, the &amp;ldquo;red light&amp;rdquo; comes on: the application build is broken. John didn&amp;rsquo;t have time for automated tests, so he went with the &amp;ldquo;hack and run&amp;rdquo; principle, which caused the entire team&amp;rsquo;s work to come to a halt.&#xA;The situation has changed – the work rhythm has been disrupted.</description>
+    </item>
+    <item>
+      <title>Carefully choose your tools</title>
+      <link>http://localhost:1313/posts/carefully-choose-your-tools/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/carefully-choose-your-tools/</guid>
+      <description>Modern applications are extremely rarely created &amp;ldquo;from scratch.&amp;rdquo; They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:&#xA;The volume, complexity, and sophistication of applications are increasing, while the time allocated for their creation is decreasing. It is more beneficial to spend the time and intellect of developers on business logic code rather than application infrastructure code. - Widely used components and frameworks have fewer chances of encountering errors compared to those developed independently. - High-quality tools are available for free on the Internet, which reduces development costs and simplifies the search for interested developers with the necessary experience. - The creation and maintenance of software require a significant amount of human labor, so it can be cheaper to buy ready-made products than to create them.</description>
+    </item>
+    <item>
+      <title>One line of working code costs 500 lines of specifications</title>
+      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</link>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</guid>
+      <description>You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.&#xA;Design is a beautiful thing. A systematic, detailed representation of the problem space and its solution reveals errors and identifies opportunities for improvement, sometimes in quite radical ways. Specifications play an important role in this, as they define the template for building the system. It is very important to carefully consider the entire architecture—both at the macro level, examining the interaction between components, and at the micro level, delving into the behavior of the components themselves.&#xA;Unfortunately, architects often get carried away with the design process, falling under the charm of architectural abstractions. However, by themselves specifications have no value.</description>
+    </item>
+    <item>
+      <title>A verbose journal will deprive you of sleep</title>
+      <link>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</guid>
+      <description>When I encounter a system that has been in development or operation for a long time, the first sign of real trouble is always a &amp;ldquo;dirty&amp;rdquo; log. You know what I&amp;rsquo;m talking about: it&amp;rsquo;s when clicking a link during normal web page usage results in a whole stream of messages being recorded in the system&amp;rsquo;s single log. Too many log entries can be just as useless as having none at all.&#xA;If your systems are similar to mine, then when your work ends, the work of others begins. After the development is completed, the system will be long and successfully serve customers (if you&amp;rsquo;re lucky). How will you learn about problems if the system is in operation, and what will you do about them?</description>
+    </item>
+    <item>
+      <title>Do not rely on miracles</title>
+      <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
+      <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
+    </item>
+    <item>
+      <title>Write code wisely</title>
+      <link>http://localhost:1313/posts/write-code-wisely/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/write-code-wisely/</guid>
+      <description>Attempts to prove the correctness of software manually lead to a formal proof that is longer than the code itself and contains errors more frequently than the code. It is preferable to use automated tools, but this is not always possible. Below, a middle ground is described: semi-formal proof of correctness.&#xA;The method is based on dividing the code under investigation into short fragments ranging from a single line, which may contain a function call, to blocks no longer than 10 lines, and discussing their correctness. The proof must be convincing enough for your colleague playing the role of the &amp;ldquo;devil&amp;rsquo;s advocate.&amp;rdquo;&#xA;Fragments should be chosen in such a way that at the end point of the block, the program state (namely, the instruction address counter and the values of all &amp;ldquo;live&amp;rdquo; objects) satisfies a property that is simple to describe, and the functionality of this fragment (state transformation) can be easily described as a single independent task.</description>
+    </item>
+    <item>
+      <title>Beauty is the result of simplicity</title>
+      <link>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</guid>
+      <description>Plato has one saying that, it seems to me, would be especially useful for all software developers to know and take to heart:&#xA;The beauty of style, harmony, elegance, and good rhythm are based on simplicity.&#xA;This single sentence embodies the values that we, as developers, should admire.&#xA;There are a number of things we aim to achieve in our code:&#xA;Readability - Ease of maintenance - Development speed - Elusive beauty Plato tells us that all these qualities are possible only thanks to simplicity.&#xA;What is beautiful code? This is probably a very subjective question. The perception of beauty is heavily dependent on personal experience, just as our perception of anything else is. Those who have studied art perceive beauty differently (at least approach it differently) than those with a technical education.</description>
+    </item>
+    <item>
+      <title>Time changes everything</title>
+      <link>http://localhost:1313/posts/time-changes-everything/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/time-changes-everything/</guid>
+      <description>Seeing what has survived and what hasn&amp;rsquo;t has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?&#xA;Pick a noble assignment For a software architect, this is highly challenging. We receive assignments and issues from the client, so we really don&amp;rsquo;t have a choice, do we? It&amp;rsquo;s not really that easy. First of all, we frequently make the error of thinking that we have little power over what the customer desires. But it&amp;rsquo;s typically possible to just step outside of your comfort zone when it comes to technology.</description>
+    </item>
+    <item>
+      <title>When programmers and testers collaborate</title>
+      <link>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</guid>
+      <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Integration test). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
+    </item>
+    <item>
+      <title>Programming paradigms</title>
+      <link>http://localhost:1313/posts/programming-paradigms/</link>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/programming-paradigms/</guid>
+      <description>Psychology of Programming: It has long been known that a programmer&amp;rsquo;s professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.&#xA;Every programmer starts with some one language. This language has an the predominant influence on how a programmer sees software. But no matter how long a programmer has worked with this language, if they only work with it, they will only know this language. The thinking of a programmer who knows only one language is limited to the capabilities of that language.&#xA;A programmer learning a second language will encounter difficulties, especially if the computational model of the second language differs from the first.</description>
+    </item>
+    <item>
+      <title>Two mistakes can cancel each other out, making them difficult to correct</title>
+      <link>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</guid>
+      <description>Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?&#xA;In his interview, Allan Klumpp, the lead software developer for the Apollo lunar module, revealed that the engine control software contained a defect that caused the lunar module to behave erratically. However, there was another bug in the program that compensated for the first one, and during the Apollo 11 and 12 moon landings, this software was successfully used before the bugs were discovered and fixed.&#xA;Let&amp;rsquo;s consider a function that returns an exit code. Let&amp;rsquo;s say it returns false when it should return true. Now imagine that the calling function does not implement the check for the return value. Everything works perfectly until one day someone discovers the lack of a check and adds it.</description>
+    </item>
+    <item>
+      <title>Code is design</title>
+      <link>http://localhost:1313/posts/code-is-design/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-is-design/</guid>
+      <description>Imagine waking up in the morning and finding out that a groundbreaking breakthrough has occurred in the construction industry. Now, millions of cheap and incredibly fast robots can create various materials literally from thin air, using almost no energy, and they can repair themselves. But that&amp;rsquo;s not all: if there are clear blueprints, the robots will build a building according to them without any human intervention, and the cost of this work will be negligible.&#xA;One can imagine how this will transform the construction industry, but what changes will occur at a higher level? How will architects and designers behave when the cost of construction becomes negligible? Today, expensive construction is necessarily preceded by the creation and thorough testing of physical and computer models.</description>
+    </item>
+    <item>
+      <title>Thinking about performance is never too early</title>
+      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
+      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
+    </item>
+    <item>
+      <title>Warning - Common code ownership</title>
+      <link>http://localhost:1313/posts/warning---common-code-ownership/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/warning---common-code-ownership/</guid>
+      <description>My first project in the company. I just defended my thesis, and I&amp;rsquo;m eager to prove myself, so I stay late at work and thoroughly study the existing code. Working on my first task, I apply everything I&amp;rsquo;ve been taught: comments, event logs, extracting common code into libraries (where possible), all that stuff. I feel completely ready for code review, but my colleagues seem to pour cold water on me: I get criticized for code reuse!&#xA;How so? During my university studies, code reuse was hailed as one of the best practices in software development. All the articles and textbooks I read, guided by experienced professional programmers—were they all wrong?&#xA;It turns out, I overlooked something very important. Context.&#xA;The fact that two directly unrelated parts of the system use the same logic means less than I thought.</description>
+    </item>
+    <item>
+      <title>Enterprise interview</title>
+      <link>http://localhost:1313/posts/enterprise-interview/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
+      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
+    </item>
+    <item>
+      <title>Satisfy your ambition through Open Source</title>
+      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
+      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
+    </item>
+    <item>
+      <title>Do not touch this code</title>
+      <link>http://localhost:1313/posts/do-not-touch-this-code/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-touch-this-code/</guid>
+      <description>Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head Testing informs you that there is a problem. You are immediately ready to respond: &amp;ldquo;Let me quickly fix everything: I know what the issue is.&amp;rdquo;&#xA;However, in a broader sense, the problem is that you, as a developer, believe you should be granted access to the server where testing is being conducted.&#xA;In most cases, when it comes to web development, the architecture can be broken down into the following parts:&#xA;-Local development and unit testing on the developer&amp;rsquo;s machine&#xA;Development server where automated or manual integration testing is conducted Staging server, where the quality control team and users conduct acceptance testing Combat (production) server Yes, there are other servers and services, for example, for managing source code or software defects, but the idea is clear.</description>
+    </item>
+    <item>
+      <title>How to use the bug tracking system</title>
+      <link>http://localhost:1313/posts/how-to-use-the-bug-tracking-system/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/how-to-use-the-bug-tracking-system/</guid>
+      <description>No matter what you call them – bugs, defects, or even design side effects – it is impossible to eliminate them completely. For a project to be successful moving forward, it is very important to be able to correctly write an error report, as well as to know what to pay attention to in it.&#xA;In a good bug report, three things should be described: • How to reproduce the error – as accurately as possible – and how often the error manifests itself. • What was supposed to happen – how do you see it? • What is actually happening – at least the data you were able to record.&#xA;The volume and quality of the provided information equally characterize the report&amp;rsquo;s author, as well as the error itself.</description>
+    </item>
+    <item>
+      <title>The importance of code formatting</title>
+      <link>http://localhost:1313/posts/the-importance-of-code-formatting/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-importance-of-code-formatting/</guid>
+      <description>In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&amp;rsquo;t be trusted. I&amp;rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.&#xA;Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.</description>
+    </item>
+    <item>
+      <title>Your clients mean something different than what they say</title>
+      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
+      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
+    </item>
+    <item>
+      <title>Communication is the king, clarity and leadership are its loyal servants</title>
+      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
+      <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
+    </item>
+    <item>
+      <title>Before starting the refactoring</title>
+      <link>http://localhost:1313/posts/before-starting-the-refactoring/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-starting-the-refactoring/</guid>
+      <description>Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):&#xA;It is best to start refactoring by assessing the state of the existing code in the project and the tests written for it. This way, you can identify the strengths and weaknesses of the code in its current state, to preserve its strong points and avoid the mistakes already made. Everyone thinks their system will be better than the current one&amp;hellip; until it turns out that the new code is no better, and maybe even worse, than the previous version, all because we did not learn from the mistakes made in the old system.</description>
+    </item>
+    <item>
+      <title>Writing code in the spirit of Ubuntu for the friends</title>
+      <link>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</link>
+      <pubDate>Sat, 10 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</guid>
+      <description>Very often we program in isolation, and our programs reflect both our personal interpretation of the problem and a very personal solution to it. We can work in a team, but even then we are isolated as a team. We easily forget that the code created in such isolation will be executed, used, and extended by other people. It&amp;rsquo;s easy to overlook the social aspect of programming. Creating software is both a technical and a social endeavor. We should look around more often to understand that we do not work in isolation and that we share a common responsibility for the potential success not only of the group of developers but also of every person around us.&#xA;It is possible to write high-quality code in isolation from reality, completely detached.</description>
+    </item>
+    <item>
+      <title>Give developers their own space</title>
+      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
+      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
+    </item>
+    <item>
+      <title>Architectural compromises</title>
+      <link>http://localhost:1313/posts/architectural-compromises/</link>
+      <pubDate>Sat, 03 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/architectural-compromises/</guid>
+      <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
+    </item>
+    <item>
+      <title>The true meaning of the clients requirements</title>
+      <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
+      <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
+    </item>
+    <item>
+      <title>Before blaming others, check your own code</title>
+      <link>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</guid>
+      <description>A developer – any of us! – often finds it difficult to admit that their code doesn&amp;rsquo;t work. It seems so implausible that we are more likely to assume there is a bug in the compiler.&#xA;In reality, it is very, very rare for code to be non-functional due to a bug in the compiler, interpreter, operating system, application server, database, memory manager, or any other element of system software. Yes, there are bugs, but they are much less frequent than we would like to think.&#xA;Once, I actually encountered a bug in the compiler (removing the loop variable during optimization), but in all other cases, my complaints about the compiler or operating system turned out to be unfounded. I wasted a lot of my time, support staff time, and management time, only to end up in an awkward position when it turned out that the mistake was my own.</description>
+    </item>
+    <item>
+      <title>Comment only on what the code will not say</title>
+      <link>http://localhost:1313/posts/comment-only-on-what-the-code-will-not-say/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/comment-only-on-what-the-code-will-not-say/</guid>
+      <description>The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code seems commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.&#xA;If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &amp;ldquo;The Elements of Programming Style&amp;rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &amp;ldquo;a wrong comment is worse than no comment at all.</description>
+    </item>
+    <item>
+      <title>Automate your code formatting standard</title>
+      <link>http://localhost:1313/posts/automate-your-code-formatting-standard/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/automate-your-code-formatting-standard/</guid>
+      <description>You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&amp;rsquo;s call them &amp;ldquo;new project promises.&amp;rdquo; Similar to New Year&amp;rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&amp;rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.&#xA;When did it all go wrong?</description>
+    </item>
+    <item>
+      <title>First say yes</title>
+      <link>http://localhost:1313/posts/first-say-yes/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/first-say-yes/</guid>
+      <description>Recently, I was at the grocery store and searched for edamame, green soybeans (I only vaguely guessed they were some kind of vegetable). I didn&amp;rsquo;t I knew where to look for this product: in the vegetable section, in the frozen section. products or on the shelves with canned goods? Finally, I gave up and asked a store employee for help. She didn&amp;rsquo;t know either!&#xA;The store employee could have reacted to my request in different ways. She could have made it clear that only a fool doesn&amp;rsquo;t know where to look for it, or just brushed it off. vague hints, or even just say that they don&amp;rsquo;t have such a product. But she deemed it possible to find a solution and help the customer.</description>
+    </item>
+    <item>
+      <title>Convenience is not an attribute of quality</title>
+      <link>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</guid>
+      <description>Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It&amp;rsquo;s hard to get everything right the first time, and even harder to change anything along the way; it&amp;rsquo;s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.&#xA;But let&amp;rsquo;s move from words to action and analyze a specific &amp;ldquo;strategy&amp;rdquo; for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following &amp;ldquo;insights&amp;rdquo;:</description>
+    </item>
+    <item>
+      <title>Code review</title>
+      <link>http://localhost:1313/posts/code-review/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-review/</guid>
+      <description>Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.&#xA;Many programmers have an aversion to code reviews, which can be linked to their unfortunate personal experiences. I have encountered organizations where all code underwent formal review before it could enter the system for commercial use. Often, the review is conducted by an architect or lead developer—a practice that can be called &amp;ldquo;the architect checks everything.&amp;rdquo; This is documented in the company&amp;rsquo;s software development process guide, and programmers are required to comply.&#xA;Perhaps, in some organizations, such a strict and formal process is indeed necessary, but they are in the minority. In most organizations, such an approach is counterproductive.</description>
+    </item>
+    <item>
+      <title>Comment only on what the code not say</title>
+      <link>http://localhost:1313/posts/comment-only-on-what-the-code-not-say/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/comment-only-on-what-the-code-not-say/</guid>
+      <description>The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code looks commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.&#xA;If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &amp;ldquo;The Elements of Programming Style&amp;rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &amp;ldquo;a wrong comment has zero or negative value.</description>
+    </item>
+    <item>
+      <title>Do not repeat your code</title>
+      <link>http://localhost:1313/posts/do-not-repeat-your-code/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-repeat-your-code/</guid>
+      <description>&amp;ldquo;Don&amp;rsquo;t Repeat Yourself (DRY)&amp;rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.&#xA;Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.</description>
     </item>
     <item>
       <title>About</title>
@@ -261,25 +352,39 @@
       <description>Download in PDF&#xA;Stan Korolev (1261015 B.C. LTD.) – SOFTWARE DEVELOPER&#xA;1225 Richards Street, Vancouver, BC, V6B 1E6, Canada 1-778-231-1372 korolevst@gmail.com www.linkedin.com/in/korolevst/ www.salesforce.com/trailblazer/korolevst Software Developer with expertise in all aspects of enterprise-grade commercial architecture standards. Software Automation expert responsible for delivering software quality via regression in CI/CD pipeline, directing teams for performance. AWS certified. Ph.D.&#xA;SUMMARY OF QUALIFICATIONS&#xA;7+ years of expertise in Software Engineering, focusing on Salesforce and AWS. Extensive experience in Software Development Life Cycle (SDLC). Proficient in Object Oriented Programming languages (Java, C#, JavaScript, Ruby). Hands-on experience in Salesforce development and integration (Kafka). API integration and testing within microservices architecture (SOAP and REST). Performing functional test automation utilizing Selenium WebDriver. Professional solution for Cloud migration into Amazon Web Services (AWS) and Azure.</description>
     </item>
     <item>
-      <title>Write code as if you will be maintaining it for the rest of your life</title>
-      <link>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</link>
-      <pubDate>Fri, 05 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</guid>
-      <description>You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?&#xA;I think the answer lies in your mindset or simply in your approach. If you are indifferent to your fellow developers, testers, managers, sales and marketing staff, as well as end users, you will not feel the urge to, for example, conduct test-driven development or write clear comments in the code. I think there is a simple way to change your attitude and develop a desire to release products of the highest quality:</description>
-    </item>
-    <item>
-      <title>To do something hastily and run away is a crime</title>
-      <link>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</link>
-      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</guid>
-      <description>It&amp;rsquo;s getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves. A few minutes later, the &amp;ldquo;red light&amp;rdquo; comes on: the application build is broken. John didn&amp;rsquo;t have time for automated tests, so he went with the &amp;ldquo;hack and run&amp;rdquo; principle, which caused the entire team&amp;rsquo;s work to come to a halt.&#xA;The situation has changed – the work rhythm has been disrupted.</description>
-    </item>
-    <item>
-      <title>The performance of an application is determined by its architecture</title>
-      <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
+      <title>Use quantitative criteria</title>
+      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
       <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
-      <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
+      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Nor can &amp;ldquo;having a good response time.&amp;rdquo; Or, let&amp;rsquo;s say, &amp;ldquo;scalable.&amp;rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&amp;rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&amp;ldquo;No, I can&amp;rsquo;t accept the program – it doesn&amp;rsquo;t work fast enough&amp;rdquo;) and the developers, obsessed with their compulsions (&amp;ldquo;No, the program isn&amp;rsquo;t ready yet – it doesn&amp;rsquo;t work fast enough&amp;rdquo;).&#xA;Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;easy to accompany,&amp;rdquo; and so on.</description>
+    </item>
+    <item>
+      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
+      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
+      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
+    </item>
+    <item>
+      <title>Creating architecture as the art of balance</title>
+      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
+      <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
+    </item>
+    <item>
+      <title>Commentary on comments</title>
+      <link>http://localhost:1313/posts/commentary-on-comments/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/commentary-on-comments/</guid>
+      <description>At my first programming class at the university, the instructor handed out two sheets for us to write the program text in BASIC. On the board, he wrote the assignment: &amp;ldquo;Create a program to input and calculate the average of 10 bowling scores.&amp;rdquo; Then the teacher left the room. Is this task difficult? I don&amp;rsquo;t remember my solution, but it seems there was a FOR/NEXT loop and no more than 15 lines of code.&#xA;In each form for the program code, we would write the code by hand before entering it into the computer – it was about 70 lines. I had no idea why the teacher gave us two forms each. Since my handwriting has always been terrible, I used the second form to neatly rewrite my code, hoping to earn a couple of points for style.</description>
+    </item>
+    <item>
+      <title>Relational Database Management Systems</title>
+      <link>http://localhost:1313/posts/relational-database-management-systems/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/relational-database-management-systems/</guid>
+      <description>If your application needs to handle a large, long-lived set of interrelated data elements, you can confidently place it in a relational database. In the past, there were few relational DBMSs; they were complex, expensive to maintain, and clunky beasts. Those times are gone. Today, finding a relational DBMS is not difficult: it is quite possible that a relational DBMS or even two are already installed on your machine. Some very advanced relational DBMSs, such like MySQL and PostgreSQL, are available in source code, so the question of costs it is no longer worth buying them. Moreover, the so-called &amp;ldquo;embedded database systems&amp;rdquo; can be integrated into your application as libraries, almost requiring no configuration and administration; two such examples are interesting open-source DBMS, SQLite and HSQLDB.</description>
     </item>
   </channel>
 </rss>

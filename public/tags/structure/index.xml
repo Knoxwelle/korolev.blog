@@ -6,12 +6,12 @@
     <description>Recent content in Structure on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/structure/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Do not be afraid to break something</title>
       <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
       <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
     </item>

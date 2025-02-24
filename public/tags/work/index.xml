@@ -6,70 +6,84 @@
     <description>Recent content in Work on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/work/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
-      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
-      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
-      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
-    </item>
-    <item>
-      <title>First say yes</title>
-      <link>http://localhost:1313/posts/first-say-yes/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/first-say-yes/</guid>
-      <description>Recently, I was at the grocery store and searched for edamame, green soybeans (I only vaguely guessed they were some kind of vegetable). I didn&amp;rsquo;t I knew where to look for this product: in the vegetable section, in the frozen section. products or on the shelves with canned goods? Finally, I gave up and asked a store employee for help. She didn&amp;rsquo;t know either!&#xA;The store employee could have reacted to my request in different ways. She could have made it clear that only a fool doesn&amp;rsquo;t know where to look for it, or just brushed it off. vague hints, or even just say that they don&amp;rsquo;t have such a product. But she deemed it possible to find a solution and help the customer.</description>
-    </item>
-    <item>
-      <title>Do not rely on miracles</title>
-      <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
-      <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
-    </item>
-    <item>
-      <title>Use quantitative criteria</title>
-      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
-      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Nor can &amp;ldquo;having a good response time.&amp;rdquo; Or, let&amp;rsquo;s say, &amp;ldquo;scalable.&amp;rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&amp;rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&amp;ldquo;No, I can&amp;rsquo;t accept the program – it doesn&amp;rsquo;t work fast enough&amp;rdquo;) and the developers, obsessed with their compulsions (&amp;ldquo;No, the program isn&amp;rsquo;t ready yet – it doesn&amp;rsquo;t work fast enough&amp;rdquo;).&#xA;Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;easy to accompany,&amp;rdquo; and so on.</description>
-    </item>
-    <item>
-      <title>Satisfy your ambition through Open Source</title>
-      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
-      <pubDate>Sat, 31 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
-      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
-    </item>
-    <item>
-      <title>Give developers their own space</title>
-      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
-      <pubDate>Thu, 29 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
-      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
-    </item>
     <item>
       <title>Do not be afraid to break something</title>
       <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
       <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
     </item>
     <item>
       <title>You need to take care of the code</title>
       <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
       <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
     </item>
     <item>
       <title>To do something hastily and run away is a crime</title>
       <link>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</link>
-      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</guid>
       <description>It&amp;rsquo;s getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves. A few minutes later, the &amp;ldquo;red light&amp;rdquo; comes on: the application build is broken. John didn&amp;rsquo;t have time for automated tests, so he went with the &amp;ldquo;hack and run&amp;rdquo; principle, which caused the entire team&amp;rsquo;s work to come to a halt.&#xA;The situation has changed – the work rhythm has been disrupted.</description>
+    </item>
+    <item>
+      <title>Do not rely on miracles</title>
+      <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
+      <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
+    </item>
+    <item>
+      <title>Code is design</title>
+      <link>http://localhost:1313/posts/code-is-design/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-is-design/</guid>
+      <description>Imagine waking up in the morning and finding out that a groundbreaking breakthrough has occurred in the construction industry. Now, millions of cheap and incredibly fast robots can create various materials literally from thin air, using almost no energy, and they can repair themselves. But that&amp;rsquo;s not all: if there are clear blueprints, the robots will build a building according to them without any human intervention, and the cost of this work will be negligible.&#xA;One can imagine how this will transform the construction industry, but what changes will occur at a higher level? How will architects and designers behave when the cost of construction becomes negligible? Today, expensive construction is necessarily preceded by the creation and thorough testing of physical and computer models.</description>
+    </item>
+    <item>
+      <title>Satisfy your ambition through Open Source</title>
+      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
+      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
+    </item>
+    <item>
+      <title>The importance of code formatting</title>
+      <link>http://localhost:1313/posts/the-importance-of-code-formatting/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-importance-of-code-formatting/</guid>
+      <description>In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&amp;rsquo;t be trusted. I&amp;rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.&#xA;Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.</description>
+    </item>
+    <item>
+      <title>Give developers their own space</title>
+      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
+      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
+    </item>
+    <item>
+      <title>First say yes</title>
+      <link>http://localhost:1313/posts/first-say-yes/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/first-say-yes/</guid>
+      <description>Recently, I was at the grocery store and searched for edamame, green soybeans (I only vaguely guessed they were some kind of vegetable). I didn&amp;rsquo;t I knew where to look for this product: in the vegetable section, in the frozen section. products or on the shelves with canned goods? Finally, I gave up and asked a store employee for help. She didn&amp;rsquo;t know either!&#xA;The store employee could have reacted to my request in different ways. She could have made it clear that only a fool doesn&amp;rsquo;t know where to look for it, or just brushed it off. vague hints, or even just say that they don&amp;rsquo;t have such a product. But she deemed it possible to find a solution and help the customer.</description>
+    </item>
+    <item>
+      <title>Use quantitative criteria</title>
+      <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
+      <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Nor can &amp;ldquo;having a good response time.&amp;rdquo; Or, let&amp;rsquo;s say, &amp;ldquo;scalable.&amp;rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&amp;rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&amp;ldquo;No, I can&amp;rsquo;t accept the program – it doesn&amp;rsquo;t work fast enough&amp;rdquo;) and the developers, obsessed with their compulsions (&amp;ldquo;No, the program isn&amp;rsquo;t ready yet – it doesn&amp;rsquo;t work fast enough&amp;rdquo;).&#xA;Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;easy to accompany,&amp;rdquo; and so on.</description>
+    </item>
+    <item>
+      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
+      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
+      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
     </item>
   </channel>
 </rss>

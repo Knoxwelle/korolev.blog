@@ -6,12 +6,12 @@
     <description>Recent content in Logic on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/logic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Do not repeat your code</title>
       <link>http://localhost:1313/posts/do-not-repeat-your-code/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-repeat-your-code/</guid>
       <description>&amp;ldquo;Don&amp;rsquo;t Repeat Yourself (DRY)&amp;rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.&#xA;Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.</description>
     </item>

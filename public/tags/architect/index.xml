@@ -6,26 +6,26 @@
     <description>Recent content in Architect on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/architect/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stand up!</title>
       <link>http://localhost:1313/posts/stand-up/</link>
-      <pubDate>Fri, 18 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 01 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/stand-up/</guid>
       <description>For many of us, a career as an architect began with some purely technical position where success was primarily determined by the ability to communicate with computers. However, in the role of an architect, we primarily have to communicate with other people. Whether you discuss the advantages of a particular template with developers or explain to management the pros and cons of purchasing middleware, the key to success lies in your communication skills.&#xA;Objectively measuring the degree of an architect&amp;rsquo;s influence on a project is quite difficult, but one thing is clear: if developers constantly ignore the architect&amp;rsquo;s instructions and management does not pay attention to his recommendations, the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the development of his career in any way.</description>
     </item>
     <item>
       <title>Try before you decide</title>
       <link>http://localhost:1313/posts/try-before-you-decide/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 21 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
       <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
     </item>
     <item>
       <title>Give developers their own space</title>
       <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
-      <pubDate>Thu, 29 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
       <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
     </item>

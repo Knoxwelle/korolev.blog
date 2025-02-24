@@ -1,10 +1,10 @@
 +++
 title='Enterprise interview'
-date=2024-11-14T00:00:00-07:00
+date=2024-09-07T00:00:00-07:00
 draft=false
 categories=["recruiting", "skytrain", "utc", "python", "google", "github", "sure", "canadian", "pr", "usecase", "dfd", "bpmn", "carleone", "nac", "lack"]
 tags=["recruiter", "google", "skytrain", "friday", "utc", "monday", "calendar", "code", "screening", "time", "hour", "sparkling", "python", "github", "ram", "b.", "architecture", "system", "bpmn", "kafka", "it", "facebook", "don carleone", "middle", "undoubtedly", "june", "july", "linux", "udemy", "advice", "stay", "quater", "interview", "interviews"]
-cover_image='/images/cover/knoxwelle__2020-05-08T160847.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-11-11T163037.000Z.jpg'
 +++
 I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.
 

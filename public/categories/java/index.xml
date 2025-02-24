@@ -6,28 +6,21 @@
     <description>Recent content in Java on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
       <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
-      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
       <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
     </item>
     <item>
       <title>Relational Database Management Systems</title>
       <link>http://localhost:1313/posts/relational-database-management-systems/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/relational-database-management-systems/</guid>
       <description>If your application needs to handle a large, long-lived set of interrelated data elements, you can confidently place it in a relational database. In the past, there were few relational DBMSs; they were complex, expensive to maintain, and clunky beasts. Those times are gone. Today, finding a relational DBMS is not difficult: it is quite possible that a relational DBMS or even two are already installed on your machine. Some very advanced relational DBMSs, such like MySQL and PostgreSQL, are available in source code, so the question of costs it is no longer worth buying them. Moreover, the so-called &amp;ldquo;embedded database systems&amp;rdquo; can be integrated into your application as libraries, almost requiring no configuration and administration; two such examples are interesting open-source DBMS, SQLite and HSQLDB.</description>
-    </item>
-    <item>
-      <title>Encapsulate behavior, not just state</title>
-      <link>http://localhost:1313/posts/encapsulate-behavior-not-just-state/</link>
-      <pubDate>Wed, 18 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/encapsulate-behavior-not-just-state/</guid>
-      <description>In systems theory, there is the concept of isolation, which is among the most useful when it comes to large and complex system structures. In the software development industry, everyone understands the value of isolating one entity within another, in other words, encapsulation. In programming languages, subprograms and functions, modules and packages, classes, etc., are used to ensure isolation.&#xA;Modules and packages solve large-scale encapsulation tasks, while how classes, subprograms, and functions are designed to solve the same problems in a more at a low level. Over the years of working, I have discovered that of all types of encapsulation The most difficult thing for programmers is encapsulation in classes. It is not uncommon to encounter a class where the only method, main, has 5000 lines, or a class, in which there are only set and get methods for its basic attributes.</description>
     </item>
   </channel>
 </rss>

@@ -6,14 +6,14 @@
     <description>Recent content in Errors on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/errors/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Using a database as a fort</title>
-      <link>http://localhost:1313/posts/using-a-database-as-a-fort/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/using-a-database-as-a-fort/</guid>
-      <description>The database contains all of the information, both that entered by employees and that obtained from clients. Changes in user interfaces, business logic, applied logic, and even staff don&amp;rsquo;t affect the data. It is imperative that a reliable data model be created as early in the project as possible.&#xA;Prewriting complex, comprehensive technical requirements is a thing of the past! The new school demands that products be delivered frequently and early.Writing one line of vulnerable code is better than writing 10 in your head. When it comes to the facts, at least, it looks too good to be true.&#xA;Data structures and their relationships usually do not change quickly, although user interfaces and business logic do. Because of this, it&amp;rsquo;s imperative to define the data model precisely from the start, both analytically and structurally.</description>
+      <title>Before blaming others, check your own code</title>
+      <link>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</guid>
+      <description>A developer – any of us! – often finds it difficult to admit that their code doesn&amp;rsquo;t work. It seems so implausible that we are more likely to assume there is a bug in the compiler.&#xA;In reality, it is very, very rare for code to be non-functional due to a bug in the compiler, interpreter, operating system, application server, database, memory manager, or any other element of system software. Yes, there are bugs, but they are much less frequent than we would like to think.&#xA;Once, I actually encountered a bug in the compiler (removing the loop variable during optimization), but in all other cases, my complaints about the compiler or operating system turned out to be unfounded. I wasted a lot of my time, support staff time, and management time, only to end up in an awkward position when it turned out that the mistake was my own.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plato on Korolev Blog</title>
+    <link>http://localhost:1313/tags/plato/</link>
+    <description>Recent content in Plato on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/plato/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beauty is the result of simplicity</title>
+      <link>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</guid>
+      <description>Plato has one saying that, it seems to me, would be especially useful for all software developers to know and take to heart:&#xA;The beauty of style, harmony, elegance, and good rhythm are based on simplicity.&#xA;This single sentence embodies the values that we, as developers, should admire.&#xA;There are a number of things we aim to achieve in our code:&#xA;Readability - Ease of maintenance - Development speed - Elusive beauty Plato tells us that all these qualities are possible only thanks to simplicity.&#xA;What is beautiful code? This is probably a very subjective question. The perception of beauty is heavily dependent on personal experience, just as our perception of anything else is. Those who have studied art perceive beauty differently (at least approach it differently) than those with a technical education.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Knowledge on Tiny Dev Blog</title>
+    <title>Knowledge on Korolev Blog</title>
     <link>http://localhost:1313/tags/knowledge/</link>
-    <description>Recent content in Knowledge on Tiny Dev Blog</description>
+    <description>Recent content in Knowledge on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/knowledge/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Share knowledge and experience</title>
-      <link>http://localhost:1313/posts/share-knowledge-and-experience/</link>
-      <pubDate>Tue, 21 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/share-knowledge-and-experience/</guid>
-      <description>From all our endeavors, both successful and unsuccessful, we derive a lot of valuable lessons.In such a young industry as software development, the sharing of experience and knowledge is vital for progress.What any of the teams learns in their tiny corner of the world can impact the work of their colleagues across the globe.&#xA;If we look at things realistically, our foundation of fundamental (that is, absolute and theoretically true) knowledge about software development is small compared to what is necessary for the successful advancement of a project. To compensate for this lack of knowledge, we make guesses, rely on intuition, and sometimes even just choose randomly. Thus, during any major software development project, empirical data emerges about what works and what doesn&amp;rsquo;t. Step by step, we accumulate experience from changes that we want to apply to the industry as a whole.</description>
+      <title>Code review</title>
+      <link>http://localhost:1313/posts/code-review/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-review/</guid>
+      <description>Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.&#xA;Many programmers have an aversion to code reviews, which can be linked to their unfortunate personal experiences. I have encountered organizations where all code underwent formal review before it could enter the system for commercial use. Often, the review is conducted by an architect or lead developer—a practice that can be called &amp;ldquo;the architect checks everything.&amp;rdquo; This is documented in the company&amp;rsquo;s software development process guide, and programmers are required to comply.&#xA;Perhaps, in some organizations, such a strict and formal process is indeed necessary, but they are in the minority. In most organizations, such an approach is counterproductive.</description>
     </item>
   </channel>
 </rss>

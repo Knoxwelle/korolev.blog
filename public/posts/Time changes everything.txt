@@ -1,10 +1,10 @@
 +++
-title = 'Time changes everything'
-date = 2024-04-24T00:00:00-07:00
-draft = false
-categories = ["dude"]
-tags = ["wise", "first", "easy", "dude", "time", "assignment", "look", "solutions", "lot"]
-cover_image='/images/cover/knoxwelle__2021-05-17T221339.000Z.jpg'
+title='Time changes everything'
+date=2024-10-17T00:00:00-07:00
+draft=false
+categories=["dude"]
+tags=["wise", "first", "easy", "dude", "time", "assignment", "look", "solutions", "lot"]
+cover_image='/images/cover/knoxwelle__2020-04-03T060336.000Z.jpg'
 +++
 Seeing what has survived and what hasn't has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?
 
@@ -18,4 +18,6 @@ We tell ourselves, "Keep It Simple, Stupid," a lot. As much as we say, we don't.
 
 ## Be happy with the bargains.
 
-Architects have a tendency to search for "the only true path"—a system or philosophy that can provide a great deal of desirable predictability and ultimately lead them to the answers they believe are in close proximity. The issue is that it's doubtful that the rules you are directing now will be the same in a few years, much less decades. When you look back, the outcomes are never up to your present standards. Recognize your prior successes and resist the need to go back and "correct" them. Was the answer in line with the assignment? Did it fulfill the requirements? You'll be happier if you use these questions as evaluation criteria.
+Architects have a tendency to search for "the only true path"—a system or philosophy that can provide a great deal of desirable predictability and ultimately lead them to the answers they believe are in close proximity. The issue is that it's doubtful that the rules you are directing now will be the same in a few years, much less decades. When you look back, the outcomes are never up to your present standards. Recognize your prior successes and resist the need to go back and "correct" them. Was the answer in line with the assignment? 
+
+Did it fulfill the requirements? You'll be happier if you use these questions as evaluation criteria.

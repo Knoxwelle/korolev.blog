@@ -6,21 +6,21 @@
     <description>Recent content in Requirements on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/requirements/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The true meaning of the clients requirements</title>
-      <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
-      <pubDate>Mon, 09 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
-      <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
-    </item>
     <item>
       <title>Thinking about performance is never too early</title>
       <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
       <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
+    </item>
+    <item>
+      <title>The true meaning of the clients requirements</title>
+      <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
+      <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
     </item>
   </channel>
 </rss>

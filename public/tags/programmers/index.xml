@@ -6,28 +6,42 @@
     <description>Recent content in Programmers on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/programmers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You need to take care of the code</title>
+      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
+      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
+    </item>
     <item>
       <title>Do not rely on miracles</title>
       <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
       <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
     </item>
     <item>
       <title>When programmers and testers collaborate</title>
       <link>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</link>
-      <pubDate>Thu, 12 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</guid>
-      <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Интеграционный тест). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
+      <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Integration test). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
     </item>
     <item>
-      <title>You need to take care of the code</title>
-      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
-      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
+      <title>Comment only on what the code will not say</title>
+      <link>http://localhost:1313/posts/comment-only-on-what-the-code-will-not-say/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/comment-only-on-what-the-code-will-not-say/</guid>
+      <description>The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code seems commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.&#xA;If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &amp;ldquo;The Elements of Programming Style&amp;rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &amp;ldquo;a wrong comment is worse than no comment at all.</description>
+    </item>
+    <item>
+      <title>Comment only on what the code not say</title>
+      <link>http://localhost:1313/posts/comment-only-on-what-the-code-not-say/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/comment-only-on-what-the-code-not-say/</guid>
+      <description>The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code looks commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.&#xA;If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &amp;ldquo;The Elements of Programming Style&amp;rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &amp;ldquo;a wrong comment has zero or negative value.</description>
     </item>
   </channel>
 </rss>

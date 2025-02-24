@@ -6,12 +6,12 @@
     <description>Recent content in Criteria on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/criteria/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use quantitative criteria</title>
       <link>http://localhost:1313/posts/use-quantitative-criteria/</link>
-      <pubDate>Mon, 02 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/use-quantitative-criteria/</guid>
       <description>&amp;ldquo;Fast&amp;rdquo; cannot be a requirement. Nor can &amp;ldquo;having a good response time.&amp;rdquo; Or, let&amp;rsquo;s say, &amp;ldquo;scalable.&amp;rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&amp;rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&amp;ldquo;No, I can&amp;rsquo;t accept the program – it doesn&amp;rsquo;t work fast enough&amp;rdquo;) and the developers, obsessed with their compulsions (&amp;ldquo;No, the program isn&amp;rsquo;t ready yet – it doesn&amp;rsquo;t work fast enough&amp;rdquo;).&#xA;Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &amp;ldquo;flexible,&amp;rdquo; &amp;ldquo;easy to accompany,&amp;rdquo; and so on.</description>
     </item>

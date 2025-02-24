@@ -6,28 +6,42 @@
     <description>Recent content in First on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beauty is the result of simplicity</title>
+      <link>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</guid>
+      <description>Plato has one saying that, it seems to me, would be especially useful for all software developers to know and take to heart:&#xA;The beauty of style, harmony, elegance, and good rhythm are based on simplicity.&#xA;This single sentence embodies the values that we, as developers, should admire.&#xA;There are a number of things we aim to achieve in our code:&#xA;Readability - Ease of maintenance - Development speed - Elusive beauty Plato tells us that all these qualities are possible only thanks to simplicity.&#xA;What is beautiful code? This is probably a very subjective question. The perception of beauty is heavily dependent on personal experience, just as our perception of anything else is. Those who have studied art perceive beauty differently (at least approach it differently) than those with a technical education.</description>
+    </item>
     <item>
       <title>Time changes everything</title>
       <link>http://localhost:1313/posts/time-changes-everything/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/time-changes-everything/</guid>
       <description>Seeing what has survived and what hasn&amp;rsquo;t has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?&#xA;Pick a noble assignment For a software architect, this is highly challenging. We receive assignments and issues from the client, so we really don&amp;rsquo;t have a choice, do we? It&amp;rsquo;s not really that easy. First of all, we frequently make the error of thinking that we have little power over what the customer desires. But it&amp;rsquo;s typically possible to just step outside of your comfort zone when it comes to technology.</description>
     </item>
     <item>
-      <title>Creating architecture as the art of balance</title>
-      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
-      <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
-    </item>
-    <item>
       <title>Thinking about performance is never too early</title>
       <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
       <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
+    </item>
+    <item>
+      <title>The importance of code formatting</title>
+      <link>http://localhost:1313/posts/the-importance-of-code-formatting/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-importance-of-code-formatting/</guid>
+      <description>In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&amp;rsquo;t be trusted. I&amp;rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.&#xA;Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.</description>
+    </item>
+    <item>
+      <title>Creating architecture as the art of balance</title>
+      <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
+      <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
     </item>
   </channel>
 </rss>

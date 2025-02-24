@@ -1,10 +1,10 @@
 +++
 title='Try not to alter the timetable'
-date=2024-12-22T00:00:00-07:00
+date=2025-01-25T00:00:00-07:00
 draft=false
 categories=[]
 tags=["express", "start", "problems", "delivery", "project", "quality", "times", "schedule", "time"]
-cover_image='/images/cover/knoxwelle__2017-08-06T105742.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-11-23T130121.000Z.jpg'
 +++
 There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project's schedule or resource allocation usually don't result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.
 

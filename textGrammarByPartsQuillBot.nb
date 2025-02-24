@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     59747,       1095]
-NotebookOptionsPosition[     56992,       1051]
-NotebookOutlinePosition[     57393,       1067]
-CellTagsIndexPosition[     57350,       1064]
+NotebookDataLength[     80356,       1449]
+NotebookOptionsPosition[     76333,       1388]
+NotebookOutlinePosition[     76765,       1405]
+CellTagsIndexPosition[     76722,       1402]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,19 +33,46 @@ Cell[BoxData[
    3.9292179139982204`*^9, 3.9292180109485364`*^9}, {3.9292181116552367`*^9, 
    3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
    3.9292195131056185`*^9},
- CellLabel->
-  "In[968]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+ CellLabel->"In[1]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Architectural compromises.md\"\>", 
+korolev.blog\\\\content\\\\posts\\\\Apply the principles of functional \
+programming.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Architectural compromises.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Automate your code formatting standard.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\A verbose journal will deprive you of \
 sleep.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Beauty is the result of simplicity.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Before blaming others, check your own \
+code.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Before starting the refactoring.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Carefully choose your tools.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Code is design.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Code review.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Commentary on comments.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Comment only on what the code will not \
+say.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Communication is the king, clarity and leadership \
 are its loyal servants.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Continuous learning.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Convenience is not an attribute of \
+quality.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Creating architecture as the art of \
 balance.md\"\>", 
@@ -88,6 +115,8 @@ blog\\\\content\\\\posts\\\\Tests are written for people.md\"\>",
 blog\\\\content\\\\posts\\\\The drama of hype technologies, customer needs, \
 and pangs of conscience.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\The importance of code formatting.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\The performance of an application is determined \
 by its architecture.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
@@ -114,6 +143,8 @@ blog\\\\content\\\\posts\\\\When programmers and testers collaborate.md\"\>",
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Write code as if you will be maintaining it for \
 the rest of your life.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Write code wisely.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Writing code in the spirit of Ubuntu for the \
 friends.md\"\>", 
@@ -154,9 +185,9 @@ they say.md\"\>"}], "}"}]], "Output",
    3.932321182536326*^9}, 3.932321296813586*^9, 3.9323213285155525`*^9, 
    3.9323214444553013`*^9, 3.932321993742594*^9, 3.9323221788827734`*^9, 
    3.932327176035804*^9, 3.9323278257526307`*^9, 3.9324299102160163`*^9, 
-   3.9330854710908985`*^9, 3.944262979873376*^9, 3.9442633456672764`*^9},
- CellLabel->
-  "Out[968]=",ExpressionUUID->"b7dfa394-a790-4f24-b5f8-0e94400b03db"]
+   3.9330854710908985`*^9, 3.944262979873376*^9, 3.9442633456672764`*^9, 
+   3.9491985624015636`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"9f41badb-db07-1542-a9a0-1cbf52056bca"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -185,8 +216,7 @@ Cell[BoxData[
    3.9293815846823196`*^9}, {3.9293817296478004`*^9, 3.929381755585693*^9}, {
    3.9299049748571444`*^9, 3.929904975436484*^9}, 3.929905034066107*^9, 
    3.930480683931385*^9, 3.93048080971883*^9},
- CellLabel->
-  "In[969]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+ CellLabel->"In[2]:=",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
 
 Cell[CellGroupData[{
 
@@ -474,8 +504,7 @@ button']\>\""}]}]}], "]"}]}], ";"}], "\[IndentingNewLine]",
    3.9324281033808517`*^9}, {3.932429814200081*^9, 3.9324298212371674`*^9}, 
    3.9324298908808784`*^9, {3.9325781448690696`*^9, 3.9325781452466526`*^9}, 
    3.9340630085332527`*^9, 3.934121808065522*^9, 3.9442632591496067`*^9},
- CellLabel->
-  "In[970]:=",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+ CellLabel->"In[3]:=",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
 
 Cell[CellGroupData[{
 
@@ -485,99 +514,727 @@ Cell[BoxData[
   "1", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Architectural compromises.md\"\>"}],
+content\\\\posts\\\\Apply the principles of functional programming.md\"\>"}],
   SequenceForm[
   1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Architectural compromises.md"],
+content\\posts\\Apply the principles of functional programming.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9442633457668114`*^9},
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198564074156*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"14f9157d-7554-48a3-a480-e7ce05959597"],
+In[3]:=",ExpressionUUID->"598451ec-fa06-bb40-abc6-257a293abe5c"],
 
-Cell[BoxData["4"], "Print",
- CellChangeTimes->{3.944263345806332*^9},
+Cell[BoxData["8"], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491985647585106`*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"40452fb8-8107-43c1-a7ed-ba84dfc08229"],
+In[3]:=",ExpressionUUID->"5f4b0f04-a121-544b-84fd-4b908c5915ed"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"oldString: \"\>", 
-   "\[InvisibleSpace]", "\<\"An architecture cannot accomplish high security, \
-high availability, high abstraction, and high performance all at once. All \
-that software architects need to do is know, understand, and relate one real \
-narrative to their peers and clients. I am speaking of Vaza's history.\"\>"}],
+   "\[InvisibleSpace]", "\<\"Functional programming has recently attracted \
+attention again.\\nthe majority in the programming community. Partly because \
+the emergent properties of the functional paradigm resonate with solving \
+problems that arise in our industry due to the increasing importance of \
+multicore architectures. And although this application is undoubtedly \
+important, it is not\\nthe main reason for my guidance to understand \
+functional programming.\"\>"}],
   SequenceForm[
   "oldString: ", 
-   "An architecture cannot accomplish high security, high availability, high \
-abstraction, and high performance all at once. All that software architects \
-need to do is know, understand, and relate one real narrative to their peers \
-and clients. I am speaking of Vaza's history."],
+   "Functional programming has recently attracted attention again.\nthe \
+majority in the programming community. Partly because the emergent properties \
+of the functional paradigm resonate with solving problems that arise in our \
+industry due to the increasing importance of multicore architectures. And \
+although this application is undoubtedly important, it is not\nthe main \
+reason for my guidance to understand functional programming."],
   Editable->False]], "Print",
- CellChangeTimes->{3.9442633586241674`*^9},
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198594390703*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"49c047c3-1f4b-4bae-a97f-d455491fe906"],
+In[3]:=",ExpressionUUID->"af1034e9-703d-6d43-a58d-6e1aa4e26b25"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Translated: \"\>", 
-   "\[InvisibleSpace]", "\<\"An architecture cannot accomplish high security, \
-high availability, high abstraction, and high performance all at once. All \
-that software architects need to do is know, understand, and relate one real \
-narrative to their peers and clients. I am speaking of Vaza's history.\"\>"}],
+   "\[InvisibleSpace]", "\<\"Functional programming has recently attracted \
+attention again.\\nthe majority in the programming community. Partly because \
+the emergent properties of the functional paradigm resonate with solving \
+problems that arise in our industry due to the increasing importance of \
+multicore architectures. And although this application is undoubtedly \
+important, it is not\\nthe main reason for my guidance to understand \
+functional programming.\"\>"}],
   SequenceForm[
   "Translated: ", 
+   "Functional programming has recently attracted attention again.\nthe \
+majority in the programming community. Partly because the emergent properties \
+of the functional paradigm resonate with solving problems that arise in our \
+industry due to the increasing importance of multicore architectures. And \
+although this application is undoubtedly important, it is not\nthe main \
+reason for my guidance to understand functional programming."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198662039732*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"647f5e54-7f3a-6d49-ae1b-099931dd6df6"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Having mastered the paradigm of functional \
+programming, the programmer can\\nsignificantly improve the quality of code \
+created in other contexts. A deep understanding of the functional programming \
+paradigm and its practical application will help you design systems with a \
+much higher degree of referential transparency.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Having mastered the paradigm of functional programming, the programmer \
+can\nsignificantly improve the quality of code created in other contexts. A \
+deep understanding of the functional programming paradigm and its practical \
+application will help you design systems with a much higher degree of \
+referential transparency."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198662056671*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"156201de-fc68-a64e-abcb-b7a4a0f6cf6a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"Having mastered the paradigm of functional \
+programming, the programmer can\\nsignificantly improve the quality of code \
+created in other contexts. A deep understanding of the functional programming \
+paradigm and its practical application will help you design systems with a \
+much higher degree of referential transparency.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "Having mastered the paradigm of functional programming, the programmer \
+can\nsignificantly improve the quality of code created in other contexts. A \
+deep understanding of the functional programming paradigm and its practical \
+application will help you design systems with a much higher degree of \
+referential transparency."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491987140270824`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"9fcd7286-3cec-c341-a5d5-f8063d25e88a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Referential transparency is a highly desirable \
+quality: it implies that functions consistently yield the same results for \
+the same inputs.\\ninput data regardless of the place and time of accessing \
+these functions.\\nThe computation of a function, therefore, is weakly \
+dependent on the side effects of mutable state \[Dash] ideally, it does not \
+depend on them at all.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Referential transparency is a highly desirable quality: it implies that \
+functions consistently yield the same results for the same inputs.\ninput \
+data regardless of the place and time of accessing these functions.\nThe \
+computation of a function, therefore, is weakly dependent on the side effects \
+of mutable state \[Dash] ideally, it does not depend on them at all."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198714038412*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"cab84c90-6237-3d49-8953-a4f2f951bdb3"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"Referential transparency is a highly desirable \
+quality: it implies that functions consistently yield the same results for \
+the same inputs.\\ninput data regardless of the place and time of accessing \
+these functions.\\nThe computation of a function, therefore, is weakly \
+dependent on the side effects of mutable state \[Dash] ideally, it does not \
+depend on them at all.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "Referential transparency is a highly desirable quality: it implies that \
+functions consistently yield the same results for the same inputs.\ninput \
+data regardless of the place and time of accessing these functions.\nThe \
+computation of a function, therefore, is weakly dependent on the side effects \
+of mutable state \[Dash] ideally, it does not depend on them at all."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491987613612194`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"d050f6b4-3f1b-d34b-b795-39c5eb24272a"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"One of the main sources of defects in code \
+written in an imperative programming language is mutable variables. Every \
+engineer surely\\nhad to figure out why in some specific case some\\nthe \
+value did not match the expected. The semantics of visibility scopes can \
+prevent the emergence of such sneaky errors or, at least,\\nsignificantly \
+narrow the possible area of their appearance. But the true reason\\nThe cause \
+of their occurrence may be the very concept of designing code that \
+indiscriminately relies on mutability.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "One of the main sources of defects in code written in an imperative \
+programming language is mutable variables. Every engineer surely\nhad to \
+figure out why in some specific case some\nthe value did not match the \
+expected. The semantics of visibility scopes can prevent the emergence of \
+such sneaky errors or, at least,\nsignificantly narrow the possible area of \
+their appearance. But the true reason\nThe cause of their occurrence may be \
+the very concept of designing code that indiscriminately relies on \
+mutability."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491987613782215`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"be148a9e-30b8-634e-bad9-37e0cb8b78d7"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"One of the main sources of defects in code \
+written in an imperative programming language is mutable variables. Every \
+engineer surely\\nhad to figure out why in some specific case some\\nthe \
+value did not match the expected. The semantics of visibility scopes can \
+prevent the emergence of such sneaky errors or, at least,\\nsignificantly \
+narrow the possible area of their appearance. But the true reason\\nThe cause \
+of their occurrence may be the very concept of designing code that \
+indiscriminately relies on mutability.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "One of the main sources of defects in code written in an imperative \
+programming language is mutable variables. Every engineer surely\nhad to \
+figure out why in some specific case some\nthe value did not match the \
+expected. The semantics of visibility scopes can prevent the emergence of \
+such sneaky errors or, at least,\nsignificantly narrow the possible area of \
+their appearance. But the true reason\nThe cause of their occurrence may be \
+the very concept of designing code that indiscriminately relies on \
+mutability."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491988154291897`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"286b8b58-545b-3e4a-b448-7a50033bd826"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"And in this regard, we definitely shouldn't \
+expect much help from our own industry. Most books on object-oriented \
+programming subtly promote such constructs. They often provide\\nApply the \
+principles\\nfunctional\\nprogramming examples of groups of objects that have \
+a relatively long lifespan\\nand exchange calls to methods that change state \
+(mutator methods),\\nthat it is unsafe. However, proper test-driven \
+design\\ndesign), especially if \\\"role simulation, not object \
+simulation\\\" is provided (mock roles,\\nnot objects)\[RightGuillemet], \
+allows to eliminate the excess variability in architecture.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "And in this regard, we definitely shouldn't expect much help from our own \
+industry. Most books on object-oriented programming subtly promote such \
+constructs. They often provide\nApply the principles\nfunctional\nprogramming \
+examples of groups of objects that have a relatively long lifespan\nand \
+exchange calls to methods that change state (mutator methods),\nthat it is \
+unsafe. However, proper test-driven design\ndesign), especially if \"role \
+simulation, not object simulation\" is provided (mock roles,\nnot objects)\
+\[RightGuillemet], allows to eliminate the excess variability in \
+architecture."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491988154361305`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"97989e95-fd88-f047-b17f-2a6e0b820677"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"And in this regard, we definitely shouldn't \
+expect much help from our own industry. Most books on object-oriented \
+programming subtly promote such constructs. They often provide\\nApply the \
+principles\\nfunctional\\nprogramming examples of groups of objects that have \
+a relatively long lifespan\\nand exchange calls to methods that change state \
+(mutator methods),\\nthat it is unsafe. However, proper test-driven \
+design\\ndesign), especially if \\\"role simulation, not object \
+simulation\\\" is provided (mock roles,\\nnot objects)\[RightGuillemet], \
+allows to eliminate the excess variability in architecture.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "And in this regard, we definitely shouldn't expect much help from our own \
+industry. Most books on object-oriented programming subtly promote such \
+constructs. They often provide\nApply the principles\nfunctional\nprogramming \
+examples of groups of objects that have a relatively long lifespan\nand \
+exchange calls to methods that change state (mutator methods),\nthat it is \
+unsafe. However, proper test-driven design\ndesign), especially if \"role \
+simulation, not object simulation\" is provided (mock roles,\nnot objects)\
+\[RightGuillemet], allows to eliminate the excess variability in \
+architecture."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198863348137*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"5252b49e-d353-a543-a4fa-135ee22b47c4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"As a result, it usually ends up being an \
+architecture with a more successful distribution.\\nResponsibilities and \
+numerous small functions that work with the received arguments, rather than \
+directly accessing mutable member variables. Defects become fewer, and their \
+debugging is simplified, as it is easier\\nfind out where the incorrect value \
+in such a construction came from, rather than trying\\nfind out in what \
+specific context the erroneous assignment appears.\\nThis significantly \
+increases link transparency, and absolutely nothing\\ncan contribute to a \
+deep understanding of these ideas, just like studying a functional \
+programming language, where such a model of computation is\\nthe norm.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "As a result, it usually ends up being an architecture with a more \
+successful distribution.\nResponsibilities and numerous small functions that \
+work with the received arguments, rather than directly accessing mutable \
+member variables. Defects become fewer, and their debugging is simplified, as \
+it is easier\nfind out where the incorrect value in such a construction came \
+from, rather than trying\nfind out in what specific context the erroneous \
+assignment appears.\nThis significantly increases link transparency, and \
+absolutely nothing\ncan contribute to a deep understanding of these ideas, \
+just like studying a functional programming language, where such a model of \
+computation is\nthe norm."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198863353134*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"995b148d-c651-6548-85c6-a5caf96ddf42"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"As a result, it usually ends up being an \
+architecture with a more successful distribution.\\nResponsibilities and \
+numerous small functions that work with the received arguments, rather than \
+directly accessing mutable member variables. Defects become fewer, and their \
+debugging is simplified, as it is easier.\\nfind out where the incorrect \
+value in such a construction came from, rather than trying\\nFind out in what \
+specific context the erroneous assignment appears.\\nThis significantly \
+increases link transparency, and absolutely nothing\\ncan contribute to a \
+deep understanding of these ideas, just like studying a functional \
+programming language, where such a model of computation is\\nthe norm.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "As a result, it usually ends up being an architecture with a more \
+successful distribution.\nResponsibilities and numerous small functions that \
+work with the received arguments, rather than directly accessing mutable \
+member variables. Defects become fewer, and their debugging is simplified, as \
+it is easier.\nfind out where the incorrect value in such a construction came \
+from, rather than trying\nFind out in what specific context the erroneous \
+assignment appears.\nThis significantly increases link transparency, and \
+absolutely nothing\ncan contribute to a deep understanding of these ideas, \
+just like studying a functional programming language, where such a model of \
+computation is\nthe norm."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491989219392815`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"567f5c46-8002-5e46-9903-8b50d03b1452"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Of course, this approach is not always optimal. \
+For example, often in object-oriented systems, this style yields better \
+results when developing the domain model (that is, when the collaboration of \
+objects serves to reduce the complexity of business rules) than when \
+developing the user interface.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Of course, this approach is not always optimal. For example, often in \
+object-oriented systems, this style yields better results when developing the \
+domain model (that is, when the collaboration of objects serves to reduce the \
+complexity of business rules) than when developing the user interface."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198921945284*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"8e02d53a-986a-1344-b147-e3fe3d935d46"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"Of course, this approach is not always optimal. \
+For example, often in object-oriented systems, this style yields better \
+results when developing the domain model (that is, when the collaboration of \
+objects serves to reduce the complexity of business rules) than when \
+developing the user interface.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "Of course, this approach is not always optimal. For example, often in \
+object-oriented systems, this style yields better results when developing the \
+domain model (that is, when the collaboration of objects serves to reduce the \
+complexity of business rules) than when developing the user interface."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198957518057*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"9125df42-2cc0-994c-956a-524fe6daafde"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"Master the paradigm of functional programming to \
+wisely\\napply the acquired knowledge in other fields. Take at least your \
+hierarchies\\nobjects \[Dash] they will simply shine with the quality of link \
+transparency and will be significantly closer to their functional \
+counterparts than could be\\nwould assume. In fact, some even express the \
+opinion that\\nIn their highest manifestation, functional programming and the \
+object-oriented approach turn out to be mere reflections of each other, of \
+their own.\\nkind of computational yin and yang.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
+   "Master the paradigm of functional programming to wisely\napply the \
+acquired knowledge in other fields. Take at least your hierarchies\nobjects \
+\[Dash] they will simply shine with the quality of link transparency and will \
+be significantly closer to their functional counterparts than could be\nwould \
+assume. In fact, some even express the opinion that\nIn their highest \
+manifestation, functional programming and the object-oriented approach turn \
+out to be mere reflections of each other, of their own.\nkind of \
+computational yin and yang."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949198957523056*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"68b220b1-c7c8-b842-8ec7-29e496cc8621"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", 
+   "\[InvisibleSpace]", "\<\"Master the paradigm of functional programming to \
+wisely\\napply the acquired knowledge in other fields. Take at least your \
+hierarchies\\nobjects \[Dash] they will simply shine with the quality of link \
+transparency and will be significantly closer to their functional \
+counterparts than could be\\nwould assume. In fact, some even express the \
+opinion that\\nIn their highest manifestation, functional programming and the \
+object-oriented approach turn out to be mere reflections of each other, of \
+their own.\\nkind of computational yin and yang.\"\>"}],
+  SequenceForm[
+  "Translated: ", 
+   "Master the paradigm of functional programming to wisely\napply the \
+acquired knowledge in other fields. Take at least your hierarchies\nobjects \
+\[Dash] they will simply shine with the quality of link transparency and will \
+be significantly closer to their functional counterparts than could be\nwould \
+assume. In fact, some even express the opinion that\nIn their highest \
+manifestation, functional programming and the object-oriented approach turn \
+out to be mere reflections of each other, of their own.\nkind of \
+computational yin and yang."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990001737957`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"24e37dd6-e3fa-4e40-b340-05bb7d8328ac"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newText: \"\>", 
+   "\[InvisibleSpace]", "\<\"Functional programming has recently attracted \
+attention again.\\nthe majority in the programming community. Partly because \
+the emergent properties of the functional paradigm resonate with solving \
+problems that arise in our industry due to the increasing importance of \
+multicore architectures. And although this application is undoubtedly \
+important, it is not\\nthe main reason for my guidance to understand \
+functional programming.\\n\\nHaving mastered the paradigm of functional \
+programming, the programmer can\\nsignificantly improve the quality of code \
+created in other contexts. A deep understanding of the functional programming \
+paradigm and its practical application will help you design systems with a \
+much higher degree of referential transparency.\\n\\nReferential transparency \
+is a highly desirable quality: it implies that functions consistently yield \
+the same results for the same inputs.\\ninput data regardless of the place \
+and time of accessing these functions.\\nThe computation of a function, \
+therefore, is weakly dependent on the side effects of mutable state \[Dash] \
+ideally, it does not depend on them at all.\\n\\nOne of the main sources of \
+defects in code written in an imperative programming language is mutable \
+variables. Every engineer surely\\nhad to figure out why in some specific \
+case some\\nthe value did not match the expected. The semantics of visibility \
+scopes can prevent the emergence of such sneaky errors or, at \
+least,\\nsignificantly narrow the possible area of their appearance. But the \
+true reason\\nThe cause of their occurrence may be the very concept of \
+designing code that indiscriminately relies on mutability.\\n\\nAnd in this \
+regard, we definitely shouldn't expect much help from our own industry. Most \
+books on object-oriented programming subtly promote such constructs. They \
+often provide\\nApply the principles\\nfunctional\\nprogramming examples of \
+groups of objects that have a relatively long lifespan\\nand exchange calls \
+to methods that change state (mutator methods),\\nthat it is unsafe. However, \
+proper test-driven design\\ndesign), especially if \\\"role simulation, not \
+object simulation\\\" is provided (mock roles,\\nnot \
+objects)\[RightGuillemet], allows to eliminate the excess variability in \
+architecture.\\n\\nAs a result, it usually ends up being an architecture with \
+a more successful distribution.\\nResponsibilities and numerous small \
+functions that work with the received arguments, rather than directly \
+accessing mutable member variables. Defects become fewer, and their debugging \
+is simplified, as it is easier.\\nfind out where the incorrect value in such \
+a construction came from, rather than trying\\nFind out in what specific \
+context the erroneous assignment appears.\\nThis significantly increases link \
+transparency, and absolutely nothing\\ncan contribute to a deep understanding \
+of these ideas, just like studying a functional programming language, where \
+such a model of computation is\\nthe norm.\\n\\nOf course, this approach is \
+not always optimal. For example, often in object-oriented systems, this style \
+yields better results when developing the domain model (that is, when the \
+collaboration of objects serves to reduce the complexity of business rules) \
+than when developing the user interface.\\n\\nMaster the paradigm of \
+functional programming to wisely\\napply the acquired knowledge in other \
+fields. Take at least your hierarchies\\nobjects \[Dash] they will simply \
+shine with the quality of link transparency and will be significantly closer \
+to their functional counterparts than could be\\nwould assume. In fact, some \
+even express the opinion that\\nIn their highest manifestation, functional \
+programming and the object-oriented approach turn out to be mere reflections \
+of each other, of their own.\\nkind of computational yin and yang.\"\>"}],
+  SequenceForm[
+  "newText: ", 
+   "Functional programming has recently attracted attention again.\nthe \
+majority in the programming community. Partly because the emergent properties \
+of the functional paradigm resonate with solving problems that arise in our \
+industry due to the increasing importance of multicore architectures. And \
+although this application is undoubtedly important, it is not\nthe main \
+reason for my guidance to understand functional programming.\n\nHaving \
+mastered the paradigm of functional programming, the programmer can\n\
+significantly improve the quality of code created in other contexts. A deep \
+understanding of the functional programming paradigm and its practical \
+application will help you design systems with a much higher degree of \
+referential transparency.\n\nReferential transparency is a highly desirable \
+quality: it implies that functions consistently yield the same results for \
+the same inputs.\ninput data regardless of the place and time of accessing \
+these functions.\nThe computation of a function, therefore, is weakly \
+dependent on the side effects of mutable state \[Dash] ideally, it does not \
+depend on them at all.\n\nOne of the main sources of defects in code written \
+in an imperative programming language is mutable variables. Every engineer \
+surely\nhad to figure out why in some specific case some\nthe value did not \
+match the expected. The semantics of visibility scopes can prevent the \
+emergence of such sneaky errors or, at least,\nsignificantly narrow the \
+possible area of their appearance. But the true reason\nThe cause of their \
+occurrence may be the very concept of designing code that indiscriminately \
+relies on mutability.\n\nAnd in this regard, we definitely shouldn't expect \
+much help from our own industry. Most books on object-oriented programming \
+subtly promote such constructs. They often provide\nApply the principles\n\
+functional\nprogramming examples of groups of objects that have a relatively \
+long lifespan\nand exchange calls to methods that change state (mutator \
+methods),\nthat it is unsafe. However, proper test-driven design\ndesign), \
+especially if \"role simulation, not object simulation\" is provided (mock \
+roles,\nnot objects)\[RightGuillemet], allows to eliminate the excess \
+variability in architecture.\n\nAs a result, it usually ends up being an \
+architecture with a more successful distribution.\nResponsibilities and \
+numerous small functions that work with the received arguments, rather than \
+directly accessing mutable member variables. Defects become fewer, and their \
+debugging is simplified, as it is easier.\nfind out where the incorrect value \
+in such a construction came from, rather than trying\nFind out in what \
+specific context the erroneous assignment appears.\nThis significantly \
+increases link transparency, and absolutely nothing\ncan contribute to a deep \
+understanding of these ideas, just like studying a functional programming \
+language, where such a model of computation is\nthe norm.\n\nOf course, this \
+approach is not always optimal. For example, often in object-oriented \
+systems, this style yields better results when developing the domain model \
+(that is, when the collaboration of objects serves to reduce the complexity \
+of business rules) than when developing the user interface.\n\nMaster the \
+paradigm of functional programming to wisely\napply the acquired knowledge in \
+other fields. Take at least your hierarchies\nobjects \[Dash] they will \
+simply shine with the quality of link transparency and will be significantly \
+closer to their functional counterparts than could be\nwould assume. In fact, \
+some even express the opinion that\nIn their highest manifestation, \
+functional programming and the object-oriented approach turn out to be mere \
+reflections of each other, of their own.\nkind of computational yin and \
+yang."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990003286*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"01816ced-4eb9-bb46-bf20-b492f83990dd"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"newContent: \"\>", 
+   "\[InvisibleSpace]", "\<\"+++\\ntitle='Apply the principles of functional \
+programming'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=true\\ncategories=[]\\\
+ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
+n+++\\nFunctional programming has recently attracted attention again.\\nthe \
+majority in the programming community. Partly because the emergent properties \
+of the functional paradigm resonate with solving problems that arise in our \
+industry due to the increasing importance of multicore architectures. And \
+although this application is undoubtedly important, it is not\\nthe main \
+reason for my guidance to understand functional programming.\\n\\nHaving \
+mastered the paradigm of functional programming, the programmer \
+can\\nsignificantly improve the quality of code created in other contexts. A \
+deep understanding of the functional programming paradigm and its practical \
+application will help you design systems with a much higher degree of \
+referential transparency.\\n\\nReferential transparency is a highly desirable \
+quality: it implies that functions consistently yield the same results for \
+the same inputs.\\ninput data regardless of the place and time of accessing \
+these functions.\\nThe computation of a function, therefore, is weakly \
+dependent on the side effects of mutable state \[Dash] ideally, it does not \
+depend on them at all.\\n\\nOne of the main sources of defects in code \
+written in an imperative programming language is mutable variables. Every \
+engineer surely\\nhad to figure out why in some specific case some\\nthe \
+value did not match the expected. The semantics of visibility scopes can \
+prevent the emergence of such sneaky errors or, at least,\\nsignificantly \
+narrow the possible area of their appearance. But the true reason\\nThe cause \
+of their occurrence may be the very concept of designing code that \
+indiscriminately relies on mutability.\\n\\nAnd in this regard, we definitely \
+shouldn't expect much help from our own industry. Most books on \
+object-oriented programming subtly promote such constructs. They often \
+provide\\nApply the principles\\nfunctional\\nprogramming examples of groups \
+of objects that have a relatively long lifespan\\nand exchange calls to \
+methods that change state (mutator methods),\\nthat it is unsafe. However, \
+proper test-driven design\\ndesign), especially if \\\"role simulation, not \
+object simulation\\\" is provided (mock roles,\\nnot \
+objects)\[RightGuillemet], allows to eliminate the excess variability in \
+architecture.\\n\\nAs a result, it usually ends up being an architecture with \
+a more successful distribution.\\nResponsibilities and numerous small \
+functions that work with the received arguments, rather than directly \
+accessing mutable member variables. Defects become fewer, and their debugging \
+is simplified, as it is easier.\\nfind out where the incorrect value in such \
+a construction came from, rather than trying\\nFind out in what specific \
+context the erroneous assignment appears.\\nThis significantly increases link \
+transparency, and absolutely nothing\\ncan contribute to a deep understanding \
+of these ideas, just like studying a functional programming language, where \
+such a model of computation is\\nthe norm.\\n\\nOf course, this approach is \
+not always optimal. For example, often in object-oriented systems, this style \
+yields better results when developing the domain model (that is, when the \
+collaboration of objects serves to reduce the complexity of business rules) \
+than when developing the user interface.\\n\\nMaster the paradigm of \
+functional programming to wisely\\napply the acquired knowledge in other \
+fields. Take at least your hierarchies\\nobjects \[Dash] they will simply \
+shine with the quality of link transparency and will be significantly closer \
+to their functional counterparts than could be\\nwould assume. In fact, some \
+even express the opinion that\\nIn their highest manifestation, functional \
+programming and the object-oriented approach turn out to be mere reflections \
+of each other, of their own.\\nkind of computational yin and yang.\"\>"}],
+  SequenceForm[
+  "newContent: ", 
+   "+++\ntitle='Apply the principles of functional programming'\n\
+date=2024-07-10T00:00:00-07:00\ndraft=true\ncategories=[]\ntags=[]\n\
+cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
+Functional programming has recently attracted attention again.\nthe majority \
+in the programming community. Partly because the emergent properties of the \
+functional paradigm resonate with solving problems that arise in our industry \
+due to the increasing importance of multicore architectures. And although \
+this application is undoubtedly important, it is not\nthe main reason for my \
+guidance to understand functional programming.\n\nHaving mastered the \
+paradigm of functional programming, the programmer can\nsignificantly improve \
+the quality of code created in other contexts. A deep understanding of the \
+functional programming paradigm and its practical application will help you \
+design systems with a much higher degree of referential transparency.\n\n\
+Referential transparency is a highly desirable quality: it implies that \
+functions consistently yield the same results for the same inputs.\ninput \
+data regardless of the place and time of accessing these functions.\nThe \
+computation of a function, therefore, is weakly dependent on the side effects \
+of mutable state \[Dash] ideally, it does not depend on them at all.\n\nOne \
+of the main sources of defects in code written in an imperative programming \
+language is mutable variables. Every engineer surely\nhad to figure out why \
+in some specific case some\nthe value did not match the expected. The \
+semantics of visibility scopes can prevent the emergence of such sneaky \
+errors or, at least,\nsignificantly narrow the possible area of their \
+appearance. But the true reason\nThe cause of their occurrence may be the \
+very concept of designing code that indiscriminately relies on mutability.\n\n\
+And in this regard, we definitely shouldn't expect much help from our own \
+industry. Most books on object-oriented programming subtly promote such \
+constructs. They often provide\nApply the principles\nfunctional\nprogramming \
+examples of groups of objects that have a relatively long lifespan\nand \
+exchange calls to methods that change state (mutator methods),\nthat it is \
+unsafe. However, proper test-driven design\ndesign), especially if \"role \
+simulation, not object simulation\" is provided (mock roles,\nnot objects)\
+\[RightGuillemet], allows to eliminate the excess variability in \
+architecture.\n\nAs a result, it usually ends up being an architecture with a \
+more successful distribution.\nResponsibilities and numerous small functions \
+that work with the received arguments, rather than directly accessing mutable \
+member variables. Defects become fewer, and their debugging is simplified, as \
+it is easier.\nfind out where the incorrect value in such a construction came \
+from, rather than trying\nFind out in what specific context the erroneous \
+assignment appears.\nThis significantly increases link transparency, and \
+absolutely nothing\ncan contribute to a deep understanding of these ideas, \
+just like studying a functional programming language, where such a model of \
+computation is\nthe norm.\n\nOf course, this approach is not always optimal. \
+For example, often in object-oriented systems, this style yields better \
+results when developing the domain model (that is, when the collaboration of \
+objects serves to reduce the complexity of business rules) than when \
+developing the user interface.\n\nMaster the paradigm of functional \
+programming to wisely\napply the acquired knowledge in other fields. Take at \
+least your hierarchies\nobjects \[Dash] they will simply shine with the \
+quality of link transparency and will be significantly closer to their \
+functional counterparts than could be\nwould assume. In fact, some even \
+express the opinion that\nIn their highest manifestation, functional \
+programming and the object-oriented approach turn out to be mere reflections \
+of each other, of their own.\nkind of computational yin and yang."],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990003466034`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"4a53c23a-1744-1641-b80d-ca47f5107961"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{
+  "2", "\[InvisibleSpace]", "\<\". \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+content\\\\posts\\\\Architectural compromises.md\"\>"}],
+  SequenceForm[
+  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+content\\posts\\Architectural compromises.md"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949199000360611*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"83669774-6718-254a-b6ed-ce8f53a1d0b5"],
+
+Cell[BoxData["4"], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990004116096`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"8f508015-6eb9-7440-aaa4-d29bff5aa451"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"oldString: \"\>", 
+   "\[InvisibleSpace]", "\<\"An architecture cannot accomplish high security, \
+high availability, high abstraction, and high performance all at once. All \
+that software architects need to do is know, understand, and relate one real \
+narrative to their peers and clients. I am speaking of Vaza's history.\"\>"}],
+  SequenceForm[
+  "oldString: ", 
    "An architecture cannot accomplish high security, high availability, high \
 abstraction, and high performance all at once. All that software architects \
 need to do is know, understand, and relate one real narrative to their peers \
 and clients. I am speaking of Vaza's history."],
   Editable->False]], "Print",
- CellChangeTimes->{3.944263395450546*^9},
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990156148167`*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"c614a5df-201c-4aef-8331-63c8d0e1f727"],
+In[3]:=",ExpressionUUID->"e27ec1ec-6379-b14f-b0ce-335a59e9931c"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part", "partw", 
+   "\"Part \\!\\(\\*RowBox[{\\\"1\\\"}]\\) of \\!\\(\\*RowBox[{\\\"{\\\", \
+\\\"}\\\"}]\\) does not exist.\"", 2, 3, 1, 31655632401601128516, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.949199027602373*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"9d1bf665-81c9-314d-8759-f2229d8c13d9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
+  SequenceForm["Translated: ", ""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990428441257`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"20bad40e-ec36-5f46-b00d-a4b9d824d1d4"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"oldString: \"\>", 
-   "\[InvisibleSpace]", "\<\"In 1620, there was a war between Sweden and \
-Poland. An attempt was made to bring this expensive war to an early end by \
-the Swedish King by ordering the construction of a gallion known as the vase. \
-The ship was not like the others. It was unlike any other ship of the time in \
-its features. It had to be longer than sixty meters in order to safely convey \
-300 men at a time to Poland while also carrying 64 weapons on two battery \
-decks. Time was running out and there wasn't enough money\[LongDash]sounds \
-familiar? The shipyard has never before designed such ships. Smaller, \
-single-decker boats were his specialty. Still, he used his prior experience \
-and abilities to develop and construct the Vaza. As a result, a ship was \
-built to meet these specifications. The water is going to fall today. The \
-ship proudly entered the harbor and saluted with all of her cannons. Then he \
-succumbed.\"\>"}],
-  SequenceForm[
-  "oldString: ", 
-   "In 1620, there was a war between Sweden and Poland. An attempt was made \
-to bring this expensive war to an early end by the Swedish King by ordering \
-the construction of a gallion known as the vase. The ship was not like the \
-others. It was unlike any other ship of the time in its features. It had to \
-be longer than sixty meters in order to safely convey 300 men at a time to \
-Poland while also carrying 64 weapons on two battery decks. Time was running \
-out and there wasn't enough money\[LongDash]sounds familiar? The shipyard has \
-never before designed such ships. Smaller, single-decker boats were his \
-specialty. Still, he used his prior experience and abilities to develop and \
-construct the Vaza. As a result, a ship was built to meet these \
-specifications. The water is going to fall today. The ship proudly entered \
-the harbor and saluted with all of her cannons. Then he succumbed."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9442633954696517`*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"497d602e-aa73-469c-81d6-8629d5796d46"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated: \"\>", 
    "\[InvisibleSpace]", "\<\"In 1620, there was a war between Sweden and \
 Poland. An attempt was made to bring this expensive war to an early end by \
 the Swedish King by ordering the construction of a galleon known as the vase. \
@@ -592,7 +1249,7 @@ built to meet these specifications. The weather is going to fall today. The \
 ship proudly entered the harbor and saluted with all of her cannons. Then he \
 succumbed.\"\>"}],
   SequenceForm[
-  "Translated: ", 
+  "oldString: ", 
    "In 1620, there was a war between Sweden and Poland. An attempt was made \
 to bring this expensive war to an early end by the Swedish King by ordering \
 the construction of a galleon known as the vase. The ship was not like the \
@@ -606,10 +1263,34 @@ construct the Vaza. As a result, a ship was built to meet these \
 specifications. The weather is going to fall today. The ship proudly entered \
 the harbor and saluted with all of her cannons. Then he succumbed."],
   Editable->False]], "Print",
- CellChangeTimes->{3.944263450901019*^9},
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990428685017`*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"6bafd122-0594-48d9-8543-d1853af42749"],
+In[3]:=",ExpressionUUID->"fa5c7386-9620-3948-a2a3-bf27bb6a8249"]
+}, Open  ]],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part", "partw", 
+   "\"Part \\!\\(\\*RowBox[{\\\"1\\\"}]\\) of \\!\\(\\*RowBox[{\\\"{\\\", \
+\\\"}\\\"}]\\) does not exist.\"", 2, 3, 2, 31655632401601128516, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.9491990582318172`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"36bfb59d-e0e5-744a-9920-39872be36ee1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Translated: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
+  SequenceForm["Translated: ", ""],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990734301147`*^9},
+ CellLabel->
+  "During evaluation of \
+In[3]:=",ExpressionUUID->"df2b098e-3a7f-3f41-b77d-bec21ac07604"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -628,10 +1309,10 @@ especially during battle. Creating ships that could be used for both combat \
 and transportation was an expensive mistake. To cater to the king's every \
 want, the shipwright built an unsteady and unbalanced ship."],
   Editable->False]], "Print",
- CellChangeTimes->{3.9442634509160137`*^9},
+ CellChangeTimes->{3.9442633457668114`*^9, 3.9491990734446487`*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"b388e9d8-eff2-4101-9e7f-d5a98f046bfa"],
+In[3]:=",ExpressionUUID->"73c2a6f0-549c-1c43-a7bc-76676ed49e64"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -650,10 +1331,10 @@ especially during battle. Creating ships that could be used for both combat \
 and transportation was an expensive mistake. To cater to the king's every \
 want, the shipwright built an unsteady and unbalanced ship."],
   Editable->False]], "Print",
- CellChangeTimes->{3.944263487859114*^9},
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949199124136299*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"3eaabd97-4152-4c81-b98d-0e575c8fcbcf"],
+In[3]:=",ExpressionUUID->"58609c85-2a3c-0a41-84ab-d2659700b1e4"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -687,359 +1368,15 @@ when building architecture. Two popular methods of this kind are the \
 Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
 Method (CBAM)."],
   Editable->False]], "Print",
- CellChangeTimes->{3.9442634878681126`*^9},
+ CellChangeTimes->{3.9442633457668114`*^9, 3.949199124167145*^9},
  CellLabel->
   "During evaluation of \
-In[970]:=",ExpressionUUID->"731c533d-85a8-4ca7-8f5e-84a834da1d82"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated: \"\>", 
-   "\[InvisibleSpace]", "\<\"A software architect may take this dismal \
-experience into consideration and learn a lot from this story while designing \
-the architecture of a software product. An unstable architecture is created \
-when wants are tried to be satisfied all at once (like with the Vaza), making \
-it impossible to accurately finish any of the jobs. A good example of this is \
-forcing service-oriented architecture (SOA) to function in parallel as a \
-point-to-point solution. This usually means that we have to steer clear of \
-the numerous levels of abstraction generated by the SOA technique, and the \
-result is an architecture that resembles spaghetti at a restaurant in Italy. \
-An architect can use a range of methods to determine the necessary sacrifices \
-when building architecture. Two popular methods of this kind are the \
-Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
-Method (CBAM).\"\>"}],
-  SequenceForm[
-  "Translated: ", 
-   "A software architect may take this dismal experience into consideration \
-and learn a lot from this story while designing the architecture of a \
-software product. An unstable architecture is created when wants are tried to \
-be satisfied all at once (like with the Vaza), making it impossible to \
-accurately finish any of the jobs. A good example of this is forcing \
-service-oriented architecture (SOA) to function in parallel as a \
-point-to-point solution. This usually means that we have to steer clear of \
-the numerous levels of abstraction generated by the SOA technique, and the \
-result is an architecture that resembles spaghetti at a restaurant in Italy. \
-An architect can use a range of methods to determine the necessary sacrifices \
-when building architecture. Two popular methods of this kind are the \
-Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
-Method (CBAM)."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9442635475438128`*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"b38165dd-d514-4d7a-80b9-72f285b6234d"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newText: \"\>", 
-   "\[InvisibleSpace]", "\<\"An architecture cannot accomplish high security, \
-high availability, high abstraction, and high performance all at once. All \
-that software architects need to do is know, understand, and relate one real \
-narrative to their peers and clients. I am speaking of Vaza's \
-history.\\n\\nIn 1620, there was a war between Sweden and Poland. An attempt \
-was made to bring this expensive war to an early end by the Swedish King by \
-ordering the construction of a galleon known as the vase. The ship was not \
-like the others. It was unlike any other ship of the time in its features. It \
-had to be longer than sixty meters in order to safely convey 300 men at a \
-time to Poland while also carrying 64 weapons on two battery decks. Time was \
-running out, and there wasn't enough money\[LongDash]sounds familiar? The \
-shipyard has never before designed such ships. Smaller, single-decker boats \
-were his specialty. Still, he used his prior experience and abilities to \
-develop and construct the Vaza. As a result, a ship was built to meet these \
-specifications. The weather is going to fall today. The ship proudly entered \
-the harbor and saluted with all of her cannons. Then he succumbed.\\n\\nThe \
-Vaza problem was obvious to everyone who had seen the deck of a huge \
-17th-century battleship: these ships' decks were dangerously crowded, \
-especially during battle. Creating ships that could be used for both combat \
-and transportation was an expensive mistake. To cater to the king's every \
-want, the shipwright built an unsteady and unbalanced ship.\\n\\nA software \
-architect may take this dismal experience into consideration and learn a lot \
-from this story while designing the architecture of a software product. An \
-unstable architecture is created when wants are tried to be satisfied all at \
-once (like with the Vaza), making it impossible to accurately finish any of \
-the jobs. A good example of this is forcing service-oriented architecture \
-(SOA) to function in parallel as a point-to-point solution. This usually \
-means that we have to steer clear of the numerous levels of abstraction \
-generated by the SOA technique, and the result is an architecture that \
-resembles spaghetti at a restaurant in Italy. An architect can use a range of \
-methods to determine the necessary sacrifices when building architecture. Two \
-popular methods of this kind are the Architecture Tradeoff Analysis Method \
-(ATAM) and the Cost Benefit Analysis Method (CBAM).\"\>"}],
-  SequenceForm[
-  "newText: ", 
-   "An architecture cannot accomplish high security, high availability, high \
-abstraction, and high performance all at once. All that software architects \
-need to do is know, understand, and relate one real narrative to their peers \
-and clients. I am speaking of Vaza's history.\n\nIn 1620, there was a war \
-between Sweden and Poland. An attempt was made to bring this expensive war to \
-an early end by the Swedish King by ordering the construction of a galleon \
-known as the vase. The ship was not like the others. It was unlike any other \
-ship of the time in its features. It had to be longer than sixty meters in \
-order to safely convey 300 men at a time to Poland while also carrying 64 \
-weapons on two battery decks. Time was running out, and there wasn't enough \
-money\[LongDash]sounds familiar? The shipyard has never before designed such \
-ships. Smaller, single-decker boats were his specialty. Still, he used his \
-prior experience and abilities to develop and construct the Vaza. As a \
-result, a ship was built to meet these specifications. The weather is going \
-to fall today. The ship proudly entered the harbor and saluted with all of \
-her cannons. Then he succumbed.\n\nThe Vaza problem was obvious to everyone \
-who had seen the deck of a huge 17th-century battleship: these ships' decks \
-were dangerously crowded, especially during battle. Creating ships that could \
-be used for both combat and transportation was an expensive mistake. To cater \
-to the king's every want, the shipwright built an unsteady and unbalanced \
-ship.\n\nA software architect may take this dismal experience into \
-consideration and learn a lot from this story while designing the \
-architecture of a software product. An unstable architecture is created when \
-wants are tried to be satisfied all at once (like with the Vaza), making it \
-impossible to accurately finish any of the jobs. A good example of this is \
-forcing service-oriented architecture (SOA) to function in parallel as a \
-point-to-point solution. This usually means that we have to steer clear of \
-the numerous levels of abstraction generated by the SOA technique, and the \
-result is an architecture that resembles spaghetti at a restaurant in Italy. \
-An architect can use a range of methods to determine the necessary sacrifices \
-when building architecture. Two popular methods of this kind are the \
-Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
-Method (CBAM)."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944263547754777*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"be8457f6-c5e1-4382-8199-f3f9a5ddadae"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Architectural \
-compromises'\\ndate=2024-08-09T00:00:00-07:00\\ndraft=false\\ncategories=[\\\"\
-vaza\\\", \\\"sweden\\\", \\\"poland\\\", \\\"italian\\\", \\\"atam\\\", \
-\\\"method\\\", \\\"cbam\\\", \\\"cost\\\", \\\"institute\\\", \
-\\\"swedish\\\", \\\"italy\\\"]\\ntags=[\\\"vaza\\\", \\\"sweden\\\", \
-\\\"poland\\\", \\\"king\\\", \\\"time\\\", \\\"soa\\\", \\\"atam\\\", \
-\\\"architecture tradeoff\\\", \\\"benefit analysis metod\\\", \\\"sei\\\", \
-\\\"software engineering institute\\\", \\\"architecture\\\", \
-\\\"software\\\", \\\"ship\\\", \\\"ships\\\", \\\"swedish king\\\", \
-\\\"italy\\\", \\\"benefit analysis method\\\", \
-\\\"cbam\\\"]\\ncover_image='/images/cover/knoxwelle__2016-12-17T153900.000Z.\
-jpg'\\n+++\\nAn architecture cannot accomplish high security, high \
-availability, high abstraction, and high performance all at once. All that \
-software architects need to do is know, understand, and relate one real \
-narrative to their peers and clients. I am speaking of Vaza's \
-history.\\n\\nIn 1620, there was a war between Sweden and Poland. An attempt \
-was made to bring this expensive war to an early end by the Swedish King by \
-ordering the construction of a galleon known as the vase. The ship was not \
-like the others. It was unlike any other ship of the time in its features. It \
-had to be longer than sixty meters in order to safely convey 300 men at a \
-time to Poland while also carrying 64 weapons on two battery decks. Time was \
-running out, and there wasn't enough money\[LongDash]sounds familiar? The \
-shipyard has never before designed such ships. Smaller, single-decker boats \
-were his specialty. Still, he used his prior experience and abilities to \
-develop and construct the Vaza. As a result, a ship was built to meet these \
-specifications. The weather is going to fall today. The ship proudly entered \
-the harbor and saluted with all of her cannons. Then he succumbed.\\n\\nThe \
-Vaza problem was obvious to everyone who had seen the deck of a huge \
-17th-century battleship: these ships' decks were dangerously crowded, \
-especially during battle. Creating ships that could be used for both combat \
-and transportation was an expensive mistake. To cater to the king's every \
-want, the shipwright built an unsteady and unbalanced ship.\\n\\nA software \
-architect may take this dismal experience into consideration and learn a lot \
-from this story while designing the architecture of a software product. An \
-unstable architecture is created when wants are tried to be satisfied all at \
-once (like with the Vaza), making it impossible to accurately finish any of \
-the jobs. A good example of this is forcing service-oriented architecture \
-(SOA) to function in parallel as a point-to-point solution. This usually \
-means that we have to steer clear of the numerous levels of abstraction \
-generated by the SOA technique, and the result is an architecture that \
-resembles spaghetti at a restaurant in Italy. An architect can use a range of \
-methods to determine the necessary sacrifices when building architecture. Two \
-popular methods of this kind are the Architecture Tradeoff Analysis Method \
-(ATAM) and the Cost Benefit Analysis Method (CBAM).\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Architectural compromises'\ndate=2024-08-09T00:00:00-07:00\n\
-draft=false\ncategories=[\"vaza\", \"sweden\", \"poland\", \"italian\", \
-\"atam\", \"method\", \"cbam\", \"cost\", \"institute\", \"swedish\", \"italy\
-\"]\ntags=[\"vaza\", \"sweden\", \"poland\", \"king\", \"time\", \"soa\", \
-\"atam\", \"architecture tradeoff\", \"benefit analysis metod\", \"sei\", \
-\"software engineering institute\", \"architecture\", \"software\", \"ship\", \
-\"ships\", \"swedish king\", \"italy\", \"benefit analysis method\", \
-\"cbam\"]\ncover_image='/images/cover/knoxwelle__2016-12-17T153900.000Z.jpg'\n\
-+++\nAn architecture cannot accomplish high security, high availability, high \
-abstraction, and high performance all at once. All that software architects \
-need to do is know, understand, and relate one real narrative to their peers \
-and clients. I am speaking of Vaza's history.\n\nIn 1620, there was a war \
-between Sweden and Poland. An attempt was made to bring this expensive war to \
-an early end by the Swedish King by ordering the construction of a galleon \
-known as the vase. The ship was not like the others. It was unlike any other \
-ship of the time in its features. It had to be longer than sixty meters in \
-order to safely convey 300 men at a time to Poland while also carrying 64 \
-weapons on two battery decks. Time was running out, and there wasn't enough \
-money\[LongDash]sounds familiar? The shipyard has never before designed such \
-ships. Smaller, single-decker boats were his specialty. Still, he used his \
-prior experience and abilities to develop and construct the Vaza. As a \
-result, a ship was built to meet these specifications. The weather is going \
-to fall today. The ship proudly entered the harbor and saluted with all of \
-her cannons. Then he succumbed.\n\nThe Vaza problem was obvious to everyone \
-who had seen the deck of a huge 17th-century battleship: these ships' decks \
-were dangerously crowded, especially during battle. Creating ships that could \
-be used for both combat and transportation was an expensive mistake. To cater \
-to the king's every want, the shipwright built an unsteady and unbalanced \
-ship.\n\nA software architect may take this dismal experience into \
-consideration and learn a lot from this story while designing the \
-architecture of a software product. An unstable architecture is created when \
-wants are tried to be satisfied all at once (like with the Vaza), making it \
-impossible to accurately finish any of the jobs. A good example of this is \
-forcing service-oriented architecture (SOA) to function in parallel as a \
-point-to-point solution. This usually means that we have to steer clear of \
-the numerous levels of abstraction generated by the SOA technique, and the \
-result is an architecture that resembles spaghetti at a restaurant in Italy. \
-An architect can use a range of methods to determine the necessary sacrifices \
-when building architecture. Two popular methods of this kind are the \
-Architecture Tradeoff Analysis Method (ATAM) and the Cost Benefit Analysis \
-Method (CBAM)."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944263547778384*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"45eb6f10-dd92-4b67-8c7b-11b3cb6d65c5"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "2", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\A verbose journal will deprive you of sleep.md\"\>"}],
-  SequenceForm[
-  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\A verbose journal will deprive you of sleep.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9442635477953973`*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"15cd5fe3-bf72-42ca-9668-15f8af153202"],
-
-Cell[BoxData["6"], "Print",
- CellChangeTimes->{3.9442635478529263`*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"84d0939f-444b-4672-ac6d-1aac4648da23"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"oldString: \"\>", 
-   "\[InvisibleSpace]", "\<\"When I encounter a system that has been in \
-development or operation for a long time, the first sign of real trouble is \
-always a \\\"dirty\\\" log. You know what I'm talking about: it's when \
-clicking a link during normal web page usage results in a whole stream of \
-messages being recorded in the system's single log. Too many log entries can \
-be just as useless as having none at all.\"\>"}],
-  SequenceForm[
-  "oldString: ", 
-   "When I encounter a system that has been in development or operation for a \
-long time, the first sign of real trouble is always a \"dirty\" log. You know \
-what I'm talking about: it's when clicking a link during normal web page \
-usage results in a whole stream of messages being recorded in the system's \
-single log. Too many log entries can be just as useless as having none at \
-all."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944263590269762*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"93085716-10d2-466b-8f6d-ec2c51ad4b80"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated: \"\>", 
-   "\[InvisibleSpace]", "\<\"When I encounter a system that has been in \
-development or operation for a long time, the first sign of real trouble is \
-always a \\\"dirty\\\" log. You know what I'm talking about: it's when \
-clicking a link during normal web page usage results in a whole stream of \
-messages being recorded in the system's single log. Too many log entries can \
-be just as useless as having none at all.\"\>"}],
-  SequenceForm[
-  "Translated: ", 
-   "When I encounter a system that has been in development or operation for a \
-long time, the first sign of real trouble is always a \"dirty\" log. You know \
-what I'm talking about: it's when clicking a link during normal web page \
-usage results in a whole stream of messages being recorded in the system's \
-single log. Too many log entries can be just as useless as having none at \
-all."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9442636934565*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"6dc717e1-e23b-4960-8677-6fa6ea64f9cb"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"oldString: \"\>", 
-   "\[InvisibleSpace]", "\<\"If your systems are similar to mine, then when \
-your work ends, the work of others begins. After the development is \
-completed, the system will be long\\nand successfully serve customers (if \
-you're lucky). How will you learn about problems if the system is in \
-operation, and what will you do about them?\"\>"}],
-  SequenceForm[
-  "oldString: ", 
-   "If your systems are similar to mine, then when your work ends, the work \
-of others begins. After the development is completed, the system will be long\
-\nand successfully serve customers (if you're lucky). How will you learn \
-about problems if the system is in operation, and what will you do about \
-them?"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9442636934710646`*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"fe1c4dd9-0b2c-454f-b4ce-8182de04ebc0"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated: \"\>", 
-   "\[InvisibleSpace]", "\<\"If your systems are similar to mine, then when \
-your work ends, the work of others begins. After the development is \
-completed, the system will be long\\nand successfully serve customers (if \
-you're lucky). How will you learn about problems if the system is in \
-operation, and what will you do about them?\"\>"}],
-  SequenceForm[
-  "Translated: ", 
-   "If your systems are similar to mine, then when your work ends, the work \
-of others begins. After the development is completed, the system will be long\
-\nand successfully serve customers (if you're lucky). How will you learn \
-about problems if the system is in operation, and what will you do about \
-them?"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944263760324011*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"b05823a7-d15d-45dd-9126-28c9c8e7a4a0"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"oldString: \"\>", 
-   "\[InvisibleSpace]", "\<\"Perhaps someone is monitoring the system instead \
-of you, or maybe it is\\nyou do. In any case, monitoring probably involves \
-viewing\\nmagazines. If something happens and you are woken up in the middle \
-of the night, it is preferable that\\nthe reason was valid. If my system is \
-dying, I need to know about it. But\\nif she just hiccupped, I would prefer \
-not to have my sweet sleep disturbed.\"\>"}],
-  SequenceForm[
-  "oldString: ", 
-   "Perhaps someone is monitoring the system instead of you, or maybe it is\n\
-you do. In any case, monitoring probably involves viewing\nmagazines. If \
-something happens and you are woken up in the middle of the night, it is \
-preferable that\nthe reason was valid. If my system is dying, I need to know \
-about it. But\nif she just hiccupped, I would prefer not to have my sweet \
-sleep disturbed."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9442637603329954`*^9},
- CellLabel->
-  "During evaluation of \
-In[970]:=",ExpressionUUID->"3229fe5b-2e2d-437c-ac65-0e94ba1278b1"]
+In[3]:=",ExpressionUUID->"c4f44de5-7fe1-d147-a5f8-2ce1d8014743"]
 }, Open  ]],
 
 Cell[BoxData["$Aborted"], "Output",
- CellChangeTimes->{3.944263774871705*^9},
- CellLabel->
-  "Out[970]=",ExpressionUUID->"14a03a3b-c0ca-487e-acde-9719d2272c5c"]
+ CellChangeTimes->{3.944263774871705*^9, 3.949199134894308*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"ea44cdc9-eeb4-0e47-a938-d9a2fee53c02"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -1049,9 +1386,10 @@ Cell[BoxData[
   3.9340630315868063`*^9}},ExpressionUUID->"a0b10ffd-1787-48ca-94e8-\
 71ea09e00d63"]
 },
-WindowSize->{586.5, 687.75},
+WindowSize->{464.25, 687.75},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+Magnification:>0.7 Inherited,
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"c90a38e2-c8d6-4758-8a92-605b9ae1158f"
 ]
@@ -1067,36 +1405,52 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
-Cell[1218, 38, 8206, 120, 948, "Output",ExpressionUUID->"b7dfa394-a790-4f24-b5f8-0e94400b03db"]
+Cell[580, 22, 630, 13, 29, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+Cell[1213, 37, 10321, 152, 1061, "Output",ExpressionUUID->"9f41badb-db07-1542-a9a0-1cbf52056bca"]
 }, Open  ]],
-Cell[9439, 161, 1167, 27, 50, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
+Cell[11549, 192, 1162, 26, 46, "Input",ExpressionUUID->"306eb6e4-3f50-4117-8a22-98b0c8e8e9da"],
 Cell[CellGroupData[{
-Cell[10631, 192, 14780, 285, 1381, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+Cell[12736, 222, 14775, 284, 1404, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
 Cell[CellGroupData[{
-Cell[25436, 481, 567, 14, 18, "Print",ExpressionUUID->"14f9157d-7554-48a3-a480-e7ce05959597"],
-Cell[26006, 497, 175, 4, 18, "Print",ExpressionUUID->"40452fb8-8107-43c1-a7ed-ba84dfc08229"],
-Cell[26184, 503, 881, 17, 57, "Print",ExpressionUUID->"49c047c3-1f4b-4bae-a97f-d455491fe906"],
-Cell[27068, 522, 881, 17, 57, "Print",ExpressionUUID->"c614a5df-201c-4aef-8331-63c8d0e1f727"],
-Cell[27952, 541, 2137, 34, 149, "Print",ExpressionUUID->"497d602e-aa73-469c-81d6-8629d5796d46"],
-Cell[30092, 577, 2143, 34, 149, "Print",ExpressionUUID->"6bafd122-0594-48d9-8543-d1853af42749"],
-Cell[32238, 613, 1049, 20, 70, "Print",ExpressionUUID->"b388e9d8-eff2-4101-9e7f-d5a98f046bfa"],
-Cell[33290, 635, 1049, 20, 70, "Print",ExpressionUUID->"3eaabd97-4152-4c81-b98d-0e575c8fcbcf"],
-Cell[34342, 657, 2151, 35, 149, "Print",ExpressionUUID->"731c533d-85a8-4ca7-8f5e-84a834da1d82"],
-Cell[36496, 694, 2153, 35, 149, "Print",ExpressionUUID->"b38165dd-d514-4d7a-80b9-72f285b6234d"],
-Cell[38652, 731, 5271, 75, 412, "Print",ExpressionUUID->"be8457f6-c5e1-4382-8199-f3f9a5ddadae"],
-Cell[43926, 808, 6641, 94, 544, "Print",ExpressionUUID->"45eb6f10-dd92-4b67-8c7b-11b3cb6d65c5"],
-Cell[50570, 904, 603, 14, 30, "Print",ExpressionUUID->"15cd5fe3-bf72-42ca-9668-15f8af153202"],
-Cell[51176, 920, 177, 4, 18, "Print",ExpressionUUID->"84d0939f-444b-4672-ac6d-1aac4648da23"],
-Cell[51356, 926, 1105, 21, 83, "Print",ExpressionUUID->"93085716-10d2-466b-8f6d-ec2c51ad4b80"],
-Cell[52464, 949, 1105, 21, 83, "Print",ExpressionUUID->"6dc717e1-e23b-4960-8677-6fa6ea64f9cb"],
-Cell[53572, 972, 944, 19, 70, "Print",ExpressionUUID->"fe1c4dd9-0b2c-454f-b4ce-8182de04ebc0"],
-Cell[54519, 993, 944, 19, 70, "Print",ExpressionUUID->"b05823a7-d15d-45dd-9126-28c9c8e7a4a0"],
-Cell[55466, 1014, 1123, 21, 83, "Print",ExpressionUUID->"3229fe5b-2e2d-437c-ac65-0e94ba1278b1"]
+Cell[27536, 510, 629, 14, 27, "Print",ExpressionUUID->"598451ec-fa06-bb40-abc6-257a293abe5c"],
+Cell[28168, 526, 199, 4, 17, "Print",ExpressionUUID->"5f4b0f04-a121-544b-84fd-4b908c5915ed"],
+Cell[28370, 532, 1227, 22, 89, "Print",ExpressionUUID->"af1034e9-703d-6d43-a58d-6e1aa4e26b25"],
+Cell[29600, 556, 1229, 22, 89, "Print",ExpressionUUID->"647f5e54-7f3a-6d49-ae1b-099931dd6df6"],
+Cell[30832, 580, 1000, 19, 76, "Print",ExpressionUUID->"156201de-fc68-a64e-abcb-b7a4a0f6cf6a"],
+Cell[31835, 601, 1004, 19, 76, "Print",ExpressionUUID->"9fcd7286-3cec-c341-a5d5-f8063d25e88a"],
+Cell[32842, 622, 1097, 20, 76, "Print",ExpressionUUID->"cab84c90-6237-3d49-8953-a4f2f951bdb3"],
+Cell[33942, 644, 1101, 20, 76, "Print",ExpressionUUID->"d050f6b4-3f1b-d34b-b795-39c5eb24272a"],
+Cell[35046, 666, 1413, 25, 101, "Print",ExpressionUUID->"be148a9e-30b8-634e-bad9-37e0cb8b78d7"],
+Cell[36462, 693, 1415, 25, 101, "Print",ExpressionUUID->"286b8b58-545b-3e4a-b448-7a50033bd826"],
+Cell[37880, 720, 1586, 27, 150, "Print",ExpressionUUID->"97989e95-fd88-f047-b17f-2a6e0b820677"],
+Cell[39469, 749, 1586, 27, 150, "Print",ExpressionUUID->"5252b49e-d353-a543-a4fa-135ee22b47c4"],
+Cell[41058, 778, 1777, 29, 150, "Print",ExpressionUUID->"995b148d-c651-6548-85c6-a5caf96ddf42"],
+Cell[42838, 809, 1783, 29, 150, "Print",ExpressionUUID->"567f5c46-8002-5e46-9903-8b50d03b1452"],
+Cell[44624, 840, 953, 18, 64, "Print",ExpressionUUID->"8e02d53a-986a-1344-b147-e3fe3d935d46"],
+Cell[45580, 860, 955, 18, 76, "Print",ExpressionUUID->"9125df42-2cc0-994c-956a-524fe6daafde"],
+Cell[46538, 880, 1454, 25, 113, "Print",ExpressionUUID->"68b220b1-c7c8-b842-8ec7-29e496cc8621"],
+Cell[47995, 907, 1458, 25, 113, "Print",ExpressionUUID->"24e37dd6-e3fa-4e40-b340-05bb7d8328ac"],
+Cell[49456, 934, 8150, 113, 863, "Print",ExpressionUUID->"01816ced-4eb9-bb46-bf20-b492f83990dd"],
+Cell[57609, 1049, 8580, 118, 962, "Print",ExpressionUUID->"4a53c23a-1744-1641-b80d-ca47f5107961"],
+Cell[66192, 1169, 587, 14, 40, "Print",ExpressionUUID->"83669774-6718-254a-b6ed-ce8f53a1d0b5"],
+Cell[66782, 1185, 199, 4, 17, "Print",ExpressionUUID->"8f508015-6eb9-7440-aaa4-d29bff5aa451"],
+Cell[66984, 1191, 903, 17, 64, "Print",ExpressionUUID->"e27ec1ec-6379-b14f-b0ce-335a59e9931c"]
 }, Open  ]],
-Cell[56604, 1038, 160, 3, 35, "Output",ExpressionUUID->"14a03a3b-c0ca-487e-acde-9719d2272c5c"]
+Cell[67902, 1211, 387, 9, 18, "Message",ExpressionUUID->"9d1bf665-81c9-314d-8759-f2229d8c13d9"],
+Cell[CellGroupData[{
+Cell[68314, 1224, 340, 8, 17, "Print",ExpressionUUID->"20bad40e-ec36-5f46-b00d-a4b9d824d1d4"],
+Cell[68657, 1234, 2165, 34, 162, "Print",ExpressionUUID->"fa5c7386-9620-3948-a2a3-bf27bb6a8249"]
 }, Open  ]],
-Cell[56779, 1044, 209, 5, 32, "Input",ExpressionUUID->"a0b10ffd-1787-48ca-94e8-71ea09e00d63"]
+Cell[70837, 1271, 389, 9, 18, "Message",ExpressionUUID->"36bfb59d-e0e5-744a-9920-39872be36ee1"],
+Cell[CellGroupData[{
+Cell[71251, 1284, 340, 8, 17, "Print",ExpressionUUID->"df2b098e-3a7f-3f41-b77d-bec21ac07604"],
+Cell[71594, 1294, 1071, 20, 76, "Print",ExpressionUUID->"73c2a6f0-549c-1c43-a7bc-76676ed49e64"],
+Cell[72668, 1316, 1071, 20, 76, "Print",ExpressionUUID->"58609c85-2a3c-0a41-84ab-d2659700b1e4"],
+Cell[73742, 1338, 2171, 35, 175, "Print",ExpressionUUID->"c4f44de5-7fe1-d147-a5f8-2ce1d8014743"]
+}, Open  ]],
+Cell[75928, 1376, 177, 2, 23, "Output",ExpressionUUID->"ea44cdc9-eeb4-0e47-a938-d9a2fee53c02"]
+}, Open  ]],
+Cell[76120, 1381, 209, 5, 29, "Input",ExpressionUUID->"a0b10ffd-1787-48ca-94e8-71ea09e00d63"]
 }
 ]
 *)

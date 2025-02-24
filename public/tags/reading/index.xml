@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reading on Tiny Dev Blog</title>
+    <title>Reading on Korolev Blog</title>
     <link>http://localhost:1313/tags/reading/</link>
-    <description>Recent content in Reading on Tiny Dev Blog</description>
+    <description>Recent content in Reading on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Apr 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fight the repetitions</title>
-      <link>http://localhost:1313/posts/fight-the-repetitions/</link>
-      <pubDate>Thu, 18 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/fight-the-repetitions/</guid>
-      <description>Do your developers have to perform monotonous tasks that require almost no thought? Are there almost identical fragments in the code?Do you notice code that has been written using the &amp;ldquo;copy-paste-modify&amp;rdquo; method?If the answers are positive, then your team is working slower than it could be, and, strangely enough, the reason for that might be you.&#xA;Before we delve into explanations, let&amp;rsquo;s agree on two truths regarding software development:&#xA;-Duplication is evil.&#xA;Repetitive work slows down development. As an architect, you set the tone.You have the best understanding of the system as a whole, and most likely, it was you who set the direction of the work by creating a complete vertical cross-section of the system – an example that has been repeatedly copied by now.</description>
+      <title>Commentary on comments</title>
+      <link>http://localhost:1313/posts/commentary-on-comments/</link>
+      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/commentary-on-comments/</guid>
+      <description>At my first programming class at the university, the instructor handed out two sheets for us to write the program text in BASIC. On the board, he wrote the assignment: &amp;ldquo;Create a program to input and calculate the average of 10 bowling scores.&amp;rdquo; Then the teacher left the room. Is this task difficult? I don&amp;rsquo;t remember my solution, but it seems there was a FOR/NEXT loop and no more than 15 lines of code.&#xA;In each form for the program code, we would write the code by hand before entering it into the computer – it was about 70 lines. I had no idea why the teacher gave us two forms each. Since my handwriting has always been terrible, I used the second form to neatly rewrite my code, hoping to earn a couple of points for style.</description>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,21 @@
     <description>Recent content in Performance on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/performance/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Thinking about performance is never too early</title>
-      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
-      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
-    </item>
     <item>
       <title>The performance of an application is determined by its architecture</title>
       <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
       <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
+    </item>
+    <item>
+      <title>Thinking about performance is never too early</title>
+      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
+      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>
   </channel>
 </rss>

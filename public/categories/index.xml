@@ -6,8 +6,43 @@
     <description>Recent content in Categories on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript</title>
+      <link>http://localhost:1313/categories/javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gnu</title>
+      <link>http://localhost:1313/categories/gnu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/gnu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cobol</title>
+      <link>http://localhost:1313/categories/cobol/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cobol/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dude</title>
+      <link>http://localhost:1313/categories/dude/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fit</title>
+      <link>http://localhost:1313/categories/fit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/fit/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Ada</title>
       <link>http://localhost:1313/categories/ada/</link>
@@ -62,174 +97,6 @@
       <link>http://localhost:1313/categories/prolog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/prolog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>India</title>
-      <link>http://localhost:1313/categories/india/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/india/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cobol</title>
-      <link>http://localhost:1313/categories/cobol/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cobol/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/java/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Edamame</title>
-      <link>http://localhost:1313/categories/edamame/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/edamame/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Javascript</title>
-      <link>http://localhost:1313/categories/javascript/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dry</title>
-      <link>http://localhost:1313/categories/dry/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/dry/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dude</title>
-      <link>http://localhost:1313/categories/dude/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/dude/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Method</title>
-      <link>http://localhost:1313/categories/method/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/method/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mysql</title>
-      <link>http://localhost:1313/categories/mysql/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/mysql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>http://localhost:1313/categories/ruby/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sql</title>
-      <link>http://localhost:1313/categories/sql/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/sql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Atam</title>
-      <link>http://localhost:1313/categories/atam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/atam/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cbam</title>
-      <link>http://localhost:1313/categories/cbam/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cbam/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cost</title>
-      <link>http://localhost:1313/categories/cost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cost/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cost Benefit</title>
-      <link>http://localhost:1313/categories/cost-benefit/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cost-benefit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cost Benefit Analysis Method</title>
-      <link>http://localhost:1313/categories/cost-benefit-analysis-method/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cost-benefit-analysis-method/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Institute</title>
-      <link>http://localhost:1313/categories/institute/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/institute/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Italian</title>
-      <link>http://localhost:1313/categories/italian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/italian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Italy</title>
-      <link>http://localhost:1313/categories/italy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/italy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Poland</title>
-      <link>http://localhost:1313/categories/poland/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/poland/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sweden</title>
-      <link>http://localhost:1313/categories/sweden/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/sweden/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Swedish</title>
-      <link>http://localhost:1313/categories/swedish/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/swedish/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vaza</title>
-      <link>http://localhost:1313/categories/vaza/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/vaza/</guid>
       <description></description>
     </item>
     <item>
@@ -296,6 +163,13 @@
       <description></description>
     </item>
     <item>
+      <title>Python</title>
+      <link>http://localhost:1313/categories/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/python/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Recruiting</title>
       <link>http://localhost:1313/categories/recruiting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -331,10 +205,115 @@
       <description></description>
     </item>
     <item>
-      <title>Fit</title>
-      <link>http://localhost:1313/categories/fit/</link>
+      <title>Pc</title>
+      <link>http://localhost:1313/categories/pc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/fit/</guid>
+      <guid>http://localhost:1313/categories/pc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>India</title>
+      <link>http://localhost:1313/categories/india/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/india/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>http://localhost:1313/categories/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atam</title>
+      <link>http://localhost:1313/categories/atam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/atam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cbam</title>
+      <link>http://localhost:1313/categories/cbam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cbam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cost</title>
+      <link>http://localhost:1313/categories/cost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cost/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cost Benefit</title>
+      <link>http://localhost:1313/categories/cost-benefit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cost-benefit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cost Benefit Analysis Method</title>
+      <link>http://localhost:1313/categories/cost-benefit-analysis-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/cost-benefit-analysis-method/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Institute</title>
+      <link>http://localhost:1313/categories/institute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/institute/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Italian</title>
+      <link>http://localhost:1313/categories/italian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/italian/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Italy</title>
+      <link>http://localhost:1313/categories/italy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/italy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Method</title>
+      <link>http://localhost:1313/categories/method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/method/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Poland</title>
+      <link>http://localhost:1313/categories/poland/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/poland/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sweden</title>
+      <link>http://localhost:1313/categories/sweden/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/sweden/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swedish</title>
+      <link>http://localhost:1313/categories/swedish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/swedish/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vaza</title>
+      <link>http://localhost:1313/categories/vaza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/vaza/</guid>
       <description></description>
     </item>
     <item>
@@ -345,17 +324,24 @@
       <description></description>
     </item>
     <item>
-      <title>Pc</title>
-      <link>http://localhost:1313/categories/pc/</link>
+      <title>Edamame</title>
+      <link>http://localhost:1313/categories/edamame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/pc/</guid>
+      <guid>http://localhost:1313/categories/edamame/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ubuntu</title>
-      <link>http://localhost:1313/categories/ubuntu/</link>
+      <title>Cleanyourroomdon</title>
+      <link>http://localhost:1313/categories/cleanyourroomdon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ubuntu/</guid>
+      <guid>http://localhost:1313/categories/cleanyourroomdon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dry</title>
+      <link>http://localhost:1313/categories/dry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dry/</guid>
       <description></description>
     </item>
     <item>
@@ -370,6 +356,41 @@
       <link>http://localhost:1313/categories/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/resume/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/categories/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basic</title>
+      <link>http://localhost:1313/categories/basic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/basic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:1313/categories/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>http://localhost:1313/categories/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:1313/categories/sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/sql/</guid>
       <description></description>
     </item>
   </channel>

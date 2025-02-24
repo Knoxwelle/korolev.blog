@@ -6,12 +6,12 @@
     <description>Recent content in Customer on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/customer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Encapsulate behavior, not just state</title>
       <link>http://localhost:1313/posts/encapsulate-behavior-not-just-state/</link>
-      <pubDate>Wed, 18 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 16 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/encapsulate-behavior-not-just-state/</guid>
       <description>In systems theory, there is the concept of isolation, which is among the most useful when it comes to large and complex system structures. In the software development industry, everyone understands the value of isolating one entity within another, in other words, encapsulation. In programming languages, subprograms and functions, modules and packages, classes, etc., are used to ensure isolation.&#xA;Modules and packages solve large-scale encapsulation tasks, while how classes, subprograms, and functions are designed to solve the same problems in a more at a low level. Over the years of working, I have discovered that of all types of encapsulation The most difficult thing for programmers is encapsulation in classes. It is not uncommon to encounter a class where the only method, main, has 5000 lines, or a class, in which there are only set and get methods for its basic attributes.</description>
     </item>

@@ -6,12 +6,12 @@
     <description>Recent content in Issues on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/issues/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Thinking about performance is never too early</title>
       <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
       <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>

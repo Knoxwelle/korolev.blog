@@ -6,12 +6,19 @@
     <description>Recent content in Technology on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous learning</title>
+      <link>http://localhost:1313/posts/continuous-learning/</link>
+      <pubDate>Fri, 21 Feb 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/continuous-learning/</guid>
+      <description>We live in interesting times. Development is distributed all over the world, and it turns out that many people are capable of doing your job. To remain competitive in the labor market, you need to continuously learn. Otherwise, you will turn into a dinosaur stuck in your job until one fine day it turns out that you are no longer needed, or that your job has been given to someone who is willing to do it for less.&#xA;How to solve this problem? Some employers are generous and organize training to develop already hired programmers. Others simply cannot afford to allocate time or resources for this. The most reliable solution is to take care of your own education.&#xA;Here is a list of ways to continue learning.</description>
+    </item>
     <item>
       <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
       <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
-      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
       <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
     </item>

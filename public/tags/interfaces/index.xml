@@ -6,12 +6,12 @@
     <description>Recent content in Interfaces on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/interfaces/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Interfaces</title>
       <link>http://localhost:1313/posts/interfaces/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/interfaces/</guid>
       <description>One of the most common tasks in software development is interface specification. Interfaces exist at the highest level of abstraction (user interfaces), at the lowest level (function interfaces), and at intermediate levels (class interfaces, libraries, etc.). Regardless of what you are doing—aligning with end users on their future interaction with the system, collaborating with developers to develop the API specification, or declaring private class functions—interface design is an important part of your job. If you handle it well, using your interfaces will be a pure pleasure, and user productivity will increase. If you handle the task poorly, your interfaces will become a source of frustration and errors.&#xA;Good interfaces possess the following properties:&#xA;They are easy to use correctly. Users of a well-designed interface almost always use it correctly because that is the path of least resistance for that interface.</description>
     </item>

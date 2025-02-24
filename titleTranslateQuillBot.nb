@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    192048,       4035]
-NotebookOptionsPosition[    170685,       3791]
-NotebookOutlinePosition[    171087,       3807]
-CellTagsIndexPosition[    171044,       3804]
+NotebookDataLength[     58008,       1184]
+NotebookOptionsPosition[     53130,       1115]
+NotebookOutlinePosition[     53560,       1132]
+CellTagsIndexPosition[     53517,       1129]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -33,8 +33,7 @@ Cell[BoxData[
    3.9292179139982204`*^9, 3.9292180109485364`*^9}, {3.9292181116552367`*^9, 
    3.929218115985392*^9}, {3.929219192513233*^9, 3.9292192056175833`*^9}, 
    3.9292195131056185`*^9},
- CellLabel->
-  "In[915]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+ CellLabel->"In[4]:=",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -44,14 +43,19 @@ korolev.blog\\\\content\\\\posts\\\\Architectural compromises.md\"\>",
 blog\\\\content\\\\posts\\\\A verbose journal will deprive you of \
 sleep.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Communication is the king, clarity and leadership \
+are its loyal servants.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Creating architecture as the art of \
 balance.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\Dont be afraid to break something.md\"\>", 
+blog\\\\content\\\\posts\\\\Do not be afraid to break something.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\Dont repeat your code.md\"\>", 
+blog\\\\content\\\\posts\\\\Do not rely on miracles.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\Dont touch this code.md\"\>", 
+blog\\\\content\\\\posts\\\\Do not repeat your code.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Do not touch this code.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Encapsulate behavior, not just state.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
@@ -65,59 +69,72 @@ blog\\\\content\\\\posts\\\\How to use the bug tracking system.md\"\>",
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Interfaces.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:041e\:0431\:0449\:0435\:043d\:0438\:0435 \:044d\
-\:0442\:043e \:043a\:043e\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\:043e\
-\:0441\:0442\:044c \:0438 \:043b\:0438\:0434\:0435\:0440\:0441\:0442\:0432\
-\:043e \:044d\:0442\:043e \:0435\:0433\:043e \:0432\:0435\:0440\:043d\:044b\
-\:0435 \:0441\:043b\:0443\:0433\:0438.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\
-\:043d\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\
-\:0440\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\
-\:043c\:0438 \:0414\:0430\:043d\:043d\:044b\:0445.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\
-\:0435 \:043a\:043e\:0434\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\
-\:0443\:043d\:0442\:0443 \:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\
-\:0439.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\
-\:0439\:0442\:0435 \:043a\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\
-\:0435\:043d\:043d\:044b\:0435 \:043a\:0440\:0438\:0442\:0435\:0440\:0438\
-\:0438.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:0418\:0441\:0442\:0438\:043d\:043d\:044b\:0439 \
-\:0441\:043c\:044b\:0441\:043b \:0442\:0440\:0435\:0431\:043e\:0432\:0430\
-\:043d\:0438\:0439 \
-\:0437\:0430\:043a\:0430\:0437\:0447\:0438\:043a\:0430.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:041f\:0430\:0440\:0430\:0434\:0438\:0433\:043c\
-\:044b \:043f\:0440\:043e\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\
-\:0432\:0430\:043d\:0438\:044f.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:041d\:0435 \:043f\:043e\:043b\:0430\:0433\:0430\
-\:0439\:0442\:0435\:0441\:044c \:043d\:0430 \:0447\:0443\:0434\:0435\:0441\
-\:0430.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:041d\:0443\:0436\:043d\:043e \:0437\:0430\:0431\
-\:043e\:0442\:0438\:0442\:044c\:0441\:044f \:043e \:043a\:043e\:0434\:0435.md\
+blog\\\\content\\\\posts\\\\\:041f\:0440\:0435\:0436\:0434\:0435 \:0447\:0435\
+\:043c \:043f\:0435\:043d\:044f\:0442\:044c \:043d\:0430 \:0434\:0440\:0443\
+\:0433\:0438\:0445, \:043f\:0440\:043e\:0432\:0435\:0440\:044c \:0441\:043e\
+\:0431\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0439 \:043a\:043e\:0434 .md\
 \"\>", ",", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0422\:0435\:0441\:0442\:044b \:043f\:0438\:0448\:0443\
-\:0442\:0441\:044f \:0434\:043b\:044f \:043b\:044e\:0434\:0435\:0439.md\"\>", 
+content\\\\posts\\\\\:041f\:0440\:0438\:043c\:0435\:043d\:044f\:0439\:0442\
+\:0435 \:043f\:0440\:0438\:043d\:0446\:0438\:043f\:044b \:0444\:0443\:043d\
+\:043a\:0446\:0438\:043e\:043d\:0430\:043b\:044c\:043d\:043e\:0433\:043e \
+\:043f\:0440\:043e\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\:0432\:0430\
+\:043d\:0438\:044f.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435.\
-md\"\>", ",", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\One line of working code costs 500 lines of \
+blog\\\\content\\\\posts\\\\\:0410\:0432\:0442\:043e\:043c\:0430\:0442\:0438\
+\:0437\:0438\:0440\:0443\:0439\:0442\:0435 \:0441\:0432\:043e\:0439 \:0441\
+\:0442\:0430\:043d\:0434\:0430\:0440\:0442 \:0444\:043e\:0440\:043c\:0430\
+\:0442\:0438\:0440\:043e\:0432\:0430\:043d\:0438\:044f \:043a\:043e\:0434\
+\:0430.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041a\:043e\:043c\:043c\:0435\:043d\:0442\:0438\
+\:0440\:0443\:0439\:0442\:0435 \:0442\:043e\:043b\:044c\:043a\:043e \:0442\
+\:043e, \:043e \:0447\:0435\:043c \:043d\:0435 \:0441\:043a\:0430\:0436\:0435\
+\:0442 \:043a\:043e\:0434.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041f\:0440\:0435\:0436\:0434\:0435 \:0447\:0435\
+\:043c \:043f\:0440\:0438\:0441\:0442\:0443\:043f\:0430\:0442\:044c \:043a \
+\:0440\:0435\:0444\:0430\:043a\:0442\:043e\:0440\:0438\:043d\:0433\:0443 \
+.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:0422\:0449\:0430\:0442\:0435\:043b\:044c\:043d\
+\:043e \:0432\:044b\:0431\:0438\:0440\:0430\:0439\:0442\:0435 \:0438\:043d\
+\:0441\:0442\:0440\:0443\:043c\:0435\:043d\:0442\:044b .md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:0412\:0430\:0436\:043d\:043e\:0441\:0442\:044c \
+\:0444\:043e\:0440\:043c\:0430\:0442\:0438\:0440\:043e\:0432\:0430\:043d\:0438\
+\:044f \:043a\:043e\:0434\:0430.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041a\:043e\:043c\:043c\:0435\:043d\:0442\:0430\
+\:0440\:0438\:0439 \:043e \:043a\:043e\:043c\:043c\:0435\:043d\:0442\:0430\
+\:0440\:0438\:044f\:0445 .md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041e\:0441\:0442\:043e\:0440\:043e\:0436\:043d\
+\:043e - \:043e\:0431\:0449\:0438\:0439 \:043a\:043e\:0434.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041d\:0435\:043f\:0440\:0435\:0440\:044b\:0432\
+\:043d\:043e\:0435 \:043e\:0431\:0443\:0447\:0435\:043d\:0438\:0435.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:0420\:0435\:0446\:0435\:043d\:0437\:0438\:0440\
+\:043e\:0432\:0430\:043d\:0438\:0435 \:043a\:043e\:0434\:0430.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041f\:0438\:0448\:0438 \:043a\:043e\:0434 \
+\:0441 \:0443\:043c\:043e\:043c.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\One line of working code costs 500 lines of \
 specifications.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\\:0423\:0434\:043e\:0432\:043b\:0435\:0442\:0432\
-\:043e\:0440\:044f\:0439\:0442\:0435 \:0441\:0432\:043e\:0435 \:0447\:0435\
-\:0441\:0442\:043e\:043b\:044e\:0431\:0438\:0435 \:0447\:0435\:0440\:0435\
-\:0437 Open Source.md\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Perspective as seen from 300 meters.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Programming paradigms.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Relational Database Management Systems.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Satisfy your ambition through Open Source.md\"\>",
+    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
+korolev.blog\\\\content\\\\posts\\\\Stand up!.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Tests are written for people.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\The drama of hype technologies, customer needs, \
 and pangs of conscience.md\"\>", 
@@ -125,8 +142,10 @@ and pangs of conscience.md\"\>",
 blog\\\\content\\\\posts\\\\The performance of an application is determined \
 by its architecture.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
-blog\\\\content\\\\posts\\\\Thinking about performance is never too \
-early.md\"\>", 
+blog\\\\content\\\\posts\\\\The true meaning of the clients requirements.md\"\
+\>", ",", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+content\\\\posts\\\\Thinking about performance is never too early.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Time changes everything.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
@@ -140,21 +159,40 @@ blog\\\\content\\\\posts\\\\Try not to alter the timetable.md\"\>",
 blog\\\\content\\\\posts\\\\Two mistakes can cancel each other out, making \
 them difficult to correct.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Use quantitative criteria.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\When programmers and testers collaborate.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Write code as if you will be maintaining it for \
 the rest of your life.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\Writing code in the spirit of Ubuntu for the \
+friends.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\You are negotiating.md\"\>", 
    ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\You need to take care of the code.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
 blog\\\\content\\\\posts\\\\Your clients mean something different than what \
-they say.md\"\>"}], "}"}]], "Output",
+they say.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:0423\:0434\:043e\:0431\:0441\:0442\:0432\:043e \
+\[Dash] \:043d\:0435 \:0430\:0442\:0440\:0438\:0431\:0443\:0442 \:043a\:0430\
+\:0447\:0435\:0441\:0442\:0432\:0430.md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041a\:0440\:0430\:0441\:043e\:0442\:0430 \
+\[Dash] \:0441\:043b\:0435\:0434\:0441\:0442\:0432\:0438\:0435 \:043f\:0440\
+\:043e\:0441\:0442\:043e\:0442\:044b .md\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\content\\\\posts\\\\\:041a\:043e\:0434 \[Dash] \:044d\:0442\:043e \
+\:043f\:0440\:043e\:0435\:043a\:0442\:0438\:0440\:043e\:0432\:0430\:043d\:0438\
+\:0435.md\"\>"}], "}"}]], "Output",
  CellChangeTimes->{3.944019322859807*^9, 3.944019503348591*^9, 
   3.9440197492658806`*^9, 3.944019902852139*^9, 3.9440202112997103`*^9, 
   3.9440204122587814`*^9, 3.944020627823118*^9, 3.944020886517935*^9, 
-  3.944021046750981*^9, 3.9440214701945114`*^9, 3.9440315960395775`*^9},
- CellLabel->
-  "Out[915]=",ExpressionUUID->"ee57690b-8ade-4596-a763-b0aab65ee492"]
+  3.944021046750981*^9, 3.9440214701945114`*^9, 3.9440315960395775`*^9, 
+  3.9491955358321877`*^9, 3.94919588148777*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"dd861bcc-9838-4f43-851a-35896d42fbf6"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -162,8 +200,7 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"NotebookDirectory", "[", "]"}]], "Input",
  CellChangeTimes->{3.9440190794450016`*^9},
- CellLabel->
-  "In[916]:=",ExpressionUUID->"6f48f72f-b089-4744-882f-fbe0b4a6e230"],
+ CellLabel->"In[5]:=",ExpressionUUID->"6f48f72f-b089-4744-882f-fbe0b4a6e230"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
 korolev.blog\\\\\"\>"], "Output",
@@ -171,9 +208,8 @@ korolev.blog\\\\\"\>"], "Output",
   3.9440195034537954`*^9, 3.9440197493426123`*^9, 3.944019903263977*^9, 
   3.9440202114092665`*^9, 3.944020412874448*^9, 3.94402062800753*^9, 
   3.9440208866096525`*^9, 3.9440210469473295`*^9, 3.944021470422949*^9, 
-  3.944031596125436*^9},
- CellLabel->
-  "Out[916]=",ExpressionUUID->"e2f2a9bd-ba02-4d3d-9ce2-a1dbb819d168"]
+  3.944031596125436*^9, 3.9491955369253654`*^9, 3.9491958886514435`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"2fdea86e-86e1-d445-bec7-b3c8c1fed8d2"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -347,6 +383,16 @@ text')]\>\""}]}]}], "]"}]}], ";", "\n", "\n",
                  RowBox[{
                  "\"\<XPath\>\"", "\[Rule]", 
                   "\"\<//div[@id='translate-output-box']\>\""}]}]}], "]"}]}], 
+             "]"}]}], ";", "\[IndentingNewLine]", 
+           RowBox[{"outputBox", "=", 
+            RowBox[{"Join", "[", 
+             RowBox[{"outputBox", ",", " ", 
+              RowBox[{"WebExecute", "[", 
+               RowBox[{"session", ",", 
+                RowBox[{"\"\<LocateElements\>\"", "\[Rule]", 
+                 RowBox[{
+                 "\"\<XPath\>\"", "\[Rule]", 
+                  "\"\<//output[@id='tltr-output']\>\""}]}]}], "]"}]}], 
              "]"}]}], ";", "\[IndentingNewLine]", 
            RowBox[{"outputText", "=", 
             RowBox[{"Map", "[", 
@@ -559,7 +605,8 @@ text')]\>\""}]}]}], "]"}]}], ";", "\n", "\n",
    3.9440207979744997`*^9}, {3.9440208411409025`*^9, 
    3.9440208537536483`*^9}, {3.944021038347042*^9, 3.9440210402861176`*^9}, {
    3.9440214458103867`*^9, 3.9440214613093195`*^9}, {3.9440318084586935`*^9, 
-   3.944031821558739*^9}},ExpressionUUID->"c8075ac6-894d-436e-b634-\
+   3.944031821558739*^9}, {3.949196149133911*^9, 
+   3.949196177785328*^9}},ExpressionUUID->"c8075ac6-894d-436e-b634-\
 55ef40986281"],
 
 Cell[CellGroupData[{
@@ -575,18 +622,18 @@ content\\\\posts\\\\Architectural compromises.md\"\>"}],
   1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
 content\\posts\\Architectural compromises.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031596204975*^9},
+ CellChangeTimes->{3.9491958995208244`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"c5a2977a-4b6b-4176-aa2f-3f1b611d0f28"],
+In[6]:=",ExpressionUUID->"17fc6afc-c0f5-b441-af26-a3930816b801"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
 korolev.blog\\\\content\\\\posts\\\\Architectural compromises.md\"\>"], \
 "Print",
- CellChangeTimes->{3.944031596215499*^9},
+ CellChangeTimes->{3.9491958995208244`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"59fbc961-9e13-475e-adac-96147f09b168"],
+In[6]:=",ExpressionUUID->"959f219f-277e-2f40-9150-4bf39c9abf40"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -599,18 +646,18 @@ content\\\\posts\\\\A verbose journal will deprive you of sleep.md\"\>"}],
   2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
 content\\posts\\A verbose journal will deprive you of sleep.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440315962623515`*^9},
+ CellChangeTimes->{3.9491958995364647`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"010e45a3-486e-48f4-b56b-8a69fc5bddad"],
+In[6]:=",ExpressionUUID->"8716b975-e500-d447-9073-e85551f21b21"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
 korolev.blog\\\\content\\\\posts\\\\A verbose journal will deprive you of \
 sleep.md\"\>"], "Print",
- CellChangeTimes->{3.944031596274257*^9},
+ CellChangeTimes->{3.9491958995520897`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"cee7fd1a-f97a-4dd4-b508-60fb9a135371"],
+In[6]:=",ExpressionUUID->"2048bfd1-5309-0447-a547-f7ec734ff326"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -618,23 +665,25 @@ Cell[BoxData[
   "3", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Creating architecture as the art of balance.md\"\>"}],
+content\\\\posts\\\\Communication is the king, clarity and leadership are its \
+loyal servants.md\"\>"}],
   SequenceForm[
   3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Creating architecture as the art of balance.md"],
+content\\posts\\Communication is the king, clarity and leadership are its \
+loyal servants.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031596284553*^9},
+ CellChangeTimes->{3.9491958995520897`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"53e5c6e4-42bd-4351-8ede-edc20971e534"],
+In[6]:=",ExpressionUUID->"ee47b2f5-ab6a-464a-8eb2-c936b194b97a"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Creating architecture as the art of \
-balance.md\"\>"], "Print",
- CellChangeTimes->{3.944031596293154*^9},
+korolev.blog\\\\content\\\\posts\\\\Communication is the king, clarity and \
+leadership are its loyal servants.md\"\>"], "Print",
+ CellChangeTimes->{3.9491958995677147`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"41d02980-c0ef-400a-b822-7df6f30ac637"],
+In[6]:=",ExpressionUUID->"13b865bb-7bc5-2644-85ed-59ed7dd08a04"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -642,23 +691,23 @@ Cell[BoxData[
   "4", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Dont be afraid to break something.md\"\>"}],
+content\\\\posts\\\\Creating architecture as the art of balance.md\"\>"}],
   SequenceForm[
   4, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Dont be afraid to break something.md"],
+content\\posts\\Creating architecture as the art of balance.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440315963022156`*^9},
+ CellChangeTimes->{3.9491958995677147`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"ab7b85aa-e649-4156-a2c4-f75126dd67aa"],
+In[6]:=",ExpressionUUID->"3053fbe5-86e1-5a4c-9cc8-c5852919f1bd"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Dont be afraid to break \
-something.md\"\>"], "Print",
- CellChangeTimes->{3.9440315963100376`*^9},
+korolev.blog\\\\content\\\\posts\\\\Creating architecture as the art of \
+balance.md\"\>"], "Print",
+ CellChangeTimes->{3.949195899823473*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"694a4f13-e390-4378-8d85-7f8970afa6ee"],
+In[6]:=",ExpressionUUID->"9a60159b-f002-c243-9c9f-22b015d668df"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -666,22 +715,23 @@ Cell[BoxData[
   "5", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Dont repeat your code.md\"\>"}],
+content\\\\posts\\\\Do not be afraid to break something.md\"\>"}],
   SequenceForm[
   5, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Dont repeat your code.md"],
+content\\posts\\Do not be afraid to break something.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031596317483*^9},
+ CellChangeTimes->{3.9491958998390923`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"74a2cc7b-1c13-413e-b73d-726d9e7f6e58"],
+In[6]:=",ExpressionUUID->"974a7a16-627e-4d4d-a6a5-93d4a009a099"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Dont repeat your code.md\"\>"], "Print",
- CellChangeTimes->{3.944031596327013*^9},
+korolev.blog\\\\content\\\\posts\\\\Do not be afraid to break \
+something.md\"\>"], "Print",
+ CellChangeTimes->{3.9491958998549385`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"2009c0ef-0d7d-4576-a686-fbe8895b3649"],
+In[6]:=",ExpressionUUID->"7f652eaf-f50d-8045-9845-5e44315168b8"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -689,22 +739,22 @@ Cell[BoxData[
   "6", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Dont touch this code.md\"\>"}],
+content\\\\posts\\\\Do not rely on miracles.md\"\>"}],
   SequenceForm[
   6, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Dont touch this code.md"],
+content\\posts\\Do not rely on miracles.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440315963561735`*^9},
+ CellChangeTimes->{3.9491958998705864`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"09e13605-fa9a-456b-9251-290e484b89b1"],
+In[6]:=",ExpressionUUID->"9261e4f9-3f92-b942-b72a-49f60aa1ac04"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Dont touch this code.md\"\>"], "Print",
- CellChangeTimes->{3.9440315963666506`*^9},
+korolev.blog\\\\content\\\\posts\\\\Do not rely on miracles.md\"\>"], "Print",
+ CellChangeTimes->{3.949195899886215*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"3d032f7a-241a-48b2-9988-6490b2cbc1b3"],
+In[6]:=",ExpressionUUID->"0686b347-12d3-b149-8646-0db55c0d3753"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -712,23 +762,22 @@ Cell[BoxData[
   "7", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Encapsulate behavior, not just state.md\"\>"}],
+content\\\\posts\\\\Do not repeat your code.md\"\>"}],
   SequenceForm[
   7, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Encapsulate behavior, not just state.md"],
+content\\posts\\Do not repeat your code.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031596376666*^9},
+ CellChangeTimes->{3.9491958998917465`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"c11b7431-9338-472a-b263-02f0622dd9ce"],
+In[6]:=",ExpressionUUID->"a13517ff-1786-be4d-8c2d-2437848f8900"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Encapsulate behavior, not just state.md\"\
-\>"], "Print",
- CellChangeTimes->{3.9440315964971623`*^9},
+korolev.blog\\\\content\\\\posts\\\\Do not repeat your code.md\"\>"], "Print",
+ CellChangeTimes->{3.949195899923023*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"799b7238-3e39-40fd-b4f6-0849ac79a3b6"],
+In[6]:=",ExpressionUUID->"0652e743-ab6b-3149-b21a-6e05be7551ad"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -736,22 +785,22 @@ Cell[BoxData[
   "8", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Enterprise interview.md\"\>"}],
+content\\\\posts\\\\Do not touch this code.md\"\>"}],
   SequenceForm[
   8, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Enterprise interview.md"],
+content\\posts\\Do not touch this code.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.94403159650515*^9},
+ CellChangeTimes->{3.949195899938652*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"d727f955-232d-4908-b5ba-45d8e1eb68e4"],
+In[6]:=",ExpressionUUID->"27179f8a-1283-8048-ac71-37d237e36f3c"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Enterprise interview.md\"\>"], "Print",
- CellChangeTimes->{3.9440315965116763`*^9},
+korolev.blog\\\\content\\\\posts\\\\Do not touch this code.md\"\>"], "Print",
+ CellChangeTimes->{3.949195899956072*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"3d1de641-a8d6-4d54-90eb-8c735e0a35f9"],
+In[6]:=",ExpressionUUID->"2b9fccfc-76c9-6d45-b2ad-aba28a808d5e"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -759,22 +808,23 @@ Cell[BoxData[
   "9", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\First say yes.md\"\>"}],
+content\\\\posts\\\\Encapsulate behavior, not just state.md\"\>"}],
   SequenceForm[
   9, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\First say yes.md"],
+content\\posts\\Encapsulate behavior, not just state.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440315965212045`*^9},
+ CellChangeTimes->{3.9491958999730225`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"e7b825b1-2c09-43a5-84c6-e8e3c0cfa56f"],
+In[6]:=",ExpressionUUID->"f83d0bdb-e4dc-1b4b-8711-2a8cc435f4e9"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\First say yes.md\"\>"], "Print",
- CellChangeTimes->{3.9440315965277815`*^9},
+korolev.blog\\\\content\\\\posts\\\\Encapsulate behavior, not just state.md\"\
+\>"], "Print",
+ CellChangeTimes->{3.9491958999915447`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"bdeb3931-4fb2-4d90-982b-6191562db081"],
+In[6]:=",ExpressionUUID->"54a35d19-4a14-0c49-a44b-a60edab324ad"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -782,24 +832,23 @@ Cell[BoxData[
   "10", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Give developers their own space.md\"\>"}],
+content\\\\posts\\\\Enterprise interview.md\"\>"}],
   SequenceForm[
   10, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Give developers their own space.md"],
+\\Enterprise interview.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031596534773*^9},
+ CellChangeTimes->{3.9491959000060635`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"83b44210-129f-452d-ac03-55d6e0d4c336"],
+In[6]:=",ExpressionUUID->"6d9ec6ac-8e69-3243-9140-ebc125e59c4f"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Give developers their own space.md\"\>"], \
-"Print",
- CellChangeTimes->{3.9440315965433173`*^9},
+korolev.blog\\\\content\\\\posts\\\\Enterprise interview.md\"\>"], "Print",
+ CellChangeTimes->{3.9491959002047043`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"ff1e98d8-2ba4-420e-a55c-501077f6fad0"],
+In[6]:=",ExpressionUUID->"31d2178d-2767-cb4a-b0bf-5f35ba57272a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -807,24 +856,23 @@ Cell[BoxData[
   "11", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\How to use the bug tracking system.md\"\>"}],
+content\\\\posts\\\\First say yes.md\"\>"}],
   SequenceForm[
   11, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\How to use the bug tracking system.md"],
+\\First say yes.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440315965523777`*^9},
+ CellChangeTimes->{3.9491959002047043`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"49cf3d46-2b51-44fb-bd2e-39044a7d2366"],
+In[6]:=",ExpressionUUID->"b324ea84-7e5d-fc49-bdd4-ed6fb93cd547"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\How to use the bug tracking \
-system.md\"\>"], "Print",
- CellChangeTimes->{3.944031596558392*^9},
+korolev.blog\\\\content\\\\posts\\\\First say yes.md\"\>"], "Print",
+ CellChangeTimes->{3.9491959002360497`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"c09fde56-b50b-423f-8349-1416b8708987"],
+In[6]:=",ExpressionUUID->"fd9cc453-0385-d24a-bbac-f10c5116291a"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -832,23 +880,24 @@ Cell[BoxData[
   "12", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Interfaces.md\"\>"}],
+content\\\\posts\\\\Give developers their own space.md\"\>"}],
   SequenceForm[
   12, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Interfaces.md"],
+\\Give developers their own space.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440315965653996`*^9},
+ CellChangeTimes->{3.9491959002517033`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"4caeee4a-49a1-4dd1-b4d9-936ef132e7ca"],
+In[6]:=",ExpressionUUID->"a408917a-445b-d04d-9739-0bdd35a6d206"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Interfaces.md\"\>"], "Print",
- CellChangeTimes->{3.944031596573939*^9},
+korolev.blog\\\\content\\\\posts\\\\Give developers their own space.md\"\>"], \
+"Print",
+ CellChangeTimes->{3.9491959002673283`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"8c711daa-676b-433a-98b5-ae2e475deaee"],
+In[6]:=",ExpressionUUID->"336e412c-56e8-464b-9fee-9a7fe467cacc"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -856,61 +905,24 @@ Cell[BoxData[
   "13", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:041e\:0431\:0449\:0435\:043d\:0438\:0435 \:044d\:0442\
-\:043e \:043a\:043e\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\:043e\:0441\
-\:0442\:044c \:0438 \:043b\:0438\:0434\:0435\:0440\:0441\:0442\:0432\:043e \
-\:044d\:0442\:043e \:0435\:0433\:043e \:0432\:0435\:0440\:043d\:044b\:0435 \
-\:0441\:043b\:0443\:0433\:0438.md\"\>"}],
+content\\\\posts\\\\How to use the bug tracking system.md\"\>"}],
   SequenceForm[
   13, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:041e\:0431\:0449\:0435\:043d\:0438\:0435 \:044d\:0442\:043e \:043a\:043e\
-\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\:043e\:0441\:0442\:044c \:0438 \
-\:043b\:0438\:0434\:0435\:0440\:0441\:0442\:0432\:043e \:044d\:0442\:043e \
-\:0435\:0433\:043e \:0432\:0435\:0440\:043d\:044b\:0435 \:0441\:043b\:0443\
-\:0433\:0438.md"],
+\\How to use the bug tracking system.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440315965794544`*^9},
+ CellChangeTimes->{3.9491959002900734`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"a6d8d019-0284-4e14-8624-b3e3e0270299"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.944031596648352*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"7197099d-51bb-407f-b469-5d029e6874a2"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
-  SequenceForm["OutputText: ", ""],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316102530527`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"8706bb2d-f38b-4ae8-b09d-3cebcb980d86"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "0"}],
-  SequenceForm["StringLength[outputText]: ", 0],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031610259091*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"f105d724-234e-4122-a1d1-9f566c09ce98"],
+In[6]:=",ExpressionUUID->"259aa0c0-9cae-a146-8b67-8b77e384df8f"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\\:041e\:0431\:0449\:0435\:043d\:0438\:0435\
- \:044d\:0442\:043e \:043a\:043e\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\
-\:043e\:0441\:0442\:044c \:0438 \:043b\:0438\:0434\:0435\:0440\:0441\:0442\
-\:0432\:043e \:044d\:0442\:043e \:0435\:0433\:043e \:0432\:0435\:0440\:043d\
-\:044b\:0435 \:0441\:043b\:0443\:0433\:0438.md\"\>"], "Print",
- CellChangeTimes->{3.9440316104965353`*^9},
+korolev.blog\\\\content\\\\posts\\\\How to use the bug tracking \
+system.md\"\>"], "Print",
+ CellChangeTimes->{3.9491959004886665`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"851ff040-951f-434c-9a1c-d7696f3801d2"],
+In[6]:=",ExpressionUUID->"8950be03-722e-c942-9142-f92e386ff2aa"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -918,160 +930,23 @@ Cell[BoxData[
   "14", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\
-\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\
-\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\
-\:0438 \:0414\:0430\:043d\:043d\:044b\:0445.md\"\>"}],
+content\\\\posts\\\\Interfaces.md\"\>"}],
   SequenceForm[
   14, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \:0421\
-\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\:043b\
-\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\:0430\
-\:043d\:043d\:044b\:0445.md"],
+\\Interfaces.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440316105060883`*^9},
+ CellChangeTimes->{3.949195900505718*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"569b8c35-8f61-4503-a992-de06622d082f"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.944031610577612*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"52019b0a-970f-4f2f-bba5-bedae70582d1"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\
-\:043d\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\
-\:0440\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\
-\:043c\:0438 \:0414\:0430\:043d\:043d\:044bx\"\>"}],
-  SequenceForm[
-  "OutputText: ", 
-   "\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \:0421\
-\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\:043b\
-\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\:0430\
-\:043d\:043d\:044bx"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031623510577*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"19254d01-f8f6-4a45-8fe6-0324715b1fda"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "44"}],
-  SequenceForm["StringLength[outputText]: ", 44],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316235170918`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"fab439f2-20a7-402f-8404-95fd63d00ecd"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\
-\:043d\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\
-\:0440\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\
-\:043c\:0438 \:0414\:0430\:043d\:043d\:044bx\"\>"}],
-  SequenceForm[
-  "Translated 1: ", 
-   "\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \:0421\
-\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\:043b\
-\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\:0430\
-\:043d\:043d\:044bx"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316237031283`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"d55adba3-e83b-48d4-9bef-0b99466b5d0a"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\
-\:043d\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\
-\:0440\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\
-\:043c\:0438 \:0414\:0430\:043d\:043d\:044bx\"\>"}],
-  SequenceForm[
-  "Translated 2: ", 
-   "\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \:0421\
-\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\:043b\
-\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\:0430\
-\:043d\:043d\:044bx"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031623712669*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"890e132a-46f3-4a43-a331-d5ae19e8920a"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"+++\\ntitle='\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\
-\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\
-\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \
-\:0414\:0430\:043d\:043d\:044bx'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=\
-false\\ncategories=[]\\ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-\
-08-08T051054.000Z.jpg'\\n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\
-\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\
-\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \
-\:0414\:0430\:043d\:043d\:044bx'\ndate=2024-07-10T00:00:00-07:00\ndraft=false\
-\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031623723215*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"8c1b8cd5-e11d-4542-825a-bcc006e26ac0"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"+++\\ntitle='\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\
-\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\
-\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \
-\:0414\:0430\:043d\:043d\:044bx'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=\
-false\\ncategories=[]\\ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-\
-08-08T051054.000Z.jpg'\\n+++\\n\:0420\:0435\:043b\:044f\:0446\:0438\:043e\
-\:043d\:043d\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\
-\:043f\:0440\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\
-\:0430\:043c\:0438 \:0414\:0430\:043d\:043d\:044b\:0445\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\
-\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\
-\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \
-\:0414\:0430\:043d\:043d\:044bx'\ndate=2024-07-10T00:00:00-07:00\ndraft=false\
-\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \:0421\
-\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\:043b\
-\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\:0430\
-\:043d\:043d\:044b\:0445"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031623732746*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"fef4f6d8-33fe-4b84-86cb-efc1453908cb"],
+In[6]:=",ExpressionUUID->"4ca4f0f5-9993-114d-8829-1bd21ae64ed1"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\\:0420\:0435\:043b\:044f\:0446\:0438\:043e\
-\:043d\:043d\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\
-\:043f\:0440\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\
-\:0430\:043c\:0438 \:0414\:0430\:043d\:043d\:044bx.md\"\>"], "Print",
- CellChangeTimes->{3.9440316237412868`*^9},
+korolev.blog\\\\content\\\\posts\\\\Interfaces.md\"\>"], "Print",
+ CellChangeTimes->{3.9491959005213795`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"de3aa2f7-40f0-49f8-a2fd-1bdf8a379dac"],
+In[6]:=",ExpressionUUID->"68a7c116-7c71-fd43-adbe-152147ebc647"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1079,127 +954,59 @@ Cell[BoxData[
   "15", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \
-\:043a\:043e\:0434\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\
-\:043d\:0442\:0443 \:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439.md\
-\"\>"}],
+content\\\\posts\\\\\:041f\:0440\:0435\:0436\:0434\:0435 \:0447\:0435\:043c \
+\:043f\:0435\:043d\:044f\:0442\:044c \:043d\:0430 \:0434\:0440\:0443\:0433\
+\:0438\:0445, \:043f\:0440\:043e\:0432\:0435\:0440\:044c \:0441\:043e\:0431\
+\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0439 \:043a\:043e\:0434 .md\"\>"}],
   SequenceForm[
   15, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \:043a\:043e\:0434\
-\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\:043d\:0442\:0443 \
-\:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439.md"],
+\\\:041f\:0440\:0435\:0436\:0434\:0435 \:0447\:0435\:043c \:043f\:0435\:043d\
+\:044f\:0442\:044c \:043d\:0430 \:0434\:0440\:0443\:0433\:0438\:0445, \:043f\
+\:0440\:043e\:0432\:0435\:0440\:044c \:0441\:043e\:0431\:0441\:0442\:0432\
+\:0435\:043d\:043d\:044b\:0439 \:043a\:043e\:0434 .md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440316237508173`*^9},
+ CellChangeTimes->{3.9491959005374184`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"0adf9f75-ae6c-4552-afb3-a2083678107c"],
+In[6]:=",ExpressionUUID->"1c641e96-1fde-b247-a71f-ec89525005cd"],
 
 Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.94403162376036*^9},
+ CellChangeTimes->{3.9491959005687046`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"5af8407d-d315-4d73-b8eb-66a2ea5d8184"],
+In[6]:=",ExpressionUUID->"9f4774bd-cff7-b248-8f8b-a1063ac6d865"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Writing code in the spirit of Ubuntu for the \
-friends\"\>"}],
-  SequenceForm[
-  "OutputText: ", "Writing code in the spirit of Ubuntu for the friends"],
+  RowBox[{"\<\"OutputText: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
+  SequenceForm["OutputText: ", ""],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440316377896233`*^9},
+ CellChangeTimes->{3.949195932193672*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"7c0ddee1-c164-43c5-948d-a665868d8861"],
+In[6]:=",ExpressionUUID->"8e09a605-e864-224c-8db6-0aa1555e1a0c"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "52"}],
-  SequenceForm["StringLength[outputText]: ", 52],
+  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "0"}],
+  SequenceForm["StringLength[outputText]: ", 0],
   Editable->False]], "Print",
- CellChangeTimes->{3.94403163780214*^9},
+ CellChangeTimes->{3.949195932207697*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"b1a92b18-a3ec-4260-a7eb-6cc738e1efcb"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Writing code in the spirit of Ubuntu for the \
-friends\"\>"}],
-  SequenceForm[
-  "Translated 1: ", "Writing code in the spirit of Ubuntu for the friends"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316380172515`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"6d690f55-ac42-4fea-95cc-8403661bea06"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Writing code in the spirit of Ubuntu for the \
-friends\"\>"}],
-  SequenceForm[
-  "Translated 2: ", "Writing code in the spirit of Ubuntu for the friends"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316380321245`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"68770b7e-c239-4fdc-a0a3-499814800e96"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Writing code in the spirit of \
-Ubuntu for the \
-friends'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Writing code in the spirit of Ubuntu for the friends'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316380426598`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"b9fb60d5-ca8b-43f8-97bc-27b5c2301d4c"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Writing code in the spirit of \
-Ubuntu for the \
-friends'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \:043a\:043e\
-\:0434\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\:043d\:0442\
-\:0443 \:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Writing code in the spirit of Ubuntu for the friends'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \:043a\:043e\:0434\
-\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\:043d\:0442\:0443 \
-\:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031638053728*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"9d742511-31fd-4906-9573-5c1c2ccbbfb2"],
+In[6]:=",ExpressionUUID->"5655e505-e7f9-a24c-8aae-8288d4c2822a"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Writing code in the spirit of Ubuntu for \
-the friends.md\"\>"], "Print",
- CellChangeTimes->{3.9440316380697956`*^9},
+korolev.blog\\\\content\\\\posts\\\\\:041f\:0440\:0435\:0436\:0434\:0435 \
+\:0447\:0435\:043c \:043f\:0435\:043d\:044f\:0442\:044c \:043d\:0430 \:0434\
+\:0440\:0443\:0433\:0438\:0445, \:043f\:0440\:043e\:0432\:0435\:0440\:044c \
+\:0441\:043e\:0431\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0439 \:043a\
+\:043e\:0434 .md\"\>"], "Print",
+ CellChangeTimes->{3.949195932573164*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"feb1187d-9dfb-4022-99de-0ec638d8a91b"],
+In[6]:=",ExpressionUUID->"8ad53df4-10c7-fe45-a166-e88b06ce7c73"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1207,119 +1014,61 @@ Cell[BoxData[
   "16", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\
-\:0442\:0435 \:043a\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\
-\:043d\:043d\:044b\:0435 \
-\:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438.md\"\>"}],
+content\\\\posts\\\\\:041f\:0440\:0438\:043c\:0435\:043d\:044f\:0439\:0442\
+\:0435 \:043f\:0440\:0438\:043d\:0446\:0438\:043f\:044b \:0444\:0443\:043d\
+\:043a\:0446\:0438\:043e\:043d\:0430\:043b\:044c\:043d\:043e\:0433\:043e \
+\:043f\:0440\:043e\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\:0432\:0430\
+\:043d\:0438\:044f.md\"\>"}],
   SequenceForm[
   16, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\:0442\:0435 \:043a\
-\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0435\
- \:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438.md"],
+\\\:041f\:0440\:0438\:043c\:0435\:043d\:044f\:0439\:0442\:0435 \:043f\:0440\
+\:0438\:043d\:0446\:0438\:043f\:044b \:0444\:0443\:043d\:043a\:0446\:0438\
+\:043e\:043d\:0430\:043b\:044c\:043d\:043e\:0433\:043e \:043f\:0440\:043e\
+\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\:0432\:0430\:043d\:0438\:044f\
+.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031638079342*^9},
+ CellChangeTimes->{3.9491959325910664`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"1019e073-3a8a-4e4e-84ed-873895cd229c"],
+In[6]:=",ExpressionUUID->"55232431-0795-dd42-848f-a69396784a09"],
 
 Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.944031638086336*^9},
+ CellChangeTimes->{3.9491959327900505`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"4f7d1be5-04eb-47d9-8776-76c75bb14b80"],
+In[6]:=",ExpressionUUID->"8e607a5a-a5c7-164b-b1f1-b25d3fcb5714"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Use quantitative criteria.\"\>"}],
-  SequenceForm["OutputText: ", "Use quantitative criteria."],
+  RowBox[{"\<\"OutputText: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
+  SequenceForm["OutputText: ", ""],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031652399907*^9},
+ CellChangeTimes->{3.949195966556217*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"d3b0b094-8568-40cb-9673-c4ef95298058"],
+In[6]:=",ExpressionUUID->"5dd9805a-2103-cd43-b6d4-29a5c3c84d9d"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "26"}],
-  SequenceForm["StringLength[outputText]: ", 26],
+  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "0"}],
+  SequenceForm["StringLength[outputText]: ", 0],
   Editable->False]], "Print",
- CellChangeTimes->{3.944031652407446*^9},
+ CellChangeTimes->{3.949195966576517*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"85ef9389-cba4-4bb9-8baa-6f2c6750b47e"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Use quantitative criteria\"\>"}],
-  SequenceForm["Translated 1: ", "Use quantitative criteria"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031652661519*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"f5e32c6a-90b7-4d11-955d-a6c167ee53b9"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Use quantitative criteria\"\>"}],
-  SequenceForm["Translated 2: ", "Use quantitative criteria"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.944031652679384*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"a8646bbc-e205-4727-b2b0-5971dd2b99e8"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Use quantitative \
-criteria'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Use quantitative criteria'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316526929245`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"f1bd0927-f6a8-46ac-8abc-8e1cf6f3bcc8"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Use quantitative \
-criteria'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\:0442\:0435 \
-\:043a\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\:043d\:043d\:044b\
-\:0435 \:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Use quantitative criteria'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\:0442\:0435 \:043a\
-\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0435\
- \:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440316527044888`*^9},
- CellLabel->
-  "During evaluation of \
-In[917]:=",ExpressionUUID->"d126faf8-f656-44c1-9c72-ed93abbdb6a0"],
+In[6]:=",ExpressionUUID->"67c688cf-29c2-6f46-9479-f5d02c1ac06c"],
 
 Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Use quantitative criteria.md\"\>"], \
-"Print",
- CellChangeTimes->{3.944031652718584*^9},
+korolev.blog\\\\content\\\\posts\\\\\:041f\:0440\:0438\:043c\:0435\:043d\:044f\
+\:0439\:0442\:0435 \:043f\:0440\:0438\:043d\:0446\:0438\:043f\:044b \:0444\
+\:0443\:043d\:043a\:0446\:0438\:043e\:043d\:0430\:043b\:044c\:043d\:043e\:0433\
+\:043e \:043f\:0440\:043e\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\
+\:0432\:0430\:043d\:0438\:044f.md\"\>"], "Print",
+ CellChangeTimes->{3.9491959668945923`*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"7b3ef0b9-ccbe-4a19-a8aa-36d9976a11b9"],
+In[6]:=",ExpressionUUID->"43de41ee-8ead-5548-ae37-756dbf37671b"],
 
 Cell[BoxData[
  InterpretationBox[
@@ -1327,2471 +1076,47 @@ Cell[BoxData[
   "17", "\[InvisibleSpace]", "\<\". \"\>", 
    "\[InvisibleSpace]", \
 "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0418\:0441\:0442\:0438\:043d\:043d\:044b\:0439 \:0441\
-\:043c\:044b\:0441\:043b \:0442\:0440\:0435\:0431\:043e\:0432\:0430\:043d\
-\:0438\:0439 \:0437\:0430\:043a\:0430\:0437\:0447\:0438\:043a\:0430.md\"\>"}],
+content\\\\posts\\\\\:0410\:0432\:0442\:043e\:043c\:0430\:0442\:0438\:0437\
+\:0438\:0440\:0443\:0439\:0442\:0435 \:0441\:0432\:043e\:0439 \:0441\:0442\
+\:0430\:043d\:0434\:0430\:0440\:0442 \:0444\:043e\:0440\:043c\:0430\:0442\
+\:0438\:0440\:043e\:0432\:0430\:043d\:0438\:044f \
+\:043a\:043e\:0434\:0430.md\"\>"}],
   SequenceForm[
   17, ". ", 
    "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0418\:0441\:0442\:0438\:043d\:043d\:044b\:0439 \:0441\:043c\:044b\:0441\
-\:043b \:0442\:0440\:0435\:0431\:043e\:0432\:0430\:043d\:0438\:0439 \:0437\
-\:0430\:043a\:0430\:0437\:0447\:0438\:043a\:0430.md"],
+\\\:0410\:0432\:0442\:043e\:043c\:0430\:0442\:0438\:0437\:0438\:0440\:0443\
+\:0439\:0442\:0435 \:0441\:0432\:043e\:0439 \:0441\:0442\:0430\:043d\:0434\
+\:0430\:0440\:0442 \:0444\:043e\:0440\:043c\:0430\:0442\:0438\:0440\:043e\
+\:0432\:0430\:043d\:0438\:044f \:043a\:043e\:0434\:0430.md"],
   Editable->False]], "Print",
- CellChangeTimes->{3.9440316527291183`*^9},
+ CellChangeTimes->{3.949195966916073*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"1b4e8fc0-38f4-44df-a8be-8592aef0d59c"],
+In[6]:=",ExpressionUUID->"ee3ec8dc-d1b0-1c49-b060-bc6d6222a226"],
 
 Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440316527406635`*^9},
+ CellChangeTimes->{3.949195967194462*^9},
  CellLabel->
   "During evaluation of \
-In[917]:=",ExpressionUUID->"0c17a8ca-1c86-4716-93ff-d8def249096f"]
+In[6]:=",ExpressionUUID->"5222a961-0acd-324a-b197-4ce6ea6db765"]
 }, Open  ]],
 
 Cell[BoxData["$Aborted"], "Output",
- CellChangeTimes->{3.9440316677297277`*^9},
- CellLabel->
-  "Out[917]=",ExpressionUUID->"e0945ebb-5b25-4e91-9103-cb6eb279a8c3"]
+ CellChangeTimes->{3.949195970508663*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"a64f4e2a-33d3-9346-b880-b93028c66503"]
 }, Open  ]],
-
-Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
   RowBox[{"NotebookClose", "[", "]"}], ";"}]], "Input",
  CellChangeTimes->{{3.944022583451988*^9, 
   3.944022604204958*^9}},ExpressionUUID->"bddd4140-b25a-4327-b147-\
-197b4f6a7954"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "1", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Architectural compromises.md\"\>"}],
-  SequenceForm[
-  1, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Architectural compromises.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021470536744*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0adc610d-44b7-483d-bb51-14a780076eb0"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Architectural compromises.md\"\>"], \
-"Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214705538473`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e616e54d-fd94-4520-a7cd-e0ca2e2f57a5"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "2", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\A verbose journal will deprive you of sleep.md\"\>"}],
-  SequenceForm[
-  2, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\A verbose journal will deprive you of sleep.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214705785728`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"97c26e8c-3a90-4e24-99d1-d7d2240074a1"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\A verbose journal will deprive you of \
-sleep.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021470607137*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"fe38aed2-36a4-4b18-8a9c-b47b73b7ee11"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "3", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Creating architecture as the art of balance.md\"\>"}],
-  SequenceForm[
-  3, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Creating architecture as the art of balance.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214706397223`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ae42c7d2-a60c-427b-9d09-286e893faa88"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Creating architecture as the art of \
-balance.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214706669474`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"798888c1-0e4c-421a-a3f7-690535001480"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "4", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Dont be afraid to break something.md\"\>"}],
-  SequenceForm[
-  4, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Dont be afraid to break something.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214706916685`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c0a02868-d43a-4f52-a838-4da0d61a0e24"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Dont be afraid to break \
-something.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214708874493`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"8cfd9f8c-0ca0-400e-a33f-e347a773a361"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "5", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Dont repeat your code.md\"\>"}],
-  SequenceForm[
-  5, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Dont repeat your code.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021470908578*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0d155b1b-7af8-48bb-adc0-bf6db6553197"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Dont repeat your code.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214709240737`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"81d2de21-72e0-41a5-ab30-dab965f3d3de"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "6", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Dont touch this code.md\"\>"}],
-  SequenceForm[
-  6, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Dont touch this code.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214709396505`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"10573c09-e60b-4e54-9948-9af1a039b12b"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Dont touch this code.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021470955801*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"96b13f06-900a-4d1b-a0f3-e5f9532d70c5"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "7", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Encapsulate behavior, not just state.md\"\>"}],
-  SequenceForm[
-  7, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Encapsulate behavior, not just state.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214709709873`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ae6da769-997c-43e2-9d8a-640755ce876e"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Encapsulate behavior, not just state.md\"\
-\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021470986058*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"62adbd1a-6caf-4ea3-bd50-95670d49ab29"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "8", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Enterprise interview.md\"\>"}],
-  SequenceForm[
-  8, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Enterprise interview.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214710016255`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d4907e16-038b-4313-8135-813e4ee436e8"]
-}, Open  ]],
-
-Cell[BoxData[
- TemplateBox[{
-  "First", "nofirst", 
-   "\"\\!\\(\\*RowBox[{\\\"{\\\", \\\"}\\\"}]\\) has zero length and no first \
-element.\"", 2, 898, 104, 27203186885888830399, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9440214710257964`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"96c26f9e-167a-46e9-829d-3aefe5cb4b17"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringTrim", "strse", 
-   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
-\"}]\\) in \\!\\(\\*RowBox[{\\\"StringTrim\\\", \\\"[\\\", \
-RowBox[{\\\"First\\\", \\\"[\\\", RowBox[{\\\"{\\\", \\\"}\\\"}], \
-\\\"]\\\"}], \\\"]\\\"}]\\).\"", 2, 898, 105, 27203186885888830399, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.944021471124058*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d6cd1769-5480-4b6e-bbd6-16b772524f6c"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringReplace", "strse", 
-   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
-\"}]\\) in \\!\\(\\*RowBox[{\\\"StringReplace\\\", \\\"[\\\", \
-RowBox[{RowBox[{\\\"StringTrim\\\", \\\"[\\\", RowBox[{\\\"First\\\", \\\"[\\\
-\", RowBox[{\\\"{\\\", \\\"}\\\"}], \\\"]\\\"}], \\\"]\\\"}], \\\",\\\", \
-RowBox[{\\\"\\\\\\\"'\\\\\\\"\\\", \\\"\[Rule]\\\", \
-\\\"\\\\\\\"\\\\\\\"\\\"}]}], \\\"]\\\"}]\\).\"", 2, 898, 106, 
-   27203186885888830399, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.9440214711694117`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"998b922a-e73e-4b81-8c8f-ce6e5d2cfc51"],
-
-Cell[BoxData[
- TemplateBox[{
-  "LanguageIdentify", "string", 
-   "\"String expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
-\\!\\(\\*RowBox[{\\\"LanguageIdentify\\\", \\\"[\\\", \
-RowBox[{\\\"StringTrim\\\", \\\"[\\\", RowBox[{\\\"First\\\", \\\"[\\\", \
-RowBox[{\\\"{\\\", \\\"}\\\"}], \\\"]\\\"}], \\\"]\\\"}], \\\"]\\\"}]\\).\"", 
-   2, 898, 107, 27203186885888830399, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.944021471214935*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"6663d454-46b7-4313-9fea-01741c56d054"],
-
-Cell[BoxData[
- TemplateBox[{
-  "StringJoin", "string", 
-   "\"String expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \
-\\!\\(\\*RowBox[{RowBox[{\\\"StringReplace\\\", \\\"[\\\", RowBox[{RowBox[{\\\
-\"StringTrim\\\", \\\"[\\\", RowBox[{\\\"First\\\", \\\"[\\\", \
-RowBox[{\\\"{\\\", \\\"}\\\"}], \\\"]\\\"}], \\\"]\\\"}], \\\",\\\", RowBox[{\
-\\\"\\\\\\\"'\\\\\\\"\\\", \\\"\[Rule]\\\", \\\"\\\\\\\"\\\\\\\"\\\"}]}], \
-\\\"]\\\"}], \\\"<>\\\", \\\"\\\\\\\".md\\\\\\\"\\\"}]\\).\"", 2, 898, 108, 
-   27203186885888830399, "Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.944021471266889*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ea6b812e-a89c-45e3-af05-5d2b0d0825d4"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"FileNameJoin", "[", 
-  RowBox[{"{", 
-   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\\"\>", ",", 
-    RowBox[{
-     RowBox[{"StringReplace", "[", 
-      RowBox[{
-       RowBox[{"StringTrim", "[", 
-        RowBox[{"First", "[", 
-         RowBox[{"{", "}"}], "]"}], "]"}], ",", 
-       RowBox[{"\<\"'\"\>", "\[Rule]", "\<\"\"\>"}]}], "]"}], 
-     "<>", "\<\".md\"\>"}]}], "}"}], "]"}]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021471327859*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ca26b09b-bb52-463f-a6d5-674002a4e7ba"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "9", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Give developers their own space.md\"\>"}],
-  SequenceForm[
-  9, ". ", "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
-content\\posts\\Give developers their own space.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021471351591*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"198bd6ae-4d25-4dc3-a986-d0ddd6ebbf84"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Give developers their own space.md\"\>"], \
-"Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214714434214`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d5dd1b5b-a0a3-419e-850c-9ee7f4cd409e"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "10", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\How to use the bug tracking system.md\"\>"}],
-  SequenceForm[
-  10, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\How to use the bug tracking system.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021471463236*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"28187bd8-d0c7-4f47-8d5d-fbc79b1aa9b6"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\How to use the bug tracking \
-system.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021471484911*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"415f808d-3cd1-4b5e-9dcd-7c09603364e3"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "11", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Interfaces.md\"\>"}],
-  SequenceForm[
-  11, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Interfaces.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021471515729*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"66ce38ca-d729-4933-8260-ea13f0e37b84"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Interfaces.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440214715398865`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"763719db-2f13-4a17-ad6f-6cac01190761"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "12", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:041e\:0431\:0449\:0435\:043d\:0438\:0435 \:044d\:0442\
-\:043e \:043a\:043e\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\:043e\:0441\
-\:0442\:044c \:0438 \:043b\:0438\:0434\:0435\:0440\:0441\:0442\:0432\:043e \
-\:044d\:0442\:043e \:0435\:0433\:043e \:0432\:0435\:0440\:043d\:044b\:0435 \
-\:0441\:043b\:0443\:0433\:0438.md\"\>"}],
-  SequenceForm[
-  12, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:041e\:0431\:0449\:0435\:043d\:0438\:0435 \:044d\:0442\:043e \:043a\:043e\
-\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\:043e\:0441\:0442\:044c \:0438 \
-\:043b\:0438\:0434\:0435\:0440\:0441\:0442\:0432\:043e \:044d\:0442\:043e \
-\:0435\:0433\:043e \:0432\:0435\:0440\:043d\:044b\:0435 \:0441\:043b\:0443\
-\:0433\:0438.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.94402147156466*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0cdf2556-5d1d-4c22-919a-e91325f00145"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021471588354*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e82ad05b-5356-46d5-9bb5-90cc253051dc"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Communication is the king, clarity and \
-leadership are its loyal servants.\"\>"}],
-  SequenceForm[
-  "OutputText: ", 
-   "Communication is the king, clarity and leadership are its loyal \
-servants."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215069501762`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ab2381b9-8fcb-449a-818c-9d18cfee97c5"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "73"}],
-  SequenceForm["StringLength[outputText]: ", 73],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021507176697*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"f470b6e3-374b-42e6-b73e-c3aacf83373a"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Communication is the king, clarity and \
-leadership are its loyal servants\"\>"}],
-  SequenceForm[
-  "Translated 1: ", 
-   "Communication is the king, clarity and leadership are its loyal servants"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215096195135`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"1994a5b4-698c-4cc2-b293-3f15ceb4cccd"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Communication is the king, clarity and \
-leadership are its loyal servants\"\>"}],
-  SequenceForm[
-  "Translated 2: ", 
-   "Communication is the king, clarity and leadership are its loyal servants"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021509692153*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"046d3c33-7e97-4a20-844a-623a61c2298b"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Communication is the king, clarity \
-and leadership are its loyal \
-servants'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Communication is the king, clarity and leadership are its \
-loyal servants'\ndate=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\n\
-tags=[]\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n\
-+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021509729557*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"46588b4e-9325-42aa-bf5c-232728347929"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Communication is the king, clarity \
-and leadership are its loyal \
-servants'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:041e\:0431\:0449\:0435\:043d\:0438\:0435 \:044d\:0442\:043e \:043a\
-\:043e\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\:043e\:0441\:0442\:044c \
-\:0438 \:043b\:0438\:0434\:0435\:0440\:0441\:0442\:0432\:043e \:044d\:0442\
-\:043e \:0435\:0433\:043e \:0432\:0435\:0440\:043d\:044b\:0435 \:0441\:043b\
-\:0443\:0433\:0438\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Communication is the king, clarity and leadership are its \
-loyal servants'\ndate=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\n\
-tags=[]\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n\
-+++\n\:041e\:0431\:0449\:0435\:043d\:0438\:0435 \:044d\:0442\:043e \:043a\
-\:043e\:0440\:043e\:043b\:044c, \:044f\:0441\:043d\:043e\:0441\:0442\:044c \
-\:0438 \:043b\:0438\:0434\:0435\:0440\:0441\:0442\:0432\:043e \:044d\:0442\
-\:043e \:0435\:0433\:043e \:0432\:0435\:0440\:043d\:044b\:0435 \:0441\:043b\
-\:0443\:0433\:0438"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215097632127`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"2de61b07-bfc7-4bb9-8c4d-c28333b31a76"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Communication is the king, clarity and \
-leadership are its loyal servants.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215097985563`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"2a09d465-4ae9-4773-9393-b91427e230b8"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "13", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\
-\:044b\:0435 \:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\
-\:0430\:0432\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\
-\:0438 \:0414\:0430\:043d\:043d\:044b\:0445.md\"\>"}],
-  SequenceForm[
-  13, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \:0421\
-\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\:043b\
-\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\:0430\
-\:043d\:043d\:044b\:0445.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215098718653`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"66929462-6832-454c-90f6-afc3f7873992"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021509908738*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c8642b13-929b-4177-9511-5a58929c83ef"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Relational Database Management Systems\"\>"}],
-  SequenceForm["OutputText: ", "Relational Database Management Systems"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215541566024`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d5e780b9-74e8-4312-88fc-e10d5401cdca"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "38"}],
-  SequenceForm["StringLength[outputText]: ", 38],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215542181406`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0ea1bb1f-6312-4800-af9a-036002c72685"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Relational Database Management Systems\"\>"}],
-  SequenceForm["Translated 1: ", "Relational Database Management Systems"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021555357462*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c7643b63-ab5a-4a2b-bd8a-e778c0e95250"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Relational Database Management Systems\"\>"}],
-  SequenceForm["Translated 2: ", "Relational Database Management Systems"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215554168434`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c7fc22b3-4538-46fe-8e23-f27819699174"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Relational Database Management \
-Systems'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Relational Database Management Systems'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215554573407`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e181a274-8194-4d70-90dc-857f0f982863"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Relational Database Management \
-Systems'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \
-\:0421\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\
-\:043b\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\
-\:0430\:043d\:043d\:044b\:0445\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Relational Database Management Systems'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:0420\:0435\:043b\:044f\:0446\:0438\:043e\:043d\:043d\:044b\:0435 \:0421\
-\:0438\:0441\:0442\:0435\:043c\:044b \:0423\:043f\:0440\:0430\:0432\:043b\
-\:0435\:043d\:0438\:044f \:0411\:0430\:0437\:0430\:043c\:0438 \:0414\:0430\
-\:043d\:043d\:044b\:0445"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021555495946*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"152ce6e6-e0f8-4ce0-8496-9ffff5da094f"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Relational Database Management Systems.md\
-\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215555360746`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"1075a4f6-0c92-4085-95f4-19c9d5d82190"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "14", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \
-\:043a\:043e\:0434\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\
-\:043d\:0442\:0443 \:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439.md\
-\"\>"}],
-  SequenceForm[
-  14, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \:043a\:043e\:0434\
-\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\:043d\:0442\:0443 \
-\:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021555581381*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"fc171d81-d701-440e-bdb1-465c9fdbca8f"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021555627061*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ca1a724f-cbee-4851-9406-8bc6f2ddd8a4"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Writing code in the spirit of Ubuntu for friends\
-\"\>"}],
-  SequenceForm[
-  "OutputText: ", "Writing code in the spirit of Ubuntu for friends"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021594482471*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"cffe321b-0956-44a4-972d-6ed2409b6765"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "48"}],
-  SequenceForm["StringLength[outputText]: ", 48],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021594544915*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"3ee77540-f0db-46c1-b16c-8fad4c6c982f"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Writing code in the spirit of Ubuntu for friends\
-\"\>"}],
-  SequenceForm[
-  "Translated 1: ", "Writing code in the spirit of Ubuntu for friends"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021596157027*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"94149693-4b30-4270-b2b0-13de10e730a4"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Writing code in the spirit of Ubuntu for friends\
-\"\>"}],
-  SequenceForm[
-  "Translated 2: ", "Writing code in the spirit of Ubuntu for friends"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021596205036*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e30a3800-0083-42f9-9ad9-b25734be76d8"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Writing code in the spirit of \
-Ubuntu for \
-friends'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Writing code in the spirit of Ubuntu for friends'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215962394834`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"963c6675-904a-4cf3-b737-e6219d7849fd"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Writing code in the spirit of \
-Ubuntu for \
-friends'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \:043a\:043e\
-\:0434\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\:043d\:0442\
-\:0443 \:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Writing code in the spirit of Ubuntu for friends'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:041d\:0430\:043f\:0438\:0441\:0430\:043d\:0438\:0435 \:043a\:043e\:0434\
-\:0430 \:0432 \:0434\:0443\:0445\:0435 \:0423\:0431\:0443\:043d\:0442\:0443 \
-\:0434\:043b\:044f \:0434\:0440\:0443\:0437\:0435\:0439"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021596296884*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"61521820-338d-4cfe-868c-d21ca0bf7992"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Writing code in the spirit of Ubuntu for \
-friends.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215963479557`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ca3e5a3a-65aa-443a-aa90-f54f22ef5ea2"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "15", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\
-\:0442\:0435 \:043a\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\
-\:043d\:043d\:044b\:0435 \
-\:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438.md\"\>"}],
-  SequenceForm[
-  15, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\:0442\:0435 \:043a\
-\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0435\
- \:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215964137335`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d97bce20-9dbd-40cf-9bf6-69c3f81e9346"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440215964579215`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"684449cc-d263-422e-9dc8-7d7321291e4c"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Use quantitative criteria\"\>"}],
-  SequenceForm["OutputText: ", "Use quantitative criteria"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021628735442*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"1d11c78a-b49b-4a49-ae2f-24389cf47aeb"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "25"}],
-  SequenceForm["StringLength[outputText]: ", 25],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216287939034`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"9a36f443-00c3-442f-8476-f6fa59907268"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Use quantitative criteria\"\>"}],
-  SequenceForm["Translated 1: ", "Use quantitative criteria"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216298896675`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ad76d713-93d1-49ab-ba4a-a513bb8c9569"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Use quantitative criteria\"\>"}],
-  SequenceForm["Translated 2: ", "Use quantitative criteria"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216300215507`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ba975416-1dc9-478e-8299-e72f648a875e"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Use quantitative \
-criteria'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Use quantitative criteria'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021630088118*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"62807810-f900-46af-ab23-9e24bd8dc55e"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Use quantitative \
-criteria'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\:0442\:0435 \
-\:043a\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\:043d\:043d\:044b\
-\:0435 \:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Use quantitative criteria'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:0418\:0441\:043f\:043e\:043b\:044c\:0437\:0443\:0439\:0442\:0435 \:043a\
-\:043e\:043b\:0438\:0447\:0435\:0441\:0442\:0432\:0435\:043d\:043d\:044b\:0435\
- \:043a\:0440\:0438\:0442\:0435\:0440\:0438\:0438"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.94402163014091*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"36a390ac-6022-4321-92ec-b91eaa82d8a7"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Use quantitative criteria.md\"\>"], \
-"Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216301770377`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"82df3553-5364-4840-a755-e3fbde1d0be2"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "16", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:041f\:0430\:0440\:0430\:0434\:0438\:0433\:043c\:044b \
-\:043f\:0440\:043e\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\:0432\:0430\
-\:043d\:0438\:044f.md\"\>"}],
-  SequenceForm[
-  16, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:041f\:0430\:0440\:0430\:0434\:0438\:0433\:043c\:044b \:043f\:0440\:043e\
-\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\:0432\:0430\:043d\:0438\:044f\
-.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216302273054`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"6f67c130-4d03-4881-b52d-ff77939f6b04"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216302708955`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"f9b62821-4094-4dee-96b4-0133eca2a952"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Programming paradigms\"\>"}],
-  SequenceForm["OutputText: ", "Programming paradigms"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021659858596*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c6de4998-b3cf-4589-8575-532fb3596923"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "21"}],
-  SequenceForm["StringLength[outputText]: ", 21],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216598862867`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0b6d8129-960e-4a4d-9eb4-34b09c36ae28"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Programming paradigms\"\>"}],
-  SequenceForm["Translated 1: ", "Programming paradigms"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021660899844*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"75640584-3936-446f-91da-f45a16660420"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Programming paradigms\"\>"}],
-  SequenceForm["Translated 2: ", "Programming paradigms"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021660939846*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"bb5fc78a-afd2-4d65-906f-5024c2ccd13f"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Programming \
-paradigms'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Programming paradigms'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021660968416*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"975bb5f8-cd31-41c1-b84b-283a1cab48b3"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Programming \
-paradigms'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:041f\:0430\:0440\:0430\:0434\:0438\:0433\:043c\:044b \:043f\:0440\
-\:043e\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\:0432\:0430\:043d\:0438\
-\:044f\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Programming paradigms'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:041f\:0430\:0440\:0430\:0434\:0438\:0433\:043c\:044b \:043f\:0440\:043e\
-\:0433\:0440\:0430\:043c\:043c\:0438\:0440\:043e\:0432\:0430\:043d\:0438\:044f\
-"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021660998745*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"b2f21925-5989-4ca4-baa7-7537cb9ffe9b"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Programming paradigms.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216610341253`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"cf9dc548-674b-4765-b2a6-6d36d70efb6d"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "17", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:041d\:0435 \:043f\:043e\:043b\:0430\:0433\:0430\:0439\
-\:0442\:0435\:0441\:044c \:043d\:0430 \:0447\:0443\:0434\:0435\:0441\:0430.md\
-\"\>"}],
-  SequenceForm[
-  17, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:041d\:0435 \:043f\:043e\:043b\:0430\:0433\:0430\:0439\:0442\:0435\:0441\
-\:044c \:043d\:0430 \:0447\:0443\:0434\:0435\:0441\:0430.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021661065781*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"a282a194-89b1-4a83-a31b-fa1f884ca78d"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021661096176*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"b9829721-1554-41a9-908c-07a10ef790a8"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Don't rely on miracles.\"\>"}],
-  SequenceForm["OutputText: ", "Don't rely on miracles."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216887397027`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e8d20fb9-722a-4ad0-8f25-2bbc1237d431"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "23"}],
-  SequenceForm["StringLength[outputText]: ", 23],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216887845964`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e2666648-7928-4681-914a-8667eaae9284"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Don't rely on miracles\"\>"}],
-  SequenceForm["Translated 1: ", "Don't rely on miracles"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216901307535`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"b2c89674-ca49-4de2-94b5-7546f2789614"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Don't rely on miracles\"\>"}],
-  SequenceForm["Translated 2: ", "Don't rely on miracles"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021690169532*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"fa2a37d7-d56c-4efe-a48d-0db18bc2f130"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Don't rely on \
-miracles'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\"\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Don't rely on miracles'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216901965656`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"10c4eb08-3075-4a73-909d-7d1af95a5b18"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Don't rely on \
-miracles'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\\
-ntags=[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\\
-n+++\\n\:041d\:0435 \:043f\:043e\:043b\:0430\:0433\:0430\:0439\:0442\:0435\
-\:0441\:044c \:043d\:0430 \:0447\:0443\:0434\:0435\:0441\:0430\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Don't rely on miracles'\ndate=2024-07-10T00:00:00-07:00\n\
-draft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:041d\:0435 \:043f\:043e\:043b\:0430\:0433\:0430\:0439\:0442\:0435\:0441\
-\:044c \:043d\:0430 \:0447\:0443\:0434\:0435\:0441\:0430"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216902245035`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"4451d012-1885-4451-ab7a-833aedcd49c7"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Don't rely on miracles.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216902617617`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"dfc2eca9-25a8-48e3-97e8-c047514c8400"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "18", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:041d\:0443\:0436\:043d\:043e \:0437\:0430\:0431\:043e\
-\:0442\:0438\:0442\:044c\:0441\:044f \:043e \:043a\:043e\:0434\:0435.md\"\>"}],
-  SequenceForm[
-  18, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:041d\:0443\:0436\:043d\:043e \:0437\:0430\:0431\:043e\:0442\:0438\:0442\
-\:044c\:0441\:044f \:043e \:043a\:043e\:0434\:0435.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216902888823`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"2f9d58f7-c4e7-463e-a1ea-18a0a483ca4d"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440216903153024`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"1b6ab519-cba8-4c5a-9535-a20c43405cb6"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"You need to take care of the code.\"\>"}],
-  SequenceForm["OutputText: ", "You need to take care of the code."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021717216255*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c721e171-e696-4cca-aa7f-d1e75575f15a"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "34"}],
-  SequenceForm["StringLength[outputText]: ", 34],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021717242615*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e355052d-d3a0-4d3a-a6bb-0dca837aaed2"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"You need to take care of the code\"\>"}],
-  SequenceForm["Translated 1: ", "You need to take care of the code"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217180031075`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"54d0fc34-2377-4e6d-941b-f6468b508a7a"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"You need to take care of the code\"\>"}],
-  SequenceForm["Translated 2: ", "You need to take care of the code"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021718048084*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"99cee473-1925-4ed6-b6e4-befe238671c2"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='You need to take care of the \
-code'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=[]\
-\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\"\>\
-"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='You need to take care of the code'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021718079082*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e6bb1de6-9528-4b4d-abbc-c73d58a3fb31"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='You need to take care of the \
-code'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=[]\
-\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\\n\
-\:041d\:0443\:0436\:043d\:043e \:0437\:0430\:0431\:043e\:0442\:0438\:0442\
-\:044c\:0441\:044f \:043e \:043a\:043e\:0434\:0435\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='You need to take care of the code'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:041d\:0443\:0436\:043d\:043e \:0437\:0430\:0431\:043e\:0442\:0438\:0442\
-\:044c\:0441\:044f \:043e \:043a\:043e\:0434\:0435"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021718113446*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d8144374-5e37-4be6-be6b-65f1287e22cb"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\You need to take care of the \
-code.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021718142773*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"31cd97f8-3cc8-401d-8e70-615afee4c8ab"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "19", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0422\:0435\:0441\:0442\:044b \:043f\:0438\:0448\:0443\
-\:0442\:0441\:044f \:0434\:043b\:044f \:043b\:044e\:0434\:0435\:0439.md\"\>"}],
-  SequenceForm[
-  19, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0422\:0435\:0441\:0442\:044b \:043f\:0438\:0448\:0443\:0442\:0441\:044f \
-\:0434\:043b\:044f \:043b\:044e\:0434\:0435\:0439.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021718174441*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c07e03bd-724b-4f21-821f-d012e5dd4241"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021718202392*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"fb95d360-132c-4cd3-8e6f-e5e7c9296387"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Tests are written for people.\"\>"}],
-  SequenceForm["OutputText: ", "Tests are written for people."],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021740267378*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"beb09c9a-e9b0-4468-b0e6-c3aaace355ac"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "29"}],
-  SequenceForm["StringLength[outputText]: ", 29],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217403011494`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"bd532fee-2a5f-464d-9a2f-06d43531b394"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Tests are written for people\"\>"}],
-  SequenceForm["Translated 1: ", "Tests are written for people"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021740966051*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"17559326-5d3b-4494-a25d-9b8c04df2d40"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Tests are written for people\"\>"}],
-  SequenceForm["Translated 2: ", "Tests are written for people"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217410026245`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"70dc066b-339f-46ad-9f81-d44ee10de8de"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Tests are written for \
-people'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=\
-[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\"\
-\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Tests are written for people'\ndate=2024-07-10T00:00:00-07:00\
-\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217410258336`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0d17333f-0a45-42a6-a4d1-abaa044352b7"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Tests are written for \
-people'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=\
-[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\\\
-n\:0422\:0435\:0441\:0442\:044b \:043f\:0438\:0448\:0443\:0442\:0441\:044f \
-\:0434\:043b\:044f \:043b\:044e\:0434\:0435\:0439\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Tests are written for people'\ndate=2024-07-10T00:00:00-07:00\
-\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:0422\:0435\:0441\:0442\:044b \:043f\:0438\:0448\:0443\:0442\:0441\:044f \
-\:0434\:043b\:044f \:043b\:044e\:0434\:0435\:0439"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217410489893`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"2ce7612f-634a-4f38-89ac-51e9693850c0"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Tests are written for people.md\"\>"], \
-"Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217410712833`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"583d8546-c99d-440f-bdbb-5766b7fca8ac"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "20", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0421\:043d\:0430\:0447\:0430\:043b\:0430 \:0441\:043a\
-\:0430\:0436\:0438\:0442\:0435 \:0434\:0430.md\"\>"}],
-  SequenceForm[
-  20, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0421\:043d\:0430\:0447\:0430\:043b\:0430 \:0441\:043a\:0430\:0436\:0438\
-\:0442\:0435 \:0434\:0430.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217410964994`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"be36bc8d-d47a-4882-9a35-4d9013403c2d"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021741121572*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"3c049dcf-dc59-4980-b727-eee3dc389d2a"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", "\[InvisibleSpace]", "\<\"\"\>"}],
-  SequenceForm["OutputText: ", ""],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021761432971*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"a8484023-99bf-4084-9ff9-e9c3a8b2f5bf"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "0"}],
-  SequenceForm["StringLength[outputText]: ", 0],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217614720173`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"5fbb7acf-407c-4c6f-a378-0dfce1f8e5d3"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\\:0421\:043d\:0430\:0447\:0430\:043b\:0430\
- \:0441\:043a\:0430\:0436\:0438\:0442\:0435 \:0434\:0430.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.94402176157117*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"90967ce3-5d71-443b-9ed1-1f027b90d5dd"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "21", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435!.md\"\>"}\
-],
-  SequenceForm[
-  21, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435!.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217615912633`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"66106e7b-987f-4179-ad3e-30903f8abf3a"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217616232777`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"987079c6-4eb7-473b-8959-2e6716d217fb"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", "\[InvisibleSpace]", "\<\"Stand up!\"\>"}],
-  SequenceForm["OutputText: ", "Stand up!"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021779596041*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"a0bc04fe-ce9f-442b-bc92-194fde5b7895"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "9"}],
-  SequenceForm["StringLength[outputText]: ", 9],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021779612216*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"f490c0a2-37a5-4aef-89ff-a4b7162129ea"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", "\[InvisibleSpace]", "\<\"Stand up!\"\>"}],
-  SequenceForm["Translated 1: ", "Stand up!"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217800153704`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"4687c409-1496-469d-91f3-8cd1e97ad9fe"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", "\[InvisibleSpace]", "\<\"Stand up!\"\>"}],
-  SequenceForm["Translated 2: ", "Stand up!"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021780052177*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"93429f28-7189-4345-87ea-3f868d07fdf3"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Stand \
-up!'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=[]\
-\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\"\>\
-"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Stand up!'\ndate=2024-07-10T00:00:00-07:00\ndraft=false\n\
-categories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217800764217`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"8e7f5bf1-b4d5-4a56-aee6-76a441c16c7b"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Stand \
-up!'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=[]\
-\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\\n\
-\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435!\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Stand up!'\ndate=2024-07-10T00:00:00-07:00\ndraft=false\n\
-categories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:0412\:0441\:0442\:0430\:043d\:044c\:0442\:0435!"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217800991335`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"334c428f-4f2d-4313-ac8d-bf596381b425"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Stand up!.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021780122854*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"78659580-f162-4e63-88b5-d78b47a78c58"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "22", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\One line of working code costs 500 lines of \
-specifications.md\"\>"}],
-  SequenceForm[
-  22, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\One line of working code costs 500 lines of specifications.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021780147069*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"bcf79299-f0fe-43ea-95c5-16fe5d7acaaf"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\One line of working code costs 500 lines \
-of specifications.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021780169228*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"2884d2ca-f3b8-4ba8-abbe-3e7f7b74e9a3"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "23", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\\:0423\:0434\:043e\:0432\:043b\:0435\:0442\:0432\:043e\
-\:0440\:044f\:0439\:0442\:0435 \:0441\:0432\:043e\:0435 \:0447\:0435\:0441\
-\:0442\:043e\:043b\:044e\:0431\:0438\:0435 \:0447\:0435\:0440\:0435\:0437 \
-Open Source.md\"\>"}],
-  SequenceForm[
-  23, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\\:0423\:0434\:043e\:0432\:043b\:0435\:0442\:0432\:043e\:0440\:044f\:0439\
-\:0442\:0435 \:0441\:0432\:043e\:0435 \:0447\:0435\:0441\:0442\:043e\:043b\
-\:044e\:0431\:0438\:0435 \:0447\:0435\:0440\:0435\:0437 Open Source.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021780191968*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"2d7cbf8b-e107-42dc-848c-429f225d1c57"],
-
-Cell[BoxData["\<\"Starting translate\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217802650013`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ce3a67a1-f5c1-4d0f-bb44-9b410be8301e"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"OutputText: \"\>", 
-   "\[InvisibleSpace]", "\<\"Satisfy your ambition through Open Source\"\>"}],
-  SequenceForm["OutputText: ", "Satisfy your ambition through Open Source"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021799148756*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0b6919e0-defb-4bc9-ae82-c2a9aa501659"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"StringLength[outputText]: \"\>", "\[InvisibleSpace]", "41"}],
-  SequenceForm["StringLength[outputText]: ", 41],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021799165989*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"9e0afa32-a28d-4a2d-b152-7113ebaafe70"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 1: \"\>", 
-   "\[InvisibleSpace]", "\<\"Satisfy your ambition through Open Source\"\>"}],
-  SequenceForm["Translated 1: ", "Satisfy your ambition through Open Source"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217994009905`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"21e88246-edae-496e-8134-b5e3b3075fbd"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"Translated 2: \"\>", 
-   "\[InvisibleSpace]", "\<\"Satisfy your ambition through Open Source\"\>"}],
-  SequenceForm["Translated 2: ", "Satisfy your ambition through Open Source"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217994480553`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c61f961c-f9e5-46ab-99d5-be02697a730b"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newHeader: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Satisfy your ambition through Open \
-Source'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=\
-[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\"\
-\>"}],
-  SequenceForm[
-  "newHeader: ", 
-   "+++\ntitle='Satisfy your ambition through Open Source'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217994651585`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"7885d013-4b27-4294-9711-2ec0a53c3fca"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{"\<\"newContent: \"\>", 
-   "\[InvisibleSpace]", "\<\"+++\\ntitle='Satisfy your ambition through Open \
-Source'\\ndate=2024-07-10T00:00:00-07:00\\ndraft=false\\ncategories=[]\\ntags=\
-[]\\ncover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\\n+++\\\
-n\:0423\:0434\:043e\:0432\:043b\:0435\:0442\:0432\:043e\:0440\:044f\:0439\
-\:0442\:0435 \:0441\:0432\:043e\:0435 \:0447\:0435\:0441\:0442\:043e\:043b\
-\:044e\:0431\:0438\:0435 \:0447\:0435\:0440\:0435\:0437 Open Source\"\>"}],
-  SequenceForm[
-  "newContent: ", 
-   "+++\ntitle='Satisfy your ambition through Open Source'\n\
-date=2024-07-10T00:00:00-07:00\ndraft=false\ncategories=[]\ntags=[]\n\
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'\n+++\n\
-\:0423\:0434\:043e\:0432\:043b\:0435\:0442\:0432\:043e\:0440\:044f\:0439\:0442\
-\:0435 \:0441\:0432\:043e\:0435 \:0447\:0435\:0441\:0442\:043e\:043b\:044e\
-\:0431\:0438\:0435 \:0447\:0435\:0440\:0435\:0437 Open Source"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217994816246`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c80000ab-f531-4ccc-8869-820b65f09e95"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Satisfy your ambition through Open \
-Source.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217995048213`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"33dfd84f-0b96-4cca-b2e8-c820425edad2"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "24", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Perspective as seen from 300 meters.md\"\>"}],
-  SequenceForm[
-  24, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Perspective as seen from 300 meters.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217995265455`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"16467f07-0ffe-4570-9e66-9222778a7708"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Perspective as seen from 300 \
-meters.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021799545302*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c01a181c-af4d-44ac-962b-972ca10924ed"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "25", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\The drama of hype technologies, customer needs, and pangs \
-of conscience.md\"\>"}],
-  SequenceForm[
-  25, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\The drama of hype technologies, customer needs, and pangs of conscience.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.94402179956726*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"bce37a8a-f6fa-40e6-8043-4c99727f1e44"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\The drama of hype technologies, customer \
-needs, and pangs of conscience.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217996439877`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"991090c4-172c-4001-9433-a6d20fb1f2ad"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "26", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\The performance of an application is determined by its \
-architecture.md\"\>"}],
-  SequenceForm[
-  26, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\The performance of an application is determined by its architecture.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021799678564*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"502dee47-687f-48bd-8e30-95c1f594f178"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\The performance of an application is \
-determined by its architecture.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217997035723`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e53f056e-4d19-41a2-b253-74c7beb4dce5"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "27", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\The true meaning of the client's requirements.md\"\>"}],
-  SequenceForm[
-  27, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\The true meaning of the client's requirements.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021799727335*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c13f2351-a299-4251-be1e-60407ba65617"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\The true meaning of the clients \
-requirements.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217998022127`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"7dc332c4-34a8-4626-bf1b-a75a95143c9c"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "28", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Thinking about performance is never too early.md\"\>"}],
-  SequenceForm[
-  28, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Thinking about performance is never too early.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217998334293`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"ab4c9375-3843-4dd4-b866-5949d9bdea87"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Thinking about performance is never too \
-early.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021799906123*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"f22c8b56-ba83-479c-b46c-50486ef01b77"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "29", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Time changes everything.md\"\>"}],
-  SequenceForm[
-  29, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Time changes everything.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440217999424477`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"9edc1281-1cfb-4b66-b430-428f963d1915"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Time changes everything.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800023615*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d256a8cf-f8e6-4900-805e-91d1ac4d88db"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "30", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\To do something hastily and run away is a crime.md\"\>"}],
-  SequenceForm[
-  30, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\To do something hastily and run away is a crime.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800047785*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"0918841a-580b-4a9f-9249-3082410302c6"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\To do something hastily and run away is a \
-crime.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218001075416`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"18bd2312-16bb-4641-b2c6-0a371d4b8a23"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "31", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Try before you decide.md\"\>"}],
-  SequenceForm[
-  31, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Try before you decide.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218001336913`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"219e412f-93b7-4702-9ae9-04cffd179cd6"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Try before you decide.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800150258*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"5c2c84c8-e0a6-4648-93d7-5e82efc7517b"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "32", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Try not to alter the timetable.md\"\>"}],
-  SequenceForm[
-  32, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Try not to alter the timetable.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800170128*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e110440f-4e96-4236-81aa-07db8097281e"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Try not to alter the timetable.md\"\>"], \
-"Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800227254*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"e0c2fe60-3e6e-48c6-883c-738a062fe7bb"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "33", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Two mistakes can cancel each other out, making them \
-difficult to correct.md\"\>"}],
-  SequenceForm[
-  33, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Two mistakes can cancel each other out, making them difficult to \
-correct.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218002564807`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"328fac74-5394-43fd-a82a-491fa7e30ec2"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Two mistakes can cancel each other out, \
-making them difficult to correct.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218003079386`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"b36df53f-5b10-4e1d-83c0-78c02b6ce9a2"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "34", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\When programmers and testers collaborate.md\"\>"}],
-  SequenceForm[
-  34, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\When programmers and testers collaborate.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218003332376`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"d733edf4-ee77-48b5-8702-6dc52135a537"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\When programmers and testers \
-collaborate.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218003826337`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"70de7850-829d-4654-bbbe-e5da45f4fc43"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "35", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Write code as if you will be maintaining it for the rest \
-of your life.md\"\>"}],
-  SequenceForm[
-  35, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Write code as if you will be maintaining it for the rest of your life.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218004050207`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"7faf6e26-bcfd-48c8-a2f5-6d15e185458b"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Write code as if you will be maintaining \
-it for the rest of your life.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218004539223`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"706cef9e-76ad-43e2-9d44-4735dee2a672"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "36", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\You are negotiating.md\"\>"}],
-  SequenceForm[
-  36, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\You are negotiating.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800479165*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"6e72e935-fa4c-4af9-9947-ec30831c411b"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\You are negotiating.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800536374*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"94bcd7c7-5228-4550-aa76-91b0ecb65833"],
-
-Cell[BoxData[
- InterpretationBox[
-  RowBox[{
-  "37", "\[InvisibleSpace]", "\<\". \"\>", 
-   "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
-content\\\\posts\\\\Your clients mean something different than what they \
-say.md\"\>"}],
-  SequenceForm[
-  37, ". ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\content\\posts\
-\\Your clients mean something different than what they say.md"],
-  Editable->False]], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.944021800560151*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"c8f4a6b2-0695-4a4c-8dfb-2a47ffe974f9"],
-
-Cell[BoxData["\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-korolev.blog\\\\content\\\\posts\\\\Your clients mean something different \
-than what they say.md\"\>"], "Print",
- CellChangeTimes->{3.9440193230999374`*^9, 3.9440195035590754`*^9, 
-  3.944019749400916*^9, 3.944019903578165*^9, 3.9440202115401745`*^9, 
-  3.94402041328931*^9, 3.9440206282087135`*^9, 3.944020886670841*^9, 
-  3.944021047545787*^9, 3.9440218006126537`*^9},
- CellLabel->
-  "During evaluation of \
-In[898]:=",ExpressionUUID->"5e288efe-fa49-408d-9b6a-374cc79886f8"]
-}, Open  ]]
-}, Open  ]]
+197b4f6a7954"]
 },
-WindowSize->{1152, 699.75},
-WindowMargins->{{-6, Automatic}, {Automatic, -6}},
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+WindowSize->{1140, 693.75},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>0.7 Inherited,
+FrontEndVersion->"14.1 for Microsoft Windows (64-bit) (July 16, 2024)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"c90a38e2-c8d6-4758-8a92-605b9ae1158f"
 ]
@@ -3807,236 +1132,60 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 635, 14, 32, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
-Cell[1218, 38, 7808, 118, 449, "Output",ExpressionUUID->"ee57690b-8ade-4596-a763-b0aab65ee492"]
+Cell[580, 22, 630, 13, 29, "Input",ExpressionUUID->"4cdf9430-8758-4fb8-98ce-1e0ce6a72436"],
+Cell[1213, 37, 10704, 157, 488, "Output",ExpressionUUID->"dd861bcc-9838-4f43-851a-35896d42fbf6"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9063, 161, 192, 4, 32, "Input",ExpressionUUID->"6f48f72f-b089-4744-882f-fbe0b4a6e230"],
-Cell[9258, 167, 499, 8, 35, "Output",ExpressionUUID->"e2f2a9bd-ba02-4d3d-9ce2-a1dbb819d168"]
+Cell[11954, 199, 187, 3, 29, "Input",ExpressionUUID->"6f48f72f-b089-4744-882f-fbe0b4a6e230"],
+Cell[12144, 204, 542, 7, 23, "Output",ExpressionUUID->"2fdea86e-86e1-d445-bec7-b3c8c1fed8d2"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9794, 180, 20577, 382, 1601, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
+Cell[12723, 216, 21084, 393, 1518, "Input",ExpressionUUID->"c8075ac6-894d-436e-b634-55ef40986281"],
 Cell[CellGroupData[{
-Cell[30396, 566, 565, 14, 18, "Print",ExpressionUUID->"c5a2977a-4b6b-4176-aa2f-3f1b611d0f28"],
-Cell[30964, 582, 307, 6, 18, "Print",ExpressionUUID->"59fbc961-9e13-475e-adac-96147f09b168"],
-Cell[31274, 590, 603, 14, 18, "Print",ExpressionUUID->"010e45a3-486e-48f4-b56b-8a69fc5bddad"],
-Cell[31880, 606, 325, 6, 18, "Print",ExpressionUUID->"cee7fd1a-f97a-4dd4-b508-60fb9a135371"],
-Cell[32208, 614, 601, 14, 18, "Print",ExpressionUUID->"53e5c6e4-42bd-4351-8ede-edc20971e534"],
-Cell[32812, 630, 325, 6, 18, "Print",ExpressionUUID->"41d02980-c0ef-400a-b822-7df6f30ac637"],
-Cell[33140, 638, 583, 14, 18, "Print",ExpressionUUID->"ab7b85aa-e649-4156-a2c4-f75126dd67aa"],
-Cell[33726, 654, 317, 6, 18, "Print",ExpressionUUID->"694a4f13-e390-4378-8d85-7f8970afa6ee"],
-Cell[34046, 662, 557, 14, 18, "Print",ExpressionUUID->"74a2cc7b-1c13-413e-b73d-726d9e7f6e58"],
-Cell[34606, 678, 301, 5, 18, "Print",ExpressionUUID->"2009c0ef-0d7d-4576-a686-fbe8895b3649"],
-Cell[34910, 685, 557, 14, 18, "Print",ExpressionUUID->"09e13605-fa9a-456b-9251-290e484b89b1"],
-Cell[35470, 701, 302, 5, 18, "Print",ExpressionUUID->"3d032f7a-241a-48b2-9988-6490b2cbc1b3"],
-Cell[35775, 708, 587, 14, 18, "Print",ExpressionUUID->"c11b7431-9338-472a-b263-02f0622dd9ce"],
-Cell[36365, 724, 320, 6, 18, "Print",ExpressionUUID->"799b7238-3e39-40fd-b4f6-0849ac79a3b6"],
-Cell[36688, 732, 554, 14, 18, "Print",ExpressionUUID->"d727f955-232d-4908-b5ba-45d8e1eb68e4"],
-Cell[37245, 748, 302, 5, 18, "Print",ExpressionUUID->"3d1de641-a8d6-4d54-90eb-8c735e0a35f9"],
-Cell[37550, 755, 543, 14, 18, "Print",ExpressionUUID->"e7b825b1-2c09-43a5-84c6-e8e3c0cfa56f"],
-Cell[38096, 771, 295, 5, 18, "Print",ExpressionUUID->"bdeb3931-4fb2-4d90-982b-6191562db081"],
-Cell[38394, 778, 583, 15, 18, "Print",ExpressionUUID->"83b44210-129f-452d-ac03-55d6e0d4c336"],
-Cell[38980, 795, 315, 6, 18, "Print",ExpressionUUID->"ff1e98d8-2ba4-420e-a55c-501077f6fad0"],
-Cell[39298, 803, 591, 15, 18, "Print",ExpressionUUID->"49cf3d46-2b51-44fb-bd2e-39044a7d2366"],
-Cell[39892, 820, 316, 6, 18, "Print",ExpressionUUID->"c09fde56-b50b-423f-8349-1416b8708987"],
-Cell[40211, 828, 543, 15, 18, "Print",ExpressionUUID->"4caeee4a-49a1-4dd1-b4d9-936ef132e7ca"],
-Cell[40757, 845, 290, 5, 18, "Print",ExpressionUUID->"8c711daa-676b-433a-98b5-ae2e475deaee"],
-Cell[41050, 852, 1159, 23, 18, "Print",ExpressionUUID->"a6d8d019-0284-4e14-8624-b3e3e0270299"],
-Cell[42212, 877, 200, 4, 18, "Print",ExpressionUUID->"7197099d-51bb-407f-b469-5d029e6874a2"],
-Cell[42415, 883, 318, 8, 18, "Print",ExpressionUUID->"8706bb2d-f38b-4ae8-b09d-3cebcb980d86"],
-Cell[42736, 893, 336, 8, 18, "Print",ExpressionUUID->"f105d724-234e-4122-a1d1-9f566c09ce98"],
-Cell[43075, 903, 600, 9, 18, "Print",ExpressionUUID->"851ff040-951f-434c-9a1c-d7696f3801d2"],
-Cell[43678, 914, 1023, 21, 18, "Print",ExpressionUUID->"569b8c35-8f61-4503-a992-de06622d082f"],
-Cell[44704, 937, 200, 4, 18, "Print",ExpressionUUID->"52019b0a-970f-4f2f-bba5-bedae70582d1"],
-Cell[44907, 943, 817, 17, 18, "Print",ExpressionUUID->"19254d01-f8f6-4a45-8fe6-0324715b1fda"],
-Cell[45727, 962, 340, 8, 18, "Print",ExpressionUUID->"fab439f2-20a7-402f-8404-95fd63d00ecd"],
-Cell[46070, 972, 823, 17, 18, "Print",ExpressionUUID->"d55adba3-e83b-48d4-9bef-0b99466b5d0a"],
-Cell[46896, 991, 821, 17, 18, "Print",ExpressionUUID->"890e132a-46f3-4a43-a331-d5ae19e8920a"],
-Cell[47720, 1010, 1140, 22, 109, "Print",ExpressionUUID->"8c1b8cd5-e11d-4542-825a-bcc006e26ac0"],
-Cell[48863, 1034, 1649, 29, 122, "Print",ExpressionUUID->"fef4f6d8-33fe-4b84-86cb-efc1453908cb"],
-Cell[50515, 1065, 527, 8, 18, "Print",ExpressionUUID->"de3aa2f7-40f0-49f8-a2fd-1bdf8a379dac"],
-Cell[51045, 1075, 941, 20, 18, "Print",ExpressionUUID->"0adf9f75-ae6c-4552-afb3-a2083678107c"],
-Cell[51989, 1097, 199, 4, 18, "Print",ExpressionUUID->"5af8407d-d315-4d73-b8eb-66a2ea5d8184"],
-Cell[52191, 1103, 431, 11, 18, "Print",ExpressionUUID->"7c0ddee1-c164-43c5-948d-a665868d8861"],
-Cell[52625, 1116, 337, 8, 18, "Print",ExpressionUUID->"b1a92b18-a3ec-4260-a7eb-6cc738e1efcb"],
-Cell[52965, 1126, 435, 11, 18, "Print",ExpressionUUID->"6d690f55-ac42-4fea-95cc-8403661bea06"],
-Cell[53403, 1139, 435, 11, 18, "Print",ExpressionUUID->"68770b7e-c239-4fdc-a0a3-499814800e96"],
-Cell[53841, 1152, 758, 17, 109, "Print",ExpressionUUID->"b9fb60d5-ca8b-43f8-97bc-27b5c2301d4c"],
-Cell[54602, 1171, 1181, 22, 122, "Print",ExpressionUUID->"9d742511-31fd-4906-9573-5c1c2ccbbfb2"],
-Cell[55786, 1195, 336, 6, 18, "Print",ExpressionUUID->"feb1187d-9dfb-4022-99de-0ec638d8a91b"],
-Cell[56125, 1203, 931, 20, 18, "Print",ExpressionUUID->"1019e073-3a8a-4e4e-84ed-873895cd229c"],
-Cell[57059, 1225, 200, 4, 18, "Print",ExpressionUUID->"4f7d1be5-04eb-47d9-8776-76c75bb14b80"],
-Cell[57262, 1231, 372, 9, 18, "Print",ExpressionUUID->"d3b0b094-8568-40cb-9673-c4ef95298058"],
-Cell[57637, 1242, 338, 8, 18, "Print",ExpressionUUID->"85ef9389-cba4-4bb9-8baa-6f2c6750b47e"],
-Cell[57978, 1252, 374, 9, 18, "Print",ExpressionUUID->"f5e32c6a-90b7-4d11-955d-a6c167ee53b9"],
-Cell[58355, 1263, 374, 9, 18, "Print",ExpressionUUID->"a8646bbc-e205-4727-b2b0-5971dd2b99e8"],
-Cell[58732, 1274, 702, 16, 109, "Print",ExpressionUUID->"f1bd0927-f6a8-46ac-8abc-8e1cf6f3bcc8"],
-Cell[59437, 1292, 1119, 21, 122, "Print",ExpressionUUID->"d126faf8-f656-44c1-9c72-ed93abbdb6a0"],
-Cell[60559, 1315, 307, 6, 18, "Print",ExpressionUUID->"7b3ef0b9-ccbe-4a19-a8aa-36d9976a11b9"],
-Cell[60869, 1323, 921, 19, 18, "Print",ExpressionUUID->"1b4e8fc0-38f4-44df-a8be-8592aef0d59c"],
-Cell[61793, 1344, 202, 4, 18, "Print",ExpressionUUID->"0c17a8ca-1c86-4716-93ff-d8def249096f"]
+Cell[33832, 613, 565, 14, 17, "Print",ExpressionUUID->"17fc6afc-c0f5-b441-af26-a3930816b801"],
+Cell[34400, 629, 307, 6, 17, "Print",ExpressionUUID->"959f219f-277e-2f40-9150-4bf39c9abf40"],
+Cell[34710, 637, 601, 14, 17, "Print",ExpressionUUID->"8716b975-e500-d447-9073-e85551f21b21"],
+Cell[35314, 653, 325, 6, 17, "Print",ExpressionUUID->"2048bfd1-5309-0447-a547-f7ec734ff326"],
+Cell[35642, 661, 663, 16, 17, "Print",ExpressionUUID->"ee47b2f5-ab6a-464a-8eb2-c936b194b97a"],
+Cell[36308, 679, 354, 6, 17, "Print",ExpressionUUID->"13b865bb-7bc5-2644-85ed-59ed7dd08a04"],
+Cell[36665, 687, 601, 14, 17, "Print",ExpressionUUID->"3053fbe5-86e1-5a4c-9cc8-c5852919f1bd"],
+Cell[37269, 703, 323, 6, 17, "Print",ExpressionUUID->"9a60159b-f002-c243-9c9f-22b015d668df"],
+Cell[37595, 711, 585, 14, 17, "Print",ExpressionUUID->"974a7a16-627e-4d4d-a6a5-93d4a009a099"],
+Cell[38183, 727, 317, 6, 17, "Print",ExpressionUUID->"7f652eaf-f50d-8045-9845-5e44315168b8"],
+Cell[38503, 735, 561, 14, 17, "Print",ExpressionUUID->"9261e4f9-3f92-b942-b72a-49f60aa1ac04"],
+Cell[39067, 751, 301, 5, 17, "Print",ExpressionUUID->"0686b347-12d3-b149-8646-0db55c0d3753"],
+Cell[39371, 758, 561, 14, 17, "Print",ExpressionUUID->"a13517ff-1786-be4d-8c2d-2437848f8900"],
+Cell[39935, 774, 301, 5, 17, "Print",ExpressionUUID->"0652e743-ab6b-3149-b21a-6e05be7551ad"],
+Cell[40239, 781, 557, 14, 17, "Print",ExpressionUUID->"27179f8a-1283-8048-ac71-37d237e36f3c"],
+Cell[40799, 797, 300, 5, 17, "Print",ExpressionUUID->"2b9fccfc-76c9-6d45-b2ad-aba28a808d5e"],
+Cell[41102, 804, 587, 14, 17, "Print",ExpressionUUID->"f83d0bdb-e4dc-1b4b-8711-2a8cc435f4e9"],
+Cell[41692, 820, 318, 6, 17, "Print",ExpressionUUID->"54a35d19-4a14-0c49-a44b-a60edab324ad"],
+Cell[42013, 828, 561, 15, 17, "Print",ExpressionUUID->"6d9ec6ac-8e69-3243-9140-ebc125e59c4f"],
+Cell[42577, 845, 300, 5, 17, "Print",ExpressionUUID->"31d2178d-2767-cb4a-b0bf-5f35ba57272a"],
+Cell[42880, 852, 547, 15, 17, "Print",ExpressionUUID->"b324ea84-7e5d-fc49-bdd4-ed6fb93cd547"],
+Cell[43430, 869, 293, 5, 17, "Print",ExpressionUUID->"fd9cc453-0385-d24a-bbac-f10c5116291a"],
+Cell[43726, 876, 583, 15, 17, "Print",ExpressionUUID->"a408917a-445b-d04d-9739-0bdd35a6d206"],
+Cell[44312, 893, 313, 6, 17, "Print",ExpressionUUID->"336e412c-56e8-464b-9fee-9a7fe467cacc"],
+Cell[44628, 901, 589, 15, 17, "Print",ExpressionUUID->"259aa0c0-9cae-a146-8b67-8b77e384df8f"],
+Cell[45220, 918, 316, 6, 17, "Print",ExpressionUUID->"8950be03-722e-c942-9142-f92e386ff2aa"],
+Cell[45539, 926, 539, 15, 17, "Print",ExpressionUUID->"4ca4f0f5-9993-114d-8829-1bd21ae64ed1"],
+Cell[46081, 943, 290, 5, 17, "Print",ExpressionUUID->"68a7c116-7c71-fd43-adbe-152147ebc647"],
+Cell[46374, 950, 1079, 21, 17, "Print",ExpressionUUID->"1c641e96-1fde-b247-a71f-ec89525005cd"],
+Cell[47456, 973, 200, 4, 17, "Print",ExpressionUUID->"9f4774bd-cff7-b248-8f8b-a1063ac6d865"],
+Cell[47659, 979, 314, 8, 17, "Print",ExpressionUUID->"8e09a605-e864-224c-8db6-0aa1555e1a0c"],
+Cell[47976, 989, 334, 8, 17, "Print",ExpressionUUID->"5655e505-e7f9-a24c-8aae-8288d4c2822a"],
+Cell[48313, 999, 559, 9, 17, "Print",ExpressionUUID->"8ad53df4-10c7-fe45-a166-e88b06ce7c73"],
+Cell[48875, 1010, 1131, 23, 17, "Print",ExpressionUUID->"55232431-0795-dd42-848f-a69396784a09"],
+Cell[50009, 1035, 200, 4, 17, "Print",ExpressionUUID->"8e607a5a-a5c7-164b-b1f1-b25d3fcb5714"],
+Cell[50212, 1041, 314, 8, 17, "Print",ExpressionUUID->"5dd9805a-2103-cd43-b6d4-29a5c3c84d9d"],
+Cell[50529, 1051, 334, 8, 17, "Print",ExpressionUUID->"67c688cf-29c2-6f46-9479-f5d02c1ac06c"],
+Cell[50866, 1061, 585, 9, 17, "Print",ExpressionUUID->"43de41ee-8ead-5548-ae37-756dbf37671b"],
+Cell[51454, 1072, 1081, 22, 17, "Print",ExpressionUUID->"ee3ec8dc-d1b0-1c49-b060-bc6d6222a226"],
+Cell[52538, 1096, 198, 4, 17, "Print",ExpressionUUID->"5222a961-0acd-324a-b197-4ce6ea6db765"]
 }, Open  ]],
-Cell[62010, 1351, 162, 3, 35, "Output",ExpressionUUID->"e0945ebb-5b25-4e91-9103-cb6eb279a8c3"]
+Cell[52751, 1103, 155, 2, 23, "Output",ExpressionUUID->"a64f4e2a-33d3-9346-b880-b93028c66503"]
 }, Open  ]],
-Cell[CellGroupData[{
-Cell[62209, 1359, 205, 5, 32, "Input",ExpressionUUID->"bddd4140-b25a-4327-b147-197b4f6a7954"],
-Cell[CellGroupData[{
-Cell[62439, 1368, 779, 17, 18, "Print",ExpressionUUID->"0adc610d-44b7-483d-bb51-14a780076eb0"],
-Cell[63221, 1387, 523, 9, 18, "Print",ExpressionUUID->"e616e54d-fd94-4520-a7cd-e0ca2e2f57a5"],
-Cell[63747, 1398, 817, 17, 18, "Print",ExpressionUUID->"97c26e8c-3a90-4e24-99d1-d7d2240074a1"],
-Cell[64567, 1417, 539, 9, 18, "Print",ExpressionUUID->"fe38aed2-36a4-4b18-8a9c-b47b73b7ee11"],
-Cell[65109, 1428, 817, 17, 18, "Print",ExpressionUUID->"ae42c7d2-a60c-427b-9d09-286e893faa88"],
-Cell[65929, 1447, 541, 9, 18, "Print",ExpressionUUID->"798888c1-0e4c-421a-a3f7-690535001480"],
-Cell[66473, 1458, 797, 17, 18, "Print",ExpressionUUID->"c0a02868-d43a-4f52-a838-4da0d61a0e24"],
-Cell[67273, 1477, 531, 9, 18, "Print",ExpressionUUID->"8cfd9f8c-0ca0-400e-a33f-e347a773a361"],
-Cell[67807, 1488, 771, 17, 18, "Print",ExpressionUUID->"0d155b1b-7af8-48bb-adc0-bf6db6553197"],
-Cell[68581, 1507, 517, 8, 18, "Print",ExpressionUUID->"81d2de21-72e0-41a5-ab30-dab965f3d3de"],
-Cell[69101, 1517, 771, 17, 18, "Print",ExpressionUUID->"10573c09-e60b-4e54-9948-9af1a039b12b"],
-Cell[69875, 1536, 514, 8, 18, "Print",ExpressionUUID->"96b13f06-900a-4d1b-a0f3-e5f9532d70c5"],
-Cell[70392, 1546, 803, 17, 18, "Print",ExpressionUUID->"ae6da769-997c-43e2-9d8a-640755ce876e"],
-Cell[71198, 1565, 532, 9, 18, "Print",ExpressionUUID->"62adbd1a-6caf-4ea3-bd50-95670d49ab29"],
-Cell[71733, 1576, 771, 17, 18, "Print",ExpressionUUID->"d4907e16-038b-4313-8135-813e4ee436e8"]
-}, Open  ]],
-Cell[72519, 1596, 380, 9, 22, "Message",ExpressionUUID->"96c26f9e-167a-46e9-829d-3aefe5cb4b17"],
-Cell[72902, 1607, 529, 11, 22, "Message",ExpressionUUID->"d6cd1769-5480-4b6e-bbd6-16b772524f6c"],
-Cell[73434, 1620, 698, 14, 22, "Message",ExpressionUUID->"998b922a-e73e-4b81-8c8f-ce6e5d2cfc51"],
-Cell[74135, 1636, 579, 12, 22, "Message",ExpressionUUID->"6663d454-46b7-4313-9fea-01741c56d054"],
-Cell[74717, 1650, 726, 14, 22, "Message",ExpressionUUID->"ea6b812e-a89c-45e3-af05-5d2b0d0825d4"],
-Cell[CellGroupData[{
-Cell[75468, 1668, 842, 19, 18, "Print",ExpressionUUID->"ca26b09b-bb52-463f-a6d5-674002a4e7ba"],
-Cell[76313, 1689, 791, 17, 18, "Print",ExpressionUUID->"198bd6ae-4d25-4dc3-a986-d0ddd6ebbf84"],
-Cell[77107, 1708, 529, 9, 18, "Print",ExpressionUUID->"d5dd1b5b-a0a3-419e-850c-9ee7f4cd409e"],
-Cell[77639, 1719, 803, 18, 18, "Print",ExpressionUUID->"28187bd8-d0c7-4f47-8d5d-fbc79b1aa9b6"],
-Cell[78445, 1739, 530, 9, 18, "Print",ExpressionUUID->"415f808d-3cd1-4b5e-9dcd-7c09603364e3"],
-Cell[78978, 1750, 755, 18, 18, "Print",ExpressionUUID->"66ce38ca-d729-4933-8260-ea13f0e37b84"],
-Cell[79736, 1770, 506, 8, 18, "Print",ExpressionUUID->"763719db-2f13-4a17-ad6f-6cac01190761"],
-Cell[80245, 1780, 1370, 26, 18, "Print",ExpressionUUID->"0cdf2556-5d1d-4c22-919a-e91325f00145"],
-Cell[81618, 1808, 414, 7, 18, "Print",ExpressionUUID->"e82ad05b-5356-46d5-9bb5-90cc253051dc"],
-Cell[82035, 1817, 693, 16, 18, "Print",ExpressionUUID->"ab2381b9-8fcb-449a-818c-9d18cfee97c5"],
-Cell[82731, 1835, 552, 11, 18, "Print",ExpressionUUID->"f470b6e3-374b-42e6-b73e-c3aacf83373a"],
-Cell[83286, 1848, 693, 15, 18, "Print",ExpressionUUID->"1994a5b4-698c-4cc2-b293-3f15ceb4cccd"],
-Cell[83982, 1865, 691, 15, 18, "Print",ExpressionUUID->"046d3c33-7e97-4a20-844a-623a61c2298b"],
-Cell[84676, 1882, 1012, 21, 109, "Print",ExpressionUUID->"46588b4e-9325-42aa-bf5c-232728347929"],
-Cell[85691, 1905, 1657, 29, 122, "Print",ExpressionUUID->"2de61b07-bfc7-4bb9-8c4d-c28333b31a76"],
-Cell[87351, 1936, 570, 9, 18, "Print",ExpressionUUID->"2a09d465-4ae9-4773-9393-b91427e230b8"],
-Cell[87924, 1947, 1237, 24, 18, "Print",ExpressionUUID->"66929462-6832-454c-90f6-afc3f7873992"],
-Cell[89164, 1973, 414, 7, 18, "Print",ExpressionUUID->"c8642b13-929b-4177-9511-5a58929c83ef"],
-Cell[89581, 1982, 612, 12, 18, "Print",ExpressionUUID->"d5e780b9-74e8-4312-88fc-e10d5401cdca"],
-Cell[90196, 1996, 554, 11, 18, "Print",ExpressionUUID->"0ea1bb1f-6312-4800-af9a-036002c72685"],
-Cell[90753, 2009, 614, 12, 18, "Print",ExpressionUUID->"c7643b63-ab5a-4a2b-bd8a-e778c0e95250"],
-Cell[91370, 2023, 616, 12, 18, "Print",ExpressionUUID->"c7fc22b3-4538-46fe-8e23-f27819699174"],
-Cell[91989, 2037, 942, 19, 109, "Print",ExpressionUUID->"e181a274-8194-4d70-90dc-857f0f982863"],
-Cell[92934, 2058, 1449, 26, 122, "Print",ExpressionUUID->"152ce6e6-e0f8-4ce0-8496-9ffff5da094f"],
-Cell[94386, 2086, 536, 9, 18, "Print",ExpressionUUID->"1075a4f6-0c92-4085-95f4-19c9d5d82190"],
-Cell[94925, 2097, 1153, 23, 18, "Print",ExpressionUUID->"fc171d81-d701-440e-bdb1-465c9fdbca8f"],
-Cell[96081, 2122, 414, 7, 18, "Print",ExpressionUUID->"ca1a724f-cbee-4851-9406-8bc6f2ddd8a4"],
-Cell[96498, 2131, 635, 14, 18, "Print",ExpressionUUID->"cffe321b-0956-44a4-972d-6ed2409b6765"],
-Cell[97136, 2147, 552, 11, 18, "Print",ExpressionUUID->"3ee77540-f0db-46c1-b16c-8fad4c6c982f"],
-Cell[97691, 2160, 639, 14, 18, "Print",ExpressionUUID->"94149693-4b30-4270-b2b0-13de10e730a4"],
-Cell[98333, 2176, 639, 14, 18, "Print",ExpressionUUID->"e30a3800-0083-42f9-9ad9-b25734be76d8"],
-Cell[98975, 2192, 964, 20, 109, "Print",ExpressionUUID->"963c6675-904a-4cf3-b737-e6219d7849fd"],
-Cell[99942, 2214, 1387, 25, 122, "Print",ExpressionUUID->"61521820-338d-4cfe-868c-d21ca0bf7992"],
-Cell[101332, 2241, 546, 9, 18, "Print",ExpressionUUID->"ca3e5a3a-65aa-443a-aa90-f54f22ef5ea2"],
-Cell[101881, 2252, 1147, 23, 18, "Print",ExpressionUUID->"d97bce20-9dbd-40cf-9bf6-69c3f81e9346"],
-Cell[103031, 2277, 416, 7, 18, "Print",ExpressionUUID->"684449cc-d263-422e-9dc8-7d7321291e4c"],
-Cell[103450, 2286, 584, 12, 18, "Print",ExpressionUUID->"1d11c78a-b49b-4a49-ae2f-24389cf47aeb"],
-Cell[104037, 2300, 554, 11, 18, "Print",ExpressionUUID->"9a36f443-00c3-442f-8476-f6fa59907268"],
-Cell[104594, 2313, 590, 12, 18, "Print",ExpressionUUID->"ad76d713-93d1-49ab-ba4a-a513bb8c9569"],
-Cell[105187, 2327, 590, 12, 18, "Print",ExpressionUUID->"ba975416-1dc9-478e-8299-e72f648a875e"],
-Cell[105780, 2341, 914, 19, 109, "Print",ExpressionUUID->"62807810-f900-46af-ab23-9e24bd8dc55e"],
-Cell[106697, 2362, 1330, 24, 122, "Print",ExpressionUUID->"36a390ac-6022-4321-92ec-b91eaa82d8a7"],
-Cell[108030, 2388, 523, 9, 18, "Print",ExpressionUUID->"82df3553-5364-4840-a755-e3fbde1d0be2"],
-Cell[108556, 2399, 1047, 22, 18, "Print",ExpressionUUID->"6f67c130-4d03-4881-b52d-ff77939f6b04"],
-Cell[109606, 2423, 416, 7, 18, "Print",ExpressionUUID->"f9b62821-4094-4dee-96b4-0133eca2a952"],
-Cell[110025, 2432, 576, 12, 18, "Print",ExpressionUUID->"c6de4998-b3cf-4589-8575-532fb3596923"],
-Cell[110604, 2446, 554, 11, 18, "Print",ExpressionUUID->"0b6d8129-960e-4a4d-9eb4-34b09c36ae28"],
-Cell[111161, 2459, 580, 12, 18, "Print",ExpressionUUID->"75640584-3936-446f-91da-f45a16660420"],
-Cell[111744, 2473, 580, 12, 18, "Print",ExpressionUUID->"bb5fc78a-afd2-4d65-906f-5024c2ccd13f"],
-Cell[112327, 2487, 906, 19, 109, "Print",ExpressionUUID->"975bb5f8-cd31-41c1-b84b-283a1cab48b3"],
-Cell[113236, 2508, 1225, 24, 122, "Print",ExpressionUUID->"b2f21925-5989-4ca4-baa7-7537cb9ffe9b"],
-Cell[114464, 2534, 517, 8, 18, "Print",ExpressionUUID->"cf9dc548-674b-4765-b2a6-6d36d70efb6d"],
-Cell[114984, 2544, 999, 21, 18, "Print",ExpressionUUID->"a282a194-89b1-4a83-a31b-fa1f884ca78d"],
-Cell[115986, 2567, 414, 7, 18, "Print",ExpressionUUID->"b9829721-1554-41a9-908c-07a10ef790a8"],
-Cell[116403, 2576, 582, 12, 18, "Print",ExpressionUUID->"e8d20fb9-722a-4ad0-8f25-2bbc1237d431"],
-Cell[116988, 2590, 554, 11, 18, "Print",ExpressionUUID->"e2666648-7928-4681-914a-8667eaae9284"],
-Cell[117545, 2603, 584, 12, 18, "Print",ExpressionUUID->"b2c89674-ca49-4de2-94b5-7546f2789614"],
-Cell[118132, 2617, 582, 12, 18, "Print",ExpressionUUID->"fa2a37d7-d56c-4efe-a48d-0db18bc2f130"],
-Cell[118717, 2631, 910, 19, 109, "Print",ExpressionUUID->"10c4eb08-3075-4a73-909d-7d1af95a5b18"],
-Cell[119630, 2652, 1181, 22, 122, "Print",ExpressionUUID->"4451d012-1885-4451-ab7a-833aedcd49c7"],
-Cell[120814, 2676, 518, 8, 18, "Print",ExpressionUUID->"dfc2eca9-25a8-48e3-97e8-c047514c8400"],
-Cell[121335, 2686, 987, 20, 18, "Print",ExpressionUUID->"2f9d58f7-c4e7-463e-a1ea-18a0a483ca4d"],
-Cell[122325, 2708, 416, 7, 18, "Print",ExpressionUUID->"1b6ab519-cba8-4c5a-9535-a20c43405cb6"],
-Cell[122744, 2717, 602, 12, 18, "Print",ExpressionUUID->"c721e171-e696-4cca-aa7f-d1e75575f15a"],
-Cell[123349, 2731, 552, 11, 18, "Print",ExpressionUUID->"e355052d-d3a0-4d3a-a6bb-0dca837aaed2"],
-Cell[123904, 2744, 606, 12, 18, "Print",ExpressionUUID->"54d0fc34-2377-4e6d-941b-f6468b508a7a"],
-Cell[124513, 2758, 604, 12, 18, "Print",ExpressionUUID->"99cee473-1925-4ed6-b6e4-befe238671c2"],
-Cell[125120, 2772, 930, 19, 109, "Print",ExpressionUUID->"e6bb1de6-9528-4b4d-abbc-c73d58a3fb31"],
-Cell[126053, 2793, 1189, 22, 122, "Print",ExpressionUUID->"d8144374-5e37-4be6-be6b-65f1287e22cb"],
-Cell[127245, 2817, 529, 9, 18, "Print",ExpressionUUID->"31cd97f8-3cc8-401d-8e70-615afee4c8ab"],
-Cell[127777, 2828, 985, 20, 18, "Print",ExpressionUUID->"c07e03bd-724b-4f21-821f-d012e5dd4241"],
-Cell[128765, 2850, 414, 7, 18, "Print",ExpressionUUID->"fb95d360-132c-4cd3-8e6f-e5e7c9296387"],
-Cell[129182, 2859, 592, 12, 18, "Print",ExpressionUUID->"beb09c9a-e9b0-4468-b0e6-c3aaace355ac"],
-Cell[129777, 2873, 554, 11, 18, "Print",ExpressionUUID->"bd532fee-2a5f-464d-9a2f-06d43531b394"],
-Cell[130334, 2886, 594, 12, 18, "Print",ExpressionUUID->"17559326-5d3b-4494-a25d-9b8c04df2d40"],
-Cell[130931, 2900, 596, 12, 18, "Print",ExpressionUUID->"70dc066b-339f-46ad-9f81-d44ee10de8de"],
-Cell[131530, 2914, 922, 19, 109, "Print",ExpressionUUID->"0d17333f-0a45-42a6-a4d1-abaa044352b7"],
-Cell[132455, 2935, 1181, 22, 122, "Print",ExpressionUUID->"2ce7612f-634a-4f38-89ac-51e9693850c0"],
-Cell[133639, 2959, 526, 9, 18, "Print",ExpressionUUID->"583d8546-c99d-440f-bdbb-5766b7fca8ac"],
-Cell[134168, 2970, 937, 20, 18, "Print",ExpressionUUID->"be36bc8d-d47a-4882-9a35-4d9013403c2d"],
-Cell[135108, 2992, 414, 7, 18, "Print",ExpressionUUID->"3c049dcf-dc59-4980-b727-eee3dc389d2a"],
-Cell[135525, 3001, 530, 11, 18, "Print",ExpressionUUID->"a8484023-99bf-4084-9ff9-e9c3a8b2f5bf"],
-Cell[136058, 3014, 552, 11, 18, "Print",ExpressionUUID->"5fbb7acf-407c-4c6f-a378-0dfce1f8e5d3"],
-Cell[136613, 3027, 593, 9, 18, "Print",ExpressionUUID->"90967ce3-5d71-443b-9ed1-1f027b90d5dd"],
-Cell[137209, 3038, 837, 19, 18, "Print",ExpressionUUID->"66106e7b-987f-4179-ad3e-30903f8abf3a"],
-Cell[138049, 3059, 416, 7, 18, "Print",ExpressionUUID->"987079c6-4eb7-473b-8959-2e6716d217fb"],
-Cell[138468, 3068, 548, 11, 18, "Print",ExpressionUUID->"a0bc04fe-ce9f-442b-bc92-194fde5b7895"],
-Cell[139019, 3081, 550, 11, 18, "Print",ExpressionUUID->"f490c0a2-37a5-4aef-89ff-a4b7162129ea"],
-Cell[139572, 3094, 554, 11, 18, "Print",ExpressionUUID->"4687c409-1496-469d-91f3-8cd1e97ad9fe"],
-Cell[140129, 3107, 552, 11, 18, "Print",ExpressionUUID->"93429f28-7189-4345-87ea-3f868d07fdf3"],
-Cell[140684, 3120, 884, 19, 109, "Print",ExpressionUUID->"8e7f5bf1-b4d5-4a56-aee6-76a441c16c7b"],
-Cell[141571, 3141, 991, 20, 122, "Print",ExpressionUUID->"334c428f-4f2d-4313-ac8d-bf596381b425"],
-Cell[142565, 3163, 503, 8, 18, "Print",ExpressionUUID->"78659580-f162-4e63-88b5-d78b47a78c58"],
-Cell[143071, 3173, 853, 19, 18, "Print",ExpressionUUID->"bcf79299-f0fe-43ea-95c5-16fe5d7acaaf"],
-Cell[143927, 3194, 554, 9, 18, "Print",ExpressionUUID->"2884d2ca-f3b8-4ba8-abbe-3e7f7b74e9a3"],
-Cell[144484, 3205, 1171, 23, 18, "Print",ExpressionUUID->"2d7cbf8b-e107-42dc-848c-429f225d1c57"],
-Cell[145658, 3230, 416, 7, 18, "Print",ExpressionUUID->"ce3a67a1-f5c1-4d0f-bb44-9b410be8301e"],
-Cell[146077, 3239, 616, 12, 18, "Print",ExpressionUUID->"0b6919e0-defb-4bc9-ae82-c2a9aa501659"],
-Cell[146696, 3253, 552, 11, 18, "Print",ExpressionUUID->"9e0afa32-a28d-4a2d-b152-7113ebaafe70"],
-Cell[147251, 3266, 622, 12, 18, "Print",ExpressionUUID->"21e88246-edae-496e-8134-b5e3b3075fbd"],
-Cell[147876, 3280, 622, 12, 18, "Print",ExpressionUUID->"c61f961c-f9e5-46ab-99d5-be02697a730b"],
-Cell[148501, 3294, 948, 19, 109, "Print",ExpressionUUID->"7885d013-4b27-4294-9711-2ec0a53c3fca"],
-Cell[149452, 3315, 1391, 24, 122, "Print",ExpressionUUID->"c80000ab-f531-4ccc-8869-820b65f09e95"],
-Cell[150846, 3341, 539, 9, 18, "Print",ExpressionUUID->"33dfd84f-0b96-4cca-b2e8-c820425edad2"],
-Cell[151388, 3352, 807, 18, 18, "Print",ExpressionUUID->"16467f07-0ffe-4570-9e66-9222778a7708"],
-Cell[152198, 3372, 531, 9, 18, "Print",ExpressionUUID->"c01a181c-af4d-44ac-962b-972ca10924ed"],
-Cell[152732, 3383, 878, 19, 18, "Print",ExpressionUUID->"bce37a8a-f6fa-40e6-8043-4c99727f1e44"],
-Cell[153613, 3404, 569, 9, 18, "Print",ExpressionUUID->"991090c4-172c-4001-9433-a6d20fb1f2ad"],
-Cell[154185, 3415, 871, 19, 18, "Print",ExpressionUUID->"502dee47-687f-48bd-8e30-95c1f594f178"],
-Cell[155059, 3436, 565, 9, 18, "Print",ExpressionUUID->"e53f056e-4d19-41a2-b253-74c7beb4dce5"],
-Cell[155627, 3447, 825, 18, 18, "Print",ExpressionUUID->"c13f2351-a299-4251-be1e-60407ba65617"],
-Cell[156455, 3467, 542, 9, 18, "Print",ExpressionUUID->"7dc332c4-34a8-4626-bf1b-a75a95143c9c"],
-Cell[157000, 3478, 827, 18, 18, "Print",ExpressionUUID->"ab4c9375-3843-4dd4-b866-5949d9bdea87"],
-Cell[157830, 3498, 541, 9, 18, "Print",ExpressionUUID->"f22c8b56-ba83-479c-b46c-50486ef01b77"],
-Cell[158374, 3509, 783, 18, 18, "Print",ExpressionUUID->"9edc1281-1cfb-4b66-b430-428f963d1915"],
-Cell[159160, 3529, 517, 8, 18, "Print",ExpressionUUID->"d256a8cf-f8e6-4900-805e-91d1ac4d88db"],
-Cell[159680, 3539, 829, 18, 18, "Print",ExpressionUUID->"0918841a-580b-4a9f-9249-3082410302c6"],
-Cell[160512, 3559, 545, 9, 18, "Print",ExpressionUUID->"18bd2312-16bb-4641-b2c6-0a371d4b8a23"],
-Cell[161060, 3570, 779, 18, 18, "Print",ExpressionUUID->"219e412f-93b7-4702-9ae9-04cffd179cd6"],
-Cell[161842, 3590, 515, 8, 18, "Print",ExpressionUUID->"5c2c84c8-e0a6-4648-93d7-5e82efc7517b"],
-Cell[162360, 3600, 795, 18, 18, "Print",ExpressionUUID->"e110440f-4e96-4236-81aa-07db8097281e"],
-Cell[163158, 3620, 526, 9, 18, "Print",ExpressionUUID->"e0c2fe60-3e6e-48c6-883c-738a062fe7bb"],
-Cell[163687, 3631, 885, 20, 18, "Print",ExpressionUUID->"328fac74-5394-43fd-a82a-491fa7e30ec2"],
-Cell[164575, 3653, 570, 9, 18, "Print",ExpressionUUID->"b36df53f-5b10-4e1d-83c0-78c02b6ce9a2"],
-Cell[165148, 3664, 817, 18, 18, "Print",ExpressionUUID->"d733edf4-ee77-48b5-8702-6dc52135a537"],
-Cell[165968, 3684, 538, 9, 18, "Print",ExpressionUUID->"70de7850-829d-4654-bbbe-e5da45f4fc43"],
-Cell[166509, 3695, 877, 19, 18, "Print",ExpressionUUID->"7faf6e26-bcfd-48c8-a2f5-6d15e185458b"],
-Cell[167389, 3716, 567, 9, 18, "Print",ExpressionUUID->"706cef9e-76ad-43e2-9d44-4735dee2a672"],
-Cell[167959, 3727, 773, 18, 18, "Print",ExpressionUUID->"6e72e935-fa4c-4af9-9947-ec30831c411b"],
-Cell[168735, 3747, 513, 8, 18, "Print",ExpressionUUID->"94bcd7c7-5228-4550-aa76-91b0ecb65833"],
-Cell[169251, 3757, 849, 19, 18, "Print",ExpressionUUID->"c8f4a6b2-0695-4a4c-8dfb-2a47ffe974f9"],
-Cell[170103, 3778, 554, 9, 18, "Print",ExpressionUUID->"5e288efe-fa49-408d-9b6a-374cc79886f8"]
-}, Open  ]]
-}, Open  ]]
+Cell[52921, 1108, 205, 5, 29, "Input",ExpressionUUID->"bddd4140-b25a-4327-b147-197b4f6a7954"]
 }
 ]
 *)

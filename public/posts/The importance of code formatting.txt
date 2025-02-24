@@ -1,0 +1,19 @@
++++
+title='The importance of code formatting'
+date=2024-08-27T00:00:00-07:00
+draft=false
+categories=["cobol"]
+tags=["cobol", "code", "first", "kevin mcguire", "line", "screen", "work", "poetry"]
+cover_image='/images/cover/knoxwelle__2022-02-21T025615.000Z.jpg'
++++
+In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn't be trusted. I'm sure the losses from this policy were enormous because it slowed down the work of programmers.
+
+Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations. Here are three ways to do this.
+
+- The ability for quick scanning The human vision is perfectly adapted for searching through a stream for the relevant insignificant (a remnant from the times when we had to vigilantly watch for a lion appearing in the savannah). Therefore, I can make my life easier by standardizing and pushing to the background everything unrelated to the subject area—all the "random complexity" introduced by most commercial languages. If the code with identical behavior also looks identical, my perception system will help me quickly find the differences. That is why I also adhere to the conventions for placing class members within the compiled file: constants, fields, public methods, private methods.
+
+- Expressive Formatting We have all learned not to spare time on choosing appropriate names – agree, this brings our code closer to an expressive description of the actions being performed and distinguishes it from a mere listing of steps. Code formatting is another component of such expressiveness. First and foremost, it is necessary for the entire development team to agree to use an automatic formatting program for basic constructs. I can make my own adjustments to the code formatting manually during coding. If there are no sharp disagreements, the team quickly comes to a common style, "fine-tuned manually." An automatic formatting tool cannot understand my intentions (who better than I to know, I once wrote such a program myself), and it is more important to me that line breaks and line grouping reflect the meaning of the code, not the syntax of the language. (Kevin McGuire cured my slave dependency on code formatting tools.)
+
+- Compact format The more code fits on the screen, the more code I see without the context-breaking scrolling of text on the screen and switching between files. The less context information I need to keep in my head. Long procedure comments and abundant whitespace made sense in the days of eight-character file names and line printers, but today I work in an integrated development environment with support for syntax highlighting and cross-references. Now I'm limited by screen resolution, and every pixel should work to make it easier for me to understand the code. I want formatting to help me understand the code, and nothing more.
+
+My friend (a non-programmer) once remarked that code is like poetry. I have the same feeling when I see really good code: every fragment of text has its meaning and helps me understand the author's intent. Unfortunately, writing code is not considered as romantic an activity as composing poetry.

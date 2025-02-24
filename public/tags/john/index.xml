@@ -6,12 +6,12 @@
     <description>Recent content in John on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/john/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>To do something hastily and run away is a crime</title>
       <link>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</link>
-      <pubDate>Thu, 04 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</guid>
       <description>It&amp;rsquo;s getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves. A few minutes later, the &amp;ldquo;red light&amp;rdquo; comes on: the application build is broken. John didn&amp;rsquo;t have time for automated tests, so he went with the &amp;ldquo;hack and run&amp;rdquo; principle, which caused the entire team&amp;rsquo;s work to come to a halt.&#xA;The situation has changed – the work rhythm has been disrupted.</description>
     </item>

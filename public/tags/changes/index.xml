@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Changes on Korolev Blog</title>
+    <link>http://localhost:1313/tags/changes/</link>
+    <description>Recent content in Changes on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/changes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Before starting the refactoring</title>
+      <link>http://localhost:1313/posts/before-starting-the-refactoring/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-starting-the-refactoring/</guid>
+      <description>Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):&#xA;It is best to start refactoring by assessing the state of the existing code in the project and the tests written for it. This way, you can identify the strengths and weaknesses of the code in its current state, to preserve its strong points and avoid the mistakes already made. Everyone thinks their system will be better than the current one&amp;hellip; until it turns out that the new code is no better, and maybe even worse, than the previous version, all because we did not learn from the mistakes made in the old system.</description>
+    </item>
+  </channel>
+</rss>

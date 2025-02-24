@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Convenience is not an attribute of quality • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Convenience is not an attribute of quality">
+<meta name="twitter:description" content="Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It&rsquo;s hard to get everything right the first time, and even harder to change anything along the way; it&rsquo;s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.
+But let&rsquo;s move from words to action and analyze a specific &ldquo;strategy&rdquo; for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following &ldquo;insights&rdquo;:">
+
+<meta property="og:url" content="http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Convenience is not an attribute of quality">
+  <meta property="og:description" content="Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It’s hard to get everything right the first time, and even harder to change anything along the way; it’s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.
+But let’s move from words to action and analyze a specific “strategy” for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following “insights”:">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-16T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-16T00:00:00-07:00">
+    <meta property="article:tag" content="Api">
+    <meta property="article:tag" content="Monotony">
+    <meta property="article:tag" content="Method">
+    <meta property="article:tag" content="Convenience">
+    <meta property="article:tag" content="Vocabulary">
+    <meta property="article:tag" content="Calls">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Convenience is not an attribute of quality</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 16, 2024
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/cleanyourroomdon">CLEANYOURROOMDON</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/api">api</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/monotony">monotony</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/method">method</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/convenience">convenience</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/vocabulary">vocabulary</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/calls">calls</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/action">action</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2019-12-16T002054.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It&rsquo;s hard to get everything right the first time, and even harder to change anything along the way; it&rsquo;s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.</p>
+<p>But let&rsquo;s move from words to action and analyze a specific &ldquo;strategy&rdquo; for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following &ldquo;insights&rdquo;:</p>
+<ul>
+<li>Why do client classes have to make two calls to perform one action? - Why should client classes make two calls to perform one action? - Why create another method if it does almost the same thing as the existing one? Why create another method if it does almost the same thing as the existing one? I&rsquo;ll add a simple switch. - Listen, it&rsquo;s elementary: if the second parameter string ends with &ldquo;.txt&rdquo;, the method automatically understands that the first parameter is the file name, so there&rsquo;s no need to create two methods.</li>
+</ul>
+<p>The intentions are good, but the proposed solutions are fraught with the risk of reducing the readability of the code that uses your API. The following call to the method parser.processNodes(text, false); carries semantic weight only for someone who knows how the method is implemented or has read the documentation. This method was created more for the author&rsquo;s convenience than the user&rsquo;s: &ldquo;I don&rsquo;t want to force the programmer to make two calls&rdquo; in practice meant &ldquo;I didn&rsquo;t want to write two methods.&rdquo; In principle, there is nothing wrong if convenience is used as a remedy against monotony, bulkiness, and clumsiness. But if you think about it, the antidote to these symptoms is efficiency, elegance, consistency – and not necessarily convenience. APIs imply the concealment of the internal complexity of the system, so it is quite reasonable to expect that designing a good API requires some effort. It is quite possible that it is more convenient to write one large method rather than a carefully thought-out set of operations, but which option is easier to use?</p>
+<p>In such situations, more successful architectural solutions can be based on the metaphor of an API as a natural language. The API should offer an expressive language that provides the higher-level vocabulary sufficient to ask useful questions and receive answers. This does not mean that each possible question will be matched with only one method or verb. A vast vocabulary allows for conveying nuances of meaning. For example, we prefer to say run instead of walk(true), even though these actions can be considered the same operation performed at different speeds. A consistent and well-thought-out API vocabulary contributes to the expressiveness and clarity of higher-level code. And what is even more important – a dictionary that allows word combinations gives other programmers the opportunity to use the API in ways you did not foresee, and this is truly a great convenience for its users! When you feel tempted to combine several operations into one API method again, remember that the word &ldquo;CleanYourRoomDon&rsquo;tMakeNoiseAndDoYourHomework&rdquo; is not in the dictionaries, even though it would be quite handy for such a popular operation.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/code-review/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Code review</span>
+    </a>
+    
+    
+    <a href="/posts/first-say-yes/" class="navigation-next">
+      <span class="navigation-tittle">First say yes</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

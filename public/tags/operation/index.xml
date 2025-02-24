@@ -6,12 +6,12 @@
     <description>Recent content in Operation on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/operation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A verbose journal will deprive you of sleep</title>
       <link>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</link>
-      <pubDate>Thu, 22 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</guid>
       <description>When I encounter a system that has been in development or operation for a long time, the first sign of real trouble is always a &amp;ldquo;dirty&amp;rdquo; log. You know what I&amp;rsquo;m talking about: it&amp;rsquo;s when clicking a link during normal web page usage results in a whole stream of messages being recorded in the system&amp;rsquo;s single log. Too many log entries can be just as useless as having none at all.&#xA;If your systems are similar to mine, then when your work ends, the work of others begins. After the development is completed, the system will be long and successfully serve customers (if you&amp;rsquo;re lucky). How will you learn about problems if the system is in operation, and what will you do about them?</description>
     </item>

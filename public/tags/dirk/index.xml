@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dirk on Korolev Blog</title>
+    <link>http://localhost:1313/tags/dirk/</link>
+    <description>Recent content in Dirk on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/dirk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Before blaming others, check your own code</title>
+      <link>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</guid>
+      <description>A developer – any of us! – often finds it difficult to admit that their code doesn&amp;rsquo;t work. It seems so implausible that we are more likely to assume there is a bug in the compiler.&#xA;In reality, it is very, very rare for code to be non-functional due to a bug in the compiler, interpreter, operating system, application server, database, memory manager, or any other element of system software. Yes, there are bugs, but they are much less frequent than we would like to think.&#xA;Once, I actually encountered a bug in the compiler (removing the loop variable during optimization), but in all other cases, my complaints about the compiler or operating system turned out to be unfounded. I wasted a lot of my time, support staff time, and management time, only to end up in an awkward position when it turned out that the mistake was my own.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Configuration on Korolev Blog</title>
+    <link>http://localhost:1313/tags/configuration/</link>
+    <description>Recent content in Configuration on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/configuration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carefully choose your tools</title>
+      <link>http://localhost:1313/posts/carefully-choose-your-tools/</link>
+      <pubDate>Tue, 03 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/carefully-choose-your-tools/</guid>
+      <description>Modern applications are extremely rarely created &amp;ldquo;from scratch.&amp;rdquo; They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:&#xA;The volume, complexity, and sophistication of applications are increasing, while the time allocated for their creation is decreasing. It is more beneficial to spend the time and intellect of developers on business logic code rather than application infrastructure code. - Widely used components and frameworks have fewer chances of encountering errors compared to those developed independently. - High-quality tools are available for free on the Internet, which reduces development costs and simplifies the search for interested developers with the necessary experience. - The creation and maintenance of software require a significant amount of human labor, so it can be cheaper to buy ready-made products than to create them.</description>
+    </item>
+  </channel>
+</rss>

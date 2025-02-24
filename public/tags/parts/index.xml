@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Parts on Korolev Blog</title>
+    <link>http://localhost:1313/tags/parts/</link>
+    <description>Recent content in Parts on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/parts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warning - Common code ownership</title>
+      <link>http://localhost:1313/posts/warning---common-code-ownership/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/warning---common-code-ownership/</guid>
+      <description>My first project in the company. I just defended my thesis, and I&amp;rsquo;m eager to prove myself, so I stay late at work and thoroughly study the existing code. Working on my first task, I apply everything I&amp;rsquo;ve been taught: comments, event logs, extracting common code into libraries (where possible), all that stuff. I feel completely ready for code review, but my colleagues seem to pour cold water on me: I get criticized for code reuse!&#xA;How so? During my university studies, code reuse was hailed as one of the best practices in software development. All the articles and textbooks I read, guided by experienced professional programmers—were they all wrong?&#xA;It turns out, I overlooked something very important. Context.&#xA;The fact that two directly unrelated parts of the system use the same logic means less than I thought.</description>
+    </item>
+  </channel>
+</rss>

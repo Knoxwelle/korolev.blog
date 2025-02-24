@@ -6,63 +6,70 @@
     <description>Recent content in Project on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do not be afraid to break something</title>
+      <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
+      <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
+    </item>
     <item>
       <title>Try not to alter the timetable</title>
       <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
-      <pubDate>Wed, 18 Dec 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
       <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
     </item>
     <item>
-      <title>Your clients mean something different than what they say</title>
-      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
-      <pubDate>Wed, 11 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
-      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
-    </item>
-    <item>
-      <title>Communication is the king, clarity and leadership are its loyal servants</title>
-      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
-      <pubDate>Wed, 27 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
-      <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
-    </item>
-    <item>
       <title>One line of working code costs 500 lines of specifications</title>
       <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</link>
-      <pubDate>Mon, 18 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 28 Nov 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</guid>
       <description>You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.&#xA;Design is a beautiful thing. A systematic, detailed representation of the problem space and its solution reveals errors and identifies opportunities for improvement, sometimes in quite radical ways. Specifications play an important role in this, as they define the template for building the system. It is very important to carefully consider the entire architecture—both at the macro level, examining the interaction between components, and at the micro level, delving into the behavior of the components themselves.&#xA;Unfortunately, architects often get carried away with the design process, falling under the charm of architectural abstractions. However, by themselves specifications have no value.</description>
     </item>
     <item>
-      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
-      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
-      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
-      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
-    </item>
-    <item>
       <title>Do not rely on miracles</title>
       <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
       <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
     </item>
     <item>
       <title>Satisfy your ambition through Open Source</title>
       <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
-      <pubDate>Sat, 31 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
       <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
     </item>
     <item>
-      <title>Do not be afraid to break something</title>
-      <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
-      <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
+      <title>Your clients mean something different than what they say</title>
+      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
+      <pubDate>Tue, 20 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
+      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
+    </item>
+    <item>
+      <title>Communication is the king, clarity and leadership are its loyal servants</title>
+      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
+      <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
+    </item>
+    <item>
+      <title>Automate your code formatting standard</title>
+      <link>http://localhost:1313/posts/automate-your-code-formatting-standard/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/automate-your-code-formatting-standard/</guid>
+      <description>You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&amp;rsquo;s call them &amp;ldquo;new project promises.&amp;rdquo; Similar to New Year&amp;rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&amp;rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.&#xA;When did it all go wrong?</description>
+    </item>
+    <item>
+      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
+      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
+      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
     </item>
   </channel>
 </rss>

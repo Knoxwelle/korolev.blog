@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Building on Korolev Blog</title>
+    <link>http://localhost:1313/tags/building/</link>
+    <description>Recent content in Building on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 06 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/building/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code is design</title>
+      <link>http://localhost:1313/posts/code-is-design/</link>
+      <pubDate>Sun, 06 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-is-design/</guid>
+      <description>Imagine waking up in the morning and finding out that a groundbreaking breakthrough has occurred in the construction industry. Now, millions of cheap and incredibly fast robots can create various materials literally from thin air, using almost no energy, and they can repair themselves. But that&amp;rsquo;s not all: if there are clear blueprints, the robots will build a building according to them without any human intervention, and the cost of this work will be negligible.&#xA;One can imagine how this will transform the construction industry, but what changes will occur at a higher level? How will architects and designers behave when the cost of construction becomes negligible? Today, expensive construction is necessarily preceded by the creation and thorough testing of physical and computer models.</description>
+    </item>
+  </channel>
+</rss>

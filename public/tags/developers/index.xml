@@ -6,19 +6,19 @@
     <description>Recent content in Developers on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/developers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Communication is the king, clarity and leadership are its loyal servants</title>
       <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
-      <pubDate>Wed, 27 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
       <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
     </item>
     <item>
       <title>Give developers their own space</title>
       <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
-      <pubDate>Thu, 29 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
       <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
     </item>

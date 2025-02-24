@@ -6,21 +6,14 @@
     <description>Recent content in Process on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/process/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building architecture as a balancing art</title>
-      <link>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</link>
-      <pubDate>Thu, 15 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/building-architecture-as-a-balancing-art/</guid>
-      <description>When designing a software architecture, the conventional technical procedures that spring to mind are disassembling the system into its constituent pieces, specifying interfaces, allocating responsibilities, employing templates, and optimizing performance. A wide range of other variables, including output management, deployment settings, convenience of use, safety, and maintenance, must also be taken into account by the architect.Meanwhile, every one of these technical and procedural specifics must be relevant to the requirements of the stakeholders.Taking these interests into account during the requirements analysis process is one of the greatest ways to ensure that the requirements specifications for the product being developed are thorough.&#xA;Every project participant has interests that affect both the company&amp;rsquo;s software development process and the firm as a whole. Taking these interests into account leads to the architect&amp;rsquo;s final list of priorities.</description>
-    </item>
-    <item>
-      <title>Assure ongoing integration</title>
-      <link>http://localhost:1313/posts/assure-ongoing-integration/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/assure-ongoing-integration/</guid>
-      <description>In terms of design, the collection is no longer the &amp;ldquo;Big Bang&amp;rdquo; for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.&#xA;The term continuous integration (CI) was first proposed by Martin Fowler as a design template. It describes a set of methods and tools that ensure reliable, automated application testing and assembly across short time intervals (often on an integration server designed to do these functions). These days, all software projects must use continuous integration, which blends automated assembly tools with modular testing methods and resources.&#xA;Now that the project&amp;rsquo;s components have been assembled, they have been tested. Continuous integration now occupies the space previously occupied by &amp;ldquo;early and frequent assembly.</description>
+      <title>Code review</title>
+      <link>http://localhost:1313/posts/code-review/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-review/</guid>
+      <description>Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.&#xA;Many programmers have an aversion to code reviews, which can be linked to their unfortunate personal experiences. I have encountered organizations where all code underwent formal review before it could enter the system for commercial use. Often, the review is conducted by an architect or lead developer—a practice that can be called &amp;ldquo;the architect checks everything.&amp;rdquo; This is documented in the company&amp;rsquo;s software development process guide, and programmers are required to comply.&#xA;Perhaps, in some organizations, such a strict and formal process is indeed necessary, but they are in the minority. In most organizations, such an approach is counterproductive.</description>
     </item>
   </channel>
 </rss>

@@ -6,14 +6,14 @@
     <description>Recent content in Methods on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/methods/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Assure ongoing integration</title>
-      <link>http://localhost:1313/posts/assure-ongoing-integration/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/assure-ongoing-integration/</guid>
-      <description>In terms of design, the collection is no longer the &amp;ldquo;Big Bang&amp;rdquo; for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.&#xA;The term continuous integration (CI) was first proposed by Martin Fowler as a design template. It describes a set of methods and tools that ensure reliable, automated application testing and assembly across short time intervals (often on an integration server designed to do these functions). These days, all software projects must use continuous integration, which blends automated assembly tools with modular testing methods and resources.&#xA;Now that the project&amp;rsquo;s components have been assembled, they have been tested. Continuous integration now occupies the space previously occupied by &amp;ldquo;early and frequent assembly.</description>
+      <title>Beauty is the result of simplicity</title>
+      <link>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</guid>
+      <description>Plato has one saying that, it seems to me, would be especially useful for all software developers to know and take to heart:&#xA;The beauty of style, harmony, elegance, and good rhythm are based on simplicity.&#xA;This single sentence embodies the values that we, as developers, should admire.&#xA;There are a number of things we aim to achieve in our code:&#xA;Readability - Ease of maintenance - Development speed - Elusive beauty Plato tells us that all these qualities are possible only thanks to simplicity.&#xA;What is beautiful code? This is probably a very subjective question. The perception of beauty is heavily dependent on personal experience, just as our perception of anything else is. Those who have studied art perceive beauty differently (at least approach it differently) than those with a technical education.</description>
     </item>
   </channel>
 </rss>

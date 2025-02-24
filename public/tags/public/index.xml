@@ -6,12 +6,12 @@
     <description>Recent content in Public on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 30 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/public/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use the bug tracking system</title>
       <link>http://localhost:1313/posts/how-to-use-the-bug-tracking-system/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/how-to-use-the-bug-tracking-system/</guid>
       <description>No matter what you call them – bugs, defects, or even design side effects – it is impossible to eliminate them completely. For a project to be successful moving forward, it is very important to be able to correctly write an error report, as well as to know what to pay attention to in it.&#xA;In a good bug report, three things should be described: • How to reproduce the error – as accurately as possible – and how often the error manifests itself. • What was supposed to happen – how do you see it? • What is actually happening – at least the data you were able to record.&#xA;The volume and quality of the provided information equally characterize the report&amp;rsquo;s author, as well as the error itself.</description>
     </item>

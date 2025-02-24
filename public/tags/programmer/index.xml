@@ -6,28 +6,28 @@
     <description>Recent content in Programmer on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/programmer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You need to take care of the code</title>
+      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
+      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
+    </item>
     <item>
       <title>Programming paradigms</title>
       <link>http://localhost:1313/posts/programming-paradigms/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 13 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/programming-paradigms/</guid>
       <description>Psychology of Programming: It has long been known that a programmer&amp;rsquo;s professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.&#xA;Every programmer starts with some one language. This language has an the predominant influence on how a programmer sees software. But no matter how long a programmer has worked with this language, if they only work with it, they will only know this language. The thinking of a programmer who knows only one language is limited to the capabilities of that language.&#xA;A programmer learning a second language will encounter difficulties, especially if the computational model of the second language differs from the first.</description>
     </item>
     <item>
       <title>Satisfy your ambition through Open Source</title>
       <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
-      <pubDate>Sat, 31 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
       <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
-    </item>
-    <item>
-      <title>You need to take care of the code</title>
-      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
-      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
     </item>
   </channel>
 </rss>

@@ -6,28 +6,28 @@
     <description>Recent content in Product on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/product/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The performance of an application is determined by its architecture</title>
+      <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
+      <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
+    </item>
     <item>
       <title>First say yes</title>
       <link>http://localhost:1313/posts/first-say-yes/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/first-say-yes/</guid>
       <description>Recently, I was at the grocery store and searched for edamame, green soybeans (I only vaguely guessed they were some kind of vegetable). I didn&amp;rsquo;t I knew where to look for this product: in the vegetable section, in the frozen section. products or on the shelves with canned goods? Finally, I gave up and asked a store employee for help. She didn&amp;rsquo;t know either!&#xA;The store employee could have reacted to my request in different ways. She could have made it clear that only a fool doesn&amp;rsquo;t know where to look for it, or just brushed it off. vague hints, or even just say that they don&amp;rsquo;t have such a product. But she deemed it possible to find a solution and help the customer.</description>
     </item>
     <item>
       <title>Creating architecture as the art of balance</title>
       <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
       <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
-    </item>
-    <item>
-      <title>The performance of an application is determined by its architecture</title>
-      <link>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-performance-of-an-application-is-determined-by-its-architecture/</guid>
-      <description>The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company&amp;rsquo;s product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.&#xA;Besides IT managers and performance testing teams, there are and other groups of people, such as the support service of the development company and authors of books on application performance management, which they recommend fine-tuning the application infrastructure: play with memory allocation operations, connection pool sizes, the sizes of thread pools and so on.</description>
     </item>
   </channel>
 </rss>

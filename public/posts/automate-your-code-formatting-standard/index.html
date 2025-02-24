@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/automate-your-code-formatting-standard/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Automate your code formatting standard • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Automate your code formatting standard">
+<meta name="twitter:description" content="You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&rsquo;s call them &ldquo;new project promises.&rdquo; Similar to New Year&rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.
+When did it all go wrong?">
+
+<meta property="og:url" content="http://localhost:1313/posts/automate-your-code-formatting-standard/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Automate your code formatting standard">
+  <meta property="og:description" content="You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let’s call them “new project promises.” Similar to New Year’s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project’s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.
+When did it all go wrong?">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-25T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-25T00:00:00-07:00">
+    <meta property="article:tag" content="New Year">
+    <meta property="article:tag" content="Standards">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Standard">
+    <meta property="article:tag" content="Project">
+    <meta property="article:tag" content="Tools">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Automate your code formatting standard</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 25, 2024
+    
+    
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/new-year">new year</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/standards">standards</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/code">code</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/standard">standard</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/project">project</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/tools">tools</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/anti-patterns">anti-patterns</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2019-11-06T002124.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&rsquo;s call them &ldquo;new project promises.&rdquo; Similar to New Year&rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.</p>
+<p>When did it all go wrong? Most likely, it was at that very first meeting. Some participants were inattentive. Others didn&rsquo;t understand the purpose of the standard. Worse still, some were against the proposed standard and directly instigated a rebellion against it during the meeting. And even those who understood and agreed, at some point in the project&rsquo;s work, were forced by circumstances to simplify their lives. After all, well-formatted code will not be appreciated by a client who needs new features in the application. Moreover, adhering to the code formatting standard can be quite a tedious task if it is not automated. Try to set the indents in a poorly written class, and you will see for yourself.</p>
+<p>But if it&rsquo;s so difficult, why should we even create a code formatting standard? One of the goals of uniform code formatting is to prevent anyone from &ldquo;privatizing&rdquo; the code by formatting it in their own special way. Developers should also not be allowed to apply certain anti-patterns to avoid a number of known mistakes. Overall, the formatting standard should make working on the project easier and maintain a constant development speed from start to finish. Hence, support for the standard should be unanimous: it&rsquo;s bad if one developer uses three-space indents and another uses four.</p>
+<p>There are many tools available for generating code quality reports, as well as documenting and maintaining code formatting standards, but this is only part of the solution. Standards should be automated and enforced wherever possible. Here are some examples:</p>
+<ul>
+<li>Make code formatting part of the build process so that it happens automatically with each code compilation. - Use static code analysis tools to find undesirable anti-patterns. Interrupt the build when they are detected. - Learn to configure these tools, which will help identify anti-patterns specific to your project. - Don&rsquo;t just measure test coverage percentage, but also perform automatic evaluation of the results. Interrupt the build if the test coverage percentage is unacceptably low.</li>
+</ul>
+<p>Try to implement these principles regarding all code requirements that you consider important. You will not be able to fully automate everything that concerns you. Those aspects that cannot be detected or fixed automatically should be included in an additional set of rules—as an appendix to the automated part of the standard. However, you will have to accept the fact that you and your colleagues will have the opportunity to adhere to the rules from this appendix less strictly.</p>
+<p>Finally, the coding standard should evolve rather than be set in stone. Over time, the needs of the project change, and what seemed reasonable at the beginning may not necessarily remain so after a few months.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/first-say-yes/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">First say yes</span>
+    </a>
+    
+    
+    <a href="/posts/comment-only-on-what-the-code-will-not-say/" class="navigation-next">
+      <span class="navigation-tittle">Comment only on what the code will not say</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

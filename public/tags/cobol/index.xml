@@ -6,21 +6,28 @@
     <description>Recent content in Cobol on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/cobol/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
-      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
-      <pubDate>Sat, 09 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
-      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
-    </item>
     <item>
       <title>Do not rely on miracles</title>
       <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
       <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
+    </item>
+    <item>
+      <title>The importance of code formatting</title>
+      <link>http://localhost:1313/posts/the-importance-of-code-formatting/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-importance-of-code-formatting/</guid>
+      <description>In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&amp;rsquo;t be trusted. I&amp;rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.&#xA;Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.</description>
+    </item>
+    <item>
+      <title>The drama of hype technologies, customer needs, and pangs of conscience</title>
+      <link>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/</guid>
+      <description>We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.&#xA;The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&amp;rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.</description>
     </item>
   </channel>
 </rss>
