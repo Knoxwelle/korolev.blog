@@ -1,6 +1,6 @@
 +++
 title='You need to take care of the code'
-date=2025-01-22T00:00:00-07:00
+date=2024-07-13T00:00:00-07:00
 draft=false
 categories=[]
 tags=["sherlock holmes", "enjoy", "code", "programmers", "work", "programmer", "programming"]

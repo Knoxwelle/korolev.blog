@@ -1,6 +1,6 @@
 +++
 title='Communication is the king, clarity and leadership are its loyal servants'
-date=2024-08-15T00:00:00-07:00
+date=2024-09-02T00:00:00-07:00
 draft=false
 categories=["india"]
 tags=["india", "visio", "act", "developers", "software", "clarity", "project", "leadership"]

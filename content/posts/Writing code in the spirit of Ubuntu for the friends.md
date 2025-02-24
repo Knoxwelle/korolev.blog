@@ -1,6 +1,6 @@
 +++
 title='Writing code in the spirit of Ubuntu for the friends'
-date=2024-08-10T00:00:00-07:00
+date=2025-02-24T00:00:00-07:00
 draft=false
 categories=["ubuntu"]
 tags=["zulu", "ubuntu", "code", "moment", "quality", "person"]

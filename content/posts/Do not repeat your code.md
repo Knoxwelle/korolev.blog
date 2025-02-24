@@ -1,6 +1,6 @@
 +++
 title='Do not repeat your code'
-date=2024-07-10T00:00:00-07:00
+date=2024-11-04T00:00:00-07:00
 draft=false
 categories=["dry", "method"]
 tags=["code", "repetition", "abstract", "strategy", "dry", "open", "closed principle", "srp", "principle", "software", "logic", "duplication"]

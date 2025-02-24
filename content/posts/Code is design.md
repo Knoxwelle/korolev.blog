@@ -1,6 +1,6 @@
 +++
 title='Code is design'
-date=2024-10-06T00:00:00-07:00
+date=2024-07-04T00:00:00-07:00
 draft=false
 categories=[]
 tags=["design", "construction", "building", "cost", "work"]

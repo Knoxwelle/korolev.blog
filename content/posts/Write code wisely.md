@@ -1,6 +1,6 @@
 +++
 title='Write code wisely'
-date=2024-10-29T00:00:00-07:00
+date=2025-01-13T00:00:00-07:00
 draft=false
 categories=[]
 tags=["below", "devil", "code", "fragments", "proof", "function", "correctness"]

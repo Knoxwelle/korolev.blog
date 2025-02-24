@@ -1,6 +1,6 @@
 +++
 title='You are negotiating'
-date=2025-01-24T00:00:00-07:00
+date=2024-07-17T00:00:00-07:00
 draft=false
 categories=[]
 tags=["servers", "system", "manager", "need", "server"]

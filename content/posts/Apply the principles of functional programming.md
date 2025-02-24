@@ -1,6 +1,6 @@
 +++
 title='Apply the principles of functional programming'
-date=2025-01-28T00:00:00-07:00
+date=2024-11-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["programming", "transparency", "paradigm", "objects", "functions"]

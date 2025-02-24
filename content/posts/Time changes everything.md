@@ -1,6 +1,6 @@
 +++
 title='Time changes everything'
-date=2024-10-17T00:00:00-07:00
+date=2024-10-31T00:00:00-07:00
 draft=false
 categories=["dude"]
 tags=["wise", "first", "easy", "dude", "time", "assignment", "look", "solutions", "lot"]

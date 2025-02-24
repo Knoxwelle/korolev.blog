@@ -1,6 +1,6 @@
 +++
 title='Continuous learning'
-date=2025-02-21T00:00:00-07:00
+date=2025-02-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["development", "twitter", "google", "journeyman", "master", "delve", "neo", "matrix", "technologies", "technology", "group", "subject", "code", "online"]

@@ -1,6 +1,6 @@
 +++
 title='The performance of an application is determined by its architecture'
-date=2025-01-13T00:00:00-07:00
+date=2025-02-21T00:00:00-07:00
 draft=false
 categories=[]
 tags=["application", "performance", "architecture", "product", "fine-tuning"]

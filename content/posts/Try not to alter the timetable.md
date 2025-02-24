@@ -1,6 +1,6 @@
 +++
 title='Try not to alter the timetable'
-date=2025-01-25T00:00:00-07:00
+date=2024-09-18T00:00:00-07:00
 draft=false
 categories=[]
 tags=["express", "start", "problems", "delivery", "project", "quality", "times", "schedule", "time"]

@@ -1,6 +1,6 @@
 +++
 title='Commentary on comments'
-date=2024-06-09T00:00:00-07:00
+date=2024-06-13T00:00:00-07:00
 draft=false
 categories=["basic"]
 tags=["basic", "programming interface", "code", "comments", "program", "programming", "reading"]
