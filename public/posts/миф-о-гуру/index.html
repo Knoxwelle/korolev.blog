@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/%D0%BC%D0%B8%D1%84-%D0%BE-%D0%B3%D1%83%D1%80%D1%83/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Миф о гуру • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Миф о гуру">
+<meta name="twitter:description" content="Ка­ж­до­му, кто дос­та­точ­но дав­но ра­бо­та­ет в ком­пь­ю­тер­ной от­рас­ли, приходилось слышать вопросы типа: У меня генерируется исключение XYZ. Не знаете ли, в чем проблема?
+Задающие подобные вопросы редко утруждаются тем, чтобы показать трассировку стека, журнал приложения или дать какой-либо контекст, способствующий пониманию проблемы. По-видимому, они считают, что вы мыслите в какой-то другой плоскости, где решения открываются вам без всякого анализа фактов. Они считают вас гуру.
+Мы ожидаем подобных вопросов от людей, не знакомых с программным обеспечением, от тех, кому работа системы кажется практически волшебством. Меня беспокоит, что с этим мы сталкиваемся и в сообществе программистов. Аналогичные вопросы возникают при проектировании программ, например: «Я пишу приложение для управления складом. Следует ли мне использовать оптимистическую блокировку?». Ирония состоит в том, что, как правило, спрашивающий лучше подготовлен к тому, чтобы ответить на вопрос, чем тот, кому он задан.">
+
+<meta property="og:url" content="http://localhost:1313/posts/%D0%BC%D0%B8%D1%84-%D0%BE-%D0%B3%D1%83%D1%80%D1%83/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Миф о гуру">
+  <meta property="og:description" content="Ка­ж­до­му, кто дос­та­точ­но дав­но ра­бо­та­ет в ком­пь­ю­тер­ной от­рас­ли, приходилось слышать вопросы типа: У меня генерируется исключение XYZ. Не знаете ли, в чем проблема?
+Задающие подобные вопросы редко утруждаются тем, чтобы показать трассировку стека, журнал приложения или дать какой-либо контекст, способствующий пониманию проблемы. По-видимому, они считают, что вы мыслите в какой-то другой плоскости, где решения открываются вам без всякого анализа фактов. Они считают вас гуру.
+Мы ожидаем подобных вопросов от людей, не знакомых с программным обеспечением, от тех, кому работа системы кажется практически волшебством. Меня беспокоит, что с этим мы сталкиваемся и в сообществе программистов. Аналогичные вопросы возникают при проектировании программ, например: «Я пишу приложение для управления складом. Следует ли мне использовать оптимистическую блокировку?». Ирония состоит в том, что, как правило, спрашивающий лучше подготовлен к тому, чтобы ответить на вопрос, чем тот, кому он задан.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-22T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-11-22T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Миф о гуру</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Nov 22, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2020-06-26T035934.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Ка­ж­до­му, кто дос­та­точ­но дав­но ра­бо­та­ет в ком­пь­ю­тер­ной от­рас­ли, приходилось слышать вопросы типа:
+У меня генерируется исключение XYZ. Не знаете ли, в чем проблема?</p>
+<p>Задающие подобные вопросы редко утруждаются тем, чтобы показать трассировку стека, журнал приложения или дать какой-либо контекст, способствующий
+пониманию проблемы. По-видимому, они считают, что вы мыслите в какой-то
+другой плоскости, где решения открываются вам без всякого анализа фактов.
+Они считают вас гуру.</p>
+<p>Мы ожидаем подобных вопросов от людей, не знакомых с программным обеспечением, от тех, кому работа системы кажется практически волшебством. Меня
+беспокоит, что с этим мы сталкиваемся и в сообществе программистов. Аналогичные вопросы возникают при проектировании программ, например: «Я пишу
+приложение для управления складом. Следует ли мне использовать оптимистическую блокировку?». Ирония состоит в том, что, как правило, спрашивающий
+лучше подготовлен к тому, чтобы ответить на вопрос, чем тот, кому он задан. Вопрошающий, вероятнее всего, знает контекст, знает требования и способен прочесть материалы о преимуществах и недостатках тех или иных стратегий. И при
+этом от вас ждут разумного ответа безо всякого контекста. Они ждут чуда.</p>
+<p>Пора отрасли разработки попрощаться с мифом о гуру. «Гуру» – обычные люди.
+Они применяют логику и систематически анализируют проблемы так же, как
+все мы. Они обращаются к приемам быстрого принятия решений и интуиции.
+Возьмите лучшего программиста, которого вы когда-либо встречали: было время, когда этот человек меньше знал о программировании, чем вы сейчас. Если
+какой-то человек кажется вам гуру, то лишь благодаря тому, что он годы посвятил учебе и совершенствованию своего мыслительного процесса. «Гуру» – это
+просто умный человек с неутолимым любопытством.</p>
+<p>Конечно, природные способности людей сильно различаются. Уровень сообразительности, знаний и продуктивности многих живущих на свете хакеров для меня недостижим. Несмотря на это, разрушение мифа о гуру принесет пользу. Например, если я работаю с тем, кто умнее меня, я должен буду проделать рутинную
+работу и снабдить этого человека достаточным объемом контекста, зная который, он сможет эффективно применить свое мастерство. Избавление от мифа гуру также означает разрушение иллюзорного барьера на пути к совершенствованию. Вместо этого волшебного барьера я буду видеть непрерывный маршрут своего развития.</p>
+<p>Наконец, одной из главных помех в развитии программного проекта являются
+толковые люди, умышленно распространяющие миф о гуру. Они могут делать
+это из честолюбия или в расчете повысить собственную значимость в глазах клиентов или работодателей. Ирония в том, что такое поведение может делать толковых людей менее ценными, поскольку они не способствуют профессиональному росту своих коллег. Нам не нужны гуру. Нам нужны специалисты, готовые
+развивать других специалистов в своей отрасли. Места хватит всем.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/try-not-to-alter-the-timetable/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Try not to alter the timetable</span>
+    </a>
+    
+    
+    <a href="/posts/interfaces/" class="navigation-next">
+      <span class="navigation-tittle">Interfaces</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

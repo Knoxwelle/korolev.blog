@@ -1,10 +1,10 @@
 +++
 title='Convenience is not an attribute of quality'
-date=2024-09-15T00:00:00-07:00
+date=2024-10-17T00:00:00-07:00
 draft=false
 categories=["cleanyourroomdon"]
 tags=["api", "monotony", "method", "convenience", "vocabulary", "calls", "action"]
-cover_image='/images/cover/knoxwelle__2019-12-16T002054.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2023-02-19T060119.000Z.jpg'
 +++
 Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It's hard to get everything right the first time, and even harder to change anything along the way; it's like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.
 

@@ -1,10 +1,10 @@
 +++
 title='Programming paradigms'
-date=2024-09-24T00:00:00-07:00
+date=2024-09-07T00:00:00-07:00
 draft=false
 categories=["c", "pascal", "fortran", "c++", "ada", "haskell", "c language", "prolog"]
 tags=["programming", "pascal", "fortran", "c", "c++", "ada", "haskell", "prolog", "language", "programmer", "languages", "difficulties", "paradigms"]
-cover_image='/images/cover/knoxwelle__2019-12-12T003724.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-11-21T143208.000Z.jpg'
 +++
 Psychology of Programming: It has long been known that a programmer's professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.
 

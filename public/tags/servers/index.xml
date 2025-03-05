@@ -6,12 +6,12 @@
     <description>Recent content in Servers on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/servers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>You are negotiating</title>
       <link>http://localhost:1313/posts/you-are-negotiating/</link>
-      <pubDate>Fri, 24 Jan 2025 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/you-are-negotiating/</guid>
       <description>Have you encountered projects where reasonable technological solutions are &amp;ldquo;buried&amp;rdquo; for the sake of saving costs?&#xA;The conversation goes something like this: &amp;ldquo;Do we really need X?&amp;rdquo; asks the project manager. You can substitute X with almost anything essential for system operations: software product licenses, redundant servers, external backups or power sources. The question is always asked in a fatherly tone, as if you were spending all your pocket money on comics and chewing gum, while serious adults need to think about buying new buckets in which they will carry their future profits.&#xA;The correct answer to this question is: &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one responds.&#xA;After all, we have a technical education, and any technical discipline is an art of compromise.</description>
     </item>

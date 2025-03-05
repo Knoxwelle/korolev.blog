@@ -1,10 +1,10 @@
 +++
 title='Code review'
-date=2024-09-28T00:00:00-07:00
+date=2024-04-19T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "conduct", "review", "reviews", "process", "knowledge"]
-cover_image='/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-10-05T194958.000Z.jpg'
 +++
 Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.
 

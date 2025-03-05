@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Got on Korolev Blog</title>
+    <link>http://localhost:1313/tags/got/</link>
+    <description>Recent content in Got on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/got/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incredible, but testers are your friends</title>
+      <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
+      <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
+    </item>
+  </channel>
+</rss>

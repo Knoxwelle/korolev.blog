@@ -1,10 +1,10 @@
 +++
 title='Continuous learning'
-date=2025-02-08T00:00:00-07:00
+date=2024-06-28T00:00:00-07:00
 draft=false
 categories=[]
 tags=["development", "twitter", "google", "journeyman", "master", "delve", "neo", "matrix", "technologies", "technology", "group", "subject", "code", "online"]
-cover_image='/images/cover/knoxwelle__2017-05-25T131834.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2024-03-12T040810.000Z.jpg'
 +++
 We live in interesting times. Development is distributed all over the world, and it turns out that many people are capable of doing your job. To remain competitive in the labor market, you need to continuously learn. Otherwise, you will turn into a dinosaur stuck in your job until one fine day it turns out that you are no longer needed, or that your job has been given to someone who is willing to do it for less.
 

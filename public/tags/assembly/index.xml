@@ -6,14 +6,14 @@
     <description>Recent content in Assembly on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/assembly/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Assure ongoing integration</title>
-      <link>http://localhost:1313/posts/assure-ongoing-integration/</link>
-      <pubDate>Wed, 17 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/assure-ongoing-integration/</guid>
-      <description>In terms of design, the collection is no longer the &amp;ldquo;Big Bang&amp;rdquo; for the project. Architects must encourage the implementation of continuous integration methodologies and technology in all projects, at the corporate and application levels.&#xA;The term continuous integration (CI) was first proposed by Martin Fowler as a design template. It describes a set of methods and tools that ensure reliable, automated application testing and assembly across short time intervals (often on an integration server designed to do these functions). These days, all software projects must use continuous integration, which blends automated assembly tools with modular testing methods and resources.&#xA;Now that the project&amp;rsquo;s components have been assembled, they have been tested. Continuous integration now occupies the space previously occupied by &amp;ldquo;early and frequent assembly.</description>
+      <title>Take responsibility for your build and its refactoring</title>
+      <link>http://localhost:1313/posts/take-responsibility-for-your-build-and-its-refactoring/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/take-responsibility-for-your-build-and-its-refactoring/</guid>
+      <description>It is not so rare for teams, which generally discipline themselves to follow good coding practices, to treat build scripts with disdain. They are considered either insignificant or so complex that only a sect of release engineers can maintain them. If build scripts are difficult to maintain, contain duplication and errors, it leads to problems of the same scale as poorly designed code.&#xA;Why do responsible and competent developers consider project assembly to be a somewhat secondary task? One explanation is that assembly scripts are often written in a different language than the source code. Another is that assembly scripts are not considered &amp;ldquo;code.&amp;rdquo; Such explanations are contradictory, as most developers are eager to learn new languages, and it is the assembly process that produces executable modules which developers and end users will test and run.</description>
     </item>
   </channel>
 </rss>

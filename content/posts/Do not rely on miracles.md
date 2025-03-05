@@ -1,10 +1,10 @@
 +++
 title='Do not rely on miracles'
-date=2025-02-21T00:00:00-07:00
+date=2024-11-26T00:00:00-07:00
 draft=false
 categories=["cobol"]
 tags=["grace hopper", "cobol", "dll", "magic", "work", "project", "need", "programmers"]
-cover_image='/images/cover/knoxwelle__2017-05-25T131327.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-05-03T121504.000Z.jpg'
 +++
 If you look at any activity, process, or discipline with sufficient
 long distance, everything seems simple. Managers who have no experience

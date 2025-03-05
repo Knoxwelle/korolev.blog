@@ -1,10 +1,10 @@
 +++
 title='When programmers and testers collaborate'
-date=2024-07-15T00:00:00-07:00
+date=2024-05-04T00:00:00-07:00
 draft=false
 categories=["fit"]
 tags=["интеграционный", "tests", "programmers", "code", "testers", "time"]
-cover_image='/images/cover/knoxwelle__2018-04-19T173404.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-11-23T230456.000Z.jpg'
 +++
 When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality.
 software that meets customer expectations. There is

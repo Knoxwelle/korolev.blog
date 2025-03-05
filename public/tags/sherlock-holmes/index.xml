@@ -6,21 +6,21 @@
     <description>Recent content in Sherlock Holmes on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/sherlock-holmes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>You need to take care of the code</title>
-      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
-      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
-    </item>
     <item>
       <title>Before blaming others, check your own code</title>
       <link>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</guid>
       <description>A developer – any of us! – often finds it difficult to admit that their code doesn&amp;rsquo;t work. It seems so implausible that we are more likely to assume there is a bug in the compiler.&#xA;In reality, it is very, very rare for code to be non-functional due to a bug in the compiler, interpreter, operating system, application server, database, memory manager, or any other element of system software. Yes, there are bugs, but they are much less frequent than we would like to think.&#xA;Once, I actually encountered a bug in the compiler (removing the loop variable during optimization), but in all other cases, my complaints about the compiler or operating system turned out to be unfounded. I wasted a lot of my time, support staff time, and management time, only to end up in an awkward position when it turned out that the mistake was my own.</description>
+    </item>
+    <item>
+      <title>You need to take care of the code</title>
+      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
+      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
     </item>
   </channel>
 </rss>

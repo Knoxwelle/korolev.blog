@@ -6,28 +6,42 @@
     <description>Recent content in Start on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/start/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Your clients mean something different than what they say</title>
+      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
+      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
+    </item>
     <item>
       <title>Try not to alter the timetable</title>
       <link>http://localhost:1313/posts/try-not-to-alter-the-timetable/</link>
-      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 28 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/try-not-to-alter-the-timetable/</guid>
       <description>There are several reasons why a software project might not succeed. One of the most common reasons projects fail is modifying the work schedule in the middle of the project without adequate planning. These kinds of failures can be avoided, but it will require a large team effort to do so. Changes to a project&amp;rsquo;s schedule or resource allocation usually don&amp;rsquo;t result in any problems. Problems occur when you have to work longer hours in the same amount of time or shorten the schedule without reducing the task.&#xA;The myth that you may shorten the schedule to save costs or speed product delivery is one that is widely held. More hours are typically put in, or &amp;ldquo;less important tasks&amp;rdquo; (such as modular testing) are abandoned in order to produce a product faster or with better functionality that doesn&amp;rsquo;t delay delivery.</description>
     </item>
     <item>
-      <title>Write code as if you will be maintaining it for the rest of your life</title>
-      <link>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</guid>
-      <description>You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?&#xA;I think the answer lies in your mindset or simply in your approach. If you are indifferent to your fellow developers, testers, managers, sales and marketing staff, as well as end users, you will not feel the urge to, for example, conduct test-driven development or write clear comments in the code. I think there is a simple way to change your attitude and develop a desire to release products of the highest quality:</description>
+      <title>Simplicity is achieved through reduction</title>
+      <link>http://localhost:1313/posts/simplicity-is-achieved-through-reduction/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/simplicity-is-achieved-through-reduction/</guid>
+      <description>&amp;ldquo;Do it again&amp;hellip;&amp;rdquo; my boss said, firmly holding down the Delete key with his finger. With familiar sorrow, I watched the screen where my code was irrevocably disappearing, line by line.&#xA;My boss Stefan wasn&amp;rsquo;t particularly eloquent, but he could spot bad code at first glance. And he knew exactly what to do with it. I took that job as someone learning programming – full of energy and enthusiasm, but with no idea how to write code.&#xA;I was under the terrible delusion that any problems could be solved by adding another variable in the appropriate place or by adding another line of code. On bad days, my code would degrade—its logic wouldn&amp;rsquo;t improve, and moreover, it would become bulkier, more complex, and more unstable.</description>
     </item>
     <item>
-      <title>Your clients mean something different than what they say</title>
-      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
-      <pubDate>Tue, 20 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
-      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
+      <title>Read the code</title>
+      <link>http://localhost:1313/posts/read-the-code/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/read-the-code/</guid>
+      <description>We, programmers, are strange creatures. We love writing code. But when it comes to reading code, we usually shy away from it. After all, writing code is much more exciting, and reading code is difficult—sometimes almost impossible. Especially hard is reading code written by others. Not always because it is poorly written, but because another person thinks and solves problems differently than you do. Have you ever thought that reading someone else&amp;rsquo;s code can help improve your own code?&#xA;The next time you read some code, stop and think. Is it hard to read or easy? If it&amp;rsquo;s hard, why? Is it poorly formatted? Is the naming system inconsistent or illogical? Are multiple tasks mixed in one piece of code? Perhaps the chosen language makes the code difficult to read.</description>
+    </item>
+    <item>
+      <title>Write code as if you will be maintaining it for the rest of your life</title>
+      <link>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</guid>
+      <description>You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?&#xA;I think the answer lies in your mindset or simply in your approach. If you are indifferent to your fellow developers, testers, managers, sales and marketing staff, as well as end users, you will not feel the urge to, for example, conduct test-driven development or write clear comments in the code. I think there is a simple way to change your attitude and develop a desire to release products of the highest quality:</description>
     </item>
   </channel>
 </rss>

@@ -6,12 +6,19 @@
     <description>Recent content in Process on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/process/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Take responsibility for your build and its refactoring</title>
+      <link>http://localhost:1313/posts/take-responsibility-for-your-build-and-its-refactoring/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/take-responsibility-for-your-build-and-its-refactoring/</guid>
+      <description>It is not so rare for teams, which generally discipline themselves to follow good coding practices, to treat build scripts with disdain. They are considered either insignificant or so complex that only a sect of release engineers can maintain them. If build scripts are difficult to maintain, contain duplication and errors, it leads to problems of the same scale as poorly designed code.&#xA;Why do responsible and competent developers consider project assembly to be a somewhat secondary task? One explanation is that assembly scripts are often written in a different language than the source code. Another is that assembly scripts are not considered &amp;ldquo;code.&amp;rdquo; Such explanations are contradictory, as most developers are eager to learn new languages, and it is the assembly process that produces executable modules which developers and end users will test and run.</description>
+    </item>
     <item>
       <title>Code review</title>
       <link>http://localhost:1313/posts/code-review/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/code-review/</guid>
       <description>Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.&#xA;Many programmers have an aversion to code reviews, which can be linked to their unfortunate personal experiences. I have encountered organizations where all code underwent formal review before it could enter the system for commercial use. Often, the review is conducted by an architect or lead developer—a practice that can be called &amp;ldquo;the architect checks everything.&amp;rdquo; This is documented in the company&amp;rsquo;s software development process guide, and programmers are required to comply.&#xA;Perhaps, in some organizations, such a strict and formal process is indeed necessary, but they are in the minority. In most organizations, such an approach is counterproductive.</description>
     </item>

@@ -1,10 +1,10 @@
 +++
 title='Two mistakes can cancel each other out, making them difficult to correct'
-date=2025-02-06T00:00:00-07:00
+date=2024-04-18T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "allan klumpp", "apollo", "everything", "timetolive", "problems", "fix", "defect", "users"]
-cover_image='/images/cover/knoxwelle__2022-05-12T172035.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2019-06-19T005814.000Z.jpg'
 +++
 Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?
 

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Example on Tiny Dev Blog</title>
+    <title>Example on Korolev Blog</title>
     <link>http://localhost:1313/tags/example/</link>
-    <description>Recent content in Example on Tiny Dev Blog</description>
+    <description>Recent content in Example on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Do not get carried away by architectural metaphors</title>
-      <link>http://localhost:1313/posts/do-not-get-carried-away-by-architectural-metaphors/</link>
-      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-get-carried-away-by-architectural-metaphors/</guid>
-      <description>Architects love dealing with metaphors.Metaphors allow us to give tangibility to abstract, complex, and elusive topics.When communicating with other team members or during discussions about architecture with the end user, there is an irresistible temptation to choose an expressive metaphor, familiar from the real world, that would describe what you are trying to build.&#xA;Usually, everything starts off well: the interlocutors find common ground, and it seems that everything is heading in the right direction.A metaphor develops and grows until it begins to live a life of its own.People treat her favorably – progress is evident!&#xA;And then usually comes the moment when the architectural metaphor suddenly becomes dangerous and rises up against its creators.Here&amp;rsquo;s how it might happen:&#xA;If your metaphor starts to appeal to the client more than the system being developed itself, it means that all interested parties begin to believe in the beautiful illusion created by the metaphor, unwilling to delve into what is actually hidden behind it.</description>
+      <title>The assembly must be clean</title>
+      <link>http://localhost:1313/posts/the-assembly-must-be-clean/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-assembly-must-be-clean/</guid>
+      <description>Have you ever seen a list of compiler warnings the size of an essay on how not to write code and thought: &amp;ldquo;Of course, something needs to be done about this&amp;hellip; but I just don&amp;rsquo;t have time for it right now&amp;rdquo;? And conversely, have you ever seen a single warning appear during compilation and immediately fix it?&#xA;When I start a new project from scratch, there are no warnings, no mess, no problems. But as the codebase grows, if no measures are taken, it&amp;rsquo;s likely that the mess, clutter, warnings, and issues will gradually accumulate. In a large stream of &amp;ldquo;noise,&amp;rdquo; it becomes significantly harder to find a truly important warning among the hundreds of others that I am not interested in.&#xA;To make warnings useful again, I try to adhere to a policy of zero tolerance for warnings during assembly.</description>
     </item>
   </channel>
 </rss>

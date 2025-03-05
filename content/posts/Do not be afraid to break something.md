@@ -1,10 +1,10 @@
 +++
 title='Do not be afraid to break something'
-date=2024-08-19T00:00:00-07:00
+date=2024-12-14T00:00:00-07:00
 draft=false
 categories=[]
 tags=["system", "code", "project", "structure", "work"]
-cover_image='/images/cover/knoxwelle__2018-04-10T190852.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2018-06-27T072802.000Z.jpg'
 +++
 Everyone who has worked in our industry has surely encountered a project, code
 which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system.

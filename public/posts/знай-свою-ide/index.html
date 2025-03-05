@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/%D0%B7%D0%BD%D0%B0%D0%B9-%D1%81%D0%B2%D0%BE%D1%8E-ide/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Знай свою IDE • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Знай свою IDE">
+<meta name="twitter:description" content="В вось­ми­де­ся­тые го­ды сре­да про­грам­ми­ро­ва­ния, как правило, не сильно отличалась от текстового редактора с наворотами – в лучшем случае. Это сегодня мы воспринимаем подсветку синтаксиса как нечто само собой разумеющееся, а в то время она была роскошью, доступной далеко не каждому. Средства форматирования кода существовали в виде внешних инструментов, применение которых корректировало расстановку пробелов. Отладчики тоже «жили» отдельно как программы для пошагового выполнения кода, и для работы с ними требовалось знать массу загадочных сочетаний клавиш.
+В девяностые годы компании начали осознавать потенциал прибыли от более удобных и полезных инструментов разработки. Интегрированная среда разработки (Integrated Development Environment, IDE) объединила уже предлагавшиеся ранее функции редактирования с компилятором, отладчиком, средствами форматирования и другими инструментами. Как раз в это время стали популярны меню и мышь, а значит, отпала надобность заучивать разработчикам сложные комбинации клавиш для работы со своим редактором.">
+
+<meta property="og:url" content="http://localhost:1313/posts/%D0%B7%D0%BD%D0%B0%D0%B9-%D1%81%D0%B2%D0%BE%D1%8E-ide/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Знай свою IDE">
+  <meta property="og:description" content="В вось­ми­де­ся­тые го­ды сре­да про­грам­ми­ро­ва­ния, как правило, не сильно отличалась от текстового редактора с наворотами – в лучшем случае. Это сегодня мы воспринимаем подсветку синтаксиса как нечто само собой разумеющееся, а в то время она была роскошью, доступной далеко не каждому. Средства форматирования кода существовали в виде внешних инструментов, применение которых корректировало расстановку пробелов. Отладчики тоже «жили» отдельно как программы для пошагового выполнения кода, и для работы с ними требовалось знать массу загадочных сочетаний клавиш.
+В девяностые годы компании начали осознавать потенциал прибыли от более удобных и полезных инструментов разработки. Интегрированная среда разработки (Integrated Development Environment, IDE) объединила уже предлагавшиеся ранее функции редактирования с компилятором, отладчиком, средствами форматирования и другими инструментами. Как раз в это время стали популярны меню и мышь, а значит, отпала надобность заучивать разработчикам сложные комбинации клавиш для работы со своим редактором.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-05-29T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-05-29T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Знай свою IDE</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> May 29, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 3 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2021-06-22T065420.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>В вось­ми­де­ся­тые го­ды сре­да про­грам­ми­ро­ва­ния, как правило, не сильно отличалась от текстового редактора с наворотами – в лучшем случае. Это сегодня мы
+воспринимаем подсветку синтаксиса как нечто само собой разумеющееся, а в то
+время она была роскошью, доступной далеко не каждому. Средства форматирования кода существовали в виде внешних инструментов, применение которых
+корректировало расстановку пробелов. Отладчики тоже «жили» отдельно как
+программы для пошагового выполнения кода, и для работы с ними требовалось
+знать массу загадочных сочетаний клавиш.</p>
+<p>В девяностые годы компании начали осознавать потенциал прибыли от более
+удобных и полезных инструментов разработки. Интегрированная среда разработки (Integrated Development Environment, IDE) объединила уже предлагавшиеся ранее функции редактирования с компилятором, отладчиком, средствами
+форматирования и другими инструментами. Как раз в это время стали популярны меню и мышь, а значит, отпала надобность заучивать разработчикам сложные комбинации клавиш для работы со своим редактором. Достаточно было выбрать команду из меню.</p>
+<p>В двадцать первом веке IDE настолько распространились, что некоторые компании, нацеленные на доли рынка в других областях, раздают их бесплатно. Современная IDE предлагает множество восхитительных функций. Мне особенно
+нравится автоматический рефакторинг, в частности функция Extract Method,
+позволяющая выделить фрагмент кода и сделать из него метод. Средства рефакторинга найдут все параметры, которые нужно передать методу, благодаря чему
+становится чрезвычайно просто модифицировать код. Моя IDE даже найдет другие фрагменты кода, которые можно заменить вызовом этого метода, и спросит
+у меня, следует ли это сделать.</p>
+<p>Другая замечательная возможность современных IDE – способность принуждать
+к соблюдению стиля, принятого в компании. Например, в Java некоторые программисты стали объявлять все параметры &ldquo;final&rdquo; (на мой взгляд, это пустая трата времени). Тем не менее раз такое правило установлено, мне достаточно задать его в настройках IDE, и я стану получать предупреждения для всех параметров,
+которые не объявлены как &ldquo;final&rdquo;. С помощью правил стиля можно также искать
+возможные ошибки, такие как проверка равенства автоматически упакованных
+(autoboxed) объектов посредством ссылочной семантики, как в случае использования оператора == для примитивов, упакованных в соответствующие объекты.</p>
+<p>К сожалению, современные IDE не требуют, чтобы мы прилагали усилия к освоению этих самых IDE. Когда я начал программировать на C под UNIX, мне пришлось потратить немало времени, чтобы научиться работать в редакторе vi, что
+обусловлено его кривой обучения. Но потраченное на старте время сторицей окупилось с годами. Даже черновик этой статьи набран в vi. У современных IDE
+кривая обучения такая, что мы никогда не выходим за пределы базовых приемов работы с ними.</p>
+<p>Первое, что я делаю при изучении IDE, – запоминаю управляющие сочетания клавиш. Когда я набираю код, пальцы лежат на клавиатуре, и нажатие
+Ctrl+Shift+I позволяет встроить переменную (операция рефакторинга Inline Variable), не нарушая рабочего потока, тогда как навигация по меню указателем
+мыши отвлекла бы меня. Такие отвлечения создают ненужные переключения
+контекста и значительно снижают мою продуктивность, если я пытаюсь делать
+все «ленивым» образом. То же справедливо в отношении владения клавиатурой:
+освойте печать вслепую, и вы не пожалеете о потраченном времени.</p>
+<p>Наконец, у программистов есть проверенные временем конвейерные UNIX-утилиты, позволяющие манипулировать кодом различными способами. Например,
+если при рецензировании кода я замечаю, что программисты назвали многие
+классы одинаково, я легко могу обнаружить эти повторения с помощью утилит
+find, sed, sort, uniq и grep, например:
+find . -name &ldquo;<em>.java&rdquo; | sed &rsquo;s/.</em>///&rsquo; | sort | uniq -c | grep -v &ldquo;^ *1 &quot; | sort -r</p>
+<p>Мы ожидаем, что посетивший нас сантехник умеет пользоваться паяльной лампой. Давайте же потратим немного времени и поучимся более эффективно работать со своими IDE.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Two mistakes can cancel each other out, making them difficult to correct</span>
+    </a>
+    
+    
+    <a href="/posts/comment-only-on-what-the-code-will-not-say/" class="navigation-next">
+      <span class="navigation-tittle">Comment only on what the code will not say</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/draft/%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%B9%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BA-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D1%80%D0%B0%D0%BD%D0%BD%D0%B5%D0%B5-%D0%B8-%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%B5/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Развертывайте приложение как можно раннее и регулярнее • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Развертывайте приложение как можно раннее и регулярнее">
+<meta name="twitter:description" content="От­лад­ку про­це­ду­ры раз­вер­ты­ва­ния (deployment) и ус­та­нов­ки часто откладывают до этапа завершения проекта. В некоторых проектах создание средств установки возлагается на выпускающего продукт инженера, который воспринимает эту задачу как «неизбежное зло». Промежуточные демонстрации приложения проводятся в специально подготовленной среде, чтобы все работало, как надо. В результате команда не получает опыта работы с процессом и средой развертывания до того момента, когда времени для внесения изменений уже может не остаться.
+Процедура развертывания или установки – первое, что видит заказчик, и если она проста, это первый шаг к надежной (или хотя бы простой в отладке) производственной среде. Развертываемое программное обеспечение – это то, чем будет пользоваться клиент. Если вы не обеспечите правильное развертывание приложения, у ваших клиентов появятся вопросы еще до того, как они приступят к плотной работе с вашими программами.">
+
+<meta property="og:url" content="http://localhost:1313/draft/%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%80%D1%82%D1%8B%D0%B2%D0%B0%D0%B9%D1%82%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%B0%D0%BA-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D1%80%D0%B0%D0%BD%D0%BD%D0%B5%D0%B5-%D0%B8-%D1%80%D0%B5%D0%B3%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D0%B5/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Развертывайте приложение как можно раннее и регулярнее">
+  <meta property="og:description" content="От­лад­ку про­це­ду­ры раз­вер­ты­ва­ния (deployment) и ус­та­нов­ки часто откладывают до этапа завершения проекта. В некоторых проектах создание средств установки возлагается на выпускающего продукт инженера, который воспринимает эту задачу как «неизбежное зло». Промежуточные демонстрации приложения проводятся в специально подготовленной среде, чтобы все работало, как надо. В результате команда не получает опыта работы с процессом и средой развертывания до того момента, когда времени для внесения изменений уже может не остаться.
+Процедура развертывания или установки – первое, что видит заказчик, и если она проста, это первый шаг к надежной (или хотя бы простой в отладке) производственной среде. Развертываемое программное обеспечение – это то, чем будет пользоваться клиент. Если вы не обеспечите правильное развертывание приложения, у ваших клиентов появятся вопросы еще до того, как они приступят к плотной работе с вашими программами.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="draft">
+    <meta property="article:published_time" content="2024-07-10T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-10T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Развертывайте приложение как можно раннее и регулярнее</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 10, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>От­лад­ку про­це­ду­ры раз­вер­ты­ва­ния (deployment) и ус­та­нов­ки часто откладывают до этапа завершения проекта. В некоторых проектах создание средств установки возлагается на выпускающего продукт инженера, который воспринимает
+эту задачу как «неизбежное зло». Промежуточные демонстрации приложения
+проводятся в специально подготовленной среде, чтобы все работало, как надо.
+В результате команда не получает опыта работы с процессом и средой развертывания до того момента, когда времени для внесения изменений уже может не
+остаться.</p>
+<p>Процедура развертывания или установки – первое, что видит заказчик, и если
+она проста, это первый шаг к надежной (или хотя бы простой в отладке) производственной среде. Развертываемое программное обеспечение – это то, чем будет
+пользоваться клиент. Если вы не обеспечите правильное развертывание приложения, у ваших клиентов появятся вопросы еще до того, как они приступят
+к плотной работе с вашими программами.</p>
+<p>Начиная проект с процедуры установки, вы получаете время на ее совершенствование по ходу цикла разработки продукта и возможность вносить изменения
+в код приложения с целью облегчить его установку. Периодический запуск и тестирование процедуры установки в чистой среде позволит также проверить, не
+осталось ли в коде зависимостей от среды разработки или тестирования.</p>
+<p>Задвигая развертывание на последнее место, вы можете тем самым усложнить
+процесс развертывания, ведь вам придется искать обходные маршруты для допущений, сделанных в коде. То, что казалось удачной идеей в IDE, где имеется
+полный контроль над средой, может значительно усложнить процедуру развертывания. Обо всех компромиссах лучше узнать заранее.</p>
+<p>Может казаться, что «способность развернуть приложение» на ранних стадиях
+не имеет большой ценности для бизнеса по сравнению с возможностью увидеть,
+как приложение работает на компьютере разработчика. Однако нужно учесть тот
+простой факт, что реальную ценность для бизнеса представляет лишь конечный продукт, способный работать в среде клиента. А это в любом случае невозможно
+на начальном этапе и еще потребует значительной работы. Если вы откладываете
+создание процедуры развертывания, считая ее тривиальной, следует тем более
+решить этот вопрос сразу, раз решение настолько дешево. Если же процедура
+слишком сложная или в ней слишком много неясного, нужно работать с ней так
+же, как с кодом приложения: экспериментировать, оценивать и переделывать по
+мере необходимости.</p>
+<p>Процедура установки или развертывания критически важна для успешной работы ваших клиентов или вашей сервисной команды, поэтому необходимо постоянно тестировать и совершенствовать ее. Тестирование и совершенствование
+исходного кода происходят на всем протяжении проекта. Развертывание приложения заслуживает такого же отношения.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    
+    <a href="/draft/%D0%BE%D1%82%D0%BB%D0%B8%D1%87%D0%B0%D0%B9%D1%82%D0%B5-%D0%B8%D1%81%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2-%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81-%D0%BB%D0%BE%D0%B3%D0%B8%D0%BA%D0%B5-%D0%BE%D1%82-%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85/" class="navigation-next">
+      <span class="navigation-tittle">Отличайте исключения в бизнес-логике от технических</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

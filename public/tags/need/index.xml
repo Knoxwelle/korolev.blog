@@ -6,28 +6,35 @@
     <description>Recent content in Need on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/need/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>You are negotiating</title>
-      <link>http://localhost:1313/posts/you-are-negotiating/</link>
-      <pubDate>Fri, 24 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-are-negotiating/</guid>
-      <description>Have you encountered projects where reasonable technological solutions are &amp;ldquo;buried&amp;rdquo; for the sake of saving costs?&#xA;The conversation goes something like this: &amp;ldquo;Do we really need X?&amp;rdquo; asks the project manager. You can substitute X with almost anything essential for system operations: software product licenses, redundant servers, external backups or power sources. The question is always asked in a fatherly tone, as if you were spending all your pocket money on comics and chewing gum, while serious adults need to think about buying new buckets in which they will carry their future profits.&#xA;The correct answer to this question is: &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one responds.&#xA;After all, we have a technical education, and any technical discipline is an art of compromise.</description>
+      <title>Your clients mean something different than what they say</title>
+      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
+      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
     </item>
     <item>
       <title>Do not rely on miracles</title>
       <link>http://localhost:1313/posts/do-not-rely-on-miracles/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-rely-on-miracles/</guid>
       <description>If you look at any activity, process, or discipline with sufficient long distance, everything seems simple. Managers who have no experience software development, believe that the work of a programmer is simple, and programmers who have no management experience feel the same way about the work of a manager.&#xA;Programming is a certain activity that some people spend some of their time on. And the most difficult part of the work—the thought process—is the least noticeable and the least appreciated by the uninitiated. For decades, attempts have been made to eliminate the need for skilled thinking personnel. One of the earliest and most memorable attempts was Grace Hopper&amp;rsquo;s efforts to make programming languages less mysterious. Thanks to this, as some predicted, the need for narrowly specialized programmers may disappear.</description>
     </item>
     <item>
-      <title>Your clients mean something different than what they say</title>
-      <link>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</link>
-      <pubDate>Tue, 20 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/your-clients-mean-something-different-than-what-they-say/</guid>
-      <description>I have yet to meet a client who wouldn&amp;rsquo;t be happy to tell me what they need – usually down to the smallest details. The problem is that clients don&amp;rsquo;t always tell the whole truth. Overall, clients don&amp;rsquo;t lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don&amp;rsquo;t know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don&amp;rsquo;t need.</description>
+      <title>You are negotiating</title>
+      <link>http://localhost:1313/posts/you-are-negotiating/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-are-negotiating/</guid>
+      <description>Have you encountered projects where reasonable technological solutions are &amp;ldquo;buried&amp;rdquo; for the sake of saving costs?&#xA;The conversation goes something like this: &amp;ldquo;Do we really need X?&amp;rdquo; asks the project manager. You can substitute X with almost anything essential for system operations: software product licenses, redundant servers, external backups or power sources. The question is always asked in a fatherly tone, as if you were spending all your pocket money on comics and chewing gum, while serious adults need to think about buying new buckets in which they will carry their future profits.&#xA;The correct answer to this question is: &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one responds.&#xA;After all, we have a technical education, and any technical discipline is an art of compromise.</description>
+    </item>
+    <item>
+      <title>The assembly must be clean</title>
+      <link>http://localhost:1313/posts/the-assembly-must-be-clean/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-assembly-must-be-clean/</guid>
+      <description>Have you ever seen a list of compiler warnings the size of an essay on how not to write code and thought: &amp;ldquo;Of course, something needs to be done about this&amp;hellip; but I just don&amp;rsquo;t have time for it right now&amp;rdquo;? And conversely, have you ever seen a single warning appear during compilation and immediately fix it?&#xA;When I start a new project from scratch, there are no warnings, no mess, no problems. But as the codebase grows, if no measures are taken, it&amp;rsquo;s likely that the mess, clutter, warnings, and issues will gradually accumulate. In a large stream of &amp;ldquo;noise,&amp;rdquo; it becomes significantly harder to find a truly important warning among the hundreds of others that I am not interested in.&#xA;To make warnings useful again, I try to adhere to a policy of zero tolerance for warnings during assembly.</description>
     </item>
   </channel>
 </rss>

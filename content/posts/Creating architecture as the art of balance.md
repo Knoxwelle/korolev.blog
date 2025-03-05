@@ -1,10 +1,10 @@
 +++
 title='Creating architecture as the art of balance'
-date=2024-11-28T00:00:00-07:00
+date=2024-05-29T00:00:00-07:00
 draft=false
 categories=[]
 tags=["match", "first", "product", "priorities", "software", "organization", "development"]
-cover_image='/images/cover/knoxwelle__2017-05-03T124940.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2019-12-16T002054.000Z.jpg'
 +++
 Match the interests of the parties with the technical requirements.
 When it comes to software architecture development,

@@ -6,12 +6,26 @@
     <description>Recent content in Fix on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/fix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incredible, but testers are your friends</title>
+      <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
+      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
+      <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
+    </item>
+    <item>
+      <title>The assembly must be clean</title>
+      <link>http://localhost:1313/posts/the-assembly-must-be-clean/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-assembly-must-be-clean/</guid>
+      <description>Have you ever seen a list of compiler warnings the size of an essay on how not to write code and thought: &amp;ldquo;Of course, something needs to be done about this&amp;hellip; but I just don&amp;rsquo;t have time for it right now&amp;rdquo;? And conversely, have you ever seen a single warning appear during compilation and immediately fix it?&#xA;When I start a new project from scratch, there are no warnings, no mess, no problems. But as the codebase grows, if no measures are taken, it&amp;rsquo;s likely that the mess, clutter, warnings, and issues will gradually accumulate. In a large stream of &amp;ldquo;noise,&amp;rdquo; it becomes significantly harder to find a truly important warning among the hundreds of others that I am not interested in.&#xA;To make warnings useful again, I try to adhere to a policy of zero tolerance for warnings during assembly.</description>
+    </item>
     <item>
       <title>Two mistakes can cancel each other out, making them difficult to correct</title>
       <link>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</guid>
       <description>Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?&#xA;In his interview, Allan Klumpp, the lead software developer for the Apollo lunar module, revealed that the engine control software contained a defect that caused the lunar module to behave erratically. However, there was another bug in the program that compensated for the first one, and during the Apollo 11 and 12 moon landings, this software was successfully used before the bugs were discovered and fixed.&#xA;Let&amp;rsquo;s consider a function that returns an exit code. Let&amp;rsquo;s say it returns false when it should return true. Now imagine that the calling function does not implement the check for the return value. Everything works perfectly until one day someone discovers the lack of a check and adds it.</description>
     </item>

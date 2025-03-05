@@ -1,10 +1,10 @@
 +++
 title='You are negotiating'
-date=2024-07-17T00:00:00-07:00
+date=2024-11-22T00:00:00-07:00
 draft=false
 categories=[]
 tags=["servers", "system", "manager", "need", "server"]
-cover_image='/images/cover/knoxwelle__2023-02-02T051310.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-03-01T225222.000Z.jpg'
 +++
 Have you encountered projects where reasonable technological solutions are "buried" for the sake of saving costs?
 

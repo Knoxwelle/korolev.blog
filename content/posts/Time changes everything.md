@@ -1,10 +1,10 @@
 +++
 title='Time changes everything'
-date=2024-10-31T00:00:00-07:00
+date=2024-06-22T00:00:00-07:00
 draft=false
 categories=["dude"]
 tags=["wise", "first", "easy", "dude", "time", "assignment", "look", "solutions", "lot"]
-cover_image='/images/cover/knoxwelle__2020-04-03T060336.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2018-10-12T083743.000Z.jpg'
 +++
 Seeing what has survived and what hasn't has long been one of my favorite vivid forms of amusement. There were a plethora of patterns, infrastructures, paradigm shifts, and algorithms. Wise people debated them fervently, considered long-term views, and attempted to strike a balance between all the known components, but in the end, they came to naught. Why? What is the past attempting to teach us?
 

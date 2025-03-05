@@ -6,12 +6,12 @@
     <description>Recent content in Sql on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Relational Database Management Systems</title>
       <link>http://localhost:1313/posts/relational-database-management-systems/</link>
-      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/relational-database-management-systems/</guid>
       <description>If your application needs to handle a large, long-lived set of interrelated data elements, you can confidently place it in a relational database. In the past, there were few relational DBMSs; they were complex, expensive to maintain, and clunky beasts. Those times are gone. Today, finding a relational DBMS is not difficult: it is quite possible that a relational DBMS or even two are already installed on your machine. Some very advanced relational DBMSs, such like MySQL and PostgreSQL, are available in source code, so the question of costs it is no longer worth buying them. Moreover, the so-called &amp;ldquo;embedded database systems&amp;rdquo; can be integrated into your application as libraries, almost requiring no configuration and administration; two such examples are interesting open-source DBMS, SQLite and HSQLDB.</description>
     </item>

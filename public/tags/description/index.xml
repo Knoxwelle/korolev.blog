@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Description on Korolev Blog</title>
+    <link>http://localhost:1313/tags/description/</link>
+    <description>Recent content in Description on Korolev Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 May 2024 00:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/description/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Only the code will tell the truth</title>
+      <link>http://localhost:1313/posts/only-the-code-will-tell-the-truth/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/only-the-code-will-tell-the-truth/</guid>
+      <description>In the end, the semantics of a program are defined by the working code. If you only have it in the form of a binary file, it will be difficult to read! However, the source code is usually available if it is your own program, a typical commercial development, an open-source project, or a program in a dynamically interpreted language. When reading the source code, the meaning of the program should be obvious. You can confidently know what the program does just by looking at the source code. Even the most precise description of technical requirements will not tell the whole truth: it contains not a detailed description of what the program actually does, but general wishes of the requirements compiler. An architecture document may contain a description of the planned architecture, but it will not describe the necessary implementation details.</description>
+    </item>
+  </channel>
+</rss>

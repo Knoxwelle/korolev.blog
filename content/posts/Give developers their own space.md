@@ -1,10 +1,10 @@
 +++
 title='Give developers their own space'
-date=2024-08-16T00:00:00-07:00
+date=2024-05-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["api", "developers", "architect", "work", "system", "design"]
-cover_image='/images/cover/knoxwelle__2017-05-25T215513.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-09-26T181252.000Z.jpg'
 +++
 Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it's critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.
 

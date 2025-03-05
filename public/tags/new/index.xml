@@ -6,14 +6,14 @@
     <description>Recent content in New on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/new/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Failures are unavoidable</title>
-      <link>http://localhost:1313/posts/failures-are-unavoidable/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/failures-are-unavoidable/</guid>
-      <description>It increases the likelihood that the system will experience a malfunction at least once in any given period of time, but it also makes it possible to survive isolated hardware failures.&#xA;The software code is also vulnerable. We employ monitoring tools to keep track of application issues, but because they depend on software, these tools might sometimes break.&#xA;We try to automate our diagnoses, actions, and workflows since humans are fallible. Automation increases the likelihood of errors coming from rule noncompliance but decreases the likelihood of errors resulting from rule violations. More circumstances can be handled by a human than by any automated technology.&#xA;For this reason, we&amp;rsquo;re including monitoring techniques in automated solutions. new software with fresh bugs. Networks are made up of hardware, software, and long communication lines.</description>
+      <title>Program in pairs and get into the flow</title>
+      <link>http://localhost:1313/posts/program-in-pairs-and-get-into-the-flow/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/program-in-pairs-and-get-into-the-flow/</guid>
+      <description>Imagine that you are completely absorbed in your work: focused, passionate, and busy. You have lost track of time. You are happy. You are in a state of flow. On a larger scale, it is difficult for an entire team of developers to achieve and maintain a state of flow due to numerous interruptions, distractions, and other obstacles that can easily disrupt it.&#xA;If you have already participated in pair programming, you probably know how it contributes to achieving a state of flow. If not, we want to share our experience to encourage you to start pair programming immediately! For pair programming to be successful, some effort is required from individual team members and the entire team as a whole.&#xA;Being part of a team, show patience towards less experienced developers.</description>
     </item>
   </channel>
 </rss>

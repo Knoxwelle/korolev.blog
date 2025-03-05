@@ -1,10 +1,10 @@
 +++
 title='Satisfy your ambition through Open Source'
-date=2024-12-18T00:00:00-07:00
+date=2024-12-19T00:00:00-07:00
 draft=false
 categories=["google", "pc"]
 tags=["google", "apple", "microsoft", "code", "projects", "project", "work", "programmer"]
-cover_image='/images/cover/knoxwelle__2018-07-02T161326.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-08-03T042731.000Z.jpg'
 +++
 As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.
 

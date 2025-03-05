@@ -186,10 +186,10 @@
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/comment-only-on-what-the-code-will-not-say/" >Comment only on what the code will not say</a>
+          <a href="/posts/before-starting-the-refactoring/" >Before starting the refactoring</a>
         </span>
         <span class="item__date">
-          Jul 27, 2024
+          Jul 14, 2024
         </span>
         <span >
         
@@ -202,31 +202,19 @@
               
                <i class="fas fa-tags"></i>
               
-              <a class="badge badge-tag" href="/tags/computing-mcgraw-hill">computing mcgraw-hill</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/kernighan">kernighan</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/plauger">plauger</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/brake">brake</a>
-               
-          
               <a class="badge badge-tag" href="/tags/code">code</a>
                
           
-              <a class="badge badge-tag" href="/tags/comments">comments</a>
+              <a class="badge badge-tag" href="/tags/tests">tests</a>
                
           
-              <a class="badge badge-tag" href="/tags/comment">comment</a>
+              <a class="badge badge-tag" href="/tags/system">system</a>
                
           
-              <a class="badge badge-tag" href="/tags/programmers">programmers</a>
+              <a class="badge badge-tag" href="/tags/mistakes">mistakes</a>
                
           
-              <a class="badge badge-tag" href="/tags/blocks">blocks</a>
+              <a class="badge badge-tag" href="/tags/changes">changes</a>
               
           <br/>
         
@@ -236,17 +224,17 @@
         <br/>
 
         <div class="my-12">
-          <img src="/images/cover/knoxwelle__2016-12-18T183849.000Z.jpg">
+          <img src="/images/cover/knoxwelle__2017-01-15T081122.000Z.jpg">
             
             
         </div>
         <br/>
-        The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code seems commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.
-If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &ldquo;The Elements of Programming Style&rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &ldquo;a wrong comment is worse than no comment at all.
+        Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):
+It is best to start refactoring by assessing the state of the existing code in the project and the tests written for it. This way, you can identify the strengths and weaknesses of the code in its current state, to preserve its strong points and avoid the mistakes already made. Everyone thinks their system will be better than the current one&hellip; until it turns out that the new code is no better, and maybe even worse, than the previous version, all because we did not learn from the mistakes made in the old system.
         
         </span>
         
-          ... <a class="read-more-symbol" href="/posts/comment-only-on-what-the-code-will-not-say/">➦</a>
+          ... <a class="read-more-symbol" href="/posts/before-starting-the-refactoring/">➦</a>
         
         </div>
         
@@ -256,10 +244,87 @@ If the code is written with syntax errors, compilers, interpreters, and other de
       
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="/posts/automate-your-code-formatting-standard/" >Automate your code formatting standard</a>
+          <a href="/posts/the-importance-of-code-formatting/" >The importance of code formatting</a>
         </span>
         <span class="item__date">
-          Jul 25, 2024
+          Jul 09, 2024
+        </span>
+        <span >
+        
+        
+        
+          
+          
+              in •
+              
+              
+                  <a class="badge badge-category" href="/categories/cobol">COBOL</a>
+                  
+              <br/>
+          
+        
+        
+        
+          
+          
+              
+               <i class="fas fa-tags"></i>
+              
+              <a class="badge badge-tag" href="/tags/cobol">cobol</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/code">code</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/first">first</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/kevin-mcguire">kevin mcguire</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/line">line</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/screen">screen</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/work">work</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/poetry">poetry</a>
+              
+          <br/>
+        
+        
+        
+        <i class="fas fa-clock"></i> 3 min read
+        <br/>
+
+        <div class="my-12">
+          <img src="/images/cover/knoxwelle__2020-05-29T230535.000Z.jpg">
+            
+            
+        </div>
+        <br/>
+        In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&rsquo;t be trusted. I&rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.
+Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/the-importance-of-code-formatting/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/write-code-wisely/" >Write code wisely</a>
+        </span>
+        <span class="item__date">
+          Jul 09, 2024
         </span>
         <span >
         
@@ -272,25 +337,25 @@ If the code is written with syntax errors, compilers, interpreters, and other de
               
                <i class="fas fa-tags"></i>
               
-              <a class="badge badge-tag" href="/tags/new-year">new year</a>
+              <a class="badge badge-tag" href="/tags/below">below</a>
                
           
-              <a class="badge badge-tag" href="/tags/standards">standards</a>
+              <a class="badge badge-tag" href="/tags/devil">devil</a>
                
           
               <a class="badge badge-tag" href="/tags/code">code</a>
                
           
-              <a class="badge badge-tag" href="/tags/standard">standard</a>
+              <a class="badge badge-tag" href="/tags/fragments">fragments</a>
                
           
-              <a class="badge badge-tag" href="/tags/project">project</a>
+              <a class="badge badge-tag" href="/tags/proof">proof</a>
                
           
-              <a class="badge badge-tag" href="/tags/tools">tools</a>
+              <a class="badge badge-tag" href="/tags/function">function</a>
                
           
-              <a class="badge badge-tag" href="/tags/anti-patterns">anti-patterns</a>
+              <a class="badge badge-tag" href="/tags/correctness">correctness</a>
               
           <br/>
         
@@ -300,17 +365,429 @@ If the code is written with syntax errors, compilers, interpreters, and other de
         <br/>
 
         <div class="my-12">
-          <img src="/images/cover/knoxwelle__2019-11-06T002124.000Z.jpg">
+          <img src="/images/cover/knoxwelle__2017-05-30T181117.000Z.jpg">
             
             
         </div>
         <br/>
-        You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&rsquo;s call them &ldquo;new project promises.&rdquo; Similar to New Year&rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.
-When did it all go wrong?
+        Attempts to prove the correctness of software manually lead to a formal proof that is longer than the code itself and contains errors more frequently than the code. It is preferable to use automated tools, but this is not always possible. Below, a middle ground is described: semi-formal proof of correctness.
+The method is based on dividing the code under investigation into short fragments ranging from a single line, which may contain a function call, to blocks no longer than 10 lines, and discussing their correctness. The proof must be convincing enough for your colleague playing the role of the &ldquo;devil&rsquo;s advocate.&rdquo;
+Fragments should be chosen in such a way that at the end point of the block, the program state (namely, the instruction address counter and the values of all &ldquo;live&rdquo; objects) satisfies a property that is simple to describe, and the functionality of this fragment (state transformation) can be easily described as a single independent task.
         
         </span>
         
-          ... <a class="read-more-symbol" href="/posts/automate-your-code-formatting-standard/">➦</a>
+          ... <a class="read-more-symbol" href="/posts/write-code-wisely/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/before-blaming-others-check-your-own-code/" >Before blaming others, check your own code</a>
+        </span>
+        <span class="item__date">
+          Jul 08, 2024
+        </span>
+        <span >
+        
+        
+        
+        
+        
+          
+          
+              
+               <i class="fas fa-tags"></i>
+              
+              <a class="badge badge-tag" href="/tags/sherlock-holmes">sherlock holmes</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/dirk">dirk</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/compiler">compiler</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/time">time</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/code">code</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/errors">errors</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/version">version</a>
+              
+          <br/>
+        
+        
+        
+        <i class="fas fa-clock"></i> 3 min read
+        <br/>
+
+        <div class="my-12">
+          <img src="/images/cover/knoxwelle__2021-08-30T144419.000Z.jpg">
+            
+            
+        </div>
+        <br/>
+        A developer – any of us! – often finds it difficult to admit that their code doesn&rsquo;t work. It seems so implausible that we are more likely to assume there is a bug in the compiler.
+In reality, it is very, very rare for code to be non-functional due to a bug in the compiler, interpreter, operating system, application server, database, memory manager, or any other element of system software. Yes, there are bugs, but they are much less frequent than we would like to think.
+Once, I actually encountered a bug in the compiler (removing the loop variable during optimization), but in all other cases, my complaints about the compiler or operating system turned out to be unfounded. I wasted a lot of my time, support staff time, and management time, only to end up in an awkward position when it turned out that the mistake was my own.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/before-blaming-others-check-your-own-code/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/the-assembly-must-be-clean/" >The assembly must be clean</a>
+        </span>
+        <span class="item__date">
+          Jul 01, 2024
+        </span>
+        <span >
+        
+        
+        
+          
+          
+              in •
+              
+              
+                  <a class="badge badge-category" href="/categories/java">JAVA</a>
+                  
+              <br/>
+          
+        
+        
+        
+          
+          
+              
+               <i class="fas fa-tags"></i>
+              
+              <a class="badge badge-tag" href="/tags/java">java</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/warnings">warnings</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/code">code</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/need">need</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/fix">fix</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/example">example</a>
+              
+          <br/>
+        
+        
+        
+        <i class="fas fa-clock"></i> 3 min read
+        <br/>
+
+        <div class="my-12">
+          <img src="/images/cover/knoxwelle__2017-06-05T100213.000Z.jpg">
+            
+            
+        </div>
+        <br/>
+        Have you ever seen a list of compiler warnings the size of an essay on how not to write code and thought: &ldquo;Of course, something needs to be done about this&hellip; but I just don&rsquo;t have time for it right now&rdquo;? And conversely, have you ever seen a single warning appear during compilation and immediately fix it?
+When I start a new project from scratch, there are no warnings, no mess, no problems. But as the codebase grows, if no measures are taken, it&rsquo;s likely that the mess, clutter, warnings, and issues will gradually accumulate. In a large stream of &ldquo;noise,&rdquo; it becomes significantly harder to find a truly important warning among the hundreds of others that I am not interested in.
+To make warnings useful again, I try to adhere to a policy of zero tolerance for warnings during assembly.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/the-assembly-must-be-clean/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/code-is-design/" >Code is design</a>
+        </span>
+        <span class="item__date">
+          Jun 29, 2024
+        </span>
+        <span >
+        
+        
+        
+        
+        
+          
+          
+              
+               <i class="fas fa-tags"></i>
+              
+              <a class="badge badge-tag" href="/tags/design">design</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/construction">construction</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/building">building</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/cost">cost</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/work">work</a>
+              
+          <br/>
+        
+        
+        
+        <i class="fas fa-clock"></i> 3 min read
+        <br/>
+
+        <div class="my-12">
+          <img src="/images/cover/knoxwelle__2021-06-04T164209.000Z.jpg">
+            
+            
+        </div>
+        <br/>
+        Imagine waking up in the morning and finding out that a groundbreaking breakthrough has occurred in the construction industry. Now, millions of cheap and incredibly fast robots can create various materials literally from thin air, using almost no energy, and they can repair themselves. But that&rsquo;s not all: if there are clear blueprints, the robots will build a building according to them without any human intervention, and the cost of this work will be negligible.
+One can imagine how this will transform the construction industry, but what changes will occur at a higher level? How will architects and designers behave when the cost of construction becomes negligible? Today, expensive construction is necessarily preceded by the creation and thorough testing of physical and computer models.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/code-is-design/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/continuous-learning/" >Continuous learning</a>
+        </span>
+        <span class="item__date">
+          Jun 28, 2024
+        </span>
+        <span >
+        
+        
+        
+        
+        
+          
+          
+              
+               <i class="fas fa-tags"></i>
+              
+              <a class="badge badge-tag" href="/tags/development">development</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/twitter">twitter</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/google">google</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/journeyman">journeyman</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/master">master</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/delve">delve</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/neo">neo</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/matrix">matrix</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/technologies">technologies</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/technology">technology</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/group">group</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/subject">subject</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/code">code</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/online">online</a>
+              
+          <br/>
+        
+        
+        
+        <i class="fas fa-clock"></i> 4 min read
+        <br/>
+
+        <div class="my-12">
+          <img src="/images/cover/knoxwelle__2024-03-12T040810.000Z.jpg">
+            
+            
+        </div>
+        <br/>
+        We live in interesting times. Development is distributed all over the world, and it turns out that many people are capable of doing your job. To remain competitive in the labor market, you need to continuously learn. Otherwise, you will turn into a dinosaur stuck in your job until one fine day it turns out that you are no longer needed, or that your job has been given to someone who is willing to do it for less.
+How to solve this problem? Some employers are generous and organize training to develop already hired programmers. Others simply cannot afford to allocate time or resources for this. The most reliable solution is to take care of your own education.
+Here is a list of ways to continue learning.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/continuous-learning/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/hard-work-does-not-justify-itself/" >Hard work does not justify itself</a>
+        </span>
+        <span class="item__date">
+          Jun 26, 2024
+        </span>
+        <span >
+        
+        
+        
+        
+        
+          
+          
+              
+               <i class="fas fa-tags"></i>
+              
+              <a class="badge badge-tag" href="/tags/act">act</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/work">work</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/week">week</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/hours">hours</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/project">project</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/software">software</a>
+              
+          <br/>
+        
+        
+        
+        <i class="fas fa-clock"></i> 3 min read
+        <br/>
+
+        <div class="my-12">
+          <img src="/images/cover/knoxwelle__2020-09-15T052151.000Z.jpg">
+            
+            
+        </div>
+        <br/>
+        Every programmer needs to be convinced that intense work is often unjustified. You can deceive yourself or your colleagues into thinking that by staying late at the office, you are making a significant contribution to the project. But in reality, by working less, you can achieve more—sometimes significantly more. If you are trying to work &ldquo;productively&rdquo; and with focus for more than 30 hours a week, you are likely overworking. It might be worth considering reducing your workload, which will allow you to work more efficiently and accomplish more.
+It may seem that my statement contradicts common sense and is generally debatable. However, it is a direct consequence of the fact that programming and software development, in general, require continuous knowledge expansion. As you work on a project, you will come to better understand the subject area and, hopefully, find more efficient ways to achieve your goals.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/hard-work-does-not-justify-itself/">➦</a>
+        
+        </div>
+        
+     
+      
+        
+      
+      <div class="post-list__item">
+        <span class="item__title--big">
+          <a href="/posts/the-myth-of-the-guru/" >The myth of the guru</a>
+        </span>
+        <span class="item__date">
+          Jun 26, 2024
+        </span>
+        <span >
+        
+        
+        
+          
+          
+              in •
+              
+              
+                  <a class="badge badge-category" href="/categories/gurus">GURUS</a>
+                  
+              <br/>
+          
+        
+        
+        
+          
+          
+              
+               <i class="fas fa-tags"></i>
+              
+              <a class="badge badge-tag" href="/tags/guru">guru</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/people">people</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/myth">myth</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/context">context</a>
+               
+          
+              <a class="badge badge-tag" href="/tags/questions">questions</a>
+              
+          <br/>
+        
+        
+        
+        <i class="fas fa-clock"></i> 3 min read
+        <br/>
+
+        <div class="my-12">
+          <img src="/images/cover/knoxwelle__2016-12-17T135839.000Z.jpg">
+            
+            
+        </div>
+        <br/>
+        Everyone who has been working in the computer industry for a long time has had to hear questions like: I am getting an XYZ exception. Do you know what the problem is?
+Those who ask such questions rarely bother to show the stack trace, application log, or provide any context that would help understand the problem. Apparently, they think you operate on some other plane where solutions are revealed to you without any analysis of the facts. They consider you a guru.
+We expect such questions from people who are not familiar with software, from those for whom the system&rsquo;s operation seems almost magical. What worries me is that we encounter this even within the programming community. Similar questions arise during software design, for example: &ldquo;I am writing an application for warehouse management.
+        
+        </span>
+        
+          ... <a class="read-more-symbol" href="/posts/the-myth-of-the-guru/">➦</a>
         
         </div>
         
@@ -323,7 +800,7 @@ When did it all go wrong?
           <a href="/posts/first-say-yes/" >First say yes</a>
         </span>
         <span class="item__date">
-          Jul 25, 2024
+          Jun 22, 2024
         </span>
         <span >
         
@@ -371,7 +848,7 @@ When did it all go wrong?
         <br/>
 
         <div class="my-12">
-          <img src="/images/cover/knoxwelle__2017-06-18T222338.000Z.jpg">
+          <img src="/images/cover/knoxwelle__2016-11-19T135513.000Z.jpg">
             
             
         </div>
@@ -382,512 +859,6 @@ The store employee could have reacted to my request in different ways. She could
         </span>
         
           ... <a class="read-more-symbol" href="/posts/first-say-yes/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/convenience-is-not-an-attribute-of-quality/" >Convenience is not an attribute of quality</a>
-        </span>
-        <span class="item__date">
-          Jul 16, 2024
-        </span>
-        <span >
-        
-        
-        
-          
-          
-              in •
-              
-              
-                  <a class="badge badge-category" href="/categories/cleanyourroomdon">CLEANYOURROOMDON</a>
-                  
-              <br/>
-          
-        
-        
-        
-          
-          
-              
-               <i class="fas fa-tags"></i>
-              
-              <a class="badge badge-tag" href="/tags/api">api</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/monotony">monotony</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/method">method</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/convenience">convenience</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/vocabulary">vocabulary</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/calls">calls</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/action">action</a>
-              
-          <br/>
-        
-        
-        
-        <i class="fas fa-clock"></i> 3 min read
-        <br/>
-
-        <div class="my-12">
-          <img src="/images/cover/knoxwelle__2019-12-16T002054.000Z.jpg">
-            
-            
-        </div>
-        <br/>
-        Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It&rsquo;s hard to get everything right the first time, and even harder to change anything along the way; it&rsquo;s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.
-But let&rsquo;s move from words to action and analyze a specific &ldquo;strategy&rdquo; for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following &ldquo;insights&rdquo;:
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/convenience-is-not-an-attribute-of-quality/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/code-review/" >Code review</a>
-        </span>
-        <span class="item__date">
-          Jul 10, 2024
-        </span>
-        <span >
-        
-        
-        
-        
-        
-          
-          
-              
-               <i class="fas fa-tags"></i>
-              
-              <a class="badge badge-tag" href="/tags/code">code</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/conduct">conduct</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/review">review</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/reviews">reviews</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/process">process</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/knowledge">knowledge</a>
-              
-          <br/>
-        
-        
-        
-        <i class="fas fa-clock"></i> 3 min read
-        <br/>
-
-        <div class="my-12">
-          <img src="/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg">
-            
-            
-        </div>
-        <br/>
-        Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.
-Many programmers have an aversion to code reviews, which can be linked to their unfortunate personal experiences. I have encountered organizations where all code underwent formal review before it could enter the system for commercial use. Often, the review is conducted by an architect or lead developer—a practice that can be called &ldquo;the architect checks everything.&rdquo; This is documented in the company&rsquo;s software development process guide, and programmers are required to comply.
-Perhaps, in some organizations, such a strict and formal process is indeed necessary, but they are in the minority. In most organizations, such an approach is counterproductive.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/code-review/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/comment-only-on-what-the-code-not-say/" >Comment only on what the code not say</a>
-        </span>
-        <span class="item__date">
-          Jul 10, 2024
-        </span>
-        <span >
-        
-        
-        
-        
-        
-          
-          
-              
-               <i class="fas fa-tags"></i>
-              
-              <a class="badge badge-tag" href="/tags/computing-mcgraw-hill">computing mcgraw-hill</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/kernighan">kernighan</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/plauger">plauger</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/brake">brake</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/code">code</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/comments">comments</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/comment">comment</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/programmers">programmers</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/blocks">blocks</a>
-              
-          <br/>
-        
-        
-        
-        <i class="fas fa-clock"></i> 3 min read
-        <br/>
-
-        <div class="my-12">
-          <img src="/images/cover/knoxwelle__2021-08-08T051054.000Z.jpg">
-            
-            
-        </div>
-        <br/>
-        The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code looks commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.
-If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &ldquo;The Elements of Programming Style&rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &ldquo;a wrong comment has zero or negative value.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/comment-only-on-what-the-code-not-say/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/do-not-repeat-your-code/" >Do not repeat your code</a>
-        </span>
-        <span class="item__date">
-          Jul 10, 2024
-        </span>
-        <span >
-        
-        
-        
-          
-          
-              in •
-              
-              
-                  <a class="badge badge-category" href="/categories/dry">DRY</a>
-                  •
-              
-                  <a class="badge badge-category" href="/categories/method">METHOD</a>
-                  
-              <br/>
-          
-        
-        
-        
-          
-          
-              
-               <i class="fas fa-tags"></i>
-              
-              <a class="badge badge-tag" href="/tags/code">code</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/repetition">repetition</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/abstract">abstract</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/strategy">strategy</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/dry">dry</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/open">open</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/closed-principle">closed principle</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/srp">srp</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/principle">principle</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/software">software</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/logic">logic</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/duplication">duplication</a>
-              
-          <br/>
-        
-        
-        
-        <i class="fas fa-clock"></i> 3 min read
-        <br/>
-
-        <div class="my-12">
-          <img src="/images/cover/knoxwelle__2023-02-08T055230.000Z.jpg">
-            
-            
-        </div>
-        <br/>
-        &ldquo;Don&rsquo;t Repeat Yourself (DRY)&rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.
-Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/do-not-repeat-your-code/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/use-quantitative-criteria/" >Use quantitative criteria</a>
-        </span>
-        <span class="item__date">
-          Jul 01, 2024
-        </span>
-        <span >
-        
-        
-        
-        
-        
-          
-          
-              
-               <i class="fas fa-tags"></i>
-              
-              <a class="badge badge-tag" href="/tags/ms.">ms.</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/system">system</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/criteria">criteria</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/time">time</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/work">work</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/users">users</a>
-              
-          <br/>
-        
-        
-        
-        <i class="fas fa-clock"></i> 3 min read
-        <br/>
-
-        <div class="my-12">
-          <img src="/images/cover/knoxwelle__2017-07-28T182923.000Z.jpg">
-            
-            
-        </div>
-        <br/>
-        &ldquo;Fast&rdquo; cannot be a requirement. Nor can &ldquo;having a good response time.&rdquo; Or, let&rsquo;s say, &ldquo;scalable.&rdquo; The main reason is the lack of objective criteria for meeting such requirements. But users still need these characteristics. The architect&rsquo;s task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise. between them. Without objective criteria, the architect depends on whims the client (&ldquo;No, I can&rsquo;t accept the program – it doesn&rsquo;t work fast enough&rdquo;) and the developers, obsessed with their compulsions (&ldquo;No, the program isn&rsquo;t ready yet – it doesn&rsquo;t work fast enough&rdquo;).
-Usually, we try to record all such requests, just like any other requirements. But this record often looks like a set of vague epithets: &ldquo;flexible,&rdquo; &ldquo;easy to accompany,&rdquo; and so on.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/use-quantitative-criteria/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/" >The drama of hype technologies, customer needs, and pangs of conscience</a>
-        </span>
-        <span class="item__date">
-          Jun 17, 2024
-        </span>
-        <span >
-        
-        
-        
-          
-          
-              in •
-              
-              
-                  <a class="badge badge-category" href="/categories/cobol">COBOL</a>
-                  •
-              
-                  <a class="badge badge-category" href="/categories/java">JAVA</a>
-                  •
-              
-                  <a class="badge badge-category" href="/categories/python">PYTHON</a>
-                  
-              <br/>
-          
-        
-        
-        
-          
-          
-              
-               <i class="fas fa-tags"></i>
-              
-              <a class="badge badge-tag" href="/tags/java">java</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/python">python</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/cobol">cobol</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/client">client</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/project">project</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/technology">technology</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/work">work</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/solution">solution</a>
-              
-          <br/>
-        
-        
-        
-        <i class="fas fa-clock"></i> 3 min read
-        <br/>
-
-        <div class="my-12">
-          <img src="/images/cover/knoxwelle__2021-06-12T203603.000Z.jpg">
-            
-            
-        </div>
-        <br/>
-        We, programmers, sometimes choose to use certain technologies, methodologies, and approaches to problem-solving not because they provide the optimal solution, but simply because deep down, we want to mention them in our resumes. Such a choice very rarely leads to a positive result.
-The most powerful catalyst for any career will be grateful clients lining up in long queues to recommend you to others – after all, you worked so hard for them. If this is true, it&rsquo;s strange that they let you go. Client goodwill It will serve you much better than any trendy object of a trendy language and any trendy paradigm. Although it is very important (and even vital) for a software architect to stay updated on the latest trends and technologies, never try to broaden your horizons at the expense of the client.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/the-drama-of-hype-technologies-customer-needs-and-pangs-of-conscience/">➦</a>
-        
-        </div>
-        
-     
-      
-        
-      
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="/posts/creating-architecture-as-the-art-of-balance/" >Creating architecture as the art of balance</a>
-        </span>
-        <span class="item__date">
-          Jun 12, 2024
-        </span>
-        <span >
-        
-        
-        
-        
-        
-          
-          
-              
-               <i class="fas fa-tags"></i>
-              
-              <a class="badge badge-tag" href="/tags/match">match</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/first">first</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/product">product</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/priorities">priorities</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/software">software</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/organization">organization</a>
-               
-          
-              <a class="badge badge-tag" href="/tags/development">development</a>
-              
-          <br/>
-        
-        
-        
-        <i class="fas fa-clock"></i> 3 min read
-        <br/>
-
-        <div class="my-12">
-          <img src="/images/cover/knoxwelle__2017-05-03T124940.000Z.jpg">
-            
-            
-        </div>
-        <br/>
-        Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.
-All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.
-        
-        </span>
-        
-          ... <a class="read-more-symbol" href="/posts/creating-architecture-as-the-art-of-balance/">➦</a>
         
         </div>
         
@@ -972,12 +943,34 @@ All parties involved in the project have interests that affect both the software
     <li class="page-item"><a class="page-link" href="/page/6/">6</a></li>
     
     
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item disabled"><span aria-hidden="true">&nbsp;&hellip;&nbsp;</span></li>
+    
+    
+    
+    
+    
+    
+        
+        
+    
+    
+    <li class="page-item"><a class="page-link" href="/page/8/">8</a></li>
+    
+    
     <li class="page-item">
     <a href="/page/6/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="/page/6/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="/page/8/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>

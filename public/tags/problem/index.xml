@@ -6,35 +6,14 @@
     <description>Recent content in Problem on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/problem/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A practitioner must be the architect</title>
-      <link>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</link>
-      <pubDate>Wed, 07 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/a-practitioner-must-be-the-architect/</guid>
-      <description>A good architect should set the example. In addition to performing performance tests and developing modular tests, he should be able to take on any role within the team and manage any activity, including networking configuration and assembly process management. When it comes to not having a complete understanding of every technology that is out there, an architect is just like any other project manager. While it&amp;rsquo;s common for team members to possess greater expertise in their specialized fields, they won&amp;rsquo;t be able to put their trust in their architect if he doesn&amp;rsquo;t understand the technology being used.As was already noted, an architect acts as a liaison between the technical team and the firm; thus, in order to represent the team to the business management without constantly asking for help, he needs to be well-versed in all technical aspects.</description>
-    </item>
-    <item>
-      <title>Determine what the needs actually mean</title>
-      <link>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/determine-what-the-needs-actually-mean/</guid>
-      <description>Customers and end users often insist on what they see to be a practical resolution to a problem. Harry Hillaker, a leading F-16 Falcon designer, offers a perfect example of this. The goal set for his team was to build an aircraft capable of traveling at M2-2.5 speeds. This was (and presumably still is) a very challenging project, particularly if the secondary objective was to construct a light aircraft that was &amp;ldquo;cheap.&amp;rdquo;&#xA;The design team was informed by Air Force clients that the M2–2.5 speed was critical for the aircraft to be able to escape combat if needed. When the true necessity was realized, the designers addressed the main problem and offered a workable solution. Rather than having a fast peak speed, this was in the form of a movable aircraft with good traction that provided good acceleration and maneuverability.</description>
-    </item>
-    <item>
-      <title>There are no answers for every situation in life</title>
-      <link>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</link>
-      <pubDate>Tue, 07 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-are-no-answers-for-every-situation-in-life/</guid>
-      <description>For a wide range of different problems, there isn&amp;rsquo;t a single, comprehensive solution, so the architect must continuously refine and improve his &amp;ldquo;context noe poche.&amp;rdquo; Eberhardt Rechtin writes in &amp;ldquo;Systems Architecting: Creating and Building Complex Systems&amp;rdquo; (Prentice Hall, 1991):&#xA;&amp;lt;&amp;hellip;&amp;gt; Rather than using the word &amp;ldquo;sensual,&amp;rdquo; it might be better to speak to it as &amp;ldquo;context sensation&amp;rdquo;—knowledge of what is pertinent in a certain context. By the time an architect-practitioner is called to address a system-level issue, which usually takes decades, they can have a strong contextual awareness thanks to education, experience, and case studies.&#xA;One of the biggest problems I see with the software industry, in my opinion, is that projects are often given to people who don&amp;rsquo;t have enough contextual knowledge.This could be due to the fact that the industry is only two generations old and is currently experiencing a time of rapid expansion; alternatively, it could be that the industry has reached a mature stage if this problem has been resolved.</description>
-    </item>
-    <item>
-      <title>Versatility is inferior to simplicity</title>
-      <link>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</link>
-      <pubDate>Tue, 16 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/versatility-is-inferior-to-simplicity/</guid>
-      <description>A typical problem with them is that a lot of frameworks, class libraries, fundamental services, and other infrastructure code are designed to be utilized anywhere and aren&amp;rsquo;t specific to any one application. Since most developers are experts in specific systems, it rarely helps them to try to be as adaptable as possible. The best way to achieve universality isn&amp;rsquo;t through universality based on conjecture, but rather through a careful understanding of well-known concrete examples and an analysis of their essence to find a fundamentally shared solution. Experience in the real world leads to simplicity.&#xA;Making an architectural design simpler rather than more feature-rich makes it simpler to decide between two solutions that are identical to each other. When there are two possibilities, go with the simpler, needs-based solution rather than the more flexible, complex one.</description>
+      <title>Durability of temporary solutions</title>
+      <link>http://localhost:1313/posts/durability-of-temporary-solutions/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/durability-of-temporary-solutions/</guid>
+      <description>Why do we create temporary solutions?&#xA;Usually, the culprit is an urgent task. Sometimes, it&amp;rsquo;s an internal task for developers—to create a missing tool for the development chain. Other times, the task is external, user-oriented, such as a workaround to compensate for missing functionality.&#xA;In most systems and teams, you can find a module that somehow stands out in the system. It is considered a draft version, and it will need to be redone later because it does not meet the standards and rules that the rest of the code lives by. You will definitely have to hear developers&amp;rsquo; complaints about this. The reasons for the appearance of such code can vary, but the main reason for the emergence of intermediate solutions is their usefulness.</description>
     </item>
   </channel>
 </rss>

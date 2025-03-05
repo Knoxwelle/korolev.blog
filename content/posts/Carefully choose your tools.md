@@ -1,10 +1,10 @@
 +++
 title='Carefully choose your tools'
-date=2024-10-07T00:00:00-07:00
+date=2024-10-10T00:00:00-07:00
 draft=false
 categories=["gnu"]
 tags=["modern", "gnu", "tools", "code", "application", "configuration", "software"]
-cover_image='/images/cover/knoxwelle__2022-02-21T025615.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-12-17T135244.000Z.jpg'
 +++
 Modern applications are extremely rarely created "from scratch." They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:
 

@@ -1,10 +1,10 @@
 +++
 title='To do something hastily and run away is a crime'
-date=2024-06-22T00:00:00-07:00
+date=2024-07-20T00:00:00-07:00
 draft=false
 categories=[]
 tags=["john", "run", "time", "tests", "code", "work"]
-cover_image='/images/cover/knoxwelle__2020-03-08T045215.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-09-12T155704.000Z.jpg'
 +++
 It's getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves.
 A few minutes later, the "red light" comes on: the application build is broken. John didn't have time for automated tests, so he went with the "hack and run" principle, which caused the entire team's work to come to a halt.

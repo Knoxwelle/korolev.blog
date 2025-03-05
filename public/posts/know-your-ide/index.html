@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/know-your-ide/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Know your IDE • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Know your IDE">
+<meta name="twitter:description" content="In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also &ldquo;lived&rdquo; separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.
+In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor.">
+
+<meta property="og:url" content="http://localhost:1313/posts/know-your-ide/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Know your IDE">
+  <meta property="og:description" content="In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also “lived” separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.
+In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-03-13T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-03-13T00:00:00-07:00">
+    <meta property="article:tag" content="Code">
+    <meta property="article:tag" content="Debuggers">
+    <meta property="article:tag" content="Integrated Development Environment">
+    <meta property="article:tag" content="Ide">
+    <meta property="article:tag" content="Modern">
+    <meta property="article:tag" content="Java">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Know your IDE</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Mar 13, 2024
+    
+    
+    
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/c">C</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/java">JAVA</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/method">METHOD</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/unix">UNIX</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/code">code</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/debuggers">debuggers</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/integrated-development-environment">integrated development environment</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/ide">ide</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/modern">modern</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/java">java</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/unix">unix</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/ides">ides</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/time">time</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/tools">tools</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/method">method</a>
+          
+      
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 4 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2017-06-18T222125.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also &ldquo;lived&rdquo; separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.</p>
+<p>In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor. It was enough to select a command from the menu.</p>
+<p>In the twenty-first century, IDEs have become so widespread that some companies, targeting market shares in other areas, give them away for free. Modern IDEs offer a plethora of delightful features. I particularly like automatic refactoring, especially the Extract Method function, which allows you to highlight a fragment of code and turn it into a method. Refactoring tools will find all the parameters that need to be passed to the method, making it extremely easy to modify the code. My IDE will even find other code snippets that can be replaced with a call to this method and ask me if I should do it.</p>
+<p>Another wonderful feature of modern IDEs is their ability to enforce adherence to the style adopted in the company. For example, in Java, some programmers have started declaring all parameters as &ldquo;final&rdquo; (in my opinion, this is a waste of time). Nevertheless, once such a rule is established, I just need to set it in the IDE settings, and I will start receiving warnings for all parameters that are not declared as &ldquo;final.&rdquo; With the help of style rules, it is also possible to look for potential errors, such as checking the equality of autoboxed objects using reference semantics, as in the case of using the == operator for primitives wrapped in their corresponding objects.</p>
+<p>Unfortunately, modern IDEs do not require us to make an effort to master these very IDEs. When I started programming in C under UNIX, I had to spend a considerable amount of time learning to use the vi editor, which was due to its learning curve. But the time spent at the beginning paid off many times over in the years to come. Even the draft of this article was typed in vi. In modern IDEs, the learning curve is such that we never go beyond the basic techniques of working with them.</p>
+<p>The first thing I do when learning an IDE is memorize the control key combinations. When I type code, my fingers are on the keyboard, and pressing Ctrl+Shift+I allows me to inline a variable (Inline Variable refactoring operation) without breaking my workflow, whereas navigating the menu with the mouse pointer would distract me. Such distractions create unnecessary context switches and significantly reduce my productivity if I try to do everything the &ldquo;lazy&rdquo; way. The same applies to keyboard proficiency: master touch typing, and you won&rsquo;t regret the time spent.</p>
+<p>Finally, programmers have time-tested UNIX pipeline utilities that allow them to manipulate code in various ways. For example, if during code review I notice that programmers have named many classes the same, I can easily detect these repetitions using the find, sed, sort, uniq, and grep utilities, for example: find . -name &ldquo;<em>.java&rdquo; | sed &rsquo;s/.</em>\///&rsquo; | sort | uniq -c | grep -v &ldquo;^ *1 &quot; | sort -r</p>
+<p>We expect the plumber who visits us to know how to use a blowtorch. Let&rsquo;s take some time to learn how to work more efficiently with our IDEs.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/commentary-on-comments/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Commentary on comments</span>
+    </a>
+    
+    
+    <a href="/posts/the-true-meaning-of-the-clients-requirements/" class="navigation-next">
+      <span class="navigation-tittle">The true meaning of the clients requirements</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

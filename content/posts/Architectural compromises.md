@@ -1,10 +1,10 @@
 +++
 title='Architectural compromises'
-date=2024-10-19T00:00:00-07:00
+date=2024-09-16T00:00:00-07:00
 draft=false
 categories=["vaza", "sweden", "poland", "italian", "atam", "method", "cbam", "cost", "institute", "swedish", "italy", "cost benefit", "cost benefit analysis method"]
 tags=["vaza", "sweden", "poland", "king", "time", "soa", "atam", "architecture tradeoff", "benefit analysis metod", "sei", "software engineering institute", "architecture", "software", "ship", "ships", "swedish king", "italy", "benefit analysis method", "cbam"]
-cover_image='/images/cover/knoxwelle__2016-12-17T154412.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2019-08-28T040819.000Z.jpg'
 +++
 An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza's history.
 

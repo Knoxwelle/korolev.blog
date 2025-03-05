@@ -6,12 +6,26 @@
     <description>Recent content in Systems on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Professional programmer</title>
+      <link>http://localhost:1313/posts/professional-programmer/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/professional-programmer/</guid>
+      <description>Who can be considered a professional programmer? The most important trait of a professional programmer is personal responsibility. Professional programmers are responsible for their careers, their evaluations, their deadlines, their mistakes, and their expertise. A professional programmer does not shift this responsibility onto others.&#xA;A professional is responsible for their own career. Reading and learning are your responsibilities. Staying up-to-date with the latest industry advancements and technologies is your responsibility. Too often, programmers believe that their education is the employer&amp;rsquo;s job. Sorry, that is completely incorrect. Do you think doctors believe that too? Lawyers? No, they study in their free time and at their own expense. They spend a significant amount of their free time reading journals and court rulings. They maintain their professional level.</description>
+    </item>
+    <item>
+      <title>Message passing improves the scalability of parallel systems</title>
+      <link>http://localhost:1313/posts/message-passing-improves-the-scalability-of-parallel-systems/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/message-passing-improves-the-scalability-of-parallel-systems/</guid>
+      <description>Already in the first lectures on computer science, programmers are taught that concurrent computing – and especially parallel computing as a special subtype of concurrent computing – is a difficult task, and that only the best have a hope of coping with it, and that even the best do not manage to do so. Great attention is invariably paid to threads, semaphores, monitors, and the difficulties of organizing thread safety with simultaneous access to variables.&#xA;There are indeed many complex problems here, and solving them can be very difficult. But what is the root of the problems? Shared memory. Almost all the problems of concurrent computing that we constantly hear about are related to shared memory with mutable data: race conditions, deadlocks, livelocks, and so on.</description>
+    </item>
     <item>
       <title>A verbose journal will deprive you of sleep</title>
       <link>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/a-verbose-journal-will-deprive-you-of-sleep/</guid>
       <description>When I encounter a system that has been in development or operation for a long time, the first sign of real trouble is always a &amp;ldquo;dirty&amp;rdquo; log. You know what I&amp;rsquo;m talking about: it&amp;rsquo;s when clicking a link during normal web page usage results in a whole stream of messages being recorded in the system&amp;rsquo;s single log. Too many log entries can be just as useless as having none at all.&#xA;If your systems are similar to mine, then when your work ends, the work of others begins. After the development is completed, the system will be long and successfully serve customers (if you&amp;rsquo;re lucky). How will you learn about problems if the system is in operation, and what will you do about them?</description>
     </item>

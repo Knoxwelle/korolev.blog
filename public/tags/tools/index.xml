@@ -6,21 +6,35 @@
     <description>Recent content in Tools on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Carefully choose your tools</title>
       <link>http://localhost:1313/posts/carefully-choose-your-tools/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/carefully-choose-your-tools/</guid>
       <description>Modern applications are extremely rarely created &amp;ldquo;from scratch.&amp;rdquo; They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:&#xA;The volume, complexity, and sophistication of applications are increasing, while the time allocated for their creation is decreasing. It is more beneficial to spend the time and intellect of developers on business logic code rather than application infrastructure code. - Widely used components and frameworks have fewer chances of encountering errors compared to those developed independently. - High-quality tools are available for free on the Internet, which reduces development costs and simplifies the search for interested developers with the necessary experience. - The creation and maintenance of software require a significant amount of human labor, so it can be cheaper to buy ready-made products than to create them.</description>
     </item>
     <item>
+      <title>Know how to use command line utilities</title>
+      <link>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</link>
+      <pubDate>Sun, 21 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</guid>
+      <description>Today, many software development tools are delivered as integrated development environments (IDEs). Besides the two popular examples – Visual Studio from Microsoft and Eclipse from the open-source community – there are many others. A lot can be said in favor of IDEs. They are easy to use and they free the programmer from the need to delve into many minor details, including the build process.&#xA;However, ease of use has its downside. A tool is usually easy to use when it makes decisions for the programmer and automatically does a large amount of work behind the scenes. Therefore, if you only use an IDE as your programming environment, it is quite possible that you will never fully understand what your tools are actually doing.</description>
+    </item>
+    <item>
       <title>Automate your code formatting standard</title>
       <link>http://localhost:1313/posts/automate-your-code-formatting-standard/</link>
-      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/automate-your-code-formatting-standard/</guid>
       <description>You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&amp;rsquo;s call them &amp;ldquo;new project promises.&amp;rdquo; Similar to New Year&amp;rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&amp;rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.&#xA;When did it all go wrong?</description>
+    </item>
+    <item>
+      <title>Know your IDE</title>
+      <link>http://localhost:1313/posts/know-your-ide/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/know-your-ide/</guid>
+      <description>In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also &amp;ldquo;lived&amp;rdquo; separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.&#xA;In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor.</description>
     </item>
   </channel>
 </rss>

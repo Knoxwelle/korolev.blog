@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Javascript</title>
@@ -16,10 +16,38 @@
       <description></description>
     </item>
     <item>
-      <title>Gnu</title>
-      <link>http://localhost:1313/categories/gnu/</link>
+      <title>Canada</title>
+      <link>http://localhost:1313/categories/canada/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gnu/</guid>
+      <guid>http://localhost:1313/categories/canada/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>North American</title>
+      <link>http://localhost:1313/categories/north-american/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/north-american/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/categories/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>http://localhost:1313/categories/google/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pc</title>
+      <link>http://localhost:1313/categories/pc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/pc/</guid>
       <description></description>
     </item>
     <item>
@@ -30,73 +58,17 @@
       <description></description>
     </item>
     <item>
-      <title>Dude</title>
-      <link>http://localhost:1313/categories/dude/</link>
+      <title>Java</title>
+      <link>http://localhost:1313/categories/java/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/dude/</guid>
+      <guid>http://localhost:1313/categories/java/</guid>
       <description></description>
     </item>
     <item>
-      <title>Fit</title>
-      <link>http://localhost:1313/categories/fit/</link>
+      <title>Python</title>
+      <link>http://localhost:1313/categories/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/fit/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ada</title>
-      <link>http://localhost:1313/categories/ada/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ada/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C</title>
-      <link>http://localhost:1313/categories/c/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/c/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C Language</title>
-      <link>http://localhost:1313/categories/c-language/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/c-language/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/categories/c&#43;&#43;/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/c&#43;&#43;/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fortran</title>
-      <link>http://localhost:1313/categories/fortran/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/fortran/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Haskell</title>
-      <link>http://localhost:1313/categories/haskell/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/haskell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pascal</title>
-      <link>http://localhost:1313/categories/pascal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/pascal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Prolog</title>
-      <link>http://localhost:1313/categories/prolog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/prolog/</guid>
+      <guid>http://localhost:1313/categories/python/</guid>
       <description></description>
     </item>
     <item>
@@ -135,13 +107,6 @@
       <description></description>
     </item>
     <item>
-      <title>Google</title>
-      <link>http://localhost:1313/categories/google/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/google/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Lack</title>
       <link>http://localhost:1313/categories/lack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -160,13 +125,6 @@
       <link>http://localhost:1313/categories/pr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/pr/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>http://localhost:1313/categories/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/python/</guid>
       <description></description>
     </item>
     <item>
@@ -205,24 +163,80 @@
       <description></description>
     </item>
     <item>
-      <title>Pc</title>
-      <link>http://localhost:1313/categories/pc/</link>
+      <title>Api</title>
+      <link>http://localhost:1313/categories/api/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/pc/</guid>
+      <guid>http://localhost:1313/categories/api/</guid>
       <description></description>
     </item>
     <item>
-      <title>India</title>
-      <link>http://localhost:1313/categories/india/</link>
+      <title>C#</title>
+      <link>http://localhost:1313/categories/c%23/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/india/</guid>
+      <guid>http://localhost:1313/categories/c%23/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ubuntu</title>
-      <link>http://localhost:1313/categories/ubuntu/</link>
+      <title>Cleanyourroomdon</title>
+      <link>http://localhost:1313/categories/cleanyourroomdon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ubuntu/</guid>
+      <guid>http://localhost:1313/categories/cleanyourroomdon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gnu</title>
+      <link>http://localhost:1313/categories/gnu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/gnu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C</title>
+      <link>http://localhost:1313/categories/c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/c/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>http://localhost:1313/categories/c&#43;&#43;/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Erlang</title>
+      <link>http://localhost:1313/categories/erlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/erlang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Groovy</title>
+      <link>http://localhost:1313/categories/groovy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/groovy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:1313/categories/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ruby</title>
+      <link>http://localhost:1313/categories/ruby/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ruby/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:1313/categories/sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/sql/</guid>
       <description></description>
     </item>
     <item>
@@ -317,31 +331,52 @@
       <description></description>
     </item>
     <item>
-      <title>Hillaker</title>
-      <link>http://localhost:1313/categories/hillaker/</link>
+      <title>Ada</title>
+      <link>http://localhost:1313/categories/ada/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/hillaker/</guid>
+      <guid>http://localhost:1313/categories/ada/</guid>
       <description></description>
     </item>
     <item>
-      <title>Edamame</title>
-      <link>http://localhost:1313/categories/edamame/</link>
+      <title>C Language</title>
+      <link>http://localhost:1313/categories/c-language/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/edamame/</guid>
+      <guid>http://localhost:1313/categories/c-language/</guid>
       <description></description>
     </item>
     <item>
-      <title>Cleanyourroomdon</title>
-      <link>http://localhost:1313/categories/cleanyourroomdon/</link>
+      <title>Fortran</title>
+      <link>http://localhost:1313/categories/fortran/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/cleanyourroomdon/</guid>
+      <guid>http://localhost:1313/categories/fortran/</guid>
       <description></description>
     </item>
     <item>
-      <title>Dry</title>
-      <link>http://localhost:1313/categories/dry/</link>
+      <title>Haskell</title>
+      <link>http://localhost:1313/categories/haskell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/dry/</guid>
+      <guid>http://localhost:1313/categories/haskell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pascal</title>
+      <link>http://localhost:1313/categories/pascal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/pascal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prolog</title>
+      <link>http://localhost:1313/categories/prolog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/prolog/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>India</title>
+      <link>http://localhost:1313/categories/india/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/india/</guid>
       <description></description>
     </item>
     <item>
@@ -359,10 +394,59 @@
       <description></description>
     </item>
     <item>
-      <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
+      <title>Gurus</title>
+      <link>http://localhost:1313/categories/gurus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/java/</guid>
+      <guid>http://localhost:1313/categories/gurus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dude</title>
+      <link>http://localhost:1313/categories/dude/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dude/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edamame</title>
+      <link>http://localhost:1313/categories/edamame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/edamame/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ubuntu</title>
+      <link>http://localhost:1313/categories/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/ubuntu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fit</title>
+      <link>http://localhost:1313/categories/fit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/fit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dry</title>
+      <link>http://localhost:1313/categories/dry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/dry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hillaker</title>
+      <link>http://localhost:1313/categories/hillaker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/hillaker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unix</title>
+      <link>http://localhost:1313/categories/unix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/unix/</guid>
       <description></description>
     </item>
     <item>
@@ -370,27 +454,6 @@
       <link>http://localhost:1313/categories/basic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/basic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mysql</title>
-      <link>http://localhost:1313/categories/mysql/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/mysql/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ruby</title>
-      <link>http://localhost:1313/categories/ruby/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ruby/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sql</title>
-      <link>http://localhost:1313/categories/sql/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/sql/</guid>
       <description></description>
     </item>
   </channel>

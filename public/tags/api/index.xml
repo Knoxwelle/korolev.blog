@@ -6,28 +6,35 @@
     <description>Recent content in Api on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Feb 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The golden rule of API design</title>
+      <link>http://localhost:1313/posts/the-golden-rule-of-api-design/</link>
+      <pubDate>Sat, 23 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-golden-rule-of-api-design/</guid>
+      <description>Designing application programming interfaces (APIs) is difficult, especially in the general case. When developing an API that will have hundreds or thousands of users, you need to consider that over time it will most likely need to be changed, and these changes can disrupt the functioning of the client code. Moreover, you need to consider the potential impact on your API from its users. If the API class calls its own method, it should be remembered that the user is capable of creating a subclass of your class and overriding this method, which can lead to disaster. And you won&amp;rsquo;t be able to change this method because some of your users have given it a different meaning. You become dependent on your users when it comes to choosing the internal implementation.</description>
+    </item>
+    <item>
+      <title>Convenience is not an attribute of quality</title>
+      <link>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</link>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</guid>
+      <description>Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It&amp;rsquo;s hard to get everything right the first time, and even harder to change anything along the way; it&amp;rsquo;s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.&#xA;But let&amp;rsquo;s move from words to action and analyze a specific &amp;ldquo;strategy&amp;rdquo; for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following &amp;ldquo;insights&amp;rdquo;:</description>
+    </item>
     <item>
       <title>Interfaces</title>
       <link>http://localhost:1313/posts/interfaces/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 06 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/interfaces/</guid>
       <description>One of the most common tasks in software development is interface specification. Interfaces exist at the highest level of abstraction (user interfaces), at the lowest level (function interfaces), and at intermediate levels (class interfaces, libraries, etc.). Regardless of what you are doing—aligning with end users on their future interaction with the system, collaborating with developers to develop the API specification, or declaring private class functions—interface design is an important part of your job. If you handle it well, using your interfaces will be a pure pleasure, and user productivity will increase. If you handle the task poorly, your interfaces will become a source of frustration and errors.&#xA;Good interfaces possess the following properties:&#xA;They are easy to use correctly. Users of a well-designed interface almost always use it correctly because that is the path of least resistance for that interface.</description>
     </item>
     <item>
       <title>Give developers their own space</title>
       <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
-      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 08 May 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
       <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
-    </item>
-    <item>
-      <title>Convenience is not an attribute of quality</title>
-      <link>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</guid>
-      <description>Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It&amp;rsquo;s hard to get everything right the first time, and even harder to change anything along the way; it&amp;rsquo;s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.&#xA;But let&amp;rsquo;s move from words to action and analyze a specific &amp;ldquo;strategy&amp;rdquo; for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following &amp;ldquo;insights&amp;rdquo;:</description>
     </item>
   </channel>
 </rss>

@@ -6,12 +6,19 @@
     <description>Recent content in Reading on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/reading/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Read the code</title>
+      <link>http://localhost:1313/posts/read-the-code/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/read-the-code/</guid>
+      <description>We, programmers, are strange creatures. We love writing code. But when it comes to reading code, we usually shy away from it. After all, writing code is much more exciting, and reading code is difficult—sometimes almost impossible. Especially hard is reading code written by others. Not always because it is poorly written, but because another person thinks and solves problems differently than you do. Have you ever thought that reading someone else&amp;rsquo;s code can help improve your own code?&#xA;The next time you read some code, stop and think. Is it hard to read or easy? If it&amp;rsquo;s hard, why? Is it poorly formatted? Is the naming system inconsistent or illogical? Are multiple tasks mixed in one piece of code? Perhaps the chosen language makes the code difficult to read.</description>
+    </item>
     <item>
       <title>Commentary on comments</title>
       <link>http://localhost:1313/posts/commentary-on-comments/</link>
-      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/commentary-on-comments/</guid>
       <description>At my first programming class at the university, the instructor handed out two sheets for us to write the program text in BASIC. On the board, he wrote the assignment: &amp;ldquo;Create a program to input and calculate the average of 10 bowling scores.&amp;rdquo; Then the teacher left the room. Is this task difficult? I don&amp;rsquo;t remember my solution, but it seems there was a FOR/NEXT loop and no more than 15 lines of code.&#xA;In each form for the program code, we would write the code by hand before entering it into the computer – it was about 70 lines. I had no idea why the teacher gave us two forms each. Since my handwriting has always been terrible, I used the second form to neatly rewrite my code, hoping to earn a couple of points for style.</description>
     </item>

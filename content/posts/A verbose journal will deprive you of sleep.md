@@ -1,10 +1,10 @@
 +++
 title='A verbose journal will deprive you of sleep'
-date=2025-01-08T00:00:00-07:00
+date=2024-03-05T00:00:00-07:00
 draft=false
 categories=[]
 tags=["system", "log", "error", "systems", "operation"]
-cover_image='/images/cover/knoxwelle__2017-05-21T220109.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2023-03-12T175241.000Z.jpg'
 +++
 When I encounter a system that has been in development or operation for a long time, the first sign of real trouble is always a "dirty" log. You know what I'm talking about: it's when clicking a link during normal web page usage results in a whole stream of messages being recorded in the system's single log. Too many log entries can be just as useless as having none at all.
 

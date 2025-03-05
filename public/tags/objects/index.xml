@@ -6,12 +6,12 @@
     <description>Recent content in Objects on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/objects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apply the principles of functional programming</title>
       <link>http://localhost:1313/posts/apply-the-principles-of-functional-programming/</link>
-      <pubDate>Tue, 28 Jan 2025 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 22 May 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/apply-the-principles-of-functional-programming/</guid>
       <description>Functional programming has recently regained the attention of the majority in the programming community, partly because the emergent properties of the functional paradigm resonate with solving the challenges arising in our industry due to the increasing importance of multi-core architectures. And although this application is undoubtedly important, it is not the main reason for my urging to learn functional programming.&#xA;By mastering the functional programming paradigm, a programmer can significantly improve the quality of code produced in other contexts. A deep understanding of the functional programming paradigm and its practical application will help you design systems with a much higher degree of referential transparency.&#xA;Referential transparency is a highly desirable quality: it implies that functions consistently produce the same results for the same input data regardless of the place and time of calling these functions.</description>
     </item>

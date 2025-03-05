@@ -6,12 +6,12 @@
     <description>Recent content in Basic on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 12 Mar 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/basic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Commentary on comments</title>
       <link>http://localhost:1313/posts/commentary-on-comments/</link>
-      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/commentary-on-comments/</guid>
       <description>At my first programming class at the university, the instructor handed out two sheets for us to write the program text in BASIC. On the board, he wrote the assignment: &amp;ldquo;Create a program to input and calculate the average of 10 bowling scores.&amp;rdquo; Then the teacher left the room. Is this task difficult? I don&amp;rsquo;t remember my solution, but it seems there was a FOR/NEXT loop and no more than 15 lines of code.&#xA;In each form for the program code, we would write the code by hand before entering it into the computer – it was about 70 lines. I had no idea why the teacher gave us two forms each. Since my handwriting has always been terrible, I used the second form to neatly rewrite my code, hoping to earn a couple of points for style.</description>
     </item>

@@ -6,14 +6,28 @@
     <description>Recent content in C on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/c/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Message passing improves the scalability of parallel systems</title>
+      <link>http://localhost:1313/posts/message-passing-improves-the-scalability-of-parallel-systems/</link>
+      <pubDate>Sun, 22 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/message-passing-improves-the-scalability-of-parallel-systems/</guid>
+      <description>Already in the first lectures on computer science, programmers are taught that concurrent computing – and especially parallel computing as a special subtype of concurrent computing – is a difficult task, and that only the best have a hope of coping with it, and that even the best do not manage to do so. Great attention is invariably paid to threads, semaphores, monitors, and the difficulties of organizing thread safety with simultaneous access to variables.&#xA;There are indeed many complex problems here, and solving them can be very difficult. But what is the root of the problems? Shared memory. Almost all the problems of concurrent computing that we constantly hear about are related to shared memory with mutable data: race conditions, deadlocks, livelocks, and so on.</description>
+    </item>
     <item>
       <title>Programming paradigms</title>
       <link>http://localhost:1313/posts/programming-paradigms/</link>
-      <pubDate>Sun, 13 Oct 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/programming-paradigms/</guid>
       <description>Psychology of Programming: It has long been known that a programmer&amp;rsquo;s professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.&#xA;Every programmer starts with some one language. This language has an the predominant influence on how a programmer sees software. But no matter how long a programmer has worked with this language, if they only work with it, they will only know this language. The thinking of a programmer who knows only one language is limited to the capabilities of that language.&#xA;A programmer learning a second language will encounter difficulties, especially if the computational model of the second language differs from the first.</description>
+    </item>
+    <item>
+      <title>Know your IDE</title>
+      <link>http://localhost:1313/posts/know-your-ide/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/know-your-ide/</guid>
+      <description>In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also &amp;ldquo;lived&amp;rdquo; separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.&#xA;In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor.</description>
     </item>
   </channel>
 </rss>

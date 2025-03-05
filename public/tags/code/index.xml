@@ -6,187 +6,264 @@
     <description>Recent content in Code on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Feb 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Continuous learning</title>
-      <link>http://localhost:1313/posts/continuous-learning/</link>
-      <pubDate>Fri, 21 Feb 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/continuous-learning/</guid>
-      <description>We live in interesting times. Development is distributed all over the world, and it turns out that many people are capable of doing your job. To remain competitive in the labor market, you need to continuously learn. Otherwise, you will turn into a dinosaur stuck in your job until one fine day it turns out that you are no longer needed, or that your job has been given to someone who is willing to do it for less.&#xA;How to solve this problem? Some employers are generous and organize training to develop already hired programmers. Others simply cannot afford to allocate time or resources for this. The most reliable solution is to take care of your own education.&#xA;Here is a list of ways to continue learning.</description>
-    </item>
-    <item>
-      <title>Perspective as seen from 300 meters</title>
-      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
-      <pubDate>Tue, 28 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
-      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
-    </item>
-    <item>
-      <title>Do not be afraid to break something</title>
-      <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
-      <pubDate>Sat, 25 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
-      <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
-    </item>
-    <item>
-      <title>You need to take care of the code</title>
-      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
-      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
-    </item>
-    <item>
-      <title>Write code as if you will be maintaining it for the rest of your life</title>
-      <link>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</guid>
-      <description>You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?&#xA;I think the answer lies in your mindset or simply in your approach. If you are indifferent to your fellow developers, testers, managers, sales and marketing staff, as well as end users, you will not feel the urge to, for example, conduct test-driven development or write clear comments in the code. I think there is a simple way to change your attitude and develop a desire to release products of the highest quality:</description>
-    </item>
-    <item>
-      <title>Tests are written for people</title>
-      <link>http://localhost:1313/posts/tests-are-written-for-people/</link>
-      <pubDate>Tue, 10 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/tests-are-written-for-people/</guid>
-      <description>You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: &amp;ldquo;Who am I writing for?&amp;rdquo; these tests?». If the answer is &amp;ldquo;I write them for myself to reduce costs for debugging&amp;rdquo; or &amp;ldquo;for the compiler to execute them,&amp;rdquo; then it&amp;rsquo;s quite possible that you are not writing the best tests. So, for whom Why write tests? For those who will try to understand your code.&#xA;Good tests serve as documentation for the code they are testing. They describe how the code works.</description>
-    </item>
-    <item>
-      <title>To do something hastily and run away is a crime</title>
-      <link>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</link>
-      <pubDate>Thu, 05 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</guid>
-      <description>It&amp;rsquo;s getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves. A few minutes later, the &amp;ldquo;red light&amp;rdquo; comes on: the application build is broken. John didn&amp;rsquo;t have time for automated tests, so he went with the &amp;ldquo;hack and run&amp;rdquo; principle, which caused the entire team&amp;rsquo;s work to come to a halt.&#xA;The situation has changed – the work rhythm has been disrupted.</description>
-    </item>
-    <item>
-      <title>Carefully choose your tools</title>
-      <link>http://localhost:1313/posts/carefully-choose-your-tools/</link>
-      <pubDate>Tue, 03 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/carefully-choose-your-tools/</guid>
-      <description>Modern applications are extremely rarely created &amp;ldquo;from scratch.&amp;rdquo; They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:&#xA;The volume, complexity, and sophistication of applications are increasing, while the time allocated for their creation is decreasing. It is more beneficial to spend the time and intellect of developers on business logic code rather than application infrastructure code. - Widely used components and frameworks have fewer chances of encountering errors compared to those developed independently. - High-quality tools are available for free on the Internet, which reduces development costs and simplifies the search for interested developers with the necessary experience. - The creation and maintenance of software require a significant amount of human labor, so it can be cheaper to buy ready-made products than to create them.</description>
-    </item>
-    <item>
-      <title>Write code wisely</title>
-      <link>http://localhost:1313/posts/write-code-wisely/</link>
-      <pubDate>Tue, 29 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/write-code-wisely/</guid>
-      <description>Attempts to prove the correctness of software manually lead to a formal proof that is longer than the code itself and contains errors more frequently than the code. It is preferable to use automated tools, but this is not always possible. Below, a middle ground is described: semi-formal proof of correctness.&#xA;The method is based on dividing the code under investigation into short fragments ranging from a single line, which may contain a function call, to blocks no longer than 10 lines, and discussing their correctness. The proof must be convincing enough for your colleague playing the role of the &amp;ldquo;devil&amp;rsquo;s advocate.&amp;rdquo;&#xA;Fragments should be chosen in such a way that at the end point of the block, the program state (namely, the instruction address counter and the values of all &amp;ldquo;live&amp;rdquo; objects) satisfies a property that is simple to describe, and the functionality of this fragment (state transformation) can be easily described as a single independent task.</description>
-    </item>
-    <item>
-      <title>Beauty is the result of simplicity</title>
-      <link>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</link>
-      <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</guid>
-      <description>Plato has one saying that, it seems to me, would be especially useful for all software developers to know and take to heart:&#xA;The beauty of style, harmony, elegance, and good rhythm are based on simplicity.&#xA;This single sentence embodies the values that we, as developers, should admire.&#xA;There are a number of things we aim to achieve in our code:&#xA;Readability - Ease of maintenance - Development speed - Elusive beauty Plato tells us that all these qualities are possible only thanks to simplicity.&#xA;What is beautiful code? This is probably a very subjective question. The perception of beauty is heavily dependent on personal experience, just as our perception of anything else is. Those who have studied art perceive beauty differently (at least approach it differently) than those with a technical education.</description>
-    </item>
-    <item>
-      <title>When programmers and testers collaborate</title>
-      <link>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</link>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</guid>
-      <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Integration test). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
-    </item>
-    <item>
-      <title>Two mistakes can cancel each other out, making them difficult to correct</title>
-      <link>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</link>
-      <pubDate>Fri, 11 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</guid>
-      <description>Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?&#xA;In his interview, Allan Klumpp, the lead software developer for the Apollo lunar module, revealed that the engine control software contained a defect that caused the lunar module to behave erratically. However, there was another bug in the program that compensated for the first one, and during the Apollo 11 and 12 moon landings, this software was successfully used before the bugs were discovered and fixed.&#xA;Let&amp;rsquo;s consider a function that returns an exit code. Let&amp;rsquo;s say it returns false when it should return true. Now imagine that the calling function does not implement the check for the return value. Everything works perfectly until one day someone discovers the lack of a check and adds it.</description>
-    </item>
-    <item>
-      <title>Warning - Common code ownership</title>
-      <link>http://localhost:1313/posts/warning---common-code-ownership/</link>
-      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/warning---common-code-ownership/</guid>
-      <description>My first project in the company. I just defended my thesis, and I&amp;rsquo;m eager to prove myself, so I stay late at work and thoroughly study the existing code. Working on my first task, I apply everything I&amp;rsquo;ve been taught: comments, event logs, extracting common code into libraries (where possible), all that stuff. I feel completely ready for code review, but my colleagues seem to pour cold water on me: I get criticized for code reuse!&#xA;How so? During my university studies, code reuse was hailed as one of the best practices in software development. All the articles and textbooks I read, guided by experienced professional programmers—were they all wrong?&#xA;It turns out, I overlooked something very important. Context.&#xA;The fact that two directly unrelated parts of the system use the same logic means less than I thought.</description>
-    </item>
-    <item>
-      <title>Enterprise interview</title>
-      <link>http://localhost:1313/posts/enterprise-interview/</link>
-      <pubDate>Sat, 07 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
-      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
-    </item>
-    <item>
-      <title>Satisfy your ambition through Open Source</title>
-      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
-      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
+      <title>Know that you will save it in the repository</title>
+      <link>http://localhost:1313/posts/know-that-you-will-save-it-in-the-repository/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/know-that-you-will-save-it-in-the-repository/</guid>
+      <description>I patted three programmers on the shoulder and asked what they were working on. &amp;ldquo;I&amp;rsquo;m refactoring these methods,&amp;rdquo; was the first one&amp;rsquo;s reply. &amp;ldquo;I&amp;rsquo;m adding some parameters to this web operation,&amp;rdquo; said the second. The third one said, &amp;ldquo;I&amp;rsquo;m working on this use case.&amp;rdquo;&#xA;It may seem that the first two were absorbed in the details of their work, and only the third saw the bigger picture, and his approach was better. I asked when and what they were going to put in the repository, and then the picture changed dramatically. The first two clearly understood what files they would be, and were going to finish the work in about an hour. The third said, &amp;ldquo;I suppose I&amp;rsquo;ll finish in a few days. I&amp;rsquo;ll probably add some classes and somehow modify the services.</description>
     </item>
     <item>
       <title>Do not touch this code</title>
       <link>http://localhost:1313/posts/do-not-touch-this-code/</link>
-      <pubDate>Wed, 04 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-touch-this-code/</guid>
       <description>Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head Testing informs you that there is a problem. You are immediately ready to respond: &amp;ldquo;Let me quickly fix everything: I know what the issue is.&amp;rdquo;&#xA;However, in a broader sense, the problem is that you, as a developer, believe you should be granted access to the server where testing is being conducted.&#xA;In most cases, when it comes to web development, the architecture can be broken down into the following parts:&#xA;-Local development and unit testing on the developer&amp;rsquo;s machine&#xA;Development server where automated or manual integration testing is conducted Staging server, where the quality control team and users conduct acceptance testing Combat (production) server Yes, there are other servers and services, for example, for managing source code or software defects, but the idea is clear.</description>
     </item>
     <item>
-      <title>The importance of code formatting</title>
-      <link>http://localhost:1313/posts/the-importance-of-code-formatting/</link>
-      <pubDate>Tue, 27 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/the-importance-of-code-formatting/</guid>
-      <description>In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&amp;rsquo;t be trusted. I&amp;rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.&#xA;Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.</description>
+      <title>One binary file</title>
+      <link>http://localhost:1313/posts/one-binary-file/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/one-binary-file/</guid>
+      <description>I have encountered projects where part of the code was rewritten during the build process so that a separate binary file was generated for each runtime environment. This approach always complicates things unnecessarily and creates the risk of incompatible versions appearing with each installation. At the very least, several almost identical instances of the program are built, each intended for installation in its corresponding environment. Too many moving parts arise, which means more opportunities for error.&#xA;Once, I worked in a team where after every property change, it was necessary to save the code and conduct a full build cycle, so the testers were idle every time a minor bug was found (did I mention that the project also took an incredibly long time to build?</description>
     </item>
     <item>
-      <title>Before starting the refactoring</title>
-      <link>http://localhost:1313/posts/before-starting-the-refactoring/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/before-starting-the-refactoring/</guid>
-      <description>Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):&#xA;It is best to start refactoring by assessing the state of the existing code in the project and the tests written for it. This way, you can identify the strengths and weaknesses of the code in its current state, to preserve its strong points and avoid the mistakes already made. Everyone thinks their system will be better than the current one&amp;hellip; until it turns out that the new code is no better, and maybe even worse, than the previous version, all because we did not learn from the mistakes made in the old system.</description>
+      <title>Satisfy your ambition through Open Source</title>
+      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
+      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
     </item>
     <item>
-      <title>Writing code in the spirit of Ubuntu for the friends</title>
-      <link>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</link>
-      <pubDate>Sat, 10 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</guid>
-      <description>Very often we program in isolation, and our programs reflect both our personal interpretation of the problem and a very personal solution to it. We can work in a team, but even then we are isolated as a team. We easily forget that the code created in such isolation will be executed, used, and extended by other people. It&amp;rsquo;s easy to overlook the social aspect of programming. Creating software is both a technical and a social endeavor. We should look around more often to understand that we do not work in isolation and that we share a common responsibility for the potential success not only of the group of developers but also of every person around us.&#xA;It is possible to write high-quality code in isolation from reality, completely detached.</description>
+      <title>Do not be afraid to break something</title>
+      <link>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-be-afraid-to-break-something/</guid>
+      <description>Everyone who has worked in our industry has surely encountered a project, code which caused concern. The parts of such a system are highly interconnected, and for some reason, changing the code of one function leads to the complete failure of the system. another. When adding a new module, one has to limit changes to a minimum and hold their breath, waiting for the consequences. It&amp;rsquo;s like playing Jenga with the floors of a skyscraper – it inevitably leads to disaster.&#xA;Making changes is so nerve-wracking only because the system is sick. It needs treatment, otherwise its condition will only worsen. You know the flaws in the system, but you are afraid to take decisive action. An experienced surgeon knows that it is necessary to make incisions to perform the surgery, but he also knows that the incisions are temporary and will heal afterward.</description>
     </item>
     <item>
-      <title>Before blaming others, check your own code</title>
-      <link>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</link>
-      <pubDate>Sun, 28 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</guid>
-      <description>A developer – any of us! – often finds it difficult to admit that their code doesn&amp;rsquo;t work. It seems so implausible that we are more likely to assume there is a bug in the compiler.&#xA;In reality, it is very, very rare for code to be non-functional due to a bug in the compiler, interpreter, operating system, application server, database, memory manager, or any other element of system software. Yes, there are bugs, but they are much less frequent than we would like to think.&#xA;Once, I actually encountered a bug in the compiler (removing the loop variable during optimization), but in all other cases, my complaints about the compiler or operating system turned out to be unfounded. I wasted a lot of my time, support staff time, and management time, only to end up in an awkward position when it turned out that the mistake was my own.</description>
+      <title>Take responsibility for your build and its refactoring</title>
+      <link>http://localhost:1313/posts/take-responsibility-for-your-build-and-its-refactoring/</link>
+      <pubDate>Thu, 05 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/take-responsibility-for-your-build-and-its-refactoring/</guid>
+      <description>It is not so rare for teams, which generally discipline themselves to follow good coding practices, to treat build scripts with disdain. They are considered either insignificant or so complex that only a sect of release engineers can maintain them. If build scripts are difficult to maintain, contain duplication and errors, it leads to problems of the same scale as poorly designed code.&#xA;Why do responsible and competent developers consider project assembly to be a somewhat secondary task? One explanation is that assembly scripts are often written in a different language than the source code. Another is that assembly scripts are not considered &amp;ldquo;code.&amp;rdquo; Such explanations are contradictory, as most developers are eager to learn new languages, and it is the assembly process that produces executable modules which developers and end users will test and run.</description>
     </item>
     <item>
-      <title>Comment only on what the code will not say</title>
-      <link>http://localhost:1313/posts/comment-only-on-what-the-code-will-not-say/</link>
-      <pubDate>Sat, 27 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/comment-only-on-what-the-code-will-not-say/</guid>
-      <description>The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code seems commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.&#xA;If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &amp;ldquo;The Elements of Programming Style&amp;rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &amp;ldquo;a wrong comment is worse than no comment at all.</description>
+      <title>Enterprise interview</title>
+      <link>http://localhost:1313/posts/enterprise-interview/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/enterprise-interview/</guid>
+      <description>I would want to share some insights from my recent return to interviewing. This episode covers employment process design and screening in large organizations.&#xA;Examining Tech-screening then takes off like wildfire. The recruiter checks in with Sparkling and asks a ton of questions during the first call. As an example:&#xA;-How is it possible to halt the container? The original data types in Python? What is the PID of the Linux kernel? How are PACELC and CAP understood?&#xA;-&amp;hellip; Some even go so far as to use tiny executable pieces of code to create an entire platform. Twenty queries in twenty minutes. &amp;ldquo;How do I send a message to the generator?&amp;rdquo; Or even &amp;ldquo;What does this code do?&amp;rdquo; He knows that the code is so strange that I wouldn&amp;rsquo;t just ignore it in a review.</description>
     </item>
     <item>
-      <title>Automate your code formatting standard</title>
-      <link>http://localhost:1313/posts/automate-your-code-formatting-standard/</link>
-      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/automate-your-code-formatting-standard/</guid>
-      <description>You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&amp;rsquo;s call them &amp;ldquo;new project promises.&amp;rdquo; Similar to New Year&amp;rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&amp;rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.&#xA;When did it all go wrong?</description>
+      <title>The golden rule of API design</title>
+      <link>http://localhost:1313/posts/the-golden-rule-of-api-design/</link>
+      <pubDate>Sat, 23 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-golden-rule-of-api-design/</guid>
+      <description>Designing application programming interfaces (APIs) is difficult, especially in the general case. When developing an API that will have hundreds or thousands of users, you need to consider that over time it will most likely need to be changed, and these changes can disrupt the functioning of the client code. Moreover, you need to consider the potential impact on your API from its users. If the API class calls its own method, it should be remembered that the user is capable of creating a subclass of your class and overriding this method, which can lead to disaster. And you won&amp;rsquo;t be able to change this method because some of your users have given it a different meaning. You become dependent on your users when it comes to choosing the internal implementation.</description>
     </item>
     <item>
-      <title>Code review</title>
-      <link>http://localhost:1313/posts/code-review/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/code-review/</guid>
-      <description>Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.&#xA;Many programmers have an aversion to code reviews, which can be linked to their unfortunate personal experiences. I have encountered organizations where all code underwent formal review before it could enter the system for commercial use. Often, the review is conducted by an architect or lead developer—a practice that can be called &amp;ldquo;the architect checks everything.&amp;rdquo; This is documented in the company&amp;rsquo;s software development process guide, and programmers are required to comply.&#xA;Perhaps, in some organizations, such a strict and formal process is indeed necessary, but they are in the minority. In most organizations, such an approach is counterproductive.</description>
+      <title>Tests are written for people</title>
+      <link>http://localhost:1313/posts/tests-are-written-for-people/</link>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/tests-are-written-for-people/</guid>
+      <description>You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: &amp;ldquo;Who am I writing for?&amp;rdquo; these tests?». If the answer is &amp;ldquo;I write them for myself to reduce costs for debugging&amp;rdquo; or &amp;ldquo;for the compiler to execute them,&amp;rdquo; then it&amp;rsquo;s quite possible that you are not writing the best tests. So, for whom Why write tests? For those who will try to understand your code.&#xA;Good tests serve as documentation for the code they are testing. They describe how the code works.</description>
+    </item>
+    <item>
+      <title>Professional programmer</title>
+      <link>http://localhost:1313/posts/professional-programmer/</link>
+      <pubDate>Wed, 23 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/professional-programmer/</guid>
+      <description>Who can be considered a professional programmer? The most important trait of a professional programmer is personal responsibility. Professional programmers are responsible for their careers, their evaluations, their deadlines, their mistakes, and their expertise. A professional programmer does not shift this responsibility onto others.&#xA;A professional is responsible for their own career. Reading and learning are your responsibilities. Staying up-to-date with the latest industry advancements and technologies is your responsibility. Too often, programmers believe that their education is the employer&amp;rsquo;s job. Sorry, that is completely incorrect. Do you think doctors believe that too? Lawyers? No, they study in their free time and at their own expense. They spend a significant amount of their free time reading journals and court rulings. They maintain their professional level.</description>
+    </item>
+    <item>
+      <title>Carefully choose your tools</title>
+      <link>http://localhost:1313/posts/carefully-choose-your-tools/</link>
+      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/carefully-choose-your-tools/</guid>
+      <description>Modern applications are extremely rarely created &amp;ldquo;from scratch.&amp;rdquo; They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:&#xA;The volume, complexity, and sophistication of applications are increasing, while the time allocated for their creation is decreasing. It is more beneficial to spend the time and intellect of developers on business logic code rather than application infrastructure code. - Widely used components and frameworks have fewer chances of encountering errors compared to those developed independently. - High-quality tools are available for free on the Internet, which reduces development costs and simplifies the search for interested developers with the necessary experience. - The creation and maintenance of software require a significant amount of human labor, so it can be cheaper to buy ready-made products than to create them.</description>
     </item>
     <item>
       <title>Comment only on what the code not say</title>
       <link>http://localhost:1313/posts/comment-only-on-what-the-code-not-say/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/comment-only-on-what-the-code-not-say/</guid>
       <description>The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code looks commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.&#xA;If the code is written with syntax errors, compilers, interpreters, and other development tools will definitely object. If the code is functionally incorrect, most of the errors will be identified through review, static analysis, testing, and real-world deployment in a commercial enterprise. And what about comments? In the book &amp;ldquo;The Elements of Programming Style&amp;rdquo; (Computing McGraw-Hill), Kernighan and Plauger note that &amp;ldquo;a wrong comment has zero or negative value.</description>
     </item>
     <item>
+      <title>Simplicity is achieved through reduction</title>
+      <link>http://localhost:1313/posts/simplicity-is-achieved-through-reduction/</link>
+      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/simplicity-is-achieved-through-reduction/</guid>
+      <description>&amp;ldquo;Do it again&amp;hellip;&amp;rdquo; my boss said, firmly holding down the Delete key with his finger. With familiar sorrow, I watched the screen where my code was irrevocably disappearing, line by line.&#xA;My boss Stefan wasn&amp;rsquo;t particularly eloquent, but he could spot bad code at first glance. And he knew exactly what to do with it. I took that job as someone learning programming – full of energy and enthusiasm, but with no idea how to write code.&#xA;I was under the terrible delusion that any problems could be solved by adding another variable in the appropriate place or by adding another line of code. On bad days, my code would degrade—its logic wouldn&amp;rsquo;t improve, and moreover, it would become bulkier, more complex, and more unstable.</description>
+    </item>
+    <item>
+      <title>Improve the code by removing it</title>
+      <link>http://localhost:1313/posts/improve-the-code-by-removing-it/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/improve-the-code-by-removing-it/</guid>
+      <description>Less is more. It&amp;rsquo;s a clichéd short maxim, but sometimes it&amp;rsquo;s really true.&#xA;Over the past few weeks, among the improvements I made to our code was the removal of some of its fragments.&#xA;We were developing the project following the principles of extreme programming, including YAGNI (You Aren’t Gonna Need It). But human nature is imperfect, and in some places we made mistakes.&#xA;I noticed that our product took an unjustifiably long time to perform certain tasks—simple tasks that should have been completed almost instantly. This was all because we overcomplicated their implementation—with all sorts of trinkets and bows that were actually unnecessary but seemed useful at some point.&#xA;So, I simplified the code, improved the product&amp;rsquo;s performance, and reduced the overall code entropy, all thanks to removing unnecessary functions from the project code.</description>
+    </item>
+    <item>
+      <title>Read the code</title>
+      <link>http://localhost:1313/posts/read-the-code/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/read-the-code/</guid>
+      <description>We, programmers, are strange creatures. We love writing code. But when it comes to reading code, we usually shy away from it. After all, writing code is much more exciting, and reading code is difficult—sometimes almost impossible. Especially hard is reading code written by others. Not always because it is poorly written, but because another person thinks and solves problems differently than you do. Have you ever thought that reading someone else&amp;rsquo;s code can help improve your own code?&#xA;The next time you read some code, stop and think. Is it hard to read or easy? If it&amp;rsquo;s hard, why? Is it poorly formatted? Is the naming system inconsistent or illogical? Are multiple tasks mixed in one piece of code? Perhaps the chosen language makes the code difficult to read.</description>
+    </item>
+    <item>
+      <title>To do something hastily and run away is a crime</title>
+      <link>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</link>
+      <pubDate>Sat, 20 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/to-do-something-hastily-and-run-away-is-a-crime/</guid>
+      <description>It&amp;rsquo;s getting close to evening. The team is diligently working on the new functionality planned for the current iteration; it seems even the air in the room is pulsing with the rhythm of work. However, John is a bit in a hurry: he has a date waiting for him. However, he manages to finish writing his part of the code, compiles it, registers it in the version control system – and hastily leaves. A few minutes later, the &amp;ldquo;red light&amp;rdquo; comes on: the application build is broken. John didn&amp;rsquo;t have time for automated tests, so he went with the &amp;ldquo;hack and run&amp;rdquo; principle, which caused the entire team&amp;rsquo;s work to come to a halt.&#xA;The situation has changed – the work rhythm has been disrupted.</description>
+    </item>
+    <item>
+      <title>Write code as if you will be maintaining it for the rest of your life</title>
+      <link>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</guid>
+      <description>You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?&#xA;I think the answer lies in your mindset or simply in your approach. If you are indifferent to your fellow developers, testers, managers, sales and marketing staff, as well as end users, you will not feel the urge to, for example, conduct test-driven development or write clear comments in the code. I think there is a simple way to change your attitude and develop a desire to release products of the highest quality:</description>
+    </item>
+    <item>
+      <title>Before starting the refactoring</title>
+      <link>http://localhost:1313/posts/before-starting-the-refactoring/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-starting-the-refactoring/</guid>
+      <description>Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):&#xA;It is best to start refactoring by assessing the state of the existing code in the project and the tests written for it. This way, you can identify the strengths and weaknesses of the code in its current state, to preserve its strong points and avoid the mistakes already made. Everyone thinks their system will be better than the current one&amp;hellip; until it turns out that the new code is no better, and maybe even worse, than the previous version, all because we did not learn from the mistakes made in the old system.</description>
+    </item>
+    <item>
+      <title>The importance of code formatting</title>
+      <link>http://localhost:1313/posts/the-importance-of-code-formatting/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-importance-of-code-formatting/</guid>
+      <description>In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&amp;rsquo;t be trusted. I&amp;rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.&#xA;Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.</description>
+    </item>
+    <item>
+      <title>Write code wisely</title>
+      <link>http://localhost:1313/posts/write-code-wisely/</link>
+      <pubDate>Tue, 09 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/write-code-wisely/</guid>
+      <description>Attempts to prove the correctness of software manually lead to a formal proof that is longer than the code itself and contains errors more frequently than the code. It is preferable to use automated tools, but this is not always possible. Below, a middle ground is described: semi-formal proof of correctness.&#xA;The method is based on dividing the code under investigation into short fragments ranging from a single line, which may contain a function call, to blocks no longer than 10 lines, and discussing their correctness. The proof must be convincing enough for your colleague playing the role of the &amp;ldquo;devil&amp;rsquo;s advocate.&amp;rdquo;&#xA;Fragments should be chosen in such a way that at the end point of the block, the program state (namely, the instruction address counter and the values of all &amp;ldquo;live&amp;rdquo; objects) satisfies a property that is simple to describe, and the functionality of this fragment (state transformation) can be easily described as a single independent task.</description>
+    </item>
+    <item>
+      <title>Before blaming others, check your own code</title>
+      <link>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-blaming-others-check-your-own-code/</guid>
+      <description>A developer – any of us! – often finds it difficult to admit that their code doesn&amp;rsquo;t work. It seems so implausible that we are more likely to assume there is a bug in the compiler.&#xA;In reality, it is very, very rare for code to be non-functional due to a bug in the compiler, interpreter, operating system, application server, database, memory manager, or any other element of system software. Yes, there are bugs, but they are much less frequent than we would like to think.&#xA;Once, I actually encountered a bug in the compiler (removing the loop variable during optimization), but in all other cases, my complaints about the compiler or operating system turned out to be unfounded. I wasted a lot of my time, support staff time, and management time, only to end up in an awkward position when it turned out that the mistake was my own.</description>
+    </item>
+    <item>
+      <title>The assembly must be clean</title>
+      <link>http://localhost:1313/posts/the-assembly-must-be-clean/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-assembly-must-be-clean/</guid>
+      <description>Have you ever seen a list of compiler warnings the size of an essay on how not to write code and thought: &amp;ldquo;Of course, something needs to be done about this&amp;hellip; but I just don&amp;rsquo;t have time for it right now&amp;rdquo;? And conversely, have you ever seen a single warning appear during compilation and immediately fix it?&#xA;When I start a new project from scratch, there are no warnings, no mess, no problems. But as the codebase grows, if no measures are taken, it&amp;rsquo;s likely that the mess, clutter, warnings, and issues will gradually accumulate. In a large stream of &amp;ldquo;noise,&amp;rdquo; it becomes significantly harder to find a truly important warning among the hundreds of others that I am not interested in.&#xA;To make warnings useful again, I try to adhere to a policy of zero tolerance for warnings during assembly.</description>
+    </item>
+    <item>
+      <title>Continuous learning</title>
+      <link>http://localhost:1313/posts/continuous-learning/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/continuous-learning/</guid>
+      <description>We live in interesting times. Development is distributed all over the world, and it turns out that many people are capable of doing your job. To remain competitive in the labor market, you need to continuously learn. Otherwise, you will turn into a dinosaur stuck in your job until one fine day it turns out that you are no longer needed, or that your job has been given to someone who is willing to do it for less.&#xA;How to solve this problem? Some employers are generous and organize training to develop already hired programmers. Others simply cannot afford to allocate time or resources for this. The most reliable solution is to take care of your own education.&#xA;Here is a list of ways to continue learning.</description>
+    </item>
+    <item>
+      <title>Warning - Common code ownership</title>
+      <link>http://localhost:1313/posts/warning---common-code-ownership/</link>
+      <pubDate>Thu, 30 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/warning---common-code-ownership/</guid>
+      <description>My first project in the company. I just defended my thesis, and I&amp;rsquo;m eager to prove myself, so I stay late at work and thoroughly study the existing code. Working on my first task, I apply everything I&amp;rsquo;ve been taught: comments, event logs, extracting common code into libraries (where possible), all that stuff. I feel completely ready for code review, but my colleagues seem to pour cold water on me: I get criticized for code reuse!&#xA;How so? During my university studies, code reuse was hailed as one of the best practices in software development. All the articles and textbooks I read, guided by experienced professional programmers—were they all wrong?&#xA;It turns out, I overlooked something very important. Context.&#xA;The fact that two directly unrelated parts of the system use the same logic means less than I thought.</description>
+    </item>
+    <item>
+      <title>Only the code will tell the truth</title>
+      <link>http://localhost:1313/posts/only-the-code-will-tell-the-truth/</link>
+      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/only-the-code-will-tell-the-truth/</guid>
+      <description>In the end, the semantics of a program are defined by the working code. If you only have it in the form of a binary file, it will be difficult to read! However, the source code is usually available if it is your own program, a typical commercial development, an open-source project, or a program in a dynamically interpreted language. When reading the source code, the meaning of the program should be obvious. You can confidently know what the program does just by looking at the source code. Even the most precise description of technical requirements will not tell the whole truth: it contains not a detailed description of what the program actually does, but general wishes of the requirements compiler. An architecture document may contain a description of the planned architecture, but it will not describe the necessary implementation details.</description>
+    </item>
+    <item>
+      <title>You need to take care of the code</title>
+      <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
+      <pubDate>Tue, 14 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
+      <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
+    </item>
+    <item>
+      <title>Writing code in the spirit of Ubuntu for the friends</title>
+      <link>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</link>
+      <pubDate>Mon, 06 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/writing-code-in-the-spirit-of-ubuntu-for-the-friends/</guid>
+      <description>Very often we program in isolation, and our programs reflect both our personal interpretation of the problem and a very personal solution to it. We can work in a team, but even then we are isolated as a team. We easily forget that the code created in such isolation will be executed, used, and extended by other people. It&amp;rsquo;s easy to overlook the social aspect of programming. Creating software is both a technical and a social endeavor. We should look around more often to understand that we do not work in isolation and that we share a common responsibility for the potential success not only of the group of developers but also of every person around us.&#xA;It is possible to write high-quality code in isolation from reality, completely detached.</description>
+    </item>
+    <item>
+      <title>Keep everything in version control</title>
+      <link>http://localhost:1313/posts/keep-everything-in-version-control/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/keep-everything-in-version-control/</guid>
+      <description>Store everything related to any of your projects in a version control system. The necessary resources are already available: free tools like Subversion, Git, Mercurial, and CVS, ample disk space, cheap and powerful servers, ubiquitous Internet access, and even project hosting services. Once you have installed the version control system, saving your work in the repository is very simple: just execute the corresponding command in the clean directory with the code. And you only need to master two new basic operations: committing (commit) changes you made in the code to the repository, and updating (update) your working version of the project to the one in the repository.&#xA;Once the project is placed in the version control system, you can easily view its history, find out who wrote each piece of code, and refer to a specific version of a file or project using a unique identifier.</description>
+    </item>
+    <item>
+      <title>When programmers and testers collaborate</title>
+      <link>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</link>
+      <pubDate>Sat, 04 May 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</guid>
+      <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Integration test). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
+    </item>
+    <item>
+      <title>Perspective as seen from 300 meters</title>
+      <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
+      <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
+    </item>
+    <item>
+      <title>Code review</title>
+      <link>http://localhost:1313/posts/code-review/</link>
+      <pubDate>Fri, 19 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/code-review/</guid>
+      <description>Conducting code reviews is necessary. Why? It improves code quality and reduces the relative share of defects. But you may be misunderstanding why this happens.&#xA;Many programmers have an aversion to code reviews, which can be linked to their unfortunate personal experiences. I have encountered organizations where all code underwent formal review before it could enter the system for commercial use. Often, the review is conducted by an architect or lead developer—a practice that can be called &amp;ldquo;the architect checks everything.&amp;rdquo; This is documented in the company&amp;rsquo;s software development process guide, and programmers are required to comply.&#xA;Perhaps, in some organizations, such a strict and formal process is indeed necessary, but they are in the minority. In most organizations, such an approach is counterproductive.</description>
+    </item>
+    <item>
+      <title>Beauty is the result of simplicity</title>
+      <link>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/beauty-is-the-result-of-simplicity/</guid>
+      <description>Plato has one saying that, it seems to me, would be especially useful for all software developers to know and take to heart:&#xA;The beauty of style, harmony, elegance, and good rhythm are based on simplicity.&#xA;This single sentence embodies the values that we, as developers, should admire.&#xA;There are a number of things we aim to achieve in our code:&#xA;Readability - Ease of maintenance - Development speed - Elusive beauty Plato tells us that all these qualities are possible only thanks to simplicity.&#xA;What is beautiful code? This is probably a very subjective question. The perception of beauty is heavily dependent on personal experience, just as our perception of anything else is. Those who have studied art perceive beauty differently (at least approach it differently) than those with a technical education.</description>
+    </item>
+    <item>
+      <title>Two mistakes can cancel each other out, making them difficult to correct</title>
+      <link>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</link>
+      <pubDate>Thu, 18 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/two-mistakes-can-cancel-each-other-out-making-them-difficult-to-correct/</guid>
+      <description>Code never lies, but it can be internally contradictory. Sometimes contradictions cause confusion: how can this even work?&#xA;In his interview, Allan Klumpp, the lead software developer for the Apollo lunar module, revealed that the engine control software contained a defect that caused the lunar module to behave erratically. However, there was another bug in the program that compensated for the first one, and during the Apollo 11 and 12 moon landings, this software was successfully used before the bugs were discovered and fixed.&#xA;Let&amp;rsquo;s consider a function that returns an exit code. Let&amp;rsquo;s say it returns false when it should return true. Now imagine that the calling function does not implement the check for the return value. Everything works perfectly until one day someone discovers the lack of a check and adds it.</description>
+    </item>
+    <item>
+      <title>Automate your code formatting standard</title>
+      <link>http://localhost:1313/posts/automate-your-code-formatting-standard/</link>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/automate-your-code-formatting-standard/</guid>
+      <description>You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&amp;rsquo;s call them &amp;ldquo;new project promises.&amp;rdquo; Similar to New Year&amp;rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&amp;rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.&#xA;When did it all go wrong?</description>
+    </item>
+    <item>
       <title>Do not repeat your code</title>
       <link>http://localhost:1313/posts/do-not-repeat-your-code/</link>
-      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-repeat-your-code/</guid>
       <description>&amp;ldquo;Don&amp;rsquo;t Repeat Yourself (DRY)&amp;rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.&#xA;Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.</description>
     </item>
     <item>
+      <title>Know your IDE</title>
+      <link>http://localhost:1313/posts/know-your-ide/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/know-your-ide/</guid>
+      <description>In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also &amp;ldquo;lived&amp;rdquo; separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.&#xA;In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor.</description>
+    </item>
+    <item>
       <title>Commentary on comments</title>
       <link>http://localhost:1313/posts/commentary-on-comments/</link>
-      <pubDate>Sun, 09 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/commentary-on-comments/</guid>
       <description>At my first programming class at the university, the instructor handed out two sheets for us to write the program text in BASIC. On the board, he wrote the assignment: &amp;ldquo;Create a program to input and calculate the average of 10 bowling scores.&amp;rdquo; Then the teacher left the room. Is this task difficult? I don&amp;rsquo;t remember my solution, but it seems there was a FOR/NEXT loop and no more than 15 lines of code.&#xA;In each form for the program code, we would write the code by hand before entering it into the computer – it was about 70 lines. I had no idea why the teacher gave us two forms each. Since my handwriting has always been terrible, I used the second form to neatly rewrite my code, hoping to earn a couple of points for style.</description>
     </item>

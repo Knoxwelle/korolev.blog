@@ -6,21 +6,28 @@
     <description>Recent content in Testing on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Thinking about performance is never too early</title>
-      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
-      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
-    </item>
     <item>
       <title>Do not touch this code</title>
       <link>http://localhost:1313/posts/do-not-touch-this-code/</link>
-      <pubDate>Wed, 04 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 15 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/do-not-touch-this-code/</guid>
       <description>Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head Testing informs you that there is a problem. You are immediately ready to respond: &amp;ldquo;Let me quickly fix everything: I know what the issue is.&amp;rdquo;&#xA;However, in a broader sense, the problem is that you, as a developer, believe you should be granted access to the server where testing is being conducted.&#xA;In most cases, when it comes to web development, the architecture can be broken down into the following parts:&#xA;-Local development and unit testing on the developer&amp;rsquo;s machine&#xA;Development server where automated or manual integration testing is conducted Staging server, where the quality control team and users conduct acceptance testing Combat (production) server Yes, there are other servers and services, for example, for managing source code or software defects, but the idea is clear.</description>
+    </item>
+    <item>
+      <title>The golden rule of API design</title>
+      <link>http://localhost:1313/posts/the-golden-rule-of-api-design/</link>
+      <pubDate>Sat, 23 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-golden-rule-of-api-design/</guid>
+      <description>Designing application programming interfaces (APIs) is difficult, especially in the general case. When developing an API that will have hundreds or thousands of users, you need to consider that over time it will most likely need to be changed, and these changes can disrupt the functioning of the client code. Moreover, you need to consider the potential impact on your API from its users. If the API class calls its own method, it should be remembered that the user is capable of creating a subclass of your class and overriding this method, which can lead to disaster. And you won&amp;rsquo;t be able to change this method because some of your users have given it a different meaning. You become dependent on your users when it comes to choosing the internal implementation.</description>
+    </item>
+    <item>
+      <title>Thinking about performance is never too early</title>
+      <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
+      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
+      <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>
   </channel>
 </rss>

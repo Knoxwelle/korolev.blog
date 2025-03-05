@@ -6,35 +6,14 @@
     <description>Recent content in People on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/people/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Perhaps technology is not your primary issue</title>
-      <link>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</link>
-      <pubDate>Wed, 14 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/perhaps-technology-is-not-your-primary-issue/</guid>
-      <description>Another salary calculation project is currently failing horribly somewhere; it&amp;rsquo;s probably not your fault.&#xA;Why did that happen? because Ruby was chosen by the developers instead of Smalltalk, Java, or Python? since you&amp;rsquo;ve decided to use Postgres instead of Oracle? or because, although you ought to have selected Linux, you liked the Windows platform better? As you are aware, project failures are often attributed to technology.&#xA;Projects are typically started by people, and it is up to these people to determine whether the initiative succeeds or fails overall. And once that&amp;rsquo;s the case, we should think about the ways we might help them succeed.&#xA;As a result, you think that one of the team members is performing poorly and preventing the project from moving forward.</description>
-    </item>
-    <item>
-      <title>Application performance determined by architecture</title>
-      <link>http://localhost:1313/posts/application-performance-determined-by-architecture/</link>
-      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/application-performance-determined-by-architecture/</guid>
-      <description>An application&amp;rsquo;s performance is determined by its architecture. On the surface, this claim seems obvious, but actual experience suggests otherwise. For example, software architects frequently believe that switching to a different software infrastructure manufacturer can alleviate application performance difficulties. This idea may have originated from the hype around test findings; for example, assertions that the product of the top company outperforms that of its nearest competitor by 25% may have contributed to the development of this view. However, if the leading product completes the operation in 3 milliseconds and the competitor product completes it in 4 milliseconds, the reported 25% (one millisection) represents virtually little given the overall low performance, which is caused by architectural inefficiencies.&#xA;In addition to IT managers and performance testing teams, other groups of people advise you to carry out the subtle configuration of the application&amp;rsquo;s infrastructure, like experimenting with memory allocation operations, connectivity pool sizes, flow pool sizes, and so forth.</description>
-    </item>
-    <item>
-      <title>Architecture is not the only factor in reuse</title>
-      <link>http://localhost:1313/posts/architecture-is-not-the-only-factor-in-reuse/</link>
-      <pubDate>Sat, 27 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/architecture-is-not-the-only-factor-in-reuse/</guid>
-      <description>It appears that a well-planned and cleverly executed architecture, or well-thought-out infrastructure, is perfect for repurposing within your company. But in practice, only those who are aware of an architecture, infrastructure, or system&amp;rsquo;s existence will be able to utilize it again, no matter how exquisite and lovely it may be. Your organization&amp;rsquo;s developers and designers should be aware of the existence of any libraries, architectures, infrastructures, or code fragments, as well as where to locate all the information required to understand these components (documentation, compatibility, and version data). The obvious and straightforward reality is that people do not take into account options that they are unaware even exist. Certain pieces can only be reused provided information about them is regularly shared. Within your company, there are numerous ways to share information about reusable items: from an email with updates on version changes in the source repository to a wiki with an RSS feed that provides information about updates (particularly helpful for extremely large teams).</description>
-    </item>
-    <item>
-      <title>Stand up</title>
-      <link>http://localhost:1313/posts/stand-up/</link>
-      <pubDate>Sun, 19 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/stand-up/</guid>
-      <description>Many of us began our careers as architects in highly technical roles requiring proficiency with computer communication. Nonetheless, as architects, interpersonal communication is our main mode of exchange. Whether you are debating the merits of employing a template with developers or summarizing the benefits and drawbacks of buying intermediate software for management, your ability to communicate clearly is critical to your success.&#xA;It is difficult to assess the architect&amp;rsquo;s impact on the project objectively, but one thing is for sure: if the developers routinely disobey his instructions and the management does not value his advice, then the &amp;ldquo;correctness&amp;rdquo; of the architect&amp;rsquo;s actions will not affect the course of his career. Professional architects are aware that they need to &amp;ldquo;promote&amp;rdquo; their ideas, and effective communication is essential to this.</description>
+      <title>The myth of the guru</title>
+      <link>http://localhost:1313/posts/the-myth-of-the-guru/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/the-myth-of-the-guru/</guid>
+      <description>Everyone who has been working in the computer industry for a long time has had to hear questions like: I am getting an XYZ exception. Do you know what the problem is?&#xA;Those who ask such questions rarely bother to show the stack trace, application log, or provide any context that would help understand the problem. Apparently, they think you operate on some other plane where solutions are revealed to you without any analysis of the facts. They consider you a guru.&#xA;We expect such questions from people who are not familiar with software, from those for whom the system&amp;rsquo;s operation seems almost magical. What worries me is that we encounter this even within the programming community. Similar questions arise during software design, for example: &amp;ldquo;I am writing an application for warehouse management.</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 +++
 title='The performance of an application is determined by its architecture'
-date=2025-02-21T00:00:00-07:00
+date=2024-03-07T00:00:00-07:00
 draft=false
 categories=[]
 tags=["application", "performance", "architecture", "product", "fine-tuning"]
-cover_image='/images/cover/knoxwelle__2017-05-18T195656.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-04-23T065242.000Z.jpg'
 +++
 The performance of an application is determined by its architecture. At first glance, it seems that this statement should be obvious, but real-world experience shows otherwise. For example, software architects often believe that application performance issues can be resolved simply by switching to software infrastructure from another vendor. The source of this belief may be the advertising hype surrounding testing results – for example, it is claimed that the leading company's product outperforms the nearest competitor by a certain percentage. However, if the leading product performs an operation in 3 milliseconds, while the competing product does it in 4 milliseconds, the claimed percentage (one millisecond) means very little against the backdrop of overall low performance rooted in architectural inefficiency.
 

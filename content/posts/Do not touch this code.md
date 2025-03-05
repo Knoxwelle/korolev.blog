@@ -1,10 +1,10 @@
 +++
 title='Do not touch this code'
-date=2024-11-23T00:00:00-07:00
+date=2025-02-15T00:00:00-07:00
 draft=false
 categories=[]
 tags=["development", "server", "testing", "code", "team"]
-cover_image='/images/cover/knoxwelle__2020-06-16T080219.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-04T121515.000Z.jpg'
 +++
 Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head
 Testing informs you that there is a problem. You are immediately ready to respond: "Let me quickly fix everything: I know what the issue is."

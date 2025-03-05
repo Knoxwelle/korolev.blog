@@ -1,10 +1,10 @@
 +++
 title='Apply the principles of functional programming'
-date=2024-11-08T00:00:00-07:00
+date=2024-05-22T00:00:00-07:00
 draft=false
 categories=[]
 tags=["programming", "transparency", "paradigm", "objects", "functions"]
-cover_image='/images/cover/knoxwelle__2018-02-22T081603.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-18T220601.000Z.jpg'
 +++
 Functional programming has recently regained the attention of the majority in the programming community, partly because the emergent properties of the functional paradigm resonate with solving the challenges arising in our industry due to the increasing importance of multi-core architectures. And although this application is undoubtedly important, it is not the main reason for my urging to learn functional programming.
 

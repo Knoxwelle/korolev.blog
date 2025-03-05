@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    
+
+
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <link href="https://gmpg.org/xfn/11" rel="profile">
+    
+    <link rel="canonical" href="http://localhost:1313/posts/%D1%83%D0%BC%D0%B5%D0%B9-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F-%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%D0%BC%D0%B8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8/">
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Enable responsiveness on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="generator" content="Hugo 0.125.4">
+
+    
+    
+    
+
+<title>Умей пользоваться утилитами командной строки • Korolev Blog</title>
+
+
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Умей пользоваться утилитами командной строки">
+<meta name="twitter:description" content="Се­го­дня мно­гие сред­ст­ва раз­ра­бот­ки про­грамм­но­го обес­пе­че­ния поставляются в виде интегрированных сред разработки (IDE). Помимо двух популярных примеров – Visual Studio от Microsoft и Eclipse от сообщества открытых проектов – существует и множество других. В пользу IDE можно сказать многое. Ими легко пользоваться и они избавляют программиста от необходимости вникать во множество мелких деталей, включая процесс сборки.
+Однако легкость использования имеет свой недостаток. Обычно инструментом легко пользоваться, когда он принимает решения за программиста и автоматически проделывает большой объем работы за кулисами. Поэтому если в качестве среды программирования вы используете только IDE, вполне возможно, вы никогда до конца не поймете, что фактически делают ваши инструменты. Жмете на кнопку, творится волшебство, и в папке вашего проекта появляется исполняемый файл.
+Работая с инструментами в командной строке, вы гораздо больше узнаете о том, что делают ваши инструменты во время сборки проекта.">
+
+<meta property="og:url" content="http://localhost:1313/posts/%D1%83%D0%BC%D0%B5%D0%B9-%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C%D1%81%D1%8F-%D1%83%D1%82%D0%B8%D0%BB%D0%B8%D1%82%D0%B0%D0%BC%D0%B8-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D1%80%D0%BE%D0%BA%D0%B8/">
+  <meta property="og:site_name" content="Korolev Blog">
+  <meta property="og:title" content="Умей пользоваться утилитами командной строки">
+  <meta property="og:description" content="Се­го­дня мно­гие сред­ст­ва раз­ра­бот­ки про­грамм­но­го обес­пе­че­ния поставляются в виде интегрированных сред разработки (IDE). Помимо двух популярных примеров – Visual Studio от Microsoft и Eclipse от сообщества открытых проектов – существует и множество других. В пользу IDE можно сказать многое. Ими легко пользоваться и они избавляют программиста от необходимости вникать во множество мелких деталей, включая процесс сборки.
+Однако легкость использования имеет свой недостаток. Обычно инструментом легко пользоваться, когда он принимает решения за программиста и автоматически проделывает большой объем работы за кулисами. Поэтому если в качестве среды программирования вы используете только IDE, вполне возможно, вы никогда до конца не поймете, что фактически делают ваши инструменты. Жмете на кнопку, творится волшебство, и в папке вашего проекта появляется исполняемый файл.
+Работая с инструментами в командной строке, вы гораздо больше узнаете о том, что делают ваши инструменты во время сборки проекта.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-07T00:00:00-07:00">
+    <meta property="article:modified_time" content="2024-07-07T00:00:00-07:00">
+
+
+    
+
+
+
+
+
+
+<link rel="stylesheet" href="/scss/hyde-hyde.f30fcebc5d51fdeafdea6b0b8ea59275aca5e3e80f12c48e01e9b1a222e0d01d.css" integrity="sha256-8w/OvF1R/er96msLjqWSdayl4&#43;gPEsSOAemxoiLg0B0=">
+
+
+<link rel="stylesheet" href="/scss/print.2744dcbf8a0b2e74f8a50e4b34e5f441be7cf93cc7de27029121c6a09f9e77bc.css" integrity="sha256-J0Tcv4oLLnT4pQ5LNOX0Qb58&#43;TzH3icCkSHGoJ&#43;ed7w=" media="print">
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="/favicon.png">
+    
+    
+
+</head>
+
+
+    <body class=" ">
+    
+<div class="sidebar">
+  <div class="container ">
+    <div class="sidebar-about">
+      <span class="site__title">
+        <a href="http://localhost:1313/">
+        
+          Korolev Blog
+        
+        </a>
+      </span>
+      
+      
+        <div class="author-image">
+          <img src="https://www.gravatar.com/avatar/215e21c23df7102de817dc98926135af?s=240&d=mp" class="img--circle img--headshot element--center" alt="gravatar">
+        </div>
+      
+      <p class="site__description">
+         101, my name is Stan Korolev, Ph.D Software Developer in Vancouver, BC 
+      </p>
+    </div>
+    <div class="collapsible-menu">
+      <input type="checkbox" id="menuToggle">
+      <label for="menuToggle">Korolev Blog</label>
+      <div class="menu-content">
+        <div>
+	<ul class="sidebar-nav">
+		 
+		 
+			 
+				<li>
+					<a href="/">
+						<span>Home</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/posts/">
+						<span>Posts</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/categories/">
+						<span>Categories</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/tags/">
+						<span>Tags</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/resume/resume">
+						<span>Resume</span>
+					</a>
+				</li>
+			 
+		 
+			 
+				<li>
+					<a href="/about/about">
+						<span>About</span>
+					</a>
+				</li>
+			 
+		
+	</ul>
+</div>
+
+        <section class="social">
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<a href="https://instagram.com/knoxwelle" rel="me"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+	
+	
+	<a href="https://linkedin.com/in/korolevst" rel="me"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</section>
+
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+
+        <div class="content container">
+            
+    
+<article>
+  <header>
+    <h1>Умей пользоваться утилитами командной строки</h1>
+    
+    
+<div class="post__meta">
+    
+    
+      <i class="fas fa-calendar-alt"></i> Jul 07, 2024
+    
+    
+    
+    
+    
+    <br/>
+    <i class="fas fa-clock"></i> 2 min read
+    <br/>
+    <div class="my-12">
+      <img src="/images/cover/knoxwelle__2020-04-25T085731.000Z.jpg">
+        
+        
+    </div>
+</div>
+
+
+  </header>
+  
+  
+  <div class="post">
+    <p>Се­го­дня мно­гие сред­ст­ва раз­ра­бот­ки про­грамм­но­го обес­пе­че­ния поставляются
+в виде интегрированных сред разработки (IDE). Помимо двух популярных примеров – Visual Studio от Microsoft и Eclipse от сообщества открытых проектов –
+существует и множество других. В пользу IDE можно сказать многое. Ими легко
+пользоваться и они избавляют программиста от необходимости вникать во множество мелких деталей, включая процесс сборки.</p>
+<p>Однако легкость использования имеет свой недостаток. Обычно инструментом
+легко пользоваться, когда он принимает решения за программиста и автоматически проделывает большой объем работы за кулисами. Поэтому если в качестве
+среды программирования вы используете только IDE, вполне возможно, вы никогда до конца не поймете, что фактически делают ваши инструменты. Жмете
+на кнопку, творится волшебство, и в папке вашего проекта появляется исполняемый файл.</p>
+<p>Работая с инструментами в командной строке, вы гораздо больше узнаете о том,
+что делают ваши инструменты во время сборки проекта. Составление собственных make-файлов поможет осмыслить все этапы сборки исполняемого файла
+(компиляция, ассемблирование, компоновка и т.д.). Эксперименты с многочисленными ключами командных строк этих инструментов – ценная и познавательная практика. Начать работу с инструментами командной строки для сборки можно со средств командной строки с открытым исходным кодом, таких как
+GCC, или тех, что поставляются в составе вашей коммерческой IDE. В конце
+концов, правильно спроектированная IDE – это всего лишь графический интерфейс к набору инструментов командной строки.</p>
+<p>Так вы обретете лучшее понимание процедуры сборки. Кроме того, определенные задачи в командной строке выполняются проще и эффективнее, чем в IDE.
+Например, возможности поиска и замены таких утилит, как grep и sed, зачастую
+превышают аналогичные функции IDE. Инструменты командной строки ориентированы на сценарное выполнение задач, что позволяет автоматизировать, например, выполнение ежедневной сборки в заданное время, создание нескольких версий проекта и прогон наборов тестов. В IDE автоматизация такого рода может быть затруднена (или вообще невозможна), потому что параметры сборки
+обычно указываются через диалоговые окна GUI, а процедура сборки запускается щелчком мыши. Если вы никогда не выходили за рамки IDE, то, возможно,
+не догадываетесь о возможности автоматизации таких задач.</p>
+<p>Минуточку. Разве IDE существуют не для того, чтобы облегчить разработку и повысить продуктивность программиста? Что ж, все так. Я вовсе не предлагаю прекратить пользоваться IDE. Просто вам следует заглянуть «под капот» и понять,
+какие задачи IDE выполняет за вас. И наилучший способ это сделать – научиться применять инструменты командной строки. После этого, вернувшись к своей
+IDE, вы гораздо лучше будете понимать, что она за вас делает и как можно управлять процессом сборки. С другой стороны, освоив работу с инструментами командной строки и познав их мощь и гибкость, вы, возможно, предпочтете пользоваться командной строкой вместо IDE.</p>
+
+  </div>
+  
+
+<div class="navigation navigation-single">
+    
+    <a href="/posts/try-before-you-decide/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">Try before you decide</span>
+    </a>
+    
+    
+    <a href="/posts/%D0%BE%D0%B4%D0%B8%D0%BD-%D0%B1%D0%B8%D0%BD%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D1%84%D0%B0%D0%B9%D0%BB/" class="navigation-next">
+      <span class="navigation-tittle">Один бинарный файл</span>
+      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    </a>
+    
+</div>
+
+
+  
+
+  
+    
+
+
+</article>
+
+
+        </div>
+        
+    
+
+  
+  
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPYM1BW8ZT"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-XPYM1BW8ZT');
+        }
+      </script>
+    
+  
+
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" integrity="sha384-ZbbbT1gw3joYkKRqh0kWyRp32UAvdqkpbLedQJSlnI8iLQcFVxaGyrOgOJiDQTTR" crossorigin="anonymous"></script>
+
+
+
+
+    
+
+
+
+    </body>
+</html>

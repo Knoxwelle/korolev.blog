@@ -1,10 +1,10 @@
 +++
 title='Thinking about performance is never too early'
-date=2024-10-08T00:00:00-07:00
+date=2024-06-03T00:00:00-07:00
 draft=false
 categories=[]
 tags=["first", "performance", "system", "testing", "requirements", "issues"]
-cover_image='/images/cover/knoxwelle__2016-11-19T140122.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-11-10T045157.000Z.jpg'
 +++
 The needs of business application users manifest primarily
 in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When

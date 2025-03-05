@@ -6,14 +6,14 @@
     <description>Recent content in World on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/world/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>There could be a number of answers</title>
-      <link>http://localhost:1313/posts/there-could-be-a-number-of-answers/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/there-could-be-a-number-of-answers/</guid>
-      <description>Every aspect of a business organization is too complex for a single data model, communication format, transport mechanism, and usually a single core architectural element, policy, principle, etc. to handle well. It seems that this truth always surprises and depresses the system developers. But given that the company is large enough to be concerned about the effects of numerous tables of accounts on the system over the next ten years, it makes sense that it must be too huge and diverse to manage a single table. The organization is represented by the thick red line in this example.&#xA;It&amp;rsquo;s also quite useful to us. Still, it involves the tense, intricate, informal, and disconcerting real world of business. Even worse, instead of dealing with real reality, you have to deal with people&amp;rsquo;s views of specific situations in specific parts of the world.</description>
+      <title>Install me</title>
+      <link>http://localhost:1313/posts/install-me/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/install-me/</guid>
+      <description>I am not at all interested in your program.&#xA;I have plenty of my own problems and a long list of tasks. I only visited your site because of unverified rumors that your program would solve all my problems. Please forgive my skepticism.&#xA;If eye-tracking studies are correct, I&amp;rsquo;ve already read the headline and am scrolling through the page looking for the blue underlined link Download Now. By the way, if I accessed this page from a browser running on Linux and my IP is from Canada, it can be assumed that I need the Linux version from a North American mirror, so please don&amp;rsquo;t ask about that. I understand that the file download dialog will open immediately, so I&amp;rsquo;ll send this thing to my downloads folder and continue reading.</description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 +++
 title='Your clients mean something different than what they say'
-date=2024-07-27T00:00:00-07:00
+date=2024-12-17T00:00:00-07:00
 draft=false
 categories=[]
 tags=["start", "clients", "need", "client", "task", "project"]
-cover_image='/images/cover/knoxwelle__2018-09-15T200308.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-04-03T060336.000Z.jpg'
 +++
 I have yet to meet a client who wouldn't be happy to tell me what they need – usually down to the smallest details. The problem is that clients don't always tell the whole truth. Overall, clients don't lie, but they speak in their own client language, not in the language of developers. They have their own vocabulary and their own context. They leave out important details. They talk as if you have also worked in their company for twenty years. And it is all complicated by the fact that, in reality, clients often don't know what they need! Some have an understanding of the big picture, but they are rarely able to articulate their vision clearly. For others, the overall picture may be less vivid, but they know what they don't need. So how can you develop a software project for someone who is unable to truthfully tell you exactly what they need? The solution is quite simple. We need to interact more with the client.
 

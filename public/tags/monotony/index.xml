@@ -6,12 +6,12 @@
     <description>Recent content in Monotony on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/monotony/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convenience is not an attribute of quality</title>
       <link>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</link>
-      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/convenience-is-not-an-attribute-of-quality/</guid>
       <description>Much has been said about the importance and complexity of designing good APIs (application programming interfaces). It&amp;rsquo;s hard to get everything right the first time, and even harder to change anything along the way; it&amp;rsquo;s like raising children. Experienced programmers have already understood that a good API offers the same level of abstraction for all methods, possesses uniformity and symmetry, and forms a vocabulary for an expressive language. Unfortunately, knowing the principles is one thing, but following them in practice is another. You know that eating sweets is harmful.&#xA;But let&amp;rsquo;s move from words to action and analyze a specific &amp;ldquo;strategy&amp;rdquo; for API design that I encounter constantly: designing the API to be user-friendly. As a rule, it all starts with one of the following &amp;ldquo;insights&amp;rdquo;:</description>
     </item>

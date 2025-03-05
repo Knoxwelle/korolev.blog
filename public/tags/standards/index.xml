@@ -6,12 +6,19 @@
     <description>Recent content in Standards on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/standards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Durability of temporary solutions</title>
+      <link>http://localhost:1313/posts/durability-of-temporary-solutions/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/durability-of-temporary-solutions/</guid>
+      <description>Why do we create temporary solutions?&#xA;Usually, the culprit is an urgent task. Sometimes, it&amp;rsquo;s an internal task for developers—to create a missing tool for the development chain. Other times, the task is external, user-oriented, such as a workaround to compensate for missing functionality.&#xA;In most systems and teams, you can find a module that somehow stands out in the system. It is considered a draft version, and it will need to be redone later because it does not meet the standards and rules that the rest of the code lives by. You will definitely have to hear developers&amp;rsquo; complaints about this. The reasons for the appearance of such code can vary, but the main reason for the emergence of intermediate solutions is their usefulness.</description>
+    </item>
     <item>
       <title>Automate your code formatting standard</title>
       <link>http://localhost:1313/posts/automate-your-code-formatting-standard/</link>
-      <pubDate>Thu, 25 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 13 Apr 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/automate-your-code-formatting-standard/</guid>
       <description>You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let&amp;rsquo;s call them &amp;ldquo;new project promises.&amp;rdquo; Similar to New Year&amp;rsquo;s resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project&amp;rsquo;s code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.&#xA;When did it all go wrong?</description>
     </item>
