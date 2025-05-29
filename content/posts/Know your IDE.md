@@ -1,6 +1,6 @@
 +++
 title='Know your IDE'
-date=2024-03-13T00:00:00-07:00
+date=2025-03-09T00:00:00-07:00
 draft=false
 categories=["method", "unix", "java", "c"]
 tags=["code", "debuggers", "integrated development environment", "ide", "modern", "java", "unix", "ides", "time", "tools", "method"]

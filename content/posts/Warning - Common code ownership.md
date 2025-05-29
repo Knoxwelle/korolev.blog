@@ -1,6 +1,6 @@
 +++
 title='Warning - Common code ownership'
-date=2024-05-30T00:00:00-07:00
+date=2024-11-12T00:00:00-07:00
 draft=false
 categories=[]
 tags=["study", "code", "context", "dependencies", "parts", "number"]

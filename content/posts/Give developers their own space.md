@@ -1,6 +1,6 @@
 +++
 title='Give developers their own space'
-date=2024-05-08T00:00:00-07:00
+date=2024-09-02T00:00:00-07:00
 draft=false
 categories=[]
 tags=["api", "developers", "architect", "work", "system", "design"]

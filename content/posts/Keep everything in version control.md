@@ -1,6 +1,6 @@
 +++
 title='Keep everything in version control'
-date=2024-05-05T00:00:00-07:00
+date=2025-01-15T00:00:00-07:00
 draft=false
 categories=[]
 tags=["store", "subversion", "git", "mercurial", "cvs", "life", "version", "project", "code", "repository", "system"]

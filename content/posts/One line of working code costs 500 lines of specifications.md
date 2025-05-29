@@ -1,6 +1,6 @@
 +++
 title='One line of working code costs 500 lines of specifications'
-date=2024-10-17T00:00:00-07:00
+date=2024-11-10T00:00:00-07:00
 draft=false
 categories=[]
 tags=["design", "project", "goal", "system", "time"]

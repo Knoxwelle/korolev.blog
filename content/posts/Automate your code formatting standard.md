@@ -1,6 +1,6 @@
 +++
 title='Automate your code formatting standard'
-date=2024-04-13T00:00:00-07:00
+date=2025-01-17T00:00:00-07:00
 draft=false
 categories=[]
 tags=["new year", "standards", "code", "standard", "project", "tools", "anti-patterns"]

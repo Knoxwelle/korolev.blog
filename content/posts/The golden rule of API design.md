@@ -1,6 +1,6 @@
 +++
 title='The golden rule of API design'
-date=2024-11-23T00:00:00-07:00
+date=2025-03-24T00:00:00-07:00
 draft=false
 categories=["api", "java", "c#"]
 tags=["designing", "api", "java", "code", "testing", "users", "method", "tests"]

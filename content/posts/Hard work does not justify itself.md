@@ -1,6 +1,6 @@
 +++
 title='Hard work does not justify itself'
-date=2024-06-26T00:00:00-07:00
+date=2025-03-19T00:00:00-07:00
 draft=false
 categories=[]
 tags=["act", "work", "week", "hours", "project", "software"]

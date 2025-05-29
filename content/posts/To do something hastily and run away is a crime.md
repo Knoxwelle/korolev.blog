@@ -1,6 +1,6 @@
 +++
 title='To do something hastily and run away is a crime'
-date=2024-07-20T00:00:00-07:00
+date=2025-01-11T00:00:00-07:00
 draft=false
 categories=[]
 tags=["john", "run", "time", "tests", "code", "work"]

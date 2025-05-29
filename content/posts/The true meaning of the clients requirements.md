@@ -1,6 +1,6 @@
 +++
 title='The true meaning of the clients requirements'
-date=2024-03-19T00:00:00-07:00
+date=2024-07-20T00:00:00-07:00
 draft=false
 categories=["hillaker"]
 tags=["harry hillaker", "falcon", "air force", "agile manifesto", "collaboration", "requirements", "aircraft", "client", "business", "speed"]

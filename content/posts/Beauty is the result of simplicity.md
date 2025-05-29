@@ -1,6 +1,6 @@
 +++
 title='Beauty is the result of simplicity'
-date=2024-04-18T00:00:00-07:00
+date=2024-08-12T00:00:00-07:00
 draft=false
 categories=[]
 tags=["plato", "development", "first", "code", "beauty", "simplicity", "system", "methods"]

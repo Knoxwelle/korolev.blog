@@ -1,6 +1,6 @@
 +++
 title='The importance of code formatting'
-date=2024-07-09T00:00:00-07:00
+date=2024-10-05T00:00:00-07:00
 draft=false
 categories=["cobol"]
 tags=["cobol", "code", "first", "kevin mcguire", "line", "screen", "work", "poetry"]

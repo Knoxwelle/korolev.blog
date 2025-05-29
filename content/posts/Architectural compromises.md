@@ -1,6 +1,6 @@
 +++
 title='Architectural compromises'
-date=2024-09-16T00:00:00-07:00
+date=2024-08-27T00:00:00-07:00
 draft=false
 categories=["vaza", "sweden", "poland", "italian", "atam", "method", "cbam", "cost", "institute", "swedish", "italy", "cost benefit", "cost benefit analysis method"]
 tags=["vaza", "sweden", "poland", "king", "time", "soa", "atam", "architecture tradeoff", "benefit analysis metod", "sei", "software engineering institute", "architecture", "software", "ship", "ships", "swedish king", "italy", "benefit analysis method", "cbam"]

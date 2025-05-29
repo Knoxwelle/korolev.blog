@@ -1,6 +1,6 @@
 +++
 title='Try before you decide'
-date=2025-02-16T00:00:00-07:00
+date=2024-10-22T00:00:00-07:00
 draft=false
 categories=["javascript"]
 tags=["mary", "tom poppendieck", "javascript", "architect", "decision", "team", "solution", "information"]

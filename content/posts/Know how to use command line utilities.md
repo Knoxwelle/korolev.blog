@@ -1,6 +1,6 @@
 +++
 title='Know how to use command line utilities'
-date=2024-07-21T00:00:00-07:00
+date=2024-07-22T00:00:00-07:00
 draft=false
 categories=[]
 tags=["microsoft", "eclipse", "gui", "ide", "tools", "command-line", "use", "line"]

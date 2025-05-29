@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     29441,        724]
-NotebookOptionsPosition[     27190,        680]
-NotebookOutlinePosition[     27589,        696]
-CellTagsIndexPosition[     27546,        693]
+NotebookDataLength[     56086,       1330]
+NotebookOptionsPosition[     52663,       1274]
+NotebookOutlinePosition[     53069,       1290]
+CellTagsIndexPosition[     53026,       1287]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -37,20 +37,24 @@ Cell[BoxData[
   3.9340533663927484`*^9, 3.9340533711597066`*^9}, {3.9340534046292095`*^9, 
   3.934053424348979*^9}, {3.93405346750486*^9, 3.9340536998474855`*^9}, {
   3.9340544771050234`*^9, 3.934054482384997*^9}, {3.93406426956505*^9, 
-  3.93406427144048*^9}, {3.9340643093699903`*^9, 
-  3.9340643151460676`*^9}},ExpressionUUID->"690eafed-ee78-479a-bacc-\
-bf91b1546bd4"],
+  3.93406427144048*^9}, {3.9340643093699903`*^9, 3.9340643151460676`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"690eafed-ee78-479a-bacc-bf91b1546bd4"],
 
 Cell[BoxData[
  RowBox[{"{", 
-  RowBox[{"\<\"getTags.nb\"\>", ",", "\<\"getCategories.nb\"\>", 
-   ",", "\<\"randomCover.nb\"\>", ",", "\<\"randomDate.nb\"\>"}], 
-  "}"}]], "Output",
+  RowBox[{"\<\"titleTranslateQuillBot.nb\"\>", 
+   ",", "\<\"randomTitleQuillBot.nb\"\>", 
+   ",", "\<\"textTranslateByPartsQuillBot.nb\"\>", 
+   ",", "\<\"textGrammarByPartsQuillBot.nb\"\>", 
+   ",", "\<\"randomTextByPartsQuillBot.nb\"\>", 
+   ",", "\<\"textGrammarByPartsQuillBot.nb\"\>", ",", "\<\"getTags.nb\"\>", 
+   ",", "\<\"getCategories.nb\"\>", ",", "\<\"randomCover.nb\"\>", 
+   ",", "\<\"randomDate.nb\"\>"}], "}"}]], "Output",
  CellChangeTimes->{3.9340537070778823`*^9, 3.934054535571968*^9, 
   3.934054952642391*^9, 3.934055323781551*^9, 3.934057032689853*^9, 
   3.934057322412758*^9, 3.934058648856598*^9, 3.9340587779676547`*^9, 
-  3.934059422701364*^9},
- CellLabel->"Out[49]=",ExpressionUUID->"bbccad01-cc23-4b76-94db-4870f07ee99d"]
+  3.934059422701364*^9, 3.944261594427719*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"bdadbb78-d068-499b-96f0-77f74230570e"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -67,23 +71,35 @@ Cell[BoxData[
          RowBox[{"NotebookDirectory", "[", "]"}]}], "]"}], ")"}], "&"}], ",", 
      "files"}], "]"}], "]"}]}]], "Input",
  CellChangeTimes->{3.9340537225239086`*^9},
- CellLabel->"In[50]:=",ExpressionUUID->"2f13a394-7416-4df7-9fb5-be60d694999d"],
+ CellLabel->"In[2]:=",ExpressionUUID->"2f13a394-7416-4df7-9fb5-be60d694999d"],
 
 Cell[BoxData[
  RowBox[{"{", 
   RowBox[{"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\\
-tinydev\\\\getTags.nb\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\getCategories.nb\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\randomCover.nb\"\>", 
-   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\
-\\\\randomDate.nb\"\>"}], "}"}]], "Output",
+korolev.blog\\\\titleTranslateQuillBot.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomTitleQuillBot.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\textTranslateByPartsQuillBot.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\textGrammarByPartsQuillBot.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomTextByPartsQuillBot.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\textGrammarByPartsQuillBot.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\getTags.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\getCategories.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomCover.nb\"\>", 
+   ",", "\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomDate.nb\"\>"}], "}"}]], "Output",
  CellChangeTimes->{3.9340537252149725`*^9, 3.9340545361132917`*^9, 
   3.9340549531014204`*^9, 3.934055324042502*^9, 3.934057033368696*^9, 
   3.934057322669442*^9, 3.934058649039899*^9, 3.9340587789862747`*^9, 
-  3.9340594230837655`*^9},
- CellLabel->"Out[50]=",ExpressionUUID->"d0da2060-680f-4ad4-a702-ec8af9a0459b"]
+  3.9340594230837655`*^9, 3.9442615946723027`*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"483f1fa2-527b-4418-96e0-e1f2cbc05af5"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -91,18 +107,30 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"Column", "[", "filename", "]"}]], "Input",
  CellChangeTimes->{3.9340537463995695`*^9},
- CellLabel->"In[51]:=",ExpressionUUID->"24a75c21-b1da-4d1c-98bc-778e86c2e2ae"],
+ CellLabel->"In[3]:=",ExpressionUUID->"24a75c21-b1da-4d1c-98bc-778e86c2e2ae"],
 
 Cell[BoxData[
  TagBox[GridBox[{
-    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-getTags.nb\"\>"},
-    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-getCategories.nb\"\>"},
-    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-randomCover.nb\"\>"},
-    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
-randomDate.nb\"\>"}
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\titleTranslateQuillBot.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomTitleQuillBot.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\textTranslateByPartsQuillBot.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\textGrammarByPartsQuillBot.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomTextByPartsQuillBot.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\textGrammarByPartsQuillBot.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\getTags.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\getCategories.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomCover.nb\"\>"},
+    {"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.\
+blog\\\\randomDate.nb\"\>"}
    },
    DefaultBaseStyle->"Column",
    GridBoxAlignment->{"Columns" -> {{Left}}},
@@ -111,8 +139,8 @@ randomDate.nb\"\>"}
  CellChangeTimes->{3.934053748458475*^9, 3.9340545361965675`*^9, 
   3.934054953246399*^9, 3.93405532412609*^9, 3.934057033541631*^9, 
   3.9340573227890434`*^9, 3.934058649107218*^9, 3.934058779419135*^9, 
-  3.9340594233159294`*^9},
- CellLabel->"Out[51]=",ExpressionUUID->"d5fc14fc-3b1b-4ebd-8a1d-d45389adeca2"]
+  3.9340594233159294`*^9, 3.94426159469598*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"4887b69c-7d22-4013-99fb-9b85d095dc11"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -122,14 +150,14 @@ Cell[BoxData[
   RowBox[{"Length", "[", 
    RowBox[{"Notebooks", "[", "]"}], "]"}]}]], "Input",
  CellChangeTimes->{3.934053778686743*^9},
- CellLabel->"In[52]:=",ExpressionUUID->"ee40e1b0-9f13-4fee-86ac-f4ec5bea9ed3"],
+ CellLabel->"In[4]:=",ExpressionUUID->"ee40e1b0-9f13-4fee-86ac-f4ec5bea9ed3"],
 
-Cell[BoxData["5"], "Output",
+Cell[BoxData["2"], "Output",
  CellChangeTimes->{3.9340537808679657`*^9, 3.9340545362797475`*^9, 
   3.9340549533806524`*^9, 3.9340553242191353`*^9, 3.934057033703102*^9, 
   3.9340573229074435`*^9, 3.934058649182064*^9, 3.9340587798604946`*^9, 
-  3.93405942362367*^9},
- CellLabel->"Out[52]=",ExpressionUUID->"faa3968a-147e-4421-93ac-a723cadabafb"]
+  3.93405942362367*^9, 3.9442615947031555`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"922d931d-8dc7-4cb6-bc02-6947ddbdf553"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -242,7 +270,7 @@ Notebooks = \>\"", ",", " ",
    3.9340583329843655`*^9, 3.9340583552993217`*^9}, {3.934058417236899*^9, 
    3.9340584461102448`*^9}, {3.934058606668456*^9, 3.9340586104419947`*^9}, {
    3.9340587293853817`*^9, 3.9340587708060217`*^9}, 3.934059210157122*^9},
- CellLabel->"In[53]:=",ExpressionUUID->"08bd3db0-4c6e-44ae-a84e-b32c1bdb40e6"],
+ CellLabel->"In[5]:=",ExpressionUUID->"08bd3db0-4c6e-44ae-a84e-b32c1bdb40e6"],
 
 Cell[CellGroupData[{
 
@@ -269,7 +297,7 @@ Cell[BoxData[
  CellChangeTimes->{
   3.934053835629917*^9, {3.934055188636619*^9, 3.934055198080323*^9}, 
    3.9340570260070305`*^9},
- CellLabel->"In[54]:=",ExpressionUUID->"e3220bc0-b199-4e84-96d1-f365101e87e7"],
+ CellLabel->"In[6]:=",ExpressionUUID->"e3220bc0-b199-4e84-96d1-f365101e87e7"],
 
 Cell[CellGroupData[{
 
@@ -284,11 +312,10 @@ Cell[BoxData[
          Parallel`Concurrency`Private`evalIcon[
           ReplaceAll[
            Parallel`Developer`ProcessState[
-            EvaluationObject[45, 
+            EvaluationObject[1, 
              $CellContext`process[1], Null, 
-             Parallel`Concurrency`Private`state$312888]], 
-           Parallel`Concurrency`Private`stateTrans]], StandardForm], 
-        ImageSizeCache -> {18.75, {8., 10.75}}], 
+             Parallel`Concurrency`Private`state$4704]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
        TemplateBox[{6}, "Spacer1"], 
        TagBox[
         GridBox[{{
@@ -303,9 +330,9 @@ Cell[BoxData[
              Style[
               ReplaceAll[
                Parallel`Developer`ProcessState[
-                EvaluationObject[45, 
+                EvaluationObject[1, 
                  $CellContext`process[1], Null, 
-                 Parallel`Concurrency`Private`state$312888]], {
+                 Parallel`Concurrency`Private`state$4704]], {
                Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
                 "ready for processing", Parallel`Developer`running[
                   Pattern[Parallel`Concurrency`Private`k, 
@@ -321,10 +348,8 @@ Cell[BoxData[
                 Pattern[Parallel`Concurrency`Private`e, 
                   Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
               Gray], StandardForm], 
-            ImageSizeCache -> {
-             34.1619873046875, {0.1021728515625, 5.161376953125}}]}}, 
-         DefaultBaseStyle -> "Column", 
-         GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
          GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
         "Column"]},
       "RowDefault"],
@@ -332,17 +357,17 @@ Cell[BoxData[
        Part[Parallel`Concurrency`Private`bgColors, 
         ReplaceAll[
          Parallel`Developer`ProcessState[
-          EvaluationObject[45, 
+          EvaluationObject[1, 
            $CellContext`process[1], Null, 
-           Parallel`Concurrency`Private`state$312888]], 
+           Parallel`Concurrency`Private`state$4704]], 
          Parallel`Concurrency`Private`stateTrans]]],
      FrameMargins->5,
      FrameStyle->GrayLevel[0.5],
      RoundingRadius->6,
      StripOnInput->False],
-    EvaluationObject[45, 
-     $CellContext`process[1], Null, 
-     Parallel`Concurrency`Private`state$312888]], ",", 
+    EvaluationObject[1, 
+     $CellContext`process[1], Null, Parallel`Concurrency`Private`state$4704]],
+    ",", 
    InterpretationBox[
     FrameBox[
      TemplateBox[{
@@ -351,11 +376,10 @@ Cell[BoxData[
          Parallel`Concurrency`Private`evalIcon[
           ReplaceAll[
            Parallel`Developer`ProcessState[
-            EvaluationObject[46, 
+            EvaluationObject[2, 
              $CellContext`process[2], Null, 
-             Parallel`Concurrency`Private`state$312889]], 
-           Parallel`Concurrency`Private`stateTrans]], StandardForm], 
-        ImageSizeCache -> {18.75, {8., 10.75}}], 
+             Parallel`Concurrency`Private`state$4705]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
        TemplateBox[{6}, "Spacer1"], 
        TagBox[
         GridBox[{{
@@ -370,9 +394,9 @@ Cell[BoxData[
              Style[
               ReplaceAll[
                Parallel`Developer`ProcessState[
-                EvaluationObject[46, 
+                EvaluationObject[2, 
                  $CellContext`process[2], Null, 
-                 Parallel`Concurrency`Private`state$312889]], {
+                 Parallel`Concurrency`Private`state$4705]], {
                Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
                 "ready for processing", Parallel`Developer`running[
                   Pattern[Parallel`Concurrency`Private`k, 
@@ -388,10 +412,8 @@ Cell[BoxData[
                 Pattern[Parallel`Concurrency`Private`e, 
                   Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
               Gray], StandardForm], 
-            ImageSizeCache -> {
-             34.1619873046875, {0.1021728515625, 5.161376953125}}]}}, 
-         DefaultBaseStyle -> "Column", 
-         GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
          GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
         "Column"]},
       "RowDefault"],
@@ -399,17 +421,17 @@ Cell[BoxData[
        Part[Parallel`Concurrency`Private`bgColors, 
         ReplaceAll[
          Parallel`Developer`ProcessState[
-          EvaluationObject[46, 
+          EvaluationObject[2, 
            $CellContext`process[2], Null, 
-           Parallel`Concurrency`Private`state$312889]], 
+           Parallel`Concurrency`Private`state$4705]], 
          Parallel`Concurrency`Private`stateTrans]]],
      FrameMargins->5,
      FrameStyle->GrayLevel[0.5],
      RoundingRadius->6,
      StripOnInput->False],
-    EvaluationObject[46, 
-     $CellContext`process[2], Null, 
-     Parallel`Concurrency`Private`state$312889]], ",", 
+    EvaluationObject[2, 
+     $CellContext`process[2], Null, Parallel`Concurrency`Private`state$4705]],
+    ",", 
    InterpretationBox[
     FrameBox[
      TemplateBox[{
@@ -418,11 +440,10 @@ Cell[BoxData[
          Parallel`Concurrency`Private`evalIcon[
           ReplaceAll[
            Parallel`Developer`ProcessState[
-            EvaluationObject[47, 
+            EvaluationObject[3, 
              $CellContext`process[3], Null, 
-             Parallel`Concurrency`Private`state$312890]], 
-           Parallel`Concurrency`Private`stateTrans]], StandardForm], 
-        ImageSizeCache -> {18.75, {8., 10.75}}], 
+             Parallel`Concurrency`Private`state$4706]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
        TemplateBox[{6}, "Spacer1"], 
        TagBox[
         GridBox[{{
@@ -437,9 +458,9 @@ Cell[BoxData[
              Style[
               ReplaceAll[
                Parallel`Developer`ProcessState[
-                EvaluationObject[47, 
+                EvaluationObject[3, 
                  $CellContext`process[3], Null, 
-                 Parallel`Concurrency`Private`state$312890]], {
+                 Parallel`Concurrency`Private`state$4706]], {
                Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
                 "ready for processing", Parallel`Developer`running[
                   Pattern[Parallel`Concurrency`Private`k, 
@@ -455,10 +476,8 @@ Cell[BoxData[
                 Pattern[Parallel`Concurrency`Private`e, 
                   Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
               Gray], StandardForm], 
-            ImageSizeCache -> {
-             34.1619873046875, {0.1021728515625, 5.161376953125}}]}}, 
-         DefaultBaseStyle -> "Column", 
-         GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
          GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
         "Column"]},
       "RowDefault"],
@@ -466,17 +485,17 @@ Cell[BoxData[
        Part[Parallel`Concurrency`Private`bgColors, 
         ReplaceAll[
          Parallel`Developer`ProcessState[
-          EvaluationObject[47, 
+          EvaluationObject[3, 
            $CellContext`process[3], Null, 
-           Parallel`Concurrency`Private`state$312890]], 
+           Parallel`Concurrency`Private`state$4706]], 
          Parallel`Concurrency`Private`stateTrans]]],
      FrameMargins->5,
      FrameStyle->GrayLevel[0.5],
      RoundingRadius->6,
      StripOnInput->False],
-    EvaluationObject[47, 
-     $CellContext`process[3], Null, 
-     Parallel`Concurrency`Private`state$312890]], ",", 
+    EvaluationObject[3, 
+     $CellContext`process[3], Null, Parallel`Concurrency`Private`state$4706]],
+    ",", 
    InterpretationBox[
     FrameBox[
      TemplateBox[{
@@ -485,11 +504,10 @@ Cell[BoxData[
          Parallel`Concurrency`Private`evalIcon[
           ReplaceAll[
            Parallel`Developer`ProcessState[
-            EvaluationObject[48, 
+            EvaluationObject[4, 
              $CellContext`process[4], Null, 
-             Parallel`Concurrency`Private`state$312891]], 
-           Parallel`Concurrency`Private`stateTrans]], StandardForm], 
-        ImageSizeCache -> {18.75, {8., 10.75}}], 
+             Parallel`Concurrency`Private`state$4707]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
        TemplateBox[{6}, "Spacer1"], 
        TagBox[
         GridBox[{{
@@ -504,9 +522,9 @@ Cell[BoxData[
              Style[
               ReplaceAll[
                Parallel`Developer`ProcessState[
-                EvaluationObject[48, 
+                EvaluationObject[4, 
                  $CellContext`process[4], Null, 
-                 Parallel`Concurrency`Private`state$312891]], {
+                 Parallel`Concurrency`Private`state$4707]], {
                Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
                 "ready for processing", Parallel`Developer`running[
                   Pattern[Parallel`Concurrency`Private`k, 
@@ -522,10 +540,8 @@ Cell[BoxData[
                 Pattern[Parallel`Concurrency`Private`e, 
                   Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
               Gray], StandardForm], 
-            ImageSizeCache -> {
-             34.1619873046875, {0.1021728515625, 5.161376953125}}]}}, 
-         DefaultBaseStyle -> "Column", 
-         GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
          GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
         "Column"]},
       "RowDefault"],
@@ -533,154 +549,732 @@ Cell[BoxData[
        Part[Parallel`Concurrency`Private`bgColors, 
         ReplaceAll[
          Parallel`Developer`ProcessState[
-          EvaluationObject[48, 
+          EvaluationObject[4, 
            $CellContext`process[4], Null, 
-           Parallel`Concurrency`Private`state$312891]], 
+           Parallel`Concurrency`Private`state$4707]], 
          Parallel`Concurrency`Private`stateTrans]]],
      FrameMargins->5,
      FrameStyle->GrayLevel[0.5],
      RoundingRadius->6,
      StripOnInput->False],
-    EvaluationObject[48, 
-     $CellContext`process[4], Null, 
-     Parallel`Concurrency`Private`state$312891]]}], "}"}]], "Print",
+    EvaluationObject[4, 
+     $CellContext`process[4], Null, Parallel`Concurrency`Private`state$4707]],
+    ",", 
+   InterpretationBox[
+    FrameBox[
+     TemplateBox[{
+       DynamicBox[
+        ToBoxes[
+         Parallel`Concurrency`Private`evalIcon[
+          ReplaceAll[
+           Parallel`Developer`ProcessState[
+            EvaluationObject[5, 
+             $CellContext`process[5], Null, 
+             Parallel`Concurrency`Private`state$4708]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
+       TemplateBox[{6}, "Spacer1"], 
+       TagBox[
+        GridBox[{{
+           PaneBox[
+            StyleBox[
+             TagBox[
+              RowBox[{"process", "[", "5", "]"}], Short[#, 0.6]& ], 
+             StripOnInput -> False, FontSize -> Small], 
+            ImageSize -> {Full, 18}, ImageSizeAction -> "ResizeToFit"]}, {
+           DynamicBox[
+            ToBoxes[
+             Style[
+              ReplaceAll[
+               Parallel`Developer`ProcessState[
+                EvaluationObject[5, 
+                 $CellContext`process[5], Null, 
+                 Parallel`Concurrency`Private`state$4708]], {
+               Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
+                "ready for processing", Parallel`Developer`running[
+                  Pattern[Parallel`Concurrency`Private`k, 
+                   Blank[]]] :> StringForm["running on kernel `1`", 
+                  Parallel`Developer`KernelID[
+                  Parallel`Concurrency`Private`k]], 
+                Parallel`Developer`finished[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "received", 
+                Parallel`Developer`dequeued[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "finished", 
+                Pattern[Parallel`Concurrency`Private`e, 
+                  Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
+              Gray], StandardForm], 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
+        "Column"]},
+      "RowDefault"],
+     Background->Dynamic[
+       Part[Parallel`Concurrency`Private`bgColors, 
+        ReplaceAll[
+         Parallel`Developer`ProcessState[
+          EvaluationObject[5, 
+           $CellContext`process[5], Null, 
+           Parallel`Concurrency`Private`state$4708]], 
+         Parallel`Concurrency`Private`stateTrans]]],
+     FrameMargins->5,
+     FrameStyle->GrayLevel[0.5],
+     RoundingRadius->6,
+     StripOnInput->False],
+    EvaluationObject[5, 
+     $CellContext`process[5], Null, Parallel`Concurrency`Private`state$4708]],
+    ",", 
+   InterpretationBox[
+    FrameBox[
+     TemplateBox[{
+       DynamicBox[
+        ToBoxes[
+         Parallel`Concurrency`Private`evalIcon[
+          ReplaceAll[
+           Parallel`Developer`ProcessState[
+            EvaluationObject[6, 
+             $CellContext`process[6], Null, 
+             Parallel`Concurrency`Private`state$4709]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
+       TemplateBox[{6}, "Spacer1"], 
+       TagBox[
+        GridBox[{{
+           PaneBox[
+            StyleBox[
+             TagBox[
+              RowBox[{"process", "[", "6", "]"}], Short[#, 0.6]& ], 
+             StripOnInput -> False, FontSize -> Small], 
+            ImageSize -> {Full, 18}, ImageSizeAction -> "ResizeToFit"]}, {
+           DynamicBox[
+            ToBoxes[
+             Style[
+              ReplaceAll[
+               Parallel`Developer`ProcessState[
+                EvaluationObject[6, 
+                 $CellContext`process[6], Null, 
+                 Parallel`Concurrency`Private`state$4709]], {
+               Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
+                "ready for processing", Parallel`Developer`running[
+                  Pattern[Parallel`Concurrency`Private`k, 
+                   Blank[]]] :> StringForm["running on kernel `1`", 
+                  Parallel`Developer`KernelID[
+                  Parallel`Concurrency`Private`k]], 
+                Parallel`Developer`finished[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "received", 
+                Parallel`Developer`dequeued[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "finished", 
+                Pattern[Parallel`Concurrency`Private`e, 
+                  Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
+              Gray], StandardForm], 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
+        "Column"]},
+      "RowDefault"],
+     Background->Dynamic[
+       Part[Parallel`Concurrency`Private`bgColors, 
+        ReplaceAll[
+         Parallel`Developer`ProcessState[
+          EvaluationObject[6, 
+           $CellContext`process[6], Null, 
+           Parallel`Concurrency`Private`state$4709]], 
+         Parallel`Concurrency`Private`stateTrans]]],
+     FrameMargins->5,
+     FrameStyle->GrayLevel[0.5],
+     RoundingRadius->6,
+     StripOnInput->False],
+    EvaluationObject[6, 
+     $CellContext`process[6], Null, Parallel`Concurrency`Private`state$4709]],
+    ",", 
+   InterpretationBox[
+    FrameBox[
+     TemplateBox[{
+       DynamicBox[
+        ToBoxes[
+         Parallel`Concurrency`Private`evalIcon[
+          ReplaceAll[
+           Parallel`Developer`ProcessState[
+            EvaluationObject[7, 
+             $CellContext`process[7], Null, 
+             Parallel`Concurrency`Private`state$4710]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
+       TemplateBox[{6}, "Spacer1"], 
+       TagBox[
+        GridBox[{{
+           PaneBox[
+            StyleBox[
+             TagBox[
+              RowBox[{"process", "[", "7", "]"}], Short[#, 0.6]& ], 
+             StripOnInput -> False, FontSize -> Small], 
+            ImageSize -> {Full, 18}, ImageSizeAction -> "ResizeToFit"]}, {
+           DynamicBox[
+            ToBoxes[
+             Style[
+              ReplaceAll[
+               Parallel`Developer`ProcessState[
+                EvaluationObject[7, 
+                 $CellContext`process[7], Null, 
+                 Parallel`Concurrency`Private`state$4710]], {
+               Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
+                "ready for processing", Parallel`Developer`running[
+                  Pattern[Parallel`Concurrency`Private`k, 
+                   Blank[]]] :> StringForm["running on kernel `1`", 
+                  Parallel`Developer`KernelID[
+                  Parallel`Concurrency`Private`k]], 
+                Parallel`Developer`finished[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "received", 
+                Parallel`Developer`dequeued[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "finished", 
+                Pattern[Parallel`Concurrency`Private`e, 
+                  Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
+              Gray], StandardForm], 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
+        "Column"]},
+      "RowDefault"],
+     Background->Dynamic[
+       Part[Parallel`Concurrency`Private`bgColors, 
+        ReplaceAll[
+         Parallel`Developer`ProcessState[
+          EvaluationObject[7, 
+           $CellContext`process[7], Null, 
+           Parallel`Concurrency`Private`state$4710]], 
+         Parallel`Concurrency`Private`stateTrans]]],
+     FrameMargins->5,
+     FrameStyle->GrayLevel[0.5],
+     RoundingRadius->6,
+     StripOnInput->False],
+    EvaluationObject[7, 
+     $CellContext`process[7], Null, Parallel`Concurrency`Private`state$4710]],
+    ",", 
+   InterpretationBox[
+    FrameBox[
+     TemplateBox[{
+       DynamicBox[
+        ToBoxes[
+         Parallel`Concurrency`Private`evalIcon[
+          ReplaceAll[
+           Parallel`Developer`ProcessState[
+            EvaluationObject[8, 
+             $CellContext`process[8], Null, 
+             Parallel`Concurrency`Private`state$4711]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
+       TemplateBox[{6}, "Spacer1"], 
+       TagBox[
+        GridBox[{{
+           PaneBox[
+            StyleBox[
+             TagBox[
+              RowBox[{"process", "[", "8", "]"}], Short[#, 0.6]& ], 
+             StripOnInput -> False, FontSize -> Small], 
+            ImageSize -> {Full, 18}, ImageSizeAction -> "ResizeToFit"]}, {
+           DynamicBox[
+            ToBoxes[
+             Style[
+              ReplaceAll[
+               Parallel`Developer`ProcessState[
+                EvaluationObject[8, 
+                 $CellContext`process[8], Null, 
+                 Parallel`Concurrency`Private`state$4711]], {
+               Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
+                "ready for processing", Parallel`Developer`running[
+                  Pattern[Parallel`Concurrency`Private`k, 
+                   Blank[]]] :> StringForm["running on kernel `1`", 
+                  Parallel`Developer`KernelID[
+                  Parallel`Concurrency`Private`k]], 
+                Parallel`Developer`finished[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "received", 
+                Parallel`Developer`dequeued[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "finished", 
+                Pattern[Parallel`Concurrency`Private`e, 
+                  Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
+              Gray], StandardForm], 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
+        "Column"]},
+      "RowDefault"],
+     Background->Dynamic[
+       Part[Parallel`Concurrency`Private`bgColors, 
+        ReplaceAll[
+         Parallel`Developer`ProcessState[
+          EvaluationObject[8, 
+           $CellContext`process[8], Null, 
+           Parallel`Concurrency`Private`state$4711]], 
+         Parallel`Concurrency`Private`stateTrans]]],
+     FrameMargins->5,
+     FrameStyle->GrayLevel[0.5],
+     RoundingRadius->6,
+     StripOnInput->False],
+    EvaluationObject[8, 
+     $CellContext`process[8], Null, Parallel`Concurrency`Private`state$4711]],
+    ",", 
+   InterpretationBox[
+    FrameBox[
+     TemplateBox[{
+       DynamicBox[
+        ToBoxes[
+         Parallel`Concurrency`Private`evalIcon[
+          ReplaceAll[
+           Parallel`Developer`ProcessState[
+            EvaluationObject[9, 
+             $CellContext`process[9], Null, 
+             Parallel`Concurrency`Private`state$4712]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
+       TemplateBox[{6}, "Spacer1"], 
+       TagBox[
+        GridBox[{{
+           PaneBox[
+            StyleBox[
+             TagBox[
+              RowBox[{"process", "[", "9", "]"}], Short[#, 0.6]& ], 
+             StripOnInput -> False, FontSize -> Small], 
+            ImageSize -> {Full, 18}, ImageSizeAction -> "ResizeToFit"]}, {
+           DynamicBox[
+            ToBoxes[
+             Style[
+              ReplaceAll[
+               Parallel`Developer`ProcessState[
+                EvaluationObject[9, 
+                 $CellContext`process[9], Null, 
+                 Parallel`Concurrency`Private`state$4712]], {
+               Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
+                "ready for processing", Parallel`Developer`running[
+                  Pattern[Parallel`Concurrency`Private`k, 
+                   Blank[]]] :> StringForm["running on kernel `1`", 
+                  Parallel`Developer`KernelID[
+                  Parallel`Concurrency`Private`k]], 
+                Parallel`Developer`finished[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "received", 
+                Parallel`Developer`dequeued[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "finished", 
+                Pattern[Parallel`Concurrency`Private`e, 
+                  Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
+              Gray], StandardForm], 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
+        "Column"]},
+      "RowDefault"],
+     Background->Dynamic[
+       Part[Parallel`Concurrency`Private`bgColors, 
+        ReplaceAll[
+         Parallel`Developer`ProcessState[
+          EvaluationObject[9, 
+           $CellContext`process[9], Null, 
+           Parallel`Concurrency`Private`state$4712]], 
+         Parallel`Concurrency`Private`stateTrans]]],
+     FrameMargins->5,
+     FrameStyle->GrayLevel[0.5],
+     RoundingRadius->6,
+     StripOnInput->False],
+    EvaluationObject[9, 
+     $CellContext`process[9], Null, Parallel`Concurrency`Private`state$4712]],
+    ",", 
+   InterpretationBox[
+    FrameBox[
+     TemplateBox[{
+       DynamicBox[
+        ToBoxes[
+         Parallel`Concurrency`Private`evalIcon[
+          ReplaceAll[
+           Parallel`Developer`ProcessState[
+            EvaluationObject[10, 
+             $CellContext`process[10], Null, 
+             Parallel`Concurrency`Private`state$4713]], 
+           Parallel`Concurrency`Private`stateTrans]], StandardForm]], 
+       TemplateBox[{6}, "Spacer1"], 
+       TagBox[
+        GridBox[{{
+           PaneBox[
+            StyleBox[
+             TagBox[
+              RowBox[{"process", "[", "10", "]"}], Short[#, 0.6]& ], 
+             StripOnInput -> False, FontSize -> Small], 
+            ImageSize -> {Full, 18}, ImageSizeAction -> "ResizeToFit"]}, {
+           DynamicBox[
+            ToBoxes[
+             Style[
+              ReplaceAll[
+               Parallel`Developer`ProcessState[
+                EvaluationObject[10, 
+                 $CellContext`process[10], Null, 
+                 Parallel`Concurrency`Private`state$4713]], {
+               Parallel`Developer`created -> "new", Parallel`Developer`queued -> 
+                "ready for processing", Parallel`Developer`running[
+                  Pattern[Parallel`Concurrency`Private`k, 
+                   Blank[]]] :> StringForm["running on kernel `1`", 
+                  Parallel`Developer`KernelID[
+                  Parallel`Concurrency`Private`k]], 
+                Parallel`Developer`finished[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "received", 
+                Parallel`Developer`dequeued[
+                  Pattern[Parallel`Concurrency`Private`r, 
+                   BlankNullSequence[]]] :> "finished", 
+                Pattern[Parallel`Concurrency`Private`e, 
+                  Blank[]] :> Parallel`Concurrency`Private`e}], "Label", 
+              Gray], StandardForm], 
+            ImageSizeCache -> {35.15185546875, {0., 7.}}]}}, DefaultBaseStyle -> 
+         "Column", GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+         GridBoxItemSize -> {"Columns" -> {{10}}, "Rows" -> {{Automatic}}}], 
+        "Column"]},
+      "RowDefault"],
+     Background->Dynamic[
+       Part[Parallel`Concurrency`Private`bgColors, 
+        ReplaceAll[
+         Parallel`Developer`ProcessState[
+          EvaluationObject[10, 
+           $CellContext`process[10], Null, 
+           Parallel`Concurrency`Private`state$4713]], 
+         Parallel`Concurrency`Private`stateTrans]]],
+     FrameMargins->5,
+     FrameStyle->GrayLevel[0.5],
+     RoundingRadius->6,
+     StripOnInput->False],
+    EvaluationObject[10, 
+     $CellContext`process[10], Null, 
+     Parallel`Concurrency`Private`state$4713]]}], "}"}]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.934059424226342*^9},
+  3.934059424226342*^9, 3.9442615952179165`*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"ced8da63-dbfe-4b02-baf2-c3d34efdbaa2"],
+In[6]:=",ExpressionUUID->"e9c200be-f4a2-454d-843d-9ec75273f7d5"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "8"}],
-  SequenceForm["Kernels=", 8],
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.9340594336987977`*^9},
+  3.934059424226342*^9, 3.9442615999728518`*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"81e26dc9-07eb-4b43-a5d7-f48a806144aa"],
+In[6]:=",ExpressionUUID->"c463dfb7-55dc-4b18-bad3-24a25a7ff9d5"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Opened: \"\>", 
    "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+titleTranslateQuillBot.nb\"\>"}],
+  SequenceForm[
+  "Opened: ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+titleTranslateQuillBot.nb"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.9442616013202887`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"ee8e0545-741e-4ed0-9f1c-4c3996a40934"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.9442616137383356`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"7bfa6c61-3795-411b-9b55-758d1e97d16b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Opened: \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+randomTitleQuillBot.nb\"\>"}],
+  SequenceForm[
+  "Opened: ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+randomTitleQuillBot.nb"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.944261614003437*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"2cc840e5-826a-404e-ba4e-37af51518f5b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.944261626354869*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"a2d4139b-a1ab-4591-84e9-8f02d0e104cf"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Opened: \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+textTranslateByPartsQuillBot.nb\"\>"}],
+  SequenceForm[
+  "Opened: ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+textTranslateByPartsQuillBot.nb"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.9442616266402273`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"4aa22c78-d07f-4f12-a678-5843c4732beb"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.9442616389361153`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"17b7082d-5cc1-440a-b09b-370962c3c7dc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Opened: \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+textGrammarByPartsQuillBot.nb\"\>"}],
+  SequenceForm[
+  "Opened: ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+textGrammarByPartsQuillBot.nb"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.9442616392169294`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"bd22be82-e09d-4cc0-984e-c3f266f9a287"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.9442616518477097`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"8a92930e-aec6-4881-96d4-611ca69ec6cd"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Opened: \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+randomTextByPartsQuillBot.nb\"\>"}],
+  SequenceForm[
+  "Opened: ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+randomTextByPartsQuillBot.nb"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.944261652226389*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"bff5c9cb-4c46-4f29-b536-073b9dbd77f6"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.9442616645748496`*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"1fa732e6-6757-400a-8254-57a09688335d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Opened: \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
+textGrammarByPartsQuillBot.nb\"\>"}],
+  SequenceForm[
+  "Opened: ", 
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\\
+textGrammarByPartsQuillBot.nb"],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.944261664846117*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"b31da601-bd6e-486f-812a-342fbe8eef45"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
+  Editable->False]], "Print",
+ CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
+  3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
+  3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
+  3.934059424226342*^9, 3.944261677523946*^9},
+ CellLabel->
+  "During evaluation of \
+In[6]:=",ExpressionUUID->"a1da16a5-678a-4eb4-83a1-188d5004fa4f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"\<\"Opened: \"\>", 
+   "\[InvisibleSpace]", \
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
 getTags.nb\"\>"}],
   SequenceForm[
   "Opened: ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\getTags.nb"],
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\getTags.nb"],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.934059434271882*^9},
+  3.934059424226342*^9, 3.944261677791559*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"7791f62b-7571-48b4-b8c9-eac877fcf8ba"],
+In[6]:=",ExpressionUUID->"b6a842a8-493a-4398-8dc3-bb8059a65064"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "9"}],
-  SequenceForm["Kernels=", 9],
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.934059460275119*^9},
+  3.934059424226342*^9, 3.944261690021928*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"3da35d70-89d8-430e-8afd-bcf8f7689271"],
+In[6]:=",ExpressionUUID->"d4691b32-f78d-4ed1-8c09-f242300eeb66"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Opened: \"\>", 
    "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
 getCategories.nb\"\>"}],
   SequenceForm[
   "Opened: ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\getCategories.nb"],
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\getCategories.\
+nb"],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.934059461147442*^9},
+  3.934059424226342*^9, 3.944261690277325*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"c2881c12-3f6b-43ff-ba26-77de8983a743"],
+In[6]:=",ExpressionUUID->"4217e482-86d4-4594-a139-c7eaa5e915fb"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "9"}],
-  SequenceForm["Kernels=", 9],
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.9340594822005024`*^9},
+  3.934059424226342*^9, 3.9442617030699363`*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"5c2c60a1-451e-41f8-95f5-2f54c925a779"],
+In[6]:=",ExpressionUUID->"c71df834-4a74-44d0-a508-8c0959c35b4e"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Opened: \"\>", 
    "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
 randomCover.nb\"\>"}],
   SequenceForm[
   "Opened: ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\randomCover.nb"],
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\randomCover.\
+nb"],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.9340594828258777`*^9},
+  3.934059424226342*^9, 3.9442617034395113`*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"03714852-e17d-48d8-bbcc-4bb8c28f2414"],
+In[6]:=",ExpressionUUID->"23e44768-0131-4231-9738-8aae0fa0724a"],
 
 Cell[BoxData[
  InterpretationBox[
-  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "9"}],
-  SequenceForm["Kernels=", 9],
+  RowBox[{"\<\"Kernels=\"\>", "\[InvisibleSpace]", "25"}],
+  SequenceForm["Kernels=", 25],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.934059522180683*^9},
+  3.934059424226342*^9, 3.9442617157885265`*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"6bbd9525-25ed-43d9-90d2-a19c6b31daa5"],
+In[6]:=",ExpressionUUID->"ee038c4d-2030-41c7-8ece-f0bf13669942"],
 
 Cell[BoxData[
  InterpretationBox[
   RowBox[{"\<\"Opened: \"\>", 
    "\[InvisibleSpace]", \
-"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\tinydev\\\\\
+"\<\"C:\\\\Users\\\\korol\\\\YandexDisk\\\\Hugo\\\\project\\\\korolev.blog\\\\\
 randomDate.nb\"\>"}],
   SequenceForm[
   "Opened: ", 
-   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\tinydev\\randomDate.nb"],
+   "C:\\Users\\korol\\YandexDisk\\Hugo\\project\\korolev.blog\\randomDate.nb"],
   Editable->False]], "Print",
  CellChangeTimes->{3.9340542347000628`*^9, 3.934054536492391*^9, 
   3.9340549536927547`*^9, 3.9340553243978295`*^9, 3.9340570346707335`*^9, 
   3.9340573232535057`*^9, 3.934058649418785*^9, 3.9340587812745934`*^9, 
-  3.9340595248615756`*^9},
+  3.934059424226342*^9, 3.9442617160350914`*^9},
  CellLabel->
   "During evaluation of \
-In[54]:=",ExpressionUUID->"c20f4358-0f08-46a5-90a0-d1a6a0da89a3"]
+In[6]:=",ExpressionUUID->"0a026a74-ff63-4d6a-b6d8-03a8f05a69fd"]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{687, 687.75},
-WindowMargins->{{Automatic, 0}, {Automatic, 0}},
-FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+WindowSize->{1440., 741.75},
+WindowMargins->{{-6, Automatic}, {Automatic, -6}},
+FrontEndVersion->"13.0 for Microsoft Windows (64-bit) (December 2, 2021)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"7d0d3649-3b9d-43c3-9af1-29b26a04167d"
 ]
@@ -696,34 +1290,46 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 990, 19, 50, "Input",ExpressionUUID->"690eafed-ee78-479a-bacc-bf91b1546bd4"],
-Cell[1573, 43, 491, 9, 24, "Output",ExpressionUUID->"bbccad01-cc23-4b76-94db-4870f07ee99d"]
+Cell[580, 22, 1008, 18, 67, "Input",ExpressionUUID->"690eafed-ee78-479a-bacc-bf91b1546bd4"],
+Cell[1591, 42, 799, 14, 52, "Output",ExpressionUUID->"bdadbb78-d068-499b-96f0-77f74230570e"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2101, 57, 443, 12, 32, "Input",ExpressionUUID->"2f13a394-7416-4df7-9fb5-be60d694999d"],
-Cell[2547, 71, 782, 14, 67, "Output",ExpressionUUID->"d0da2060-680f-4ad4-a702-ec8af9a0459b"]
+Cell[2427, 61, 442, 12, 43, "Input",ExpressionUUID->"2f13a394-7416-4df7-9fb5-be60d694999d"],
+Cell[2872, 75, 1565, 26, 109, "Output",ExpressionUUID->"483f1fa2-527b-4418-96e0-e1f2cbc05af5"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3366, 90, 189, 3, 32, "Input",ExpressionUUID->"24a75c21-b1da-4d1c-98bc-778e86c2e2ae"],
-Cell[3558, 95, 929, 19, 61, "Output",ExpressionUUID->"d5fc14fc-3b1b-4ebd-8a1d-d45389adeca2"]
+Cell[4474, 106, 188, 3, 43, "Input",ExpressionUUID->"24a75c21-b1da-4d1c-98bc-778e86c2e2ae"],
+Cell[4665, 111, 1691, 31, 254, "Output",ExpressionUUID->"4887b69c-7d22-4013-99fb-9b85d095dc11"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4524, 119, 241, 5, 32, "Input",ExpressionUUID->"ee40e1b0-9f13-4fee-86ac-f4ec5bea9ed3"],
-Cell[4768, 126, 345, 5, 24, "Output",ExpressionUUID->"faa3968a-147e-4421-93ac-a723cadabafb"]
+Cell[6393, 147, 240, 5, 43, "Input",ExpressionUUID->"ee40e1b0-9f13-4fee-86ac-f4ec5bea9ed3"],
+Cell[6636, 154, 368, 5, 32, "Output",ExpressionUUID->"922d931d-8dc7-4cb6-bc02-6947ddbdf553"]
 }, Open  ]],
-Cell[5128, 134, 4743, 110, 342, "Input",ExpressionUUID->"08bd3db0-4c6e-44ae-a84e-b32c1bdb40e6"],
+Cell[7019, 162, 4742, 110, 383, "Input",ExpressionUUID->"08bd3db0-4c6e-44ae-a84e-b32c1bdb40e6"],
 Cell[CellGroupData[{
-Cell[9896, 248, 871, 23, 101, "Input",ExpressionUUID->"e3220bc0-b199-4e84-96d1-f365101e87e7"],
+Cell[11786, 276, 870, 23, 64, "Input",ExpressionUUID->"e3220bc0-b199-4e84-96d1-f365101e87e7"],
 Cell[CellGroupData[{
-Cell[10792, 275, 11684, 277, 43, "Print",ExpressionUUID->"ced8da63-dbfe-4b02-baf2-c3d34efdbaa2"],
-Cell[22479, 554, 498, 11, 18, "Print",ExpressionUUID->"81e26dc9-07eb-4b43-a5d7-f48a806144aa"],
-Cell[22980, 567, 661, 16, 18, "Print",ExpressionUUID->"7791f62b-7571-48b4-b8c9-eac877fcf8ba"],
-Cell[23644, 585, 496, 11, 18, "Print",ExpressionUUID->"3da35d70-89d8-430e-8afd-bcf8f7689271"],
-Cell[24143, 598, 673, 16, 18, "Print",ExpressionUUID->"c2881c12-3f6b-43ff-ba26-77de8983a743"],
-Cell[24819, 616, 498, 11, 18, "Print",ExpressionUUID->"5c2c60a1-451e-41f8-95f5-2f54c925a779"],
-Cell[25320, 629, 671, 16, 18, "Print",ExpressionUUID->"03714852-e17d-48d8-bbcc-4bb8c28f2414"],
-Cell[25994, 647, 496, 11, 18, "Print",ExpressionUUID->"6bbd9525-25ed-43d9-90d2-a19c6b31daa5"],
-Cell[26493, 660, 669, 16, 18, "Print",ExpressionUUID->"c20f4358-0f08-46a5-90a0-d1a6a0da89a3"]
+Cell[12681, 303, 27510, 649, 115, "Print",ExpressionUUID->"e9c200be-f4a2-454d-843d-9ec75273f7d5"],
+Cell[40194, 954, 521, 11, 22, "Print",ExpressionUUID->"c463dfb7-55dc-4b18-bad3-24a25a7ff9d5"],
+Cell[40718, 967, 726, 17, 22, "Print",ExpressionUUID->"ee8e0545-741e-4ed0-9f1c-4c3996a40934"],
+Cell[41447, 986, 521, 11, 22, "Print",ExpressionUUID->"7bfa6c61-3795-411b-9b55-758d1e97d16b"],
+Cell[41971, 999, 718, 17, 22, "Print",ExpressionUUID->"2cc840e5-826a-404e-ba4e-37af51518f5b"],
+Cell[42692, 1018, 519, 11, 22, "Print",ExpressionUUID->"a2d4139b-a1ab-4591-84e9-8f02d0e104cf"],
+Cell[43214, 1031, 738, 17, 22, "Print",ExpressionUUID->"4aa22c78-d07f-4f12-a678-5843c4732beb"],
+Cell[43955, 1050, 521, 11, 22, "Print",ExpressionUUID->"17b7082d-5cc1-440a-b09b-370962c3c7dc"],
+Cell[44479, 1063, 734, 17, 22, "Print",ExpressionUUID->"bd22be82-e09d-4cc0-984e-c3f266f9a287"],
+Cell[45216, 1082, 521, 11, 22, "Print",ExpressionUUID->"8a92930e-aec6-4881-96d4-611ca69ec6cd"],
+Cell[45740, 1095, 730, 17, 22, "Print",ExpressionUUID->"bff5c9cb-4c46-4f29-b536-073b9dbd77f6"],
+Cell[46473, 1114, 521, 11, 22, "Print",ExpressionUUID->"1fa732e6-6757-400a-8254-57a09688335d"],
+Cell[46997, 1127, 732, 17, 22, "Print",ExpressionUUID->"b31da601-bd6e-486f-812a-342fbe8eef45"],
+Cell[47732, 1146, 519, 11, 22, "Print",ExpressionUUID->"a1da16a5-678a-4eb4-83a1-188d5004fa4f"],
+Cell[48254, 1159, 692, 16, 22, "Print",ExpressionUUID->"b6a842a8-493a-4398-8dc3-bb8059a65064"],
+Cell[48949, 1177, 519, 11, 22, "Print",ExpressionUUID->"d4691b32-f78d-4ed1-8c09-f242300eeb66"],
+Cell[49471, 1190, 706, 17, 22, "Print",ExpressionUUID->"4217e482-86d4-4594-a139-c7eaa5e915fb"],
+Cell[50180, 1209, 521, 11, 22, "Print",ExpressionUUID->"c71df834-4a74-44d0-a508-8c0959c35b4e"],
+Cell[50704, 1222, 704, 17, 22, "Print",ExpressionUUID->"23e44768-0131-4231-9738-8aae0fa0724a"],
+Cell[51411, 1241, 521, 11, 22, "Print",ExpressionUUID->"ee038c4d-2030-41c7-8ece-f0bf13669942"],
+Cell[51935, 1254, 700, 16, 22, "Print",ExpressionUUID->"0a026a74-ff63-4d6a-b6d8-03a8f05a69fd"]
 }, Open  ]]
 }, Open  ]]
 }

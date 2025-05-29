@@ -1,6 +1,6 @@
 +++
 title='When programmers and testers collaborate'
-date=2024-05-04T00:00:00-07:00
+date=2024-10-03T00:00:00-07:00
 draft=false
 categories=["fit"]
 tags=["интеграционный", "tests", "programmers", "code", "testers", "time"]

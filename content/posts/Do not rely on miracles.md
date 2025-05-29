@@ -1,6 +1,6 @@
 +++
 title='Do not rely on miracles'
-date=2024-11-26T00:00:00-07:00
+date=2024-06-27T00:00:00-07:00
 draft=false
 categories=["cobol"]
 tags=["grace hopper", "cobol", "dll", "magic", "work", "project", "need", "programmers"]

@@ -1,6 +1,6 @@
 +++
 title='Learn foreign languages'
-date=2024-11-02T00:00:00-07:00
+date=2025-02-04T00:00:00-07:00
 draft=false
 categories=[]
 tags=["charlemagne", "language", "programmers", "languages", "machine", "ideas"]

@@ -1,6 +1,6 @@
 +++
 title='The assembly must be clean'
-date=2024-07-01T00:00:00-07:00
+date=2025-01-24T00:00:00-07:00
 draft=false
 categories=["java"]
 tags=["java", "warnings", "code", "need", "fix", "example"]

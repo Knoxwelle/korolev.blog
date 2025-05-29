@@ -1,6 +1,6 @@
 +++
 title='Program in pairs and get into the flow'
-date=2024-11-19T00:00:00-07:00
+date=2024-11-20T00:00:00-07:00
 draft=false
 categories=[]
 tags=["new", "team", "pair", "programming", "flow", "state"]

@@ -1,6 +1,6 @@
 +++
 title='Incredible, but testers are your friends'
-date=2024-11-25T00:00:00-07:00
+date=2025-05-12T00:00:00-07:00
 draft=false
 categories=["canada"]
 tags=["canada", "whenever", "got", "program", "issues", "testers", "intelligence", "fix"]

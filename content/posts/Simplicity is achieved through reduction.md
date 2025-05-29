@@ -1,6 +1,6 @@
 +++
 title='Simplicity is achieved through reduction'
-date=2024-09-13T00:00:00-07:00
+date=2024-08-18T00:00:00-07:00
 draft=false
 categories=[]
 tags=["stefan", "extra", "code", "line", "algorithm", "variables", "start"]

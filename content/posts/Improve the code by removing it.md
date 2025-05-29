@@ -1,6 +1,6 @@
 +++
 title='Improve the code by removing it'
-date=2024-08-22T00:00:00-07:00
+date=2024-11-02T00:00:00-07:00
 draft=false
 categories=[]
 tags=["advice", "yagni", "system", "code", "requirements", "client", "tip"]

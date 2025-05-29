@@ -1,6 +1,6 @@
 +++
 title='Read the code'
-date=2024-08-08T00:00:00-07:00
+date=2025-05-17T00:00:00-07:00
 draft=false
 categories=[]
 tags=["start", "code", "reading", "skills", "today", "projects"]

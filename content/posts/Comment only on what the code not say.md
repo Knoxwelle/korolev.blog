@@ -1,6 +1,6 @@
 +++
 title='Comment only on what the code not say'
-date=2024-10-02T00:00:00-07:00
+date=2025-01-07T00:00:00-07:00
 draft=false
 categories=[]
 tags=["computing mcgraw-hill", "kernighan", "plauger", "brake", "code", "comments", "comment", "programmers", "blocks"]

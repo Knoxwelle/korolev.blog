@@ -1,6 +1,6 @@
 +++
 title='Two mistakes can cancel each other out, making them difficult to correct'
-date=2024-04-18T00:00:00-07:00
+date=2025-03-30T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "allan klumpp", "apollo", "everything", "timetolive", "problems", "fix", "defect", "users"]

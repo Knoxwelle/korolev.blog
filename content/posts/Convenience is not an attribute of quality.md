@@ -1,6 +1,6 @@
 +++
 title='Convenience is not an attribute of quality'
-date=2024-10-17T00:00:00-07:00
+date=2024-12-17T00:00:00-07:00
 draft=false
 categories=["cleanyourroomdon"]
 tags=["api", "monotony", "method", "convenience", "vocabulary", "calls", "action"]

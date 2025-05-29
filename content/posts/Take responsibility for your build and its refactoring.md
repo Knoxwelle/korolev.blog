@@ -1,6 +1,6 @@
 +++
 title='Take responsibility for your build and its refactoring'
-date=2024-12-05T00:00:00-07:00
+date=2024-07-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "study", "process", "assembly", "scripts", "application"]

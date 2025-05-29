@@ -1,6 +1,6 @@
 +++
 title='First say yes'
-date=2024-06-22T00:00:00-07:00
+date=2024-06-18T00:00:00-07:00
 draft=false
 categories=["edamame"]
 tags=["edamame", "product", "request", "round", "windows", "work"]

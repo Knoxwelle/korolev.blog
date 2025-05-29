@@ -1,6 +1,6 @@
 +++
 title='Install me'
-date=2025-01-23T00:00:00-07:00
+date=2024-07-07T00:00:00-07:00
 draft=false
 categories=["canada", "north american"]
 tags=["ip", "canada", "immediate", "world", "program", "file", "problems", "textbook", "product"]

@@ -1,6 +1,6 @@
 +++
 title='Creating architecture as the art of balance'
-date=2024-05-29T00:00:00-07:00
+date=2024-11-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["match", "first", "product", "priorities", "software", "organization", "development"]

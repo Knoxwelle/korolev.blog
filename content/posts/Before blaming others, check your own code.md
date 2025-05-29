@@ -1,6 +1,6 @@
 +++
 title='Before blaming others, check your own code'
-date=2024-07-08T00:00:00-07:00
+date=2024-12-20T00:00:00-07:00
 draft=false
 categories=[]
 tags=["sherlock holmes", "dirk", "compiler", "time", "code", "errors", "version"]

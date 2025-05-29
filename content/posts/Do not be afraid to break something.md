@@ -1,6 +1,6 @@
 +++
 title='Do not be afraid to break something'
-date=2024-12-14T00:00:00-07:00
+date=2024-08-21T00:00:00-07:00
 draft=false
 categories=[]
 tags=["system", "code", "project", "structure", "work"]

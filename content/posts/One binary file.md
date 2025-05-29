@@ -1,6 +1,6 @@
 +++
 title='One binary file'
-date=2025-01-19T00:00:00-07:00
+date=2025-02-06T00:00:00-07:00
 draft=false
 categories=["git"]
 tags=["environment", "bazaar", "git", "code", "changes", "version", "production"]

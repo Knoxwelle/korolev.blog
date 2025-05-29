@@ -1,6 +1,6 @@
 +++
 title='The myth of the guru'
-date=2024-06-26T00:00:00-07:00
+date=2024-08-11T00:00:00-07:00
 draft=false
 categories=["gurus"]
 tags=["guru", "people", "myth", "context", "questions"]
