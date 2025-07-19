@@ -6,21 +6,21 @@
     <description>Recent content in Ide on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ide/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Know how to use command line utilities</title>
-      <link>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</link>
-      <pubDate>Sun, 21 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</guid>
-      <description>Today, many software development tools are delivered as integrated development environments (IDEs). Besides the two popular examples – Visual Studio from Microsoft and Eclipse from the open-source community – there are many others. A lot can be said in favor of IDEs. They are easy to use and they free the programmer from the need to delve into many minor details, including the build process.&#xA;However, ease of use has its downside. A tool is usually easy to use when it makes decisions for the programmer and automatically does a large amount of work behind the scenes. Therefore, if you only use an IDE as your programming environment, it is quite possible that you will never fully understand what your tools are actually doing.</description>
-    </item>
     <item>
       <title>Know your IDE</title>
       <link>http://localhost:1313/posts/know-your-ide/</link>
-      <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/know-your-ide/</guid>
       <description>In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also &amp;ldquo;lived&amp;rdquo; separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.&#xA;In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor.</description>
+    </item>
+    <item>
+      <title>Know how to use command line utilities</title>
+      <link>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</guid>
+      <description>Today, many software development tools are delivered as integrated development environments (IDEs). Besides the two popular examples – Visual Studio from Microsoft and Eclipse from the open-source community – there are many others. A lot can be said in favor of IDEs. They are easy to use and they free the programmer from the need to delve into many minor details, including the build process.&#xA;However, ease of use has its downside. A tool is usually easy to use when it makes decisions for the programmer and automatically does a large amount of work behind the scenes. Therefore, if you only use an IDE as your programming environment, it is quite possible that you will never fully understand what your tools are actually doing.</description>
     </item>
   </channel>
 </rss>

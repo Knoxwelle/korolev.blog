@@ -1,10 +1,10 @@
 +++
 title='Know how to use command line utilities'
-date=2024-07-22T00:00:00-07:00
+date=2024-08-19T00:00:00-07:00
 draft=false
 categories=[]
 tags=["microsoft", "eclipse", "gui", "ide", "tools", "command-line", "use", "line"]
-cover_image='/images/cover/knoxwelle__2020-11-11T163037.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-07-08T075309.000Z.jpg'
 +++
 Today, many software development tools are delivered as integrated development environments (IDEs). Besides the two popular examples – Visual Studio from Microsoft and Eclipse from the open-source community – there are many others. A lot can be said in favor of IDEs. They are easy to use and they free the programmer from the need to delve into many minor details, including the build process.
 

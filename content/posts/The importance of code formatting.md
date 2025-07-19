@@ -1,10 +1,10 @@
 +++
 title='The importance of code formatting'
-date=2024-10-05T00:00:00-07:00
+date=2025-01-22T00:00:00-07:00
 draft=false
 categories=["cobol"]
 tags=["cobol", "code", "first", "kevin mcguire", "line", "screen", "work", "poetry"]
-cover_image='/images/cover/knoxwelle__2020-05-29T230535.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2019-12-09T064845.000Z.jpg'
 +++
 In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn't be trusted. I'm sure the losses from this policy were enormous because it slowed down the work of programmers.
 

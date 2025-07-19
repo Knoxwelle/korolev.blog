@@ -6,12 +6,12 @@
     <description>Recent content in Интеграционный on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When programmers and testers collaborate</title>
       <link>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</link>
-      <pubDate>Sat, 04 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</guid>
       <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Integration test). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
     </item>

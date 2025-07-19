@@ -6,21 +6,21 @@
     <description>Recent content in Microsoft on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Dec 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 19 Aug 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Satisfy your ambition through Open Source</title>
-      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
-      <pubDate>Thu, 19 Dec 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
-      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
-    </item>
     <item>
       <title>Know how to use command line utilities</title>
       <link>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</link>
-      <pubDate>Sun, 21 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/know-how-to-use-command-line-utilities/</guid>
       <description>Today, many software development tools are delivered as integrated development environments (IDEs). Besides the two popular examples – Visual Studio from Microsoft and Eclipse from the open-source community – there are many others. A lot can be said in favor of IDEs. They are easy to use and they free the programmer from the need to delve into many minor details, including the build process.&#xA;However, ease of use has its downside. A tool is usually easy to use when it makes decisions for the programmer and automatically does a large amount of work behind the scenes. Therefore, if you only use an IDE as your programming environment, it is quite possible that you will never fully understand what your tools are actually doing.</description>
+    </item>
+    <item>
+      <title>Satisfy your ambition through Open Source</title>
+      <link>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/satisfy-your-ambition-through-open-source/</guid>
+      <description>As a rule, the programs you write at work do not satisfy your most ambitious programmer dreams. It may happen that you are developing software for a huge insurance company, but you would like to work at Google, Apple, Microsoft, or start your own startup that will bring about the next revolution. You will never reach your goal by developing software for systems that do not interest you.&#xA;Fortunately, there is a solution to your problem: open source, that is, projects with open source code. In the world, there are thousands of open-source projects, and many of them are quite active, where a programmer can gain any experience their heart desires. If you are drawn to the idea of developing an operating system systems, choose one of the ten available operating system projects for yourself.</description>
     </item>
   </channel>
 </rss>

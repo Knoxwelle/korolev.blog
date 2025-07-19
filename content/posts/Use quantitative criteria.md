@@ -1,10 +1,10 @@
 +++
 title='Use quantitative criteria'
-date=2024-07-05T00:00:00-07:00
+date=2024-07-17T00:00:00-07:00
 draft=false
 categories=[]
 tags=["ms.", "system", "criteria", "time", "work", "users"]
-cover_image='/images/cover/knoxwelle__2020-04-05T190455.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-18T220127.000Z.jpg'
 +++
 "Fast" cannot be a requirement. Nor can "having a good response time." Or, let's say, "scalable." The main reason is the lack of objective criteria for meeting such requirements.
 But users still need these characteristics. The architect's task is to ensure that the system possesses the necessary qualities and to balance the inevitable contradictions that arise.

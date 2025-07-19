@@ -1,10 +1,10 @@
 +++
 title='Message passing improves the scalability of parallel systems'
-date=2024-06-26T00:00:00-07:00
+date=2025-05-08T00:00:00-07:00
 draft=false
 categories=["erlang", "c", "c++", "java", "python", "groovy"]
 tags=["performance", "c++", "java", "python", "groovy", "memory", "systems", "system", "processes", "data"]
-cover_image='/images/cover/knoxwelle__2017-05-03T121504.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-01-08T061804.000Z.jpg'
 +++
 Already in the first lectures on computer science, programmers are taught that concurrent computing – and especially parallel computing as a special subtype of concurrent computing – is a difficult task, and that only the best have a hope of coping with it, and that even the best do not manage to do so. Great attention is invariably paid to threads, semaphores, monitors, and the difficulties of organizing thread safety with simultaneous access to variables.
 

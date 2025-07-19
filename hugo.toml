@@ -2,7 +2,8 @@ baseURL = 'https://www.korolev.blog/'
 languageCode = 'en-us'
 title = 'Korolev Blog'
 # theme = 'triple-hyde'
-theme ="hyde-hyde"
+ theme ="hyde-hyde"
+# theme = "hugo-theme-stack"
 # copyright="© Stan Korolev"
 googleAnalytics = "G-XPYM1BW8ZT"
 # enableEmoji=true
@@ -21,7 +22,6 @@ summarylength = 123
 #paginate = 5
 
 ## Site Settings
-
 
 [params]
 # author = "Author"

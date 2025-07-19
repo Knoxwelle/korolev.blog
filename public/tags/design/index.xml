@@ -6,28 +6,28 @@
     <description>Recent content in Design on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>One line of working code costs 500 lines of specifications</title>
-      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</link>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</guid>
-      <description>You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.&#xA;Design is a beautiful thing. A systematic, detailed representation of the problem space and its solution reveals errors and identifies opportunities for improvement, sometimes in quite radical ways. Specifications play an important role in this, as they define the template for building the system. It is very important to carefully consider the entire architecture—both at the macro level, examining the interaction between components, and at the micro level, delving into the behavior of the components themselves.&#xA;Unfortunately, architects often get carried away with the design process, falling under the charm of architectural abstractions. However, by themselves specifications have no value.</description>
+      <title>Give developers their own space</title>
+      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
+      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
     </item>
     <item>
       <title>Code is design</title>
       <link>http://localhost:1313/posts/code-is-design/</link>
-      <pubDate>Sat, 29 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 12 Oct 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/code-is-design/</guid>
       <description>Imagine waking up in the morning and finding out that a groundbreaking breakthrough has occurred in the construction industry. Now, millions of cheap and incredibly fast robots can create various materials literally from thin air, using almost no energy, and they can repair themselves. But that&amp;rsquo;s not all: if there are clear blueprints, the robots will build a building according to them without any human intervention, and the cost of this work will be negligible.&#xA;One can imagine how this will transform the construction industry, but what changes will occur at a higher level? How will architects and designers behave when the cost of construction becomes negligible? Today, expensive construction is necessarily preceded by the creation and thorough testing of physical and computer models.</description>
     </item>
     <item>
-      <title>Give developers their own space</title>
-      <link>http://localhost:1313/posts/give-developers-their-own-space/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/give-developers-their-own-space/</guid>
-      <description>Nearly all architects begin their professional lives as developers. Although the architect has more duties, he also has more say over how the system is designed. It will be hard for you to give up some of your programming habits in your new work as an architect. Even worse, you might think that in order to put your concept into practice, you have to keep an eye on the developers and everything they do. But it&amp;rsquo;s critical for your success—as well as the success of your team—to provide each of your coworkers with enough autonomy to showcase their abilities and originality.&#xA;It is rare for a developer to have time to sit down and consider the overall coherence of the system. The architect should give this their whole attention at the same time.</description>
+      <title>One line of working code costs 500 lines of specifications</title>
+      <link>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</link>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/one-line-of-working-code-costs-500-lines-of-specifications/</guid>
+      <description>You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.&#xA;Design is a beautiful thing. A systematic, detailed representation of the problem space and its solution reveals errors and identifies opportunities for improvement, sometimes in quite radical ways. Specifications play an important role in this, as they define the template for building the system. It is very important to carefully consider the entire architecture—both at the macro level, examining the interaction between components, and at the micro level, delving into the behavior of the components themselves.&#xA;Unfortunately, architects often get carried away with the design process, falling under the charm of architectural abstractions. However, by themselves specifications have no value.</description>
     </item>
   </channel>
 </rss>

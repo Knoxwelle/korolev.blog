@@ -1,10 +1,10 @@
 +++
 title='Durability of temporary solutions'
-date=2024-07-13T00:00:00-07:00
+date=2024-09-18T00:00:00-07:00
 draft=false
 categories=[]
 tags=["first", "change", "solution", "solutions", "standards", "problem"]
-cover_image='/images/cover/knoxwelle__2017-07-25T114226.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-05-25T130945.000Z.jpg'
 +++
 Why do we create temporary solutions?
 

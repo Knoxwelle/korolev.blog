@@ -1,10 +1,10 @@
 +++
 title='Professional programmer'
-date=2024-09-22T00:00:00-07:00
+date=2025-03-12T00:00:00-07:00
 draft=false
 categories=[]
 tags=["systems", "code", "professionals", "work", "responsibility", "defect"]
-cover_image='/images/cover/knoxwelle__2017-09-12T080328.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2019-09-13T211906.000Z.jpg'
 +++
 Who can be considered a professional programmer? The most important trait of a professional programmer is personal responsibility. Professional programmers are responsible for their careers, their evaluations, their deadlines, their mistakes, and their expertise. A professional programmer does not shift this responsibility onto others.
 

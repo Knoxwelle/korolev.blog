@@ -1,10 +1,10 @@
 +++
 title='Try before you decide'
-date=2024-10-22T00:00:00-07:00
+date=2024-12-21T00:00:00-07:00
 draft=false
 categories=["javascript"]
 tags=["mary", "tom poppendieck", "javascript", "architect", "decision", "team", "solution", "information"]
-cover_image='/images/cover/knoxwelle__2017-06-03T163646.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-07T082128.000Z.jpg'
 +++
 Many choices must be taken during the attachment-forming process. 
 Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won't surprise you. 

@@ -1,10 +1,10 @@
 +++
 title='Prevent the occurrence of errors'
-date=2025-03-25T00:00:00-07:00
+date=2025-07-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["july", "dd", "recording", "date", "errors", "user", "users", "instructions"]
-cover_image='/images/cover/knoxwelle__2017-06-07T081451.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2024-04-02T214205.000Z.jpg'
 +++
 Error messages are the most critical form of interaction between the user and the system. They arise when the user's communication with the system is on the verge of breaking down.
 

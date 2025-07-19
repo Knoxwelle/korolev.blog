@@ -1,10 +1,10 @@
 +++
 title='One binary file'
-date=2025-02-06T00:00:00-07:00
+date=2024-07-15T00:00:00-07:00
 draft=false
 categories=["git"]
 tags=["environment", "bazaar", "git", "code", "changes", "version", "production"]
-cover_image='/images/cover/knoxwelle__2017-05-03T170121.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-06-01T075855.000Z.jpg'
 +++
 I have encountered projects where part of the code was rewritten during the build process so that a separate binary file was generated for each runtime environment. This approach always complicates things unnecessarily and creates the risk of incompatible versions appearing with each installation. At the very least, several almost identical instances of the program are built, each intended for installation in its corresponding environment. Too many moving parts arise, which means more opportunities for error.
 

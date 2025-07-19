@@ -1,10 +1,10 @@
 +++
 title='Commentary on comments'
-date=2025-03-22T00:00:00-07:00
+date=2024-12-09T00:00:00-07:00
 draft=false
 categories=["basic"]
 tags=["basic", "programming interface", "code", "comments", "program", "programming", "reading"]
-cover_image='/images/cover/knoxwelle__2021-07-17T033838.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-02-12T172651.000Z.jpg'
 +++
 At my first programming class at the university, the instructor handed out two sheets for us to write the program text in BASIC. On the board, he wrote the assignment: "Create a program to input and calculate the average of 10 bowling scores." Then the teacher left the room. Is this task difficult? I don't remember my solution, but it seems there was a FOR/NEXT loop and no more than 15 lines of code.
 

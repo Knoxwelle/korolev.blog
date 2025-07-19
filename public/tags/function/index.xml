@@ -6,12 +6,12 @@
     <description>Recent content in Function on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/function/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Write code wisely</title>
       <link>http://localhost:1313/posts/write-code-wisely/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/write-code-wisely/</guid>
       <description>Attempts to prove the correctness of software manually lead to a formal proof that is longer than the code itself and contains errors more frequently than the code. It is preferable to use automated tools, but this is not always possible. Below, a middle ground is described: semi-formal proof of correctness.&#xA;The method is based on dividing the code under investigation into short fragments ranging from a single line, which may contain a function call, to blocks no longer than 10 lines, and discussing their correctness. The proof must be convincing enough for your colleague playing the role of the &amp;ldquo;devil&amp;rsquo;s advocate.&amp;rdquo;&#xA;Fragments should be chosen in such a way that at the end point of the block, the program state (namely, the instruction address counter and the values of all &amp;ldquo;live&amp;rdquo; objects) satisfies a property that is simple to describe, and the functionality of this fragment (state transformation) can be easily described as a single independent task.</description>
     </item>

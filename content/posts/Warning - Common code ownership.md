@@ -1,10 +1,10 @@
 +++
 title='Warning - Common code ownership'
-date=2024-11-12T00:00:00-07:00
+date=2025-06-25T00:00:00-07:00
 draft=false
 categories=[]
 tags=["study", "code", "context", "dependencies", "parts", "number"]
-cover_image='/images/cover/knoxwelle__2018-09-12T085550.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-08-02T180142.000Z.jpg'
 +++
 My first project in the company. I just defended my thesis, and I'm eager to prove myself, so I stay late at work and thoroughly study the existing code. Working on my first task, I apply everything I've been taught: comments, event logs, extracting common code into libraries (where possible), all that stuff. I feel completely ready for code review, but my colleagues seem to pour cold water on me: I get criticized for code reuse!
 

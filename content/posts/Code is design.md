@@ -1,10 +1,10 @@
 +++
 title='Code is design'
-date=2025-03-15T00:00:00-07:00
+date=2024-10-12T00:00:00-07:00
 draft=false
 categories=[]
 tags=["design", "construction", "building", "cost", "work"]
-cover_image='/images/cover/knoxwelle__2021-06-04T164209.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-12-17T135056.000Z.jpg'
 +++
 Imagine waking up in the morning and finding out that a groundbreaking breakthrough has occurred in the construction industry. Now, millions of cheap and incredibly fast robots can create various materials literally from thin air, using almost no energy, and they can repair themselves. But that's not all: if there are clear blueprints, the robots will build a building according to them without any human intervention, and the cost of this work will be negligible.
 

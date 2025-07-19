@@ -1,10 +1,10 @@
 +++
 title='Simplicity is achieved through reduction'
-date=2024-08-18T00:00:00-07:00
+date=2025-04-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["stefan", "extra", "code", "line", "algorithm", "variables", "start"]
-cover_image='/images/cover/knoxwelle__2016-11-21T172821.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-05-31T170959.000Z.jpg'
 +++
 "Do it again..." my boss said, firmly holding down the Delete key with his finger. With familiar sorrow, I watched the screen where my code was irrevocably disappearing, line by line.
 

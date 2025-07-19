@@ -6,12 +6,12 @@
     <description>Recent content in Extra on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 08 Apr 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/extra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simplicity is achieved through reduction</title>
       <link>http://localhost:1313/posts/simplicity-is-achieved-through-reduction/</link>
-      <pubDate>Fri, 13 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/simplicity-is-achieved-through-reduction/</guid>
       <description>&amp;ldquo;Do it again&amp;hellip;&amp;rdquo; my boss said, firmly holding down the Delete key with his finger. With familiar sorrow, I watched the screen where my code was irrevocably disappearing, line by line.&#xA;My boss Stefan wasn&amp;rsquo;t particularly eloquent, but he could spot bad code at first glance. And he knew exactly what to do with it. I took that job as someone learning programming – full of energy and enthusiasm, but with no idea how to write code.&#xA;I was under the terrible delusion that any problems could be solved by adding another variable in the appropriate place or by adding another line of code. On bad days, my code would degrade—its logic wouldn&amp;rsquo;t improve, and moreover, it would become bulkier, more complex, and more unstable.</description>
     </item>

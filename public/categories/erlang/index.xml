@@ -6,12 +6,12 @@
     <description>Recent content in Erlang on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Sep 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 08 May 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/erlang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Message passing improves the scalability of parallel systems</title>
       <link>http://localhost:1313/posts/message-passing-improves-the-scalability-of-parallel-systems/</link>
-      <pubDate>Sun, 22 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 08 May 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/message-passing-improves-the-scalability-of-parallel-systems/</guid>
       <description>Already in the first lectures on computer science, programmers are taught that concurrent computing – and especially parallel computing as a special subtype of concurrent computing – is a difficult task, and that only the best have a hope of coping with it, and that even the best do not manage to do so. Great attention is invariably paid to threads, semaphores, monitors, and the difficulties of organizing thread safety with simultaneous access to variables.&#xA;There are indeed many complex problems here, and solving them can be very difficult. But what is the root of the problems? Shared memory. Almost all the problems of concurrent computing that we constantly hear about are related to shared memory with mutable data: race conditions, deadlocks, livelocks, and so on.</description>
     </item>

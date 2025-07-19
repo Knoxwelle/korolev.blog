@@ -1,10 +1,10 @@
 +++
 title='Do not repeat your code'
-date=2024-09-07T00:00:00-07:00
+date=2025-07-04T00:00:00-07:00
 draft=false
 categories=["dry", "method"]
 tags=["code", "repetition", "abstract", "strategy", "dry", "open", "closed principle", "srp", "principle", "software", "logic", "duplication"]
-cover_image='/images/cover/knoxwelle__2017-07-25T114226.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-04T122005.000Z.jpg'
 +++
 "Don't Repeat Yourself (DRY)" is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.
 

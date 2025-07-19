@@ -6,12 +6,12 @@
     <description>Recent content in Javascript on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Feb 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Try before you decide</title>
       <link>http://localhost:1313/posts/try-before-you-decide/</link>
-      <pubDate>Sun, 16 Feb 2025 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/try-before-you-decide/</guid>
       <description>Many choices must be taken during the attachment-forming process. Some may be related to the library or infrastructure selection, while others may be related to the application of particular design patterns.In any event, the architect is often in charge of making the choice. The architect gathers all available data, considers it for a period, and then specifies the guidelines that the developers must follow. The fact that there is an improved method won&amp;rsquo;t surprise you.&#xA;The decision-making process is described by Mary and Tom Poppendieck in their work on lean development. They think that the ultimate choice should wait until the most crucial moment, when the team&amp;rsquo;s inaction will have permanent (or difficult to reverse) repercussions and a decision will be made on its behalf if no decision is made.</description>
     </item>

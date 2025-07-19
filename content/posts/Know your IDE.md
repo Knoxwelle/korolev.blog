@@ -1,10 +1,10 @@
 +++
 title='Know your IDE'
-date=2025-03-09T00:00:00-07:00
+date=2025-04-27T00:00:00-07:00
 draft=false
 categories=["method", "unix", "java", "c"]
 tags=["code", "debuggers", "integrated development environment", "ide", "modern", "java", "unix", "ides", "time", "tools", "method"]
-cover_image='/images/cover/knoxwelle__2017-06-18T222125.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-02-21T174224.000Z.jpg'
 +++
 In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also "lived" separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.
 

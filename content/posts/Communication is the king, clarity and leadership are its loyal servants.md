@@ -1,10 +1,10 @@
 +++
 title='Communication is the king, clarity and leadership are its loyal servants'
-date=2025-01-12T00:00:00-07:00
+date=2024-07-31T00:00:00-07:00
 draft=false
 categories=["india"]
 tags=["india", "visio", "act", "developers", "software", "clarity", "project", "leadership"]
-cover_image='/images/cover/knoxwelle__2017-06-07T082128.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-05T095858.000Z.jpg'
 +++
 Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.
 

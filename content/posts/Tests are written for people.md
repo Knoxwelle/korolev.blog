@@ -1,10 +1,10 @@
 +++
 title='Tests are written for people'
-date=2024-10-01T00:00:00-07:00
+date=2025-03-13T00:00:00-07:00
 draft=false
 categories=[]
 tags=["tests", "code", "test", "method", "check"]
-cover_image='/images/cover/knoxwelle__2017-07-08T075729.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-05-29T010651.000Z.jpg'
 +++
 You cover all the finished code or its fragments with automated tests. Congratulations! Do you write tests first and then code? Even better! Just because of this, you can be considered a programmer practicing advanced approaches in software development. But are your tests good? How can you determine that? One way is to ask yourself: "Who am I writing for?"
 these tests?». If the answer is "I write them for myself to reduce costs

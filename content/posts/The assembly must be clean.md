@@ -1,10 +1,10 @@
 +++
 title='The assembly must be clean'
-date=2025-01-24T00:00:00-07:00
+date=2024-09-19T00:00:00-07:00
 draft=false
 categories=["java"]
 tags=["java", "warnings", "code", "need", "fix", "example"]
-cover_image='/images/cover/knoxwelle__2017-06-05T100213.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-12-18T024350.000Z.jpg'
 +++
 Have you ever seen a list of compiler warnings the size of an essay on how not to write code and thought: "Of course, something needs to be done about this... but I just don't have time for it right now"? And conversely, have you ever seen a single warning appear during compilation and immediately fix it?
 

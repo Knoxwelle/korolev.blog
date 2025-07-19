@@ -6,12 +6,12 @@
     <description>Recent content in Hours on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hours/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hard work does not justify itself</title>
       <link>http://localhost:1313/posts/hard-work-does-not-justify-itself/</link>
-      <pubDate>Wed, 26 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/hard-work-does-not-justify-itself/</guid>
       <description>Every programmer needs to be convinced that intense work is often unjustified. You can deceive yourself or your colleagues into thinking that by staying late at the office, you are making a significant contribution to the project. But in reality, by working less, you can achieve more—sometimes significantly more. If you are trying to work &amp;ldquo;productively&amp;rdquo; and with focus for more than 30 hours a week, you are likely overworking. It might be worth considering reducing your workload, which will allow you to work more efficiently and accomplish more.&#xA;It may seem that my statement contradicts common sense and is generally debatable. However, it is a direct consequence of the fact that programming and software development, in general, require continuous knowledge expansion. As you work on a project, you will come to better understand the subject area and, hopefully, find more efficient ways to achieve your goals.</description>
     </item>

@@ -1,10 +1,10 @@
 +++
 title='Before starting the refactoring'
-date=2024-12-03T00:00:00-07:00
+date=2024-09-27T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "tests", "system", "mistakes", "changes"]
-cover_image='/images/cover/knoxwelle__2017-01-15T081122.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-11-10T045157.000Z.jpg'
 +++
 Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):
 

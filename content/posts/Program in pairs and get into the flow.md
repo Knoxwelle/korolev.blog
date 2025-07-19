@@ -1,10 +1,10 @@
 +++
 title='Program in pairs and get into the flow'
-date=2024-11-20T00:00:00-07:00
+date=2025-03-24T00:00:00-07:00
 draft=false
 categories=[]
 tags=["new", "team", "pair", "programming", "flow", "state"]
-cover_image='/images/cover/knoxwelle__2017-05-20T083558.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-05-31T170713.000Z.jpg'
 +++
 Imagine that you are completely absorbed in your work: focused, passionate, and busy. You have lost track of time. You are happy. You are in a state of flow. On a larger scale, it is difficult for an entire team of developers to achieve and maintain a state of flow due to numerous interruptions, distractions, and other obstacles that can easily disrupt it.
 

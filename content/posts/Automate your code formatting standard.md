@@ -1,10 +1,10 @@
 +++
 title='Automate your code formatting standard'
-date=2025-01-17T00:00:00-07:00
+date=2025-03-29T00:00:00-07:00
 draft=false
 categories=[]
 tags=["new year", "standards", "code", "standard", "project", "tools", "anti-patterns"]
-cover_image='/images/cover/knoxwelle__2016-12-18T184639.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2019-11-24T184105.000Z.jpg'
 +++
 You probably went through this too. At the beginning of the project, everyone has plenty of good intentions – let's call them "new project promises." Similar to New Year's resolutions that people make for themselves: to exercise, quit smoking, etc. Quite often, many of these promises are documented. Promises related to code make it into the project's code formatting standards. At the first project meeting, the lead developer announces this document, and ideally, everyone agrees to diligently follow the proposed requirements. However, as the project progresses, all these good intentions are forgotten one by one. When the project is finally completed, the code looks quite tangled, and it seems that no one understands how it ended up that way.
 

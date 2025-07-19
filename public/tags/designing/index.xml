@@ -6,12 +6,12 @@
     <description>Recent content in Designing on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/designing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The golden rule of API design</title>
       <link>http://localhost:1313/posts/the-golden-rule-of-api-design/</link>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-golden-rule-of-api-design/</guid>
       <description>Designing application programming interfaces (APIs) is difficult, especially in the general case. When developing an API that will have hundreds or thousands of users, you need to consider that over time it will most likely need to be changed, and these changes can disrupt the functioning of the client code. Moreover, you need to consider the potential impact on your API from its users. If the API class calls its own method, it should be remembered that the user is capable of creating a subclass of your class and overriding this method, which can lead to disaster. And you won&amp;rsquo;t be able to change this method because some of your users have given it a different meaning. You become dependent on your users when it comes to choosing the internal implementation.</description>
     </item>

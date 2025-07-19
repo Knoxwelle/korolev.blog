@@ -6,12 +6,12 @@
     <description>Recent content in Ides on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 27 Apr 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/ides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Know your IDE</title>
       <link>http://localhost:1313/posts/know-your-ide/</link>
-      <pubDate>Wed, 13 Mar 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 27 Apr 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/know-your-ide/</guid>
       <description>In the 1980s, the programming environment, as a rule, did not differ much from an advanced text editor – at best. Today, we take syntax highlighting for granted, but back then it was a luxury not available to everyone. Code formatting tools existed as external tools, the use of which corrected spacing. Debuggers also &amp;ldquo;lived&amp;rdquo; separately as programs for step-by-step code execution, and working with them required knowing a multitude of mysterious key combinations.&#xA;In the 1990s, companies began to realize the profit potential of more convenient and useful development tools. The Integrated Development Environment (IDE) combined previously offered editing features with a compiler, debugger, formatting tools, and other instruments. At that time, menus and mice became popular, which meant that developers no longer needed to memorize complex key combinations to work with their editor.</description>
     </item>

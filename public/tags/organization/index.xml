@@ -6,12 +6,12 @@
     <description>Recent content in Organization on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/organization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating architecture as the art of balance</title>
       <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Wed, 29 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
       <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
     </item>

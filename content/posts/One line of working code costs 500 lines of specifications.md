@@ -1,10 +1,10 @@
 +++
 title='One line of working code costs 500 lines of specifications'
-date=2024-11-10T00:00:00-07:00
+date=2024-10-04T00:00:00-07:00
 draft=false
 categories=[]
 tags=["design", "project", "goal", "system", "time"]
-cover_image='/images/cover/knoxwelle__2020-11-14T191133.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-12-24T145127.000Z.jpg'
 +++
 You can prepare for a jump for a very long time, get used to the treadmill surface, take a run-up, but still never jump.
 

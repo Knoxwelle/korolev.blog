@@ -6,12 +6,12 @@
     <description>Recent content in Screen on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/screen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The importance of code formatting</title>
       <link>http://localhost:1313/posts/the-importance-of-code-formatting/</link>
-      <pubDate>Tue, 09 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-importance-of-code-formatting/</guid>
       <description>In ancient times, I worked on a COBOL project where all participants were forbidden to change the indentation size unless it was necessary to modify the code. All because one day someone broke something – a line of code crept onto the next one and ended up in special columns at the beginning of the line. The ban was in effect even if the code formatting was misleading—which happened—so one had to read the code very carefully, as it couldn&amp;rsquo;t be trusted. I&amp;rsquo;m sure the losses from this policy were enormous because it slowed down the work of programmers.&#xA;Researchers have shown that a programmer spends more time navigating and reading code (to find the part that needs to be changed) than actually writing code, so it is advisable to optimize these operations.</description>
     </item>

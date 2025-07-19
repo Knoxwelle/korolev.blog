@@ -1,10 +1,10 @@
 +++
 title='Write code wisely'
-date=2024-07-31T00:00:00-07:00
+date=2025-06-05T00:00:00-07:00
 draft=false
 categories=[]
 tags=["below", "devil", "code", "fragments", "proof", "function", "correctness"]
-cover_image='/images/cover/knoxwelle__2017-05-30T181117.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-01-16T082143.000Z.jpg'
 +++
 Attempts to prove the correctness of software manually lead to a formal proof that is longer than the code itself and contains errors more frequently than the code. It is preferable to use automated tools, but this is not always possible. Below, a middle ground is described: semi-formal proof of correctness.
 

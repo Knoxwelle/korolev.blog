@@ -1,10 +1,10 @@
 +++
 title='Comment only on what the code not say'
-date=2025-01-07T00:00:00-07:00
+date=2024-12-31T00:00:00-07:00
 draft=false
 categories=[]
 tags=["computing mcgraw-hill", "kernighan", "plauger", "brake", "code", "comments", "comment", "programmers", "blocks"]
-cover_image='/images/cover/knoxwelle__2021-08-30T144419.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-06-16T080219.000Z.jpg'
 +++
 The discrepancy between theory and practice is greater in practice than in theory. This observation definitely applies to comments. In theory, the general idea of commenting code looks commendable: to give colleagues a detailed explanation of what is happening. What could be more useful than providing useful information? But in practice, comments often do more harm than good. Like any form of writing, writing comments requires skill. This skill largely involves understanding when not to write comments.
 

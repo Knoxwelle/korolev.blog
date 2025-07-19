@@ -1,10 +1,10 @@
 +++
 title='Keep everything in version control'
-date=2025-01-15T00:00:00-07:00
+date=2025-07-10T00:00:00-07:00
 draft=false
 categories=[]
 tags=["store", "subversion", "git", "mercurial", "cvs", "life", "version", "project", "code", "repository", "system"]
-cover_image='/images/cover/knoxwelle__2016-12-17T141044.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-05-03T170456.000Z.jpg'
 +++
 Store everything related to any of your projects in a version control system. The necessary resources are already available: free tools like Subversion, Git, Mercurial, and CVS, ample disk space, cheap and powerful servers, ubiquitous Internet access, and even project hosting services. Once you have installed the version control system, saving your work in the repository is very simple: just execute the corresponding command in the clean directory with the code. And you only need to master two new basic operations: committing (commit) changes you made in the code to the repository, and updating (update) your working version of the project to the one in the repository.
 

@@ -1,10 +1,10 @@
 +++
 title='Know that you will save it in the repository'
-date=2024-07-21T00:00:00-07:00
+date=2024-09-21T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "repository", "work", "changes", "task"]
-cover_image='/images/cover/knoxwelle__2019-08-15T031737.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-12-24T173907.000Z.jpg'
 +++
 I patted three programmers on the shoulder and asked what they were working on. "I'm refactoring these methods," was the first one's reply. "I'm adding some parameters to this web operation," said the second. The third one said, "I'm working on this use case."
 

@@ -6,21 +6,21 @@
     <description>Recent content in Whenever on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/whenever/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Incredible, but testers are your friends</title>
-      <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
-      <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
-    </item>
     <item>
       <title>Perspective as seen from 300 meters</title>
       <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
-      <pubDate>Sat, 20 Apr 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
       <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
+    </item>
+    <item>
+      <title>Incredible, but testers are your friends</title>
+      <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
+      <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
     </item>
   </channel>
 </rss>

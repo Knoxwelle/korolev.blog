@@ -1,10 +1,10 @@
 +++
 title='You need to take care of the code'
-date=2025-02-24T00:00:00-07:00
+date=2025-02-04T00:00:00-07:00
 draft=false
 categories=[]
 tags=["sherlock holmes", "enjoy", "code", "programmers", "work", "programmer", "programming"]
-cover_image='/images/cover/knoxwelle__2016-12-17T140305.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-10-22T175947.000Z.jpg'
 +++
 You don't need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don't. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.
 

@@ -6,28 +6,28 @@
     <description>Recent content in Changes on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/changes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Before starting the refactoring</title>
+      <link>http://localhost:1313/posts/before-starting-the-refactoring/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/before-starting-the-refactoring/</guid>
+      <description>Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):&#xA;It is best to start refactoring by assessing the state of the existing code in the project and the tests written for it. This way, you can identify the strengths and weaknesses of the code in its current state, to preserve its strong points and avoid the mistakes already made. Everyone thinks their system will be better than the current one&amp;hellip; until it turns out that the new code is no better, and maybe even worse, than the previous version, all because we did not learn from the mistakes made in the old system.</description>
+    </item>
     <item>
       <title>Know that you will save it in the repository</title>
       <link>http://localhost:1313/posts/know-that-you-will-save-it-in-the-repository/</link>
-      <pubDate>Tue, 18 Feb 2025 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 21 Sep 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/know-that-you-will-save-it-in-the-repository/</guid>
       <description>I patted three programmers on the shoulder and asked what they were working on. &amp;ldquo;I&amp;rsquo;m refactoring these methods,&amp;rdquo; was the first one&amp;rsquo;s reply. &amp;ldquo;I&amp;rsquo;m adding some parameters to this web operation,&amp;rdquo; said the second. The third one said, &amp;ldquo;I&amp;rsquo;m working on this use case.&amp;rdquo;&#xA;It may seem that the first two were absorbed in the details of their work, and only the third saw the bigger picture, and his approach was better. I asked when and what they were going to put in the repository, and then the picture changed dramatically. The first two clearly understood what files they would be, and were going to finish the work in about an hour. The third said, &amp;ldquo;I suppose I&amp;rsquo;ll finish in a few days. I&amp;rsquo;ll probably add some classes and somehow modify the services.</description>
     </item>
     <item>
       <title>One binary file</title>
       <link>http://localhost:1313/posts/one-binary-file/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/one-binary-file/</guid>
       <description>I have encountered projects where part of the code was rewritten during the build process so that a separate binary file was generated for each runtime environment. This approach always complicates things unnecessarily and creates the risk of incompatible versions appearing with each installation. At the very least, several almost identical instances of the program are built, each intended for installation in its corresponding environment. Too many moving parts arise, which means more opportunities for error.&#xA;Once, I worked in a team where after every property change, it was necessary to save the code and conduct a full build cycle, so the testers were idle every time a minor bug was found (did I mention that the project also took an incredibly long time to build?</description>
-    </item>
-    <item>
-      <title>Before starting the refactoring</title>
-      <link>http://localhost:1313/posts/before-starting-the-refactoring/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/before-starting-the-refactoring/</guid>
-      <description>Sooner or later, every programmer has to perform refactoring of existing code. But before diving in, consider a few things that can save you and your colleagues a lot of time (and spare you from headaches):&#xA;It is best to start refactoring by assessing the state of the existing code in the project and the tests written for it. This way, you can identify the strengths and weaknesses of the code in its current state, to preserve its strong points and avoid the mistakes already made. Everyone thinks their system will be better than the current one&amp;hellip; until it turns out that the new code is no better, and maybe even worse, than the previous version, all because we did not learn from the mistakes made in the old system.</description>
     </item>
   </channel>
 </rss>

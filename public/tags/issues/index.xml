@@ -6,19 +6,19 @@
     <description>Recent content in Issues on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/issues/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Incredible, but testers are your friends</title>
       <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
       <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
     </item>
     <item>
       <title>Thinking about performance is never too early</title>
       <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
       <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>

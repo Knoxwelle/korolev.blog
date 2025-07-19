@@ -6,40 +6,40 @@
     <description>Recent content in Program on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jun 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/program/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Install me</title>
-      <link>http://localhost:1313/posts/install-me/</link>
-      <pubDate>Thu, 23 Jan 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/install-me/</guid>
-      <description>I am not at all interested in your program.&#xA;I have plenty of my own problems and a long list of tasks. I only visited your site because of unverified rumors that your program would solve all my problems. Please forgive my skepticism.&#xA;If eye-tracking studies are correct, I&amp;rsquo;ve already read the headline and am scrolling through the page looking for the blue underlined link Download Now. By the way, if I accessed this page from a browser running on Linux and my IP is from Canada, it can be assumed that I need the Linux version from a North American mirror, so please don&amp;rsquo;t ask about that. I understand that the file download dialog will open immediately, so I&amp;rsquo;ll send this thing to my downloads folder and continue reading.</description>
-    </item>
-    <item>
-      <title>Incredible, but testers are your friends</title>
-      <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
-      <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
-    </item>
     <item>
       <title>Only the code will tell the truth</title>
       <link>http://localhost:1313/posts/only-the-code-will-tell-the-truth/</link>
-      <pubDate>Mon, 20 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/only-the-code-will-tell-the-truth/</guid>
       <description>In the end, the semantics of a program are defined by the working code. If you only have it in the form of a binary file, it will be difficult to read! However, the source code is usually available if it is your own program, a typical commercial development, an open-source project, or a program in a dynamically interpreted language. When reading the source code, the meaning of the program should be obvious. You can confidently know what the program does just by looking at the source code. Even the most precise description of technical requirements will not tell the whole truth: it contains not a detailed description of what the program actually does, but general wishes of the requirements compiler. An architecture document may contain a description of the planned architecture, but it will not describe the necessary implementation details.</description>
     </item>
     <item>
+      <title>Install me</title>
+      <link>http://localhost:1313/posts/install-me/</link>
+      <pubDate>Thu, 13 Mar 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/install-me/</guid>
+      <description>I am not at all interested in your program.&#xA;I have plenty of my own problems and a long list of tasks. I only visited your site because of unverified rumors that your program would solve all my problems. Please forgive my skepticism.&#xA;If eye-tracking studies are correct, I&amp;rsquo;ve already read the headline and am scrolling through the page looking for the blue underlined link Download Now. By the way, if I accessed this page from a browser running on Linux and my IP is from Canada, it can be assumed that I need the Linux version from a North American mirror, so please don&amp;rsquo;t ask about that. I understand that the file download dialog will open immediately, so I&amp;rsquo;ll send this thing to my downloads folder and continue reading.</description>
+    </item>
+    <item>
       <title>Perspective as seen from 300 meters</title>
       <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
-      <pubDate>Sat, 20 Apr 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
       <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
     </item>
     <item>
+      <title>Incredible, but testers are your friends</title>
+      <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
+      <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
+    </item>
+    <item>
       <title>Commentary on comments</title>
       <link>http://localhost:1313/posts/commentary-on-comments/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 09 Dec 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/commentary-on-comments/</guid>
       <description>At my first programming class at the university, the instructor handed out two sheets for us to write the program text in BASIC. On the board, he wrote the assignment: &amp;ldquo;Create a program to input and calculate the average of 10 bowling scores.&amp;rdquo; Then the teacher left the room. Is this task difficult? I don&amp;rsquo;t remember my solution, but it seems there was a FOR/NEXT loop and no more than 15 lines of code.&#xA;In each form for the program code, we would write the code by hand before entering it into the computer – it was about 70 lines. I had no idea why the teacher gave us two forms each. Since my handwriting has always been terrible, I used the second form to neatly rewrite my code, hoping to earn a couple of points for style.</description>
     </item>

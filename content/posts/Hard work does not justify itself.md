@@ -1,10 +1,10 @@
 +++
 title='Hard work does not justify itself'
-date=2025-03-19T00:00:00-07:00
+date=2024-07-10T00:00:00-07:00
 draft=false
 categories=[]
 tags=["act", "work", "week", "hours", "project", "software"]
-cover_image='/images/cover/knoxwelle__2020-09-15T052151.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2023-02-19T060119.000Z.jpg'
 +++
 Every programmer needs to be convinced that intense work is often unjustified. You can deceive yourself or your colleagues into thinking that by staying late at the office, you are making a significant contribution to the project. But in reality, by working less, you can achieve more—sometimes significantly more. If you are trying to work "productively" and with focus for more than 30 hours a week, you are likely overworking. It might be worth considering reducing your workload, which will allow you to work more efficiently and accomplish more.
 

@@ -6,56 +6,56 @@
     <description>Recent content in Software on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Oct 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Carefully choose your tools</title>
-      <link>http://localhost:1313/posts/carefully-choose-your-tools/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/carefully-choose-your-tools/</guid>
-      <description>Modern applications are extremely rarely created &amp;ldquo;from scratch.&amp;rdquo; They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:&#xA;The volume, complexity, and sophistication of applications are increasing, while the time allocated for their creation is decreasing. It is more beneficial to spend the time and intellect of developers on business logic code rather than application infrastructure code. - Widely used components and frameworks have fewer chances of encountering errors compared to those developed independently. - High-quality tools are available for free on the Internet, which reduces development costs and simplifies the search for interested developers with the necessary experience. - The creation and maintenance of software require a significant amount of human labor, so it can be cheaper to buy ready-made products than to create them.</description>
+      <title>Do not repeat your code</title>
+      <link>http://localhost:1313/posts/do-not-repeat-your-code/</link>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-repeat-your-code/</guid>
+      <description>&amp;ldquo;Don&amp;rsquo;t Repeat Yourself (DRY)&amp;rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.&#xA;Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.</description>
     </item>
     <item>
       <title>Architectural compromises</title>
       <link>http://localhost:1313/posts/architectural-compromises/</link>
-      <pubDate>Mon, 16 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 22 Jun 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/architectural-compromises/</guid>
       <description>An architecture cannot accomplish high security, high availability, high abstraction, and high performance all at once. All that software architects need to do is know, understand, and relate one real narrative to their peers and clients. I am speaking of Vaza&amp;rsquo;s history.&#xA;In 1620, there was a war between Sweden and Poland. An attempt was made to bring this expensive war to an early end by the Swedish King by ordering the construction of a galleon known as the vase. The ship was not like the others. It was unlike any other ship of the time in its features. It had to be longer than sixty meters in order to safely convey 300 men at a time to Poland while also carrying 64 weapons on two battery decks.</description>
     </item>
     <item>
-      <title>Communication is the king, clarity and leadership are its loyal servants</title>
-      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
-      <pubDate>Thu, 08 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
-      <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
-    </item>
-    <item>
-      <title>Hard work does not justify itself</title>
-      <link>http://localhost:1313/posts/hard-work-does-not-justify-itself/</link>
-      <pubDate>Wed, 26 Jun 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/hard-work-does-not-justify-itself/</guid>
-      <description>Every programmer needs to be convinced that intense work is often unjustified. You can deceive yourself or your colleagues into thinking that by staying late at the office, you are making a significant contribution to the project. But in reality, by working less, you can achieve more—sometimes significantly more. If you are trying to work &amp;ldquo;productively&amp;rdquo; and with focus for more than 30 hours a week, you are likely overworking. It might be worth considering reducing your workload, which will allow you to work more efficiently and accomplish more.&#xA;It may seem that my statement contradicts common sense and is generally debatable. However, it is a direct consequence of the fact that programming and software development, in general, require continuous knowledge expansion. As you work on a project, you will come to better understand the subject area and, hopefully, find more efficient ways to achieve your goals.</description>
+      <title>Carefully choose your tools</title>
+      <link>http://localhost:1313/posts/carefully-choose-your-tools/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/carefully-choose-your-tools/</guid>
+      <description>Modern applications are extremely rarely created &amp;ldquo;from scratch.&amp;rdquo; They are assembled from already existing building blocks – components, libraries, and frameworks, and there are several compelling reasons for this:&#xA;The volume, complexity, and sophistication of applications are increasing, while the time allocated for their creation is decreasing. It is more beneficial to spend the time and intellect of developers on business logic code rather than application infrastructure code. - Widely used components and frameworks have fewer chances of encountering errors compared to those developed independently. - High-quality tools are available for free on the Internet, which reduces development costs and simplifies the search for interested developers with the necessary experience. - The creation and maintenance of software require a significant amount of human labor, so it can be cheaper to buy ready-made products than to create them.</description>
     </item>
     <item>
       <title>Creating architecture as the art of balance</title>
       <link>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</link>
-      <pubDate>Wed, 29 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Wed, 05 Mar 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/creating-architecture-as-the-art-of-balance/</guid>
       <description>Match the interests of the parties with the technical requirements. When it comes to software architecture development, First and foremost, we envision classic technical operations: breaking the system into modules, defining interfaces, distributing responsibilities, applying templates, and optimizing performance. In addition, the architect must consider a number of other aspects, including issues of security, ease of use, maintainability, release management, deployment parameter selection, etc. But all the listed technical and procedural aspects must be aligned with the needs of stakeholders. Taking these interests into account when analyzing requirements is an excellent way to ensure the completeness of the specifications for the requirements of the product being developed.&#xA;All parties involved in the project have interests that affect both the software development process adopted in the organization and the organization as a whole.</description>
     </item>
     <item>
       <title>Perspective as seen from 300 meters</title>
       <link>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</link>
-      <pubDate>Sat, 20 Apr 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/perspective-as-seen-from-300-meters/</guid>
       <description>We architects are interested in learning how good the software we are developing is.There is a more subtle internal component to program quality that has to do with the design&amp;rsquo;s clarity, or how simple it is for us to comprehend, support, and grow the software product. The exterior component of program quality is evident: the program must be valuable to the user. Whenever we push for a definition of quality, we ultimately say, &amp;ldquo;I&amp;rsquo;ll know when I see it.&amp;rdquo; So, what do you think quality is?&#xA;Architectural charts use small squares to represent entire systems, and the lines that connect them can indicate any number of things, including shared resources (like a train) or dependencies. These diagrams show the system at a 10-kilometer altitude, which is roughly equivalent to how an airplane views the terrain.</description>
     </item>
     <item>
-      <title>Do not repeat your code</title>
-      <link>http://localhost:1313/posts/do-not-repeat-your-code/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-repeat-your-code/</guid>
-      <description>&amp;ldquo;Don&amp;rsquo;t Repeat Yourself (DRY)&amp;rdquo; is probably one of the most important principles of programming, and it underlies many other well-known correct approaches and design patterns in software development. A developer who has learned to recognize duplication and can eliminate it using appropriate techniques and suitable abstraction is capable of writing much clearer code than one who constantly clutters the application with unnecessary repetitions.&#xA;Code duplication is ballast Every line of application code requires maintenance, and it serves as a source of potential errors in the future. Duplication leads to unnecessary increased code volume, which raises the likelihood of errors and makes the system overly complex. Increased system volume due to duplication, firstly, it prevents developers from fully understanding the system, and secondly, it does not guarantee that changes made in one place do not It will be necessary to repeat it in other places where this logic is duplicated.</description>
+      <title>Communication is the king, clarity and leadership are its loyal servants</title>
+      <link>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</link>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/communication-is-the-king-clarity-and-leadership-are-its-loyal-servants/</guid>
+      <description>Psychology in IT manifests in everything. Every person has their own base tendencies to dominate. Remember that famous experiment where a group of people was divided into prisoners and guards? Or India with its castes? Well, IT is just like India.&#xA;Too often, software architects dwell in ivory towers, sending down specifications to developers and imposing technologies and directions on them. This often leads to conflicts, which are quickly followed by a &amp;ldquo;popular uprising.&amp;rdquo; As a result, a software product emerges that has nothing to do with the original requirements. Every software architect should be able to explain the goals and objectives of the software project to their colleagues. The keys to effective communication are clarity and leadership.&#xA;Clarity characterizes the communication process. No one in your group will become read a 100-page document justifying your architectural decisions.</description>
+    </item>
+    <item>
+      <title>Hard work does not justify itself</title>
+      <link>http://localhost:1313/posts/hard-work-does-not-justify-itself/</link>
+      <pubDate>Wed, 10 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/hard-work-does-not-justify-itself/</guid>
+      <description>Every programmer needs to be convinced that intense work is often unjustified. You can deceive yourself or your colleagues into thinking that by staying late at the office, you are making a significant contribution to the project. But in reality, by working less, you can achieve more—sometimes significantly more. If you are trying to work &amp;ldquo;productively&amp;rdquo; and with focus for more than 30 hours a week, you are likely overworking. It might be worth considering reducing your workload, which will allow you to work more efficiently and accomplish more.&#xA;It may seem that my statement contradicts common sense and is generally debatable. However, it is a direct consequence of the fact that programming and software development, in general, require continuous knowledge expansion. As you work on a project, you will come to better understand the subject area and, hopefully, find more efficient ways to achieve your goals.</description>
     </item>
   </channel>
 </rss>

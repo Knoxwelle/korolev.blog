@@ -1,10 +1,10 @@
 +++
 title='How to use the bug tracking system'
-date=2025-05-19T00:00:00-07:00
+date=2024-09-03T00:00:00-07:00
 draft=false
 categories=[]
 tags=["error", "report", "information", "public", "team"]
-cover_image='/images/cover/knoxwelle__2018-03-05T080519.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-12-09T110811.000Z.jpg'
 +++
 No matter what you call them – bugs, defects, or even design side effects – it is impossible to eliminate them completely. For a project to be successful
 moving forward, it is very important to be able to correctly write an error report, as well as to know what to pay attention to in it.

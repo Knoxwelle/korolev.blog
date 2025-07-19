@@ -6,19 +6,19 @@
     <description>Recent content in Testers on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/testers/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Incredible, but testers are your friends</title>
       <link>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</link>
-      <pubDate>Mon, 25 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/incredible-but-testers-are-your-friends/</guid>
       <description>They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. &amp;ldquo;They&amp;rsquo;re too picky&amp;rdquo; or &amp;ldquo;They want everything to be perfect&amp;rdquo; are common complaints. Sound familiar?&#xA;I don&amp;rsquo;t know why, but I have always had a different view on the work of testers. Maybe it&amp;rsquo;s because the &amp;ldquo;tester&amp;rdquo; at my first job in Canada was the firm&amp;rsquo;s secretary. A very pleasant lady who handled paperwork and tried to teach a couple of young programmers professional behavior in the presence of clients. She also had the gift of spotting any program defect, even the most inconspicuous, in a matter of seconds.&#xA;At that time, I was working on a program written by an accountant who considered herself a programmer.</description>
     </item>
     <item>
       <title>When programmers and testers collaborate</title>
       <link>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</link>
-      <pubDate>Sat, 04 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 03 Nov 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/when-programmers-and-testers-collaborate/</guid>
       <description>When testers and programmers start collaborating, miracles happen. Less time is spent playing ping-pong with defects in the defect tracking system. Less time is spent discussing whether the behavior is a bug or a new feature, and more time is spent on developing quality. software that meets customer expectations. There is many opportunities to establish collaboration even before the coding begins.&#xA;Testers can help clients write acceptance tests in the language their subject area using tools such as Fit (Framework for Integration test). If these tests are given to the programmers before they start writing code, they will be able to apply the practice of acceptance test-driven development (ATDD). Programmers write frameworks to run the tests, and then code to ensure they pass. these tests.</description>
     </item>

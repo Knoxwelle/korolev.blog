@@ -6,28 +6,28 @@
     <description>Recent content in Requirements on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/requirements/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Improve the code by removing it</title>
-      <link>http://localhost:1313/posts/improve-the-code-by-removing-it/</link>
-      <pubDate>Thu, 22 Aug 2024 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/improve-the-code-by-removing-it/</guid>
-      <description>Less is more. It&amp;rsquo;s a clichéd short maxim, but sometimes it&amp;rsquo;s really true.&#xA;Over the past few weeks, among the improvements I made to our code was the removal of some of its fragments.&#xA;We were developing the project following the principles of extreme programming, including YAGNI (You Aren’t Gonna Need It). But human nature is imperfect, and in some places we made mistakes.&#xA;I noticed that our product took an unjustifiably long time to perform certain tasks—simple tasks that should have been completed almost instantly. This was all because we overcomplicated their implementation—with all sorts of trinkets and bows that were actually unnecessary but seemed useful at some point.&#xA;So, I simplified the code, improved the product&amp;rsquo;s performance, and reduced the overall code entropy, all thanks to removing unnecessary functions from the project code.</description>
-    </item>
     <item>
       <title>Thinking about performance is never too early</title>
       <link>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</link>
-      <pubDate>Mon, 03 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 18 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/thinking-about-performance-is-never-too-early/</guid>
       <description>The needs of business application users manifest primarily in the functional requirements. Non-functional aspects of the system (such as performance, flexibility, uptime, support needs, etc.) are the responsibility of the architect. When this preliminary testing of non-functional requirements is often postponed until a very late stage of the development cycle, and sometimes fully delegated to the team servicing the system.&#xA;This error occurs much more often than it should. At its core, it can there are various reasons. Concern for the speed and flexibility of a program that still doesn&amp;rsquo;t properly perform the required function may seem pointless. The test environments and the tests themselves are quite complex. It&amp;rsquo;s possible that early working versions of the system won&amp;rsquo;t be subjected to realistic loads. due to insufficient use.</description>
     </item>
     <item>
       <title>The true meaning of the clients requirements</title>
       <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
-      <pubDate>Tue, 19 Mar 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
       <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
+    </item>
+    <item>
+      <title>Improve the code by removing it</title>
+      <link>http://localhost:1313/posts/improve-the-code-by-removing-it/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/improve-the-code-by-removing-it/</guid>
+      <description>Less is more. It&amp;rsquo;s a clichéd short maxim, but sometimes it&amp;rsquo;s really true.&#xA;Over the past few weeks, among the improvements I made to our code was the removal of some of its fragments.&#xA;We were developing the project following the principles of extreme programming, including YAGNI (You Aren’t Gonna Need It). But human nature is imperfect, and in some places we made mistakes.&#xA;I noticed that our product took an unjustifiably long time to perform certain tasks—simple tasks that should have been completed almost instantly. This was all because we overcomplicated their implementation—with all sorts of trinkets and bows that were actually unnecessary but seemed useful at some point.&#xA;So, I simplified the code, improved the product&amp;rsquo;s performance, and reduced the overall code entropy, all thanks to removing unnecessary functions from the project code.</description>
     </item>
   </channel>
 </rss>

@@ -6,19 +6,19 @@
     <description>Recent content in Languages on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 Nov 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 15 May 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/languages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learn foreign languages</title>
       <link>http://localhost:1313/posts/learn-foreign-languages/</link>
-      <pubDate>Sat, 02 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Thu, 15 May 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/learn-foreign-languages/</guid>
       <description>Programmers need to communicate. And communicate a lot.&#xA;In a programmer&amp;rsquo;s life, there are periods when communication mainly occurs with the computer—more precisely, with the programs running on it. This communication is based on expressing ideas in a form understandable to the machine. The ability to turn ideas into reality through programs and with almost no use of physical matter still evokes delight.&#xA;A programmer must be fluent in machine language—real or virtual—and the abstractions that can be linked to this language using developer tools. It is important to know many different abstractions; otherwise, some ideas are very difficult to express. A good programmer should be able to go beyond everyday routines and recognize that there are other languages that are more expressive for other tasks.</description>
     </item>
     <item>
       <title>Programming paradigms</title>
       <link>http://localhost:1313/posts/programming-paradigms/</link>
-      <pubDate>Sat, 07 Sep 2024 00:00:00 -0700</pubDate>
+      <pubDate>Fri, 02 May 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/programming-paradigms/</guid>
       <description>Psychology of Programming: It has long been known that a programmer&amp;rsquo;s professionalism directly depends on the number of different programming paradigms they master—not just having heard of them and knowing about them, but being able to actually use them in their work.&#xA;Every programmer starts with some one language. This language has an the predominant influence on how a programmer sees software. But no matter how long a programmer has worked with this language, if they only work with it, they will only know this language. The thinking of a programmer who knows only one language is limited to the capabilities of that language.&#xA;A programmer learning a second language will encounter difficulties, especially if the computational model of the second language differs from the first.</description>
     </item>

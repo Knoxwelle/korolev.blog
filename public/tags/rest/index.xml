@@ -6,12 +6,12 @@
     <description>Recent content in Rest on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/rest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Write code as if you will be maintaining it for the rest of your life</title>
       <link>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</link>
-      <pubDate>Fri, 19 Jul 2024 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/write-code-as-if-you-will-be-maintaining-it-for-the-rest-of-your-life/</guid>
       <description>You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?&#xA;I think the answer lies in your mindset or simply in your approach. If you are indifferent to your fellow developers, testers, managers, sales and marketing staff, as well as end users, you will not feel the urge to, for example, conduct test-driven development or write clear comments in the code. I think there is a simple way to change your attitude and develop a desire to release products of the highest quality:</description>
     </item>

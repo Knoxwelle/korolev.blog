@@ -6,12 +6,12 @@
     <description>Recent content in Production on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jan 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/production/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One binary file</title>
       <link>http://localhost:1313/posts/one-binary-file/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 -0700</pubDate>
+      <pubDate>Mon, 15 Jul 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/one-binary-file/</guid>
       <description>I have encountered projects where part of the code was rewritten during the build process so that a separate binary file was generated for each runtime environment. This approach always complicates things unnecessarily and creates the risk of incompatible versions appearing with each installation. At the very least, several almost identical instances of the program are built, each intended for installation in its corresponding environment. Too many moving parts arise, which means more opportunities for error.&#xA;Once, I worked in a team where after every property change, it was necessary to save the code and conduct a full build cycle, so the testers were idle every time a minor bug was found (did I mention that the project also took an incredibly long time to build?</description>
     </item>

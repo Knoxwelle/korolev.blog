@@ -1,10 +1,10 @@
 +++
 title='The golden rule of API design'
-date=2025-03-24T00:00:00-07:00
+date=2024-07-29T00:00:00-07:00
 draft=false
 categories=["api", "java", "c#"]
 tags=["designing", "api", "java", "code", "testing", "users", "method", "tests"]
-cover_image='/images/cover/knoxwelle__2017-05-25T131834.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-05-31T170959.000Z.jpg'
 +++
 Designing application programming interfaces (APIs) is difficult, especially in the general case. When developing an API that will have hundreds or thousands of users, you need to consider that over time it will most likely need to be changed, and these changes can disrupt the functioning of the client code. Moreover, you need to consider the potential impact on your API from its users. If the API class calls its own method, it should be remembered that the user is capable of creating a subclass of your class and overriding this method, which can lead to disaster. And you won't be able to change this method because some of your users have given it a different meaning. You become dependent on your users when it comes to choosing the internal implementation.
 

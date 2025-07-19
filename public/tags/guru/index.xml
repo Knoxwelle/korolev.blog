@@ -6,12 +6,12 @@
     <description>Recent content in Guru on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/guru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The myth of the guru</title>
       <link>http://localhost:1313/posts/the-myth-of-the-guru/</link>
-      <pubDate>Wed, 26 Jun 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-myth-of-the-guru/</guid>
       <description>Everyone who has been working in the computer industry for a long time has had to hear questions like: I am getting an XYZ exception. Do you know what the problem is?&#xA;Those who ask such questions rarely bother to show the stack trace, application log, or provide any context that would help understand the problem. Apparently, they think you operate on some other plane where solutions are revealed to you without any analysis of the facts. They consider you a guru.&#xA;We expect such questions from people who are not familiar with software, from those for whom the system&amp;rsquo;s operation seems almost magical. What worries me is that we encounter this even within the programming community. Similar questions arise during software design, for example: &amp;ldquo;I am writing an application for warehouse management.</description>
     </item>

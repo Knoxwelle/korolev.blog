@@ -1,10 +1,10 @@
 +++
 title='Incredible, but testers are your friends'
-date=2025-05-12T00:00:00-07:00
+date=2025-01-18T00:00:00-07:00
 draft=false
 categories=["canada"]
 tags=["canada", "whenever", "got", "program", "issues", "testers", "intelligence", "fix"]
-cover_image='/images/cover/knoxwelle__2021-04-02T063432.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-13T102807.000Z.jpg'
 +++
 They may call themselves quality control or quality assurance, but many programmers simply call them a nuisance. My experience shows that programmers often have a hostile relationship with those who test their programs. "They're too picky" or "They want everything to be perfect" are common complaints. Sound familiar?
 

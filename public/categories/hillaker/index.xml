@@ -6,12 +6,12 @@
     <description>Recent content in Hillaker on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/hillaker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The true meaning of the clients requirements</title>
       <link>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</link>
-      <pubDate>Tue, 19 Mar 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sat, 04 Jan 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/the-true-meaning-of-the-clients-requirements/</guid>
       <description>In general, what is business analytics? If we break down this phrase word by word, it is the analysis of business requirements. It is not design, it is not programming, it is specifically the analysis of requirements. The main task is to help the client understand what they actually need. However, clients and end users often present what they think are effective solutions to a problem as requirements. In other words, they believe they have already found all the solutions and want them implemented. The effectiveness of this is quite questionable, as it leads to project overload with requirements, which often contradict each other, and significantly increases its cost. In exceptional cases, the project becomes completely unfeasible.&#xA;A classic example of this kind is provided by Harry Hillaker, the chief designer of the F-16 Falcon fighter jet.</description>
     </item>

@@ -1,10 +1,10 @@
 +++
 title='Only the code will tell the truth'
-date=2025-04-02T00:00:00-07:00
+date=2025-06-09T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "comments", "program", "source", "description"]
-cover_image='/images/cover/knoxwelle__2020-04-22T172141.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2019-04-06T083343.000Z.jpg'
 +++
 In the end, the semantics of a program are defined by the working code. If you only have it in the form of a binary file, it will be difficult to read! However, the source code is usually available if it is your own program, a typical commercial development, an open-source project, or a program in a dynamically interpreted language. When reading the source code, the meaning of the program should be obvious. You can confidently know what the program does just by looking at the source code. Even the most precise description of technical requirements will not tell the whole truth: it contains not a detailed description of what the program actually does, but general wishes of the requirements compiler. An architecture document may contain a description of the planned architecture, but it will not describe the necessary implementation details. These documents may be outdated compared to the current implementation... or simply lost. Perhaps they were never even written. The only thing that might remain is the source code.
 

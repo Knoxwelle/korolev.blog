@@ -1,10 +1,10 @@
 +++
 title='Beauty is the result of simplicity'
-date=2024-08-12T00:00:00-07:00
+date=2025-04-08T00:00:00-07:00
 draft=false
 categories=[]
 tags=["plato", "development", "first", "code", "beauty", "simplicity", "system", "methods"]
-cover_image='/images/cover/knoxwelle__2017-05-03T124735.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-11-19T140241.000Z.jpg'
 +++
 Plato has one saying that, it seems to me, would be especially useful for all software developers to know and take to heart:
 

@@ -6,12 +6,12 @@
     <description>Recent content in Enjoy on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 May 2024 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/enjoy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>You need to take care of the code</title>
       <link>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</link>
-      <pubDate>Tue, 14 May 2024 00:00:00 -0700</pubDate>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/you-need-to-take-care-of-the-code/</guid>
       <description>You don&amp;rsquo;t need to be Sherlock Holmes to understand that good programmers write good code. Well, the bad ones don&amp;rsquo;t. They create ugly things that everyone else has to clean up. But you want to write good code, right? Then you need to strive to become a good programmer.&#xA;Good code doesn&amp;rsquo;t just appear out of nowhere. Its emergence is not caused by the favorable alignment of the planets. To make the code good, you need to work on it, and quite a bit. You will create good code only when you truly strive for it. Good programming is not the result of mere technical competence. I have encountered very smart programmers who are capable of creating strong and impressive algorithms, know the standards of their language perfectly, and yet write completely terrible code.</description>
     </item>

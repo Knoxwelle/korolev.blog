@@ -1,10 +1,10 @@
 +++
 title='Learn foreign languages'
-date=2025-02-04T00:00:00-07:00
+date=2025-05-15T00:00:00-07:00
 draft=false
 categories=[]
 tags=["charlemagne", "language", "programmers", "languages", "machine", "ideas"]
-cover_image='/images/cover/knoxwelle__2018-04-15T223815.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2023-03-17T044736.000Z.jpg'
 +++
 Programmers need to communicate. And communicate a lot.
 

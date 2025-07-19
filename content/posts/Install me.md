@@ -1,10 +1,10 @@
 +++
 title='Install me'
-date=2024-07-07T00:00:00-07:00
+date=2025-03-13T00:00:00-07:00
 draft=false
 categories=["canada", "north american"]
 tags=["ip", "canada", "immediate", "world", "program", "file", "problems", "textbook", "product"]
-cover_image='/images/cover/knoxwelle__2019-10-28T011535.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2023-10-23T051419.000Z.jpg'
 +++
 I am not at all interested in your program.
 

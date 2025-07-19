@@ -6,21 +6,21 @@
     <description>Recent content in Server on Korolev Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2025 00:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/server/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Do not touch this code</title>
-      <link>http://localhost:1313/posts/do-not-touch-this-code/</link>
-      <pubDate>Sat, 15 Feb 2025 00:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/posts/do-not-touch-this-code/</guid>
-      <description>Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head Testing informs you that there is a problem. You are immediately ready to respond: &amp;ldquo;Let me quickly fix everything: I know what the issue is.&amp;rdquo;&#xA;However, in a broader sense, the problem is that you, as a developer, believe you should be granted access to the server where testing is being conducted.&#xA;In most cases, when it comes to web development, the architecture can be broken down into the following parts:&#xA;-Local development and unit testing on the developer&amp;rsquo;s machine&#xA;Development server where automated or manual integration testing is conducted Staging server, where the quality control team and users conduct acceptance testing Combat (production) server Yes, there are other servers and services, for example, for managing source code or software defects, but the idea is clear.</description>
-    </item>
     <item>
       <title>You are negotiating</title>
       <link>http://localhost:1313/posts/you-are-negotiating/</link>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 -0700</pubDate>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 -0700</pubDate>
       <guid>http://localhost:1313/posts/you-are-negotiating/</guid>
       <description>Have you encountered projects where reasonable technological solutions are &amp;ldquo;buried&amp;rdquo; for the sake of saving costs?&#xA;The conversation goes something like this: &amp;ldquo;Do we really need X?&amp;rdquo; asks the project manager. You can substitute X with almost anything essential for system operations: software product licenses, redundant servers, external backups or power sources. The question is always asked in a fatherly tone, as if you were spending all your pocket money on comics and chewing gum, while serious adults need to think about buying new buckets in which they will carry their future profits.&#xA;The correct answer to this question is: &amp;ldquo;Yes. Absolutely necessary.&amp;rdquo; But for some reason, almost no one responds.&#xA;After all, we have a technical education, and any technical discipline is an art of compromise.</description>
+    </item>
+    <item>
+      <title>Do not touch this code</title>
+      <link>http://localhost:1313/posts/do-not-touch-this-code/</link>
+      <pubDate>Sat, 21 Dec 2024 00:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/posts/do-not-touch-this-code/</guid>
+      <description>Each of us has had something like this happen at some point. Your code has been uploaded to the staging server for system testing, and the department head Testing informs you that there is a problem. You are immediately ready to respond: &amp;ldquo;Let me quickly fix everything: I know what the issue is.&amp;rdquo;&#xA;However, in a broader sense, the problem is that you, as a developer, believe you should be granted access to the server where testing is being conducted.&#xA;In most cases, when it comes to web development, the architecture can be broken down into the following parts:&#xA;-Local development and unit testing on the developer&amp;rsquo;s machine&#xA;Development server where automated or manual integration testing is conducted Staging server, where the quality control team and users conduct acceptance testing Combat (production) server Yes, there are other servers and services, for example, for managing source code or software defects, but the idea is clear.</description>
     </item>
   </channel>
 </rss>

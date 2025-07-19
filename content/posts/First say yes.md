@@ -1,10 +1,10 @@
 +++
 title='First say yes'
-date=2024-06-18T00:00:00-07:00
+date=2025-06-21T00:00:00-07:00
 draft=false
 categories=["edamame"]
 tags=["edamame", "product", "request", "round", "windows", "work"]
-cover_image='/images/cover/knoxwelle__2016-11-19T135513.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-11-27T050625.000Z.jpg'
 +++
 Recently, I was at the grocery store and searched for edamame, green soybeans (I only vaguely guessed they were some kind of vegetable). I didn't
 I knew where to look for this product: in the vegetable section, in the frozen section.

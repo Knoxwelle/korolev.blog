@@ -1,10 +1,10 @@
 +++
 title='Write code as if you will be maintaining it for the rest of your life'
-date=2024-10-26T00:00:00-07:00
+date=2024-07-22T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "start", "career", "life", "rest"]
-cover_image='/images/cover/knoxwelle__2017-07-25T114137.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-02-27T083740.000Z.jpg'
 +++
 You can ask 100 different people what any programmer should know and be able to do, and get 100 different answers. This can be both overwhelming and frightening. All advice is good, all principles are sound, all stories are convincing, but where to start? And, more importantly, once you start applying best practices, how do you maintain the right level and make them an integral part of your programming practice?
 

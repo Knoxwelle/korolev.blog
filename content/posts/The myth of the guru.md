@@ -1,10 +1,10 @@
 +++
 title='The myth of the guru'
-date=2024-08-11T00:00:00-07:00
+date=2024-12-17T00:00:00-07:00
 draft=false
 categories=["gurus"]
 tags=["guru", "people", "myth", "context", "questions"]
-cover_image='/images/cover/knoxwelle__2016-12-17T135839.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2020-04-03T060336.000Z.jpg'
 +++
 Everyone who has been working in the computer industry for a long time has had to hear questions like: I am getting an XYZ exception. Do you know what the problem is?
 

@@ -1,10 +1,10 @@
 +++
 title='Interfaces'
-date=2024-11-18T00:00:00-07:00
+date=2025-02-14T00:00:00-07:00
 draft=false
 categories=[]
 tags=["api", "interface", "interfaces", "users", "use", "user"]
-cover_image='/images/cover/knoxwelle__2017-05-21T220522.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2021-04-20T021039.000Z.jpg'
 +++
 One of the most common tasks in software development is interface specification. Interfaces exist at the highest level of abstraction (user interfaces), at the lowest level (function interfaces), and at intermediate levels (class interfaces, libraries, etc.). Regardless of what you are doing—aligning with end users on their future interaction with the system, collaborating with developers to develop the API specification, or declaring private class functions—interface design is an important part of your job. If you handle it well, using your interfaces will be a pure pleasure, and user productivity will increase. If you handle the task poorly, your interfaces will become a source of frustration and errors.
 

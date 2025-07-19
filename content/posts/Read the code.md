@@ -1,10 +1,10 @@
 +++
 title='Read the code'
-date=2025-05-17T00:00:00-07:00
+date=2025-06-06T00:00:00-07:00
 draft=false
 categories=[]
 tags=["start", "code", "reading", "skills", "today", "projects"]
-cover_image='/images/cover/knoxwelle__2023-08-29T025002.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2017-06-05T100437.000Z.jpg'
 +++
 We, programmers, are strange creatures. We love writing code. But when it comes to reading code, we usually shy away from it. After all, writing code is much more exciting, and reading code is difficult—sometimes almost impossible. Especially hard is reading code written by others. Not always because it is poorly written, but because another person thinks and solves problems differently than you do. Have you ever thought that reading someone else's code can help improve your own code?
 

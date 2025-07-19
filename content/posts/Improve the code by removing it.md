@@ -1,10 +1,10 @@
 +++
 title='Improve the code by removing it'
-date=2024-11-02T00:00:00-07:00
+date=2024-07-16T00:00:00-07:00
 draft=false
 categories=[]
 tags=["advice", "yagni", "system", "code", "requirements", "client", "tip"]
-cover_image='/images/cover/knoxwelle__2021-04-11T052322.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2016-12-17T140413.000Z.jpg'
 +++
 Less is more. It's a clichéd short maxim, but sometimes it's really true.
 

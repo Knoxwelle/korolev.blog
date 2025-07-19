@@ -1,10 +1,10 @@
 +++
 title='Before blaming others, check your own code'
-date=2024-12-20T00:00:00-07:00
+date=2024-08-19T00:00:00-07:00
 draft=false
 categories=[]
 tags=["sherlock holmes", "dirk", "compiler", "time", "code", "errors", "version"]
-cover_image='/images/cover/knoxwelle__2021-08-30T144419.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2018-10-12T082623.000Z.jpg'
 +++
 A developer – any of us! – often finds it difficult to admit that their code doesn't work. It seems so implausible that we are more likely to assume there is a bug in the compiler.
 

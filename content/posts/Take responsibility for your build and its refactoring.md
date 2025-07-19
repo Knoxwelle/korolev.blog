@@ -1,10 +1,10 @@
 +++
 title='Take responsibility for your build and its refactoring'
-date=2024-07-08T00:00:00-07:00
+date=2025-01-16T00:00:00-07:00
 draft=false
 categories=[]
 tags=["code", "study", "process", "assembly", "scripts", "application"]
-cover_image='/images/cover/knoxwelle__2020-02-27T083740.000Z.jpg'
+cover_image='/images/cover/knoxwelle__2022-01-26T162425.000Z.jpg'
 +++
 It is not so rare for teams, which generally discipline themselves to follow good coding practices, to treat build scripts with disdain. They are considered either insignificant or so complex that only a sect of release engineers can maintain them. If build scripts are difficult to maintain, contain duplication and errors, it leads to problems of the same scale as poorly designed code.
 
